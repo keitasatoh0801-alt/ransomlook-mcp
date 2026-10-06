@@ -1,15 +1,16 @@
 {
   "source": "Japanese cyber incident sources",
-  "retrieved_at": "2026-10-06T00:57:42.797436+00:00",
+  "retrieved_at": "2026-10-06T00:58:45.848407+00:00",
   "window_days": 30,
   "cutoff_date": "2026-09-06",
   "attack_only": true,
   "sources": [
     "Security NEXT",
     "Yagura",
-    "ScanNetSecurity"
+    "ScanNetSecurity",
+    "SmartScope"
   ],
-  "count": 155,
+  "count": 184,
   "source_errors": {},
   "incidents": [
     {
@@ -20,10 +21,48 @@
       "attack": true
     },
     {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56388.html",
+      "published_date": "2026-10-06",
+      "title": "セキュリティホール・脆弱性 ScanNetSecurity 2026.10.6 Tue 8:00 Apache HTTP Server 2.4 に複数の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は10月2日、Apache HTTP Server 2.4における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56391.html",
+      "published_date": "2026-10-06",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.6 Tue 8:05 ムラウチドットコムに不正アクセス、7,716,811件の個人情報が漏えい 株式会社ムラウチドットコムは9月15日、7月24日に公表した同社が運用する一部システムへの不正アクセスについて、第二報を発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56393.html",
+      "published_date": "2026-10-06",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.6 Tue 8:05 「信濃毎日新聞デジタル」に不正アクセス、一時的に一部の履歴データが消去 信濃毎日新聞株式会社は9月28日、「信濃毎日新聞デジタル」への不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56392.html",
+      "published_date": "2026-10-06",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.6 Tue 8:05 「PhotoGoods」に不正アクセス、カード情報が漏えいした可能性 大興印刷株式会社は9月16日、同社が運営するインターネットサービス「PhotoGoods（photo-goods.com）」への不正アクセスによる個人情報等漏えいの可能性について発表した。",
+      "attack": true
+    },
+    {
       "source": "Yagura",
       "source_url": "https://incident.yagurasec.com/incidents/2026-10-06-yakiniku-king-app-member-db-breach/",
       "published_date": "2026-10-05",
       "title": "2026/10/06 焼肉チェーンを運営する物語コーポレーション（愛知県豊橋市）、「焼肉きんぐ」公式アプリの会員管理システムに不正アクセス — 1,078万8,963件が漏えい、登録者のほぼ全員が対象 続報を注視中 深刻 株式会社物語コーポレーション（愛知県豊橋市西岩田／「焼肉きんぐ」「丸源ラーメン」等を展開する外食チェーン。東証プライム・証券コード3097）は2026年10月5日、「焼肉きんぐ」公式アプリの会員管理システムが第三者による不正アクセスを受け、会員情報1,078万8,963件が漏えいしたと公表した。アプリの登録者数1,080万8,784件のほぼ全員にあたる。漏えいしたのは会員番号、氏名（アプリ登録名）、メールアドレス、電話番号で、ログインパスワードや決済情報、店舗利用履歴などは対象外としている。10月2日に不正アクセスを検知して通信遮断などの防御措置を実施し、翌3日に漏えいを確認した。侵入経路や原因は調査中。",
+      "attack": true
+    },
+    {
+      "source": "SmartScope",
+      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
+      "published_date": "2026-10-05",
+      "title": "White Essence — Vulnerability",
+      "organization": "White Essence",
+      "affected_count": "1.05M accounts (confirmed)",
+      "attack_type": "Vulnerability",
       "attack": true
     },
     {
@@ -45,6 +84,20 @@
       "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/05/56384.html",
       "published_date": "2026-10-05",
       "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.5 Mon 8:05 池上通信機にサイバー攻撃、サーバ内の一部ファイルが暗号化 池上通信機株式会社は9月30日、同社に対するサイバー攻撃について、続報を発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/05/56381.html",
+      "published_date": "2026-10-05",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.5 Mon 8:05 東産業 公式サイトにwp2shell を悪用した不正アクセス 株式会社東産業は9月14日、同社公式サイトへの不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/05/56380.html",
+      "published_date": "2026-10-05",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.5 Mon 8:05 日本大学の計 5 名の教員アカウントに不正アクセス、スパムメール送信の踏み台に 日本大学は9月14日、不正アクセスによる迷惑メール発信について発表した。",
       "attack": true
     },
     {
@@ -80,6 +133,20 @@
       "source_url": "https://www.security-next.com/190952",
       "published_date": "2026-10-02",
       "title": "荷物問合サービスが侵害、個人情報流出の可能性 - 佐川急便",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/02/56366.html",
+      "published_date": "2026-10-02",
+      "title": "セキュリティホール・脆弱性 ScanNetSecurity 2026.10.2 Fri 8:00 バッファロー製 Wi-Fi 製品に複数の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月28日、バッファロー製Wi-Fi製品における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/02/56367.html",
+      "published_date": "2026-10-02",
+      "title": "セキュリティホール・脆弱性 ScanNetSecurity 2026.10.2 Fri 8:00 PFU 製 Image Scanner Driver for Linux に複数の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月29日、PFU製Image Scanner Driver for Linuxにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
       "attack": true
     },
     {
@@ -136,6 +203,16 @@
       "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/02/56373.html",
       "published_date": "2026-10-02",
       "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.2 Fri 8:05 「セイコーマートアプリ」に不正アクセス、約57万アカウントの会員情報が漏えいした可能性 株式会社セイコーマートは9月29日、同社のスマートフォンアプリ「セイコーマートアプリ」への不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "SmartScope",
+      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
+      "published_date": "2026-10-01",
+      "title": "OZmall (Starts Publishing) — Vulnerability",
+      "organization": "OZmall (Starts Publishing)",
+      "affected_count": "443K people (up to, possible)",
+      "attack_type": "Vulnerability",
       "attack": true
     },
     {
@@ -199,6 +276,16 @@
       "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/01/56357.html",
       "published_date": "2026-10-01",
       "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.1 Thu 8:05 CMSプラグインの脆弱性公表を受け更新作業中に不正アクセスを発見 神奈川県川崎市は9月11日、かわさき新産業創造センター（KBIC）Webサイトへの不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "SmartScope",
+      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
+      "published_date": "2026-09-30",
+      "title": "VOISING — Vulnerability",
+      "organization": "VOISING",
+      "affected_count": "170K records (confirmed)",
+      "attack_type": "Vulnerability",
       "attack": true
     },
     {
@@ -287,6 +374,13 @@
     },
     {
       "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/29/56322.html",
+      "published_date": "2026-09-29",
+      "title": "セキュリティホール・脆弱性 ScanNetSecurity 2026.9.29 Tue 8:00 baserCMS 用プラグイン「アドオンマイグレーター」 に信頼できない制御領域からの機能の組み込みに関する脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月25日、baserCMS用プラグイン「アドオンマイグレーター」 における信頼できない制御領域からの機能の組み込みに関する脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
       "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/29/56329.html",
       "published_date": "2026-09-29",
       "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.29 Tue 8:05 扶桑電通が社外関係者と利用していた共有フォルダに不正アクセス、26,489件の個人情報が漏えいした可能性 扶桑電通株式会社は9月10日、7月22日に公表した同社が利用するクラウドストレージへの不正アクセスについて、第2報を発表した。",
@@ -346,6 +440,20 @@
       "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/28/56308.html",
       "published_date": "2026-09-28",
       "title": "脅威動向 ScanNetSecurity 2026.9.28 Mon 8:00 ネット証券等の不正取引被害が拡大、金融庁が注意喚起 2026年8月は4社で25件の不正取引 金融庁は9月9日、インターネット取引サービスへの不正アクセス・不正取引による被害への注意喚起を発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/28/56310.html",
+      "published_date": "2026-09-28",
+      "title": "セキュリティホール・脆弱性 ScanNetSecurity 2026.9.28 Mon 8:00 baserCMS に複数の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月25日、baserCMSにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/28/56309.html",
+      "published_date": "2026-09-28",
+      "title": "セキュリティホール・脆弱性 ScanNetSecurity 2026.9.28 Mon 8:00 Apache Tomcat に複数の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月24日、Apache Tomcatにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
       "attack": true
     },
     {
@@ -455,6 +563,27 @@
     },
     {
       "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/24/56277.html",
+      "published_date": "2026-09-24",
+      "title": "セキュリティホール・脆弱性 ScanNetSecurity 2026.9.24 Thu 8:00 スマートフォンアプリ「東北電力 よりそうｅねっと」にハードコードされた暗号鍵使用の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月17日、スマートフォンアプリ「東北電力 よりそうｅねっと」におけるハードコードされた暗号鍵使用の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/24/56276.html",
+      "published_date": "2026-09-24",
+      "title": "セキュリティホール・脆弱性 ScanNetSecurity 2026.9.24 Thu 8:00 QND に複数の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月16日、QNDにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/24/56278.html",
+      "published_date": "2026-09-24",
+      "title": "セキュリティホール・脆弱性 ScanNetSecurity 2026.9.24 Thu 8:00 ISC BIND に複数の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月18日、ISC BINDにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
       "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/24/56285.html",
       "published_date": "2026-09-24",
       "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.24 Thu 8:05 連結子会社であるカインドオルへのフィッシング、トレジャー・ファクトリーグループ全体で再発防止に取り組む 東証プライム上場企業の株式会社トレジャー・ファクトリーは8月28日、同社連結子会社である株式会社カインドオルへの不正アクセスについて発表した。",
@@ -521,6 +650,27 @@
       "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56262.html",
       "published_date": "2026-09-18",
       "title": "業界動向 ScanNetSecurity 2026.9.18 Fri 8:00 xxx.soumu.go.jp などのサブドメインも拒否に ～ 総務省を装うフィッシングメール対策強化 総務省は9月11日、同省を装ったなりすましメールへの対策強化について発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56265.html",
+      "published_date": "2026-09-18",
+      "title": "セキュリティホール・脆弱性 ScanNetSecurity 2026.9.18 Fri 8:00 登山アプリ「YAMAP」Android 版にアクセス制限不備の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月14日、Androidアプリ「YAMAP / ヤマップ登山地図アプリ」におけるアクセス制限不備の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56268.html",
+      "published_date": "2026-09-18",
+      "title": "セキュリティホール・脆弱性 ScanNetSecurity 2026.9.18 Fri 8:00 任意の OS コマンド実行の恐れ Lite-On 製 O-RU「FF-RFI079I4」「FF-RFI078I4」に脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月15日、Lite-On製O-RU「FF-RFI079I4」および「FF-RFI078I4」における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56267.html",
+      "published_date": "2026-09-18",
+      "title": "セキュリティホール・脆弱性 ScanNetSecurity 2026.9.18 Fri 8:00 Android アプリ「【保護者専用】まなびポケット」にアクセス制限不備の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月15日、Androidアプリ「【保護者専用】まなびポケット」におけるアクセス制限不備の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
       "attack": true
     },
     {
@@ -608,6 +758,16 @@
       "attack": true
     },
     {
+      "source": "SmartScope",
+      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
+      "published_date": "2026-09-16",
+      "title": "Gyazo (Helpfeel) — Vulnerability",
+      "organization": "Gyazo (Helpfeel)",
+      "affected_count": "23.62M records (confirmed)",
+      "attack_type": "Vulnerability",
+      "attack": true
+    },
+    {
       "source": "Security NEXT",
       "source_url": "https://www.security-next.com/190377",
       "published_date": "2026-09-16",
@@ -651,6 +811,13 @@
     },
     {
       "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/16/56240.html",
+      "published_date": "2026-09-16",
+      "title": "セキュリティホール・脆弱性 ScanNetSecurity 2026.9.16 Wed 8:00 a-blog cms にパストラバーサルの脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月11日、a-blog cmsにおけるパストラバーサルの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
       "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/16/56244.html",
       "published_date": "2026-09-16",
       "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.16 Wed 8:05 鳥取県環境放射線モニタリングシステムにランサムウェア攻撃、副サーバは被害受けず放射線モニタリングに影響なし 鳥取県は9月3日、モニタリングポストの放射線量率等の測定データを収集・監視する鳥取県環境放射線モニタリングシステムへのサイバー攻撃について発表した。",
@@ -689,6 +856,26 @@
       "source_url": "https://incident.yagurasec.com/incidents/2026-07-24-murauchi-dotcom-unauthorized-access/",
       "published_date": "2026-09-15",
       "title": "2026/07/24 通販のムラウチドットコム（東京都八王子市）、不正アクセスで771万6,811件の個人情報漏えいを確認 — Webシステムの脆弱性を起点に複数システムへ侵入 全容判明 深刻 株式会社ムラウチドットコム（東京都八王子市北野町／インターネット通信販売・インターネットメディア事業）は2026年9月15日、7月15日に確認された一部システムへの不正アクセスについて外部専門会社によるフォレンジック調査が完了し、771万6,811件の個人情報の漏えいが確認されたと公表した。Webシステムの一部に存在した脆弱性の悪用を起点に複数のシステムへ不正アクセスされたもので、クレジットカード情報とパスワードは含まれていないとしている。 →",
+      "attack": true
+    },
+    {
+      "source": "SmartScope",
+      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
+      "published_date": "2026-09-15",
+      "title": "Murauchi.com — Vulnerability (news report)",
+      "organization": "Murauchi.com",
+      "affected_count": "7.72M records (confirmed)",
+      "attack_type": "Vulnerability (news report)",
+      "attack": true
+    },
+    {
+      "source": "SmartScope",
+      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
+      "published_date": "2026-09-15",
+      "title": "LEAN BODY — Vulnerability",
+      "organization": "LEAN BODY",
+      "affected_count": "440K accounts (confirmed)",
+      "attack_type": "Vulnerability",
       "attack": true
     },
     {
@@ -756,6 +943,13 @@
     },
     {
       "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/14/56215.html",
+      "published_date": "2026-09-14",
+      "title": "セキュリティホール・脆弱性 ScanNetSecurity 2026.9.14 Mon 8:00 SHIRASAGI に複数の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月10日、SHIRASAGIにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
       "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/14/56220.html",
       "published_date": "2026-09-14",
       "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.14 Mon 8:05 サンメッセが利用する購買発注システム「WEB 発注システム」へサイバー攻撃 サンメッセ株式会社は9月8日、同社が利用する購買発注システム「WEB 発注システム」へのサイバー攻撃について発表した。",
@@ -790,6 +984,16 @@
       "attack": true
     },
     {
+      "source": "SmartScope",
+      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
+      "published_date": "2026-09-11",
+      "title": "Digital Agency (GSS) — Vulnerability",
+      "organization": "Digital Agency (GSS)",
+      "affected_count": "246K records (possible)",
+      "attack_type": "Vulnerability",
+      "attack": true
+    },
+    {
       "source": "Security NEXT",
       "source_url": "https://www.security-next.com/190208",
       "published_date": "2026-09-11",
@@ -815,6 +1019,13 @@
       "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/11/56195.html",
       "published_date": "2026-09-11",
       "title": "新製品・新サービス ScanNetSecurity 2026.9.11 Fri 8:00 「ネット de 診断 AIホワイトハッカー侵入テスト」提供開始、サイバーセキュリティ特化AI基盤「AIホワイトハッカー byGMO」を活用 GMOサイバーセキュリティ byイエラエ株式会社は9月3日、「ネット de 診断 AIホワイトハッカー侵入テスト」を同日から順次提供すると発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/11/56202.html",
+      "published_date": "2026-09-11",
+      "title": "セキュリティホール・脆弱性 ScanNetSecurity 2026.9.11 Fri 8:00 baserCMS用プラグイン「BurgerEditor」に複数の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月9日、baserCMS用プラグイン「BurgerEditor」における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
       "attack": true
     },
     {
@@ -1046,6 +1257,20 @@
       "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56391.html",
       "published_date": "2026-09-07",
       "title": "ムラウチドットコムに不正アクセス、7,716,811件の個人情報が漏えい",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/07/56135.html",
+      "published_date": "2026-09-07",
+      "title": "セキュリティホール・脆弱性 ScanNetSecurity 2026.9.7 Mon 8:00 エクシングCPTrans-ME-X に複数の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月4日、エクシングCPTrans-ME-Xにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/07/56134.html",
+      "published_date": "2026-09-07",
+      "title": "セキュリティホール・脆弱性 ScanNetSecurity 2026.9.7 Mon 8:00 PALLET CONTROL 製品にアクセス制御不備の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月1日、PALLET CONTROL製品におけるアクセス制御不備の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
       "attack": true
     },
     {
