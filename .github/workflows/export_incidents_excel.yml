@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   export:
@@ -67,6 +67,14 @@ jobs:
 
           wb.save("japan_cyber_incidents_1month.xlsx")
           PY
+
+      - name: Commit Excel to repository
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add japan_cyber_incidents_1month.xlsx
+          git commit -m "Export latest incident Excel"
+          git push
 
       - name: Upload Excel artifact
         uses: actions/upload-artifact@v4
