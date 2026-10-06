@@ -249,7 +249,7 @@ def merge_cross_source_incidents(items):
     """
     Merge records that are very likely the same incident reported by different
     sources. Matching is intentionally conservative: the normalized
-    organization must match and publication dates must be within 7 days.
+    organization must match and publication dates must be within 30 days.
     Distinct incidents for the same organization are therefore kept separate
     when they are farther apart in time.
     """
@@ -266,7 +266,7 @@ def merge_cross_source_incidents(items):
         for group in groups:
             if group["org"] != org or group["date"] is None:
                 continue
-            if abs((dt - group["date"]).days) <= 7:
+            if abs((dt - group["date"]).days) <= 30:
                 best = group
                 break
 
@@ -339,7 +339,7 @@ def main():
         "deduplication": {
             "same_source_exact": True,
             "cross_source_merge": True,
-            "cross_source_rule": "same normalized organization and publication dates within 7 days",
+            "cross_source_rule": "same normalized organization and publication dates within 30 days",
             "source_records_retained": True
         },
         "incidents": incidents
