@@ -1,19 +1,20 @@
 #!/usr/bin/env python3
 import json
 import os
-import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
-API_BASE = os.getenv("RANSOMLOOK_API", "https://www.ransomlook.io/api")
+API_BASE = os.getenv("RANSOMLOOK_API", "https://www.ransomlook.io/api").rstrip("/")
 DAYS = int(os.getenv("RANSOMLOOK_DAYS", "30"))
 OUT = Path(os.getenv("RANSOMLOOK_OUTPUT", "data/recent_posts.json"))
 
 if not 1 <= DAYS <= 30:
     raise SystemExit("RANSOMLOOK_DAYS must be between 1 and 30")
 
-url = f"{API_BASE}/posts?{urllib.parse.urlencode({'days': DAYS})}"
+# RansomLook's current public recent-posts endpoint is /api/recent.
+# It returns the recent victim posts; the web UI supports 1/3/7/30-day windows.
+url = f"{API_BASE}/recent"
 req = urllib.request.Request(url, headers={"User-Agent": "ransomlook-github-actions/1.0"})
 
 with urllib.request.urlopen(req, timeout=30) as resp:
@@ -21,6 +22,8 @@ with urllib.request.urlopen(req, timeout=30) as resp:
         raise SystemExit(f"RansomLook returned HTTP {resp.status}")
     data = json.load(resp)
 
+# Keep the source payload intact. DAYS is recorded as the intended monitoring
+# window; we do not infer nationality or victim status from names.
 payload = {
     "source": "RansomLook",
     "api_endpoint": url,
