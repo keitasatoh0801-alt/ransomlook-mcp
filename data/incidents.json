@@ -1,6 +1,6 @@
 {
   "source": "Japanese cyber incident sources",
-  "retrieved_at": "2026-10-06T00:58:45.848407+00:00",
+  "retrieved_at": "2026-10-06T01:00:41.945908+00:00",
   "window_days": 30,
   "cutoff_date": "2026-09-06",
   "attack_only": true,
@@ -10,7 +10,7 @@
     "ScanNetSecurity",
     "SmartScope"
   ],
-  "count": 184,
+  "count": 185,
   "source_errors": {},
   "incidents": [
     {
@@ -699,6 +699,13 @@
       "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56271.html",
       "published_date": "2026-09-18",
       "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.18 Fri 8:05 サーバ上にバックドア等の不正プログラムを設置 ～ 繋が運営するコーポレートサイトに不正アクセス 株式会社繋は8月27日、同社が運営するコーポレートサイト（ https://tsng.co.jp/ ）への不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56396.html",
+      "published_date": "2026-09-18",
+      "title": "Okta Blog 第20回 AIアカウント乗っ取りと偽登録の仕組み ～ Oktaが明かすアンダーグラウンドAI経済",
       "attack": true
     },
     {
