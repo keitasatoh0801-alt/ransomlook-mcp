@@ -22,14 +22,17 @@ jobs:
           RANSOMLOOK_DAYS: "30"
         run: python scripts/fetch_ransomlook.py
 
+      - name: Fetch Japanese cyber incidents
+        run: python scripts/fetch_japan_incidents.py
+
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/recent_posts.json
+          git add data/recent_posts.json data/incidents.json
           if git diff --cached --quiet; then
-            echo "No RansomLook changes."
+            echo "No intelligence changes."
             exit 0
           fi
-          git commit -m "Update RansomLook intelligence data"
+          git commit -m "Update cyber incident intelligence"
           git push
