@@ -1,0 +1,76 @@
+name: Export incident Excel
+
+on:
+  push:
+    paths:
+      - "data/incidents.json"
+      - ".github/workflows/export_incidents_excel.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build Excel
+        run: |
+          python -m pip install --disable-pip-version-check openpyxl
+          python - <<'PY'
+          import json
+          from openpyxl import Workbook
+          from openpyxl.utils import get_column_letter
+
+          with open("data/incidents.json", encoding="utf-8") as f:
+              data = json.load(f)
+
+          wb = Workbook()
+          ws = wb.active
+          ws.title = "国内サイバーインシデント"
+
+          headers = ["公表日","組織・サービス","インシデント概要","影響規模","攻撃種別","情報源","情報源数","統合済み","記事URL"]
+          ws.append(headers)
+
+          for x in data["incidents"]:
+              records = x.get("source_records", [x])
+              urls = " / ".join(r.get("source_url","") for r in records if r.get("source_url"))
+              sources = " / ".join(x.get("sources", [x.get("source","")]))
+              ws.append([
+                  x.get("published_date",""),
+                  x.get("organization") or x.get("title",""),
+                  x.get("title",""),
+                  x.get("affected_count",""),
+                  x.get("attack_type",""),
+                  sources,
+                  x.get("source_count", len(x.get("sources", [x.get("source","")]))),
+                  "Yes" if x.get("merged") else "No",
+                  urls,
+              ])
+
+          ws.freeze_panes = "A2"
+          ws.auto_filter.ref = ws.dimensions
+          widths = [12,30,65,24,28,32,10,10,90]
+          for i, w in enumerate(widths, 1):
+              ws.column_dimensions[get_column_letter(i)].width = w
+
+          s = wb.create_sheet("概要")
+          s.append(["項目","内容"])
+          s.append(["抽出期間", f'{data["cutoff_date"]} ～ {data["retrieved_at"][:10]}'])
+          s.append(["統合後インシデント数", data["count"]])
+          s.append(["対象ソース", " / ".join(data["sources"])])
+          s.append(["統合ルール", data["deduplication"]["cross_source_rule"]])
+          s.append(["取得日時", data["retrieved_at"]])
+
+          wb.save("japan_cyber_incidents_1month.xlsx")
+          PY
+
+      - name: Upload Excel artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: japan-cyber-incidents-1month
+          path: japan_cyber_incidents_1month.xlsx
+          retention-days: 30
