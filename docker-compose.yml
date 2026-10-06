@@ -1,0 +1,9 @@
+services:
+  ransomlook-mcp:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      RANSOMLOOK_API: https://www.ransomlook.io/api
+      RANSOMLOOK_TIMEOUT: "20"
+    restart: unless-stopped
