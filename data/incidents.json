@@ -1,6 +1,6 @@
 {
   "source": "Japanese cyber incident sources",
-  "retrieved_at": "2026-10-06T01:08:24.868160+00:00",
+  "retrieved_at": "2026-10-06T01:12:37.750693+00:00",
   "window_days": 30,
   "cutoff_date": "2026-09-06",
   "attack_only": true,
@@ -2292,28 +2292,6 @@
       ]
     },
     {
-      "source": "ScanNetSecurity",
-      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56396.html",
-      "published_date": "2026-09-11",
-      "title": "Okta Blog 第20回 AIアカウント乗っ取りと偽登録の仕組み ～ Oktaが明かすアンダーグラウンドAI経済",
-      "attack": true,
-      "sources": [
-        "ScanNetSecurity"
-      ],
-      "source_records": [
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56396.html",
-          "published_date": "2026-09-11",
-          "title": "Okta Blog 第20回 AIアカウント乗っ取りと偽登録の仕組み ～ Oktaが明かすアンダーグラウンドAI経済",
-          "attack": true,
-          "sources": [
-            "ScanNetSecurity"
-          ]
-        }
-      ]
-    },
-    {
       "source": "SmartScope",
       "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
       "published_date": "2026-09-11",
@@ -2919,6 +2897,28 @@
           "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56392.html",
           "published_date": "2026-09-07",
           "title": "「PhotoGoods」に不正アクセス、カード情報が漏えいした可能性",
+          "attack": true,
+          "sources": [
+            "ScanNetSecurity"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56396.html",
+      "published_date": "2026-09-07",
+      "title": "Okta Blog 第20回 AIアカウント乗っ取りと偽登録の仕組み ～ Oktaが明かすアンダーグラウンドAI経済",
+      "attack": true,
+      "sources": [
+        "ScanNetSecurity"
+      ],
+      "source_records": [
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56396.html",
+          "published_date": "2026-09-07",
+          "title": "Okta Blog 第20回 AIアカウント乗っ取りと偽登録の仕組み ～ Oktaが明かすアンダーグラウンドAI経済",
           "attack": true,
           "sources": [
             "ScanNetSecurity"
