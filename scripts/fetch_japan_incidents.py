@@ -239,8 +239,288 @@ def normalize_org(text):
     t = re.sub(r"(株式会社|有限会社|合同会社|inc\.?|corp\.?|co\.?\s*ltd\.?)$", "", t).strip()
     return re.sub(r"[^a-z0-9一-龥ぁ-んァ-ヶ]", "", t)
 
-def incident_org(item):
+def extract_organization(text):
+    """Extract the attacked organization/company from incident headlines."""
+    t = clean(text)
+    m = re.search(r'[‐－–—-]\\s*([^、。]+)
     return normalize_org(item.get("organization") or item.get("title", ""))
+
+def incident_merge_key(item):
+    return incident_org(item)
+
+def merge_cross_source_incidents(items):
+    """
+    Merge records that are very likely the same incident reported by different
+    sources. Matching is intentionally conservative: the normalized
+    organization must match and publication dates must be within 30 days.
+    Distinct incidents for the same organization are therefore kept separate
+    when they are farther apart in time.
+    """
+    groups = []
+    for item in sorted(items, key=lambda x: (x["published_date"], x["source"], x["title"])):
+        org = incident_merge_key(item)
+        try:
+            dt = datetime.fromisoformat(item["published_date"]).date()
+        except ValueError:
+            groups.append({"items": [item], "org": org, "date": None})
+            continue
+
+        best = None
+        for group in groups:
+            if group["org"] != org or group["date"] is None:
+                continue
+            if abs((dt - group["date"]).days) <= 30:
+                best = group
+                break
+
+        if best is None:
+            groups.append({"items": [item], "org": org, "date": dt})
+        else:
+            best["items"].append(item)
+            dates = [datetime.fromisoformat(x["published_date"]).date() for x in best["items"]]
+            best["date"] = max(dates)
+
+    merged = []
+    for group in groups:
+        records = group["items"]
+        if len(records) == 1:
+            item = dict(records[0])
+            item["sources"] = [item["source"]]
+            item["source_records"] = [dict(item)]
+            merged.append(item)
+            continue
+
+        # Prefer the earliest publication date as the canonical date/title,
+        # while retaining every source record for traceability.
+        records = sorted(records, key=lambda x: (x["published_date"], x["source"]))
+        base = dict(records[0])
+        base["sources"] = list(dict.fromkeys(x["source"] for x in records))
+        base["source_records"] = [dict(x) for x in records]
+        base["source_count"] = len(base["sources"])
+        base["merged"] = True
+        base["title"] = base.get("organization") or base["title"]
+        merged.append(base)
+
+    return merged
+
+def main():
+    today = datetime.now(timezone.utc).date()
+    cutoff = (today - timedelta(days=DAYS)).isoformat()
+    errors = {}
+    incidents = []
+    collectors = [
+        ("Security NEXT", collect_security_next),
+        ("Yagura", collect_yagura),
+        ("ScanNetSecurity", collect_scannet),
+        ("SmartScope", collect_smartscope),
+    ]
+    for name, fn in collectors:
+        try:
+            incidents.extend(fn(cutoff))
+        except Exception as e:
+            errors[name] = str(e)
+
+    # Populate the attacked organization before deduplication and merging.
+    for item in incidents:
+        if not item.get("organization"):
+            org = extract_organization(item.get("title", ""))
+            if org:
+                item["organization"] = org
+
+    # First remove exact duplicates from the same source.
+    unique = {}
+    for x in incidents:
+        unique[(x["source"], x["source_url"], x["title"])] = x
+    incidents = list(unique.values())
+
+    # Then merge the same incident reported by different sources.
+    incidents = merge_cross_source_incidents(incidents)
+    incidents.sort(key=lambda x: (x["published_date"], x["title"]), reverse=True)
+
+    payload = {
+        "source": "Japanese cyber incident sources",
+        "retrieved_at": datetime.now(timezone.utc).isoformat(),
+        "window_days": DAYS,
+        "cutoff_date": cutoff,
+        "attack_only": True,
+        "sources": ["Security NEXT", "Yagura", "ScanNetSecurity", "SmartScope"],
+        "count": len(incidents),
+        "source_errors": errors,
+        "deduplication": {
+            "same_source_exact": True,
+            "cross_source_merge": True,
+            "cross_source_rule": "same normalized organization and publication dates within 30 days",
+            "source_records_retained": True
+        },
+        "incidents": incidents
+    }
+    OUT.parent.mkdir(parents=True, exist_ok=True)
+    OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"Wrote {OUT}: {len(incidents)} attack-related items")
+    if errors:
+        print("Source errors:", errors)
+
+if __name__ == "__main__":
+    main()
+, t)
+    if m:
+        candidate = clean(m.group(1))
+        if 2 <= len(candidate) <= 60 and not re.search(r'(詳細は調査中|個人情報流出の可能性|サイト更新時に判明|公開を一時停止|VPN機器の脆弱性を悪用|通販やオークションは再開)
+    return normalize_org(item.get("organization") or item.get("title", ""))
+
+def incident_merge_key(item):
+    return incident_org(item)
+
+def merge_cross_source_incidents(items):
+    """
+    Merge records that are very likely the same incident reported by different
+    sources. Matching is intentionally conservative: the normalized
+    organization must match and publication dates must be within 30 days.
+    Distinct incidents for the same organization are therefore kept separate
+    when they are farther apart in time.
+    """
+    groups = []
+    for item in sorted(items, key=lambda x: (x["published_date"], x["source"], x["title"])):
+        org = incident_merge_key(item)
+        try:
+            dt = datetime.fromisoformat(item["published_date"]).date()
+        except ValueError:
+            groups.append({"items": [item], "org": org, "date": None})
+            continue
+
+        best = None
+        for group in groups:
+            if group["org"] != org or group["date"] is None:
+                continue
+            if abs((dt - group["date"]).days) <= 30:
+                best = group
+                break
+
+        if best is None:
+            groups.append({"items": [item], "org": org, "date": dt})
+        else:
+            best["items"].append(item)
+            dates = [datetime.fromisoformat(x["published_date"]).date() for x in best["items"]]
+            best["date"] = max(dates)
+
+    merged = []
+    for group in groups:
+        records = group["items"]
+        if len(records) == 1:
+            item = dict(records[0])
+            item["sources"] = [item["source"]]
+            item["source_records"] = [dict(item)]
+            merged.append(item)
+            continue
+
+        # Prefer the earliest publication date as the canonical date/title,
+        # while retaining every source record for traceability.
+        records = sorted(records, key=lambda x: (x["published_date"], x["source"]))
+        base = dict(records[0])
+        base["sources"] = list(dict.fromkeys(x["source"] for x in records))
+        base["source_records"] = [dict(x) for x in records]
+        base["source_count"] = len(base["sources"])
+        base["merged"] = True
+        base["title"] = base.get("organization") or base["title"]
+        merged.append(base)
+
+    return merged
+
+def main():
+    today = datetime.now(timezone.utc).date()
+    cutoff = (today - timedelta(days=DAYS)).isoformat()
+    errors = {}
+    incidents = []
+    collectors = [
+        ("Security NEXT", collect_security_next),
+        ("Yagura", collect_yagura),
+        ("ScanNetSecurity", collect_scannet),
+        ("SmartScope", collect_smartscope),
+    ]
+    for name, fn in collectors:
+        try:
+            incidents.extend(fn(cutoff))
+        except Exception as e:
+            errors[name] = str(e)
+
+    # First remove exact duplicates from the same source.
+    unique = {}
+    for x in incidents:
+        unique[(x["source"], x["source_url"], x["title"])] = x
+    incidents = list(unique.values())
+
+    # Then merge the same incident reported by different sources.
+    incidents = merge_cross_source_incidents(incidents)
+    incidents.sort(key=lambda x: (x["published_date"], x["title"]), reverse=True)
+
+    payload = {
+        "source": "Japanese cyber incident sources",
+        "retrieved_at": datetime.now(timezone.utc).isoformat(),
+        "window_days": DAYS,
+        "cutoff_date": cutoff,
+        "attack_only": True,
+        "sources": ["Security NEXT", "Yagura", "ScanNetSecurity", "SmartScope"],
+        "count": len(incidents),
+        "source_errors": errors,
+        "deduplication": {
+            "same_source_exact": True,
+            "cross_source_merge": True,
+            "cross_source_rule": "same normalized organization and publication dates within 30 days",
+            "source_records_retained": True
+        },
+        "incidents": incidents
+    }
+    OUT.parent.mkdir(parents=True, exist_ok=True)
+    OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"Wrote {OUT}: {len(incidents)} attack-related items")
+    if errors:
+        print("Source errors:", errors)
+
+if __name__ == "__main__":
+    main()
+, candidate):
+            return candidate
+    names = re.findall(r'(?:国立大学法人|学校法人|独立行政法人|株式会社|有限会社|合同会社)[^、。\\n]{1,60}?(?=(?:は|が|に|の)\\s)', t)
+    cleaned = []
+    for name in names:
+        name = re.sub(r'\\s*\\([^)]*\\)', '', clean(name))
+        name = re.sub(r'\\s+', ' ', name).strip()
+        if name and name not in cleaned:
+            cleaned.append(name)
+    if cleaned:
+        return ' / '.join(cleaned[:3])
+    m = re.search(r'([^、。\\n]{2,35}(?:大学|銀行|電鉄|鉄道|新聞|証券|病院|農業協同組合|協同組合|ホールディングス|HD|県教育委員会|庁|市役所|区役所))(?:は|が|に|の)', t)
+    if m:
+        return clean(m.group(1))
+    aliases = [
+        (r'焼肉きんぐ|Yakiniku King', '物語コーポレーション'),
+        (r'PhotoGoods', '大興印刷'),
+        (r'ビールの縁側', '原田産業'),
+        (r'郵便局アプリ|日本郵政|日本郵便', '日本郵政 / 日本郵便'),
+        (r'代金後払いサービス|クロネコ代金後払い', 'ヤマト運輸'),
+        (r'スマレジEC', 'スマレジ'),
+        (r'メトポ', '東京メトロ'),
+        (r'HALMEK up', 'ハルメクホールディングス'),
+        (r'Gyazo', 'Helpfeel'),
+        (r'ULTRA MART|円谷プロ', '円谷プロダクション'),
+        (r'スマチケ|e\\+', 'イープラス'),
+        (r'GSS', 'デジタル庁'),
+        (r'東京外環プロジェクト|NEXCO東日本', '東日本高速道路（NEXCO東日本）'),
+        (r'まんだらけ', 'まんだらけ'),
+        (r'佐賀大|佐賀大学', '佐賀大学'),
+        (r'京王ストア|京王電鉄', '京王電鉄'),
+        (r'信濃毎日新聞デジタル', '信濃毎日新聞'),
+        (r'Seicomart', 'セイコーマート'),
+        (r'Times Car', 'パーク24'),
+        (r'Sakura Internet', 'さくらインターネット'),
+    ]
+    for pattern, name in aliases:
+        if re.search(pattern, t, re.I):
+            return name
+    return None
+
+def incident_org(item):
+    return normalize_org(item.get("organization") or extract_organization(item.get("title", "")) or item.get("title", ""))
 
 def incident_merge_key(item):
     return incident_org(item)
