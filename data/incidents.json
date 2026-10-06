@@ -1,6 +1,6 @@
 {
   "source": "Japanese cyber incident sources",
-  "retrieved_at": "2026-10-06T01:02:35.509866+00:00",
+  "retrieved_at": "2026-10-06T01:04:33.863905+00:00",
   "window_days": 30,
   "cutoff_date": "2026-09-06",
   "attack_only": true,
@@ -10,12 +10,12 @@
     "ScanNetSecurity",
     "SmartScope"
   ],
-  "count": 107,
+  "count": 104,
   "source_errors": {},
   "deduplication": {
     "same_source_exact": true,
     "cross_source_merge": true,
-    "cross_source_rule": "same normalized organization and publication dates within 7 days",
+    "cross_source_rule": "same normalized organization and publication dates within 30 days",
     "source_records_retained": true
   },
   "incidents": [
@@ -56,28 +56,6 @@
           "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56388.html",
           "published_date": "2026-10-06",
           "title": "セキュリティホール・脆弱性 ScanNetSecurity 2026.10.6 Tue 8:00 Apache HTTP Server 2.4 に複数の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は10月2日、Apache HTTP Server 2.4における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
-          "attack": true,
-          "sources": [
-            "ScanNetSecurity"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "ScanNetSecurity",
-      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56391.html",
-      "published_date": "2026-10-06",
-      "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.6 Tue 8:05 ムラウチドットコムに不正アクセス、7,716,811件の個人情報が漏えい 株式会社ムラウチドットコムは9月15日、7月24日に公表した同社が運用する一部システムへの不正アクセスについて、第二報を発表した。",
-      "attack": true,
-      "sources": [
-        "ScanNetSecurity"
-      ],
-      "source_records": [
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56391.html",
-          "published_date": "2026-10-06",
-          "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.6 Tue 8:05 ムラウチドットコムに不正アクセス、7,716,811件の個人情報が漏えい 株式会社ムラウチドットコムは9月15日、7月24日に公表した同社が運用する一部システムへの不正アクセスについて、第二報を発表した。",
           "attack": true,
           "sources": [
             "ScanNetSecurity"
@@ -1268,48 +1246,6 @@
       ]
     },
     {
-      "source": "Yagura",
-      "source_url": "https://incident.yagurasec.com/incidents/2026-10-01-saga-university-nas-ransomware/",
-      "published_date": "2026-09-25",
-      "title": "2026/10/01 佐賀大学、事務情報システムのNASがランサムウェア被害 — 教職員・学生のID・パスワードが流出した可能性、事務用端末約500台を3日間停止 続報を注視中 重大 国立大学法人佐賀大学（佐賀市本庄町）は2026年9月25日、事務情報システムの一部でランサムウェアによる被害が発生したと公表した。事務部門が利用するNAS内のファイルが暗号化され、大学は該当NASをネットワークから隔離したうえで事務用端末約500台の利用を停止した。9月28日には、学内システムへのログインに使う教職員・学生のユーザー認証情報が流出した恐れがあると公表し、全教職員・学生にパスワードの変更を指示している。認証情報が使用された被害は確認されておらず、感染経路は公表されていない。 →",
-      "attack": true,
-      "sources": [
-        "Yagura"
-      ],
-      "source_records": [
-        {
-          "source": "Yagura",
-          "source_url": "https://incident.yagurasec.com/incidents/2026-10-01-saga-university-nas-ransomware/",
-          "published_date": "2026-09-25",
-          "title": "2026/10/01 佐賀大学、事務情報システムのNASがランサムウェア被害 — 教職員・学生のID・パスワードが流出した可能性、事務用端末約500台を3日間停止 続報を注視中 重大 国立大学法人佐賀大学（佐賀市本庄町）は2026年9月25日、事務情報システムの一部でランサムウェアによる被害が発生したと公表した。事務部門が利用するNAS内のファイルが暗号化され、大学は該当NASをネットワークから隔離したうえで事務用端末約500台の利用を停止した。9月28日には、学内システムへのログインに使う教職員・学生のユーザー認証情報が流出した恐れがあると公表し、全教職員・学生にパスワードの変更を指示している。認証情報が使用された被害は確認されておらず、感染経路は公表されていない。 →",
-          "attack": true
-        },
-        {
-          "source": "Yagura",
-          "source_url": "https://incident.yagurasec.com/incidents/2026-09-29-keio-group-ransomware/",
-          "published_date": "2026-09-26",
-          "title": "2026/09/29 京王電鉄、グループのサーバがランサムウェア攻撃を受けシステム障害 — 京王ストアの決済や京王プレッソインの予約受付に影響、鉄道運行に支障なし 情報収集中 中程度 京王電鉄株式会社（東京都多摩市／鉄道事業を中核に流通・不動産・レジャーサービスを展開する京王グループの中核会社）は2026年9月26日、同社グループのサーバがランサムウェアによる攻撃を受け、システム障害が発生していると公表した。京王ストアの一部店舗でクレジットカードや電子マネーの決済ができなくなり、京王プレッソインは新規予約の受付を当面停止、京王プラザホテルも自社サーバへの攻撃を確認したと公表している。鉄道の運行に支障はなく、情報漏えいの事実は公表時点で確認されていないとして調査が続いている。 →",
-          "attack": true
-        },
-        {
-          "source": "Yagura",
-          "source_url": "https://incident.yagurasec.com/incidents/2026-09-30-eplus-sumachike-refund-system-breach/",
-          "published_date": "2026-09-29",
-          "title": "2026/09/30 チケット販売のイープラス（東京都渋谷区）、電子チケット「スマチケ」の払戻し管理システムに不正アクセス — 払戻し申請者1,463件が漏えい、うち751件に振込先口座情報 続報を注視中 中程度 株式会社イープラス（東京都渋谷区恵比寿／チケット販売サイト「e+」の運営）は2026年9月29日、電子チケット「スマチケ」の払戻し情報を管理するシステムが第三者から不正アクセスを受け、個人情報が漏えいしたと公表した。対象は2022年6月30日から2026年9月11日までに払戻しを申請した利用者の計1,463件で、全件にカナ氏名・メールアドレス・払戻し対象公演の情報が含まれ、うち751件には金融機関名・支店名・口座番号などの振込先口座情報が含まれる。不正アクセスは9月11日夜から12日未明にかけて複数回発生し、9月15日に遮断されている。 →",
-          "attack": true
-        },
-        {
-          "source": "Yagura",
-          "source_url": "https://incident.yagurasec.com/incidents/2026-10-04-abahouse-international-member-order-db-breach/",
-          "published_date": "2026-10-03",
-          "title": "2026/10/04 アパレルのアバハウスインターナショナル、会員・EC受注データベースに不正アクセス — 全顧客に影響の可能性、実際の注文内容と一致する「返金」詐欺メールも確認 続報を注視中 重大 株式会社アバハウスインターナショナル（東京都渋谷区東／メンズ・レディスウェアや服飾雑貨の企画・製造・卸・小売）は2026年10月3日、社内システムが第三者による不正アクセスを受け、会員情報とEC受注情報を保管するデータベースから個人情報が漏えいした可能性があると公表した。不正アクセスは9月27日深夜から28日にかけてとみられ、9月28日に複数の顧客から「実際の注文情報と一致する不審な返金案内メールを受信した」との問い合わせを受けて発覚した。漏えいした可能性がある情報は会員ID・氏名・住所・電話番号・メールアドレス・生年月日・性別・注文情報で、対象件数は公表されていない。退会済みの顧客も対象に含まれる。 →",
-          "attack": true
-        }
-      ],
-      "source_count": 1,
-      "merged": true
-    },
-    {
       "source": "ScanNetSecurity",
       "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/24/56283.html",
       "published_date": "2026-09-24",
@@ -1624,28 +1560,6 @@
           "attack": true,
           "sources": [
             "SmartScope"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "ScanNetSecurity",
-      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56396.html",
-      "published_date": "2026-09-18",
-      "title": "Okta Blog 第20回 AIアカウント乗っ取りと偽登録の仕組み ～ Oktaが明かすアンダーグラウンドAI経済",
-      "attack": true,
-      "sources": [
-        "ScanNetSecurity"
-      ],
-      "source_records": [
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56396.html",
-          "published_date": "2026-09-18",
-          "title": "Okta Blog 第20回 AIアカウント乗っ取りと偽登録の仕組み ～ Oktaが明かすアンダーグラウンドAI経済",
-          "attack": true,
-          "sources": [
-            "ScanNetSecurity"
           ]
         }
       ]
@@ -2079,41 +1993,6 @@
       "source": "SmartScope",
       "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
       "published_date": "2026-09-15",
-      "title": "Murauchi.com",
-      "organization": "Murauchi.com",
-      "affected_count": "7.72M records (confirmed)",
-      "attack_type": "Vulnerability (news report)",
-      "attack": true,
-      "sources": [
-        "SmartScope",
-        "Yagura"
-      ],
-      "source_records": [
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-09-15",
-          "title": "Murauchi.com — Vulnerability (news report)",
-          "organization": "Murauchi.com",
-          "affected_count": "7.72M records (confirmed)",
-          "attack_type": "Vulnerability (news report)",
-          "attack": true
-        },
-        {
-          "source": "Yagura",
-          "source_url": "https://incident.yagurasec.com/incidents/2026-07-24-murauchi-dotcom-unauthorized-access/",
-          "published_date": "2026-09-15",
-          "title": "2026/07/24 通販のムラウチドットコム（東京都八王子市）、不正アクセスで771万6,811件の個人情報漏えいを確認 — Webシステムの脆弱性を起点に複数システムへ侵入 全容判明 深刻 株式会社ムラウチドットコム（東京都八王子市北野町／インターネット通信販売・インターネットメディア事業）は2026年9月15日、7月15日に確認された一部システムへの不正アクセスについて外部専門会社によるフォレンジック調査が完了し、771万6,811件の個人情報の漏えいが確認されたと公表した。Webシステムの一部に存在した脆弱性の悪用を起点に複数のシステムへ不正アクセスされたもので、クレジットカード情報とパスワードは含まれていないとしている。 →",
-          "attack": true
-        }
-      ],
-      "source_count": 2,
-      "merged": true
-    },
-    {
-      "source": "SmartScope",
-      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-      "published_date": "2026-09-15",
       "title": "LEAN BODY — Vulnerability",
       "organization": "LEAN BODY",
       "affected_count": "440K accounts (confirmed)",
@@ -2408,6 +2287,28 @@
           "attack": true,
           "sources": [
             "Security NEXT"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56396.html",
+      "published_date": "2026-09-11",
+      "title": "Okta Blog 第20回 AIアカウント乗っ取りと偽登録の仕組み ～ Oktaが明かすアンダーグラウンドAI経済",
+      "attack": true,
+      "sources": [
+        "ScanNetSecurity"
+      ],
+      "source_records": [
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56396.html",
+          "published_date": "2026-09-11",
+          "title": "Okta Blog 第20回 AIアカウント乗っ取りと偽登録の仕組み ～ Oktaが明かすアンダーグラウンドAI経済",
+          "attack": true,
+          "sources": [
+            "ScanNetSecurity"
           ]
         }
       ]
@@ -2849,7 +2750,9 @@
       "title": "ムラウチドットコムに不正アクセス、7,716,811件の個人情報が漏えい",
       "attack": true,
       "sources": [
-        "ScanNetSecurity"
+        "ScanNetSecurity",
+        "SmartScope",
+        "Yagura"
       ],
       "source_records": [
         {
@@ -2857,12 +2760,35 @@
           "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56391.html",
           "published_date": "2026-09-07",
           "title": "ムラウチドットコムに不正アクセス、7,716,811件の個人情報が漏えい",
-          "attack": true,
-          "sources": [
-            "ScanNetSecurity"
-          ]
+          "attack": true
+        },
+        {
+          "source": "SmartScope",
+          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
+          "published_date": "2026-09-15",
+          "title": "Murauchi.com — Vulnerability (news report)",
+          "organization": "Murauchi.com",
+          "affected_count": "7.72M records (confirmed)",
+          "attack_type": "Vulnerability (news report)",
+          "attack": true
+        },
+        {
+          "source": "Yagura",
+          "source_url": "https://incident.yagurasec.com/incidents/2026-07-24-murauchi-dotcom-unauthorized-access/",
+          "published_date": "2026-09-15",
+          "title": "2026/07/24 通販のムラウチドットコム（東京都八王子市）、不正アクセスで771万6,811件の個人情報漏えいを確認 — Webシステムの脆弱性を起点に複数システムへ侵入 全容判明 深刻 株式会社ムラウチドットコム（東京都八王子市北野町／インターネット通信販売・インターネットメディア事業）は2026年9月15日、7月15日に確認された一部システムへの不正アクセスについて外部専門会社によるフォレンジック調査が完了し、771万6,811件の個人情報の漏えいが確認されたと公表した。Webシステムの一部に存在した脆弱性の悪用を起点に複数のシステムへ不正アクセスされたもので、クレジットカード情報とパスワードは含まれていないとしている。 →",
+          "attack": true
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56391.html",
+          "published_date": "2026-10-06",
+          "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.6 Tue 8:05 ムラウチドットコムに不正アクセス、7,716,811件の個人情報が漏えい 株式会社ムラウチドットコムは9月15日、7月24日に公表した同社が運用する一部システムへの不正アクセスについて、第二報を発表した。",
+          "attack": true
         }
-      ]
+      ],
+      "source_count": 3,
+      "merged": true
     },
     {
       "source": "ScanNetSecurity",
@@ -3071,6 +2997,34 @@
           "source_url": "https://incident.yagurasec.com/incidents/2026-09-19-helpfeel-gyazo-upload-server-breach/",
           "published_date": "2026-09-16",
           "title": "2026/09/19 株式会社Helpfeel、画像共有サービス「Gyazo」に不正アクセス — ユーザー関連データ約2,362万件と画像メタデータ約4.9億件が流出、第二報で削除済み画像のメタデータ約1.74億件の流出も判明 続報を注視中 深刻 株式会社Helpfeel（京都府京都市／AIナレッジデータプラットフォームの開発・運用）は2026年9月16日、画像共有サービス「Gyazo」の画像アップロードサーバの脆弱性を悪用され、第三者にシステム上で任意のコマンドを実行されたと公表した。ユーザー関連データ約2,362万件と画像に関するメタデータ約4.9億件が外部に流出しており、漏えいした情報にはメールアドレス、パスワードのハッシュ値、ログインセッションID、非公開画像のパスフレーズのハッシュ値が含まれる。画像ファイルそのものの持ち出しは確認されていないが、画像URLを構成する情報が取得されたため、非公開画像が閲覧された可能性について調査が続いている。2026年9月25日の第二報では、主に2023年2月以前にユーザーが削除した画像に関するメタデータ約1.74億件の外部流出が新たに確認された。サービスは9月22日に一時停止され、9月27日午前8時に再開している。 →",
+          "attack": true
+        },
+        {
+          "source": "Yagura",
+          "source_url": "https://incident.yagurasec.com/incidents/2026-10-01-saga-university-nas-ransomware/",
+          "published_date": "2026-09-25",
+          "title": "2026/10/01 佐賀大学、事務情報システムのNASがランサムウェア被害 — 教職員・学生のID・パスワードが流出した可能性、事務用端末約500台を3日間停止 続報を注視中 重大 国立大学法人佐賀大学（佐賀市本庄町）は2026年9月25日、事務情報システムの一部でランサムウェアによる被害が発生したと公表した。事務部門が利用するNAS内のファイルが暗号化され、大学は該当NASをネットワークから隔離したうえで事務用端末約500台の利用を停止した。9月28日には、学内システムへのログインに使う教職員・学生のユーザー認証情報が流出した恐れがあると公表し、全教職員・学生にパスワードの変更を指示している。認証情報が使用された被害は確認されておらず、感染経路は公表されていない。 →",
+          "attack": true
+        },
+        {
+          "source": "Yagura",
+          "source_url": "https://incident.yagurasec.com/incidents/2026-09-29-keio-group-ransomware/",
+          "published_date": "2026-09-26",
+          "title": "2026/09/29 京王電鉄、グループのサーバがランサムウェア攻撃を受けシステム障害 — 京王ストアの決済や京王プレッソインの予約受付に影響、鉄道運行に支障なし 情報収集中 中程度 京王電鉄株式会社（東京都多摩市／鉄道事業を中核に流通・不動産・レジャーサービスを展開する京王グループの中核会社）は2026年9月26日、同社グループのサーバがランサムウェアによる攻撃を受け、システム障害が発生していると公表した。京王ストアの一部店舗でクレジットカードや電子マネーの決済ができなくなり、京王プレッソインは新規予約の受付を当面停止、京王プラザホテルも自社サーバへの攻撃を確認したと公表している。鉄道の運行に支障はなく、情報漏えいの事実は公表時点で確認されていないとして調査が続いている。 →",
+          "attack": true
+        },
+        {
+          "source": "Yagura",
+          "source_url": "https://incident.yagurasec.com/incidents/2026-09-30-eplus-sumachike-refund-system-breach/",
+          "published_date": "2026-09-29",
+          "title": "2026/09/30 チケット販売のイープラス（東京都渋谷区）、電子チケット「スマチケ」の払戻し管理システムに不正アクセス — 払戻し申請者1,463件が漏えい、うち751件に振込先口座情報 続報を注視中 中程度 株式会社イープラス（東京都渋谷区恵比寿／チケット販売サイト「e+」の運営）は2026年9月29日、電子チケット「スマチケ」の払戻し情報を管理するシステムが第三者から不正アクセスを受け、個人情報が漏えいしたと公表した。対象は2022年6月30日から2026年9月11日までに払戻しを申請した利用者の計1,463件で、全件にカナ氏名・メールアドレス・払戻し対象公演の情報が含まれ、うち751件には金融機関名・支店名・口座番号などの振込先口座情報が含まれる。不正アクセスは9月11日夜から12日未明にかけて複数回発生し、9月15日に遮断されている。 →",
+          "attack": true
+        },
+        {
+          "source": "Yagura",
+          "source_url": "https://incident.yagurasec.com/incidents/2026-10-04-abahouse-international-member-order-db-breach/",
+          "published_date": "2026-10-03",
+          "title": "2026/10/04 アパレルのアバハウスインターナショナル、会員・EC受注データベースに不正アクセス — 全顧客に影響の可能性、実際の注文内容と一致する「返金」詐欺メールも確認 続報を注視中 重大 株式会社アバハウスインターナショナル（東京都渋谷区東／メンズ・レディスウェアや服飾雑貨の企画・製造・卸・小売）は2026年10月3日、社内システムが第三者による不正アクセスを受け、会員情報とEC受注情報を保管するデータベースから個人情報が漏えいした可能性があると公表した。不正アクセスは9月27日深夜から28日にかけてとみられ、9月28日に複数の顧客から「実際の注文情報と一致する不審な返金案内メールを受信した」との問い合わせを受けて発覚した。漏えいした可能性がある情報は会員ID・氏名・住所・電話番号・メールアドレス・生年月日・性別・注文情報で、対象件数は公表されていない。退会済みの顧客も対象に含まれる。 →",
           "attack": true
         }
       ],
