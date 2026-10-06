@@ -1,0 +1,1101 @@
+{
+  "source": "Japanese cyber incident sources",
+  "retrieved_at": "2026-10-06T00:57:42.797436+00:00",
+  "window_days": 30,
+  "cutoff_date": "2026-09-06",
+  "attack_only": true,
+  "sources": [
+    "Security NEXT",
+    "Yagura",
+    "ScanNetSecurity"
+  ],
+  "count": 155,
+  "source_errors": {},
+  "incidents": [
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56396.html",
+      "published_date": "2026-10-06",
+      "title": "脅威動向 Okta, Inc. 2026.10.6 Tue 8:15 Okta Blog 第20回 AIアカウント乗っ取りと偽登録の仕組み ～ Oktaが明かすアンダーグラウンドAI経済 AI 需要の高まりは、AI アカウント乗っ取りや無料特典の悪用で得たアクセス権を転売する違法市場を生み出している",
+      "attack": true
+    },
+    {
+      "source": "Yagura",
+      "source_url": "https://incident.yagurasec.com/incidents/2026-10-06-yakiniku-king-app-member-db-breach/",
+      "published_date": "2026-10-05",
+      "title": "2026/10/06 焼肉チェーンを運営する物語コーポレーション（愛知県豊橋市）、「焼肉きんぐ」公式アプリの会員管理システムに不正アクセス — 1,078万8,963件が漏えい、登録者のほぼ全員が対象 続報を注視中 深刻 株式会社物語コーポレーション（愛知県豊橋市西岩田／「焼肉きんぐ」「丸源ラーメン」等を展開する外食チェーン。東証プライム・証券コード3097）は2026年10月5日、「焼肉きんぐ」公式アプリの会員管理システムが第三者による不正アクセスを受け、会員情報1,078万8,963件が漏えいしたと公表した。アプリの登録者数1,080万8,784件のほぼ全員にあたる。漏えいしたのは会員番号、氏名（アプリ登録名）、メールアドレス、電話番号で、ログインパスワードや決済情報、店舗利用履歴などは対象外としている。10月2日に不正アクセスを検知して通信遮断などの防御措置を実施し、翌3日に漏えいを確認した。侵入経路や原因は調査中。",
+      "attack": true
+    },
+    {
+      "source": "Security NEXT",
+      "source_url": "https://www.security-next.com/190961",
+      "published_date": "2026-10-05",
+      "title": "複数サイトに不正アクセス、プラグイン脆弱性が標的に - ベネッセグループ会社",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/05/56385.html",
+      "published_date": "2026-10-05",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.5 Mon 8:05 池上通信機にサイバー攻撃の可能性、外部から情報提供あり調査 池上通信機株式会社は9月24日、同社に対するサイバー攻撃の可能性について発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/05/56384.html",
+      "published_date": "2026-10-05",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.5 Mon 8:05 池上通信機にサイバー攻撃、サーバ内の一部ファイルが暗号化 池上通信機株式会社は9月30日、同社に対するサイバー攻撃について、続報を発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/05/56383.html",
+      "published_date": "2026-10-05",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.5 Mon 8:05 あいの風とやま鉄道 観光列車の座席管理システムに不正アクセス あいの風とやま鉄道株式会社は9月15日、同社が運営する観光列車「一万三千尺物語」の座席管理システムへの不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/05/56382.html",
+      "published_date": "2026-10-05",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.5 Mon 8:05 LEAN BODY が利用する分析ツール「Metabase」の脆弱性を悪用した不正アクセス 株式会社LEAN BODYは9月15日、同社が利用する分析ツールへの不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/05/56379.html",
+      "published_date": "2026-10-05",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.5 Mon 8:05 ECサイト「ビールの縁側」に不正アクセス、9 名のカード情報が漏えいした可能性 原田産業株式会社は9月14日、8月18日に公表した同社が運営するECサイト「ビールの縁側」（ https://beer-engawa.jp/ ）への不正アクセスについて、続報を発表した。",
+      "attack": true
+    },
+    {
+      "source": "Yagura",
+      "source_url": "https://incident.yagurasec.com/incidents/2026-10-04-abahouse-international-member-order-db-breach/",
+      "published_date": "2026-10-03",
+      "title": "2026/10/04 アパレルのアバハウスインターナショナル、会員・EC受注データベースに不正アクセス — 全顧客に影響の可能性、実際の注文内容と一致する「返金」詐欺メールも確認 続報を注視中 重大 株式会社アバハウスインターナショナル（東京都渋谷区東／メンズ・レディスウェアや服飾雑貨の企画・製造・卸・小売）は2026年10月3日、社内システムが第三者による不正アクセスを受け、会員情報とEC受注情報を保管するデータベースから個人情報が漏えいした可能性があると公表した。不正アクセスは9月27日深夜から28日にかけてとみられ、9月28日に複数の顧客から「実際の注文情報と一致する不審な返金案内メールを受信した」との問い合わせを受けて発覚した。漏えいした可能性がある情報は会員ID・氏名・住所・電話番号・メールアドレス・生年月日・性別・注文情報で、対象件数は公表されていない。退会済みの顧客も対象に含まれる。 →",
+      "attack": true
+    },
+    {
+      "source": "Security NEXT",
+      "source_url": "https://www.security-next.com/190952",
+      "published_date": "2026-10-02",
+      "title": "荷物問合サービスが侵害、個人情報流出の可能性 - 佐川急便",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/02/56377.html",
+      "published_date": "2026-10-02",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.2 Fri 8:05 日本トレクスの情報システムに不正アクセス、一部業務が停止 日本トレクス株式会社は9月11日、同社情報システムへの不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/02/56376.html",
+      "published_date": "2026-10-02",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.2 Fri 8:05 日本エネルギー経済研究所にフィッシング攻撃、所員6名のMicrosoft 365 アカウントに不正アクセス 一般財団法人日本エネルギー経済研究所は9月11日、不正アクセスによる情報漏えいについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/02/56372.html",
+      "published_date": "2026-10-02",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.2 Fri 8:05 払戻し申請を行った顧客1,463件の個人情報が漏えい ～ イープラスに不正アクセス 株式会社イープラスは9月29日、同社が運営するチケット販売プラットフォーム「イープラス」への不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/02/56375.html",
+      "published_date": "2026-10-02",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.2 Fri 8:05 当選を落選に書き換え ～ デジタル整理券システム「mogily」に不正アクセス mogily株式会社は9月11日、同社が提供するデジタル整理券システム「mogily」への不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/02/56374.html",
+      "published_date": "2026-10-02",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.2 Fri 8:05 メトロポイントクラブ会員向けサービスに不正アクセス、約59,000件のメールアドレスが漏えいした可能性 東京地下鉄株式会社は9月27日、同社が提供するメトロポイントクラブ（メトポ）会員向けサービスへの不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/02/56370.html",
+      "published_date": "2026-10-02",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.2 Fri 8:05 「郵便局アプリ」に不正アクセス、顧客情報を不正に取得 日本郵政株式会社と日本郵便株式会社は9月29日、両社が提供する「郵便局アプリ」への不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/02/56371.html",
+      "published_date": "2026-10-02",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.2 Fri 8:05 「タイムズカー」への不正アクセス、約160万件の運転免許証画像等の本人確認書類が漏えい 東証プライム上場企業のパーク24株式会社は9月28日、連結子会社であるタイムズモビリティ株式会社への不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/02/56373.html",
+      "published_date": "2026-10-02",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.2 Fri 8:05 「セイコーマートアプリ」に不正アクセス、約57万アカウントの会員情報が漏えいした可能性 株式会社セイコーマートは9月29日、同社のスマートフォンアプリ「セイコーマートアプリ」への不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "Security NEXT",
+      "source_url": "https://www.security-next.com/190842",
+      "published_date": "2026-10-01",
+      "title": "事務用NASがランサム被害、通常業務は再開 - 佐賀大",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/01/56363.html",
+      "published_date": "2026-10-01",
+      "title": "セミナー・イベント ScanNetSecurity 2026.10.1 Thu 8:15 人材不足に打ち勝つセキュリティ運用とは ～ DNP との対談で明かされる効果、テクマトリックスが Palo Alto Networks の Cortex XSIAM で提案する次世代 SOC PR サイバー攻撃の高度化・巧妙化に伴い、SOCには膨大なアラートが押し寄せるようになった。複数のセキュリティ製品から上がる情報を人手で分析し、対応するには限界がある。そこで注目されているのが、AIと自動化によるセキュリティ運用だ。 では、AIと自動化を実際の現場に組み込むと、セキュリティ運用はどう変わるのか。約4万5,000台のデバイスを運用する大日本印刷（DNP）が直面した「8つの壁」と、その乗り越え方から、AI時代のSOC運用の可能性に迫る。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/01/56364.html",
+      "published_date": "2026-10-01",
+      "title": "エクスプロイト 株式会社ラック デジタルペンテスト部 2026.10.1 Thu 8:20 Microsoft Malware Protection Engine における任意の特権ファイルの書き込みが可能となるファイル操作での検証不備（Scan Tech Report） 2026 年 5 月に修正された Microsoft Defender を構成するソフトウェアの脆弱性を悪用するエクスプロイトコードが公開されています。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/01/56356.html",
+      "published_date": "2026-10-01",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.1 Thu 8:05 当選が落選に「ULTRA MART」チケット抽選システムに不正アクセス 株式会社円谷プロダクションは9月11日、同社が運営する「ULTRA MART」チケット抽選システムへの不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/01/56359.html",
+      "published_date": "2026-10-01",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.1 Thu 8:05 スターツ出版「オズモール」に不正アクセス、会員のメールアドレス 最大447,610名分が漏えいした可能性 スターツ出版株式会社は9月27日、同社運営のウェブサイト「オズモール」への不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/01/56358.html",
+      "published_date": "2026-10-01",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.1 Thu 8:05 「ニッポンレンタカーアプリ」への不正アクセス、運転免許証情報が閲覧されたおそれも ニッポンレンタカーサービス株式会社は9月26日、同社が運営する「ニッポンレンタカーアプリ」への不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/01/56360.html",
+      "published_date": "2026-10-01",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.1 Thu 8:05 「タイムズカー」に不正アクセス、運転免許証画像含む会員情報が第三者に取得されたことを確認 タイムズモビリティ株式会社は9月28日、9月25日に公表した同社運営のカーシェアリングサービス「タイムズカー」への不正アクセスについて、第2報を発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/01/56361.html",
+      "published_date": "2026-10-01",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.1 Thu 8:05 「クロネコ代金後払いサービス」に不正アクセス ヤマト運輸株式会社は9月29日、「クロネコ代金後払いサービス」への不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/01/56357.html",
+      "published_date": "2026-10-01",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.1 Thu 8:05 CMSプラグインの脆弱性公表を受け更新作業中に不正アクセスを発見 神奈川県川崎市は9月11日、かわさき新産業創造センター（KBIC）Webサイトへの不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "Security NEXT",
+      "source_url": "https://www.security-next.com/190835",
+      "published_date": "2026-09-30",
+      "title": "「代金後払いサービス」で侵害、サービスを停止 - ヤマト運輸",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/30/56339.html",
+      "published_date": "2026-09-30",
+      "title": "脅威動向 ScanNetSecurity 2026.9.30 Wed 8:00 ランサムウェア被害件数が過去最多の123件に、警察庁が対策情報を紹介 警察庁は9月18日、サイバー警察局便りR8Vol.16「ランサムウェア被害拡大中」を公開した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/30/56340.html",
+      "published_date": "2026-09-30",
+      "title": "業界動向 ScanNetSecurity 2026.9.30 Wed 8:00 山口東京理科大チームが優勝 ～ 県警ら主催「サイバー攻撃共同対処訓練」で約 90 名が Micro Hardening 演習 山陽小野田市立山口東京理科大学は9月15日、山口県警察の協力のもと、山口大学工学部で「サイバー攻撃共同対処訓練」を9月4日に実施したと発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/30/56342.html",
+      "published_date": "2026-09-30",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.30 Wed 8:05 長野県大町市デジタルアーカイブサイトに不正アクセス、オンラインカジノサイト誘導ページに改ざん 長野県大町市は9月10日、市デジタルアーカイブサイトへの不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/30/56344.html",
+      "published_date": "2026-09-30",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.30 Wed 8:05 日本郵便 調査請求 Web受付サービスに不正アクセス、一時的に受付を停止 日本郵便株式会社は9月25日、同社の国際郵便物の調査請求Web受付サービスへの不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/30/56346.html",
+      "published_date": "2026-09-30",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.30 Wed 8:05 佐賀大学のNASにランサムウェア攻撃、ファイルが暗号化される被害 国立大学法人佐賀大学は9月28日、同学の事務情報システムでのランサムウェア被害について発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/30/56345.html",
+      "published_date": "2026-09-30",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.30 Wed 8:05 京王電鉄にランサムウェア攻撃 京王電鉄株式会社は9月26日、ランサムウェア攻撃によるシステム障害について発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/30/56343.html",
+      "published_date": "2026-09-30",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.30 Wed 8:05 ID・パスワードが窃取が原因 ～「HALMEK up」に不正アクセス 株式会社ハルメクホールディングスは9月11日、同社グループのWebサイト「HALMEK up」への不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "Yagura",
+      "source_url": "https://incident.yagurasec.com/incidents/2026-09-30-eplus-sumachike-refund-system-breach/",
+      "published_date": "2026-09-29",
+      "title": "2026/09/30 チケット販売のイープラス（東京都渋谷区）、電子チケット「スマチケ」の払戻し管理システムに不正アクセス — 払戻し申請者1,463件が漏えい、うち751件に振込先口座情報 続報を注視中 中程度 株式会社イープラス（東京都渋谷区恵比寿／チケット販売サイト「e+」の運営）は2026年9月29日、電子チケット「スマチケ」の払戻し情報を管理するシステムが第三者から不正アクセスを受け、個人情報が漏えいしたと公表した。対象は2022年6月30日から2026年9月11日までに払戻しを申請した利用者の計1,463件で、全件にカナ氏名・メールアドレス・払戻し対象公演の情報が含まれ、うち751件には金融機関名・支店名・口座番号などの振込先口座情報が含まれる。不正アクセスは9月11日夜から12日未明にかけて複数回発生し、9月15日に遮断されている。 →",
+      "attack": true
+    },
+    {
+      "source": "Security NEXT",
+      "source_url": "https://www.security-next.com/190798",
+      "published_date": "2026-09-29",
+      "title": "モンベルのグローバルサイトに不正アクセス - 個人情報流出の可能性",
+      "attack": true
+    },
+    {
+      "source": "Security NEXT",
+      "source_url": "https://www.security-next.com/190791",
+      "published_date": "2026-09-29",
+      "title": "「メトポ」のサーバで侵害、一部会員のメアド流出か - 東京メトロ",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/29/56320.html",
+      "published_date": "2026-09-29",
+      "title": "調査・ホワイトペーパー ScanNetSecurity 2026.9.29 Tue 8:00 求職者やエンジニアを狙うヘッドハンティング型攻撃 ～ 警察庁が注意喚起する「WaterPlum」の手口 警察庁は9月18日、北朝鮮サイバー攻撃グループ「WaterPlum」及び北朝鮮IT労働者に関する日本、米国、豪州及びドイツによるパブリック・アトリビューションについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/29/56329.html",
+      "published_date": "2026-09-29",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.29 Tue 8:05 扶桑電通が社外関係者と利用していた共有フォルダに不正アクセス、26,489件の個人情報が漏えいした可能性 扶桑電通株式会社は9月10日、7月22日に公表した同社が利用するクラウドストレージへの不正アクセスについて、第2報を発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/29/56333.html",
+      "published_date": "2026-09-29",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.29 Tue 8:05 不正プログラム設置 ～ 東京大学大学院医学系研究科公共健康医学専攻ウェブサイトに不正アクセス 国立大学法人東京大学大学院医学系研究科は9月12日、公共健康医学専攻ウェブサイト（ https://www.m.u-tokyo.ac.jp/sph/ ）への不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/29/56332.html",
+      "published_date": "2026-09-29",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.29 Tue 8:05 モンベル・グローバルサイトに不正アクセス、最大15名分の個人情報が第三者に不正に取得された可能性 モンベルグループは9月18日、同社が運営する「モンベル・グローバルサイト」への不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/29/56326.html",
+      "published_date": "2026-09-29",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.29 Tue 8:05 「ワンストップジョブサイトくまもと」が改ざん被害、フェイクアラートが表示される状態に 熊本県は9月9日、同県が運営する「ワンストップジョブサイトくまもと」への不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/29/56331.html",
+      "published_date": "2026-09-29",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.29 Tue 8:05 「スマレジEC・リピート」「スマレジEC・B2B」に不正アクセス、一部の個人データが閲覧・取得された可能性 株式会社スマレジは9月25日、同社が提供する「スマレジEC・リピート」および「スマレジEC・B2B」への不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "Security NEXT",
+      "source_url": "https://www.security-next.com/190734",
+      "published_date": "2026-09-28",
+      "title": "日本郵便のサーバに不正アクセスか - 詳細は調査中",
+      "attack": true
+    },
+    {
+      "source": "Security NEXT",
+      "source_url": "https://www.security-next.com/190319",
+      "published_date": "2026-09-28",
+      "title": "教員5人のアカウントに不正アクセス、スパムの踏み台に - 日大",
+      "attack": true
+    },
+    {
+      "source": "Security NEXT",
+      "source_url": "https://www.security-next.com/190761",
+      "published_date": "2026-09-28",
+      "title": "ランサム被害、一部グループ会社の営業システムに影響 - 京王電鉄",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/28/56308.html",
+      "published_date": "2026-09-28",
+      "title": "脅威動向 ScanNetSecurity 2026.9.28 Mon 8:00 ネット証券等の不正取引被害が拡大、金融庁が注意喚起 2026年8月は4社で25件の不正取引 金融庁は9月9日、インターネット取引サービスへの不正アクセス・不正取引による被害への注意喚起を発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/28/56313.html",
+      "published_date": "2026-09-28",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.28 Mon 8:05 画像共有サービス「Gyazo」に不正アクセス、約2,362万件のユーザーに関するデータが流出 株式会社Helpfeelは9月25日、9月16日に公表した同社提供の画像共有サービス「Gyazo」への不正アクセスについて、第二報を発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/28/56315.html",
+      "published_date": "2026-09-28",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.28 Mon 8:05 REXTにランサムウェア攻撃、流出した可能性のある情報の一部がインターネット上に掲載 REXT Holdings 株式会社は9月11日、8月10日に公表した同社子会社のREXT株式会社の一部社内ネットワークシステムへのランサムウェアによる不正アクセスについて、第4報を発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/28/56316.html",
+      "published_date": "2026-09-28",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.28 Mon 8:05 PCデポのメールドメインの認証情報を不正利用、約1,800通の不審メールを送信 株式会社ピーシーデポコーポレーションは9月11日、メールドメインの認証情報の不正利用による不審メールの送信について発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/28/56312.html",
+      "published_date": "2026-09-28",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.28 Mon 8:05 JA遠州夢咲ホームページに不正アクセス、一時閉鎖 遠州夢咲農業協同組合（JA遠州夢咲）は9月9日、不正アクセスによるホームページの一時閉鎖について発表した。",
+      "attack": true
+    },
+    {
+      "source": "Yagura",
+      "source_url": "https://incident.yagurasec.com/incidents/2026-09-29-keio-group-ransomware/",
+      "published_date": "2026-09-26",
+      "title": "2026/09/29 京王電鉄、グループのサーバがランサムウェア攻撃を受けシステム障害 — 京王ストアの決済や京王プレッソインの予約受付に影響、鉄道運行に支障なし 情報収集中 中程度 京王電鉄株式会社（東京都多摩市／鉄道事業を中核に流通・不動産・レジャーサービスを展開する京王グループの中核会社）は2026年9月26日、同社グループのサーバがランサムウェアによる攻撃を受け、システム障害が発生していると公表した。京王ストアの一部店舗でクレジットカードや電子マネーの決済ができなくなり、京王プレッソインは新規予約の受付を当面停止、京王プラザホテルも自社サーバへの攻撃を確認したと公表している。鉄道の運行に支障はなく、情報漏えいの事実は公表時点で確認されていないとして調査が続いている。 →",
+      "attack": true
+    },
+    {
+      "source": "Yagura",
+      "source_url": "https://incident.yagurasec.com/incidents/2026-10-01-saga-university-nas-ransomware/",
+      "published_date": "2026-09-25",
+      "title": "2026/10/01 佐賀大学、事務情報システムのNASがランサムウェア被害 — 教職員・学生のID・パスワードが流出した可能性、事務用端末約500台を3日間停止 続報を注視中 重大 国立大学法人佐賀大学（佐賀市本庄町）は2026年9月25日、事務情報システムの一部でランサムウェアによる被害が発生したと公表した。事務部門が利用するNAS内のファイルが暗号化され、大学は該当NASをネットワークから隔離したうえで事務用端末約500台の利用を停止した。9月28日には、学内システムへのログインに使う教職員・学生のユーザー認証情報が流出した恐れがあると公表し、全教職員・学生にパスワードの変更を指示している。認証情報が使用された被害は確認されておらず、感染経路は公表されていない。 →",
+      "attack": true
+    },
+    {
+      "source": "Security NEXT",
+      "source_url": "https://www.security-next.com/190242",
+      "published_date": "2026-09-25",
+      "title": "川崎市施設のサイトに不正アクセス - サイト更新時に判明",
+      "attack": true
+    },
+    {
+      "source": "Security NEXT",
+      "source_url": "https://www.security-next.com/190247",
+      "published_date": "2026-09-25",
+      "title": "女性向け情報サイトの管理画面に不正アクセス - ハルメクHD",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/25/56296.html",
+      "published_date": "2026-09-25",
+      "title": "調査・ホワイトペーパー ScanNetSecurity 2026.9.25 Fri 8:00 ランサムウェアの被害報告件数が過去最多に ～ 警察庁 サイバー警察局便り 警察庁は9月10日、サイバー警察局便りR8Vol.15「「サイバー空間の脅威情勢」が公表されました 」を公開した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/25/56306.html",
+      "published_date": "2026-09-25",
+      "title": "コラム リーク・東郷 2026.9.25 Fri 8:10 今日もどこかで情報漏えい 第52回「2026年8月の情報漏えい」約一割で逮捕・懲戒・行政指導 8 月に最も件数換算の被害規模が大きかったのは、株式会社Eストアーによる「「ショップサーブ」に不正アクセス、不正なプログラムを実行し購入者情報を外部に送信」の 8,853,839 件であった。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/25/56303.html",
+      "published_date": "2026-09-25",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.25 Fri 8:05 極東開発工業子会社の日本トレクス、不正アクセスによるシステム障害を発表 極東開発工業株式会社は9月8日、同社グループ会社である日本トレクス株式会社への不正アクセスによるシステム障害の発生について発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/25/56299.html",
+      "published_date": "2026-09-25",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.25 Fri 8:05 実行犯が示唆したダークウェブでの情報公開は確認されず ～ ワシントンホテルにランサムウェア攻撃 ワシントンホテル株式会社は9月7日、2月14日に公表した同社の一部サーバのランサムウェア感染について、最終報を発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/25/56300.html",
+      "published_date": "2026-09-25",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.25 Fri 8:05 VIP・GOLDランク顧客の情報流出の可能性 ～ ファイブフォックスへのランサムウェア攻撃 株式会社ファイブフォックスは9月8日、7月14日に公表した同社でのランサムウェア感染の可能性について、第二報を発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/25/56304.html",
+      "published_date": "2026-09-25",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.25 Fri 8:05 ApplyNow 提供の採用管理プラットフォームに不正アクセス、マイナンバー含む個人データが漏えいした可能性 株式会社ApplyNowは9月9日、同社が提供する採用管理プラットフォーム「Interview Cloud」「ApplyNow」「ApplyNow Sign」への不正アクセスによる顧客および応募者の個人データが漏えいした可能性について発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/24/56283.html",
+      "published_date": "2026-09-24",
+      "title": "業界動向 ScanNetSecurity 2026.9.24 Thu 8:00 ガバメントソリューションサービス（GSS）への不正アクセス、政府が自民党に説明 自由民主党（自民党）は9月15日、ガバメントソリューションサービス（GSS）への不正アクセスによる個人情報漏えい事案について、政府から説明を受けたと発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/24/56285.html",
+      "published_date": "2026-09-24",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.24 Thu 8:05 連結子会社であるカインドオルへのフィッシング、トレジャー・ファクトリーグループ全体で再発防止に取り組む 東証プライム上場企業の株式会社トレジャー・ファクトリーは8月28日、同社連結子会社である株式会社カインドオルへの不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/24/56289.html",
+      "published_date": "2026-09-24",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.24 Thu 8:05 千葉県運営の「生命のにぎわい調査団」ページに不正アクセス、千葉県警からの連絡で発覚 千葉県は9月1日、同県が運営する生物多様性センターのホームページへの不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/24/56293.html",
+      "published_date": "2026-09-24",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.24 Thu 8:05 ロート製薬のシステムに不正アクセス ロート製薬株式会社は9月15日、9月11日に公表した同社システムへの不正アクセスについて、調査状況を発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/24/56286.html",
+      "published_date": "2026-09-24",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.24 Thu 8:05 バーチャル音楽ライブ配信アプリ「topia」の音声サーバに不正アクセス 株式会社アンビリアルは8月31日、同社が運営するバーチャル音楽ライブ配信アプリ「topia」の配信音声への不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/24/56292.html",
+      "published_date": "2026-09-24",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.24 Thu 8:05 「コープやまぐちLINEミニアプリ」に不正アクセス、データベースに保存されていた内容を精査し漏えいの可能性がある情報を確定 生活協同組合コープやまぐちは9月7日、8月28日に公表した同組合が提供する「コープやまぐちLINEミニアプリ」への不正アクセスについて、第二報を発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/24/56288.html",
+      "published_date": "2026-09-24",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.24 Thu 8:05 「カイクラサービス紹介サイト」に複数の不正プログラム、安全が確認できる環境に移設し再開 株式会社シンカは9月1日、同社が運営するサービス紹介サイトへの不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/24/56287.html",
+      "published_date": "2026-09-24",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.24 Thu 8:05 「paperlogic」に不正アクセス、現時点で情報の閲覧や外部への持ち出しが行われた痕跡は見つからず ペーパーロジック株式会社は9月1日、同社サービス「paperlogic」への不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "Security NEXT",
+      "source_url": "https://www.security-next.com/190198",
+      "published_date": "2026-09-18",
+      "title": "理工学部教職員がフィッシング被害、不審メールが送信 - 日大",
+      "attack": true
+    },
+    {
+      "source": "Security NEXT",
+      "source_url": "https://www.security-next.com/189792",
+      "published_date": "2026-09-18",
+      "title": "不正アクセスでサイト改ざん、内部に個人情報 - コンサル会社",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56262.html",
+      "published_date": "2026-09-18",
+      "title": "業界動向 ScanNetSecurity 2026.9.18 Fri 8:00 xxx.soumu.go.jp などのサブドメインも拒否に ～ 総務省を装うフィッシングメール対策強化 総務省は9月11日、同省を装ったなりすましメールへの対策強化について発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56270.html",
+      "published_date": "2026-09-18",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.18 Fri 8:05 顧客情報の一括エクスポートを確認 ～ カインドオルが利用するECプラットフォームに不正アクセス 株式会社カインドオルは8月28日、同社が運営するECサイトで利用しているECプラットフォームのスタッフアカウントへの不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56274.html",
+      "published_date": "2026-09-18",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.18 Fri 8:05 マネジメントサービスセンターのホームページに不正アクセス、管理者権限の取得や改ざんを確認 株式会社マネジメントサービスセンターは8月25日、同社ホームページへの不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56273.html",
+      "published_date": "2026-09-18",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.18 Fri 8:05 フィッシング詐欺等によるものとみられる不正アクセス・不正取引を確認 ～ 静銀ティーエム証券 静銀ティーエム証券株式会社は8月28日、同社の顧客の口座への不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56271.html",
+      "published_date": "2026-09-18",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.18 Fri 8:05 サーバ上にバックドア等の不正プログラムを設置 ～ 繋が運営するコーポレートサイトに不正アクセス 株式会社繋は8月27日、同社が運営するコーポレートサイト（ https://tsng.co.jp/ ）への不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "Security NEXT",
+      "source_url": "https://www.security-next.com/189987",
+      "published_date": "2026-09-17",
+      "title": "従業員アカウントが侵害、なりすましメールが送信 - ホテル運営会社",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/17/56257.html",
+      "published_date": "2026-09-17",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.17 Thu 8:05 表示された連絡先に電話 指示に従いパソコン操作 ～ 大田区民プラザでサポート詐欺被害 東京都大田区は9月4日、同区の指定管理者である公益財団法人大田区文化振興協会が管理運営する大田区民プラザでの情報漏えいの可能性について発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/17/56252.html",
+      "published_date": "2026-09-17",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.17 Thu 8:05 求人サービス「CINRA JOB」に不正アクセス、閲覧取得がなかったことを確認するに足る記録が存在しないため漏えいのおそれがあるものと判断 株式会社cinraは8月27日、同社が運営する求人サービス「CINRA JOB」（ https://job.cinra.net/ ）への不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/17/56256.html",
+      "published_date": "2026-09-17",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.17 Thu 8:05 プラグインの脆弱性を悪用 ～ 「洛西進学教室」「進学館」に不正アクセス 株式会社アップは9月4日、同社が運営するプロモーションサイト「洛西進学教室」及び「進学館」への不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/17/56258.html",
+      "published_date": "2026-09-17",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.17 Thu 8:05 データベース内の全てのデータを削除 ～「コープやまぐちLINEミニアプリ」に不正アクセス 生活協同組合コープやまぐちは8月28日、同組合が提供する「コープやまぐちLINEミニアプリ」への不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/17/56255.html",
+      "published_date": "2026-09-17",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.17 Thu 8:05 コロナが施工情報を管理するクラウドサービスに不正アクセス、最大35,000名分の個人情報が漏えいした可能性 株式会社コロナは8月28日、同社が利用するクラウドサービスへの不正アクセスによる個人情報漏えいの可能性について発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/17/56259.html",
+      "published_date": "2026-09-17",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.17 Thu 8:05 さくらインターネットが不正アクセス調査結果を発表「さくらのレンタルサーバ」全サーバ再構築など再発防止策を掲げる さくらインターネット株式会社は9月10日、8月17日に公表した同社レンタルサーバサービスの一部環境への不正アクセスについて、第三報を発表した。",
+      "attack": true
+    },
+    {
+      "source": "Yagura",
+      "source_url": "https://incident.yagurasec.com/incidents/2026-09-19-helpfeel-gyazo-upload-server-breach/",
+      "published_date": "2026-09-16",
+      "title": "2026/09/19 株式会社Helpfeel、画像共有サービス「Gyazo」に不正アクセス — ユーザー関連データ約2,362万件と画像メタデータ約4.9億件が流出、第二報で削除済み画像のメタデータ約1.74億件の流出も判明 続報を注視中 深刻 株式会社Helpfeel（京都府京都市／AIナレッジデータプラットフォームの開発・運用）は2026年9月16日、画像共有サービス「Gyazo」の画像アップロードサーバの脆弱性を悪用され、第三者にシステム上で任意のコマンドを実行されたと公表した。ユーザー関連データ約2,362万件と画像に関するメタデータ約4.9億件が外部に流出しており、漏えいした情報にはメールアドレス、パスワードのハッシュ値、ログインセッションID、非公開画像のパスフレーズのハッシュ値が含まれる。画像ファイルそのものの持ち出しは確認されていないが、画像URLを構成する情報が取得されたため、非公開画像が閲覧された可能性について調査が続いている。2026年9月25日の第二報では、主に2023年2月以前にユーザーが削除した画像に関するメタデータ約1.74億件の外部流出が新たに確認された。サービスは9月22日に一時停止され、9月27日午前8時に再開している。 →",
+      "attack": true
+    },
+    {
+      "source": "Security NEXT",
+      "source_url": "https://www.security-next.com/190377",
+      "published_date": "2026-09-16",
+      "title": "ロート製薬の不正アクセス、顧客との通話音声データが流出の可能性",
+      "attack": true
+    },
+    {
+      "source": "Security NEXT",
+      "source_url": "https://www.security-next.com/177455",
+      "published_date": "2026-09-16",
+      "title": "マルウェアの挙動をリアルタイム監視するOSSを公開 - JPCERT/CC",
+      "attack": true
+    },
+    {
+      "source": "Security NEXT",
+      "source_url": "https://www.security-next.com/189866",
+      "published_date": "2026-09-16",
+      "title": "クリエイティブ業界向け求人サービス「CINRA JOB」に不正アクセス",
+      "attack": true
+    },
+    {
+      "source": "Security NEXT",
+      "source_url": "https://www.security-next.com/174925",
+      "published_date": "2026-09-16",
+      "title": "「SonicWall SMA 100」にアップデート - 既知マルウェアの除去機能を追加",
+      "attack": true
+    },
+    {
+      "source": "Security NEXT",
+      "source_url": "https://www.security-next.com/190746",
+      "published_date": "2026-09-16",
+      "title": "「Citrix NetScaler」に複数脆弱性 - 2件で悪用を確認、侵害調査を",
+      "attack": true
+    },
+    {
+      "source": "Security NEXT",
+      "source_url": "https://www.security-next.com/190883",
+      "published_date": "2026-09-16",
+      "title": "「Catalyst SD-WAN Manager」にゼロデイ脆弱性 - 更新や侵害調査を",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/16/56244.html",
+      "published_date": "2026-09-16",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.16 Wed 8:05 鳥取県環境放射線モニタリングシステムにランサムウェア攻撃、副サーバは被害受けず放射線モニタリングに影響なし 鳥取県は9月3日、モニタリングポストの放射線量率等の測定データを収集・監視する鳥取県環境放射線モニタリングシステムへのサイバー攻撃について発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/16/56246.html",
+      "published_date": "2026-09-16",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.16 Wed 8:05 日鉄興和不動産が利用するクラウドサービスに不正アクセス、マンション販売業務等に関する顧客情報を保存 日鉄興和不動産株式会社は8月26日、同社が利用するクラウドサービスへの不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/16/56243.html",
+      "published_date": "2026-09-16",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.16 Wed 8:05 保育園運営のさくらさくみらいが利用するクラウドサービス事業者に不正アクセス、一部サーバのパスワード情報が流出した可能性 保育園を運営する株式会社さくらさくみらいは9月7日、同社がサービスを利用しているクラウドサービス事業者（委託先）への不正アクセスによる一部サーバのパスワード情報が流出した可能性について発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/16/56247.html",
+      "published_date": "2026-09-16",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.16 Wed 8:05 ホテル白菊が利用する宿泊予約・販売管理システムに不正アクセス、フィッシングメール送信を確認 つるみ観光株式会社は8月27日、4月10日に公表した同社が運営するホテル白菊が利用する宿泊予約・販売管理システムへの不正アクセスの可能性について、調査結果を発表した。",
+      "attack": true
+    },
+    {
+      "source": "Yagura",
+      "source_url": "https://incident.yagurasec.com/incidents/2026-09-17-odawara-engineering-mail-account-bec/",
+      "published_date": "2026-09-15",
+      "title": "2026/09/17 小田原エンジニアリング、ドイツ子会社出向者のメールが5か月間読まれる — なりすまし入金指示で取引先に金銭被害 続報を注視中 重大 株式会社小田原エンジニアリング（神奈川県足柄上郡松田町／モーター用巻線設備の製造）は2026年9月15日、ドイツ子会社へ出向していた従業員1人のメールアカウントが2026年3月27日から8月31日まで第三者に不正アクセスされ、取引先担当者の個人情報を含む約3,500通が閲覧されたと公表した。第三者はやり取りの内容を踏まえて同社従業員になりすまし、取引先へ入金を指示するメールを送信しており、一部の取引先で金銭被害が発生している。侵入経路は公表されていない。 →",
+      "attack": true
+    },
+    {
+      "source": "Yagura",
+      "source_url": "https://incident.yagurasec.com/incidents/2026-07-24-murauchi-dotcom-unauthorized-access/",
+      "published_date": "2026-09-15",
+      "title": "2026/07/24 通販のムラウチドットコム（東京都八王子市）、不正アクセスで771万6,811件の個人情報漏えいを確認 — Webシステムの脆弱性を起点に複数システムへ侵入 全容判明 深刻 株式会社ムラウチドットコム（東京都八王子市北野町／インターネット通信販売・インターネットメディア事業）は2026年9月15日、7月15日に確認された一部システムへの不正アクセスについて外部専門会社によるフォレンジック調査が完了し、771万6,811件の個人情報の漏えいが確認されたと公表した。Webシステムの一部に存在した脆弱性の悪用を起点に複数のシステムへ不正アクセスされたもので、クレジットカード情報とパスワードは含まれていないとしている。 →",
+      "attack": true
+    },
+    {
+      "source": "Security NEXT",
+      "source_url": "https://www.security-next.com/190315",
+      "published_date": "2026-09-15",
+      "title": "円谷プロの購入抽選に不正アクセス - 「当選」が「落選」に",
+      "attack": true
+    },
+    {
+      "source": "Security NEXT",
+      "source_url": "https://www.security-next.com/189665",
+      "published_date": "2026-09-15",
+      "title": "予約サイトなどで侵害、影響など調査中 - 審美歯科チェーン",
+      "attack": true
+    },
+    {
+      "source": "Security NEXT",
+      "source_url": "https://www.security-next.com/189799",
+      "published_date": "2026-09-15",
+      "title": "サイト改ざん被害、CMS脆弱性で - 東京都管工事工業協同組合",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/15/56229.html",
+      "published_date": "2026-09-15",
+      "title": "調査・ホワイトペーパー ScanNetSecurity 2026.9.15 Tue 8:00 IPA「経営者のためのランサムウェア対策ハンドブック」公開 ～ 脅威に立ち向かうには経営者の関与が不可欠 独立行政法人情報処理推進機構（IPA）は9月8日、「ランサムウェア被害から学ぶ教訓集～経営者のためのランサムウェア対策ハンドブック～」を公開した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/15/56234.html",
+      "published_date": "2026-09-15",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.15 Tue 8:05 日本大学理工学部教職員のアカウントに対し巧妙に偽装されたフィッシングメール、多数の不審メールを送信 日本大学理工学部は9月8日、不正アクセスによる迷惑メール発信について発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/15/56231.html",
+      "published_date": "2026-09-15",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.15 Tue 8:05 SCATが利用するクラウドが不正利用、警察に届け 発生した利用料金を巡り事業者と協議 SCAT株式会社は9月4日、同社利用の有償クラウドサービスの第三者による不正利用について発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/15/56232.html",
+      "published_date": "2026-09-15",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.15 Tue 8:05 MAMAMOO JAPAN OFFICIAL FANCLUB「MOOMOO JAPAN」に不正アクセス 株式会社RBW JAPANは9月3日、同社が運営するMAMAMOO JAPAN OFFICIAL FANCLUB「MOOMOO JAPAN」への不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "Security NEXT",
+      "source_url": "https://www.security-next.com/189985",
+      "published_date": "2026-09-14",
+      "title": "生徒寮でサポート詐欺、入寮者の個人情報が流出か - 宮崎県",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/14/56211.html",
+      "published_date": "2026-09-14",
+      "title": "調査・ホワイトペーパー ScanNetSecurity 2026.9.14 Mon 8:00 不正アクセスや報告遅れを中心に民間 98 件へ指導 ～ 個人情報保護委員会が第367回会合を開催 個人情報保護委員会は9月2日、「第367回 個人情報保護委員会」を同日開催したと発表した。あわせて同会での資料も公開している。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/14/56220.html",
+      "published_date": "2026-09-14",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.14 Mon 8:05 サンメッセが利用する購買発注システム「WEB 発注システム」へサイバー攻撃 サンメッセ株式会社は9月8日、同社が利用する購買発注システム「WEB 発注システム」へのサイバー攻撃について発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/14/56223.html",
+      "published_date": "2026-09-14",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.14 Mon 8:05 VPNの脆弱性を利用 ～ デジタル庁が運用するガバメントソリューションサービス（GSS）に不正アクセス、約24.6万件の個人情報が漏えいした可能性 デジタル庁は9月11日、ガバメントソリューションサービスへの不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/14/56218.html",
+      "published_date": "2026-09-14",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.14 Mon 8:05 TRUNK 従業員のメールアカウントに不正アクセス、不審メール送信も確認 ホテル企画運営を行う株式会社TRUNKは9月1日、同社従業員のメールアカウントへの不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "Yagura",
+      "source_url": "https://incident.yagurasec.com/incidents/2026-09-16-tsuburaya-mogily-lottery-tampering/",
+      "published_date": "2026-09-11",
+      "title": "2026/09/16 映像制作の円谷プロダクション（東京都渋谷区）、直営店「ULTRA MART」の購入抽選システムが不正アクセスで改ざん — 当選していた133人が「落選」表示に 続報を注視中 中程度 株式会社円谷プロダクション（東京都渋谷区／映像制作）とmogily株式会社は2026年9月11日、直営店「ULTRA MART」がLINEアプリ上で実施した購入抽選に使うデジタル整理券システム「mogily」の管理システムが2026年9月9日から10日にかけて外部から不正アクセスを受け、本来「当選」だった133人の当落データが「落選」に書き換えられていたと公表。個人情報の漏えいは確認されておらず、対象者の状態はすべて「当選」に復旧済み。 →",
+      "attack": true
+    },
+    {
+      "source": "Yagura",
+      "source_url": "https://incident.yagurasec.com/incidents/2026-09-14-digital-agency-gss-vpn-unauthorized-access/",
+      "published_date": "2026-09-11",
+      "title": "2026/09/14 デジタル庁、政府共通の業務実施環境「GSS」がVPN機器の脆弱性を悪用した不正アクセスで職員等 約24.6万件の個人情報漏えいのおそれ — 5月侵入・6月検知・9月公表 続報を注視中 重大 デジタル庁は2026年9月11日、同庁が運用する政府共通の業務実施環境「ガバメントソリューションサービス（GSS）」がVPN機器の脆弱性を悪用した不正アクセスを受け、保守運用担当者のアカウントが悪用されて職員・事業者ら計約24万6,000件（職員等18万9,000件、事業者・個人5万7,000件）の個人情報が外部流出のおそれがあると公表。5月下旬に侵入、6月25日に大量ファイルアクセスを検知、7月9日に侵害アカウントを停止・外部通信を遮断。氏名・メールアドレス・電話番号・住所が対象で、マイナンバー・金融情報は非該当。 →",
+      "attack": true
+    },
+    {
+      "source": "Security NEXT",
+      "source_url": "https://www.security-next.com/190208",
+      "published_date": "2026-09-11",
+      "title": "政府共通の業務実施環境「GSS」に不正アクセス - VPN機器の脆弱性を悪用",
+      "attack": true
+    },
+    {
+      "source": "Security NEXT",
+      "source_url": "https://www.security-next.com/188880",
+      "published_date": "2026-09-11",
+      "title": "サポート詐欺で約4000ファイル削除 - サカイHD子会社",
+      "attack": true
+    },
+    {
+      "source": "Security NEXT",
+      "source_url": "https://www.security-next.com/190203",
+      "published_date": "2026-09-11",
+      "title": "「東京外環プロジェクト」サイトで侵害のおそれ - 公開を一時停止",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/11/56195.html",
+      "published_date": "2026-09-11",
+      "title": "新製品・新サービス ScanNetSecurity 2026.9.11 Fri 8:00 「ネット de 診断 AIホワイトハッカー侵入テスト」提供開始、サイバーセキュリティ特化AI基盤「AIホワイトハッカー byGMO」を活用 GMOサイバーセキュリティ byイエラエ株式会社は9月3日、「ネット de 診断 AIホワイトハッカー侵入テスト」を同日から順次提供すると発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/11/56204.html",
+      "published_date": "2026-09-11",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.11 Fri 8:05 通常とは異なるセキュリティ認証を求める画面が表示される事象を確認 ～ 日本ブラインドサッカー協会ウェブサイトが改ざん被害 特定非営利活動法人日本ブラインドサッカー協会（JBFA）は8月20日、同協会ウェブサイトの改ざんについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/11/56205.html",
+      "published_date": "2026-09-11",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.11 Fri 8:05 詐欺被害も発生 ～ 長野県多文化共生相談センターの WhatsApp のアカウントが不正利用 長野県は8月20日、長野県多文化共生相談センター相談員をかたった詐欺事案等の発生について発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/11/56207.html",
+      "published_date": "2026-09-11",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.11 Fri 8:05 日本ビジネスデータープロセシングセンターに不正アクセス 株式会社日本ビジネスデータープロセシングセンターは8月24日、同社システムへの不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/11/56209.html",
+      "published_date": "2026-09-11",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.11 Fri 8:05 日本スウェージロックFST にランサムウェア攻撃 日本スウェージロックFST株式会社は8月26日、同社へのランサムウェア攻撃について発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/11/56206.html",
+      "published_date": "2026-09-11",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.11 Fri 8:05 いまでやが管理する注文情報が外部流出した可能性、フィッシングサイト上でカード情報を入力する被害も 株式会社いまでやは8月21日、同社が管理する顧客の注文情報が外部流出した可能性について発表した。同社ウェブサイトを一時停止したため、PR TIMESで公表している。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/11/56208.html",
+      "published_date": "2026-09-11",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.11 Fri 8:05 「hololive OFFICIAL CARD GAME」公式サイトに不正アクセス、CMSで脆弱性が公表されたことを受け調査し発覚 カバー株式会社は8月25日、「hololive OFFICIAL CARD GAME」公式サイトヘの不正アクセスの可能性について発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/11/56203.html",
+      "published_date": "2026-09-11",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.11 Fri 8:00 立教大学利用のGoogeアカウントに不正アクセス、合計17,668件の迷惑メールを送信 立教大学は9月8日、同学で利用しているGoogeアカウントへの不正アクセスによる迷惑メール送信について発表した。",
+      "attack": true
+    },
+    {
+      "source": "Security NEXT",
+      "source_url": "https://www.security-next.com/190132",
+      "published_date": "2026-09-10",
+      "title": "採用管理プラットフォームに不正アクセス - きちりHD子会社",
+      "attack": true
+    },
+    {
+      "source": "Security NEXT",
+      "source_url": "https://www.security-next.com/189674",
+      "published_date": "2026-09-10",
+      "title": "システムがランサム被害、一部業務を停止 - インキメーカー",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/10/56191.html",
+      "published_date": "2026-09-10",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.10 Thu 8:05 東京科学大学の情報基盤に不正アクセス、個人情報が漏えいした可能性 国立大学法人東京科学大学は9月7日、同学の情報基盤への不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/10/56187.html",
+      "published_date": "2026-09-10",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.10 Thu 8:05 スプーンのウェブサイトが改ざん被害、偽のセキュリティ確認画面等が表示される事象 株式会社スプーンは8月20日、同社ウェブサイトの不正改ざんについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/10/56185.html",
+      "published_date": "2026-09-10",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.10 Thu 8:05 クラウド環境の不正アクセス制限に脆弱性、入居申込者情報が流出した可能性 株式会社エリッツは8月20日、個人情報流出の可能性について発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/10/56189.html",
+      "published_date": "2026-09-10",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.10 Thu 8:05 REVISIO 役職員が使用する PC がマルウェア感染、ローカル環境に保存されていた個人情報が外部漏えいした可能性を否定できず REVISIO株式会社は9月8日、同社PCのマルウェア感染について発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/10/56190.html",
+      "published_date": "2026-09-10",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.10 Thu 8:05 NEXCO東日本の東京外環プロジェクトホームページで不正アクセス疑い 東日本高速道路株式会社（NEXCO東日本）は9月4日、東京外環プロジェクトホームページの一時公開停止について発表した。",
+      "attack": true
+    },
+    {
+      "source": "Security NEXT",
+      "source_url": "https://www.security-next.com/189902",
+      "published_date": "2026-09-09",
+      "title": "施設職員がサポート詐欺被害、PC内部に個人情報 - 大田区",
+      "attack": true
+    },
+    {
+      "source": "Security NEXT",
+      "source_url": "https://www.security-next.com/190050",
+      "published_date": "2026-09-09",
+      "title": "学生の複数アカウントに不正アクセス、スパム踏み台に - 立教大",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/09/56166.html",
+      "published_date": "2026-09-09",
+      "title": "セミナー・イベント ScanNetSecurity 2026.9.9 Wed 8:00 「フィッシング対策セミナー2026」11 / 19 開催 フィッシング対策協議会は9月1日、「フィッシング対策セミナー2026」を11月19日に開催すると発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/09/56173.html",
+      "published_date": "2026-09-09",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.9 Wed 8:05 東邦通信システムズが利用する外部ホスティングサーバに不正アクセス、一部メールアカウントで設定情報の書き換え 株式会社東邦通信システムズは8月19日、同社がサービス提供に利用している外部ホスティングサーバ環境への不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/09/56171.html",
+      "published_date": "2026-09-09",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.9 Wed 8:05 ジェックスにランサムウェア攻撃、個人情報が一時的に侵入者に閲覧可能な状態に ジェックス株式会社は8月19日、2月6日に公表した同社サーバでのランサムウェア被害について、調査結果と再発防止策を発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/09/56172.html",
+      "published_date": "2026-09-09",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.9 Wed 8:05 エヌ・イー ケムキャットの社内システムに不正アクセス、端末でマルウェアが実行されたことが原因 エヌ・イー ケムキャット株式会社は8月20日、同社社内システムへの不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/09/56170.html",
+      "published_date": "2026-09-09",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.9 Wed 8:05 DAIKO NEXT LINK のメールアカウントに不正アクセス、二次被害と不正送信の拡大防止のためメールシステムを一時的に停止 DAIKO NEXT LINK株式会社は8月19日、同社メールシステムへの不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "Security NEXT",
+      "source_url": "https://www.security-next.com/189789",
+      "published_date": "2026-09-08",
+      "title": "グループのシステムに不正アクセス、個人情報流出の可能性 - 三井不動産",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/08/56152.html",
+      "published_date": "2026-09-08",
+      "title": "調査・ホワイトペーパー ScanNetSecurity 2026.9.8 Tue 8:00 従来のバックアップやBCPは意図的侵害を想定せず ～ NTTデータグループ、サイバーセキュリティ グローバル動向四半期レポート（2025年度第3四半期） 株式会社NTTデータグループは8月26日、サイバーセキュリティに関するグローバル動向四半期レポート（2025年度第3四半期）を公開した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/08/56151.html",
+      "published_date": "2026-09-08",
+      "title": "調査・ホワイトペーパー ScanNetSecurity 2026.9.8 Tue 8:00 サイバー攻撃の「被害経験なし」企業は約 6 割へ減少 ～ 東商2026年アンケート調査 東京商工会議所は8月24日、「会員企業の災害・リスク対策に関するアンケート」2026年調査結果を発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/08/56158.html",
+      "published_date": "2026-09-08",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.8 Tue 8:05 教育ソフトウェアの休眠中のレンタルサーバにランサムウェア攻撃、暗号化被害と不正アクセスの痕跡を確認 株式会社教育ソフトウェアは8月17日、長期間使用していないサーバへの不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/08/56154.html",
+      "published_date": "2026-09-08",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.8 Tue 8:05 パスキー設定を要請 ～ 浜銀TT証券でフィッシングによる不正アクセス・取引被害発生 浜銀TT証券株式会社は9月3日、同社のインターネット取引サービス「浜銀TT証券ダイレクト」での不正アクセス・不正取引の被害の発生について発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/08/56156.html",
+      "published_date": "2026-09-08",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.8 Tue 8:05 さくらインターネットへの不正アクセス、案内ページを公開 さくらインターネット株式会社は8月20日、8月17日に公表した同社レンタルサーバサービスの一部環境への不正アクセスについての案内ページを公開した。最新のニュースリリース、FAQの他、必要な案内を随時掲載している。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/08/56160.html",
+      "published_date": "2026-09-08",
+      "title": "TheRegister The Register誌特約記事 2026.9.8 Tue 8:20 AI がランサムウェア攻撃全工程を実行、被害企業に 80 ページにわたる“セキュリティ監査報告書”まで提出 「攻撃者は戦術面での実行を AI エージェントに委ね、エージェントは監視・評価・行動・再計画のサイクルをリアルタイムで繰り返し、攻撃の各段階の\"継ぎ目\"で（人間による判断なら必ず発生する）遅れをなくすことで、侵入工程全体を一貫して高速化した」",
+      "attack": true
+    },
+    {
+      "source": "Security NEXT",
+      "source_url": "https://www.security-next.com/188534",
+      "published_date": "2026-09-07",
+      "title": "社内ファイルサーバが侵害、情報流出が判明 - アンビションDX",
+      "attack": true
+    },
+    {
+      "source": "Security NEXT",
+      "source_url": "https://www.security-next.com/189663",
+      "published_date": "2026-09-07",
+      "title": "「まんだらけ」サーバに不正侵入、情報流出か - 通販やオークションは再開",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/05/56381.html",
+      "published_date": "2026-09-07",
+      "title": "東産業 公式サイトにwp2shell を悪用した不正アクセス",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/05/56380.html",
+      "published_date": "2026-09-07",
+      "title": "日本大学の計 5 名の教員アカウントに不正アクセス、スパムメール送信の踏み台に",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56391.html",
+      "published_date": "2026-09-07",
+      "title": "ムラウチドットコムに不正アクセス、7,716,811件の個人情報が漏えい",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/07/56140.html",
+      "published_date": "2026-09-07",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.7 Mon 8:05 資格情報の不正利用でシステム閲覧被害 ～ 三井不動産、最大5.5万件の情報漏えいの可能性 三井不動産株式会社は9月1日、同社グループが利用する一部のシステムへの不正アクセスによる情報漏えいの可能性について発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/07/56144.html",
+      "published_date": "2026-09-07",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.7 Mon 8:05 VOISING が利用する BI ツールに不正アクセス、保管されていたデータの不正取得を確認 アイドルサポート事業などを行う株式会社VOISINGは8月18日、同社が社内で利用しているデータ分析システムBIツール（ビジネスインテリジェンスツール）への不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/07/56141.html",
+      "published_date": "2026-09-07",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.7 Mon 8:05 T&K TOKAにランサムウェア攻撃、一部の業務を停止 株式会社T&K TOKAは8月28日、同社システムへの不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/07/56142.html",
+      "published_date": "2026-09-07",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.7 Mon 8:05 01銀行のシステムに不正アクセス、最大100社の情報が漏えい 01銀行株式会社は8月27日、同行システムへの不正アクセスについて発表した。",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56393.html",
+      "published_date": "2026-09-07",
+      "title": "「信濃毎日新聞デジタル」に不正アクセス、一時的に一部の履歴データが消去",
+      "attack": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56392.html",
+      "published_date": "2026-09-07",
+      "title": "「PhotoGoods」に不正アクセス、カード情報が漏えいした可能性",
+      "attack": true
+    },
+    {
+      "source": "Yagura",
+      "source_url": "https://incident.yagurasec.com/incidents/2026-09-15-miyazaki-saito-dormitory-support-scam/",
+      "published_date": "2026-09-06",
+      "title": "2026/09/15 宮崎県教育委員会、県立学校の西都地区生徒寮でサポート詐欺被害 — 運営受託先の業務用パソコンが遠隔操作され、入寮者76人・寮職員10人の情報が流出した可能性 続報を注視中 中程度 宮崎県教育委員会は2026年9月6日、西都市内の「西都地区生徒寮」で業務用パソコンがインターネットを通じて不正アクセスを受け、個人情報が漏えいした可能性があると公表した。2026年9月4日夕方、寮の管理人が防災気象情報を調べていた際に「ウイルスに感染した」とする警告画面が表示され、画面に記載された電話番号へ連絡したところ、パソコン関連会社の社員を名乗る人物の指示で業務用パソコンを遠隔操作された。2020年度から2026年度までの入寮者76人と、2024年度から2026年度までの寮職員10人の情報が対象となっている。 →",
+      "attack": true
+    }
+  ]
+}
