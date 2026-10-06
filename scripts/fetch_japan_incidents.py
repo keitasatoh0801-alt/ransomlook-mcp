@@ -195,16 +195,11 @@ def collect_smartscope(cutoff):
         date = f"{year:04d}-{month:02d}-{int(m.group(2)):02d}"
         if date < cutoff:
             continue
-        attack_text = f"{entry} {org} {count}".lower()
-        # SmartScope's list contains non-cyber causes too. Only keep explicit
-        # attack/compromise classifications; do not infer an attack from a
-        # generic data-leak row.
-        attack_markers = [
-            "unauthorized access", "ransomware", "account takeover",
-            "vulnerability", "malware", "social engineering", "cyber attack"
-        ]
-        if not any(x in attack_text for x in attack_markers):
-            continue
+        # This English SmartScope table is specifically the 18 cases
+        # with 100,000+ affected records/accounts/people. The table is part of
+        # SmartScope's breach/unauthorized-access tracker, so rows such as
+        # "Entry point not stated" are still cyber incidents; do not discard
+        # them merely because the entry point is unknown.
         out.append({
             "source": "SmartScope",
             "source_url": url,
