@@ -10,6 +10,17 @@ RansomLook の公開APIを、読み取り専用のModel Context Protocol (MCP) s
 - `actor_profile(actor)` — Threat Actor情報
 - `crypto_addresses(group)` — グループに関連する暗号資産アドレス
 
+## 国内サイバーインシデント情報
+
+GitHub Actionsで、RansomLookに加えて国内の公開情報源を定期取得します。
+
+- Security NEXT
+- Yagura
+- ScanNetSecurity
+- SmartScope
+
+`data/incidents.json` は、30日以内の公開情報からサイバー攻撃関連だけを抽出したスナップショットです。誤送信・紛失・設定ミス・内部不正などは対象外です。
+
 ## 前提
 
 RansomLookの公開APIは、上記の読み取り用途ではAPIキー不要です。
