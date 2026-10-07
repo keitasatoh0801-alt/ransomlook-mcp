@@ -169,6 +169,16 @@ def collect_google_news(cutoff):
                 try: dt=datetime.strptime(pub,"%a, %d %b %Y %H:%M:%S +0000").date().isoformat()
                 except Exception: continue
             if dt<cutoff: continue
+            if any(x in title for x in [
+                "国内不正アクセス","企業や自治体への不正アクセス","なぜ不正アクセス","不正アクセスなぜ",
+                "専門家の見解","識者の見解","サイバー攻撃による情報流出続発","日本とデンマークの企業や機関",
+                "AIで武装強化されたランサムウエア","自律型サイバー攻撃","自己防衛","ウェビナー","経営層向け",
+                "ランサムウェア集団「Qilin」幹部","国際的サイバー攻撃集団「キリン」","ランサムウェア集団「KillSec」",
+                "ランサムウェア グループ Qilin","ランサムウェア集団 Qilin","本当に怖い情報流出"
+            ]): continue
+            # Google News is a discovery source; retain only titles that identify a concrete victim.
+            if not extract_organization(title):
+                continue
             # Google News links are source-specific redirect URLs; keep them for traceability.
             key=(title,link)
             if key in seen: continue
@@ -211,7 +221,15 @@ def extract_organization(text):
         (r"ULTRA MART|円谷プロ","円谷プロダクション"),(r"スマチケ|e\+","イープラス"),
         (r"GSS","デジタル庁"),(r"佐賀大|佐賀大学","佐賀大学"),(r"京王電鉄|京王ストア","京王電鉄"),
         (r"信濃毎日新聞デジタル","信濃毎日新聞"),(r"Times Car","パーク24"),(r"Sakura Internet","さくらインターネット"),
-        (r"KKR京都くに荘","国家公務員共済組合連合会"),(r"カイクラ","シンカ"),
+        (r"KKR京都くに荘","国家公務員共済組合連合会"),
+        (r"ニモカ|nimoca","ニモカ"),(r"GMO系|GMO","GMO"),
+        (r"大起水産","大起水産"),(r"アバハウス","アバハウスインターナショナル"),
+        (r"ジャパンタイムズ","ジャパンタイムズ"),(r"第一ライフ","第一生命"),
+        (r"原子力機構|日本原子力研究開発機構","日本原子力研究開発機構"),
+        (r"日本エネルギー経済研究所","日本エネルギー経済研究所"),
+        (r"佐川急便","佐川急便"),(r"ヤマト運輸","ヤマト運輸"),
+        (r"郵便局アプリ","日本郵便"),(r"日本交通","日本交通"),
+        (r"セイコーマート","セイコーマート"),(r"カイクラ","シンカ"),
         (r"日本経済新聞社|日経新聞","日本経済新聞社"),(r"日経BP","日経BP"),
         (r"ニッポンレンタカー","ニッポンレンタカーサービス"),(r"ベネワン・プラットフォーム|ベネフィット・ワン","ベネフィット・ワン"),
         (r"ムラウチドットコム","ムラウチドットコム"),
