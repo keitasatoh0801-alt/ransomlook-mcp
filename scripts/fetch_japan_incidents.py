@@ -237,6 +237,13 @@ def extract_organization(text):
         (r"ニッポンレンタカー","ニッポンレンタカーサービス"),(r"ベネワン・プラットフォーム|ベネフィット・ワン","ベネフィット・ワン"),
         (r"ムラウチドットコム","ムラウチドットコム"),
     ]
+    explicit_patterns=[
+        r"((?:株式会社|有限会社|合同会社|国立大学法人|学校法人|独立行政法人)[^、。\n]{1,80}?)(?=(?:は|が|に|の))",
+        r"([^、。\n]{2,60}(?:株式会社|有限会社|合同会社|大学法人|学校法人|独立行政法人))(?=(?:は|が|に|の))",
+    ]
+    for pat in explicit_patterns:
+        m=re.search(pat,t,re.I)
+        if m: return clean(m.group(1))
     hits=[]
     for pattern,name in aliases:
         m=re.search(pattern,t,re.I)
