@@ -107,7 +107,7 @@ def collect_yagura(cutoff):
     return out
 
 def article_date_from_url(url, fallback):
-    m = re.search(r"/(20\\d{2})/(\\d{2})/(\\d{2})/", url)
+    m = re.search(r"/(20\d{2})/(\d{2})/(\d{2})/", url)
     return f"{m.group(1)}-{m.group(2)}-{m.group(3)}" if m else fallback
 
 def collect_scannet(cutoff):
@@ -121,8 +121,8 @@ def collect_scannet(cutoff):
             date = article_date_from_url(full, date)
             if date>=cutoff: page_old=False
             if date<cutoff or not is_attack(title): continue
-            title = re.sub(r"^インシデント・情報漏えい\\s+ScanNetSecurity\\s+20\\d{2}\\.\\d{1,2}\\.\\d{1,2}.*?\\s+\\d{1,2}:\\d{2}\\s+", "", clean(title))
-            title = re.sub(r"^セキュリティホール・脆弱性\\s+ScanNetSecurity\\s+.*?\\s+", "", title)
+            title = re.sub(r"^インシデント・情報漏えい\s+ScanNetSecurity\s+20\d{2}\.\d{1,2}\.\d{1,2}.*?\s+\d{1,2}:\d{2}\s+", "", clean(title))
+            title = re.sub(r"^セキュリティホール・脆弱性\s+ScanNetSecurity\s+.*?\s+", "", title)
             out.append({"source":"ScanNetSecurity","source_url":full,"published_date":date,"title":title,"attack":True})
         if page_old: break
     return out
