@@ -366,7 +366,13 @@ def enrich_incidents(items):
         title_text=clean(item.get("title",""))
         source_text=clean(" ".join([title_text,body]))
         item=dict(item)
-        org=extract_title_organization(title_text) or extract_organization(title_text) or extract_organization(body[:1500]) or item.get("organization")
+        title_org=extract_title_organization(title_text)
+        # For ScanNetSecurity, the article title is authoritative for the victim.
+        # Do not let related-article text in the HTML contaminate the organization.
+        if item.get("source")=="ScanNetSecurity":
+            org=title_org or extract_organization(title_text) or item.get("organization")
+        else:
+            org=title_org or extract_organization(title_text) or extract_organization(body[:1500]) or item.get("organization")
         if org: item["organization"]=org
         item["service"]=extract_service(title_text,org) or extract_service(body[:1500],org)
         title_fields=extract_incident_fields(title_text,org)
