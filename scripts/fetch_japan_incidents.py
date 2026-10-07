@@ -464,7 +464,16 @@ def same_incident(a,b):
     same_day_title_a=_tokens(a.get("title",""))
     same_day_title_b=_tokens(b.get("title",""))
     same_day_title_overlap=len(same_day_title_a&same_day_title_b)/max(1,min(len(same_day_title_a),len(same_day_title_b))) if same_day_title_a and same_day_title_b else 0
-    if aa and ab and aa==ab and da==db and (overlap>=0.15 or same_day_title_overlap>=0.20):
+    # Japanese headlines are often tokenized differently because digits and
+    # kana are attached to nouns. Use character bigrams as a second similarity
+    # signal for same-day media duplicates.
+    def bigrams(v):
+        z=re.sub(r"[^一-龥ぁ-んァ-ヶA-Za-z0-9]","",v.lower())
+        return {z[i:i+2] for i in range(len(z)-1)}
+    ba=bigrams(a.get("title",""))
+    bb=bigrams(b.get("title",""))
+    bigram_overlap=len(ba&bb)/max(1,min(len(ba),len(bb))) if ba and bb else 0
+    if aa and ab and aa==ab and da==db and (overlap>=0.15 or same_day_title_overlap>=0.20 or bigram_overlap>=0.35):
         return True
 
     # Same organization + same attack type + distinctive incident facts.
