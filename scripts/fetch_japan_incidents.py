@@ -87,6 +87,7 @@ def collect_security_next(cutoff):
         for href,title,date in p.links:
             full=urljoin(url,href)
             if not title or not date or not re.search(r"security-next\.com/\d+",full): continue
+            if any(k in title for k in ["OSSを公開","アップデート","脆弱性","ゼロデイ","マルウェアの挙動","除去機能"]): continue
             if date>=cutoff: page_old=False
             if date<cutoff or not is_attack(title): continue
             out.append({"source":"Security NEXT","source_url":full,"published_date":date,"title":clean(title),"attack":True})
@@ -235,7 +236,7 @@ def extract_organization(text):
         (r"セイコーマート","セイコーマート"),(r"カイクラ","シンカ"),
         (r"日本経済新聞社|日経新聞","日本経済新聞社"),(r"日経BP","日経BP"),
         (r"ニッポンレンタカー","ニッポンレンタカーサービス"),(r"ベネワン・プラットフォーム|ベネフィット・ワン","ベネフィット・ワン"),
-        (r"ムラウチドットコム","ムラウチドットコム"),
+        (r"ムラウチドットコム","ムラウチドットコム"),(r"ロート製薬","ロート製薬"),(r"CINRA JOB|CINRA","CINRA"),(r"東京外環プロジェクト|NEXCO東日本","東日本高速道路"),
     ]
     explicit_patterns=[
         r"((?:株式会社|有限会社|合同会社|国立大学法人|学校法人|独立行政法人)[^、。\n]{1,80}?)(?=(?:は|が|に|の))",
@@ -260,6 +261,11 @@ def extract_organization(text):
             value=clean(m.group(1))
             value=re.sub(r"^(?:インシデント・情報漏えい|ScanNetSecurity)\s+","",value)
             if len(value)>=2: return value
+    m=re.search(r"[-－—]\s*([^|｜]+)$",t)
+    if m:
+        v=clean(m.group(1))
+        if 2 <= len(v) <= 40 and not any(k in v for k in ["不正アクセス","ランサム","情報漏","脆弱性","攻撃","調査中"]):
+            return v
     return None
 
 def extract_service(text, org=None):
