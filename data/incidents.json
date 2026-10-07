@@ -1,6 +1,6 @@
 {
   "source": "Japanese cyber incident sources",
-  "retrieved_at": "2026-10-07T01:29:06.865421+00:00",
+  "retrieved_at": "2026-10-07T01:30:23.830008+00:00",
   "window_days": 30,
   "cutoff_date": "2026-09-07",
   "attack_only": true,
@@ -11,7 +11,7 @@
     "SmartScope",
     "Google News"
   ],
-  "count": 309,
+  "count": 312,
   "source_errors": {},
   "deduplication": {
     "same_source_exact": true,
@@ -465,7 +465,7 @@
       "published_date": "2026-10-07",
       "title": "KKR京都くに荘のメールサーバに不正アクセス 国家公務員共済組合連合会は9月16日、KKR京都くに荘のメールサーバへの不正アクセスについて発表した。",
       "attack": true,
-      "organization": "国家公務員共済組合連合会",
+      "organization": "KKR京都くに荘のメールサーバに不正アクセス 国家公務員共済組合連合会",
       "service": "メールサーバに不正アクセス 国家公務員共済組合連合会は9月16日",
       "attack_type": "不正アクセス",
       "leak_status": "可能性あり",
@@ -500,7 +500,7 @@
           "published_date": "2026-10-07",
           "title": "KKR京都くに荘のメールサーバに不正アクセス 国家公務員共済組合連合会は9月16日、KKR京都くに荘のメールサーバへの不正アクセスについて発表した。",
           "attack": true,
-          "organization": "国家公務員共済組合連合会",
+          "organization": "KKR京都くに荘のメールサーバに不正アクセス 国家公務員共済組合連合会",
           "service": "メールサーバに不正アクセス 国家公務員共済組合連合会は9月16日",
           "attack_type": "不正アクセス",
           "leak_status": "可能性あり",
@@ -933,7 +933,7 @@
       "published_date": "2026-10-06",
       "title": "アプリシステムが侵害、顧客情報流出の可能性 - 回転ずしチェーン",
       "attack": true,
-      "organization": "回転ずしチェーン",
+      "organization": "アプリシステムが侵害",
       "service": "アプリシステムが侵害",
       "attack_type": "不正アクセス",
       "leak_status": "可能性あり",
@@ -952,7 +952,7 @@
           "published_date": "2026-10-06",
           "title": "アプリシステムが侵害、顧客情報流出の可能性 - 回転ずしチェーン",
           "attack": true,
-          "organization": "回転ずしチェーン",
+          "organization": "アプリシステムが侵害",
           "service": "アプリシステムが侵害",
           "attack_type": "不正アクセス",
           "leak_status": "可能性あり",
@@ -1071,24 +1071,9 @@
       ],
       "incident_summary": "大興印刷株式会社は9月16日、同社が運営するインターネットサービス「PhotoGoods（photo-goods.com）」への不正アクセスによる個人情報等漏えいの可能性について発表した。 これは9月11日に、「PhotoGoods」内に不審な外部プログラムが読み込まれているとの連絡があり、システム管理会社による調査を行った結果、決済画面等に入力されたクレジットカード情報などを不正に取得する機能を持つプログラムの設置を確認したというもの。あわせてシステム上の脆弱性およびファイルアップロード機能の悪用による第三者からの不正アクセスも確認している。 「PhotoGoods」を利用した顧客下記の情報が漏えいした可能性がある。なお、クレジットカード情報については、不正プログラムが稼働していた2026年8月6日から9月11日までの期間に、「PhotoGoods」の決済画面にカード情報を入力した顧客が対象となる。 ・クレジットカード情報（カード番号、有効期限、セキュリティコード） ・個人情報（氏名、住所、電話番号、メールアドレス） ・会員パスワードに関する情報（元のパスワードを直接読み取ることがで",
       "sources": [
-        "Security NEXT",
         "ScanNetSecurity"
       ],
       "source_records": [
-        {
-          "source": "Security NEXT",
-          "source_url": "https://www.security-next.com/190511",
-          "published_date": "2026-10-01",
-          "title": "グッズ作成サービス、クレカ情報含む個人情報流出の可能性",
-          "attack": true,
-          "organization": "大興印刷",
-          "service": "PhotoGoods",
-          "attack_type": "不正アクセス",
-          "leak_status": "可能性あり",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "写真からオリジナルグッズを作成するサービス「PhotoGoods」が不正アクセスを受け、個人情報が流出した可能性があることがわかった。 ：Security NEXT"
-        },
         {
           "source": "ScanNetSecurity",
           "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56392.html",
@@ -1111,8 +1096,8 @@
           "incident_summary": "大興印刷株式会社は9月16日、同社が運営するインターネットサービス「PhotoGoods（photo-goods.com）」への不正アクセスによる個人情報等漏えいの可能性について発表した。 これは9月11日に、「PhotoGoods」内に不審な外部プログラムが読み込まれているとの連絡があり、システム管理会社による調査を行った結果、決済画面等に入力されたクレジットカード情報などを不正に取得する機能を持つプログラムの設置を確認したというもの。あわせてシステム上の脆弱性およびファイルアップロード機能の悪用による第三者からの不正アクセスも確認している。 「PhotoGoods」を利用した顧客下記の情報が漏えいした可能性がある。なお、クレジットカード情報については、不正プログラムが稼働していた2026年8月6日から9月11日までの期間に、「PhotoGoods」の決済画面にカード情報を入力した顧客が対象となる。 ・クレジットカード情報（カード番号、有効期限、セキュリティコード） ・個人情報（氏名、住所、電話番号、メールアドレス） ・会員パスワードに関する情報（元のパスワードを直接読み取ることがで"
         }
       ],
-      "source_count": 2,
-      "merged": true
+      "source_count": 1,
+      "merged": false
     },
     {
       "source": "SmartScope",
@@ -3126,7 +3111,7 @@
       "published_date": "2026-10-05",
       "title": "2026/10/06 焼肉チェーンを運営する物語コーポレーション（愛知県豊橋市）、「焼肉きんぐ」公式アプリの会員管理システムに不正アクセス — 1,078万8,963件が漏えい、登録者のほぼ全員が対象 続報を注視中 深刻 株式会社物語コーポレーション（愛知県豊橋市西岩田／「焼肉きんぐ」「丸源ラーメン」等を展開する外食チェーン。東証プライム・証券コード3097）は2026年10月5日、「焼肉きんぐ」公式アプリの会員管理システムが第三者による不正アクセスを受け、会員情報1,078万8,963件が漏えいしたと公表した。アプリの登録者数1,080万8,784件のほぼ全員にあたる。漏えいしたのは会員番号、氏名（アプリ登録名）、メールアドレス、電話番号で、ログインパスワードや決済情報、店舗利用履歴などは対象外としている。10月2日に不正アクセスを検知して通信遮断などの防御措置を実施し、翌3日に漏えいを確認した。侵入経路や原因は調査中。 →",
       "attack": true,
-      "organization": "物語コーポレーション",
+      "organization": "2026/10/06 焼肉チェーンを運営する物語コーポレーション（愛知県豊橋市）",
       "service": "焼肉きんぐ",
       "attack_type": "不正アクセス",
       "leak_status": "確認・可能性あり",
@@ -3219,7 +3204,7 @@
           "published_date": "2026-10-05",
           "title": "2026/10/06 焼肉チェーンを運営する物語コーポレーション（愛知県豊橋市）、「焼肉きんぐ」公式アプリの会員管理システムに不正アクセス — 1,078万8,963件が漏えい、登録者のほぼ全員が対象 続報を注視中 深刻 株式会社物語コーポレーション（愛知県豊橋市西岩田／「焼肉きんぐ」「丸源ラーメン」等を展開する外食チェーン。東証プライム・証券コード3097）は2026年10月5日、「焼肉きんぐ」公式アプリの会員管理システムが第三者による不正アクセスを受け、会員情報1,078万8,963件が漏えいしたと公表した。アプリの登録者数1,080万8,784件のほぼ全員にあたる。漏えいしたのは会員番号、氏名（アプリ登録名）、メールアドレス、電話番号で、ログインパスワードや決済情報、店舗利用履歴などは対象外としている。10月2日に不正アクセスを検知して通信遮断などの防御措置を実施し、翌3日に漏えいを確認した。侵入経路や原因は調査中。 →",
           "attack": true,
-          "organization": "物語コーポレーション",
+          "organization": "2026/10/06 焼肉チェーンを運営する物語コーポレーション（愛知県豊橋市）",
           "service": "焼肉きんぐ",
           "attack_type": "不正アクセス",
           "leak_status": "確認・可能性あり",
@@ -3678,7 +3663,7 @@
       "published_date": "2026-10-02",
       "title": "荷物問合サービスが侵害、個人情報流出の可能性 - 佐川急便",
       "attack": true,
-      "organization": "佐川急便",
+      "organization": "荷物問合サービスが侵害",
       "service": "問い合わせサービスがサイバー攻撃を受け",
       "attack_type": "不正アクセス",
       "leak_status": "可能性あり",
@@ -3695,7 +3680,7 @@
           "published_date": "2026-10-02",
           "title": "荷物問合サービスが侵害、個人情報流出の可能性 - 佐川急便",
           "attack": true,
-          "organization": "佐川急便",
+          "organization": "荷物問合サービスが侵害",
           "service": "問い合わせサービスがサイバー攻撃を受け",
           "attack_type": "不正アクセス",
           "leak_status": "可能性あり",
@@ -3779,7 +3764,7 @@
       "published_date": "2026-10-02",
       "title": "日本標準時の供給サービスで異常、誤った時刻を配信 国立研究開発法人情報通信研究機構（NICT）は9月11日、日本標準時の供給サービスでの異常の発生について発表した。",
       "attack": true,
-      "organization": "ムラウチドットコム",
+      "organization": "国立研究開発法人情報通信研究機構（NICT）",
       "service": "音声合成用日本語複数話者音声コーパス",
       "attack_type": "アカウント侵害",
       "leak_status": "可能性あり",
@@ -3794,222 +3779,11 @@
       "source_records": [
         {
           "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/07/56143.html",
-          "published_date": "2026-09-07",
-          "title": "名前の漢字が一文字異なる別人を同一人物と思い込む ～ 大阪府、個人情報が記載された書類を誤送付 大阪府は8月14日、大阪府こころの健康総合センターでの個人情報が記載された書類の誤送付について発表した。",
-          "attack": true,
-          "organization": "ムラウチドットコム",
-          "service": "ドズル社ストア",
-          "attack_type": "アカウント侵害",
-          "leak_status": "可能性あり",
-          "leak_count": "11",
-          "leaked_data": [
-            "クレジットカード情報"
-          ],
-          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56143;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 大阪府は8月14日、大阪府こころの健康総合センターでの個人情報が記載された書類の誤送付について発表した。 これは大阪府こころの健康総合センターで、自立支援医療受給者証（精神通院）等の誤送付が発生したというもの。 以前に発送した宛名ラベルを誤って貼付 ～ 行政文書の開示に係る関係書類の誤送付 2026.8.14 Fri 8:05 個人情報流出のある誤送付は 11 件 ～ 横浜市立大学 令和 7 年度 第 3 四半期における事務処理ミスを公表 2026.3.12 Thu 8:05 宅地建物取引士証の交付時に誤った顔写真を貼り付け 2026.1.13"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/10/56186.html",
-          "published_date": "2026-09-10",
-          "title": "耳鼻咽喉科の廃棄予定の問診票を裏紙使用し患者に交付 一般社団法人グランファミリア 海老名こじろう耳鼻咽喉科は8月19日、個人情報を含む書類の不適切な取り扱いについて発表した。",
-          "attack": true,
-          "organization": "ムラウチドットコム",
-          "service": "ドズル社ストア",
-          "attack_type": "アカウント侵害",
-          "leak_status": "可能性あり",
-          "leak_count": "39",
-          "leaked_data": [
-            "クレジットカード情報"
-          ],
-          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56186;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 一般社団法人グランファミリア 海老名こじろう耳鼻咽喉科は8月19日、個人情報を含む書類の不適切な取り扱いについて発表した。 同院では、保管期間を経過し廃棄予定であった過去の問診票について、本来は適切に廃棄すべきところ、その一部を印刷用紙の裏紙として使用し、その後、当該用紙の一部がプリンタ内に残ったまま通常業務に移行したことで、患者に渡す資料の裏面に、別の患者の問診票の内容が記載された状態で交付したという。 気付いた生徒が撮影拡散、生徒39名の成績一覧表を裏紙として利用 2024.2.1 Thu 8:05 大学元職員が裏紙利用のため資料持ち出し "
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/10/56188.html",
-          "published_date": "2026-09-10",
-          "title": "非表示のシートが含まれていることに気づかないまま掲載 ～ 大川市ホームページで公開した名簿データ 福岡県大川市は8月20日、同市ホームページでの個人情報漏えいの可能性について発表した。",
-          "attack": true,
-          "organization": "ムラウチドットコム",
-          "service": "2026年6月の情報漏えい",
-          "attack_type": "アカウント侵害",
-          "leak_status": "可能性あり",
-          "leak_count": "7,716,811",
-          "leaked_data": [
-            "クレジットカード情報",
-            "顧客情報"
-          ],
-          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56188;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 福岡県大川市は8月20日、同市ホームページでの個人情報漏えいの可能性について発表した。 これは2025年12月に民生委員・児童委員を改選するにあたり、名簿データ（Excel）をホームページ上に公開していたが、同データに非表示となっているシートがあり、再表示をすると過去の名簿データが閲覧できる状態になっていたというもの。8月6日に住民からメールで問い合わせがあり、発覚した。 今日もどこかで情報漏えい 第50回「2026年6月の情報漏えい」Microsoft Excel 非表示機能による情報漏えい第二弾！ 2026.7.14 Tue 8:10 今日"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/11/56205.html",
-          "published_date": "2026-09-11",
-          "title": "詐欺被害も発生 ～ 長野県多文化共生相談センターの WhatsApp のアカウントが不正利用 長野県は8月20日、長野県多文化共生相談センター相談員をかたった詐欺事案等の発生について発表した。",
-          "attack": true,
-          "organization": "ムラウチドットコム",
-          "service": "2026年3月の情報漏えい",
-          "attack_type": "アカウント侵害",
-          "leak_status": "可能性あり",
-          "leak_count": "1",
-          "leaked_data": [
-            "クレジットカード情報"
-          ],
-          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56205;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 長野県は8月20日、長野県多文化共生相談センター相談員をかたった詐欺事案等の発生について発表した。 これは長野県多文化共生相談センターの相談員が相談業務で使用しているメッセージ型交流サイト（SNS）WhatsAppのアカウントが、第三者に不正利用されたというもので、一部利用登録者の個人情報が漏えいし、詐欺被害1件が発生している。 今日もどこかで情報漏えい 第47回「2026年3月の情報漏えい」サポート詐欺被害 2億5,000万円、決算で「その他の費用」に計上 2026.4.27 Mon 8:10 海外貨物検査と契約する有機JAS認証審査員がサポ"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/11/56204.html",
-          "published_date": "2026-09-11",
-          "title": "通常とは異なるセキュリティ認証を求める画面が表示される事象を確認 ～ 日本ブラインドサッカー協会ウェブサイトが改ざん被害 特定非営利活動法人日本ブラインドサッカー協会（JBFA）は8月20日、同協会ウェブサイトの改ざんについて発表した。",
-          "attack": true,
-          "organization": "ムラウチドットコム",
-          "service": "サイトが改ざん被害 特定非営利活動法人日本ブラインドサッカー協会（JBFA）は8月20日",
-          "attack_type": "アカウント侵害",
-          "leak_status": "可能性あり",
-          "leak_count": "7,716,811",
-          "leaked_data": [
-            "クレジットカード情報"
-          ],
-          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56204;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 特定非営利活動法人日本ブラインドサッカー協会（JBFA）は8月20日、同協会ウェブサイトの改ざんについて発表した。 これは8月12日午前に、同協会公式ウェブサイトで過去の記事がトップページに表示される他、通常とは異なるセキュリティ認証を求める画面が表示される事象を確認したため調査した結果、下記のウェブサイトで第三者による改ざんが判明したというもの。 日本大学文理学部のウェブサイトが改ざん被害、カジノサイトを模した不正な画面が表示 2026.6.12 Fri 8:05 「E/SASV Games公式サイト」に不正アクセス、ファイル改ざんと不正なプ"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/16/56245.html",
-          "published_date": "2026-09-16",
-          "title": "大阪高等裁判所で特定の事件に係る Microsoft Teams のチーム作成誤り、招待メール・通知からアクセスした際にユーザー名とメールアドレスが閲覧できる状態に 大阪高等裁判所は9月4日、同裁判所での特定の事件に係るMicrosoft Teamsのチーム作成の誤りについて発表した。",
-          "attack": true,
-          "organization": "ムラウチドットコム",
-          "service": "メール・通知からアクセスした際にユーザー名とメールアドレスが閲覧できる状態に 大阪高等裁判所は9月4日",
-          "attack_type": "アカウント侵害",
-          "leak_status": "可能性あり",
-          "leak_count": "3,500",
-          "leaked_data": [
-            "住所",
-            "クレジットカード情報"
-          ],
-          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56245;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 大阪高等裁判所は9月4日、同裁判所での特定の事件に係るMicrosoft Teamsのチーム作成の誤りについて発表した。 これは8月27日午前10時40分頃に、大阪高等裁判所民事部で、Microsoft Teamsを利用して特定の事件に係るチームを作成する際に、誤って本来登録するメンバー以外のメンバー（裁判所外部ユーザー約3,500アカウント、裁判所職員ユーザーが約2,500アカウント）を登録したというもの。同日午後0時20分頃に、外部からの問い合わせで発覚したという。 最高裁判所 メール誤送信 2024.6.13 Thu 8:05 最高裁で修"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/16/56242.html",
-          "published_date": "2026-09-16",
-          "title": "家庭児童相談記録を対象家庭に匿名で郵送、市職員 生活福祉課 主幹 50歳 逮捕 大阪府羽曳野市は9月2日、同市職員が偽計業務妨害罪及び地方公務員法違反の容疑で逮捕されたと発表した。",
-          "attack": true,
-          "organization": "ムラウチドットコム",
-          "service": "いい歳したおっさん",
-          "attack_type": "アカウント侵害",
-          "leak_status": "可能性あり",
-          "leak_count": "7,716,811",
-          "leaked_data": [
-            "クレジットカード情報"
-          ],
-          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56242;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 大阪府羽曳野市は9月2日、同市職員が偽計業務妨害罪及び地方公務員法違反の容疑で逮捕されたと発表した。 これは同市保健福祉部 生活福祉課の職員（主幹、50歳）が、家庭児童相談に関する相談記録等の情報のほか、職員に関する情報を対象家庭に郵送することで、市政の運営を混乱させたとして、大阪府羽曳野警察署に偽計業務妨害罪及び地方公務員法違反の容疑で逮捕されたというもの。同市では、大阪府羽曳野警察署から電話連絡があり、事案を把握したという。 サイバー犯罪者の大半は「いい歳したおっさん」だった 2026.3.31 Tue 8:15 個人情報を無断で持ち出し "
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/17/56254.html",
-          "published_date": "2026-09-17",
-          "title": "運送業者が配送過程で紛失 ～ 厚労省の令和8年最低賃金に関する基礎調査 調査票 厚生労働省は8月28日、令和8（2026）年最低賃金に関する基礎調査の調査票の紛失について発表した。",
-          "attack": true,
-          "organization": "ムラウチドットコム",
-          "service": "あかるい職場応援団",
-          "attack_type": "アカウント侵害",
-          "leak_status": "可能性あり",
-          "leak_count": "7,716,811",
-          "leaked_data": [
-            "クレジットカード情報"
-          ],
-          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56254;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 厚生労働省は8月28日、令和8（2026）年最低賃金に関する基礎調査の調査票の紛失について発表した。 これは同省が実施する令和8年最低賃金に関する基礎調査にて、調査票の配送を委託していた運送業者が配送過程で調査票の一部を紛失したというもの。 以前に発送した宛名ラベルを誤って貼付 ～ 行政文書の開示に係る関係書類の誤送付 2026.8.14 Fri 8:05 確認が不十分なままファイル共有サービスに格納 ～ 厚生労働省受託のセミナーで参加者名簿が閲覧可能に 2026.4.10 Fri 8:05 厚生労働省運営「あかるい職場応援団」改ざん被害 20"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56275.html",
-          "published_date": "2026-09-18",
-          "title": "塩尻警察署で個人情報が記載された「交通安全施設損壊事案報告書」等が所在不明に 長野県警察は9月7日、塩尻警察署交通課での個人情報の所在不明について発表した。",
-          "attack": true,
-          "organization": "ムラウチドットコム",
-          "service": "交通安全施設損壊事案報告書",
-          "attack_type": "アカウント侵害",
-          "leak_status": "可能性あり",
-          "leak_count": "12",
-          "leaked_data": [
-            "クレジットカード情報"
-          ],
-          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56275;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 長野県警察は9月7日、塩尻警察署交通課での個人情報の所在不明について発表した。 これは塩尻警察署交通課が、令和3（2021）年度中に交通事故や自然災害等で交通安全施設の損壊等が発生した際に作成した「交通安全施設損壊事案報告書」「交通安全施設修繕執行伺」「交通安全施設修理結果表」「道路標識標示工事監督等指示書」、交通安全施設への意見・要望が寄せられた際に作成した「信号機BOX」が所在不明となったというもの。 12 名の個人情報記載した「交通切符等引継簿」紛失 ～ 釧路方面弟子屈警察署 2026.5.12 Tue 8:05 拾得物として届けられ回収"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/24/56292.html",
-          "published_date": "2026-09-24",
-          "title": "「コープやまぐちLINEミニアプリ」に不正アクセス、データベースに保存されていた内容を精査し漏えいの可能性がある情報を確定 生活協同組合コープやまぐちは9月7日、8月28日に公表した同組合が提供する「コープやまぐちLINEミニアプリ」への不正アクセスについて、第二報を発表した。",
-          "attack": true,
-          "organization": "ムラウチドットコム",
-          "service": "コープやまぐちLINEミニアプリ",
-          "attack_type": "不正アクセス",
-          "leak_status": "可能性あり",
-          "leak_count": "7,716,811",
-          "leaked_data": [
-            "クレジットカード情報"
-          ],
-          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56292;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 生活協同組合コープやまぐちは9月7日、8月28日に公表した同組合が提供する「コープやまぐちLINEミニアプリ」への不正アクセスについて、第二報を発表した。 同組合では8月27日に、開発・運用を外部事業者に委託して運営している「コープやまぐちLINEミニアプリ」のデータベースに第三者から不正アクセスがあり、データベース内の全てのデータが削除される事象が発生しており、外部の専門家とともに調査を進めていた。 データベース内の全てのデータを削除 ～「コープやまぐちLINEミニアプリ」に不正アクセス 2026.9.17 Thu 8:05 コープいしかわの"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/28/56312.html",
-          "published_date": "2026-09-28",
-          "title": "JA遠州夢咲ホームページに不正アクセス、一時閉鎖 遠州夢咲農業協同組合（JA遠州夢咲）は9月9日、不正アクセスによるホームページの一時閉鎖について発表した。",
-          "attack": true,
-          "organization": "ムラウチドットコム",
-          "service": "ドズル社ストア",
-          "attack_type": "不正アクセス",
-          "leak_status": "可能性あり",
-          "leak_count": "3,176",
-          "leaked_data": [
-            "クレジットカード情報"
-          ],
-          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56312;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 遠州夢咲農業協同組合（JA遠州夢咲）は9月9日、不正アクセスによるホームページの一時閉鎖について発表した。 これは8月24日に、同組合のホームページに不正アクセスがあり、プログラム改ざんが行われたため、ホームページの更新が不可能な状況となったというもの。同組合では現在、念のためにホームページを一時閉鎖している。 農林中央金庫が個人データ 3,176 件を誤提供、改修テストで本番データ混入 2026.7.14 Tue 8:05 懲戒解雇 情報漏えいと着服で ～ JA鹿児島県信連 元職員 2025.4.10 Thu 8:05 元職員による持ち出しの"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/29/56327.html",
-          "published_date": "2026-09-29",
-          "title": "不開示情報のマスキングが不完全で個人情報が閲覧可能に、周知の徹底が不十分 埼玉県は9月10日、不開示情報のマスキングが不完全な文書の開示について発表した。",
-          "attack": true,
-          "organization": "ムラウチドットコム",
-          "service": "ドズル社ストア",
-          "attack_type": "アカウント侵害",
-          "leak_status": "可能性あり",
-          "leak_count": "7,716,811",
-          "leaked_data": [
-            "クレジットカード情報"
-          ],
-          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56327;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 埼玉県は9月10日、不開示情報のマスキングが不完全な文書の開示について発表した。 これは同県総務部学事課が情報公開請求に基づき開示した文書（電子ファイル）について、一定の操作をすることで個人情報を含む不開示情報（マスキング部分）が閲覧可能であったというもの。8月27日に、2025年12月19日付で開示した文書（電子ファイル）を受領した人から情報提供があり、発覚した。 いじめ重大事態報告書でマスキングの不備、EdgeとChromeでチェックするも他のブラウザで閲覧可能に 2023.8.10 Thu 8:05 北九州市が PDF 黒塗り処理の自主点"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/29/56325.html",
-          "published_date": "2026-09-29",
-          "title": "非公開情報であることに気付かず承認 ～ 愛知県の出会いサポートポータルサイト「あいこんナビ」で個人情報を誤掲載 愛知県は9月22日、同県が管理・運営する出会いサポートポータルサイト「あいこんナビ」での個人情報の誤掲載について発表した。",
-          "attack": true,
-          "organization": "ムラウチドットコム",
-          "service": "あいこんナビ",
-          "attack_type": "アカウント侵害",
-          "leak_status": "可能性あり",
-          "leak_count": "5,261",
-          "leaked_data": [
-            "氏名",
-            "クレジットカード情報"
-          ],
-          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56325;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 愛知県は9月22日、同県が管理・運営する出会いサポートポータルサイト「あいこんナビ」での個人情報の誤掲載について発表した。 これは「あいこんナビ」のイベント情報にて、イベント主催団体が保有する、イベントに直接関係のない非公開情報が誤掲載され、氏名、年齢等の個人情報が読み取れる状態になっていたというもの。9月20日午後2時30分頃に一般の人から連絡があり、発覚した。 埼玉県「公文書検索・閲覧システム」で不開示情報を誤掲載 2024.6.3 Mon 8:05 県実施ユーチューバートークイベントで申込者の個人情報が閲覧可能に 2023.11.8 We"
-        },
-        {
-          "source": "ScanNetSecurity",
           "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/02/56369.html",
           "published_date": "2026-10-02",
           "title": "日本標準時の供給サービスで異常、誤った時刻を配信 国立研究開発法人情報通信研究機構（NICT）は9月11日、日本標準時の供給サービスでの異常の発生について発表した。",
           "attack": true,
-          "organization": "ムラウチドットコム",
+          "organization": "国立研究開発法人情報通信研究機構（NICT）",
           "service": "音声合成用日本語複数話者音声コーパス",
           "attack_type": "アカウント侵害",
           "leak_status": "可能性あり",
@@ -4021,7 +3795,7 @@
         }
       ],
       "source_count": 1,
-      "merged": true
+      "merged": false
     },
     {
       "source": "Google News",
@@ -4101,7 +3875,7 @@
       "published_date": "2026-10-02",
       "title": "日本エネルギー経済研究所にフィッシング攻撃、所員6名のMicrosoft 365 アカウントに不正アクセス 一般財団法人日本エネルギー経済研究所は9月11日、不正アクセスによる情報漏えいについて発表した。",
       "attack": true,
-      "organization": "日本エネルギー経済研究所",
+      "organization": "日本エネルギー経済研究所にフィッシング攻撃",
       "service": "ドズル社ストア",
       "attack_type": "フィッシング",
       "leak_status": "可能性あり",
@@ -4120,7 +3894,7 @@
           "published_date": "2026-10-02",
           "title": "日本エネルギー経済研究所にフィッシング攻撃、所員6名のMicrosoft 365 アカウントに不正アクセス 一般財団法人日本エネルギー経済研究所は9月11日、不正アクセスによる情報漏えいについて発表した。",
           "attack": true,
-          "organization": "日本エネルギー経済研究所",
+          "organization": "日本エネルギー経済研究所にフィッシング攻撃",
           "service": "ドズル社ストア",
           "attack_type": "フィッシング",
           "leak_status": "可能性あり",
@@ -4991,7 +4765,7 @@
       "published_date": "2026-10-01",
       "title": "人材不足に打ち勝つセキュリティ運用とは ～ DNP との対談で明かされる効果、テクマトリックスが Palo Alto Networks の Cortex XSIAM で提案する次世代 SOC PR サイバー攻撃の高度化・巧妙化に伴い、SOCには膨大なアラートが押し寄せるようになった。複数のセキュリティ製品から上がる情報を人手で分析し、対応するには限界がある。そこで注目されているのが、AIと自動化によるセキュリティ運用だ。 では、AIと自動化を実際の現場に組み込むと、セキュリティ運用はどう変わるのか。約4万5,000台のデバイスを運用する大日本印刷（DNP）が直面した「8つの壁」と、その乗り越え方から、AI時代のSOC運用の可能性に迫る。",
       "attack": true,
-      "organization": "株式会社 ネットワークセキュリティ事業部 第 2 営業部 ネットワークプロダクツ営業 2 課 主任",
+      "organization": "人材不足に打ち勝つセキュリティ運用とは ～ DNP との対談で明かされる効果",
       "service": "8つの壁",
       "attack_type": null,
       "leak_status": "不明",
@@ -5008,7 +4782,7 @@
           "published_date": "2026-10-01",
           "title": "人材不足に打ち勝つセキュリティ運用とは ～ DNP との対談で明かされる効果、テクマトリックスが Palo Alto Networks の Cortex XSIAM で提案する次世代 SOC PR サイバー攻撃の高度化・巧妙化に伴い、SOCには膨大なアラートが押し寄せるようになった。複数のセキュリティ製品から上がる情報を人手で分析し、対応するには限界がある。そこで注目されているのが、AIと自動化によるセキュリティ運用だ。 では、AIと自動化を実際の現場に組み込むと、セキュリティ運用はどう変わるのか。約4万5,000台のデバイスを運用する大日本印刷（DNP）が直面した「8つの壁」と、その乗り越え方から、AI時代のSOC運用の可能性に迫る。",
           "attack": true,
-          "organization": "株式会社 ネットワークセキュリティ事業部 第 2 営業部 ネットワークプロダクツ営業 2 課 主任",
+          "organization": "人材不足に打ち勝つセキュリティ運用とは ～ DNP との対談で明かされる効果",
           "service": "8つの壁",
           "attack_type": null,
           "leak_status": "不明",
@@ -5108,6 +4882,41 @@
             "クレジットカード情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56359;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); スターツ出版株式会社は9月27日、同社運営のウェブサイト「オズモール」への不正アクセスについて発表した。 これは9月26日に、「オズモール」への海外からの大量の不正アクセスを同社システム部門が検知したため、調査した結果、顧客の個人情報が閲覧された可能性が判明したというもの。 不正プログラム設置 ～ 東京大学大学院医学系研究科公共健康医学専攻ウェブサイトに不正アクセス 2026.9.29 Tue 8:05 モンベル・グローバルサイトに不正アクセス、最大15名分の個人情報が第三者に不正に取得された可能性 2026.9.29 Tue 8:05 「スマ"
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
+      "source": "Security NEXT",
+      "source_url": "https://www.security-next.com/190511",
+      "published_date": "2026-10-01",
+      "title": "グッズ作成サービス、クレカ情報含む個人情報流出の可能性",
+      "attack": true,
+      "organization": "グッズ作成サービス",
+      "service": "PhotoGoods",
+      "attack_type": "不正アクセス",
+      "leak_status": "可能性あり",
+      "leak_count": null,
+      "leaked_data": [],
+      "incident_summary": "写真からオリジナルグッズを作成するサービス「PhotoGoods」が不正アクセスを受け、個人情報が流出した可能性があることがわかった。 ：Security NEXT",
+      "sources": [
+        "Security NEXT"
+      ],
+      "source_records": [
+        {
+          "source": "Security NEXT",
+          "source_url": "https://www.security-next.com/190511",
+          "published_date": "2026-10-01",
+          "title": "グッズ作成サービス、クレカ情報含む個人情報流出の可能性",
+          "attack": true,
+          "organization": "グッズ作成サービス",
+          "service": "PhotoGoods",
+          "attack_type": "不正アクセス",
+          "leak_status": "可能性あり",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "写真からオリジナルグッズを作成するサービス「PhotoGoods」が不正アクセスを受け、個人情報が流出した可能性があることがわかった。 ：Security NEXT"
         }
       ],
       "source_count": 1,
@@ -5628,7 +5437,7 @@
       "published_date": "2026-10-01",
       "title": "CMSプラグインの脆弱性公表を受け更新作業中に不正アクセスを発見 神奈川県川崎市は9月11日、かわさき新産業創造センター（KBIC）Webサイトへの不正アクセスについて発表した。",
       "attack": true,
-      "organization": "ムラウチドットコム",
+      "organization": "CMSプラグインの脆弱性公表を受け更新作業中に不正アクセスを発見 神奈川県川崎市は9月11日",
       "service": "Webサイトへの不正アクセスについて発表した",
       "attack_type": "不正アクセス",
       "leak_status": "可能性あり",
@@ -5637,6 +5446,80 @@
         "クレジットカード情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56357;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 神奈川県川崎市は9月11日、かわさき新産業創造センター（KBIC）Webサイトへの不正アクセスについて発表した。 これは9月3日に、広く一般で利用されているコンテンツ管理システム（CMS）のプラグインの脆弱性情報をセキュリティ関係企業が公表したことから、翌9月4日に指定管理者がKBICのWebサイトの更新作業を試みたところ、不正アクセスを受けていたことを発見したため、当該サイトを閉鎖するとともに、川崎市に報告したというもの。 今日もどこかで情報漏えい 第14回「野球場予約システムハッキング」 2023.8.23 Wed 8:10 全ての書類が戻",
+      "sources": [
+        "ScanNetSecurity"
+      ],
+      "source_records": [
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/01/56357.html",
+          "published_date": "2026-10-01",
+          "title": "CMSプラグインの脆弱性公表を受け更新作業中に不正アクセスを発見 神奈川県川崎市は9月11日、かわさき新産業創造センター（KBIC）Webサイトへの不正アクセスについて発表した。",
+          "attack": true,
+          "organization": "CMSプラグインの脆弱性公表を受け更新作業中に不正アクセスを発見 神奈川県川崎市は9月11日",
+          "service": "Webサイトへの不正アクセスについて発表した",
+          "attack_type": "不正アクセス",
+          "leak_status": "可能性あり",
+          "leak_count": "7,716,811",
+          "leaked_data": [
+            "クレジットカード情報"
+          ],
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56357;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 神奈川県川崎市は9月11日、かわさき新産業創造センター（KBIC）Webサイトへの不正アクセスについて発表した。 これは9月3日に、広く一般で利用されているコンテンツ管理システム（CMS）のプラグインの脆弱性情報をセキュリティ関係企業が公表したことから、翌9月4日に指定管理者がKBICのWebサイトの更新作業を試みたところ、不正アクセスを受けていたことを発見したため、当該サイトを閉鎖するとともに、川崎市に報告したというもの。 今日もどこかで情報漏えい 第14回「野球場予約システムハッキング」 2023.8.23 Wed 8:10 全ての書類が戻"
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
+      "source": "SmartScope",
+      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
+      "published_date": "2026-10-01",
+      "title": "ALSOK Joylife（ news report ） — Unauthorized access and remote operation of a terminal at a nursing home; identified Jul 4.",
+      "organization": "ALSOK Joylife（ news report ）",
+      "affected_count": "134 records possibly viewed; investigation found no evidence of a leak",
+      "attack_type": null,
+      "attack": true,
+      "leak_status": "不明",
+      "leak_count": null,
+      "leaked_data": [],
+      "incident_summary": "ALSOK Joylife（ news report ） — Unauthorized access and remote operation of a terminal at a nursing home; identified Jul 4.",
+      "sources": [
+        "SmartScope"
+      ],
+      "source_records": [
+        {
+          "source": "SmartScope",
+          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
+          "published_date": "2026-10-01",
+          "title": "ALSOK Joylife（ news report ） — Unauthorized access and remote operation of a terminal at a nursing home; identified Jul 4.",
+          "organization": "ALSOK Joylife（ news report ）",
+          "affected_count": "134 records possibly viewed; investigation found no evidence of a leak",
+          "attack_type": null,
+          "attack": true,
+          "leak_status": "不明",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "ALSOK Joylife（ news report ） — Unauthorized access and remote operation of a terminal at a nursing home; identified Jul 4."
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/30/56342.html",
+      "published_date": "2026-09-30",
+      "title": "長野県大町市デジタルアーカイブサイトに不正アクセス、オンラインカジノサイト誘導ページに改ざん 長野県大町市は9月10日、市デジタルアーカイブサイトへの不正アクセスについて発表した。",
+      "attack": true,
+      "organization": "ムラウチドットコム",
+      "service": "サイトに不正アクセス",
+      "attack_type": "不正アクセス",
+      "leak_status": "可能性あり",
+      "leak_count": "7,716,811",
+      "leaked_data": [
+        "クレジットカード情報"
+      ],
+      "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56342;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 長野県大町市は9月10日、市デジタルアーカイブサイトへの不正アクセスについて発表した。 これは7月14日午後9時20分に、市デジタルアーカイブサイト「デジまち」にシステムの脆弱性を悪用した不正アクセスがあり、一部ページがオンラインカジノサイトへの誘導ページに改ざんされる事案が発生したというもの。8月28日午後4時頃に外部から通報があり、発覚した。 同市では当該システムをネットワークから遮断して被害の拡大を防止するとともに、詳細な調査を実施している。 日本大学文理学部のウェブサイトが改ざん被害、カジノサイトを模した不正な画面が表示 2026.6.",
       "sources": [
         "ScanNetSecurity"
       ],
@@ -5690,61 +5573,10 @@
             "クレジットカード情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56342;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 長野県大町市は9月10日、市デジタルアーカイブサイトへの不正アクセスについて発表した。 これは7月14日午後9時20分に、市デジタルアーカイブサイト「デジまち」にシステムの脆弱性を悪用した不正アクセスがあり、一部ページがオンラインカジノサイトへの誘導ページに改ざんされる事案が発生したというもの。8月28日午後4時頃に外部から通報があり、発覚した。 同市では当該システムをネットワークから遮断して被害の拡大を防止するとともに、詳細な調査を実施している。 日本大学文理学部のウェブサイトが改ざん被害、カジノサイトを模した不正な画面が表示 2026.6."
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/01/56357.html",
-          "published_date": "2026-10-01",
-          "title": "CMSプラグインの脆弱性公表を受け更新作業中に不正アクセスを発見 神奈川県川崎市は9月11日、かわさき新産業創造センター（KBIC）Webサイトへの不正アクセスについて発表した。",
-          "attack": true,
-          "organization": "ムラウチドットコム",
-          "service": "Webサイトへの不正アクセスについて発表した",
-          "attack_type": "不正アクセス",
-          "leak_status": "可能性あり",
-          "leak_count": "7,716,811",
-          "leaked_data": [
-            "クレジットカード情報"
-          ],
-          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56357;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 神奈川県川崎市は9月11日、かわさき新産業創造センター（KBIC）Webサイトへの不正アクセスについて発表した。 これは9月3日に、広く一般で利用されているコンテンツ管理システム（CMS）のプラグインの脆弱性情報をセキュリティ関係企業が公表したことから、翌9月4日に指定管理者がKBICのWebサイトの更新作業を試みたところ、不正アクセスを受けていたことを発見したため、当該サイトを閉鎖するとともに、川崎市に報告したというもの。 今日もどこかで情報漏えい 第14回「野球場予約システムハッキング」 2023.8.23 Wed 8:10 全ての書類が戻"
         }
       ],
       "source_count": 1,
       "merged": true
-    },
-    {
-      "source": "SmartScope",
-      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-      "published_date": "2026-10-01",
-      "title": "ALSOK Joylife（ news report ） — Unauthorized access and remote operation of a terminal at a nursing home; identified Jul 4.",
-      "organization": "ALSOK Joylife（ news report ）",
-      "affected_count": "134 records possibly viewed; investigation found no evidence of a leak",
-      "attack_type": null,
-      "attack": true,
-      "leak_status": "不明",
-      "leak_count": null,
-      "leaked_data": [],
-      "incident_summary": "ALSOK Joylife（ news report ） — Unauthorized access and remote operation of a terminal at a nursing home; identified Jul 4.",
-      "sources": [
-        "SmartScope"
-      ],
-      "source_records": [
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-10-01",
-          "title": "ALSOK Joylife（ news report ） — Unauthorized access and remote operation of a terminal at a nursing home; identified Jul 4.",
-          "organization": "ALSOK Joylife（ news report ）",
-          "affected_count": "134 records possibly viewed; investigation found no evidence of a leak",
-          "attack_type": null,
-          "attack": true,
-          "leak_status": "不明",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "ALSOK Joylife（ news report ） — Unauthorized access and remote operation of a terminal at a nursing home; identified Jul 4."
-        }
-      ],
-      "source_count": 1,
-      "merged": false
     },
     {
       "source": "Google News",
@@ -5894,7 +5726,7 @@
       "published_date": "2026-09-30",
       "title": "山口東京理科大チームが優勝 ～ 県警ら主催「サイバー攻撃共同対処訓練」で約 90 名が Micro Hardening 演習 山陽小野田市立山口東京理科大学は9月15日、山口県警察の協力のもと、山口大学工学部で「サイバー攻撃共同対処訓練」を9月4日に実施したと発表した。",
       "attack": true,
-      "organization": "処訓練」で約 90 名が Micro Hardening 演習 山陽小野田市立山口東京理科大学",
+      "organization": "攻撃共同対処訓練」で約 90 名が Micro Hardening 演習 山陽小野田市立山口東京理科大学",
       "service": "サイバー攻撃共同対処訓練",
       "attack_type": "ランサムウェア",
       "leak_status": "可能性あり",
@@ -5913,7 +5745,7 @@
           "published_date": "2026-09-30",
           "title": "山口東京理科大チームが優勝 ～ 県警ら主催「サイバー攻撃共同対処訓練」で約 90 名が Micro Hardening 演習 山陽小野田市立山口東京理科大学は9月15日、山口県警察の協力のもと、山口大学工学部で「サイバー攻撃共同対処訓練」を9月4日に実施したと発表した。",
           "attack": true,
-          "organization": "処訓練」で約 90 名が Micro Hardening 演習 山陽小野田市立山口東京理科大学",
+          "organization": "攻撃共同対処訓練」で約 90 名が Micro Hardening 演習 山陽小野田市立山口東京理科大学",
           "service": "サイバー攻撃共同対処訓練",
           "attack_type": "ランサムウェア",
           "leak_status": "可能性あり",
@@ -6307,6 +6139,241 @@
     },
     {
       "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/29/56325.html",
+      "published_date": "2026-09-29",
+      "title": "非公開情報であることに気付かず承認 ～ 愛知県の出会いサポートポータルサイト「あいこんナビ」で個人情報を誤掲載 愛知県は9月22日、同県が管理・運営する出会いサポートポータルサイト「あいこんナビ」での個人情報の誤掲載について発表した。",
+      "attack": true,
+      "organization": "ムラウチドットコム",
+      "service": "あいこんナビ",
+      "attack_type": "アカウント侵害",
+      "leak_status": "可能性あり",
+      "leak_count": "5,261",
+      "leaked_data": [
+        "氏名",
+        "クレジットカード情報"
+      ],
+      "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56325;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 愛知県は9月22日、同県が管理・運営する出会いサポートポータルサイト「あいこんナビ」での個人情報の誤掲載について発表した。 これは「あいこんナビ」のイベント情報にて、イベント主催団体が保有する、イベントに直接関係のない非公開情報が誤掲載され、氏名、年齢等の個人情報が読み取れる状態になっていたというもの。9月20日午後2時30分頃に一般の人から連絡があり、発覚した。 埼玉県「公文書検索・閲覧システム」で不開示情報を誤掲載 2024.6.3 Mon 8:05 県実施ユーチューバートークイベントで申込者の個人情報が閲覧可能に 2023.11.8 We",
+      "sources": [
+        "ScanNetSecurity"
+      ],
+      "source_records": [
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/07/56143.html",
+          "published_date": "2026-09-07",
+          "title": "名前の漢字が一文字異なる別人を同一人物と思い込む ～ 大阪府、個人情報が記載された書類を誤送付 大阪府は8月14日、大阪府こころの健康総合センターでの個人情報が記載された書類の誤送付について発表した。",
+          "attack": true,
+          "organization": "ムラウチドットコム",
+          "service": "ドズル社ストア",
+          "attack_type": "アカウント侵害",
+          "leak_status": "可能性あり",
+          "leak_count": "11",
+          "leaked_data": [
+            "クレジットカード情報"
+          ],
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56143;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 大阪府は8月14日、大阪府こころの健康総合センターでの個人情報が記載された書類の誤送付について発表した。 これは大阪府こころの健康総合センターで、自立支援医療受給者証（精神通院）等の誤送付が発生したというもの。 以前に発送した宛名ラベルを誤って貼付 ～ 行政文書の開示に係る関係書類の誤送付 2026.8.14 Fri 8:05 個人情報流出のある誤送付は 11 件 ～ 横浜市立大学 令和 7 年度 第 3 四半期における事務処理ミスを公表 2026.3.12 Thu 8:05 宅地建物取引士証の交付時に誤った顔写真を貼り付け 2026.1.13"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/10/56186.html",
+          "published_date": "2026-09-10",
+          "title": "耳鼻咽喉科の廃棄予定の問診票を裏紙使用し患者に交付 一般社団法人グランファミリア 海老名こじろう耳鼻咽喉科は8月19日、個人情報を含む書類の不適切な取り扱いについて発表した。",
+          "attack": true,
+          "organization": "ムラウチドットコム",
+          "service": "ドズル社ストア",
+          "attack_type": "アカウント侵害",
+          "leak_status": "可能性あり",
+          "leak_count": "39",
+          "leaked_data": [
+            "クレジットカード情報"
+          ],
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56186;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 一般社団法人グランファミリア 海老名こじろう耳鼻咽喉科は8月19日、個人情報を含む書類の不適切な取り扱いについて発表した。 同院では、保管期間を経過し廃棄予定であった過去の問診票について、本来は適切に廃棄すべきところ、その一部を印刷用紙の裏紙として使用し、その後、当該用紙の一部がプリンタ内に残ったまま通常業務に移行したことで、患者に渡す資料の裏面に、別の患者の問診票の内容が記載された状態で交付したという。 気付いた生徒が撮影拡散、生徒39名の成績一覧表を裏紙として利用 2024.2.1 Thu 8:05 大学元職員が裏紙利用のため資料持ち出し "
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/10/56188.html",
+          "published_date": "2026-09-10",
+          "title": "非表示のシートが含まれていることに気づかないまま掲載 ～ 大川市ホームページで公開した名簿データ 福岡県大川市は8月20日、同市ホームページでの個人情報漏えいの可能性について発表した。",
+          "attack": true,
+          "organization": "ムラウチドットコム",
+          "service": "2026年6月の情報漏えい",
+          "attack_type": "アカウント侵害",
+          "leak_status": "可能性あり",
+          "leak_count": "7,716,811",
+          "leaked_data": [
+            "クレジットカード情報",
+            "顧客情報"
+          ],
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56188;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 福岡県大川市は8月20日、同市ホームページでの個人情報漏えいの可能性について発表した。 これは2025年12月に民生委員・児童委員を改選するにあたり、名簿データ（Excel）をホームページ上に公開していたが、同データに非表示となっているシートがあり、再表示をすると過去の名簿データが閲覧できる状態になっていたというもの。8月6日に住民からメールで問い合わせがあり、発覚した。 今日もどこかで情報漏えい 第50回「2026年6月の情報漏えい」Microsoft Excel 非表示機能による情報漏えい第二弾！ 2026.7.14 Tue 8:10 今日"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/11/56205.html",
+          "published_date": "2026-09-11",
+          "title": "詐欺被害も発生 ～ 長野県多文化共生相談センターの WhatsApp のアカウントが不正利用 長野県は8月20日、長野県多文化共生相談センター相談員をかたった詐欺事案等の発生について発表した。",
+          "attack": true,
+          "organization": "ムラウチドットコム",
+          "service": "2026年3月の情報漏えい",
+          "attack_type": "アカウント侵害",
+          "leak_status": "可能性あり",
+          "leak_count": "1",
+          "leaked_data": [
+            "クレジットカード情報"
+          ],
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56205;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 長野県は8月20日、長野県多文化共生相談センター相談員をかたった詐欺事案等の発生について発表した。 これは長野県多文化共生相談センターの相談員が相談業務で使用しているメッセージ型交流サイト（SNS）WhatsAppのアカウントが、第三者に不正利用されたというもので、一部利用登録者の個人情報が漏えいし、詐欺被害1件が発生している。 今日もどこかで情報漏えい 第47回「2026年3月の情報漏えい」サポート詐欺被害 2億5,000万円、決算で「その他の費用」に計上 2026.4.27 Mon 8:10 海外貨物検査と契約する有機JAS認証審査員がサポ"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/11/56204.html",
+          "published_date": "2026-09-11",
+          "title": "通常とは異なるセキュリティ認証を求める画面が表示される事象を確認 ～ 日本ブラインドサッカー協会ウェブサイトが改ざん被害 特定非営利活動法人日本ブラインドサッカー協会（JBFA）は8月20日、同協会ウェブサイトの改ざんについて発表した。",
+          "attack": true,
+          "organization": "ムラウチドットコム",
+          "service": "サイトが改ざん被害 特定非営利活動法人日本ブラインドサッカー協会（JBFA）は8月20日",
+          "attack_type": "アカウント侵害",
+          "leak_status": "可能性あり",
+          "leak_count": "7,716,811",
+          "leaked_data": [
+            "クレジットカード情報"
+          ],
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56204;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 特定非営利活動法人日本ブラインドサッカー協会（JBFA）は8月20日、同協会ウェブサイトの改ざんについて発表した。 これは8月12日午前に、同協会公式ウェブサイトで過去の記事がトップページに表示される他、通常とは異なるセキュリティ認証を求める画面が表示される事象を確認したため調査した結果、下記のウェブサイトで第三者による改ざんが判明したというもの。 日本大学文理学部のウェブサイトが改ざん被害、カジノサイトを模した不正な画面が表示 2026.6.12 Fri 8:05 「E/SASV Games公式サイト」に不正アクセス、ファイル改ざんと不正なプ"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/16/56245.html",
+          "published_date": "2026-09-16",
+          "title": "大阪高等裁判所で特定の事件に係る Microsoft Teams のチーム作成誤り、招待メール・通知からアクセスした際にユーザー名とメールアドレスが閲覧できる状態に 大阪高等裁判所は9月4日、同裁判所での特定の事件に係るMicrosoft Teamsのチーム作成の誤りについて発表した。",
+          "attack": true,
+          "organization": "ムラウチドットコム",
+          "service": "メール・通知からアクセスした際にユーザー名とメールアドレスが閲覧できる状態に 大阪高等裁判所は9月4日",
+          "attack_type": "アカウント侵害",
+          "leak_status": "可能性あり",
+          "leak_count": "3,500",
+          "leaked_data": [
+            "住所",
+            "クレジットカード情報"
+          ],
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56245;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 大阪高等裁判所は9月4日、同裁判所での特定の事件に係るMicrosoft Teamsのチーム作成の誤りについて発表した。 これは8月27日午前10時40分頃に、大阪高等裁判所民事部で、Microsoft Teamsを利用して特定の事件に係るチームを作成する際に、誤って本来登録するメンバー以外のメンバー（裁判所外部ユーザー約3,500アカウント、裁判所職員ユーザーが約2,500アカウント）を登録したというもの。同日午後0時20分頃に、外部からの問い合わせで発覚したという。 最高裁判所 メール誤送信 2024.6.13 Thu 8:05 最高裁で修"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/16/56242.html",
+          "published_date": "2026-09-16",
+          "title": "家庭児童相談記録を対象家庭に匿名で郵送、市職員 生活福祉課 主幹 50歳 逮捕 大阪府羽曳野市は9月2日、同市職員が偽計業務妨害罪及び地方公務員法違反の容疑で逮捕されたと発表した。",
+          "attack": true,
+          "organization": "ムラウチドットコム",
+          "service": "いい歳したおっさん",
+          "attack_type": "アカウント侵害",
+          "leak_status": "可能性あり",
+          "leak_count": "7,716,811",
+          "leaked_data": [
+            "クレジットカード情報"
+          ],
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56242;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 大阪府羽曳野市は9月2日、同市職員が偽計業務妨害罪及び地方公務員法違反の容疑で逮捕されたと発表した。 これは同市保健福祉部 生活福祉課の職員（主幹、50歳）が、家庭児童相談に関する相談記録等の情報のほか、職員に関する情報を対象家庭に郵送することで、市政の運営を混乱させたとして、大阪府羽曳野警察署に偽計業務妨害罪及び地方公務員法違反の容疑で逮捕されたというもの。同市では、大阪府羽曳野警察署から電話連絡があり、事案を把握したという。 サイバー犯罪者の大半は「いい歳したおっさん」だった 2026.3.31 Tue 8:15 個人情報を無断で持ち出し "
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/17/56254.html",
+          "published_date": "2026-09-17",
+          "title": "運送業者が配送過程で紛失 ～ 厚労省の令和8年最低賃金に関する基礎調査 調査票 厚生労働省は8月28日、令和8（2026）年最低賃金に関する基礎調査の調査票の紛失について発表した。",
+          "attack": true,
+          "organization": "ムラウチドットコム",
+          "service": "あかるい職場応援団",
+          "attack_type": "アカウント侵害",
+          "leak_status": "可能性あり",
+          "leak_count": "7,716,811",
+          "leaked_data": [
+            "クレジットカード情報"
+          ],
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56254;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 厚生労働省は8月28日、令和8（2026）年最低賃金に関する基礎調査の調査票の紛失について発表した。 これは同省が実施する令和8年最低賃金に関する基礎調査にて、調査票の配送を委託していた運送業者が配送過程で調査票の一部を紛失したというもの。 以前に発送した宛名ラベルを誤って貼付 ～ 行政文書の開示に係る関係書類の誤送付 2026.8.14 Fri 8:05 確認が不十分なままファイル共有サービスに格納 ～ 厚生労働省受託のセミナーで参加者名簿が閲覧可能に 2026.4.10 Fri 8:05 厚生労働省運営「あかるい職場応援団」改ざん被害 20"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56275.html",
+          "published_date": "2026-09-18",
+          "title": "塩尻警察署で個人情報が記載された「交通安全施設損壊事案報告書」等が所在不明に 長野県警察は9月7日、塩尻警察署交通課での個人情報の所在不明について発表した。",
+          "attack": true,
+          "organization": "ムラウチドットコム",
+          "service": "交通安全施設損壊事案報告書",
+          "attack_type": "アカウント侵害",
+          "leak_status": "可能性あり",
+          "leak_count": "12",
+          "leaked_data": [
+            "クレジットカード情報"
+          ],
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56275;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 長野県警察は9月7日、塩尻警察署交通課での個人情報の所在不明について発表した。 これは塩尻警察署交通課が、令和3（2021）年度中に交通事故や自然災害等で交通安全施設の損壊等が発生した際に作成した「交通安全施設損壊事案報告書」「交通安全施設修繕執行伺」「交通安全施設修理結果表」「道路標識標示工事監督等指示書」、交通安全施設への意見・要望が寄せられた際に作成した「信号機BOX」が所在不明となったというもの。 12 名の個人情報記載した「交通切符等引継簿」紛失 ～ 釧路方面弟子屈警察署 2026.5.12 Tue 8:05 拾得物として届けられ回収"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/24/56292.html",
+          "published_date": "2026-09-24",
+          "title": "「コープやまぐちLINEミニアプリ」に不正アクセス、データベースに保存されていた内容を精査し漏えいの可能性がある情報を確定 生活協同組合コープやまぐちは9月7日、8月28日に公表した同組合が提供する「コープやまぐちLINEミニアプリ」への不正アクセスについて、第二報を発表した。",
+          "attack": true,
+          "organization": "ムラウチドットコム",
+          "service": "コープやまぐちLINEミニアプリ",
+          "attack_type": "不正アクセス",
+          "leak_status": "可能性あり",
+          "leak_count": "7,716,811",
+          "leaked_data": [
+            "クレジットカード情報"
+          ],
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56292;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 生活協同組合コープやまぐちは9月7日、8月28日に公表した同組合が提供する「コープやまぐちLINEミニアプリ」への不正アクセスについて、第二報を発表した。 同組合では8月27日に、開発・運用を外部事業者に委託して運営している「コープやまぐちLINEミニアプリ」のデータベースに第三者から不正アクセスがあり、データベース内の全てのデータが削除される事象が発生しており、外部の専門家とともに調査を進めていた。 データベース内の全てのデータを削除 ～「コープやまぐちLINEミニアプリ」に不正アクセス 2026.9.17 Thu 8:05 コープいしかわの"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/28/56312.html",
+          "published_date": "2026-09-28",
+          "title": "JA遠州夢咲ホームページに不正アクセス、一時閉鎖 遠州夢咲農業協同組合（JA遠州夢咲）は9月9日、不正アクセスによるホームページの一時閉鎖について発表した。",
+          "attack": true,
+          "organization": "ムラウチドットコム",
+          "service": "ドズル社ストア",
+          "attack_type": "不正アクセス",
+          "leak_status": "可能性あり",
+          "leak_count": "3,176",
+          "leaked_data": [
+            "クレジットカード情報"
+          ],
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56312;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 遠州夢咲農業協同組合（JA遠州夢咲）は9月9日、不正アクセスによるホームページの一時閉鎖について発表した。 これは8月24日に、同組合のホームページに不正アクセスがあり、プログラム改ざんが行われたため、ホームページの更新が不可能な状況となったというもの。同組合では現在、念のためにホームページを一時閉鎖している。 農林中央金庫が個人データ 3,176 件を誤提供、改修テストで本番データ混入 2026.7.14 Tue 8:05 懲戒解雇 情報漏えいと着服で ～ JA鹿児島県信連 元職員 2025.4.10 Thu 8:05 元職員による持ち出しの"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/29/56327.html",
+          "published_date": "2026-09-29",
+          "title": "不開示情報のマスキングが不完全で個人情報が閲覧可能に、周知の徹底が不十分 埼玉県は9月10日、不開示情報のマスキングが不完全な文書の開示について発表した。",
+          "attack": true,
+          "organization": "ムラウチドットコム",
+          "service": "ドズル社ストア",
+          "attack_type": "アカウント侵害",
+          "leak_status": "可能性あり",
+          "leak_count": "7,716,811",
+          "leaked_data": [
+            "クレジットカード情報"
+          ],
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56327;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 埼玉県は9月10日、不開示情報のマスキングが不完全な文書の開示について発表した。 これは同県総務部学事課が情報公開請求に基づき開示した文書（電子ファイル）について、一定の操作をすることで個人情報を含む不開示情報（マスキング部分）が閲覧可能であったというもの。8月27日に、2025年12月19日付で開示した文書（電子ファイル）を受領した人から情報提供があり、発覚した。 いじめ重大事態報告書でマスキングの不備、EdgeとChromeでチェックするも他のブラウザで閲覧可能に 2023.8.10 Thu 8:05 北九州市が PDF 黒塗り処理の自主点"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/29/56325.html",
+          "published_date": "2026-09-29",
+          "title": "非公開情報であることに気付かず承認 ～ 愛知県の出会いサポートポータルサイト「あいこんナビ」で個人情報を誤掲載 愛知県は9月22日、同県が管理・運営する出会いサポートポータルサイト「あいこんナビ」での個人情報の誤掲載について発表した。",
+          "attack": true,
+          "organization": "ムラウチドットコム",
+          "service": "あいこんナビ",
+          "attack_type": "アカウント侵害",
+          "leak_status": "可能性あり",
+          "leak_count": "5,261",
+          "leaked_data": [
+            "氏名",
+            "クレジットカード情報"
+          ],
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56325;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 愛知県は9月22日、同県が管理・運営する出会いサポートポータルサイト「あいこんナビ」での個人情報の誤掲載について発表した。 これは「あいこんナビ」のイベント情報にて、イベント主催団体が保有する、イベントに直接関係のない非公開情報が誤掲載され、氏名、年齢等の個人情報が読み取れる状態になっていたというもの。9月20日午後2時30分頃に一般の人から連絡があり、発覚した。 埼玉県「公文書検索・閲覧システム」で不開示情報を誤掲載 2024.6.3 Mon 8:05 県実施ユーチューバートークイベントで申込者の個人情報が閲覧可能に 2023.11.8 We"
+        }
+      ],
+      "source_count": 1,
+      "merged": true
+    },
+    {
+      "source": "ScanNetSecurity",
       "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/29/56320.html",
       "published_date": "2026-09-29",
       "title": "求職者やエンジニアを狙うヘッドハンティング型攻撃 ～ 警察庁が注意喚起する「WaterPlum」の手口 警察庁は9月18日、北朝鮮サイバー攻撃グループ「WaterPlum」及び北朝鮮IT労働者に関する日本、米国、豪州及びドイツによるパブリック・アトリビューションについて発表した。",
@@ -6383,7 +6450,7 @@
       "published_date": "2026-09-29",
       "title": "問題発生後の報告体制に改善すべき点 ～ 選挙ドットコム運営のイチニで「個別お打合せのご提案」と題するメールを誤送信 選挙ドットコムを運営するイチニ株式会社は9月10日、メール誤送信によるメールアドレス漏えいについて発表した。",
       "attack": true,
-      "organization": "すべき点 ～ 選挙ドットコム運営のイチニで「個別お打合せのご提案」と題するメールを誤送信 選挙ドットコムを運営するイチニ株式会社",
+      "organization": "ットコム運営のイチニで「個別お打合せのご提案」と題するメールを誤送信 選挙ドットコムを運営するイチニ株式会社",
       "service": "個別お打合せのご提案",
       "attack_type": "アカウント侵害",
       "leak_status": "可能性あり",
@@ -6403,7 +6470,7 @@
           "published_date": "2026-09-29",
           "title": "問題発生後の報告体制に改善すべき点 ～ 選挙ドットコム運営のイチニで「個別お打合せのご提案」と題するメールを誤送信 選挙ドットコムを運営するイチニ株式会社は9月10日、メール誤送信によるメールアドレス漏えいについて発表した。",
           "attack": true,
-          "organization": "すべき点 ～ 選挙ドットコム運営のイチニで「個別お打合せのご提案」と題するメールを誤送信 選挙ドットコムを運営するイチニ株式会社",
+          "organization": "ットコム運営のイチニで「個別お打合せのご提案」と題するメールを誤送信 選挙ドットコムを運営するイチニ株式会社",
           "service": "個別お打合せのご提案",
           "attack_type": "アカウント侵害",
           "leak_status": "可能性あり",
@@ -7764,7 +7831,7 @@
       "published_date": "2026-09-25",
       "title": "実行犯が示唆したダークウェブでの情報公開は確認されず ～ ワシントンホテルにランサムウェア攻撃 ワシントンホテル株式会社は9月7日、2月14日に公表した同社の一部サーバのランサムウェア感染について、最終報を発表した。",
       "attack": true,
-      "organization": "実行犯が示唆したダークウェブでの情報公開は確認されず ～ ワシントンホテルにランサムウェア攻撃 ワシントンホテル株式会社",
+      "organization": "したダークウェブでの情報公開は確認されず ～ ワシントンホテルにランサムウェア攻撃 ワシントンホテル株式会社",
       "service": "サーバのランサムウェア感染について",
       "attack_type": "ランサムウェア",
       "leak_status": "可能性あり",
@@ -7783,7 +7850,7 @@
           "published_date": "2026-09-25",
           "title": "実行犯が示唆したダークウェブでの情報公開は確認されず ～ ワシントンホテルにランサムウェア攻撃 ワシントンホテル株式会社は9月7日、2月14日に公表した同社の一部サーバのランサムウェア感染について、最終報を発表した。",
           "attack": true,
-          "organization": "実行犯が示唆したダークウェブでの情報公開は確認されず ～ ワシントンホテルにランサムウェア攻撃 ワシントンホテル株式会社",
+          "organization": "したダークウェブでの情報公開は確認されず ～ ワシントンホテルにランサムウェア攻撃 ワシントンホテル株式会社",
           "service": "サーバのランサムウェア感染について",
           "attack_type": "ランサムウェア",
           "leak_status": "可能性あり",
@@ -8362,7 +8429,7 @@
           "published_date": "2026-09-14",
           "title": "VPNの脆弱性を利用 ～ デジタル庁が運用するガバメントソリューションサービス（GSS）に不正アクセス、約24.6万件の個人情報が漏えいした可能性 デジタル庁は9月11日、ガバメントソリューションサービスへの不正アクセスについて発表した。",
           "attack": true,
-          "organization": "デジタル庁",
+          "organization": "VPNの脆弱性を利用 ～ デジタル庁",
           "service": "VPNを使用しない",
           "attack_type": "不正アクセス",
           "leak_status": "可能性あり",
@@ -8855,7 +8922,7 @@
       "published_date": "2026-09-18",
       "title": "フィッシング詐欺等によるものとみられる不正アクセス・不正取引を確認 ～ 静銀ティーエム証券 静銀ティーエム証券株式会社は8月28日、同社の顧客の口座への不正アクセスについて発表した。",
       "attack": true,
-      "organization": "フィッシング詐欺等によるものとみられる不正アクセス・不正取引を確認 ～ 静銀ティーエム証券 静銀ティーエム証券株式会社",
+      "organization": "グ詐欺等によるものとみられる不正アクセス・不正取引を確認 ～ 静銀ティーエム証券 静銀ティーエム証券株式会社",
       "service": "ドズル社ストア",
       "attack_type": "フィッシング",
       "leak_status": "可能性あり",
@@ -8874,7 +8941,7 @@
           "published_date": "2026-09-18",
           "title": "フィッシング詐欺等によるものとみられる不正アクセス・不正取引を確認 ～ 静銀ティーエム証券 静銀ティーエム証券株式会社は8月28日、同社の顧客の口座への不正アクセスについて発表した。",
           "attack": true,
-          "organization": "フィッシング詐欺等によるものとみられる不正アクセス・不正取引を確認 ～ 静銀ティーエム証券 静銀ティーエム証券株式会社",
+          "organization": "グ詐欺等によるものとみられる不正アクセス・不正取引を確認 ～ 静銀ティーエム証券 静銀ティーエム証券株式会社",
           "service": "ドズル社ストア",
           "attack_type": "フィッシング",
           "leak_status": "可能性あり",
@@ -9340,7 +9407,7 @@
       "published_date": "2026-09-17",
       "title": "さくらインターネットが不正アクセス調査結果を発表「さくらのレンタルサーバ」全サーバ再構築など再発防止策を掲げる さくらインターネット株式会社は9月10日、8月17日に公表した同社レンタルサーバサービスの一部環境への不正アクセスについて、第三報を発表した。",
       "attack": true,
-      "organization": "ーネットが不正アクセス調査結果を発表「さくらのレンタルサーバ」全サーバ再構築など再発防止策を掲げる さくらインターネット株式会社",
+      "organization": "ス調査結果を発表「さくらのレンタルサーバ」全サーバ再構築など再発防止策を掲げる さくらインターネット株式会社",
       "service": "さくらのレンタルサーバ",
       "attack_type": "不正アクセス",
       "leak_status": "可能性あり",
@@ -9360,7 +9427,7 @@
           "published_date": "2026-09-17",
           "title": "さくらインターネットが不正アクセス調査結果を発表「さくらのレンタルサーバ」全サーバ再構築など再発防止策を掲げる さくらインターネット株式会社は9月10日、8月17日に公表した同社レンタルサーバサービスの一部環境への不正アクセスについて、第三報を発表した。",
           "attack": true,
-          "organization": "ーネットが不正アクセス調査結果を発表「さくらのレンタルサーバ」全サーバ再構築など再発防止策を掲げる さくらインターネット株式会社",
+          "organization": "ス調査結果を発表「さくらのレンタルサーバ」全サーバ再構築など再発防止策を掲げる さくらインターネット株式会社",
           "service": "さくらのレンタルサーバ",
           "attack_type": "不正アクセス",
           "leak_status": "可能性あり",
@@ -10887,7 +10954,7 @@
       "published_date": "2026-09-11",
       "title": "新製品・新サービス ScanNetSecurity 2026.9.11 Fri 8:00 「ネット de 診断 AIホワイトハッカー侵入テスト」提供開始、サイバーセキュリティ特化AI基盤「AIホワイトハッカー byGMO」を活用 GMOサイバーセキュリティ byイエラエ株式会社は9月3日、「ネット de 診断 AIホワイトハッカー侵入テスト」を同日から順次提供すると発表した。",
       "attack": true,
-      "organization": "サイバーセキュリティ特化AI基盤「AIホワイトハッカー byGMO」を活用 GMOサイバーセキュリティ byイエラエ株式会社",
+      "organization": "ティ特化AI基盤「AIホワイトハッカー byGMO」を活用 GMOサイバーセキュリティ byイエラエ株式会社",
       "service": "ネット de 診断 AIホワイトハッカー侵入テスト",
       "attack_type": "不正アクセス",
       "leak_status": "可能性あり",
@@ -10906,7 +10973,7 @@
           "published_date": "2026-09-11",
           "title": "新製品・新サービス ScanNetSecurity 2026.9.11 Fri 8:00 「ネット de 診断 AIホワイトハッカー侵入テスト」提供開始、サイバーセキュリティ特化AI基盤「AIホワイトハッカー byGMO」を活用 GMOサイバーセキュリティ byイエラエ株式会社は9月3日、「ネット de 診断 AIホワイトハッカー侵入テスト」を同日から順次提供すると発表した。",
           "attack": true,
-          "organization": "サイバーセキュリティ特化AI基盤「AIホワイトハッカー byGMO」を活用 GMOサイバーセキュリティ byイエラエ株式会社",
+          "organization": "ティ特化AI基盤「AIホワイトハッカー byGMO」を活用 GMOサイバーセキュリティ byイエラエ株式会社",
           "service": "ネット de 診断 AIホワイトハッカー侵入テスト",
           "attack_type": "不正アクセス",
           "leak_status": "可能性あり",
@@ -11247,7 +11314,7 @@
       "published_date": "2026-09-11",
       "title": "2026/09/14 デジタル庁、政府共通の業務実施環境「GSS」がVPN機器の脆弱性を悪用した不正アクセスで職員等 約24.6万件の個人情報漏えいのおそれ — 5月侵入・6月検知・9月公表 続報を注視中 重大 デジタル庁は2026年9月11日、同庁が運用する政府共通の業務実施環境「ガバメントソリューションサービス（GSS）」がVPN機器の脆弱性を悪用した不正アクセスを受け、保守運用担当者のアカウントが悪用されて職員・事業者ら計約24万6,000件（職員等18万9,000件、事業者・個人5万7,000件）の個人情報が外部流出のおそれがあると公表。5月下旬に侵入、6月25日に大量ファイルアクセスを検知、7月9日に侵害アカウントを停止・外部通信を遮断。氏名・メールアドレス・電話番号・住所が対象で、マイナンバー・金融情報は非該当。 →",
       "attack": true,
-      "organization": "デジタル庁",
+      "organization": "24.6万件の個人情報漏えいのおそれ — 5月侵入・6月検知・9月公表 続報を注視中 重大 デジタル庁",
       "service": "GSS",
       "attack_type": "アカウント侵害",
       "leak_status": "可能性あり",
@@ -11269,7 +11336,7 @@
           "published_date": "2026-09-11",
           "title": "2026/09/14 デジタル庁、政府共通の業務実施環境「GSS」がVPN機器の脆弱性を悪用した不正アクセスで職員等 約24.6万件の個人情報漏えいのおそれ — 5月侵入・6月検知・9月公表 続報を注視中 重大 デジタル庁は2026年9月11日、同庁が運用する政府共通の業務実施環境「ガバメントソリューションサービス（GSS）」がVPN機器の脆弱性を悪用した不正アクセスを受け、保守運用担当者のアカウントが悪用されて職員・事業者ら計約24万6,000件（職員等18万9,000件、事業者・個人5万7,000件）の個人情報が外部流出のおそれがあると公表。5月下旬に侵入、6月25日に大量ファイルアクセスを検知、7月9日に侵害アカウントを停止・外部通信を遮断。氏名・メールアドレス・電話番号・住所が対象で、マイナンバー・金融情報は非該当。 →",
           "attack": true,
-          "organization": "デジタル庁",
+          "organization": "24.6万件の個人情報漏えいのおそれ — 5月侵入・6月検知・9月公表 続報を注視中 重大 デジタル庁",
           "service": "GSS",
           "attack_type": "アカウント侵害",
           "leak_status": "可能性あり",
@@ -12243,7 +12310,7 @@
       "published_date": "2026-09-08",
       "title": "グループのシステムに不正アクセス、個人情報流出の可能性 - 三井不動産",
       "attack": true,
-      "organization": "三井不動産",
+      "organization": "グループのシステムに不正アクセス",
       "service": "システムに不正アクセス",
       "attack_type": "不正アクセス",
       "leak_status": "可能性あり",
@@ -12260,7 +12327,7 @@
           "published_date": "2026-09-08",
           "title": "グループのシステムに不正アクセス、個人情報流出の可能性 - 三井不動産",
           "attack": true,
-          "organization": "三井不動産",
+          "organization": "グループのシステムに不正アクセス",
           "service": "システムに不正アクセス",
           "attack_type": "不正アクセス",
           "leak_status": "可能性あり",
@@ -12436,7 +12503,7 @@
       "published_date": "2026-09-07",
       "title": "社内ファイルサーバが侵害、情報流出が判明 - アンビションDX",
       "attack": true,
-      "organization": "アンビションDX",
+      "organization": "社内ファイルサーバが侵害",
       "service": "サーバが侵害",
       "attack_type": "不正アクセス",
       "leak_status": "確認・可能性あり",
@@ -12453,7 +12520,7 @@
           "published_date": "2026-09-07",
           "title": "社内ファイルサーバが侵害、情報流出が判明 - アンビションDX",
           "attack": true,
-          "organization": "アンビションDX",
+          "organization": "社内ファイルサーバが侵害",
           "service": "サーバが侵害",
           "attack_type": "不正アクセス",
           "leak_status": "確認・可能性あり",
@@ -12510,7 +12577,7 @@
       "published_date": "2026-09-07",
       "title": "「まんだらけ」サーバに不正侵入、情報流出か - 通販やオークションは再開",
       "attack": true,
-      "organization": "通販やオークションは再開",
+      "organization": "「まんだらけ」サーバに不正侵入",
       "service": "まんだらけ",
       "attack_type": "不正アクセス",
       "leak_status": "可能性あり",
@@ -12527,7 +12594,7 @@
           "published_date": "2026-09-07",
           "title": "「まんだらけ」サーバに不正侵入、情報流出か - 通販やオークションは再開",
           "attack": true,
-          "organization": "通販やオークションは再開",
+          "organization": "「まんだらけ」サーバに不正侵入",
           "service": "まんだらけ",
           "attack_type": "不正アクセス",
           "leak_status": "可能性あり",
@@ -12627,7 +12694,7 @@
       "published_date": "2026-09-07",
       "title": "01銀行のシステムに不正アクセス、最大100社の情報が漏えい 01銀行株式会社は8月27日、同行システムへの不正アクセスについて発表した。",
       "attack": true,
-      "organization": "最大100社の情報が漏えい 01銀行株式会社",
+      "organization": "01銀行",
       "service": "システムに不正アクセス",
       "attack_type": "不正アクセス",
       "leak_status": "可能性あり",
@@ -12647,7 +12714,7 @@
           "published_date": "2026-09-07",
           "title": "01銀行のシステムに不正アクセス、最大100社の情報が漏えい 01銀行株式会社は8月27日、同行システムへの不正アクセスについて発表した。",
           "attack": true,
-          "organization": "最大100社の情報が漏えい 01銀行株式会社",
+          "organization": "01銀行",
           "service": "システムに不正アクセス",
           "attack_type": "不正アクセス",
           "leak_status": "可能性あり",
