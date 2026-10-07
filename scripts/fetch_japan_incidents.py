@@ -217,6 +217,27 @@ def normalize_org(text):
     t=re.sub(r"(株式会社|有限会社|合同会社|inc\.?|corp\.?|co\.?\s*ltd\.?)$","",t).strip()
     return re.sub(r"[^a-z0-9一-龥ぁ-んァ-ヶ]","",t)
 
+def extract_title_organization(text):
+    t=clean(text)
+    # Prefer an organization explicitly introduced as the subject of the title.
+    pats=[
+        r"((?:株式会社|有限会社|合同会社|国立研究開発法人|国立大学法人|学校法人|独立行政法人)[^、。\n]{1,80}?)(?=(?:は|が|に|の))",
+        r"([^、。\n]{2,50}(?:株式会社|有限会社|合同会社|大学|銀行|電鉄|鉄道|新聞|証券|病院|機構|協会|連合会|庁|市役所|区役所))(?=(?:は|が|に|の))"
+    ]
+    for pat in pats:
+        m=re.search(pat,t)
+        if m:
+            v=clean(m.group(1))
+            if len(v)>=2:
+                return v
+    # Common incident-title forms: "Company、..."; "Company、..." and "... - Company"
+    m=re.search(r"^([^、。\n]{2,50})、(?:[^、。\n]*(?:不正アクセス|サイバー攻撃|ランサム|情報漏|情報流出|侵害|侵入))",t)
+    if m:
+        v=clean(m.group(1))
+        if not any(k in v for k in ["ScanNetSecurity","Security NEXT","Okta","TheRegister"]):
+            return v
+    return None
+
 def extract_organization(text):
     t=clean(text)
     aliases=[
@@ -345,7 +366,7 @@ def enrich_incidents(items):
         title_text=clean(item.get("title",""))
         source_text=clean(" ".join([title_text,body]))
         item=dict(item)
-        org=extract_organization(title_text) or extract_organization(body[:1500]) or item.get("organization")
+        org=extract_title_organization(title_text) or extract_organization(title_text) or extract_organization(body[:1500]) or item.get("organization")
         if org: item["organization"]=org
         item["service"]=extract_service(title_text,org) or extract_service(body[:1500],org)
         title_fields=extract_incident_fields(title_text,org)
