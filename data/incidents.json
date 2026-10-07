@@ -1,6 +1,6 @@
 {
   "source": "Japanese cyber incident sources",
-  "retrieved_at": "2026-10-07T01:34:11.720993+00:00",
+  "retrieved_at": "2026-10-07T01:35:26.526338+00:00",
   "window_days": 30,
   "cutoff_date": "2026-09-07",
   "attack_only": true,
@@ -11,7 +11,7 @@
     "SmartScope",
     "Google News"
   ],
-  "count": 322,
+  "count": 318,
   "source_errors": {},
   "deduplication": {
     "same_source_exact": true,
@@ -163,24 +163,9 @@
       ],
       "incident_summary": "株式会社日経BPは10月4日、同社従業員のメールアカウントへの不正アクセスについて発表した。 これは9月30日に、同社従業員のメールアカウントに不正アクセスがあり、メール送受信先の一部の個人情報が漏えいした可能性が判明したというもの。当該従業員は、日本経済新聞社社員のメールアドレスで届いたフィッシングメールから、認証情報を入手されている。 漏えいした可能性があるのは、26件の個人情報（個人名、メールアドレス）。 同社では、個人情報漏えいが疑われるメールアドレス先の対象者に個別にメールで連絡を行っている。 同社では不正アクセスの発覚後に、当該アカウントへの接続を遮断している。 同社では引き続き、個人情報の安全を守るために最善を尽くすとのこと。 なお、株式会社日本経済新聞社は10月4日に、約9,000件のなりすましメールが送信された旨を公表している。 Fujisan.co.jp「マイページ」への不正ログイン、日経BP の雑誌書籍等の購入者も対象に 2025.7.14 Mon 8:05 日経BP従業員メールアカウントに不正アクセス、33名の個人情報流出の可能性 2024.6.14 Fri 8",
       "sources": [
-        "Security NEXT",
         "ScanNetSecurity"
       ],
       "source_records": [
-        {
-          "source": "Security NEXT",
-          "source_url": "https://www.security-next.com/191072",
-          "published_date": "2026-10-06",
-          "title": "従業員アカウントに不正アクセス、取材先に大量なりすましメール - 日経",
-          "attack": true,
-          "organization": "日経",
-          "service": "メール - 日経",
-          "attack_type": "アカウント侵害",
-          "leak_status": "不明",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "日本経済新聞社は、従業員が利用していた「Microsoft 365」のアカウントがサイバー攻撃を受けたことを明らかにした。大量のなりすましメールが送信されたという。 ：Security NEXT"
-        },
         {
           "source": "ScanNetSecurity",
           "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/07/56402.html",
@@ -220,7 +205,7 @@
           "incident_summary": "株式会社日経BPは10月4日、同社従業員のメールアカウントへの不正アクセスについて発表した。 これは9月30日に、同社従業員のメールアカウントに不正アクセスがあり、メール送受信先の一部の個人情報が漏えいした可能性が判明したというもの。当該従業員は、日本経済新聞社社員のメールアドレスで届いたフィッシングメールから、認証情報を入手されている。 漏えいした可能性があるのは、26件の個人情報（個人名、メールアドレス）。 同社では、個人情報漏えいが疑われるメールアドレス先の対象者に個別にメールで連絡を行っている。 同社では不正アクセスの発覚後に、当該アカウントへの接続を遮断している。 同社では引き続き、個人情報の安全を守るために最善を尽くすとのこと。 なお、株式会社日本経済新聞社は10月4日に、約9,000件のなりすましメールが送信された旨を公表している。 Fujisan.co.jp「マイページ」への不正ログイン、日経BP の雑誌書籍等の購入者も対象に 2025.7.14 Mon 8:05 日経BP従業員メールアカウントに不正アクセス、33名の個人情報流出の可能性 2024.6.14 Fri 8"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "merged": true
     },
     {
@@ -619,39 +604,6 @@
     },
     {
       "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZjNrWnZFd3NoSmxsZ19EYUtuZGJCS2EzMU54MVFsUzlXSm5qbDZhNktlM2dSWWhySHcyeWRmc2xLTGJpczJoUG9QMDNfR19FN21mRHNPcEZfcFVnOTJiU2MzRW5QTjEyNklTbmNuWHBBN0JZVzNJZ1IyMGpmaUlkblpvVmRfdzNzZFpuUFdqbWvSAZABQVVfeXFMTWYza1p2RXdzaEpsbGdfRGFLbmRiQkthMzFOeDFRbFM5V0puamw2YTZLZTNnUllockh3MnlkZnNsS0xiaXMyaFBvUDAzX0dfRTdtZkRzT3BGX3BVZzkyYlNjM0VuUE4xMjZJU25jblhwQTdCWVczSWdSMjBqZmlJZG5ab1ZkX3czc2RablBXam1r?oc=5",
-      "published_date": "2026-10-06",
-      "title": "日経BP、メールアカウントへの不正アクセスにより個人情報漏えいの疑い。日経新聞社への攻撃が影響 - ｄメニューニュース",
-      "attack": true,
-      "organization": "日経BP",
-      "attack_type": "アカウント侵害",
-      "leak_status": "確認・可能性あり",
-      "leak_count": null,
-      "leaked_data": [],
-      "incident_summary": "日経BP、メールアカウントへの不正アクセスにより個人情報漏えいの疑い。日経新聞社への攻撃が影響 - ｄメニューニュース",
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZjNrWnZFd3NoSmxsZ19EYUtuZGJCS2EzMU54MVFsUzlXSm5qbDZhNktlM2dSWWhySHcyeWRmc2xLTGJpczJoUG9QMDNfR19FN21mRHNPcEZfcFVnOTJiU2MzRW5QTjEyNklTbmNuWHBBN0JZVzNJZ1IyMGpmaUlkblpvVmRfdzNzZFpuUFdqbWvSAZABQVVfeXFMTWYza1p2RXdzaEpsbGdfRGFLbmRiQkthMzFOeDFRbFM5V0puamw2YTZLZTNnUllockh3MnlkZnNsS0xiaXMyaFBvUDAzX0dfRTdtZkRzT3BGX3BVZzkyYlNjM0VuUE4xMjZJU25jblhwQTdCWVczSWdSMjBqZmlJZG5ab1ZkX3czc2RablBXam1r?oc=5",
-          "published_date": "2026-10-06",
-          "title": "日経BP、メールアカウントへの不正アクセスにより個人情報漏えいの疑い。日経新聞社への攻撃が影響 - ｄメニューニュース",
-          "attack": true,
-          "organization": "日経BP",
-          "attack_type": "アカウント侵害",
-          "leak_status": "確認・可能性あり",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "日経BP、メールアカウントへの不正アクセスにより個人情報漏えいの疑い。日経新聞社への攻撃が影響 - ｄメニューニュース"
-        }
-      ],
-      "source_count": 1,
-      "merged": false
-    },
-    {
-      "source": "Google News",
       "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPT2ZNdldPSUlMWWNiclFETGtGcEZwcXI5dXpXUlpoMXJmWHVvVTVVV1ZFMHB4UnFJVXdmeEhqSlljcUNONS10WXVybWF4aktEMThtYnZiUkdnMThUaU5EQmhGcDRjbnNOUG5YTzYxVlozektQbHJQdm5Ra2dTNlRQeGN6ckd5LUdvXzdHR0xBVmZtejZxWEpvT1h3?oc=5",
       "published_date": "2026-10-06",
       "title": "日本交通、電話配車と陣痛タクシーWeb登録を10月6日再開へ-不正アクセスから約3カ月 - 合同会社ロケットボーイズ",
@@ -682,6 +634,55 @@
       ],
       "source_count": 1,
       "merged": false
+    },
+    {
+      "source": "Security NEXT",
+      "source_url": "https://www.security-next.com/191072",
+      "published_date": "2026-10-06",
+      "title": "従業員アカウントに不正アクセス、取材先に大量なりすましメール - 日経",
+      "attack": true,
+      "organization": "日経",
+      "service": "メール - 日経",
+      "attack_type": "アカウント侵害",
+      "leak_status": "不明",
+      "leak_count": null,
+      "leaked_data": [],
+      "incident_summary": "日本経済新聞社は、従業員が利用していた「Microsoft 365」のアカウントがサイバー攻撃を受けたことを明らかにした。大量のなりすましメールが送信されたという。 ：Security NEXT",
+      "sources": [
+        "Google News",
+        "Security NEXT"
+      ],
+      "source_records": [
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZjNrWnZFd3NoSmxsZ19EYUtuZGJCS2EzMU54MVFsUzlXSm5qbDZhNktlM2dSWWhySHcyeWRmc2xLTGJpczJoUG9QMDNfR19FN21mRHNPcEZfcFVnOTJiU2MzRW5QTjEyNklTbmNuWHBBN0JZVzNJZ1IyMGpmaUlkblpvVmRfdzNzZFpuUFdqbWvSAZABQVVfeXFMTWYza1p2RXdzaEpsbGdfRGFLbmRiQkthMzFOeDFRbFM5V0puamw2YTZLZTNnUllockh3MnlkZnNsS0xiaXMyaFBvUDAzX0dfRTdtZkRzT3BGX3BVZzkyYlNjM0VuUE4xMjZJU25jblhwQTdCWVczSWdSMjBqZmlJZG5ab1ZkX3czc2RablBXam1r?oc=5",
+          "published_date": "2026-10-06",
+          "title": "日経BP、メールアカウントへの不正アクセスにより個人情報漏えいの疑い。日経新聞社への攻撃が影響 - ｄメニューニュース",
+          "attack": true,
+          "organization": "日経BP",
+          "attack_type": "アカウント侵害",
+          "leak_status": "確認・可能性あり",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "日経BP、メールアカウントへの不正アクセスにより個人情報漏えいの疑い。日経新聞社への攻撃が影響 - ｄメニューニュース"
+        },
+        {
+          "source": "Security NEXT",
+          "source_url": "https://www.security-next.com/191072",
+          "published_date": "2026-10-06",
+          "title": "従業員アカウントに不正アクセス、取材先に大量なりすましメール - 日経",
+          "attack": true,
+          "organization": "日経",
+          "service": "メール - 日経",
+          "attack_type": "アカウント侵害",
+          "leak_status": "不明",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "日本経済新聞社は、従業員が利用していた「Microsoft 365」のアカウントがサイバー攻撃を受けたことを明らかにした。大量のなりすましメールが送信されたという。 ：Security NEXT"
+        }
+      ],
+      "source_count": 2,
+      "merged": true
     },
     {
       "source": "Security NEXT",
@@ -842,6 +843,19 @@
       "source_records": [
         {
           "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBqSjZaUkdrNWdFY0JmcmFmbkgyczNtNjhLUm9BWmUwSFpmeFNQc1RBNG5CMVkwVFQ4aHRMS2VtWmczMFlKMTFFOW9adzFqUmFHbUNyMHdSSWZXajlQYlE2VVZUTDFMUXVwckpDRldIONIBdEFVX3lxTFBWLWR2YmUxMXdaLWpOZThrXzNpNFR0OHE5Mk54TV85a2RnQUotVXNLNXFwck5nTnAxU0RPdXp1TzYtM0Q4YmJfUWxmQTNOZnE2MDAteG1BMndPMHdkS252dXBPWVRmMzB6NlNDQ3B1Y0tQQWZW?oc=5",
+          "published_date": "2026-10-06",
+          "title": "シチズン時計10万人分漏えいか 個人情報、委託業者不正アクセス - Infoseek",
+          "attack": true,
+          "organization": "シチズン時計",
+          "attack_type": "不正アクセス",
+          "leak_status": "確認・可能性あり",
+          "leak_count": "10万",
+          "leaked_data": [],
+          "incident_summary": "シチズン時計10万人分漏えいか 個人情報、委託業者不正アクセス - Infoseek"
+        },
+        {
+          "source": "Google News",
           "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9NTmI2bm5FYUR2ZUZzcUhlb3FkT1VRWmtBb01IbUhsbjk5dnUzOHFWOTZEUVRSUVpIcnFITnU5YVFxRE1zc2JaTWhVaC1kUTJIOEtv?oc=5",
           "published_date": "2026-10-06",
           "title": "シチズン時計、委託先システムへの不正アクセスにより約10万人の個人情報漏えいの可能性 - 東京報道新聞",
@@ -855,40 +869,7 @@
         }
       ],
       "source_count": 1,
-      "merged": false
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBqSjZaUkdrNWdFY0JmcmFmbkgyczNtNjhLUm9BWmUwSFpmeFNQc1RBNG5CMVkwVFQ4aHRMS2VtWmczMFlKMTFFOW9adzFqUmFHbUNyMHdSSWZXajlQYlE2VVZUTDFMUXVwckpDRldIONIBdEFVX3lxTFBWLWR2YmUxMXdaLWpOZThrXzNpNFR0OHE5Mk54TV85a2RnQUotVXNLNXFwck5nTnAxU0RPdXp1TzYtM0Q4YmJfUWxmQTNOZnE2MDAteG1BMndPMHdkS252dXBPWVRmMzB6NlNDQ3B1Y0tQQWZW?oc=5",
-      "published_date": "2026-10-06",
-      "title": "シチズン時計10万人分漏えいか 個人情報、委託業者不正アクセス - Infoseek",
-      "attack": true,
-      "organization": "シチズン時計",
-      "attack_type": "不正アクセス",
-      "leak_status": "確認・可能性あり",
-      "leak_count": "10万",
-      "leaked_data": [],
-      "incident_summary": "シチズン時計10万人分漏えいか 個人情報、委託業者不正アクセス - Infoseek",
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBqSjZaUkdrNWdFY0JmcmFmbkgyczNtNjhLUm9BWmUwSFpmeFNQc1RBNG5CMVkwVFQ4aHRMS2VtWmczMFlKMTFFOW9adzFqUmFHbUNyMHdSSWZXajlQYlE2VVZUTDFMUXVwckpDRldIONIBdEFVX3lxTFBWLWR2YmUxMXdaLWpOZThrXzNpNFR0OHE5Mk54TV85a2RnQUotVXNLNXFwck5nTnAxU0RPdXp1TzYtM0Q4YmJfUWxmQTNOZnE2MDAteG1BMndPMHdkS252dXBPWVRmMzB6NlNDQ3B1Y0tQQWZW?oc=5",
-          "published_date": "2026-10-06",
-          "title": "シチズン時計10万人分漏えいか 個人情報、委託業者不正アクセス - Infoseek",
-          "attack": true,
-          "organization": "シチズン時計",
-          "attack_type": "不正アクセス",
-          "leak_status": "確認・可能性あり",
-          "leak_count": "10万",
-          "leaked_data": [],
-          "incident_summary": "シチズン時計10万人分漏えいか 個人情報、委託業者不正アクセス - Infoseek"
-        }
-      ],
-      "source_count": 1,
-      "merged": false
+      "merged": true
     },
     {
       "source": "Google News",
@@ -4032,6 +4013,21 @@
       "source_records": [
         {
           "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE02ZFFLRUhNMlNCdWt3WTRkLUk0bGFVWW8yQ2lwUm96VlpIN2pISktabkdIeVJvLUpPOGVDbjBjTFVTcTBoOFhienF4dUJwNlRQSG5nSTJKY3FkWlJRTzlhUnJ3NnJ0NzBzczc4UXRyeE14RG9zTTNPWS1CdDhSUzQ?oc=5",
+          "published_date": "2026-10-02",
+          "title": "ヤマト運輸、後払いサービスに不正アクセス 顧客情報など漏えいの可能性（日本ネット経済新聞） - Yahoo!ニュース",
+          "attack": true,
+          "organization": "ヤマト運輸",
+          "attack_type": "不正アクセス",
+          "leak_status": "可能性あり",
+          "leak_count": null,
+          "leaked_data": [
+            "顧客情報"
+          ],
+          "incident_summary": "ヤマト運輸、後払いサービスに不正アクセス 顧客情報など漏えいの可能性（日本ネット経済新聞） - Yahoo!ニュース"
+        },
+        {
+          "source": "Google News",
           "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAwUWt2cVg0WUZNeThHZUl2SkZ0RjVFVEVkMUxpMG42cE5JMmhjcFhEWlJSZERTVzBUSWlBdllMYUtyZ1F2S3Fkb2gwLUI1RHRwa3ZvckdjUnpXLVpVaWpPdTZhLXFNWThxRndVQg?oc=5",
           "published_date": "2026-10-02",
           "title": "ヤマト運輸に不正アクセス、氏名や住所漏洩か 通販後払いで - 日本経済新聞",
@@ -4048,44 +4044,7 @@
         }
       ],
       "source_count": 1,
-      "merged": false
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE02ZFFLRUhNMlNCdWt3WTRkLUk0bGFVWW8yQ2lwUm96VlpIN2pISktabkdIeVJvLUpPOGVDbjBjTFVTcTBoOFhienF4dUJwNlRQSG5nSTJKY3FkWlJRTzlhUnJ3NnJ0NzBzczc4UXRyeE14RG9zTTNPWS1CdDhSUzQ?oc=5",
-      "published_date": "2026-10-02",
-      "title": "ヤマト運輸、後払いサービスに不正アクセス 顧客情報など漏えいの可能性（日本ネット経済新聞） - Yahoo!ニュース",
-      "attack": true,
-      "organization": "ヤマト運輸",
-      "attack_type": "不正アクセス",
-      "leak_status": "可能性あり",
-      "leak_count": null,
-      "leaked_data": [
-        "顧客情報"
-      ],
-      "incident_summary": "ヤマト運輸、後払いサービスに不正アクセス 顧客情報など漏えいの可能性（日本ネット経済新聞） - Yahoo!ニュース",
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE02ZFFLRUhNMlNCdWt3WTRkLUk0bGFVWW8yQ2lwUm96VlpIN2pISktabkdIeVJvLUpPOGVDbjBjTFVTcTBoOFhienF4dUJwNlRQSG5nSTJKY3FkWlJRTzlhUnJ3NnJ0NzBzczc4UXRyeE14RG9zTTNPWS1CdDhSUzQ?oc=5",
-          "published_date": "2026-10-02",
-          "title": "ヤマト運輸、後払いサービスに不正アクセス 顧客情報など漏えいの可能性（日本ネット経済新聞） - Yahoo!ニュース",
-          "attack": true,
-          "organization": "ヤマト運輸",
-          "attack_type": "不正アクセス",
-          "leak_status": "可能性あり",
-          "leak_count": null,
-          "leaked_data": [
-            "顧客情報"
-          ],
-          "incident_summary": "ヤマト運輸、後払いサービスに不正アクセス 顧客情報など漏えいの可能性（日本ネット経済新聞） - Yahoo!ニュース"
-        }
-      ],
-      "source_count": 1,
-      "merged": false
+      "merged": true
     },
     {
       "source": "ScanNetSecurity",
@@ -4528,52 +4487,6 @@
       "source_records": [
         {
           "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Ub0xVTmY1N1ZxUWstRTZLZmhKMjJuQ0gyVWVjdUJmc0xmSk5FbTFGVUxMLUl6bnhGZmltWWtzNlhEZmJtWmFhS2VhX3MxbmNFVkJzTGNZRWpfRUhEaGJ1VElaczFzcUhGWW8teWVhNDdoMkg3ZG8xRWMyTVlMMVE?oc=5",
-          "published_date": "2026-10-01",
-          "title": "日本原子力機構に不正アクセス 研究者の個人情報が漏えい（共同通信） - Yahoo!ニュース",
-          "attack": true,
-          "organization": "日本原子力研究開発機構",
-          "attack_type": "不正アクセス",
-          "leak_status": "確認・可能性あり",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "日本原子力機構に不正アクセス 研究者の個人情報が漏えい（共同通信） - Yahoo!ニュース"
-        },
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5JS2JnYmxvMWd4cW5QczhjSzJrbm1Ed3Y4elhYVVNXV1FXQmpZOTl5QWpoeHdnRTZJZWR5Z09SZGxZd1FnNDBMYkV4YXlvX2syclFzX0lhMjlSdnBQcU5UVEZGcDdsb2pKS244cExIaTlleHY4bklF?oc=5",
-          "published_date": "2026-10-01",
-          "title": "日本原子力機構に不正アクセス 研究者の顔写真付き身分証など漏えい - ニコニコニュース",
-          "attack": true,
-          "organization": "日本原子力研究開発機構",
-          "attack_type": "不正アクセス",
-          "leak_status": "確認・可能性あり",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "日本原子力機構に不正アクセス 研究者の顔写真付き身分証など漏えい - ニコニコニュース"
-        }
-      ],
-      "source_count": 1,
-      "merged": true
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA2TF9lSXVjc0V3RFgtVGdpc0lVczZZa3Z0MlkzWXNJczhicV9adTQ4T2VKeEFFR3ZTa3FNQkFrRVBHWTRVc0dMV3ZwNG1MV2lod0kyZXo3eU9iVUdTRnRhU1BlbUNzSWJwYnhJalg4S05FT2hYVENV0gF8QVVfeXFMUHdkZGMzS00zZXJRa1FhemRWLU9SS3ZWejdjdmgyaWNJb0tCazBjenNPQllFOWkwbnhwVUlXMjRMS1E1LWhKMUtWWm5XYkotZEQ3WlRnU1VsdDRGUV9FbVBMRnpmUlRXbkNOb1doSF9vdDBoaERiWmdhejJwSQ?oc=5",
-      "published_date": "2026-10-01",
-      "title": "日本原子力機構に不正アクセス 研究者の顔写真付き身分証など漏えい - Infoseek",
-      "attack": true,
-      "organization": "日本原子力研究開発機構",
-      "attack_type": "不正アクセス",
-      "leak_status": "確認・可能性あり",
-      "leak_count": null,
-      "leaked_data": [],
-      "incident_summary": "日本原子力機構に不正アクセス 研究者の顔写真付き身分証など漏えい - Infoseek",
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
           "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9OY0YwVmxBWWtlNHZPUDJUbldqYmhZMnpRd1RSeXlEbDVEZUdBWkh0SnlNNng5b3pTT296TXNVbUdtVnlKaUJ1eEpVNUpsVTZxV2RjSmI0Wkx1ZXp5V2diQW9oR2RwRnpVeHM1OVdhVHJiQQ?oc=5",
           "published_date": "2026-10-01",
           "title": "「原子力機構」の研究用原子炉サイトに不正アクセス、１７５人分の運転免許証など個人情報漏えい - Infoseek",
@@ -4600,6 +4513,19 @@
         },
         {
           "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Ub0xVTmY1N1ZxUWstRTZLZmhKMjJuQ0gyVWVjdUJmc0xmSk5FbTFGVUxMLUl6bnhGZmltWWtzNlhEZmJtWmFhS2VhX3MxbmNFVkJzTGNZRWpfRUhEaGJ1VElaczFzcUhGWW8teWVhNDdoMkg3ZG8xRWMyTVlMMVE?oc=5",
+          "published_date": "2026-10-01",
+          "title": "日本原子力機構に不正アクセス 研究者の個人情報が漏えい（共同通信） - Yahoo!ニュース",
+          "attack": true,
+          "organization": "日本原子力研究開発機構",
+          "attack_type": "不正アクセス",
+          "leak_status": "確認・可能性あり",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "日本原子力機構に不正アクセス 研究者の個人情報が漏えい（共同通信） - Yahoo!ニュース"
+        },
+        {
+          "source": "Google News",
           "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA2TF9lSXVjc0V3RFgtVGdpc0lVczZZa3Z0MlkzWXNJczhicV9adTQ4T2VKeEFFR3ZTa3FNQkFrRVBHWTRVc0dMV3ZwNG1MV2lod0kyZXo3eU9iVUdTRnRhU1BlbUNzSWJwYnhJalg4S05FT2hYVENV0gF8QVVfeXFMUHdkZGMzS00zZXJRa1FhemRWLU9SS3ZWejdjdmgyaWNJb0tCazBjenNPQllFOWkwbnhwVUlXMjRMS1E1LWhKMUtWWm5XYkotZEQ3WlRnU1VsdDRGUV9FbVBMRnpmUlRXbkNOb1doSF9vdDBoaERiWmdhejJwSQ?oc=5",
           "published_date": "2026-10-01",
           "title": "日本原子力機構に不正アクセス 研究者の顔写真付き身分証など漏えい - Infoseek",
@@ -4610,6 +4536,19 @@
           "leak_count": null,
           "leaked_data": [],
           "incident_summary": "日本原子力機構に不正アクセス 研究者の顔写真付き身分証など漏えい - Infoseek"
+        },
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5JS2JnYmxvMWd4cW5QczhjSzJrbm1Ed3Y4elhYVVNXV1FXQmpZOTl5QWpoeHdnRTZJZWR5Z09SZGxZd1FnNDBMYkV4YXlvX2syclFzX0lhMjlSdnBQcU5UVEZGcDdsb2pKS244cExIaTlleHY4bklF?oc=5",
+          "published_date": "2026-10-01",
+          "title": "日本原子力機構に不正アクセス 研究者の顔写真付き身分証など漏えい - ニコニコニュース",
+          "attack": true,
+          "organization": "日本原子力研究開発機構",
+          "attack_type": "不正アクセス",
+          "leak_status": "確認・可能性あり",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "日本原子力機構に不正アクセス 研究者の顔写真付き身分証など漏えい - ニコニコニュース"
         }
       ],
       "source_count": 1,
@@ -4917,6 +4856,34 @@
             "住所"
           ],
           "incident_summary": "「郵便局アプリ」に不正アクセス 氏名や送り先住所など漏えい 19人分・69件 - ITmedia"
+        },
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE45VnNBSDlnWmc1SEJ1aEdNa3RGejZLQmZ3SHlORV9hT2NTcWo2S1R4S245ODBOMWd0cG41QWhDTWJ1cUhjeFVtUUl3cE43RVBTOWt5TA?oc=5",
+          "published_date": "2026-09-30",
+          "title": "郵便局アプリに不正アクセス 個人情報漏えいか - ASCII.jp",
+          "attack": true,
+          "organization": "日本郵便",
+          "attack_type": "不正アクセス",
+          "leak_status": "確認・可能性あり",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "郵便局アプリに不正アクセス 個人情報漏えいか - ASCII.jp"
+        },
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9BZ2t1YXlpbXM5blIzZURycHBqRlBGNEZWOWk4VmhkMm1IY0MzbFJySGhOWEpiWUVQY1VlQzk5TXhSU09kdDQ1cHB4bmRDTTFvQ3FEOFo3cHFhazFJdlhycU9VcDUxM0g2czJTRzYwVFBGUDM2VGVWeEUwS3pybWc?oc=5",
+          "published_date": "2026-09-30",
+          "title": "郵便局アプリに不正アクセス、19人分の個人情報流出 送り状の受取人住所や追跡番号も - Yahoo!ニュース",
+          "attack": true,
+          "organization": "日本郵便",
+          "attack_type": "不正アクセス",
+          "leak_status": "確認・可能性あり",
+          "leak_count": "19",
+          "leaked_data": [
+            "住所"
+          ],
+          "incident_summary": "郵便局アプリに不正アクセス、19人分の個人情報流出 送り状の受取人住所や追跡番号も - Yahoo!ニュース"
         },
         {
           "source": "Google News",
@@ -5399,56 +5366,6 @@
       ],
       "source_count": 1,
       "merged": false
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9BZ2t1YXlpbXM5blIzZURycHBqRlBGNEZWOWk4VmhkMm1IY0MzbFJySGhOWEpiWUVQY1VlQzk5TXhSU09kdDQ1cHB4bmRDTTFvQ3FEOFo3cHFhazFJdlhycU9VcDUxM0g2czJTRzYwVFBGUDM2VGVWeEUwS3pybWc?oc=5",
-      "published_date": "2026-09-30",
-      "title": "郵便局アプリに不正アクセス、19人分の個人情報流出 送り状の受取人住所や追跡番号も - Yahoo!ニュース",
-      "attack": true,
-      "organization": "日本郵便",
-      "attack_type": "不正アクセス",
-      "leak_status": "確認・可能性あり",
-      "leak_count": "19",
-      "leaked_data": [
-        "住所"
-      ],
-      "incident_summary": "郵便局アプリに不正アクセス、19人分の個人情報流出 送り状の受取人住所や追跡番号も - Yahoo!ニュース",
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE45VnNBSDlnWmc1SEJ1aEdNa3RGejZLQmZ3SHlORV9hT2NTcWo2S1R4S245ODBOMWd0cG41QWhDTWJ1cUhjeFVtUUl3cE43RVBTOWt5TA?oc=5",
-          "published_date": "2026-09-30",
-          "title": "郵便局アプリに不正アクセス 個人情報漏えいか - ASCII.jp",
-          "attack": true,
-          "organization": "日本郵便",
-          "attack_type": "不正アクセス",
-          "leak_status": "確認・可能性あり",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "郵便局アプリに不正アクセス 個人情報漏えいか - ASCII.jp"
-        },
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9BZ2t1YXlpbXM5blIzZURycHBqRlBGNEZWOWk4VmhkMm1IY0MzbFJySGhOWEpiWUVQY1VlQzk5TXhSU09kdDQ1cHB4bmRDTTFvQ3FEOFo3cHFhazFJdlhycU9VcDUxM0g2czJTRzYwVFBGUDM2VGVWeEUwS3pybWc?oc=5",
-          "published_date": "2026-09-30",
-          "title": "郵便局アプリに不正アクセス、19人分の個人情報流出 送り状の受取人住所や追跡番号も - Yahoo!ニュース",
-          "attack": true,
-          "organization": "日本郵便",
-          "attack_type": "不正アクセス",
-          "leak_status": "確認・可能性あり",
-          "leak_count": "19",
-          "leaked_data": [
-            "住所"
-          ],
-          "incident_summary": "郵便局アプリに不正アクセス、19人分の個人情報流出 送り状の受取人住所や追跡番号も - Yahoo!ニュース"
-        }
-      ],
-      "source_count": 1,
-      "merged": true
     },
     {
       "source": "Google News",
