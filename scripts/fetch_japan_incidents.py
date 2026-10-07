@@ -180,7 +180,7 @@ def collect_google_news(cutoff):
                 "ランサムウェア集団「Qilin」幹部","国際的サイバー攻撃集団「キリン」","ランサムウェア集団「KillSec」",
                 "ランサムウェア グループ Qilin","ランサムウェア集団 Qilin","本当に怖い情報流出",
                 "警告する","サイバー攻撃の経済学","生成AI事件簿","ターゲットは普通の会社","…も","も…",
-                "記事まとめ","ニュースまとめ","セキュリティ動向"
+                "記事まとめ","ニュースまとめ","セキュリティ動向","重大警告","サイバー攻撃止まらず","続く個人情報漏洩","異様"
             ]): continue
             # Google News is a discovery source; retain only titles that identify a concrete victim.
             if not extract_organization(title):
@@ -457,6 +457,12 @@ def same_incident(a,b):
         return True
 
     if title_overlap>=0.60:
+        return True
+
+    # Same victim, same publication day, same attack type, and some shared
+    # incident wording is a strong cross-media duplicate signal (e.g. multiple
+    # newspapers reporting the same breach).
+    if aa and ab and aa==ab and da==db and overlap>=0.15:
         return True
 
     # Same organization + same attack type + distinctive incident facts.
