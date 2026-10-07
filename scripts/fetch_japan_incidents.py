@@ -369,6 +369,18 @@ def incident_org(item):
 def _tokens(text):
     return set(re.findall(r"[一-龥ぁ-んァ-ヶA-Za-z0-9]{2,}",clean(text).lower()))
 
+def incident_core_text(x):
+    t=clean(" ".join([
+        x.get("title",""),
+        x.get("service",""),
+        x.get("incident_summary","")
+    ]))
+    # Remove publication/update boilerplate so first report and follow-up reports
+    # can be compared as the same underlying incident.
+    t=re.sub(r"(第[0-9一二三四五六七八九十]+報|続報|最終報|調査結果|調査報告|再発防止策|復旧完了|復旧を完了|結果を発表|について発表|について公表)"," ",t)
+    t=re.sub(r"20[0-9]{2}年?[0-9]{1,2}月[0-9]{1,2}日?|[0-9]{1,2}月[0-9]{1,2}日"," ",t)
+    return clean(t)
+
 def same_incident(a,b):
     if incident_org(a) != incident_org(b): return False
     try:
@@ -378,29 +390,29 @@ def same_incident(a,b):
         return False
     if abs((da-db).days)>30: return False
 
-    ta=_tokens(a.get("title",""))
-    tb=_tokens(b.get("title",""))
+    ta=_tokens(incident_core_text(a))
+    tb=_tokens(incident_core_text(b))
     overlap=len(ta&tb)/max(1,min(len(ta),len(tb))) if ta and tb else 0
 
     sa=normalize_org(a.get("service") or "")
     sb=normalize_org(b.get("service") or "")
-    ca=a.get("leak_count")
-    cb=b.get("leak_count")
     aa=a.get("attack_type")
     ab=b.get("attack_type")
 
-    # Explicitly keep separate incidents separate.
-    contradiction=("別の不正アクセス" in a.get("title","") or "別の不正アクセス" in b.get("title","") or
-                    "異なる手法" in a.get("title","") or "異なる手法" in b.get("title","") or
-                    "別件" in a.get("title","") or "別件" in b.get("title",""))
-    if contradiction: return False
+    # Follow-up reports from the same victim normally retain the same service/system.
+    if sa and sb and (sa==sb or sa in sb or sb in sa):
+        if aa and ab and aa==ab: return True
+        if overlap>=0.25: return True
 
-    if ca and cb and ca==cb and aa and ab and aa==ab:
+    # If service extraction differs between reports, a strong textual overlap
+    # still identifies the same underlying incident.
+    if overlap>=0.50:
         return True
-    if overlap>=0.60:
+
+    # Same organization + same attack type + distinctive incident facts.
+    if aa and ab and aa==ab and overlap>=0.35:
         return True
-    if sa and sb and (sa==sb or sa in sb or sb in sa) and aa and ab and aa==ab and overlap>=0.25:
-        return True
+
     return False
 
 def merge_cross_source_incidents(items):
