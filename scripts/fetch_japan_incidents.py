@@ -409,6 +409,15 @@ def same_incident(a,b):
     if overlap>=0.50:
         return True
 
+    # Titles from ScanNetSecurity often contain the same victim + incident,
+    # while the article body is a follow-up report. A shared victim and
+    # distinctive attack wording is enough to group the reports.
+    title_a=_tokens(a.get("title",""))
+    title_b=_tokens(b.get("title",""))
+    title_overlap=len(title_a&title_b)/max(1,min(len(title_a),len(title_b))) if title_a and title_b else 0
+    if title_overlap>=0.35 and aa and ab and aa==ab:
+        return True
+
     # Same organization + same attack type + distinctive incident facts.
     if aa and ab and aa==ab and overlap>=0.35:
         return True
