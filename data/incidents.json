@@ -1,6 +1,6 @@
 {
   "source": "Japanese cyber incident sources",
-  "retrieved_at": "2026-10-07T01:32:55.488402+00:00",
+  "retrieved_at": "2026-10-07T01:34:11.720993+00:00",
   "window_days": 30,
   "cutoff_date": "2026-09-07",
   "attack_only": true,
@@ -4528,6 +4528,19 @@
       "source_records": [
         {
           "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Ub0xVTmY1N1ZxUWstRTZLZmhKMjJuQ0gyVWVjdUJmc0xmSk5FbTFGVUxMLUl6bnhGZmltWWtzNlhEZmJtWmFhS2VhX3MxbmNFVkJzTGNZRWpfRUhEaGJ1VElaczFzcUhGWW8teWVhNDdoMkg3ZG8xRWMyTVlMMVE?oc=5",
+          "published_date": "2026-10-01",
+          "title": "日本原子力機構に不正アクセス 研究者の個人情報が漏えい（共同通信） - Yahoo!ニュース",
+          "attack": true,
+          "organization": "日本原子力研究開発機構",
+          "attack_type": "不正アクセス",
+          "leak_status": "確認・可能性あり",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "日本原子力機構に不正アクセス 研究者の個人情報が漏えい（共同通信） - Yahoo!ニュース"
+        },
+        {
+          "source": "Google News",
           "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5JS2JnYmxvMWd4cW5QczhjSzJrbm1Ed3Y4elhYVVNXV1FXQmpZOTl5QWpoeHdnRTZJZWR5Z09SZGxZd1FnNDBMYkV4YXlvX2syclFzX0lhMjlSdnBQcU5UVEZGcDdsb2pKS244cExIaTlleHY4bklF?oc=5",
           "published_date": "2026-10-01",
           "title": "日本原子力機構に不正アクセス 研究者の顔写真付き身分証など漏えい - ニコニコニュース",
@@ -4541,7 +4554,7 @@
         }
       ],
       "source_count": 1,
-      "merged": false
+      "merged": true
     },
     {
       "source": "Google News",
