@@ -67,5 +67,5 @@ jobs:
             exit 0
           fi
           git commit -m "Update cyber incident intelligence"
-          git pull --rebase origin main
+          git pull --rebase --strategy-option=theirs origin main
           git push
