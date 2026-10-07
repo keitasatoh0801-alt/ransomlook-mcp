@@ -1,6 +1,6 @@
 {
   "source": "Japanese cyber incident sources",
-  "retrieved_at": "2026-10-07T04:03:09.048441+00:00",
+  "retrieved_at": "2026-10-07T04:04:59.070537+00:00",
   "window_days": 30,
   "cutoff_date": "2026-09-07",
   "attack_only": true,
@@ -285,7 +285,7 @@
           "attack": true,
           "service": "システム環境の復旧を完了",
           "attack_type": "ランサムウェア",
-          "leak_status": "可能性あり",
+          "leak_status": "確認されず",
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
@@ -748,21 +748,6 @@
         "Security NEXT"
       ],
       "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBiV0xwNXRMWU9rMDE1WEdhZ0hfd2prYS00YVRmbkdDR3R6X296cUliUWRoYmM5SUR2M1ZYU1Uxc1hERF8zMWF5c1E0SjdkS1hONlRTbDVTN1RwQUppMlJRTlJoY1A5SE9YeVNrUW5INUxWZw?oc=5",
-          "published_date": "2026-10-05",
-          "title": "大和証券 顧客情報22万件漏洩か 業務委託先に不正アクセス - テレ朝NEWS",
-          "attack": true,
-          "organization": "大和証券",
-          "attack_type": "不正アクセス",
-          "leak_status": "確認・可能性あり",
-          "leak_count": null,
-          "leaked_data": [
-            "顧客情報"
-          ],
-          "incident_summary": "大和証券 顧客情報22万件漏洩か 業務委託先に不正アクセス - テレ朝NEWS"
-        },
         {
           "source": "Google News",
           "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5qLXVieEl0Yi1PclpmdmlmdmpJY1VrdkVGZEVkWlBEWC1tWlVGckZaX25oaUhkT3BsMmJjMWJ2TXhxYnBhNkY0X09hb3dSdE9Bb0QxYzRSNWppcFJSXzloa253UmZZVHhDelFxaQ?oc=5",
