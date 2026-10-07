@@ -1,6 +1,6 @@
 {
   "source": "Japanese cyber incident sources",
-  "retrieved_at": "2026-10-07T00:54:24.312776+00:00",
+  "retrieved_at": "2026-10-07T00:55:17.205312+00:00",
   "window_days": 30,
   "cutoff_date": "2026-09-07",
   "attack_only": true,
@@ -11,7 +11,7 @@
     "SmartScope",
     "Google News"
   ],
-  "count": 321,
+  "count": 320,
   "source_errors": {},
   "deduplication": {
     "same_source_exact": true,
@@ -8372,7 +8372,7 @@
         }
       ],
       "source_count": 1,
-      "merged": false
+      "merged": true
     },
     {
       "source": "ScanNetSecurity",
