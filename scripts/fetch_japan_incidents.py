@@ -459,10 +459,12 @@ def same_incident(a,b):
     if title_overlap>=0.60:
         return True
 
-    # Same victim, same publication day, same attack type, and some shared
-    # incident wording is a strong cross-media duplicate signal (e.g. multiple
-    # newspapers reporting the same breach).
-    if aa and ab and aa==ab and da==db and overlap>=0.15:
+    # Same victim, same publication day, same attack type, and similar
+    # headlines are a strong cross-media duplicate signal.
+    same_day_title_a=_tokens(a.get("title",""))
+    same_day_title_b=_tokens(b.get("title",""))
+    same_day_title_overlap=len(same_day_title_a&same_day_title_b)/max(1,min(len(same_day_title_a),len(same_day_title_b))) if same_day_title_a and same_day_title_b else 0
+    if aa and ab and aa==ab and da==db and (overlap>=0.15 or same_day_title_overlap>=0.20):
         return True
 
     # Same organization + same attack type + distinctive incident facts.
