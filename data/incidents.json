@@ -1,6 +1,6 @@
 {
   "source": "Japanese cyber incident sources",
-  "retrieved_at": "2026-10-07T04:48:53.827824+00:00",
+  "retrieved_at": "2026-10-07T06:35:48.070234+00:00",
   "window_days": 30,
   "cutoff_date": "2026-09-07",
   "attack_only": true,
@@ -11,7 +11,7 @@
     "SmartScope",
     "Google News"
   ],
-  "count": 180,
+  "count": 179,
   "source_errors": {},
   "deduplication": {
     "same_source_exact": true,
@@ -425,23 +425,6 @@
           "source": "ScanNetSecurity",
           "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/07/56400.html",
           "published_date": "2026-10-07",
-          "title": "なりすましメールで取引先に金銭的な被害も ～ 小田原エンジニアリング従業員のメールアカウントに不正アクセス",
-          "attack": true,
-          "organization": "ニッポンレンタカーサービス株式会社",
-          "service": "メールで取引先に金銭的な被害も ～ 小田原エンジニアリング従業員のメールアカウントに不正アクセス",
-          "attack_type": "アカウント侵害",
-          "leak_status": "可能性あり",
-          "leak_count": null,
-          "leaked_data": [
-            "クレジットカード情報",
-            "認証情報"
-          ],
-          "incident_summary": "株式会社小田原エンジニアリングは9月15日、子会社であるOdawara Automation Deutschland GmbHに出向していた同社従業員のメールアカウントへの不正アクセスについて発表した。 これは8月31日に、当該従業員のメールアカウントで第三者からの不正アクセスの痕跡を確認したというもの。調査の結果、2026年3月27日から8月31日までの間、当該アカウントに第三者が継続的にアクセスし、メールを閲覧していたことが判明している。 漏えいした可能性があるのは、当該従業員1名と取引先担当者との間で送受信されたメールの内容が対象で、2026年3月27日から8月31日までの時点でメールボックス内に保存されていた過去のメールも閲覧の対象となる。現時点で閲覧を確認できているのは約3,500通で、最も古いもので2018年に送受信されたメールが含まれる。 同社によると、不正アクセスを行った第三者が同社従業員になりすまし、取引先宛てに入金を指示するメールを送信していたことが判明している。当該第三者は正規のやり取りを閲覧していたとみられ、一部の取引先で金銭的な被害が生じている。 同社では当該"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/07/56400.html",
-          "published_date": "2026-10-07",
           "title": "なりすましメールで取引先に金銭的な被害も ～ 小田原エンジニアリング従業員のメールアカウントに不正アクセス 株式会社小田原エンジニアリングは9月15日、子会社であるOdawara Automation Deutschland GmbHに出向していた同社従業員のメールアカウントへの不正アクセスについて発表した。",
           "attack": true,
           "organization": "ニッポンレンタカーサービス株式会社",
@@ -548,7 +531,7 @@
       "organization": "ニッポンレンタカーサービス株式会社",
       "service": "システム環境の復旧を完了 九州電子株式会社は9月15日",
       "attack_type": "ランサムウェア",
-      "leak_status": "確認されず",
+      "leak_status": "可能性あり",
       "leak_count": null,
       "leaked_data": [
         "クレジットカード情報",
@@ -568,7 +551,7 @@
           "organization": "ニッポンレンタカーサービス株式会社",
           "service": "システム環境の復旧を完了",
           "attack_type": "ランサムウェア",
-          "leak_status": "確認されず",
+          "leak_status": "可能性あり",
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
@@ -585,7 +568,7 @@
           "organization": "ニッポンレンタカーサービス株式会社",
           "service": "システム環境の復旧を完了 九州電子株式会社は9月15日",
           "attack_type": "ランサムウェア",
-          "leak_status": "確認されず",
+          "leak_status": "可能性あり",
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
@@ -596,6 +579,72 @@
       ],
       "source_count": 1,
       "merged": true
+    },
+    {
+      "source": "Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE44NDM2ZTRaUnNzakRrU0Q5UnZhbzdZSk8ybXptRndjZHRXVWR3UGtEN0dJR3l2LVZCRGVIUElUbjFwSDZDaFhHV0o2ZGh3TEVxR3JTVzBvb2tBazl3N3BlS0NOUjZNU2JUTTIwOUN0TnI1TURwLVZIMDd3cw?oc=5",
+      "published_date": "2026-10-07",
+      "title": "タイムズカーなど情報漏えい事件頻発でテーマ再燃…「サイバー防衛」見直し買いで急伸した〈注目株〉の正体【10月6日の国内 - ニコニコニュース",
+      "attack": true,
+      "organization": "ニコニコニュース",
+      "attack_type": null,
+      "leak_status": "確認・可能性あり",
+      "leak_count": null,
+      "leaked_data": [],
+      "incident_summary": "タイムズカーなど情報漏えい事件頻発でテーマ再燃…「サイバー防衛」見直し買いで急伸した〈注目株〉の正体【10月6日の国内 - ニコニコニュース",
+      "sources": [
+        "Google News"
+      ],
+      "source_records": [
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE44NDM2ZTRaUnNzakRrU0Q5UnZhbzdZSk8ybXptRndjZHRXVWR3UGtEN0dJR3l2LVZCRGVIUElUbjFwSDZDaFhHV0o2ZGh3TEVxR3JTVzBvb2tBazl3N3BlS0NOUjZNU2JUTTIwOUN0TnI1TURwLVZIMDd3cw?oc=5",
+          "published_date": "2026-10-07",
+          "title": "タイムズカーなど情報漏えい事件頻発でテーマ再燃…「サイバー防衛」見直し買いで急伸した〈注目株〉の正体【10月6日の国内 - ニコニコニュース",
+          "attack": true,
+          "organization": "ニコニコニュース",
+          "attack_type": null,
+          "leak_status": "確認・可能性あり",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "タイムズカーなど情報漏えい事件頻発でテーマ再燃…「サイバー防衛」見直し買いで急伸した〈注目株〉の正体【10月6日の国内 - ニコニコニュース"
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
+      "source": "Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9jRG5mWUZzREZBeWNuNFNLTldzbmh4eHREZkxNRURjVHB5SXp2UmtMZkVMTmdPdG5NTTdRLTNmS0ZtMXBGemx6NElBOEFCYXlXd1JGaE5nS3c0ZDNhVzdGanVLRHNkNU8tc0Y4?oc=5",
+      "published_date": "2026-10-07",
+      "title": "オープンウェイトAIはサイバー攻撃をどこまで変えた？27社侵害と日本の漏えいを検証 - XenoSpectrum",
+      "attack": true,
+      "organization": "XenoSpectrum",
+      "attack_type": "不正アクセス",
+      "leak_status": "確認・可能性あり",
+      "leak_count": null,
+      "leaked_data": [],
+      "incident_summary": "オープンウェイトAIはサイバー攻撃をどこまで変えた？27社侵害と日本の漏えいを検証 - XenoSpectrum",
+      "sources": [
+        "Google News"
+      ],
+      "source_records": [
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9jRG5mWUZzREZBeWNuNFNLTldzbmh4eHREZkxNRURjVHB5SXp2UmtMZkVMTmdPdG5NTTdRLTNmS0ZtMXBGemx6NElBOEFCYXlXd1JGaE5nS3c0ZDNhVzdGanVLRHNkNU8tc0Y4?oc=5",
+          "published_date": "2026-10-07",
+          "title": "オープンウェイトAIはサイバー攻撃をどこまで変えた？27社侵害と日本の漏えいを検証 - XenoSpectrum",
+          "attack": true,
+          "organization": "XenoSpectrum",
+          "attack_type": "不正アクセス",
+          "leak_status": "確認・可能性あり",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "オープンウェイトAIはサイバー攻撃をどこまで変えた？27社侵害と日本の漏えいを検証 - XenoSpectrum"
+        }
+      ],
+      "source_count": 1,
+      "merged": false
     },
     {
       "source": "Google News",
@@ -919,19 +968,6 @@
       "source_records": [
         {
           "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAxSEJkOG9yZmRIdTFJaW8zODI1NjJiSzNqUkVmMjZtZm9oYTI4WnF1ejE5ekItTEwwZGxtb1JIVDlXTFJ4a0I1c3pUWWNwUHZ0LTNaQ3ZBazBGSXdVMjVIc25scGVmN3J1UG9KcFJCTnRwdw?oc=5",
-          "published_date": "2026-10-04",
-          "title": "【速報】日経新聞にサイバー攻撃 取材先などに不審メール9000件 - テレ朝NEWS",
-          "attack": true,
-          "organization": "日本経済新聞社",
-          "attack_type": null,
-          "leak_status": "不明",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "【速報】日経新聞にサイバー攻撃 取材先などに不審メール9000件 - テレ朝NEWS"
-        },
-        {
-          "source": "Google News",
           "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9RTU8yQ2ZMMDNtX3NROE9KN19iSHJlSW9RMV9qLUpFenQ4TDNWZ3JSVlBZUjVhdHhWZzM2T256YjZFV1BoemlOUFc1a2pPcnBiR0h2d2ZnTjR3NzQ?oc=5",
           "published_date": "2026-10-04",
           "title": "日本経済新聞社へのサイバー攻撃と情報漏洩 - 村上知也",
@@ -1024,39 +1060,6 @@
     },
     {
       "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1QNlIyX3pfSWFjYlh5XzB3LXF2c2dzNmZMSlQ3dFBFbzItbHRWZU50YU9wWXZ3bTZ1UTZTcnNhbWU1NkM4QmtNa1p6dXVDSGhxS0Rkc3hzblNPVDBPRU1LaThSbw?oc=5",
-      "published_date": "2026-10-06",
-      "title": "不正アクセス頻発「自分の情報は自分で守って」 古川デジタル相：時事ドットコム - 時事ドットコム",
-      "attack": true,
-      "organization": "時事ドットコム",
-      "attack_type": "不正アクセス",
-      "leak_status": "不明",
-      "leak_count": null,
-      "leaked_data": [],
-      "incident_summary": "不正アクセス頻発「自分の情報は自分で守って」 古川デジタル相：時事ドットコム - 時事ドットコム",
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1QNlIyX3pfSWFjYlh5XzB3LXF2c2dzNmZMSlQ3dFBFbzItbHRWZU50YU9wWXZ3bTZ1UTZTcnNhbWU1NkM4QmtNa1p6dXVDSGhxS0Rkc3hzblNPVDBPRU1LaThSbw?oc=5",
-          "published_date": "2026-10-06",
-          "title": "不正アクセス頻発「自分の情報は自分で守って」 古川デジタル相：時事ドットコム - 時事ドットコム",
-          "attack": true,
-          "organization": "時事ドットコム",
-          "attack_type": "不正アクセス",
-          "leak_status": "不明",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "不正アクセス頻発「自分の情報は自分で守って」 古川デジタル相：時事ドットコム - 時事ドットコム"
-        }
-      ],
-      "source_count": 1,
-      "merged": false
-    },
-    {
-      "source": "Google News",
       "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOOEhaMmt3NW1GYWhvSlpQUEF4R1c0aXg4cGJtZ0E4Y3dHMzF3T1J5NUkxYVkwbC1Cc0VtbGQwcGNTMUJEZ3I5eC11bzFZekEyNjlVUGJudmFMN3JncGFPellNV0tsb3NWS1BiNzVBSXdCajlSbDJiYUxhTnQ0cHdGNw?oc=5",
       "published_date": "2026-10-06",
       "title": "ミスターマックスのアプリ MrMax アプリとオンラインストアへ不正アクセスによるサイバー攻撃-最大約173万件の個人情報漏洩 - 合同会社ロケットボーイズ",
@@ -1065,29 +1068,12 @@
       "attack_type": "不正アクセス",
       "leak_status": "確認・可能性あり",
       "leak_count": null,
-      "leaked_data": [
-        "会員情報"
-      ],
+      "leaked_data": [],
       "incident_summary": "ミスターマックスのアプリ MrMax アプリとオンラインストアへ不正アクセスによるサイバー攻撃-最大約173万件の個人情報漏洩 - 合同会社ロケットボーイズ",
       "sources": [
         "Google News"
       ],
       "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZW54NTFFODNIeFBDZlFoVzl1aUZ0a25wUk1XWmt4cUZMTkFWalBubE1LRU9XTDl2eS12SEtGaDhJMWV3ZGJFWXBuUVY2UW5nZ0o0Q3ZGZGJzeEVuQTNMaGc5WWVpRmRYRXJvVTlzQ0JBSlh0MWdkbDlZb0ZwbGlSYVlVYmLSAYQBQVVfeXFMTWVueDUxRTgzSHhQQ2ZRaFc5dWlGdGtucFJNV1preHFGTE5BVmpQbmxNS0VPV0w5dnktdkhLRmg4STFld2RiRVlwblFWNlFuZ2dKNEN2RmRic3hFbkEzTGhnOVllaUZkWEVyb1U5c0NCQUpYdDFnZGw5WW9GcGxpUmFZVWJi?oc=5",
-          "published_date": "2026-10-06",
-          "title": "ミスターマックス、不正アクセスで最大173万人超の会員情報流出の恐れ - ｄメニューニュース",
-          "attack": true,
-          "organization": "ミスターマックス",
-          "attack_type": "不正アクセス",
-          "leak_status": "可能性あり",
-          "leak_count": null,
-          "leaked_data": [
-            "会員情報"
-          ],
-          "incident_summary": "ミスターマックス、不正アクセスで最大173万人超の会員情報流出の恐れ - ｄメニューニュース"
-        },
         {
           "source": "Google News",
           "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOOEhaMmt3NW1GYWhvSlpQUEF4R1c0aXg4cGJtZ0E4Y3dHMzF3T1J5NUkxYVkwbC1Cc0VtbGQwcGNTMUJEZ3I5eC11bzFZekEyNjlVUGJudmFMN3JncGFPellNV0tsb3NWS1BiNzVBSXdCajlSbDJiYUxhTnQ0cHdGNw?oc=5",
@@ -1103,7 +1089,7 @@
         }
       ],
       "source_count": 1,
-      "merged": true
+      "merged": false
     },
     {
       "source": "Google News",
@@ -1855,19 +1841,6 @@
             "顧客情報"
           ],
           "incident_summary": "大和証券、委託先への不正アクセスで顧客情報漏洩の可能性 - 千葉テレビ放送株式会社"
-        },
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBrSzlmUndaWU1VTlM2cXB2LUhDZ2IyY1c4TDRkeFJ3R3MydExVc0QzT0lZYUFaU2dvTWNham9uZGc0al80c09icHVXaXpnc0ZCTTk1bXZNdk83clBvelVfZVdXeUtRMHc?oc=5",
-          "published_date": "2026-10-05",
-          "title": "大和証券、顧客11万人の口座番号など漏洩か 委託先に不正アクセス - 朝日新聞",
-          "attack": true,
-          "organization": "大和証券株式会社",
-          "attack_type": "不正アクセス",
-          "leak_status": "確認・可能性あり",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "大和証券、顧客11万人の口座番号など漏洩か 委託先に不正アクセス - 朝日新聞"
         },
         {
           "source": "Google News",
@@ -2751,6 +2724,21 @@
           "leak_count": null,
           "leaked_data": [],
           "incident_summary": "第一ライフ、従業員12万人分情報漏えいか - Infoseek"
+        },
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5hbjJmQnpsQ0R1bzBseUV6aExmdW9nWjUtV2ZNNV9BdDJWNnB0bEJNcExZWENlZXl1WTNJS1VOWUFFcEhYNFZwZTA2V29keVUwRHV0elVDckZCcWhTRk5r?oc=5",
+          "published_date": "2026-10-03",
+          "title": "第一ライフに不正アクセス 12万人分の従業員情報が流出か - NHKニュース",
+          "attack": true,
+          "organization": "第一生命",
+          "attack_type": "不正アクセス",
+          "leak_status": "確認・可能性あり",
+          "leak_count": null,
+          "leaked_data": [
+            "従業員情報"
+          ],
+          "incident_summary": "第一ライフに不正アクセス 12万人分の従業員情報が流出か - NHKニュース"
         },
         {
           "source": "Google News",
@@ -3809,6 +3797,23 @@
           "source": "ScanNetSecurity",
           "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/02/56371.html",
           "published_date": "2026-10-02",
+          "title": "「タイムズカー」への不正アクセス、約160万件の運転免許証画像等の本人確認書類が漏えい",
+          "attack": true,
+          "organization": "ニッポンレンタカーサービス株式会社",
+          "service": "タイムズカー",
+          "attack_type": "不正アクセス",
+          "leak_status": "確認・可能性あり",
+          "leak_count": null,
+          "leaked_data": [
+            "クレジットカード情報",
+            "顧客情報"
+          ],
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56371;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 東証プライム上場企業のパーク24株式会社は9月28日、連結子会社であるタイムズモビリティ株式会社への不正アクセスについて発表した。 これは9月25日午前9時7分に、タイムズモビリティが運営するカーシェアリングサービス「タイムズカー」のWebシステムで不正アクセスを検知したというもの 名鉄協商にランサムウェア攻撃、カーシェア「カリテコ」の顧客情報が漏えいした可能性 2026.8.26 Wed 8:10 「NISSAN e-シェアモビ」に不正ログインし車両利用、個人情報閲覧された可能性も 2024.9.10 Tue 8:05 カーシェアサービス「R"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/02/56371.html",
+          "published_date": "2026-10-02",
           "title": "「タイムズカー」への不正アクセス、約160万件の運転免許証画像等の本人確認書類が漏えい 東証プライム上場企業のパーク24株式会社は9月28日、連結子会社であるタイムズモビリティ株式会社への不正アクセスについて発表した。",
           "attack": true,
           "organization": "ニッポンレンタカーサービス株式会社",
@@ -4672,6 +4677,19 @@
           "leak_count": null,
           "leaked_data": [],
           "incident_summary": "郵便局アプリに不正アクセス 個人情報漏えいか - ASCII.jp"
+        },
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1IX3QxSnhyQWc0dFhRaVNWRGpZOUVkaTNub0lHVHJKM0VaMVl6N1J6WXptM3ZwdmNvNzFYR3ZXeUJrNjhoV2ROSFFmVUFnQWpTMFlxVnVKV1FZRms0NEU3SW1n?oc=5",
+          "published_date": "2026-09-30",
+          "title": "郵便局アプリに不正アクセス 個人情報漏えいか - Infoseek",
+          "attack": true,
+          "organization": "日本郵便株式会社",
+          "attack_type": "不正アクセス",
+          "leak_status": "確認・可能性あり",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "郵便局アプリに不正アクセス 個人情報漏えいか - Infoseek"
         },
         {
           "source": "Google News",
@@ -5842,39 +5860,6 @@
           "leak_count": "41",
           "leaked_data": [],
           "incident_summary": "ニッポンレンタカーにも不正アクセスで41名の情報漏洩 免許証情報も（Impress Watch） - Yahoo!ニュース"
-        }
-      ],
-      "source_count": 1,
-      "merged": false
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1QWWJJZnByYU1NMVZwQ2xxM09hOE9rMlNjTVZoOUFuZWZodUs1RG9HRXpkZnBwa1F6djNtYXUzUUJiOHR3SjZVMUs3bWxrUFZRNlA5eVJzZ21SLWl6UG1mZnBEUXZCZXZOWWJMcllJMNIBdEFVX3lxTE94emZZWExhbWRzWFhLaDl0VzRabzUtSFdCWjhqSUxtMHZQN0M5SEVUNHVheDY1LUdIWVduQjJDRG1nMXduOFVNTFFlcnBNdjc1X1dxWVBsUWR3UF9wa0dSNExrVlBac3FhWDY4aFNQX3lMTUR5?oc=5",
-      "published_date": "2026-09-29",
-      "title": "タイムズカーだけではない！ ＡＩ主導の不正アクセス事件頻発の背景と最悪シナリオ - Infoseek",
-      "attack": true,
-      "organization": "Infoseek",
-      "attack_type": "不正アクセス",
-      "leak_status": "不明",
-      "leak_count": null,
-      "leaked_data": [],
-      "incident_summary": "タイムズカーだけではない！ ＡＩ主導の不正アクセス事件頻発の背景と最悪シナリオ - Infoseek",
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1QWWJJZnByYU1NMVZwQ2xxM09hOE9rMlNjTVZoOUFuZWZodUs1RG9HRXpkZnBwa1F6djNtYXUzUUJiOHR3SjZVMUs3bWxrUFZRNlA5eVJzZ21SLWl6UG1mZnBEUXZCZXZOWWJMcllJMNIBdEFVX3lxTE94emZZWExhbWRzWFhLaDl0VzRabzUtSFdCWjhqSUxtMHZQN0M5SEVUNHVheDY1LUdIWVduQjJDRG1nMXduOFVNTFFlcnBNdjc1X1dxWVBsUWR3UF9wa0dSNExrVlBac3FhWDY4aFNQX3lMTUR5?oc=5",
-          "published_date": "2026-09-29",
-          "title": "タイムズカーだけではない！ ＡＩ主導の不正アクセス事件頻発の背景と最悪シナリオ - Infoseek",
-          "attack": true,
-          "organization": "Infoseek",
-          "attack_type": "不正アクセス",
-          "leak_status": "不明",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "タイムズカーだけではない！ ＡＩ主導の不正アクセス事件頻発の背景と最悪シナリオ - Infoseek"
         }
       ],
       "source_count": 1,
@@ -8786,39 +8771,6 @@
           "leak_count": null,
           "leaked_data": [],
           "incident_summary": "マンションの賃貸管理や賃貸仲介を手がけるアンビションDXホールディングスは、ファイルサーバが第三者によって侵害され、一部情報が流出したことを明らかにした。 ：Security NEXT"
-        }
-      ],
-      "source_count": 1,
-      "merged": false
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1uOFAyT0VlNVJGTGNISFRVbVhfb1FYckNYSFl4ckVBbEpqVERmZ1NTTVM1UEVsWXl1b292eGdWbVdwZzcyYlJtT1NfbkdtSmxOdTRmdlJxQ0hTZw?oc=5",
-      "published_date": "2026-09-07",
-      "title": "企業化するランサムウェア集団、防御側が取るべきリスク戦略とは - Forbes JAPAN",
-      "attack": true,
-      "organization": "Forbes JAPAN",
-      "attack_type": "ランサムウェア",
-      "leak_status": "不明",
-      "leak_count": null,
-      "leaked_data": [],
-      "incident_summary": "企業化するランサムウェア集団、防御側が取るべきリスク戦略とは - Forbes JAPAN",
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1uOFAyT0VlNVJGTGNISFRVbVhfb1FYckNYSFl4ckVBbEpqVERmZ1NTTVM1UEVsWXl1b292eGdWbVdwZzcyYlJtT1NfbkdtSmxOdTRmdlJxQ0hTZw?oc=5",
-          "published_date": "2026-09-07",
-          "title": "企業化するランサムウェア集団、防御側が取るべきリスク戦略とは - Forbes JAPAN",
-          "attack": true,
-          "organization": "Forbes JAPAN",
-          "attack_type": "ランサムウェア",
-          "leak_status": "不明",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "企業化するランサムウェア集団、防御側が取るべきリスク戦略とは - Forbes JAPAN"
         }
       ],
       "source_count": 1,
