@@ -476,6 +476,12 @@ def same_incident(a,b):
     if aa and ab and aa==ab and da==db and (overlap>=0.15 or same_day_title_overlap>=0.20 or bigram_overlap>=0.35):
         return True
 
+    # Media reports may be published on adjacent days. When the same victim,
+    # attack type and distinctive headline structure recur within 3 days,
+    # treat them as one incident.
+    if aa and ab and aa==ab and abs((da-db).days)<=3 and bigram_overlap>=0.20:
+        return True
+
     # Same organization + same attack type + distinctive incident facts.
     if aa and ab and aa==ab and overlap>=0.35:
         return True
