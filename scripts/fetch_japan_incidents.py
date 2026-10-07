@@ -174,7 +174,9 @@ def collect_google_news(cutoff):
                 "専門家の見解","識者の見解","サイバー攻撃による情報流出続発","日本とデンマークの企業や機関",
                 "AIで武装強化されたランサムウエア","自律型サイバー攻撃","自己防衛","ウェビナー","経営層向け",
                 "ランサムウェア集団「Qilin」幹部","国際的サイバー攻撃集団「キリン」","ランサムウェア集団「KillSec」",
-                "ランサムウェア グループ Qilin","ランサムウェア集団 Qilin","本当に怖い情報流出"
+                "ランサムウェア グループ Qilin","ランサムウェア集団 Qilin","本当に怖い情報流出",
+                "警告する","サイバー攻撃の経済学","生成AI事件簿","ターゲットは普通の会社","…も","も…",
+                "記事まとめ","ニュースまとめ","セキュリティ動向"
             ]): continue
             # Google News is a discovery source; retain only titles that identify a concrete victim.
             if not extract_organization(title):
@@ -234,8 +236,11 @@ def extract_organization(text):
         (r"ニッポンレンタカー","ニッポンレンタカーサービス"),(r"ベネワン・プラットフォーム|ベネフィット・ワン","ベネフィット・ワン"),
         (r"ムラウチドットコム","ムラウチドットコム"),
     ]
+    hits=[]
     for pattern,name in aliases:
-        if re.search(pattern,t,re.I): return name
+        m=re.search(pattern,t,re.I)
+        if m: hits.append((m.start(),name))
+    if hits: return min(hits,key=lambda z:z[0])[1]
     patterns=[
         r"((?:株式会社|有限会社|合同会社|国立大学法人|学校法人|独立行政法人)[^、。\n]{1,80}?)(?=(?:は|が|に|の)\s)",
         r"([^、。\n]{2,45}(?:大学|銀行|電鉄|鉄道|新聞|証券|病院|協同組合|連合会|機構|協会|ホールディングス|HD|県教育委員会|庁|市役所|区役所))(?:は|が|に|の)",
