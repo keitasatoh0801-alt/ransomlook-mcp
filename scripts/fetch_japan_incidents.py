@@ -312,10 +312,20 @@ def extract_incident_fields(text, org=None):
     if re.search(r"漏えい|漏洩|流出|外部に(転送|送信|流出)|窃取",t): leak_status="確認・可能性あり"
     if re.search(r"(漏えい|漏洩|流出).{0,30}(確認されず|認められず|検出されず|なかった)",t): leak_status="確認されず"
     if re.search(r"(漏えい|漏洩|流出).{0,20}(可能性|おそれ|恐れ)",t): leak_status="可能性あり"
+
+    # Leak counts must come from a number explicitly tied to a leak/affected-record phrase.
+    # Do not scan the entire article body: related-article widgets on ScanNetSecurity
+    # routinely contain unrelated numbers (including other incidents' leak counts).
     count=None
-    for pat in [r"(?:約|最大約|最大|計)?([0-9]{1,3}(?:,[0-9]{3})+|[0-9]+)\s*(?:件|人|名|アカウント|件の個人情報|アカウント情報)",r"([0-9]+(?:\.[0-9]+)?万)\s*(?:件|人|名|アカウント)"]:
+    count_patterns=[
+        r"(?:漏えい|漏洩|流出|流出した|不正取得|窃取)[^。！？]{0,100}?(?:約|最大約|最大|計)?([0-9]{1,3}(?:,[0-9]{3})+|[0-9]+)\s*(?:件|人|名|アカウント)",
+        r"(?:約|最大約|最大|計)?([0-9]{1,3}(?:,[0-9]{3})+|[0-9]+)\s*(?:件|人|名|アカウント)[^。！？]{0,80}?(?:漏えい|漏洩|流出|不正取得|窃取)",
+        r"(?:漏えい|漏洩|流出)[^。！？]{0,100}?([0-9]+(?:\.[0-9]+)?万)\s*(?:件|人|名|アカウント)"
+    ]
+    for pat in count_patterns:
         m=re.search(pat,t)
         if m: count=m.group(1); break
+
     data_types=[]
     for label,terms in {
         "氏名":["氏名","名前"],"住所":["住所"],"電話番号":["電話番号"],"メールアドレス":["メールアドレス"],
@@ -376,12 +386,15 @@ def enrich_incidents(items):
         if org: item["organization"]=org
         item["service"]=extract_service(title_text,org) or extract_service(body[:1500],org)
         title_fields=extract_incident_fields(title_text,org)
-        body_fields=extract_incident_fields(body[:1500],org) if body else {}
+        # Use the headline as the primary factual source. Article HTML can contain
+        # related-story widgets with unrelated incident numbers/data.
+        body_core = body[:1200] if body else ""
+        body_fields=extract_incident_fields(body_core,org) if body_core else {}
         item["attack_type"]=title_fields.get("attack_type") or body_fields.get("attack_type")
-        item["leak_status"]=body_fields.get("leak_status") if body_fields.get("leak_status")!="不明" else title_fields.get("leak_status","不明")
-        item["leak_count"]=body_fields.get("leak_count") or title_fields.get("leak_count")
-        item["leaked_data"]=body_fields.get("leaked_data") or title_fields.get("leaked_data",[])
-        item["incident_summary"]=body[:500] if body else title_text
+        item["leak_status"]=title_fields.get("leak_status") if title_fields.get("leak_status")!="不明" else body_fields.get("leak_status","不明")
+        item["leak_count"]=title_fields.get("leak_count") or body_fields.get("leak_count")
+        item["leaked_data"]=title_fields.get("leaked_data") or body_fields.get("leaked_data",[])
+        item["incident_summary"]=body_core[:500] if body_core else title_text
         return item
     with ThreadPoolExecutor(max_workers=12) as ex:
         futures={ex.submit(one,x):i for i,x in enumerate(targets)}
