@@ -1,6 +1,6 @@
 {
   "source": "Japanese cyber incident sources",
-  "retrieved_at": "2026-10-07T00:17:47.050110+00:00",
+  "retrieved_at": "2026-10-07T00:19:08.064729+00:00",
   "window_days": 30,
   "cutoff_date": "2026-09-07",
   "attack_only": true,
@@ -11,7 +11,7 @@
     "SmartScope",
     "Google News"
   ],
-  "count": 309,
+  "count": 238,
   "source_errors": {},
   "deduplication": {
     "same_source_exact": true,
@@ -93,30 +93,6 @@
     },
     {
       "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQUlzQmFyY09tTzNXOEt0ODVCWWx1RzFJbUtPY2lvMmowMHRJcnVNQk5PWkU2ZWctem14MjlpUW5LMWNfU3lZeURGV3h4Z0ZkNkIxMHVtNHNjWDEwZkQ1ODRYTmp1VktQOXJLVXRfYmMtbElSOUFkTXFEQ1hSQ1NNQQ?oc=5",
-      "published_date": "2026-10-06",
-      "title": "週刊CSIRTブリーフィング：NetScalerサイバー攻撃に悪用される脆弱性、多発するMicrosoft365への不正アクセス【2026年10月第1週】|セキュリティ対策Lab - 合同会社ロケットボーイズ",
-      "attack": true,
-      "organization": null,
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQUlzQmFyY09tTzNXOEt0ODVCWWx1RzFJbUtPY2lvMmowMHRJcnVNQk5PWkU2ZWctem14MjlpUW5LMWNfU3lZeURGV3h4Z0ZkNkIxMHVtNHNjWDEwZkQ1ODRYTmp1VktQOXJLVXRfYmMtbElSOUFkTXFEQ1hSQ1NNQQ?oc=5",
-          "published_date": "2026-10-06",
-          "title": "週刊CSIRTブリーフィング：NetScalerサイバー攻撃に悪用される脆弱性、多発するMicrosoft365への不正アクセス【2026年10月第1週】|セキュリティ対策Lab - 合同会社ロケットボーイズ",
-          "attack": true,
-          "organization": null,
-          "sources": [
-            "Google News"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "Google News",
       "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBFVXhLcklFc0thaTBzY1RfNUx6bGVkWGdhZ0xKY0dDZ2tFYVVUOVFVX245UEFNZGo1YjZOV2RaNGRwekkwRmM5OE9MUWdsMEgzTjFxRmpjTWREZ3VDSFY4aWk2QnhZbnhBaklCYQ?oc=5",
       "published_date": "2026-10-06",
       "title": "西鉄系のニモカ、不正アクセスで約500件の顧客情報流出 - 日本経済新聞",
@@ -159,102 +135,6 @@
           "organization": null,
           "sources": [
             "ScanNetSecurity"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02WENtUHYwMDctSXJreTh0N3ZCX2kwSVZONHpqSWlBN2hnTWp2NUdUTlkzbmdTX3ZNeUh3UFdLUHNLYl96d3hCTW9CUExfZ01mamhMcXRnMnMzUGp6RVduWFctZmRaTUJYNXJkU3hIbTByTUhhSDEtSw?oc=5",
-      "published_date": "2026-10-06",
-      "title": "経済同友会・山口代表幹事、相次ぐサイバー攻撃に「甚大な影響及ぼす」「ある意味AIの影の部分が顕著に現れてきた」「一社だけの影響にとどまらない」 警鐘鳴らす - au Webポータル",
-      "attack": true,
-      "organization": null,
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02WENtUHYwMDctSXJreTh0N3ZCX2kwSVZONHpqSWlBN2hnTWp2NUdUTlkzbmdTX3ZNeUh3UFdLUHNLYl96d3hCTW9CUExfZ01mamhMcXRnMnMzUGp6RVduWFctZmRaTUJYNXJkU3hIbTByTUhhSDEtSw?oc=5",
-          "published_date": "2026-10-06",
-          "title": "経済同友会・山口代表幹事、相次ぐサイバー攻撃に「甚大な影響及ぼす」「ある意味AIの影の部分が顕著に現れてきた」「一社だけの影響にとどまらない」 警鐘鳴らす - au Webポータル",
-          "attack": true,
-          "organization": null,
-          "sources": [
-            "Google News"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE96UFVCSnRGaXBzYS13VnNXcjRoY1llLWhMMmhHNEFoQXpOaWtRMGVZZ2FZdUxMY1E0d1RiZ19hSkZKSGlGbWZ6N0RUdWJTbk83Q3U2UnZPQ2w?oc=5",
-      "published_date": "2026-10-06",
-      "title": "相次ぐ情報漏えいとサイバー攻撃＝わずか1週間で企業・大学に被害拡大 - リスク対策.com",
-      "attack": true,
-      "organization": "相次ぐ情報漏えいとサイバー攻撃＝わずか1週間で企業・大学",
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE96UFVCSnRGaXBzYS13VnNXcjRoY1llLWhMMmhHNEFoQXpOaWtRMGVZZ2FZdUxMY1E0d1RiZ19hSkZKSGlGbWZ6N0RUdWJTbk83Q3U2UnZPQ2w?oc=5",
-          "published_date": "2026-10-06",
-          "title": "相次ぐ情報漏えいとサイバー攻撃＝わずか1週間で企業・大学に被害拡大 - リスク対策.com",
-          "attack": true,
-          "organization": "相次ぐ情報漏えいとサイバー攻撃＝わずか1週間で企業・大学",
-          "sources": [
-            "Google News"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1Vdmg4LThxVTYwNGtmX0IwSVdvVktFQXNVVnZoLUJyeHRFaWUzT0pNd3g5MmtNRUpRU2Jlek1FUTR1M05nZkd3SVpQTENjeHh1UksxM0hJUjFOVzl1MU1rYTBn?oc=5",
-      "published_date": "2026-10-06",
-      "title": "楽天会員1億件超のデータ販売との投稿 楽天「情報漏えいの事実は確認されず」 - Infoseek",
-      "attack": true,
-      "organization": null,
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1Vdmg4LThxVTYwNGtmX0IwSVdvVktFQXNVVnZoLUJyeHRFaWUzT0pNd3g5MmtNRUpRU2Jlek1FUTR1M05nZkd3SVpQTENjeHh1UksxM0hJUjFOVzl1MU1rYTBn?oc=5",
-          "published_date": "2026-10-06",
-          "title": "楽天会員1億件超のデータ販売との投稿 楽天「情報漏えいの事実は確認されず」 - Infoseek",
-          "attack": true,
-          "organization": null,
-          "sources": [
-            "Google News"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNazhROWs3TVk2d09sQ3o4UnJZR3hHbTJZOUZHaU9KTkM0ZmNYNVNMRHdUaFFiZlgxeHBoejJZQ0FKbWktcGdmSU9GWkFubmtCRHdMRW11ZWVWaGxJd2lGdmhxVjlWMDBMNk9FSkJPd3pFdHlZYUhNZ1ZPd09fcUFQVVI0V0pqbnRz?oc=5",
-      "published_date": "2026-10-06",
-      "title": "最大ランサムウエア組織「キリン」幹部逮捕 - 조선일보",
-      "attack": true,
-      "organization": null,
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNazhROWs3TVk2d09sQ3o4UnJZR3hHbTJZOUZHaU9KTkM0ZmNYNVNMRHdUaFFiZlgxeHBoejJZQ0FKbWktcGdmSU9GWkFubmtCRHdMRW11ZWVWaGxJd2lGdmhxVjlWMDBMNk9FSkJPd3pFdHlZYUhNZ1ZPd09fcUFQVVI0V0pqbnRz?oc=5",
-          "published_date": "2026-10-06",
-          "title": "最大ランサムウエア組織「キリン」幹部逮捕 - 조선일보",
-          "attack": true,
-          "organization": null,
-          "sources": [
-            "Google News"
           ]
         }
       ]
@@ -308,30 +188,6 @@
       ]
     },
     {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE92S1dVdEhfUnBsOHVsME5ENWdqaGcxY19zVVNLQ0dkeGdCMks5NmVZX0RhYko5M1FoT1MtWkE4X2N1YkF0ZFF5di1rbnlKMTdPcjIxaVVFX0VaeDQtaWJzWWJHV2pobkFFaGNBQkRB?oc=5",
-      "published_date": "2026-10-06",
-      "title": "情報漏えいの当事者になったら「不正使用」のチェックを 漏えい情報使った詐欺にも注意 企業へのサイバー攻撃相次ぐ - au Webポータル",
-      "attack": true,
-      "organization": null,
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE92S1dVdEhfUnBsOHVsME5ENWdqaGcxY19zVVNLQ0dkeGdCMks5NmVZX0RhYko5M1FoT1MtWkE4X2N1YkF0ZFF5di1rbnlKMTdPcjIxaVVFX0VaeDQtaWJzWWJHV2pobkFFaGNBQkRB?oc=5",
-          "published_date": "2026-10-06",
-          "title": "情報漏えいの当事者になったら「不正使用」のチェックを 漏えい情報使った詐欺にも注意 企業へのサイバー攻撃相次ぐ - au Webポータル",
-          "attack": true,
-          "organization": null,
-          "sources": [
-            "Google News"
-          ]
-        }
-      ]
-    },
-    {
       "source": "Security NEXT",
       "source_url": "https://www.security-next.com/191072",
       "published_date": "2026-10-06",
@@ -351,30 +207,6 @@
           "organization": null,
           "sources": [
             "Security NEXT"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBreTJNN3VSWGxjTlFTelVsVW42cXFrU0N5ZHJoVkdMc1pPVGNyZUVIVHBEbGg3MUVBeDJYdGpnQkRVQi1Xa29MNjB2NFRBcjRJUTlkWUZFbw?oc=5",
-      "published_date": "2026-10-06",
-      "title": "国際ハッカー集団「Qilin」メンバーを日本で拘束 接触試みると…？「AIで1日100万件攻撃できる」企業へのサイバー攻撃相次ぐ【news23】 - TBS NEWS DIG",
-      "attack": true,
-      "organization": null,
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBreTJNN3VSWGxjTlFTelVsVW42cXFrU0N5ZHJoVkdMc1pPVGNyZUVIVHBEbGg3MUVBeDJYdGpnQkRVQi1Xa29MNjB2NFRBcjRJUTlkWUZFbw?oc=5",
-          "published_date": "2026-10-06",
-          "title": "国際ハッカー集団「Qilin」メンバーを日本で拘束 接触試みると…？「AIで1日100万件攻撃できる」企業へのサイバー攻撃相次ぐ【news23】 - TBS NEWS DIG",
-          "attack": true,
-          "organization": null,
-          "sources": [
-            "Google News"
           ]
         }
       ]
@@ -405,93 +237,6 @@
     },
     {
       "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0LVQ4b2d1Wk8zTzZ3dEJYUkZoV2hvcWZNMlZsNDhObzQ0aE84ZExiNGJVTURuY1lrM1dCbEE0UkNZckp5ZDBZamF5WHppMGV0bVlyQVlFd2NsbTduSVNBc3A5dFNZeEYyNkZ0SndPSGZyOTB6dmRFVHhZY1Q5QzA?oc=5",
-      "published_date": "2026-10-06",
-      "title": "国内の不正アクセス、最多ペース 相次ぐ個人情報漏えい、対策急務（共同通信） - Yahoo!ニュース",
-      "attack": true,
-      "organization": null,
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0LVQ4b2d1Wk8zTzZ3dEJYUkZoV2hvcWZNMlZsNDhObzQ0aE84ZExiNGJVTURuY1lrM1dCbEE0UkNZckp5ZDBZamF5WHppMGV0bVlyQVlFd2NsbTduSVNBc3A5dFNZeEYyNkZ0SndPSGZyOTB6dmRFVHhZY1Q5QzA?oc=5",
-          "published_date": "2026-10-06",
-          "title": "国内の不正アクセス、最多ペース 相次ぐ個人情報漏えい、対策急務（共同通信） - Yahoo!ニュース",
-          "attack": true,
-          "organization": null,
-          "sources": [
-            "Google News"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBqSGZldk95OEt2WFhzWDFCYVVZdFppR2ZFRmx6SjR0cF9GQl8wR2VPWlhmTEFOVzFBX2NuQVdUVEs1MkFvLVUtcnZabmVQS3JhVXBybzc5VVpSbkZjQWlz?oc=5",
-      "published_date": "2026-10-06",
-      "title": "個人情報流出なぜ相次ぐ?“異様な状況”AI悪用可能性の指摘も | NHKニュース | サイバー攻撃、IT・ネット、企業・経営 - NHKニュース",
-      "attack": true,
-      "organization": null,
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBqSGZldk95OEt2WFhzWDFCYVVZdFppR2ZFRmx6SjR0cF9GQl8wR2VPWlhmTEFOVzFBX2NuQVdUVEs1MkFvLVUtcnZabmVQS3JhVXBybzc5VVpSbkZjQWlz?oc=5",
-          "published_date": "2026-10-06",
-          "title": "個人情報流出なぜ相次ぐ?“異様な状況”AI悪用可能性の指摘も | NHKニュース | サイバー攻撃、IT・ネット、企業・経営 - NHKニュース",
-          "attack": true,
-          "organization": null,
-          "sources": [
-            "Google News"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5wS0dMeFBmaHQ5WFZUZXZhRFFualpGMmc4MDMzVTJTTk9xdEVVcG51c3I5SHgtYTE1bUxENjlia1FEU1JyNU5xVGJ2MWNxaHdTV0xmTDEyMTN2dnozTmc?oc=5",
-      "published_date": "2026-10-06",
-      "title": "会員ポイント不正交換も…“生成AI”で攻撃が効率化 企業に不正アクセス被害相次ぐ - ABEMA TIMES",
-      "attack": true,
-      "organization": null,
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5wS0dMeFBmaHQ5WFZUZXZhRFFualpGMmc4MDMzVTJTTk9xdEVVcG51c3I5SHgtYTE1bUxENjlia1FEU1JyNU5xVGJ2MWNxaHdTV0xmTDEyMTN2dnozTmc?oc=5",
-          "published_date": "2026-10-06",
-          "title": "会員ポイント不正交換も…“生成AI”で攻撃が効率化 企業に不正アクセス被害相次ぐ - ABEMA TIMES",
-          "attack": true,
-          "organization": null
-        },
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE80b1B1NVhpaVJ6ZklsdzQxc3JHaG5JeWpPTWNRYkYtUldrY0pTRV9ZNzBQcjItNEtNMFoxZDhqM1VOalNBaFp4Q3VqWkJXeHotQmE4Ng?oc=5",
-          "published_date": "2026-10-06",
-          "title": "会員ポイント不正交換も…“生成AI”で攻撃が効率化 企業に不正アクセス被害相次ぐ - ABEMA TIMES",
-          "attack": true,
-          "organization": null
-        },
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBYdlUxdE5OTGQ2NTJVY2JMWjVSTmZSYkZKaGEweWVhV0pEY0xmeTl0SVNYZVpadGdUWnAxeXJnUm1OckplTUVsLUMzM0xCNDZKR1hRT0cteDlPejJxS1I1emlPcw?oc=5",
-          "published_date": "2026-10-06",
-          "title": "会員ポイント不正交換も…“生成AI”で攻撃が効率化 企業に不正アクセス被害相次ぐ - Infoseek",
-          "attack": true,
-          "organization": null
-        }
-      ],
-      "source_count": 1,
-      "merged": true
-    },
-    {
-      "source": "Google News",
       "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVlNMaWZ0TkVwZnh3Rkx6MlU2RF9EMDZZTVAyMFhpcUM3ZVUyU29UZGVnczlJeW5feTZ1T0VES29tRXBCXzl2cVZhcTA4czNpc2JqRkN2dlFhMWFLSW9YYkM1OGNXUm1hdjlFc0JQdkN0RFRqcnVwZnlfbnNLQjJYQmVsaUR3Mm5GRzRNNmU4ZFJ2V1RSdGhjQzJiLTRVNnpyaDBrVlR5MkjSAagBQVVfeXFMTlZTTGlmdE5FcGZ4d0ZMejJVNkRfRDA2WU1QMjBYaXFDN2VVMlNvVGRlZ3M5SXluX3k2dU9FREtvbUVwQl85dnFWYXEwOHMzaXNiakZDdnZRYTFhS0lvWGJDNThjV1JtYXY5RXNCUHZDdERUanJ1cGZ5X25zS0IyWEJlbGlEdzJuRkc0TTZlOGRSdldUUnRoY0MyYi00VTZ6cmgwa1ZUeTJI?oc=5",
       "published_date": "2026-10-06",
       "title": "企業や自治体への不正アクセス、9月末で600件 昨年1年間上回る AI自動攻撃痕跡も - ｄメニューニュース",
@@ -516,37 +261,6 @@
     },
     {
       "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5palhHdTgtM1VTc3VVLXhIS0hWU1FSY0twWk1OeHd1Q1oyOUlyOWIxSWhqcmJIZFg0N01ST3htcmhrbG1fUnhxTGRuODdlaE1lQVMwMWhrSEdYY1ZoWmFTZjhudGhJMU0?oc=5",
-      "published_date": "2026-10-06",
-      "title": "企業に相次ぐサイバー攻撃 警察庁警戒、不審なアクセスは過去最多 [AIの時代] - 朝日新聞",
-      "attack": true,
-      "organization": null,
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5palhHdTgtM1VTc3VVLXhIS0hWU1FSY0twWk1OeHd1Q1oyOUlyOWIxSWhqcmJIZFg0N01ST3htcmhrbG1fUnhxTGRuODdlaE1lQVMwMWhrSEdYY1ZoWmFTZjhudGhJMU0?oc=5",
-          "published_date": "2026-10-06",
-          "title": "企業に相次ぐサイバー攻撃 警察庁警戒、不審なアクセスは過去最多 [AIの時代] - 朝日新聞",
-          "attack": true,
-          "organization": null
-        },
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE44dFBFMGQ5WDZxT3VGRzdDWEdiWldXTkZ6Y1NxeDdZbUF0OEU5dmhPOTJXN0lIN0Y5bTFPVTZHODB3dGotaFp1ZUcyQ0xUa1dqLUpSLXMxeTFlVmlXRU9jbGw1bmVoNm5OelVfN0ZQaHVWdmY5YllSMkxsS21uM2M?oc=5",
-          "published_date": "2026-10-06",
-          "title": "企業に相次ぐサイバー攻撃 警察庁警戒、不審なアクセスは過去最多（朝日新聞） - Yahoo!ニュース",
-          "attack": true,
-          "organization": null
-        }
-      ],
-      "source_count": 1,
-      "merged": true
-    },
-    {
-      "source": "Google News",
       "source_url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5Sa0dDa0VrLWRURlFYaGFnTDNmbnh6T05vOWNMWkU3STM1am9TMEdFd1F3aWYtclB3bWRvVm5XQlF3cmNmWUE?oc=5",
       "published_date": "2026-10-06",
       "title": "不正アクセス・情報漏洩はなぜ急増しているのか？ など 日刊出版ニュースまとめ 2026.10.07 - HON.jp",
@@ -568,37 +282,6 @@
           ]
         }
       ]
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9mSmFQRFJhUW1ZWFZWUVpMbzZ6NktXcFNjeUU0ZTFFaGZPWFNZSWNaRFAtcWMwdFVPT2RFZHU0QkdYNjlvcVZMYXFxbW9LV3B3VGhobWZR0gFbQVVfeXFMUHRNdjc4LUI5di14T0pMd0Q4Q3dTbFhzQlRDTXZPcUUzOG1TdENPN1lqNlNpM0NaeFQtN05jNGFxUXRQU0hTNlh2a2Y0QmZpczYyOEVQYVd6VDh3SQ?oc=5",
-      "published_date": "2026-10-06",
-      "title": "不正アクセスによる民間企業の情報流出相次ぐ 木原官房長官「大変深刻に受け止めている」 - 大紀元 エポックタイムズ",
-      "attack": true,
-      "organization": null,
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9mSmFQRFJhUW1ZWFZWUVpMbzZ6NktXcFNjeUU0ZTFFaGZPWFNZSWNaRFAtcWMwdFVPT2RFZHU0QkdYNjlvcVZMYXFxbW9LV3B3VGhobWZR0gFbQVVfeXFMUHRNdjc4LUI5di14T0pMd0Q4Q3dTbFhzQlRDTXZPcUUzOG1TdENPN1lqNlNpM0NaeFQtN05jNGFxUXRQU0hTNlh2a2Y0QmZpczYyOEVQYVd6VDh3SQ?oc=5",
-          "published_date": "2026-10-06",
-          "title": "不正アクセスによる民間企業の情報流出相次ぐ 木原官房長官「大変深刻に受け止めている」 - 大紀元 エポックタイムズ",
-          "attack": true,
-          "organization": null
-        },
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9zZTRicjItOTFWOFRiV1FwWndaVlJGaWZ4XzRJZDZSdGtwVVcyNVpQX21NNWNIaXNUWG1QRjMzU3MwODRSazJaUHNpY296ZXgyMURjLXZNN0HSAV5BVV95cUxOQzNZU2RyQXlPVlhldTdROV9iZWVyem81ck5fdVJxWEF1WnpJXzJVc1k1WTIwd2pCajRkVVdxb3VoUmtIbEpGLVBlNDJlSnA5eFhoWkRjNmk4cG5Hc3dn?oc=5",
-          "published_date": "2026-10-06",
-          "title": "不正アクセスによる民間企業の情報流出相次ぐ 木原官房長官「大変深刻に受け止めている」 - 大紀元 エポックタイムズ",
-          "attack": true,
-          "organization": null
-        }
-      ],
-      "source_count": 1,
-      "merged": true
     },
     {
       "source": "Google News",
@@ -633,30 +316,6 @@
     },
     {
       "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdTJBWEhDZnFBZXEwQjEyaHQ1S3pNZ3pLMWJaV1pDQm1Ub1lfZTktWFpfVmhvUGZqcnUzeFdvRXZRSGtUU0hNczhwVzU4Q2hkSFhURWs1YW5IaFFqWDMtMV9BWW5YYzVsNGFFQWJQbGRRcXNYZ3BGSVUtMFlfejZxMjYtOERxVDliVFHSAY8BQVVfeXFMT2ZmeV9la3RLNHZTYmx4enI1YW0zVHhoLWthek9UVDh2VnZXX1NXVjl1dTJrSDNKRE9tNHBuNm1KWENyRU45YkZvRi0xTi1CeGI4ZC1KNjRiSkFHTGJ0R0ZiZ0JESldqcEFhaUpIVkZiSjVSU0Z5VnFaSXoteTIwOFlkRkhOZWx5TlVza3BHcXM?oc=5",
-      "published_date": "2026-10-06",
-      "title": "不正アクセス 同友会トップが警鐘 サイバー攻撃対策「『投資』として必要」 - ｄメニューニュース",
-      "attack": true,
-      "organization": null,
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdTJBWEhDZnFBZXEwQjEyaHQ1S3pNZ3pLMWJaV1pDQm1Ub1lfZTktWFpfVmhvUGZqcnUzeFdvRXZRSGtUU0hNczhwVzU4Q2hkSFhURWs1YW5IaFFqWDMtMV9BWW5YYzVsNGFFQWJQbGRRcXNYZ3BGSVUtMFlfejZxMjYtOERxVDliVFHSAY8BQVVfeXFMT2ZmeV9la3RLNHZTYmx4enI1YW0zVHhoLWthek9UVDh2VnZXX1NXVjl1dTJrSDNKRE9tNHBuNm1KWENyRU45YkZvRi0xTi1CeGI4ZC1KNjRiSkFHTGJ0R0ZiZ0JESldqcEFhaUpIVkZiSjVSU0Z5VnFaSXoteTIwOFlkRkhOZWx5TlVza3BHcXM?oc=5",
-          "published_date": "2026-10-06",
-          "title": "不正アクセス 同友会トップが警鐘 サイバー攻撃対策「『投資』として必要」 - ｄメニューニュース",
-          "attack": true,
-          "organization": null,
-          "sources": [
-            "Google News"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "Google News",
       "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ab3lPX250TDFMX2dFaGR6ampBVHk2V3VFMTNOdjRxWm5WYnZuRkEyWWo4bS11UHZGdXlnNVQtMWUtbEEtcFE3UTY3OVdLd0xKMDFF?oc=5",
       "published_date": "2026-10-06",
       "title": "ランサムウェア集団「Qilin」幹部を日本で拘束 ドイツへの身柄引き渡しが完了 - 東京報道新聞",
@@ -673,6 +332,30 @@
           "title": "ランサムウェア集団「Qilin」幹部を日本で拘束 ドイツへの身柄引き渡しが完了 - 東京報道新聞",
           "attack": true,
           "organization": null,
+          "sources": [
+            "Google News"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOOEhaMmt3NW1GYWhvSlpQUEF4R1c0aXg4cGJtZ0E4Y3dHMzF3T1J5NUkxYVkwbC1Cc0VtbGQwcGNTMUJEZ3I5eC11bzFZekEyNjlVUGJudmFMN3JncGFPellNV0tsb3NWS1BiNzVBSXdCajlSbDJiYUxhTnQ0cHdGNw?oc=5",
+      "published_date": "2026-10-06",
+      "title": "ミスターマックスのアプリ MrMax アプリとオンラインストアへ不正アクセスによるサイバー攻撃-最大約173万件の個人情報漏洩 - 合同会社ロケットボーイズ",
+      "attack": true,
+      "organization": "ミスターマックス",
+      "sources": [
+        "Google News"
+      ],
+      "source_records": [
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOOEhaMmt3NW1GYWhvSlpQUEF4R1c0aXg4cGJtZ0E4Y3dHMzF3T1J5NUkxYVkwbC1Cc0VtbGQwcGNTMUJEZ3I5eC11bzFZekEyNjlVUGJudmFMN3JncGFPellNV0tsb3NWS1BiNzVBSXdCajlSbDJiYUxhTnQ0cHdGNw?oc=5",
+          "published_date": "2026-10-06",
+          "title": "ミスターマックスのアプリ MrMax アプリとオンラインストアへ不正アクセスによるサイバー攻撃-最大約173万件の個人情報漏洩 - 合同会社ロケットボーイズ",
+          "attack": true,
+          "organization": "ミスターマックス",
           "sources": [
             "Google News"
           ]
@@ -801,25 +484,25 @@
       "merged": true
     },
     {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1pLV9JUVFrQ1FkcDJDOXFKSWJTLTIzdGE2SXExLU5FRUpCdmltVHFfaHZvd3laRGowbGhJRWs2UHlqNzZVOE9oVGtSbmRpX2ZJVmc?oc=5",
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56393.html",
       "published_date": "2026-10-06",
-      "title": "サイバーセキュリティクラウド、相次ぐ企業の情報漏えい・サイバー攻撃を受け、「緊急セキュリティ相談窓口」を開設 - CNET Japan",
+      "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.6 Tue 8:05 「信濃毎日新聞デジタル」に不正アクセス、一時的に一部の履歴データが消去 信濃毎日新聞株式会社は9月28日、「信濃毎日新聞デジタル」への不正アクセスについて発表した。",
       "attack": true,
-      "organization": null,
+      "organization": "信濃毎日新聞",
       "sources": [
-        "Google News"
+        "ScanNetSecurity"
       ],
       "source_records": [
         {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1pLV9JUVFrQ1FkcDJDOXFKSWJTLTIzdGE2SXExLU5FRUpCdmltVHFfaHZvd3laRGowbGhJRWs2UHlqNzZVOE9oVGtSbmRpX2ZJVmc?oc=5",
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56393.html",
           "published_date": "2026-10-06",
-          "title": "サイバーセキュリティクラウド、相次ぐ企業の情報漏えい・サイバー攻撃を受け、「緊急セキュリティ相談窓口」を開設 - CNET Japan",
+          "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.6 Tue 8:05 「信濃毎日新聞デジタル」に不正アクセス、一時的に一部の履歴データが消去 信濃毎日新聞株式会社は9月28日、「信濃毎日新聞デジタル」への不正アクセスについて発表した。",
           "attack": true,
-          "organization": null,
+          "organization": "信濃毎日新聞",
           "sources": [
-            "Google News"
+            "ScanNetSecurity"
           ]
         }
       ]
@@ -905,72 +588,6 @@
     },
     {
       "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE13RXV1emNXNE1FbHIxWURxVGwyV25ESmFwTFlpYmJOQUViYXRXWG5ncTNqQ2pUWW4tcHBWSHp4ZDZ6NURVeWJ3ME1sTWRQUlgtbG1zeWx0enNJR2FVSkpwQlhucWtWRUdJNEYzRWFmRG5KX0JyX3pKRWh1VC0?oc=5",
-      "published_date": "2026-10-06",
-      "title": "【解説】「背後に国家か」サイバー攻撃による情報漏えい相次ぐ（2026年10月6日掲載）｜日テレNEWS NNN - 日テレNEWS NNN",
-      "attack": true,
-      "organization": null,
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE13RXV1emNXNE1FbHIxWURxVGwyV25ESmFwTFlpYmJOQUViYXRXWG5ncTNqQ2pUWW4tcHBWSHp4ZDZ6NURVeWJ3ME1sTWRQUlgtbG1zeWx0enNJR2FVSkpwQlhucWtWRUdJNEYzRWFmRG5KX0JyX3pKRWh1VC0?oc=5",
-          "published_date": "2026-10-06",
-          "title": "【解説】「背後に国家か」サイバー攻撃による情報漏えい相次ぐ（2026年10月6日掲載）｜日テレNEWS NNN - 日テレNEWS NNN",
-          "attack": true,
-          "organization": null,
-          "sources": [
-            "Google News"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB2cHlEbV95NFRKc2ZKV1RGX1VleVJrTzV2V3dfMGdJZVNGSzFPX3lhWURTN25yNUF5VjB6V0d1RU1YRkl2Y3QySVlMM1ZfWEcxNzRVTjNGSmdwaWttNks1YzhBb0h4eEJiYjV5bmxVXzR2UQ?oc=5",
-      "published_date": "2026-10-06",
-      "title": "【情報まとめ】タイムズカー、焼肉きんぐ、ミスターマックス…大手企業で不正アクセス相次ぐ GMO「勝手にAmazonギフトコードに交換」不正利用で二次被害の確認は初 - テレ朝NEWS",
-      "attack": true,
-      "organization": "ミスターマックス",
-      "sources": [
-        "Google News",
-        "SmartScope"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB2cHlEbV95NFRKc2ZKV1RGX1VleVJrTzV2V3dfMGdJZVNGSzFPX3lhWURTN25yNUF5VjB6V0d1RU1YRkl2Y3QySVlMM1ZfWEcxNzRVTjNGSmdwaWttNks1YzhBb0h4eEJiYjV5bmxVXzR2UQ?oc=5",
-          "published_date": "2026-10-06",
-          "title": "【情報まとめ】タイムズカー、焼肉きんぐ、ミスターマックス…大手企業で不正アクセス相次ぐ GMO「勝手にAmazonギフトコードに交換」不正利用で二次被害の確認は初 - テレ朝NEWS",
-          "attack": true,
-          "organization": "ミスターマックス"
-        },
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOOEhaMmt3NW1GYWhvSlpQUEF4R1c0aXg4cGJtZ0E4Y3dHMzF3T1J5NUkxYVkwbC1Cc0VtbGQwcGNTMUJEZ3I5eC11bzFZekEyNjlVUGJudmFMN3JncGFPellNV0tsb3NWS1BiNzVBSXdCajlSbDJiYUxhTnQ0cHdGNw?oc=5",
-          "published_date": "2026-10-06",
-          "title": "ミスターマックスのアプリ MrMax アプリとオンラインストアへ不正アクセスによるサイバー攻撃-最大約173万件の個人情報漏洩 - 合同会社ロケットボーイズ",
-          "attack": true,
-          "organization": "ミスターマックス"
-        },
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-10-06",
-          "title": "Mr Max (MrMax app and online store)（ disclosure ） — A third party abused a feature of the service's software to access the server. Detected on the evening of Oct 3 and blocked the same day. No misuse-related harm confirmed at disclosure.",
-          "organization": "Mr Max (MrMax app and online store)（ disclosure ）",
-          "affected_count": "Up to 1,735,154 people (members as of Oct 3; member ID, name, email, phone). Addresses, birth dates, cards, passwords and purchase history did not leak",
-          "attack_type": "A third party abused a feature of the service's software to access the server. Detected on the evening of Oct 3 and blocked the same day. No misuse-related harm confirmed at disclosure.",
-          "attack": true
-        }
-      ],
-      "source_count": 2,
-      "merged": true
-    },
-    {
-      "source": "Google News",
       "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNUNOTkFwcEdyY2p6Y0NtWmtyS09tQ3hMeWFDQklmNWRXNDNsaldzcklyVWdPV04xOENYUW9ZWXFvOV9zODd6dVJhU2NDSnpZS3pMVVBFaXBJdDJRRmJGNVR1T2hzandQRXk0Rmg2S2JyUnVQd3hVaEo1UFpNWXJ0SXVKNGprWWhUN0NMY0NNWVFnMlVZ?oc=5",
       "published_date": "2026-10-06",
       "title": "【11月10日】AIで武装強化されたランサムウエア攻撃が拡大、長期のシステム停止を回避する最善策は？ - 日経クロステック Active",
@@ -1042,34 +659,6 @@
           "organization": "Yaomasa（ news report ）",
           "affected_count": "— (attacker published a business-file list; no Yaomasa disclosure found)",
           "attack_type": "Ransomware group AiLock listed the company on its leak site and claimed data publication; listing dated Sep 30.",
-          "attack": true,
-          "sources": [
-            "SmartScope"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "SmartScope",
-      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-      "published_date": "2026-10-06",
-      "title": "Rakuten Drive（ disclosure ） — A third party obtained authentication credentials for an administrative account of some systems and accessed them; how the credentials were obtained is not stated. Stored-data access Jan 29 to Sep 17; the 687- and 313-account events on Aug 27. Access route blocked. No secondary harm confirmed.",
-      "organization": "Rakuten Drive（ disclosure ）",
-      "affected_count": "15,382 accounts whose stored data (photos, documents etc.) was acquired or viewed (confirmed). Separately, on Aug 27, 687 accounts (account name, display name, profile image URL) and 313 accounts (the same three fields, plus encrypted passwords and strings added during password encryption to make recovery difficult). Counts are per event, with no overlap stated; do not add",
-      "attack_type": "A third party obtained authentication credentials for an administrative account of some systems and accessed them; how the credentials were obtained is not stated. Stored-data access Jan 29 to Sep 17; the 687- and 313-account events on Aug 27. Access route blocked. No secondary harm confirmed.",
-      "attack": true,
-      "sources": [
-        "SmartScope"
-      ],
-      "source_records": [
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-10-06",
-          "title": "Rakuten Drive（ disclosure ） — A third party obtained authentication credentials for an administrative account of some systems and accessed them; how the credentials were obtained is not stated. Stored-data access Jan 29 to Sep 17; the 687- and 313-account events on Aug 27. Access route blocked. No secondary harm confirmed.",
-          "organization": "Rakuten Drive（ disclosure ）",
-          "affected_count": "15,382 accounts whose stored data (photos, documents etc.) was acquired or viewed (confirmed). Separately, on Aug 27, 687 accounts (account name, display name, profile image URL) and 313 accounts (the same three fields, plus encrypted passwords and strings added during password encryption to make recovery difficult). Counts are per event, with no overlap stated; do not add",
-          "attack_type": "A third party obtained authentication credentials for an administrative account of some systems and accessed them; how the credentials were obtained is not stated. Stored-data access Jan 29 to Sep 17; the 687- and 313-account events on Aug 27. Access route blocked. No secondary harm confirmed.",
           "attack": true,
           "sources": [
             "SmartScope"
@@ -1151,109 +740,6 @@
     },
     {
       "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9DbTNlVjhRbld1UnJZYVRPcUxmdkJqQ0RlWDB5WlBVUENlQjZXcS1aSXpwZXE0WnVCeG5XckYwMWp4aGNCN0sxRU1fVEp5OFp0ZTg0UGc4ak5vNEMtbGs1dlhvSjd0X01NZWdoM2FzMTdfX2lxNWc?oc=5",
-      "published_date": "2026-10-05",
-      "title": "相次ぐ不正アクセス、企業や政府機関でも情報漏洩 AI悪用の影に「一刻の猶予もない」 - 産経ニュース",
-      "attack": true,
-      "organization": null,
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9DbTNlVjhRbld1UnJZYVRPcUxmdkJqQ0RlWDB5WlBVUENlQjZXcS1aSXpwZXE0WnVCeG5XckYwMWp4aGNCN0sxRU1fVEp5OFp0ZTg0UGc4ak5vNEMtbGs1dlhvSjd0X01NZWdoM2FzMTdfX2lxNWc?oc=5",
-          "published_date": "2026-10-05",
-          "title": "相次ぐ不正アクセス、企業や政府機関でも情報漏洩 AI悪用の影に「一刻の猶予もない」 - 産経ニュース",
-          "attack": true,
-          "organization": null
-        },
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOU9uNV91dkhyMEo5bW9tNTVjVFM5cFl4ZmdaT2VzUFZfOGNtTVdLU3BJQllYell6dmdVNFBuWjNzUThybUt0M01HcUczTWtTZ3F3Ql9BWm1JUUo2aWxJYWFmWjJhVXRzVVlLUDRCMGN3Uk4tRUhJWTZsT1hqS01Fdy1MOFpJMlNZMWZCZjY1Q201M3l1TllDcmJrSmRIU1RIcFB5anRVc0xpQ2tVWWpv0gGvAUFVX3lxTE45T241X3V2SHIwSjltb201NWNUUzlwWXhmZ1pPZXNQVl84Y21NV0tTcElCWVh6WXp2Z1U0UG5aM3NROHJtS3QzTUdxRzNNa1NncXdCX0FabUlRSjZpbElhYWZaMmFVdHNVWUtQNEIwY3dSTi1FSElZNmxPWGpLTUV3LUw4WkkyU1kxZkJmNjVDbTUzeXVOWUNyYmtKZEhTVEhwUHlqdFVzTGlDa1VZam8?oc=5",
-          "published_date": "2026-10-05",
-          "title": "相次ぐ不正アクセス、企業や政府機関でも情報漏洩 AI悪用の影に「一刻の猶予もない」 - ｄメニューニュース",
-          "attack": true,
-          "organization": null
-        }
-      ],
-      "source_count": 1,
-      "merged": true
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9xdDVyWTFReWNLNGJZVEl1Q252MGhaV1pHMVU5NHpFVWJLWEVuN0UwRHl6Nkl0ZzVTVjZ6ZzZMM1FIRkcxQXMxOGpZV2N0RFhBRG5lTS1WZGhYRmhmZzEybnZ2bVdFNVJp0gFoQVVfeXFMT3F0NXJZMVF5Y0s0YllUSXVDbnYwaFpXWkcxVTk0ekVVYktYRW43RTBEeXo2SXRnNVNWNnpnNkwzUUhGRzFBczE4allXY3REWEFEbmVNLVZkaFhGaGZnMTJudnZtV0U1Umk?oc=5",
-      "published_date": "2026-10-05",
-      "title": "生成AIの悪用と「インフォスティーラー×BYOVD」の脅威――ランサムウェア攻撃の最新動向と「情シス任せ」を脱却すべき理由（1/2 ページ） - ITmedia PC USER - ITmedia",
-      "attack": true,
-      "organization": null,
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9xdDVyWTFReWNLNGJZVEl1Q252MGhaV1pHMVU5NHpFVWJLWEVuN0UwRHl6Nkl0ZzVTVjZ6ZzZMM1FIRkcxQXMxOGpZV2N0RFhBRG5lTS1WZGhYRmhmZzEybnZ2bVdFNVJp0gFoQVVfeXFMT3F0NXJZMVF5Y0s0YllUSXVDbnYwaFpXWkcxVTk0ekVVYktYRW43RTBEeXo2SXRnNVNWNnpnNkwzUUhGRzFBczE4allXY3REWEFEbmVNLVZkaFhGaGZnMTJudnZtV0U1Umk?oc=5",
-          "published_date": "2026-10-05",
-          "title": "生成AIの悪用と「インフォスティーラー×BYOVD」の脅威――ランサムウェア攻撃の最新動向と「情シス任せ」を脱却すべき理由（1/2 ページ） - ITmedia PC USER - ITmedia",
-          "attack": true,
-          "organization": null,
-          "sources": [
-            "Google News"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWVVKOFlRUnFfYlRualJDc1pfVHJrZmhwX0ZHeFowdEdiZkRNcVZmaHY3QzNpVzNEamRvVzRMczUwZ1k5WUtJS1lPOWFvZVB3X3I3RUJUZ05FbmdySmZrczlWUlU2bTJDcE13SGlLcGZEOHlTcXVsSjhRajZBbmw2ZVdwRUtDWGU2bUJyZ0NtVm9fb05LQktZ0gGXAUFVX3lxTE1ZVUo4WVFScV9iVG5qUkNzWl9UcmtmaHBfRkd4WjB0R2JmRE1xVmZodjdDM2lXM0RqZG9XNExzNTBnWTlZS0lLWU85YW9lUHdfcjdFQlRnTkVuZ3JKZmtzOVZSVTZtMkNwTXdIaUtwZkQ4eVNxdWxKOFFqNkFubDZlV3BFS0NYZTZtQnJnQ21Wb19vTktCS1k?oc=5",
-      "published_date": "2026-10-05",
-      "title": "生成AIの悪用と「インフォスティーラー×BYOVD」の脅威――ランサムウェア攻撃の最新動向と「情シス任せ」を脱却すべき理由 - ｄメニューニュース",
-      "attack": true,
-      "organization": null,
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWVVKOFlRUnFfYlRualJDc1pfVHJrZmhwX0ZHeFowdEdiZkRNcVZmaHY3QzNpVzNEamRvVzRMczUwZ1k5WUtJS1lPOWFvZVB3X3I3RUJUZ05FbmdySmZrczlWUlU2bTJDcE13SGlLcGZEOHlTcXVsSjhRajZBbmw2ZVdwRUtDWGU2bUJyZ0NtVm9fb05LQktZ0gGXAUFVX3lxTE1ZVUo4WVFScV9iVG5qUkNzWl9UcmtmaHBfRkd4WjB0R2JmRE1xVmZodjdDM2lXM0RqZG9XNExzNTBnWTlZS0lLWU85YW9lUHdfcjdFQlRnTkVuZ3JKZmtzOVZSVTZtMkNwTXdIaUtwZkQ4eVNxdWxKOFFqNkFubDZlV3BFS0NYZTZtQnJnQ21Wb19vTktCS1k?oc=5",
-          "published_date": "2026-10-05",
-          "title": "生成AIの悪用と「インフォスティーラー×BYOVD」の脅威――ランサムウェア攻撃の最新動向と「情シス任せ」を脱却すべき理由 - ｄメニューニュース",
-          "attack": true,
-          "organization": null,
-          "sources": [
-            "Google News"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1UaHZkY0wyaXgzUTZEdDBvWTdMbnB5Z19MMmdYWGtjSFd1MGhRZ1AxNUpyQ0I3VTI3bUI5aEZyY29WZTAtanN0VWxIS3RkeDh3ejZLM1Faa3lndllQbWtETGt3Q2dXQ2M?oc=5",
-      "published_date": "2026-10-05",
-      "title": "木原長官「大変深刻」相次ぐ不正アクセス - 朝日放送",
-      "attack": true,
-      "organization": null,
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1UaHZkY0wyaXgzUTZEdDBvWTdMbnB5Z19MMmdYWGtjSFd1MGhRZ1AxNUpyQ0I3VTI3bUI5aEZyY29WZTAtanN0VWxIS3RkeDh3ejZLM1Faa3lndllQbWtETGt3Q2dXQ2M?oc=5",
-          "published_date": "2026-10-05",
-          "title": "木原長官「大変深刻」相次ぐ不正アクセス - 朝日放送",
-          "attack": true,
-          "organization": null,
-          "sources": [
-            "Google News"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "Google News",
       "source_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9IMzJ4WTV6cXJZbjZUTmFqSHJTQUsxbVByMGo3R2FGWDVsbW5PVlRrRFEyYUNoMXZCaUN5WHBEeVBvUTAteWxDbkhLZi1aVHE5eXhzYWVLWVdmbURTUGgtOFdGNHVCbzVndDlV?oc=5",
       "published_date": "2026-10-05",
       "title": "日経新聞社、Microsoft 365アカウントの情報漏えいと、Google Workspaceからの情報漏えい疑いを発表 - INTERNET Watch",
@@ -1276,69 +762,6 @@
           "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBJR3RNbG9BOC1GNTNBQnM0N1VYYWQ3RHBBUHI5UHRXSE5leHNmUGZFVHQ2ZnZwY29KS0JCN0t4TmUxTWNUUDlaWFZmakZucFdyWWphZ1pvbUJkMUVZaHFj?oc=5",
           "published_date": "2026-10-05",
           "title": "日経新聞社、Microsoft 365アカウントの情報漏えいと、Google Workspaceからの情報漏えい疑いを発表 - 千葉テレビ放送株式会社",
-          "attack": true,
-          "organization": null
-        }
-      ],
-      "source_count": 1,
-      "merged": true
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1LalR1SWpITE1ENjNRQnM1N1g3X2pYVDYyMWxYcXNBZ3dOUGFQTUxoZGpyQ0xxRkZXS3J4VGxUaldUc0RNeFp4SXI1aEJCNkxJTU5zMUdtMGwyNC0wZnNSZEljQ2dvMEhYa1E5MllUYjVaNnNzdFV3?oc=5",
-      "published_date": "2026-10-05",
-      "title": "日経グループで不正アクセス相次ぐ 日経社員のアドレスから届いたフィッシングで日経BPも被害 - ニコニコニュース",
-      "attack": true,
-      "organization": null,
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1LalR1SWpITE1ENjNRQnM1N1g3X2pYVDYyMWxYcXNBZ3dOUGFQTUxoZGpyQ0xxRkZXS3J4VGxUaldUc0RNeFp4SXI1aEJCNkxJTU5zMUdtMGwyNC0wZnNSZEljQ2dvMEhYa1E5MllUYjVaNnNzdFV3?oc=5",
-          "published_date": "2026-10-05",
-          "title": "日経グループで不正アクセス相次ぐ 日経社員のアドレスから届いたフィッシングで日経BPも被害 - ニコニコニュース",
-          "attack": true,
-          "organization": null,
-          "sources": [
-            "Google News"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1hNjJRbld5WDFDRHcxbWMtZzBjUjEzVUJ0MGpOVWlXTG1lV01aQ01XUk1hT1VfbC1uMjRqUC10U3AwZnpqbkRUcVZ4NFNmUEI0RjR6R2U2emNEaG9CMjJZenh1NDZuaTNTZmdEWHRaZHFlNmV2ZGc?oc=5",
-      "published_date": "2026-10-05",
-      "title": "日経で相次ぐ不正アクセス 1646人分の個人情報漏えい、「なりすましメール」約9000件送信も - ニコニコニュース",
-      "attack": true,
-      "organization": null,
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1hNjJRbld5WDFDRHcxbWMtZzBjUjEzVUJ0MGpOVWlXTG1lV01aQ01XUk1hT1VfbC1uMjRqUC10U3AwZnpqbkRUcVZ4NFNmUEI0RjR6R2U2emNEaG9CMjJZenh1NDZuaTNTZmdEWHRaZHFlNmV2ZGc?oc=5",
-          "published_date": "2026-10-05",
-          "title": "日経で相次ぐ不正アクセス 1646人分の個人情報漏えい、「なりすましメール」約9000件送信も - ニコニコニュース",
-          "attack": true,
-          "organization": null
-        },
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQX24xbmpNYmJEN3NYUmY2cmNMcWdqRW9ieWhMTHBtWmJoN1M0MDR3TnRZVTFKX3ZJMURLekJEdTU5RFpmZ19IaWJ2dFRVd3RXUElIYVc5aWFZVnBVdi11WlgwM3czWDhfSW5xWWpQN3NwV2o3bnl6Mll2ZmJ5WXg4ZzQ1d0xIZUZhZWZwN1BiZjYwQU04SUxMQ25kTmfSAZwBQVVfeXFMUF9uMW5qTWJiRDdzWFJmNnJjTHFnakVvYnloTExwbVpiaDdTNDA0d050WVUxSl92STFES3pCRHU1OURaZmdfSGlidnRUVXd0V1BJSGFXOWlhWVZwVXYtdVpYMDN3M1g4X0lucVlqUDdzcFdqN255ejJZdmZieVl4OGc0NXdMSGVGYWVmcDdQYmY2MEFNOElMTENuZE5n?oc=5",
-          "published_date": "2026-10-05",
-          "title": "日経で相次ぐ不正アクセス 1646人分の個人情報漏えい、「なりすましメール」約9000件送信も - ｄメニューニュース",
-          "attack": true,
-          "organization": null
-        },
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB6eDJYQ3VzMkM0WENhSlUxM3k4bGdTcFZGaVNBS201bGhLRlNwRDl6TjM5WVpiV1AtWWk3bzRUd1o0dmJzanJ4LUwzLXZ6SkRBOGlnTUZHcDlINU5RejhxZkd4NEdtQzBEWDA3cXNSZGNVWkNvTEFGMWNIbnVvNW8?oc=5",
-          "published_date": "2026-10-05",
-          "title": "日経で相次ぐ不正アクセス 1646人分の個人情報漏えい、「なりすましメール」約9000件送信も（ITmedia ビジネスオンライン） - Yahoo!ニュース",
           "attack": true,
           "organization": null
         }
@@ -1565,37 +988,6 @@
     },
     {
       "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9zejlMTTFveHBKN2xMY2N6ZmF4QmxOeUp6SWpEaFBqaUtSLUZnTldsUzJPMjZUU1MxS3o3UUNXaDdlTFRBRld4cUtYbTg4RTEtU3hGRnN2NnNkUnU5QU85ckljYzhiXzQ?oc=5",
-      "published_date": "2026-10-05",
-      "title": "ランサム集団キリンの中心メンバー、大阪で拘束 識者「活発に攻撃」 - 朝日新聞",
-      "attack": true,
-      "organization": null,
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9zejlMTTFveHBKN2xMY2N6ZmF4QmxOeUp6SWpEaFBqaUtSLUZnTldsUzJPMjZUU1MxS3o3UUNXaDdlTFRBRld4cUtYbTg4RTEtU3hGRnN2NnNkUnU5QU85ckljYzhiXzQ?oc=5",
-          "published_date": "2026-10-05",
-          "title": "ランサム集団キリンの中心メンバー、大阪で拘束 識者「活発に攻撃」 - 朝日新聞",
-          "attack": true,
-          "organization": null
-        },
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1uNUhQeFpnRktJV2p0VVpLejFVV3BKN1MtM2VOS3NsZ20wbkVBTkI2emVPTmpLSU1mSURRVkZmYWFabU5veURRMEZjeVByeTY0Q2ttczdnX1JMMkpYRE9JN2hCNDN2MlhsbWpYNEZVdXF1VWhRYUNIbTJkckNJTUE?oc=5",
-          "published_date": "2026-10-05",
-          "title": "ランサム集団キリンの中心メンバー、日本で拘束 アサヒにも「攻撃」（朝日新聞） - Yahoo!ニュース",
-          "attack": true,
-          "organization": null
-        }
-      ],
-      "source_count": 1,
-      "merged": true
-    },
-    {
-      "source": "Google News",
       "source_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBKblVNdnBuT0lCT29iSDlpUC1iS19qVzhnSDRLck16VGtzSThnbGZYUWc1ajMweVl0TDBDdXBqNmRYcUcxMFNQYWpDaXVPYTdRSVJuUmNEeHhKVUU0eE1SanE5SHVzZzJCaW5sVy1n?oc=5",
       "published_date": "2026-10-05",
       "title": "ランサムウェア集団「KillSec」が摘発、管理者とされる人物はなんと16歳 - Korben",
@@ -1779,30 +1171,6 @@
     },
     {
       "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5CTUFSUE9SN29xN19fVi1PLVBac1AwcHJ3cU53ZTlXRnFRUzhEWXIxb3czQ0pXSHlXVmVYbXN4ek5rczNaTWtLVmhRZkVQeWFqa3ZCcXhwcFN0RHBqcWFrNzY4dWI3S0Q4UjMzY09qWXBZNGdvMGJjYjBXN2I2ZG8?oc=5",
-      "published_date": "2026-10-05",
-      "title": "【金融庁が警鐘】相次ぐ「情報漏えい」…AI攻撃が爆速化する前に銀行が今やるべきこと（ビジネス＋IT） - Yahoo!ニュース",
-      "attack": true,
-      "organization": "【金融庁が警鐘】相次ぐ「情報漏えい」…AI攻撃が爆速化する前に銀行",
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5CTUFSUE9SN29xN19fVi1PLVBac1AwcHJ3cU53ZTlXRnFRUzhEWXIxb3czQ0pXSHlXVmVYbXN4ek5rczNaTWtLVmhRZkVQeWFqa3ZCcXhwcFN0RHBqcWFrNzY4dWI3S0Q4UjMzY09qWXBZNGdvMGJjYjBXN2I2ZG8?oc=5",
-          "published_date": "2026-10-05",
-          "title": "【金融庁が警鐘】相次ぐ「情報漏えい」…AI攻撃が爆速化する前に銀行が今やるべきこと（ビジネス＋IT） - Yahoo!ニュース",
-          "attack": true,
-          "organization": "【金融庁が警鐘】相次ぐ「情報漏えい」…AI攻撃が爆速化する前に銀行",
-          "sources": [
-            "Google News"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "Google News",
       "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQc3RlVWY5RFJETVMxUmFjRUxoUUtsZ3NQa0RiZ2VTT18tcjIxZHZ6M0xXT1pKcFJOZVVxQVBMQktrd3Utby03MzVxYXEzMVVaZ19DNnIzaVlZNDlhcVhseUZmcktNMUMyWWZhOG9LaWtYTENnc3k1eGc4MEZOUW1xedIBgAFBVV95cUxQc3RlVWY5RFJETVMxUmFjRUxoUUtsZ3NQa0RiZ2VTT18tcjIxZHZ6M0xXT1pKcFJOZVVxQVBMQktrd3Utby03MzVxYXEzMVVaZ19DNnIzaVlZNDlhcVhseUZmcktNMUMyWWZhOG9LaWtYTENnc3k1eGc4MEZOUW1xeQ?oc=5",
       "published_date": "2026-10-05",
       "title": "「焼肉きんぐ」、会員情報漏えい - ｄメニューニュース",
@@ -1898,14 +1266,6 @@
         },
         {
           "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5IOHRtUnFwWktNTlpfMVhjeUZfcEk0N1UyMTVSZmhzLTVMRi1hNUlaNnpjSjk5R2hsbXBBb09rODk2Q0JBMVpFcXFOa0tucWNmSVN6cWVwUlpHYzNVS0twWUVBTGQzNTk5UUQ2TF9LMld4THc?oc=5",
-          "published_date": "2026-10-06",
-          "title": "【解説】焼肉きんぐ・大和証券など不正アクセス11件、10月2〜5日の個人情報漏えいを整理 - innovaTopia",
-          "attack": true,
-          "organization": "物語コーポレーション"
-        },
-        {
-          "source": "Google News",
           "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE10RWhfeVpscm1XX19semJVbldGOFVzXzMzQ21aOXp4eUUzZklXUkVNVkQzSFh0LXY2NXI5UXRjaFNUM21neWlTWmI4eDQ2Qmc4VDdxVlJB?oc=5",
           "published_date": "2026-10-06",
           "title": "焼肉きんぐ1078万件流出、タイムズカー、大和証券も…AIが変えた「サイバー攻撃の経済学」、ターゲットは普通の会社 【生成AI事件簿】AIによって攻撃コストと必要技能が低下、これまで割に合わなかった中小企業が標的になる時代に - JBpress",
@@ -1944,58 +1304,6 @@
           "organization": null,
           "sources": [
             "Google News"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5kVU5uRlBKaHhDVWhSdzJDX05IUzhULTlNZ1VQMlZpRTJZMFkyWVJnYVJORHhtMVNvSVJZWDQzSEdSdjQweF9NRGVCNDdEYmc3N2M1YWNWaTJuRWVfTWYzTnFCazNHUERrQmJWVVVncldKaFlOR2xXcXQ5eng?oc=5",
-      "published_date": "2026-10-05",
-      "title": "“免許証画像”闇サイトで売買も……1枚あたり「20円」 相次ぐ個人情報漏えい 悪用リスクは？【追跡取材 news LOG】 - 日テレNEWS NNN",
-      "attack": true,
-      "organization": null,
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5kVU5uRlBKaHhDVWhSdzJDX05IUzhULTlNZ1VQMlZpRTJZMFkyWVJnYVJORHhtMVNvSVJZWDQzSEdSdjQweF9NRGVCNDdEYmc3N2M1YWNWaTJuRWVfTWYzTnFCazNHUERrQmJWVVVncldKaFlOR2xXcXQ5eng?oc=5",
-          "published_date": "2026-10-05",
-          "title": "“免許証画像”闇サイトで売買も……1枚あたり「20円」 相次ぐ個人情報漏えい 悪用リスクは？【追跡取材 news LOG】 - 日テレNEWS NNN",
-          "attack": true,
-          "organization": null,
-          "sources": [
-            "Google News"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "SmartScope",
-      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-      "published_date": "2026-10-05",
-      "title": "i-plug (OfferBox)（ disclosure ） — Misconfiguration, not intrusion. Client-company pages transmitted names/emails visible via browser developer tools from May 12 to Aug 28. No leak outside client companies confirmed.",
-      "organization": "i-plug (OfferBox)（ disclosure ）",
-      "affected_count": "Theoretical maximum 314,009 students graduating in 2027/2028 (names, emails); not the number actually viewed",
-      "attack_type": "Misconfiguration, not intrusion. Client-company pages transmitted names/emails visible via browser developer tools from May 12 to Aug 28. No leak outside client companies confirmed.",
-      "attack": true,
-      "sources": [
-        "SmartScope"
-      ],
-      "source_records": [
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-10-05",
-          "title": "i-plug (OfferBox)（ disclosure ） — Misconfiguration, not intrusion. Client-company pages transmitted names/emails visible via browser developer tools from May 12 to Aug 28. No leak outside client companies confirmed.",
-          "organization": "i-plug (OfferBox)（ disclosure ）",
-          "affected_count": "Theoretical maximum 314,009 students graduating in 2027/2028 (names, emails); not the number actually viewed",
-          "attack_type": "Misconfiguration, not intrusion. Client-company pages transmitted names/emails visible via browser developer tools from May 12 to Aug 28. No leak outside client companies confirmed.",
-          "attack": true,
-          "sources": [
-            "SmartScope"
           ]
         }
       ]
@@ -2052,30 +1360,6 @@
           "attack": true,
           "sources": [
             "SmartScope"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdl9WRGxqYUtrUGx4U3BsTDRsV05xQjNrYUZWVUl6RVp4ZzdVN1hxbFdra25Sc2duXzFPRWQ4VzlfcWVFeU5kbGRReXl5bEN0Q2V2amtOUlBNMjJ1MzNjR0w5NHotQ08xRTlrSEFVSU1KRnlONDRwWEFna2FxUWZUVWsyaXhqMkVJMDBxeHdPM00xX3B2S0JuNDFIMGJ1T1Z6MEtRVzRMUkQ?oc=5",
-      "published_date": "2026-10-05",
-      "title": "The Japan Timesに不正アクセス、ランサムウェア グループ Eclipseが犯行声明|セキュリティニュースのセキュリティ対策Lab - 合同会社ロケットボーイズ",
-      "attack": true,
-      "organization": null,
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdl9WRGxqYUtrUGx4U3BsTDRsV05xQjNrYUZWVUl6RVp4ZzdVN1hxbFdra25Sc2duXzFPRWQ4VzlfcWVFeU5kbGRReXl5bEN0Q2V2amtOUlBNMjJ1MzNjR0w5NHotQ08xRTlrSEFVSU1KRnlONDRwWEFna2FxUWZUVWsyaXhqMkVJMDBxeHdPM00xX3B2S0JuNDFIMGJ1T1Z6MEtRVzRMUkQ?oc=5",
-          "published_date": "2026-10-05",
-          "title": "The Japan Timesに不正アクセス、ランサムウェア グループ Eclipseが犯行声明|セキュリティニュースのセキュリティ対策Lab - 合同会社ロケットボーイズ",
-          "attack": true,
-          "organization": null,
-          "sources": [
-            "Google News"
           ]
         }
       ]
@@ -2322,30 +1606,6 @@
     },
     {
       "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZUtzanVhRFIwYkc3OXFFUGE4NnlwWXI2TXA4dzcyTXdMWTNIWlB6T1kyT3JCYzI3S1JjelpXUFJwSFpqTUlrdnpWRGI0amxyZVVVR0RsNEVLdFZSYmlpSFA4ZDBNMDZXSmNlcXZlcThJMktoNjBzZlNRQnhVLTZFUHBYQjRKOHVvaWpkbUFNbUprNDdQVjA2YjM5YjlsMlZDODhFODNpNGlaV3c?oc=5",
-      "published_date": "2026-10-04",
-      "title": "日経グループへのサイバー攻撃のまとめ―相次ぐインシデント Microsoft 365やGoogle Workspaceへの不正アクセスで個人情報漏洩の恐れ|セキュリティ対策Lab - 合同会社ロケットボーイズ",
-      "attack": true,
-      "organization": null,
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZUtzanVhRFIwYkc3OXFFUGE4NnlwWXI2TXA4dzcyTXdMWTNIWlB6T1kyT3JCYzI3S1JjelpXUFJwSFpqTUlrdnpWRGI0amxyZVVVR0RsNEVLdFZSYmlpSFA4ZDBNMDZXSmNlcXZlcThJMktoNjBzZlNRQnhVLTZFUHBYQjRKOHVvaWpkbUFNbUprNDdQVjA2YjM5YjlsMlZDODhFODNpNGlaV3c?oc=5",
-          "published_date": "2026-10-04",
-          "title": "日経グループへのサイバー攻撃のまとめ―相次ぐインシデント Microsoft 365やGoogle Workspaceへの不正アクセスで個人情報漏洩の恐れ|セキュリティ対策Lab - 合同会社ロケットボーイズ",
-          "attack": true,
-          "organization": null,
-          "sources": [
-            "Google News"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "Google News",
       "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1YRlYwQ2FEaWF6eW1yeU5Tb1phT0xzZEVLR1NOZzJKdDlvdDNibUNqYnFhTlFVT0RETHNYRURZVVZUZDBMRUxUU0FMQV81d1NGNW1CY3U3aDk0aXgwUkFMbU9RMUdaUFQwS0VNeQ?oc=5",
       "published_date": "2026-10-04",
       "title": "日経に不正ログイン、1646人分の個人情報漏洩か - 日本経済新聞",
@@ -2384,30 +1644,6 @@
           "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ieWIzdmlWUEVQcERJOUpzRDF0bU5lbTYyTG5TbWZIWUVYV05oampDY2E0cTJram1fMHRSdHNldmFtMTN6WVRXdFlzTGt2Zm8tZ0REQjNWRmVQblhDYWViMUlOOHVSemx5WjJfQQ?oc=5",
           "published_date": "2026-10-04",
           "title": "日経にサイバー攻撃 情報漏洩、不審メール9000件送信 - 日本経済新聞",
-          "attack": true,
-          "organization": null,
-          "sources": [
-            "Google News"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZ21OVzA5NzloSkZ3WWRTQU5MSE1wbzRhWFN1Q2xHYkdtMUxqYUFZTXlMMnhCZUlGcUR0aEt3VFgwZkRaUmdZMVdQVFh0MFFzVDF0bmFUS2JjajJZc2R0SUJTekdIOElWTnVPa2swMV9mMHdfVlQydldzeTctU0dHcDhwck1Id0ZJTDh4UE9haFpTVG8yZjZRaklDY1luVDk1RExz?oc=5",
-      "published_date": "2026-10-04",
-      "title": "日経、Microsoft 365アカウントに不正ログイン-国内で相次ぐM365アカウントへのサイバー攻撃 - 合同会社ロケットボーイズ",
-      "attack": true,
-      "organization": null,
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZ21OVzA5NzloSkZ3WWRTQU5MSE1wbzRhWFN1Q2xHYkdtMUxqYUFZTXlMMnhCZUlGcUR0aEt3VFgwZkRaUmdZMVdQVFh0MFFzVDF0bmFUS2JjajJZc2R0SUJTekdIOElWTnVPa2swMV9mMHdfVlQydldzeTctU0dHcDhwck1Id0ZJTDh4UE9haFpTVG8yZjZRaklDY1luVDk1RExz?oc=5",
-          "published_date": "2026-10-04",
-          "title": "日経、Microsoft 365アカウントに不正ログイン-国内で相次ぐM365アカウントへのサイバー攻撃 - 合同会社ロケットボーイズ",
           "attack": true,
           "organization": null,
           "sources": [
@@ -2469,43 +1705,6 @@
       ]
     },
     {
-      "source": "SmartScope",
-      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-      "published_date": "2026-10-04",
-      "title": "Nikkei (Google Workspace)（ disclosure ） — External unauthorized login to an employee's Google Workspace account since late July; identified via Google's notice in early August. Reader and reporting-source data excluded.",
-      "organization": "Nikkei (Google Workspace)（ disclosure ）",
-      "affected_count": "1,646 people (email addresses, names etc.; suspected leak)",
-      "attack_type": "External unauthorized login to an employee's Google Workspace account since late July; identified via Google's notice in early August. Reader and reporting-source data excluded.",
-      "attack": true,
-      "sources": [
-        "SmartScope"
-      ],
-      "source_records": [
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-10-04",
-          "title": "Nikkei (Google Workspace)（ disclosure ） — External unauthorized login to an employee's Google Workspace account since late July; identified via Google's notice in early August. Reader and reporting-source data excluded.",
-          "organization": "Nikkei (Google Workspace)（ disclosure ）",
-          "affected_count": "1,646 people (email addresses, names etc.; suspected leak)",
-          "attack_type": "External unauthorized login to an employee's Google Workspace account since late July; identified via Google's notice in early August. Reader and reporting-source data excluded.",
-          "attack": true
-        },
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-10-04",
-          "title": "Nikkei (Microsoft 365)（ disclosure ） — Suspected third-party login to an employee's Microsoft 365 account. Recipients' email addresses and names, along with some email content, are suspected to have leaked.",
-          "organization": "Nikkei (Microsoft 365)（ disclosure ）",
-          "affected_count": "About 9,000 impersonation emails sent Sep 30; leaked personal-data count under investigation",
-          "attack_type": "Suspected third-party login to an employee's Microsoft 365 account. Recipients' email addresses and names, along with some email content, are suspected to have leaked.",
-          "attack": true
-        }
-      ],
-      "source_count": 1,
-      "merged": true
-    },
-    {
       "source": "Google News",
       "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVHE0YWdDN0hDeEJ5dk5HVXBzZVY1NW56VTVUZ20wSnRnRmlwWGNKN082ZFR2cmc4bkVVNTBXNFhDME02cjlSS2UzRjFHNmFucUFXbzlBbldiaEtaRWZVS1I4RENKejVZT0RyNzlqcHlpaERjMmlCMWdRci1uY1RPbUJoamF6Y1pLSGtsdkRoTTVIUUJMLWJSZ0I5SHFrdHMwZHc?oc=5",
       "published_date": "2026-10-04",
@@ -2521,30 +1720,6 @@
           "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVHE0YWdDN0hDeEJ5dk5HVXBzZVY1NW56VTVUZ20wSnRnRmlwWGNKN082ZFR2cmc4bkVVNTBXNFhDME02cjlSS2UzRjFHNmFucUFXbzlBbldiaEtaRWZVS1I4RENKejVZT0RyNzlqcHlpaERjMmlCMWdRci1uY1RPbUJoamF6Y1pLSGtsdkRoTTVIUUJMLWJSZ0I5SHFrdHMwZHc?oc=5",
           "published_date": "2026-10-04",
           "title": "AIの自律型サイバー攻撃が実環境へ、日本は中国国家支援型攻撃の標的3位-Microsoft Digital Defense Report 2026 - 合同会社ロケットボーイズ",
-          "attack": true,
-          "organization": null,
-          "sources": [
-            "Google News"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPeDcyLW1RTlYzZ0VodjFBZlRmbHNIZnBqMF91MG1xVU9NTTdtSkh1UzZ3a3RpQkJUZUVxcGZNb0l6bWhROUtibHctbzN0eWhKUFgwa09raUFwMmtLS2pHYk1XYjAyMmtLek1qajVCUTRQb3VWejZDR2FKSzhtLVBmZGxiZVk2ejZNQUE?oc=5",
-      "published_date": "2026-10-04",
-      "title": "2026年9月 個人情報漏洩の事例 まとめ|セキュリティ対策Lab - 合同会社ロケットボーイズ",
-      "attack": true,
-      "organization": null,
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPeDcyLW1RTlYzZ0VodjFBZlRmbHNIZnBqMF91MG1xVU9NTTdtSkh1UzZ3a3RpQkJUZUVxcGZNb0l6bWhROUtibHctbzN0eWhKUFgwa09raUFwMmtLS2pHYk1XYjAyMmtLek1qajVCUTRQb3VWejZDR2FKSzhtLVBmZGxiZVk2ejZNQUE?oc=5",
-          "published_date": "2026-10-04",
-          "title": "2026年9月 個人情報漏洩の事例 まとめ|セキュリティ対策Lab - 合同会社ロケットボーイズ",
           "attack": true,
           "organization": null,
           "sources": [
@@ -2607,34 +1782,6 @@
       ],
       "source_count": 1,
       "merged": true
-    },
-    {
-      "source": "SmartScope",
-      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-      "published_date": "2026-10-03",
-      "title": "Recruit (Studysapuri)（ disclosure ） — Third party exploited a specification flaw in a feature. Identified and fixed Sep 30. No leak of names, passwords or payment data confirmed.",
-      "organization": "Recruit (Studysapuri)（ disclosure ）",
-      "affected_count": "3,687 email addresses possibly identified as registered",
-      "attack_type": "Third party exploited a specification flaw in a feature. Identified and fixed Sep 30. No leak of names, passwords or payment data confirmed.",
-      "attack": true,
-      "sources": [
-        "SmartScope"
-      ],
-      "source_records": [
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-10-03",
-          "title": "Recruit (Studysapuri)（ disclosure ） — Third party exploited a specification flaw in a feature. Identified and fixed Sep 30. No leak of names, passwords or payment data confirmed.",
-          "organization": "Recruit (Studysapuri)（ disclosure ）",
-          "affected_count": "3,687 email addresses possibly identified as registered",
-          "attack_type": "Third party exploited a specification flaw in a feature. Identified and fixed Sep 30. No leak of names, passwords or payment data confirmed.",
-          "attack": true,
-          "sources": [
-            "SmartScope"
-          ]
-        }
-      ]
     },
     {
       "source": "SmartScope",
@@ -2790,30 +1937,6 @@
     },
     {
       "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBYMllkRjZNSTk5VWo2VmE5QndpT0h4dTFKaGd4U01PU0JxUTltMWlXTmM2cU54ektDQ1FQUUFmYnNHNnRtX3BJQ1VxMVNGeGFhSlE?oc=5",
-      "published_date": "2026-10-02",
-      "title": "日本信用情報機構、信用情報への注意喚起のスマホ申し込みを再開 タイムズ情報漏えいでアクセス集中は継続 - 日刊自動車新聞",
-      "attack": true,
-      "organization": null,
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBYMllkRjZNSTk5VWo2VmE5QndpT0h4dTFKaGd4U01PU0JxUTltMWlXTmM2cU54ektDQ1FQUUFmYnNHNnRtX3BJQ1VxMVNGeGFhSlE?oc=5",
-          "published_date": "2026-10-02",
-          "title": "日本信用情報機構、信用情報への注意喚起のスマホ申し込みを再開 タイムズ情報漏えいでアクセス集中は継続 - 日刊自動車新聞",
-          "attack": true,
-          "organization": null,
-          "sources": [
-            "Google News"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "Google News",
       "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5MMG5iajVwTzdHMXY1NWg5bHVlZF96cmw5T2VGVThTa2FYb2MzazhVajRWMjc1TFJzRkNYOEpXTXVOZHN0QmRRMERFVEd1b1QzT05QV24yUkM3c2RmRDNVdTNMMnpoYU1XdmM0VXBwMjlYMXNudXc4?oc=5",
       "published_date": "2026-10-02",
       "title": "日本エネルギー経済研究所、不正アクセスの続報 パスポート情報13件の漏えい確認 - ニコニコニュース",
@@ -2845,27 +1968,43 @@
     },
     {
       "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1uU096NkJzZVlZVFdiRjVVQjR5TnBtYTM5Y1QyR0hmZXVILW9nYWJfSXNlczkyV190LXJPdGZIVWY0SUN4Wnk4ay1UUzBoQ0h5?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ScUhlenhCNFpaaHlEQmJheWN0ZlFEak8taWZNU094elZoY1drQVBXa1JQRHBiV1Bpd0JOLTVsRmkxYmQzbFk0aUhVMDBzN0VjQWhZRGIyeDZ1UW9VdkpOVG8wX2NPMDI4RDQtYg?oc=5",
       "published_date": "2026-10-02",
-      "title": "情報漏えい相次ぐ「異様」と識者 - Yahoo!ニュース",
+      "title": "佐川急便、不正アクセスで個人情報流出か 住所や氏名など - 日本経済新聞",
       "attack": true,
       "organization": null,
       "sources": [
-        "Google News"
+        "Google News",
+        "Security NEXT"
       ],
       "source_records": [
         {
           "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1uU096NkJzZVlZVFdiRjVVQjR5TnBtYTM5Y1QyR0hmZXVILW9nYWJfSXNlczkyV190LXJPdGZIVWY0SUN4Wnk4ay1UUzBoQ0h5?oc=5",
+          "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ScUhlenhCNFpaaHlEQmJheWN0ZlFEak8taWZNU094elZoY1drQVBXa1JQRHBiV1Bpd0JOLTVsRmkxYmQzbFk0aUhVMDBzN0VjQWhZRGIyeDZ1UW9VdkpOVG8wX2NPMDI4RDQtYg?oc=5",
           "published_date": "2026-10-02",
-          "title": "情報漏えい相次ぐ「異様」と識者 - Yahoo!ニュース",
+          "title": "佐川急便、不正アクセスで個人情報流出か 住所や氏名など - 日本経済新聞",
           "attack": true,
-          "organization": null,
-          "sources": [
-            "Google News"
-          ]
+          "organization": null
+        },
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9CUGJlTU1CenlDNDU5Rk1hOXJvaXJNSk1DQk0tTEFSclZwbnNhZE9QRklkU28wWXdsek1XQ3YwU0x5NU5nS3EzdFR1dXRPbjd6clN5aldJQkR6NTM5eTZyc2h4cTJrT2lpbWttdGVxbEt5WlNMUjBqdlUtLV9zTGs?oc=5",
+          "published_date": "2026-10-02",
+          "title": "佐川急便、不正アクセスで個人情報流出の可能性 荷物追跡APIなど9サービス停止、集荷・配達は通常通り - Yahoo!ニュース",
+          "attack": true,
+          "organization": null
+        },
+        {
+          "source": "Security NEXT",
+          "source_url": "https://www.security-next.com/190952",
+          "published_date": "2026-10-02",
+          "title": "荷物問合サービスが侵害、個人情報流出の可能性 - 佐川急便",
+          "attack": true,
+          "organization": null
         }
-      ]
+      ],
+      "source_count": 2,
+      "merged": true
     },
     {
       "source": "ScanNetSecurity",
@@ -3033,34 +2172,6 @@
       "source": "SmartScope",
       "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
       "published_date": "2026-10-02",
-      "title": "Ticketplus（tracker headline） — Others' information displayed due to web-cache misconfiguration.",
-      "organization": "Ticketplus（tracker headline）",
-      "affected_count": "Up to 107 people",
-      "attack_type": "Others' information displayed due to web-cache misconfiguration.",
-      "attack": true,
-      "sources": [
-        "SmartScope"
-      ],
-      "source_records": [
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-10-02",
-          "title": "Ticketplus（tracker headline） — Others' information displayed due to web-cache misconfiguration.",
-          "organization": "Ticketplus（tracker headline）",
-          "affected_count": "Up to 107 people",
-          "attack_type": "Others' information displayed due to web-cache misconfiguration.",
-          "attack": true,
-          "sources": [
-            "SmartScope"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "SmartScope",
-      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-      "published_date": "2026-10-02",
       "title": "Three educational institutions（tracker headline） — Unauthorized access.",
       "organization": "Three educational institutions（tracker headline）",
       "affected_count": "—",
@@ -3078,34 +2189,6 @@
           "organization": "Three educational institutions（tracker headline）",
           "affected_count": "—",
           "attack_type": "Unauthorized access.",
-          "attack": true,
-          "sources": [
-            "SmartScope"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "SmartScope",
-      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-      "published_date": "2026-10-02",
-      "title": "Nichii Gakkan（ news report ） — Inquiry-data backups on a care-service server could be fetched without authentication via a direct URL from May 11, 2020 to Sep 11, 2026. Contractor file-management/deletion procedures deficient.",
-      "organization": "Nichii Gakkan（ news report ）",
-      "affected_count": "583 people, including 99 with health/disability data; acquisition unconfirmed",
-      "attack_type": "Inquiry-data backups on a care-service server could be fetched without authentication via a direct URL from May 11, 2020 to Sep 11, 2026. Contractor file-management/deletion procedures deficient.",
-      "attack": true,
-      "sources": [
-        "SmartScope"
-      ],
-      "source_records": [
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-10-02",
-          "title": "Nichii Gakkan（ news report ） — Inquiry-data backups on a care-service server could be fetched without authentication via a direct URL from May 11, 2020 to Sep 11, 2026. Contractor file-management/deletion procedures deficient.",
-          "organization": "Nichii Gakkan（ news report ）",
-          "affected_count": "583 people, including 99 with health/disability data; acquisition unconfirmed",
-          "attack_type": "Inquiry-data backups on a care-service server could be fetched without authentication via a direct URL from May 11, 2020 to Sep 11, 2026. Contractor file-management/deletion procedures deficient.",
           "attack": true,
           "sources": [
             "SmartScope"
@@ -3201,34 +2284,6 @@
       "source": "SmartScope",
       "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
       "published_date": "2026-10-02",
-      "title": "Green Coop Fukuoka（ disclosure ） — One work PC stolen from a vehicle Sep 17.",
-      "organization": "Green Coop Fukuoka（ disclosure ）",
-      "affected_count": "33,526 records stored on a stolen work PC; no leak or misuse confirmed",
-      "attack_type": "One work PC stolen from a vehicle Sep 17.",
-      "attack": true,
-      "sources": [
-        "SmartScope"
-      ],
-      "source_records": [
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-10-02",
-          "title": "Green Coop Fukuoka（ disclosure ） — One work PC stolen from a vehicle Sep 17.",
-          "organization": "Green Coop Fukuoka（ disclosure ）",
-          "affected_count": "33,526 records stored on a stolen work PC; no leak or misuse confirmed",
-          "attack_type": "One work PC stolen from a vehicle Sep 17.",
-          "attack": true,
-          "sources": [
-            "SmartScope"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "SmartScope",
-      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-      "published_date": "2026-10-02",
       "title": "Dai-ichi Life Group / Dai-ichi Life Insurance（ disclosure ） — Unauthorized access to the two companies' HR system, detected Sep 24. Cause given as third-party unauthorized access. No unauthorized access to customer data confirmed.",
       "organization": "Dai-ichi Life Group / Dai-ichi Life Insurance（ disclosure ）",
       "affected_count": "About 120,000 people (about 50,000 employees, about 70,000 former employees); possibly viewed or leaked",
@@ -3249,58 +2304,6 @@
           "attack": true,
           "sources": [
             "SmartScope"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "SmartScope",
-      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-      "published_date": "2026-10-02",
-      "title": "Benefit One（tracker headline） — Incomplete remediation of a defect.",
-      "organization": "Benefit One（tracker headline）",
-      "affected_count": "13,460 people",
-      "attack_type": "Incomplete remediation of a defect.",
-      "attack": true,
-      "sources": [
-        "SmartScope"
-      ],
-      "source_records": [
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-10-02",
-          "title": "Benefit One（tracker headline） — Incomplete remediation of a defect.",
-          "organization": "Benefit One（tracker headline）",
-          "affected_count": "13,460 people",
-          "attack_type": "Incomplete remediation of a defect.",
-          "attack": true,
-          "sources": [
-            "SmartScope"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1fQjU1TWE4V2hYQXV2SzBCdVdoWmlXdGNtLVFDRDZKTWRQb0JROGlLQ3pwT20wS0ZvSWJGNVZ2c3g3RjZnSV9tSjF6c096TG1DSmVodHlYZkJmTjA?oc=5",
-      "published_date": "2026-10-01",
-      "title": "鉄道は動き、レジが止まった…京王ランサム攻撃が映す「多角化企業」のつなぎ目 - ビジネスジャーナル",
-      "attack": true,
-      "organization": null,
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1fQjU1TWE4V2hYQXV2SzBCdVdoWmlXdGNtLVFDRDZKTWRQb0JROGlLQ3pwT20wS0ZvSWJGNVZ2c3g3RjZnSV9tSjF6c096TG1DSmVodHlYZkJmTjA?oc=5",
-          "published_date": "2026-10-01",
-          "title": "鉄道は動き、レジが止まった…京王ランサム攻撃が映す「多角化企業」のつなぎ目 - ビジネスジャーナル",
-          "attack": true,
-          "organization": null,
-          "sources": [
-            "Google News"
           ]
         }
       ]
@@ -3583,34 +2586,6 @@
       "source": "SmartScope",
       "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
       "published_date": "2026-10-01",
-      "title": "Yotsukaido City Council of Social Welfare（tracker headline） — Tech-support scam.",
-      "organization": "Yotsukaido City Council of Social Welfare（tracker headline）",
-      "affected_count": "33 people",
-      "attack_type": "Tech-support scam.",
-      "attack": true,
-      "sources": [
-        "SmartScope"
-      ],
-      "source_records": [
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-10-01",
-          "title": "Yotsukaido City Council of Social Welfare（tracker headline） — Tech-support scam.",
-          "organization": "Yotsukaido City Council of Social Welfare（tracker headline）",
-          "affected_count": "33 people",
-          "attack_type": "Tech-support scam.",
-          "attack": true,
-          "sources": [
-            "SmartScope"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "SmartScope",
-      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-      "published_date": "2026-10-01",
       "title": "Unirita（tracker headline） — Unauthorized access and data theft claimed by ransomware group Everest.",
       "organization": "Unirita（tracker headline）",
       "affected_count": "About 128GB and 159,901 files (attacker claim)",
@@ -3690,95 +2665,6 @@
           ]
         }
       ]
-    },
-    {
-      "source": "SmartScope",
-      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-      "published_date": "2026-10-01",
-      "title": "Sanpo Foods（tracker headline） — Website accessed; administrator privileges obtained and site defaced.",
-      "organization": "Sanpo Foods（tracker headline）",
-      "affected_count": "—",
-      "attack_type": "Website accessed; administrator privileges obtained and site defaced.",
-      "attack": true,
-      "sources": [
-        "SmartScope"
-      ],
-      "source_records": [
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-10-01",
-          "title": "Sanpo Foods（tracker headline） — Website accessed; administrator privileges obtained and site defaced.",
-          "organization": "Sanpo Foods（tracker headline）",
-          "affected_count": "—",
-          "attack_type": "Website accessed; administrator privileges obtained and site defaced.",
-          "attack": true,
-          "sources": [
-            "SmartScope"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "SmartScope",
-      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-      "published_date": "2026-10-01",
-      "title": "Sagawa Express（tracker headline） — Possible leak.",
-      "organization": "Sagawa Express（tracker headline）",
-      "affected_count": "Under investigation",
-      "attack_type": "Possible leak.",
-      "attack": true,
-      "sources": [
-        "SmartScope",
-        "Google News",
-        "Security NEXT"
-      ],
-      "source_records": [
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-10-01",
-          "title": "Sagawa Express（tracker headline） — Possible leak.",
-          "organization": "Sagawa Express（tracker headline）",
-          "affected_count": "Under investigation",
-          "attack_type": "Possible leak.",
-          "attack": true
-        },
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ScUhlenhCNFpaaHlEQmJheWN0ZlFEak8taWZNU094elZoY1drQVBXa1JQRHBiV1Bpd0JOLTVsRmkxYmQzbFk0aUhVMDBzN0VjQWhZRGIyeDZ1UW9VdkpOVG8wX2NPMDI4RDQtYg?oc=5",
-          "published_date": "2026-10-02",
-          "title": "佐川急便、不正アクセスで個人情報流出か 住所や氏名など - 日本経済新聞",
-          "attack": true,
-          "organization": null
-        },
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9CUGJlTU1CenlDNDU5Rk1hOXJvaXJNSk1DQk0tTEFSclZwbnNhZE9QRklkU28wWXdsek1XQ3YwU0x5NU5nS3EzdFR1dXRPbjd6clN5aldJQkR6NTM5eTZyc2h4cTJrT2lpbWttdGVxbEt5WlNMUjBqdlUtLV9zTGs?oc=5",
-          "published_date": "2026-10-02",
-          "title": "佐川急便、不正アクセスで個人情報流出の可能性 荷物追跡APIなど9サービス停止、集荷・配達は通常通り - Yahoo!ニュース",
-          "attack": true,
-          "organization": null
-        },
-        {
-          "source": "Security NEXT",
-          "source_url": "https://www.security-next.com/190952",
-          "published_date": "2026-10-02",
-          "title": "荷物問合サービスが侵害、個人情報流出の可能性 - 佐川急便",
-          "attack": true,
-          "organization": null
-        },
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWmFWc0FHSDQxbkZ4bjFOMDdyVTVxX2xrZnFZX19WT0huRlFya1prMk90a0o2X1ZZaFRBYVBPMzZPekRGcXhfbE03YkNHOTROSmREYzZzeW84LWZDcFUxWHVmdGFDTzBISkdreklaS0tQaWRGQ1NwdXQxR0xCbGhyeXZYRmY2WnM4ZEtURlJXbWx4WE9Kb3ZFUXBLSG1pX3hhNWpySFd4LVJOYjg?oc=5",
-          "published_date": "2026-10-03",
-          "title": "ヤマト運輸・佐川急便・日本郵便で不正アクセス相次ぐ-物流3社で個人情報に影響、利用者が注意すべき詐欺と対策 - 合同会社ロケットボーイズ",
-          "attack": true,
-          "organization": null
-        }
-      ],
-      "source_count": 3,
-      "merged": true
     },
     {
       "source": "SmartScope",
@@ -3969,30 +2855,6 @@
     },
     {
       "source": "ScanNetSecurity",
-      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/05/56384.html",
-      "published_date": "2026-09-30",
-      "title": "池上通信機にサイバー攻撃、サーバ内の一部ファイルが暗号化",
-      "attack": true,
-      "organization": null,
-      "sources": [
-        "ScanNetSecurity"
-      ],
-      "source_records": [
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/05/56384.html",
-          "published_date": "2026-09-30",
-          "title": "池上通信機にサイバー攻撃、サーバ内の一部ファイルが暗号化",
-          "attack": true,
-          "organization": null,
-          "sources": [
-            "ScanNetSecurity"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "ScanNetSecurity",
       "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/30/56340.html",
       "published_date": "2026-09-30",
       "title": "業界動向 ScanNetSecurity 2026.9.30 Wed 8:00 山口東京理科大チームが優勝 ～ 県警ら主催「サイバー攻撃共同対処訓練」で約 90 名が Micro Hardening 演習 山陽小野田市立山口東京理科大学は9月15日、山口県警察の協力のもと、山口大学工学部で「サイバー攻撃共同対処訓練」を9月4日に実施したと発表した。",
@@ -4009,54 +2871,6 @@
           "title": "業界動向 ScanNetSecurity 2026.9.30 Wed 8:00 山口東京理科大チームが優勝 ～ 県警ら主催「サイバー攻撃共同対処訓練」で約 90 名が Micro Hardening 演習 山陽小野田市立山口東京理科大学は9月15日、山口県警察の協力のもと、山口大学工学部で「サイバー攻撃共同対処訓練」を9月4日に実施したと発表した。",
           "attack": true,
           "organization": "名が Micro Hardening 演習 山陽小野田市立山口東京理科大学",
-          "sources": [
-            "ScanNetSecurity"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "ScanNetSecurity",
-      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/05/56381.html",
-      "published_date": "2026-09-30",
-      "title": "東産業 公式サイトにwp2shell を悪用した不正アクセス",
-      "attack": true,
-      "organization": null,
-      "sources": [
-        "ScanNetSecurity"
-      ],
-      "source_records": [
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/05/56381.html",
-          "published_date": "2026-09-30",
-          "title": "東産業 公式サイトにwp2shell を悪用した不正アクセス",
-          "attack": true,
-          "organization": null,
-          "sources": [
-            "ScanNetSecurity"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "ScanNetSecurity",
-      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/05/56380.html",
-      "published_date": "2026-09-30",
-      "title": "日本大学の計 5 名の教員アカウントに不正アクセス、スパムメール送信の踏み台に",
-      "attack": true,
-      "organization": "日本大学",
-      "sources": [
-        "ScanNetSecurity"
-      ],
-      "source_records": [
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/05/56380.html",
-          "published_date": "2026-09-30",
-          "title": "日本大学の計 5 名の教員アカウントに不正アクセス、スパムメール送信の踏み台に",
-          "attack": true,
-          "organization": "日本大学",
           "sources": [
             "ScanNetSecurity"
           ]
@@ -4199,37 +3013,6 @@
       ]
     },
     {
-      "source": "ScanNetSecurity",
-      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56393.html",
-      "published_date": "2026-09-30",
-      "title": "「信濃毎日新聞デジタル」に不正アクセス、一時的に一部の履歴データが消去",
-      "attack": true,
-      "organization": "信濃毎日新聞",
-      "sources": [
-        "ScanNetSecurity"
-      ],
-      "source_records": [
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56393.html",
-          "published_date": "2026-09-30",
-          "title": "「信濃毎日新聞デジタル」に不正アクセス、一時的に一部の履歴データが消去",
-          "attack": true,
-          "organization": "信濃毎日新聞"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56393.html",
-          "published_date": "2026-10-06",
-          "title": "インシデント・情報漏えい ScanNetSecurity 2026.10.6 Tue 8:05 「信濃毎日新聞デジタル」に不正アクセス、一時的に一部の履歴データが消去 信濃毎日新聞株式会社は9月28日、「信濃毎日新聞デジタル」への不正アクセスについて発表した。",
-          "attack": true,
-          "organization": "信濃毎日新聞"
-        }
-      ],
-      "source_count": 1,
-      "merged": true
-    },
-    {
       "source": "Security NEXT",
       "source_url": "https://www.security-next.com/190835",
       "published_date": "2026-09-30",
@@ -4239,8 +3022,7 @@
       "sources": [
         "Security NEXT",
         "ScanNetSecurity",
-        "Google News",
-        "SmartScope"
+        "Google News"
       ],
       "source_records": [
         {
@@ -4274,19 +3056,9 @@
           "title": "ヤマト運輸に不正アクセス、氏名や住所漏洩か 通販後払いで - 日本経済新聞",
           "attack": true,
           "organization": null
-        },
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-10-02",
-          "title": "Yamato Transport (Kuroneko deferred payment)（news report） — Confirmed and stopped Sep 28. Cause under investigation.",
-          "organization": "Yamato Transport (Kuroneko deferred payment)（news report）",
-          "affected_count": "Not disclosed; second report notes possible leak",
-          "attack_type": "Confirmed and stopped Sep 28. Cause under investigation.",
-          "attack": true
         }
       ],
-      "source_count": 4,
+      "source_count": 3,
       "merged": true
     },
     {
@@ -4310,90 +3082,6 @@
           "organization": "VOISING（ disclosure ）",
           "affected_count": "About 170,000 records; confirmed leak",
           "attack_type": "Vulnerability in a BI tool; failure to apply a known vulnerability fix in time identified as the direct cause. Product/CVE not disclosed.",
-          "attack": true,
-          "sources": [
-            "SmartScope"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "SmartScope",
-      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-      "published_date": "2026-09-30",
-      "title": "Shueisha HAPPY PLUS COMMUNITY（tracker headline） — Information leak.",
-      "organization": "Shueisha HAPPY PLUS COMMUNITY（tracker headline）",
-      "affected_count": "2,835 people",
-      "attack_type": "Information leak.",
-      "attack": true,
-      "sources": [
-        "SmartScope"
-      ],
-      "source_records": [
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-09-30",
-          "title": "Shueisha HAPPY PLUS COMMUNITY（tracker headline） — Information leak.",
-          "organization": "Shueisha HAPPY PLUS COMMUNITY（tracker headline）",
-          "affected_count": "2,835 people",
-          "attack_type": "Information leak.",
-          "attack": true,
-          "sources": [
-            "SmartScope"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "SmartScope",
-      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-      "published_date": "2026-09-30",
-      "title": "Saitama Citizens Medical Center（tracker headline） — Attachments on an employee-only page accessible to third parties (configuration).",
-      "organization": "Saitama Citizens Medical Center（tracker headline）",
-      "affected_count": "—",
-      "attack_type": "Attachments on an employee-only page accessible to third parties (configuration).",
-      "attack": true,
-      "sources": [
-        "SmartScope"
-      ],
-      "source_records": [
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-09-30",
-          "title": "Saitama Citizens Medical Center（tracker headline） — Attachments on an employee-only page accessible to third parties (configuration).",
-          "organization": "Saitama Citizens Medical Center（tracker headline）",
-          "affected_count": "—",
-          "attack_type": "Attachments on an employee-only page accessible to third parties (configuration).",
-          "attack": true,
-          "sources": [
-            "SmartScope"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "SmartScope",
-      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-      "published_date": "2026-09-30",
-      "title": "Obihiro Post Office（tracker headline） — Employee gave resident information to a detective (insider).",
-      "organization": "Obihiro Post Office（tracker headline）",
-      "affected_count": "—",
-      "attack_type": "Employee gave resident information to a detective (insider).",
-      "attack": true,
-      "sources": [
-        "SmartScope"
-      ],
-      "source_records": [
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-09-30",
-          "title": "Obihiro Post Office（tracker headline） — Employee gave resident information to a detective (insider).",
-          "organization": "Obihiro Post Office（tracker headline）",
-          "affected_count": "—",
-          "attack_type": "Employee gave resident information to a detective (insider).",
           "attack": true,
           "sources": [
             "SmartScope"
@@ -4473,30 +3161,6 @@
           "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83MWJkTXdUWVhLTUpqeDdaYTB2RVc1emxlY2tXakxmdDBlcHJ5MTV1YmZhY3dfeFRLb0R2eFNHd2VXZHFBenlOZE9USTZjWE1VZkdDVXpB?oc=5",
           "published_date": "2026-09-30",
           "title": "Australia says OpenAI hacked government website, checks for breaches OpenAI、豪政府サイトに不正アクセス 「意図せぬ行動」再び - 朝日新聞",
-          "attack": true,
-          "organization": null,
-          "sources": [
-            "Google News"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdzYyUm4wdWtYTDU1UlBXRXhRd01pN2h3WTFTZVUzRDRfSjFoT01naFJidTQ1dDJlVUNLbHpEQWI4bGZnd0M3OE1PdEUzZFlaN3NVb1VGNUNab3dBWTBPU05aWW1rXy0yS0QtV1NZcHhRSU1iQkJ4Zm4wNUY4Z2l0Xzc5cW5IQTMtUUJxM3ZQOUxRV25WR3djSEtRRW5zVEo4N3VRejJKY2poeDAySGhLdg?oc=5",
-      "published_date": "2026-09-30",
-      "title": "2026年 国内のサイバー攻撃や不正アクセスによる大規模な個人情報漏洩の事例 まとめ|セキュリティ対策Lab - 合同会社ロケットボーイズ",
-      "attack": true,
-      "organization": null,
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdzYyUm4wdWtYTDU1UlBXRXhRd01pN2h3WTFTZVUzRDRfSjFoT01naFJidTQ1dDJlVUNLbHpEQWI4bGZnd0M3OE1PdEUzZFlaN3NVb1VGNUNab3dBWTBPU05aWW1rXy0yS0QtV1NZcHhRSU1iQkJ4Zm4wNUY4Z2l0Xzc5cW5IQTMtUUJxM3ZQOUxRV25WR3djSEtRRW5zVEo4N3VRejJKY2poeDAySGhLdg?oc=5",
-          "published_date": "2026-09-30",
-          "title": "2026年 国内のサイバー攻撃や不正アクセスによる大規模な個人情報漏洩の事例 まとめ|セキュリティ対策Lab - 合同会社ロケットボーイズ",
           "attack": true,
           "organization": null,
           "sources": [
@@ -4855,34 +3519,6 @@
       "source": "SmartScope",
       "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
       "published_date": "2026-09-29",
-      "title": "Seicomart (app)（ disclosure ） — Member-data server accessed through the app server. One unauthorized membership cancellation on Sep 24, 22:00–23:00, led to identification of possible access after 17:00 Sep 28. Cause under investigation.",
-      "organization": "Seicomart (app)（ disclosure ）",
-      "affected_count": "About 570,000 accounts (user IDs possibly subject to unauthorized access)",
-      "attack_type": "Member-data server accessed through the app server. One unauthorized membership cancellation on Sep 24, 22:00–23:00, led to identification of possible access after 17:00 Sep 28. Cause under investigation.",
-      "attack": true,
-      "sources": [
-        "SmartScope"
-      ],
-      "source_records": [
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-09-29",
-          "title": "Seicomart (app)（ disclosure ） — Member-data server accessed through the app server. One unauthorized membership cancellation on Sep 24, 22:00–23:00, led to identification of possible access after 17:00 Sep 28. Cause under investigation.",
-          "organization": "Seicomart (app)（ disclosure ）",
-          "affected_count": "About 570,000 accounts (user IDs possibly subject to unauthorized access)",
-          "attack_type": "Member-data server accessed through the app server. One unauthorized membership cancellation on Sep 24, 22:00–23:00, led to identification of possible access after 17:00 Sep 28. Cause under investigation.",
-          "attack": true,
-          "sources": [
-            "SmartScope"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "SmartScope",
-      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-      "published_date": "2026-09-29",
       "title": "Saga University（tracker headline） — Ransomware.",
       "organization": "Saga University（tracker headline）",
       "affected_count": "NAS files",
@@ -5120,7 +3756,6 @@
       "organization": null,
       "sources": [
         "Google News",
-        "SmartScope",
         "ScanNetSecurity"
       ],
       "source_records": [
@@ -5131,16 +3766,6 @@
           "title": "タイムズカー､個人情報最大660万件流出 不正アクセスで免許証画像も - 日本経済新聞",
           "attack": true,
           "organization": null
-        },
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-09-28",
-          "title": "Park24 (Times Car)（ disclosure ） — Route and cause not stated; under investigation. Detected Sep 25 09:07. Passwords stored irreversibly; credit cards out of scope.",
-          "organization": "Park24 (Times Car)（ disclosure ）",
-          "affected_count": "About 6.6M accounts (confirmed acquisition by a third party), including about 1.6M accounts with leaked ID documents (Sep 29)",
-          "attack_type": "Route and cause not stated; under investigation. Detected Sep 25 09:07. Passwords stored irreversibly; credit cards out of scope.",
-          "attack": true
         },
         {
           "source": "Google News",
@@ -5163,22 +3788,6 @@
           "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1nTl93d1ppRW9DVWNIeDFhMTRiUkJoM1VmZVBGdHhxdWpUVzk2a21kUjVlQm0zVmhyZjJCNEVDMHcxM3ExMmxjUzNfUTBVVTlZZFFXR0JRSThiVlpYN1oyei1iZ3hib1Ny?oc=5",
           "published_date": "2026-09-30",
           "title": "2026年9月のサイバー攻撃・不正アクセスまとめ、タイムズカーや京王、東京メトロなど - マイナビニュース",
-          "attack": true,
-          "organization": null
-        },
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYXdZVmt3T1MzTXZNWUQtUEhjQ1Mzd3hoSHRXYnkwWVZaTTAtdkxITm1hcVhwanJSWnBYOFBHc2tCbzllYndDU1JlTFNhR05BaDdyYWRSYmg2Mklfb1VmNS11TG1WMXpsWnpGQ2kxVDNvZXBMV1ByYUxoOWJaQ3NpUTZ0ZDhyUVJ2SV9mRFBOd2wweE1qcFJSVVdqTUI4bnBNcEtWRkkyb1hvUUZSanY5Umg4WEh0VVhVTUNZQnB2bUZKQQ?oc=5",
-          "published_date": "2026-10-01",
-          "title": "個人情報漏えいが相次ぐ Park24など4社で計約718万人に影響 - 디지털투데이",
-          "attack": true,
-          "organization": null
-        },
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1NTmxQbXpGaDRnV1V0azJWX3RVZnRmVEpxeDZvaUQtZGJrSnV1VmxhLTZuRTdBMGR4bk9nWWRNM0U4aXAxUTR2T3RkZjRzdTFyYnc?oc=5",
-          "published_date": "2026-10-01",
-          "title": "日本信用情報機構、信用情報へ注意喚起を行う「本人申告」のスマホ申込を停止 パーク24の情報漏えいで殺到 - 日刊自動車新聞",
           "attack": true,
           "organization": null
         },
@@ -5216,14 +3825,6 @@
         },
         {
           "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9kUTZFWEYwQUZXdks5NWhQalBCcmhDZmlKSWNJOE9FbFdlNWtIUUdCbG1YVmZoUVhTUmYwdnQ2VUJOV3lSX0ZBR0pyU19vU2NYMzJBSkJraTljRUc3c0xZ?oc=5",
-          "published_date": "2026-10-05",
-          "title": "「賠償金・慰謝料いくら？」相次ぐ個人情報漏洩で安住紳一郎アナ...顔写真流出のタイムズカーは高額 - J-CAST ニュース",
-          "attack": true,
-          "organization": null
-        },
-        {
-          "source": "Google News",
           "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1CSnE2ZnFFVHJVNGdxTFBiVlpWUEQ5bGJ0ckdfYWRkaFBDZUtWcVdGQlludURmbGN1amxibTM5SFZienpPNUVCQjcydGVlMVNkS1E?oc=5",
           "published_date": "2026-10-05",
           "title": "日本貸金業協会、会員事業者に不正借り入れへの注意を喚起 個人情報流出増で パーク24の事案も影響か - 日刊自動車新聞",
@@ -5239,7 +3840,7 @@
           "organization": null
         }
       ],
-      "source_count": 3,
+      "source_count": 2,
       "merged": true
     },
     {
@@ -5359,30 +3960,6 @@
       ],
       "source_count": 1,
       "merged": true
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNaUQ2bmdkb3BuYl83aHJoa1ZVWUQ3VFRpY2Z0VDA2Ykg5QW91N3ZLdlZoTnc1Z0FMdUZpTWJCM0MwbTRFeGlNX1BTX3d2OFRRSndUTmFwbjRnZVk2RUtyZEY2bEJWMEdoMDROZ2h2a2hYNl9ncmpaY19ISVNHbGY1MQ?oc=5",
-      "published_date": "2026-09-27",
-      "title": "韓国ランサム被害、上半期36件 - 조선일보",
-      "attack": true,
-      "organization": null,
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNaUQ2bmdkb3BuYl83aHJoa1ZVWUQ3VFRpY2Z0VDA2Ykg5QW91N3ZLdlZoTnc1Z0FMdUZpTWJCM0MwbTRFeGlNX1BTX3d2OFRRSndUTmFwbjRnZVk2RUtyZEY2bEJWMEdoMDROZ2h2a2hYNl9ncmpaY19ISVNHbGY1MQ?oc=5",
-          "published_date": "2026-09-27",
-          "title": "韓国ランサム被害、上半期36件 - 조선일보",
-          "attack": true,
-          "organization": null,
-          "sources": [
-            "Google News"
-          ]
-        }
-      ]
     },
     {
       "source": "SmartScope",
@@ -5606,30 +4183,6 @@
       ]
     },
     {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE05aTAySzRUdGM5eVdOazQ2RDFLWkRXVWtfVjJyTVNyQ1RySWpfcGdjZkloUTZBdEhQYkNmRG85enpKUlczci02RUFDYkdlZlVDTUQ1TUs3eDJ0YTlnV3N6dWdnOUhwM0lSdU5wdQ?oc=5",
-      "published_date": "2026-09-25",
-      "title": "今日もどこかで情報漏えい 第52回「2026年8月の情報漏えい」約一割で逮捕・懲戒・行政指導 - ScanNetSecurity",
-      "attack": true,
-      "organization": null,
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE05aTAySzRUdGM5eVdOazQ2RDFLWkRXVWtfVjJyTVNyQ1RySWpfcGdjZkloUTZBdEhQYkNmRG85enpKUlczci02RUFDYkdlZlVDTUQ1TUs3eDJ0YTlnV3N6dWdnOUhwM0lSdU5wdQ?oc=5",
-          "published_date": "2026-09-25",
-          "title": "今日もどこかで情報漏えい 第52回「2026年8月の情報漏えい」約一割で逮捕・懲戒・行政指導 - ScanNetSecurity",
-          "attack": true,
-          "organization": null,
-          "sources": [
-            "Google News"
-          ]
-        }
-      ]
-    },
-    {
       "source": "ScanNetSecurity",
       "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/25/56306.html",
       "published_date": "2026-09-25",
@@ -5669,14 +4222,6 @@
           "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/25/56305.html",
           "published_date": "2026-09-25",
           "title": "インシデント・情報漏えい ScanNetSecurity 2026.9.25 Fri 8:05 カルビーのプロ野球チップス関連サービス「PhotoGoods」で個人情報漏えいの可能性 カルビー株式会社は9月17日、同社業務提携先での個人情報等の漏えいの可能性について発表した。",
-          "attack": true,
-          "organization": "大興印刷"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56392.html",
-          "published_date": "2026-09-30",
-          "title": "「PhotoGoods」に不正アクセス、カード情報が漏えいした可能性",
           "attack": true,
           "organization": "大興印刷"
         },
@@ -5779,86 +4324,6 @@
           "attack": true,
           "sources": [
             "SmartScope"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "SmartScope",
-      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-      "published_date": "2026-09-25",
-      "title": "Legoland Japan Hotel（news report） — Damage at outside booking platform Amadeus (outside service).",
-      "organization": "Legoland Japan Hotel（news report）",
-      "affected_count": "1,557 booking records",
-      "attack_type": "Damage at outside booking platform Amadeus (outside service).",
-      "attack": true,
-      "sources": [
-        "SmartScope"
-      ],
-      "source_records": [
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-09-25",
-          "title": "Legoland Japan Hotel（news report） — Damage at outside booking platform Amadeus (outside service).",
-          "organization": "Legoland Japan Hotel（news report）",
-          "affected_count": "1,557 booking records",
-          "attack_type": "Damage at outside booking platform Amadeus (outside service).",
-          "attack": true,
-          "sources": [
-            "SmartScope"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "SmartScope",
-      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-      "published_date": "2026-09-25",
-      "title": "Fines（ disclosure ） — Third-party access to the company's booking system. Detected Sep 22. Entry route not stated.",
-      "organization": "Fines（ disclosure ）",
-      "affected_count": "1,536,322 records in scope (booker names, phone numbers, email addresses etc.)",
-      "attack_type": "Third-party access to the company's booking system. Detected Sep 22. Entry route not stated.",
-      "attack": true,
-      "sources": [
-        "SmartScope"
-      ],
-      "source_records": [
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-09-25",
-          "title": "Fines（ disclosure ） — Third-party access to the company's booking system. Detected Sep 22. Entry route not stated.",
-          "organization": "Fines（ disclosure ）",
-          "affected_count": "1,536,322 records in scope (booker names, phone numbers, email addresses etc.)",
-          "attack_type": "Third-party access to the company's booking system. Detected Sep 22. Entry route not stated.",
-          "attack": true,
-          "sources": [
-            "SmartScope"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRG0xVDFjaERjbFFQRW9SblZCTWczSUowRHZXVEFwaVJQUDIyc21GWWdqTW5ab19laXZjUko4NHJkQTBaajZrRnpiTE5tT3M0M3ZzdlZ5LXRmWk5abWdZUlUtSlo5cDdvX0RkaXNKZUhIVVAzZTF3OTE1eEo3QlVaczlpXzlLM1JSU0E?oc=5",
-      "published_date": "2026-09-25",
-      "title": "2026年9月 サイバー攻撃の被害 事例 まとめ|セキュリティ対策Lab - 合同会社ロケットボーイズ",
-      "attack": true,
-      "organization": null,
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRG0xVDFjaERjbFFQRW9SblZCTWczSUowRHZXVEFwaVJQUDIyc21GWWdqTW5ab19laXZjUko4NHJkQTBaajZrRnpiTE5tT3M0M3ZzdlZ5LXRmWk5abWdZUlUtSlo5cDdvX0RkaXNKZUhIVVAzZTF3OTE1eEo3QlVaczlpXzlLM1JSU0E?oc=5",
-          "published_date": "2026-09-25",
-          "title": "2026年9月 サイバー攻撃の被害 事例 まとめ|セキュリティ対策Lab - 合同会社ロケットボーイズ",
-          "attack": true,
-          "organization": null,
-          "sources": [
-            "Google News"
           ]
         }
       ]
@@ -6074,34 +4539,6 @@
       "source": "SmartScope",
       "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
       "published_date": "2026-09-24",
-      "title": "Osaka City (Osaka City Museum of Fine Arts)（ news report ） — Misdirected email Sep 10.",
-      "organization": "Osaka City (Osaka City Museum of Fine Arts)（ news report ）",
-      "affected_count": "30 people (names, emails)",
-      "attack_type": "Misdirected email Sep 10.",
-      "attack": true,
-      "sources": [
-        "SmartScope"
-      ],
-      "source_records": [
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-09-24",
-          "title": "Osaka City (Osaka City Museum of Fine Arts)（ news report ） — Misdirected email Sep 10.",
-          "organization": "Osaka City (Osaka City Museum of Fine Arts)（ news report ）",
-          "affected_count": "30 people (names, emails)",
-          "attack_type": "Misdirected email Sep 10.",
-          "attack": true,
-          "sources": [
-            "SmartScope"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "SmartScope",
-      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-      "published_date": "2026-09-24",
       "title": "EPARK Relax & Esthe (PeakManager)（ disclosure ） — Unauthorized access to its PeakManager booking/customer platform. Route/method withheld to avoid inducing similar attacks.",
       "organization": "EPARK Relax & Esthe (PeakManager)（ disclosure ）",
       "affected_count": "About 22.18M rows; transfer outside confirmed. Company says conversion to a population count is difficult",
@@ -6147,62 +4584,6 @@
           "organization": "Taikisha (Malaysian subsidiary)（tracker headline）",
           "affected_count": "—",
           "attack_type": "Unauthorized access to an email account.",
-          "attack": true,
-          "sources": [
-            "SmartScope"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "SmartScope",
-      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-      "published_date": "2026-09-23",
-      "title": "Aichi Prefecture (Aikon Navi)（tracker headline） — Incorrect publication.",
-      "organization": "Aichi Prefecture (Aikon Navi)（tracker headline）",
-      "affected_count": "599 people",
-      "attack_type": "Incorrect publication.",
-      "attack": true,
-      "sources": [
-        "SmartScope"
-      ],
-      "source_records": [
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-09-23",
-          "title": "Aichi Prefecture (Aikon Navi)（tracker headline） — Incorrect publication.",
-          "organization": "Aichi Prefecture (Aikon Navi)（tracker headline）",
-          "affected_count": "599 people",
-          "attack_type": "Incorrect publication.",
-          "attack": true,
-          "sources": [
-            "SmartScope"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "SmartScope",
-      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-      "published_date": "2026-09-22",
-      "title": "Kufu Company (Kufu Zaim)（ news report ） — Third party exploited a processing defect Sep 18–19.",
-      "organization": "Kufu Company (Kufu Zaim)（ news report ）",
-      "affected_count": "14 users' registration data overwritten; no leak confirmed",
-      "attack_type": "Third party exploited a processing defect Sep 18–19.",
-      "attack": true,
-      "sources": [
-        "SmartScope"
-      ],
-      "source_records": [
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-09-22",
-          "title": "Kufu Company (Kufu Zaim)（ news report ） — Third party exploited a processing defect Sep 18–19.",
-          "organization": "Kufu Company (Kufu Zaim)（ news report ）",
-          "affected_count": "14 users' registration data overwritten; no leak confirmed",
-          "attack_type": "Third party exploited a processing defect Sep 18–19.",
           "attack": true,
           "sources": [
             "SmartScope"
@@ -6259,34 +4640,6 @@
           "organization": "GMO Internet (ConoHa WING)（tracker headline）",
           "affected_count": "426 accounts",
           "attack_type": "Unauthorized access and malicious-program installation on a hosting machine; intrusion from Sep 3.",
-          "attack": true,
-          "sources": [
-            "SmartScope"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "SmartScope",
-      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-      "published_date": "2026-09-19",
-      "title": "Nichirei（tracker headline） — Cyberattack on a server.",
-      "organization": "Nichirei（tracker headline）",
-      "affected_count": "53,866 records",
-      "attack_type": "Cyberattack on a server.",
-      "attack": true,
-      "sources": [
-        "SmartScope"
-      ],
-      "source_records": [
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-09-19",
-          "title": "Nichirei（tracker headline） — Cyberattack on a server.",
-          "organization": "Nichirei（tracker headline）",
-          "affected_count": "53,866 records",
-          "attack_type": "Cyberattack on a server.",
           "attack": true,
           "sources": [
             "SmartScope"
@@ -6362,6 +4715,30 @@
           "organization": null,
           "sources": [
             "Security NEXT"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1xcHlJQ3NScXQzTFdrdHkxOHI2T1U3ZXlGUVV1NWpvMVdTX1NyZWFZR3FpdEo0V3VXb3QyeUNaOG9ZdEhuS2NxVXRGWmFiUEo1alJEa2FvNGJxQQ?oc=5",
+      "published_date": "2026-09-18",
+      "title": "ランサムウェア、暗号化前にバックアップ破壊 「Living off the Land」が72％増、Halcyon調査 - JAPANSecuritySummit Update",
+      "attack": true,
+      "organization": null,
+      "sources": [
+        "Google News"
+      ],
+      "source_records": [
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1xcHlJQ3NScXQzTFdrdHkxOHI2T1U3ZXlGUVV1NWpvMVdTX1NyZWFZR3FpdEo0V3VXb3QyeUNaOG9ZdEhuS2NxVXRGWmFiUEo1alJEa2FvNGJxQQ?oc=5",
+          "published_date": "2026-09-18",
+          "title": "ランサムウェア、暗号化前にバックアップ破壊 「Living off the Land」が72％増、Halcyon調査 - JAPANSecuritySummit Update",
+          "attack": true,
+          "organization": null,
+          "sources": [
+            "Google News"
           ]
         }
       ]
@@ -6496,34 +4873,6 @@
           "organization": "26.9.18 Fri 8:05 ウェブ画面設定誤りが原因「オペラ銀河鉄道",
           "sources": [
             "ScanNetSecurity"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "SmartScope",
-      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-      "published_date": "2026-09-18",
-      "title": "PFU (PFU Direct)（ disclosure ） — Access to a server of previously used Shopserve EC management system (E-Store), May 21–Aug 1. E-Store disclosed Aug 1. Entry route not stated.",
-      "organization": "PFU (PFU Direct)（ disclosure ）",
-      "affected_count": "Up to 169,355 potentially affected order records, including repeated orders by the same person",
-      "attack_type": "Access to a server of previously used Shopserve EC management system (E-Store), May 21–Aug 1. E-Store disclosed Aug 1. Entry route not stated.",
-      "attack": true,
-      "sources": [
-        "SmartScope"
-      ],
-      "source_records": [
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-09-18",
-          "title": "PFU (PFU Direct)（ disclosure ） — Access to a server of previously used Shopserve EC management system (E-Store), May 21–Aug 1. E-Store disclosed Aug 1. Entry route not stated.",
-          "organization": "PFU (PFU Direct)（ disclosure ）",
-          "affected_count": "Up to 169,355 potentially affected order records, including repeated orders by the same person",
-          "attack_type": "Access to a server of previously used Shopserve EC management system (E-Store), May 21–Aug 1. E-Store disclosed Aug 1. Entry route not stated.",
-          "attack": true,
-          "sources": [
-            "SmartScope"
           ]
         }
       ]
@@ -6861,30 +5210,6 @@
     },
     {
       "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBWWFlSdzh3TGw2YWhVU0UzeExzT2JUTTF2TmloRkVHUGhLSGxYYkQtMHhhMFFUV1dwbFRiU0pLN294OUJ4Yk8yTWVSRWc0WjRIWUh2LWtYVFd4UQ?oc=5",
-      "published_date": "2026-09-16",
-      "title": "ランサムウェア被害が前年比ほぼ2倍、日本への攻撃も35％増 Check Pointが8月脅威動向を分析 - JAPANSecuritySummit Update",
-      "attack": true,
-      "organization": null,
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBWWFlSdzh3TGw2YWhVU0UzeExzT2JUTTF2TmloRkVHUGhLSGxYYkQtMHhhMFFUV1dwbFRiU0pLN294OUJ4Yk8yTWVSRWc0WjRIWUh2LWtYVFd4UQ?oc=5",
-          "published_date": "2026-09-16",
-          "title": "ランサムウェア被害が前年比ほぼ2倍、日本への攻撃も35％増 Check Pointが8月脅威動向を分析 - JAPANSecuritySummit Update",
-          "attack": true,
-          "organization": null,
-          "sources": [
-            "Google News"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "Google News",
       "source_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBSbC1lV3Ewa2syR1FCYnhZTlFxcHNHSGY1YkwxZTBMODFkT3NTRkpfUkE3QjJrUVEyNllrRTNZRHdkSi1mRHpKOEo3SlpNMjhDaHZXYjI4Wlo1R3hLcXpYM0NKX21oTXlGblE?oc=5",
       "published_date": "2026-09-16",
       "title": "ランサムウェアは、暗号化より先にバックアップを消す | Halcyon Japan株式会社のプレスリリース - PR TIMES",
@@ -6906,37 +5231,6 @@
           ]
         }
       ]
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiOkFVX3lxTFA4SWlPNE9aYVg3ZGFmNjhnTzFQSGpaUlBjMVBWbkZlUFJlVWt5VnRuVGdqWVZyeGw2dFE?oc=5",
-      "published_date": "2026-09-16",
-      "title": "ランサムウェア、暗号化前にバックアップを破壊か Halcyon Japanが8月レポートで警鐘 - サイバーセキュリティメディア",
-      "attack": true,
-      "organization": null,
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiOkFVX3lxTFA4SWlPNE9aYVg3ZGFmNjhnTzFQSGpaUlBjMVBWbkZlUFJlVWt5VnRuVGdqWVZyeGw2dFE?oc=5",
-          "published_date": "2026-09-16",
-          "title": "ランサムウェア、暗号化前にバックアップを破壊か Halcyon Japanが8月レポートで警鐘 - サイバーセキュリティメディア",
-          "attack": true,
-          "organization": null
-        },
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1xcHlJQ3NScXQzTFdrdHkxOHI2T1U3ZXlGUVV1NWpvMVdTX1NyZWFZR3FpdEo0V3VXb3QyeUNaOG9ZdEhuS2NxVXRGWmFiUEo1alJEa2FvNGJxQQ?oc=5",
-          "published_date": "2026-09-18",
-          "title": "ランサムウェア、暗号化前にバックアップ破壊 「Living off the Land」が72％増、Halcyon調査 - JAPANSecuritySummit Update",
-          "attack": true,
-          "organization": null
-        }
-      ],
-      "source_count": 1,
-      "merged": true
     },
     {
       "source": "ScanNetSecurity",
@@ -7048,34 +5342,6 @@
       ],
       "source_count": 1,
       "merged": true
-    },
-    {
-      "source": "SmartScope",
-      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-      "published_date": "2026-09-16",
-      "title": "Score Japan（ news report ） — Unauthorized website access redirected users to an unrelated site.",
-      "organization": "Score Japan（ news report ）",
-      "affected_count": "— (home page defaced; no personal-data leak)",
-      "attack_type": "Unauthorized website access redirected users to an unrelated site.",
-      "attack": true,
-      "sources": [
-        "SmartScope"
-      ],
-      "source_records": [
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-09-16",
-          "title": "Score Japan（ news report ） — Unauthorized website access redirected users to an unrelated site.",
-          "organization": "Score Japan（ news report ）",
-          "affected_count": "— (home page defaced; no personal-data leak)",
-          "attack_type": "Unauthorized website access redirected users to an unrelated site.",
-          "attack": true,
-          "sources": [
-            "SmartScope"
-          ]
-        }
-      ]
     },
     {
       "source": "SmartScope",
@@ -7257,34 +5523,6 @@
       "source": "SmartScope",
       "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
       "published_date": "2026-09-15",
-      "title": "Prudential Life Insurance（tracker headline） — Data taken and lost by a former sales employee (insider).",
-      "organization": "Prudential Life Insurance（tracker headline）",
-      "affected_count": "1,570 people",
-      "attack_type": "Data taken and lost by a former sales employee (insider).",
-      "attack": true,
-      "sources": [
-        "SmartScope"
-      ],
-      "source_records": [
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-09-15",
-          "title": "Prudential Life Insurance（tracker headline） — Data taken and lost by a former sales employee (insider).",
-          "organization": "Prudential Life Insurance（tracker headline）",
-          "affected_count": "1,570 people",
-          "attack_type": "Data taken and lost by a former sales employee (insider).",
-          "attack": true,
-          "sources": [
-            "SmartScope"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "SmartScope",
-      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-      "published_date": "2026-09-15",
       "title": "Murauchi.com（ news report ） — INTERNET Watch reports a vulnerability in part of the web system as the entry point. Company's second-report text unchecked.",
       "organization": "Murauchi.com（ news report ）",
       "affected_count": "7,716,811 records; confirmed exfiltration",
@@ -7330,34 +5568,6 @@
           "organization": "LEAN BODY（ disclosure ）",
           "affected_count": "About 440,000 accounts, confirmed acquisition, including former members; actual population expected to be smaller",
           "attack_type": "Internal Metabase analytics-tool vulnerability. Company says failure to check vulnerability information and perform necessary updates likely also contributed.",
-          "attack": true,
-          "sources": [
-            "SmartScope"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "SmartScope",
-      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-      "published_date": "2026-09-15",
-      "title": "Koshigaya City (teacher's private PC)（tracker headline） — Tech-support scam.",
-      "organization": "Koshigaya City (teacher's private PC)（tracker headline）",
-      "affected_count": "36 records",
-      "attack_type": "Tech-support scam.",
-      "attack": true,
-      "sources": [
-        "SmartScope"
-      ],
-      "source_records": [
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-09-15",
-          "title": "Koshigaya City (teacher's private PC)（tracker headline） — Tech-support scam.",
-          "organization": "Koshigaya City (teacher's private PC)（tracker headline）",
-          "affected_count": "36 records",
-          "attack_type": "Tech-support scam.",
           "attack": true,
           "sources": [
             "SmartScope"
@@ -7656,34 +5866,6 @@
           "organization": "Five Foxes（tracker headline）",
           "affected_count": "Up to 73,185 records",
           "attack_type": "Unauthorized access.",
-          "attack": true,
-          "sources": [
-            "SmartScope"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "SmartScope",
-      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-      "published_date": "2026-09-13",
-      "title": "Dozle（tracker headline） — Redirect to an EC payment page caused by an outside app (outside service).",
-      "organization": "Dozle（tracker headline）",
-      "affected_count": "—",
-      "attack_type": "Redirect to an EC payment page caused by an outside app (outside service).",
-      "attack": true,
-      "sources": [
-        "SmartScope"
-      ],
-      "source_records": [
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-09-13",
-          "title": "Dozle（tracker headline） — Redirect to an EC payment page caused by an outside app (outside service).",
-          "organization": "Dozle（tracker headline）",
-          "affected_count": "—",
-          "attack_type": "Redirect to an EC payment page caused by an outside app (outside service).",
           "attack": true,
           "sources": [
             "SmartScope"
@@ -8165,30 +6347,6 @@
       ]
     },
     {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vajJBN3R2SFZiYkVYUUoyUHhKNnJZb0xwdEtjODZuMEk4cVN4VTN6WXFxcnpYcDM5QjJSMW81U1RsZGpQa0I2dnNBNC1uLW9VMmxMZ3dyMmp6SW1rRW55Qm9mSzlEMDFzQ1Q3Yw?oc=5",
-      "published_date": "2026-09-10",
-      "title": "ランサム被害最多、「二重恐喝」9割超 暗号解除とデータ流出で脅す - 日本経済新聞",
-      "attack": true,
-      "organization": null,
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vajJBN3R2SFZiYkVYUUoyUHhKNnJZb0xwdEtjODZuMEk4cVN4VTN6WXFxcnpYcDM5QjJSMW81U1RsZGpQa0I2dnNBNC1uLW9VMmxMZ3dyMmp6SW1rRW55Qm9mSzlEMDFzQ1Q3Yw?oc=5",
-          "published_date": "2026-09-10",
-          "title": "ランサム被害最多、「二重恐喝」9割超 暗号解除とデータ流出で脅す - 日本経済新聞",
-          "attack": true,
-          "organization": null,
-          "sources": [
-            "Google News"
-          ]
-        }
-      ]
-    },
-    {
       "source": "Security NEXT",
       "source_url": "https://www.security-next.com/189674",
       "published_date": "2026-09-10",
@@ -8327,34 +6485,6 @@
       "source": "SmartScope",
       "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
       "published_date": "2026-09-10",
-      "title": "Sakura Internet（ disclosure ） — Technical details including intrusion route withheld to prevent copycats.",
-      "organization": "Sakura Internet（ disclosure ）",
-      "affected_count": "1,360,563 sales-system member accounts, possibly viewed/acquired; no clear evidence of exfiltration. Also 951 rental-server accounts",
-      "attack_type": "Technical details including intrusion route withheld to prevent copycats.",
-      "attack": true,
-      "sources": [
-        "SmartScope"
-      ],
-      "source_records": [
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-09-10",
-          "title": "Sakura Internet（ disclosure ） — Technical details including intrusion route withheld to prevent copycats.",
-          "organization": "Sakura Internet（ disclosure ）",
-          "affected_count": "1,360,563 sales-system member accounts, possibly viewed/acquired; no clear evidence of exfiltration. Also 951 rental-server accounts",
-          "attack_type": "Technical details including intrusion route withheld to prevent copycats.",
-          "attack": true,
-          "sources": [
-            "SmartScope"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "SmartScope",
-      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-      "published_date": "2026-09-10",
       "title": "Nihon University College of Science and Technology（tracker headline） — Email takeover via phishing.",
       "organization": "Nihon University College of Science and Technology（tracker headline）",
       "affected_count": "50 suspicious emails",
@@ -8372,34 +6502,6 @@
           "organization": "Nihon University College of Science and Technology（tracker headline）",
           "affected_count": "50 suspicious emails",
           "attack_type": "Email takeover via phishing.",
-          "attack": true,
-          "sources": [
-            "SmartScope"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "SmartScope",
-      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-      "published_date": "2026-09-10",
-      "title": "Mitsui Ocean Cruises（tracker headline） — External storage medium lost.",
-      "organization": "Mitsui Ocean Cruises（tracker headline）",
-      "affected_count": "About 200,000 files under investigation",
-      "attack_type": "External storage medium lost.",
-      "attack": true,
-      "sources": [
-        "SmartScope"
-      ],
-      "source_records": [
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-09-10",
-          "title": "Mitsui Ocean Cruises（tracker headline） — External storage medium lost.",
-          "organization": "Mitsui Ocean Cruises（tracker headline）",
-          "affected_count": "About 200,000 files under investigation",
-          "attack_type": "External storage medium lost.",
           "attack": true,
           "sources": [
             "SmartScope"
@@ -8575,34 +6677,6 @@
           "organization": "REVISIO（tracker headline）",
           "affected_count": "—",
           "attack_type": "Malware infection on a work PC.",
-          "attack": true,
-          "sources": [
-            "SmartScope"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "SmartScope",
-      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-      "published_date": "2026-09-09",
-      "title": "Kyoto Sanga F.C.（tracker headline） — Misdirected email.",
-      "organization": "Kyoto Sanga F.C.（tracker headline）",
-      "affected_count": "15,612 people",
-      "attack_type": "Misdirected email.",
-      "attack": true,
-      "sources": [
-        "SmartScope"
-      ],
-      "source_records": [
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-09-09",
-          "title": "Kyoto Sanga F.C.（tracker headline） — Misdirected email.",
-          "organization": "Kyoto Sanga F.C.（tracker headline）",
-          "affected_count": "15,612 people",
-          "attack_type": "Misdirected email.",
           "attack": true,
           "sources": [
             "SmartScope"
@@ -9005,34 +7079,6 @@
       ]
     },
     {
-      "source": "SmartScope",
-      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-      "published_date": "2026-09-08",
-      "title": "Central Consultant（tracker headline） — Corporate website accessed; unauthorized administrator account created.",
-      "organization": "Central Consultant（tracker headline）",
-      "affected_count": "—",
-      "attack_type": "Corporate website accessed; unauthorized administrator account created.",
-      "attack": true,
-      "sources": [
-        "SmartScope"
-      ],
-      "source_records": [
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-09-08",
-          "title": "Central Consultant（tracker headline） — Corporate website accessed; unauthorized administrator account created.",
-          "organization": "Central Consultant（tracker headline）",
-          "affected_count": "—",
-          "attack_type": "Corporate website accessed; unauthorized administrator account created.",
-          "attack": true,
-          "sources": [
-            "SmartScope"
-          ]
-        }
-      ]
-    },
-    {
       "source": "Security NEXT",
       "source_url": "https://www.security-next.com/188534",
       "published_date": "2026-09-07",
@@ -9178,62 +7224,6 @@
           "organization": null,
           "sources": [
             "Security NEXT"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "SmartScope",
-      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-      "published_date": "2026-09-07",
-      "title": "Osaka High Court（tracker headline） — Incorrect Teams registration (configuration).",
-      "organization": "Osaka High Court（tracker headline）",
-      "affected_count": "About 6,000 accounts",
-      "attack_type": "Incorrect Teams registration (configuration).",
-      "attack": true,
-      "sources": [
-        "SmartScope"
-      ],
-      "source_records": [
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-09-07",
-          "title": "Osaka High Court（tracker headline） — Incorrect Teams registration (configuration).",
-          "organization": "Osaka High Court（tracker headline）",
-          "affected_count": "About 6,000 accounts",
-          "attack_type": "Incorrect Teams registration (configuration).",
-          "attack": true,
-          "sources": [
-            "SmartScope"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "SmartScope",
-      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-      "published_date": "2026-09-07",
-      "title": "Coop Yamaguchi (LINE mini app)（ disclosure ） — Route and cause under investigation. Development/operation outsourced.",
-      "organization": "Coop Yamaguchi (LINE mini app)（ disclosure ）",
-      "affected_count": "217,295 records in scope, summed across categories; whether exfiltrated under investigation",
-      "attack_type": "Route and cause under investigation. Development/operation outsourced.",
-      "attack": true,
-      "sources": [
-        "SmartScope"
-      ],
-      "source_records": [
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-09-07",
-          "title": "Coop Yamaguchi (LINE mini app)（ disclosure ） — Route and cause under investigation. Development/operation outsourced.",
-          "organization": "Coop Yamaguchi (LINE mini app)（ disclosure ）",
-          "affected_count": "217,295 records in scope, summed across categories; whether exfiltrated under investigation",
-          "attack_type": "Route and cause under investigation. Development/operation outsourced.",
-          "attack": true,
-          "sources": [
-            "SmartScope"
           ]
         }
       ]
