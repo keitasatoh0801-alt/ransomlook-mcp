@@ -6,6 +6,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from html.parser import HTMLParser
+from html import unescape
 from pathlib import Path
 from urllib.parse import urljoin, quote
 
@@ -288,13 +289,40 @@ def extract_incident_fields(text, org=None):
     return {"attack_type":attack_type,"leak_status":leak_status,"leak_count":count,"leaked_data":list(dict.fromkeys(data_types)),
             "incident_summary":t[:500]+("…" if len(t)>500 else "")}
 
+class ArticleTextParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.in_article=0
+        self.parts=[]
+        self.meta_description=""
+    def handle_starttag(self,tag,attrs):
+        attrs=dict(attrs)
+        if tag=="article": self.in_article+=1
+        if tag=="meta" and attrs.get("name","").lower()=="description":
+            self.meta_description=unescape(attrs.get("content",""))
+        cls=(attrs.get("class","")+" "+attrs.get("id","")).lower()
+        if any(k in cls for k in ["article-body","article_content","entry-content","post-content","article-text","articlebody"]):
+            self.in_article=max(self.in_article,1)
+    def handle_endtag(self,tag):
+        if tag=="article" and self.in_article>0: self.in_article-=1
+    def handle_data(self,data):
+        if self.in_article>0:
+            x=" ".join(data.split())
+            if x: self.parts.append(x)
+
 def fetch_article_text(url):
     try:
         html=fetch(url)
-        html=re.sub(r"<(script|style|noscript|svg)[^>]*>.*?</\1>"," ",html,flags=re.I|re.S)
-        html=re.sub(r"<!--.*?-->"," ",html,flags=re.S)
-        return clean(re.sub(r"<[^>]+>"," ",html))[:MAX_ARTICLE_CHARS]
-    except Exception: return ""
+        parser=ArticleTextParser()
+        parser.feed(html)
+        text=clean(" ".join(parser.parts))
+        if text:
+            return text[:MAX_ARTICLE_CHARS]
+        if parser.meta_description:
+            return clean(parser.meta_description)[:MAX_ARTICLE_CHARS]
+        return ""
+    except Exception:
+        return ""
 
 def enrich_incidents(items):
     targets=[x for x in items if x.get("source")!="SmartScope" and x.get("source_url") and "news.google.com" not in x.get("source_url","")]
