@@ -326,12 +326,19 @@ def enrich_incidents(items):
     enriched={}
     def one(item):
         body=fetch_article_text(item["source_url"])
-        source_text=clean(" ".join([item.get("title",""),body]))
+        title_text=clean(item.get("title",""))
+        source_text=clean(" ".join([title_text,body]))
         item=dict(item)
         org=extract_organization(source_text) or item.get("organization")
         if org: item["organization"]=org
         item["service"]=extract_service(source_text,org)
-        item.update(extract_incident_fields(source_text,org))
+        title_fields=extract_incident_fields(title_text,org)
+        body_fields=extract_incident_fields(body,org) if body else {}
+        item["attack_type"]=title_fields.get("attack_type") or body_fields.get("attack_type")
+        item["leak_status"]=body_fields.get("leak_status") if body_fields.get("leak_status")!="不明" else title_fields.get("leak_status","不明")
+        item["leak_count"]=body_fields.get("leak_count") or title_fields.get("leak_count")
+        item["leaked_data"]=body_fields.get("leaked_data") or title_fields.get("leaked_data",[])
+        item["incident_summary"]=body[:500] if body else title_text
         return item
     with ThreadPoolExecutor(max_workers=12) as ex:
         futures={ex.submit(one,x):i for i,x in enumerate(targets)}
@@ -357,21 +364,29 @@ def same_incident(a,b):
         return False
     if abs((da-db).days)>30: return False
 
+    ta=_tokens(a.get("title",""))
+    tb=_tokens(b.get("title",""))
+    overlap=len(ta&tb)/max(1,min(len(ta),len(tb))) if ta and tb else 0
+
     sa=normalize_org(a.get("service") or "")
     sb=normalize_org(b.get("service") or "")
-    if sa and sb and (sa==sb or sa in sb or sb in sa): return True
-
-    aa=a.get("attack_type")
-    ab=b.get("attack_type")
     ca=a.get("leak_count")
     cb=b.get("leak_count")
-    if aa and ab and aa==ab and ca and cb and ca==cb: return True
+    aa=a.get("attack_type")
+    ab=b.get("attack_type")
 
-    ta=_tokens(a.get("title","")+" "+a.get("incident_summary",""))
-    tb=_tokens(b.get("title","")+" "+b.get("incident_summary",""))
-    if ta and tb:
-        overlap=len(ta&tb)/max(1,min(len(ta),len(tb)))
-        if overlap>=0.45: return True
+    # Explicitly keep separate incidents separate.
+    contradiction=("別の不正アクセス" in a.get("title","") or "別の不正アクセス" in b.get("title","") or
+                    "異なる手法" in a.get("title","") or "異なる手法" in b.get("title","") or
+                    "別件" in a.get("title","") or "別件" in b.get("title",""))
+    if contradiction: return False
+
+    if ca and cb and ca==cb and aa and ab and aa==ab:
+        return True
+    if overlap>=0.60:
+        return True
+    if sa and sb and (sa==sb or sa in sb or sb in sa) and aa and ab and aa==ab and overlap>=0.25:
+        return True
     return False
 
 def merge_cross_source_incidents(items):
