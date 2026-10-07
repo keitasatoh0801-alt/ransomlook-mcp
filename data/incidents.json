@@ -1,6 +1,6 @@
 {
   "source": "Japanese cyber incident sources",
-  "retrieved_at": "2026-10-07T01:31:42.378800+00:00",
+  "retrieved_at": "2026-10-07T01:32:55.488402+00:00",
   "window_days": 30,
   "cutoff_date": "2026-09-07",
   "attack_only": true,
@@ -11,7 +11,7 @@
     "SmartScope",
     "Google News"
   ],
-  "count": 328,
+  "count": 322,
   "source_errors": {},
   "deduplication": {
     "same_source_exact": true,
@@ -1306,39 +1306,6 @@
           "leak_count": "95万",
           "leaked_data": [],
           "incident_summary": "GMO系に不正アクセス、個人情報95万人分漏洩 ポイント不正利用も - 日本経済新聞"
-        }
-      ],
-      "source_count": 1,
-      "merged": false
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02NmRabnlReVpyMzJsLVRoX2o0U29FWXhLZXJnWUNhdDdHNTRjNFRlLTdUOFlEd3dVZGZsYlhLZnAxbnpmZkh6dXJKTGM4aTVrZEtaV2UtVFprZWlhNFdYTnRDQWN2SnNHcy1KVm4zdmFYTkY1YnZkMNIBjAFBVV95cUxQTkV5SjBVUXVHVHJieUZXUlJDRlpsMzFkc3gtQmJjSjhxYUFfaGtMeG1qVFFkV1lfQTlyU0plVU1veE5GQU5vajdYVTZ2SHBXdGlGQ2ZhdVdYNVE3d0U5UHRsWUhhODNUbnlDSlJYZzNhNzhRSklMMnF1bDRPRWRkbVI0WGRMcDF5M1IzMg?oc=5",
-      "published_date": "2026-10-06",
-      "title": "GMO、焼肉きんぐ、大和証券…サイバー攻撃止まらず 麻生幾氏が重大警告 - zakⅡ",
-      "attack": true,
-      "organization": "GMO",
-      "attack_type": null,
-      "leak_status": "不明",
-      "leak_count": null,
-      "leaked_data": [],
-      "incident_summary": "GMO、焼肉きんぐ、大和証券…サイバー攻撃止まらず 麻生幾氏が重大警告 - zakⅡ",
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02NmRabnlReVpyMzJsLVRoX2o0U29FWXhLZXJnWUNhdDdHNTRjNFRlLTdUOFlEd3dVZGZsYlhLZnAxbnpmZkh6dXJKTGM4aTVrZEtaV2UtVFprZWlhNFdYTnRDQWN2SnNHcy1KVm4zdmFYTkY1YnZkMNIBjAFBVV95cUxQTkV5SjBVUXVHVHJieUZXUlJDRlpsMzFkc3gtQmJjSjhxYUFfaGtMeG1qVFFkV1lfQTlyU0plVU1veE5GQU5vajdYVTZ2SHBXdGlGQ2ZhdVdYNVE3d0U5UHRsWUhhODNUbnlDSlJYZzNhNzhRSklMMnF1bDRPRWRkbVI0WGRMcDF5M1IzMg?oc=5",
-          "published_date": "2026-10-06",
-          "title": "GMO、焼肉きんぐ、大和証券…サイバー攻撃止まらず 麻生幾氏が重大警告 - zakⅡ",
-          "attack": true,
-          "organization": "GMO",
-          "attack_type": null,
-          "leak_status": "不明",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "GMO、焼肉きんぐ、大和証券…サイバー攻撃止まらず 麻生幾氏が重大警告 - zakⅡ"
         }
       ],
       "source_count": 1,
@@ -4002,44 +3969,11 @@
       "attack_type": "不正アクセス",
       "leak_status": "可能性あり",
       "leak_count": null,
-      "leaked_data": [],
-      "incident_summary": "佐川急便、不正アクセスで個人情報流出の可能性 荷物追跡APIなど9サービス停止、集荷・配達は通常通り - Yahoo!ニュース",
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9CUGJlTU1CenlDNDU5Rk1hOXJvaXJNSk1DQk0tTEFSclZwbnNhZE9QRklkU28wWXdsek1XQ3YwU0x5NU5nS3EzdFR1dXRPbjd6clN5aldJQkR6NTM5eTZyc2h4cTJrT2lpbWttdGVxbEt5WlNMUjBqdlUtLV9zTGs?oc=5",
-          "published_date": "2026-10-02",
-          "title": "佐川急便、不正アクセスで個人情報流出の可能性 荷物追跡APIなど9サービス停止、集荷・配達は通常通り - Yahoo!ニュース",
-          "attack": true,
-          "organization": "佐川急便",
-          "attack_type": "不正アクセス",
-          "leak_status": "可能性あり",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "佐川急便、不正アクセスで個人情報流出の可能性 荷物追跡APIなど9サービス停止、集荷・配達は通常通り - Yahoo!ニュース"
-        }
-      ],
-      "source_count": 1,
-      "merged": false
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ScUhlenhCNFpaaHlEQmJheWN0ZlFEak8taWZNU094elZoY1drQVBXa1JQRHBiV1Bpd0JOLTVsRmkxYmQzbFk0aUhVMDBzN0VjQWhZRGIyeDZ1UW9VdkpOVG8wX2NPMDI4RDQtYg?oc=5",
-      "published_date": "2026-10-02",
-      "title": "佐川急便、不正アクセスで個人情報流出か 住所や氏名など - 日本経済新聞",
-      "attack": true,
-      "organization": "佐川急便",
-      "attack_type": "不正アクセス",
-      "leak_status": "確認・可能性あり",
-      "leak_count": null,
       "leaked_data": [
         "氏名",
         "住所"
       ],
-      "incident_summary": "佐川急便、不正アクセスで個人情報流出か 住所や氏名など - 日本経済新聞",
+      "incident_summary": "佐川急便、不正アクセスで個人情報流出の可能性 荷物追跡APIなど9サービス停止、集荷・配達は通常通り - Yahoo!ニュース",
       "sources": [
         "Google News"
       ],
@@ -4059,10 +3993,23 @@
             "住所"
           ],
           "incident_summary": "佐川急便、不正アクセスで個人情報流出か 住所や氏名など - 日本経済新聞"
+        },
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9CUGJlTU1CenlDNDU5Rk1hOXJvaXJNSk1DQk0tTEFSclZwbnNhZE9QRklkU28wWXdsek1XQ3YwU0x5NU5nS3EzdFR1dXRPbjd6clN5aldJQkR6NTM5eTZyc2h4cTJrT2lpbWttdGVxbEt5WlNMUjBqdlUtLV9zTGs?oc=5",
+          "published_date": "2026-10-02",
+          "title": "佐川急便、不正アクセスで個人情報流出の可能性 荷物追跡APIなど9サービス停止、集荷・配達は通常通り - Yahoo!ニュース",
+          "attack": true,
+          "organization": "佐川急便",
+          "attack_type": "不正アクセス",
+          "leak_status": "可能性あり",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "佐川急便、不正アクセスで個人情報流出の可能性 荷物追跡APIなど9サービス停止、集荷・配達は通常通り - Yahoo!ニュース"
         }
       ],
       "source_count": 1,
-      "merged": false
+      "merged": true
     },
     {
       "source": "Google News",
@@ -4176,39 +4123,6 @@
             "従業員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56374;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 東京地下鉄株式会社は9月27日、同社が提供するメトロポイントクラブ（メトポ）会員向けサービスへの不正アクセスについて発表した。 これは9月20日に、同社が利用するメトポのメール配信サービスで不具合が発生し、調査を進める中で、9月25日に通常とは異なる利用記録を発見し、詳細を確認したところ国外からと推測される第三者からの不正アクセスが判明したというもの。 東京メトロ社員が遺失者になりすまし、現金総額 235,458円 ほか遺失物着服 2024.5.13 Mon 8:05 「西武 旅するレストラン 『52 席の至福』」予約サイトで予約関連情報の一部"
-        }
-      ],
-      "source_count": 1,
-      "merged": false
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKYmRXbHFjZUtERmVtSVRiT0sxOVRnSmtkSlRCTG96RTl1ME82QTk3b1FoXzBQbE9yT0xiZnQ2WW96bmRfVFNDZVdvcVVBZWx3ZVI0dERERkY4ZXVWaDV4RGppVGlnanVRV0tUVmJFVUZhMTdPWG81czBxRXBfR2s?oc=5",
-      "published_date": "2026-10-02",
-      "title": "タイムズカー、デジ庁、ニチレイ…続く個人情報漏洩「短期間で異様」（朝日新聞） - Yahoo!ニュース",
-      "attack": true,
-      "organization": "Yahoo!ニュース",
-      "attack_type": null,
-      "leak_status": "確認・可能性あり",
-      "leak_count": null,
-      "leaked_data": [],
-      "incident_summary": "タイムズカー、デジ庁、ニチレイ…続く個人情報漏洩「短期間で異様」（朝日新聞） - Yahoo!ニュース",
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKYmRXbHFjZUtERmVtSVRiT0sxOVRnSmtkSlRCTG96RTl1ME82QTk3b1FoXzBQbE9yT0xiZnQ2WW96bmRfVFNDZVdvcVVBZWx3ZVI0dERERkY4ZXVWaDV4RGppVGlnanVRV0tUVmJFVUZhMTdPWG81czBxRXBfR2s?oc=5",
-          "published_date": "2026-10-02",
-          "title": "タイムズカー、デジ庁、ニチレイ…続く個人情報漏洩「短期間で異様」（朝日新聞） - Yahoo!ニュース",
-          "attack": true,
-          "organization": "Yahoo!ニュース",
-          "attack_type": null,
-          "leak_status": "確認・可能性あり",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "タイムズカー、デジ庁、ニチレイ…続く個人情報漏洩「短期間で異様」（朝日新聞） - Yahoo!ニュース"
         }
       ],
       "source_count": 1,
@@ -4647,6 +4561,19 @@
       "source_records": [
         {
           "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9OY0YwVmxBWWtlNHZPUDJUbldqYmhZMnpRd1RSeXlEbDVEZUdBWkh0SnlNNng5b3pTT296TXNVbUdtVnlKaUJ1eEpVNUpsVTZxV2RjSmI0Wkx1ZXp5V2diQW9oR2RwRnpVeHM1OVdhVHJiQQ?oc=5",
+          "published_date": "2026-10-01",
+          "title": "「原子力機構」の研究用原子炉サイトに不正アクセス、１７５人分の運転免許証など個人情報漏えい - Infoseek",
+          "attack": true,
+          "organization": "日本原子力研究開発機構",
+          "attack_type": "不正アクセス",
+          "leak_status": "確認・可能性あり",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "「原子力機構」の研究用原子炉サイトに不正アクセス、１７５人分の運転免許証など個人情報漏えい - Infoseek"
+        },
+        {
+          "source": "Google News",
           "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE94V2trWWZwRDhaOEo3ajV6cWtwVktyaGhuMFJLb1R0RDJBeW1FQzhvek4xN1libEZTbFVpcERRYmpVUmEyN0JXRkdiLXQzd3pfUHdNRGJOQUxERjlvNVlIRzU1ZS0ycGJDbXJILUMyb9IBdEFVX3lxTE80RFY0X1VyNVh1al9tTWVzc3pHLW9PWDk0SXdoSWNxTHZNenh6OUwweTh0Wk9SZGl0ZENodmVDVEpLdFoxR3h6TlQyVGU2NjNsVjBwT0wwRXhBblRUMTN3aVA1UUpWYTU1Tzc0OG9zZF9pWDM1?oc=5",
           "published_date": "2026-10-01",
           "title": "日本原子力機構に不正アクセス 研究者の個人情報が漏えい - Infoseek",
@@ -4657,19 +4584,6 @@
           "leak_count": null,
           "leaked_data": [],
           "incident_summary": "日本原子力機構に不正アクセス 研究者の個人情報が漏えい - Infoseek"
-        },
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Ub0xVTmY1N1ZxUWstRTZLZmhKMjJuQ0gyVWVjdUJmc0xmSk5FbTFGVUxMLUl6bnhGZmltWWtzNlhEZmJtWmFhS2VhX3MxbmNFVkJzTGNZRWpfRUhEaGJ1VElaczFzcUhGWW8teWVhNDdoMkg3ZG8xRWMyTVlMMVE?oc=5",
-          "published_date": "2026-10-01",
-          "title": "日本原子力機構に不正アクセス 研究者の個人情報が漏えい（共同通信） - Yahoo!ニュース",
-          "attack": true,
-          "organization": "日本原子力研究開発機構",
-          "attack_type": "不正アクセス",
-          "leak_status": "確認・可能性あり",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "日本原子力機構に不正アクセス 研究者の個人情報が漏えい（共同通信） - Yahoo!ニュース"
         },
         {
           "source": "Google News",
@@ -5009,39 +4923,6 @@
       ],
       "source_count": 1,
       "merged": true
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9OY0YwVmxBWWtlNHZPUDJUbldqYmhZMnpRd1RSeXlEbDVEZUdBWkh0SnlNNng5b3pTT296TXNVbUdtVnlKaUJ1eEpVNUpsVTZxV2RjSmI0Wkx1ZXp5V2diQW9oR2RwRnpVeHM1OVdhVHJiQQ?oc=5",
-      "published_date": "2026-10-01",
-      "title": "「原子力機構」の研究用原子炉サイトに不正アクセス、１７５人分の運転免許証など個人情報漏えい - Infoseek",
-      "attack": true,
-      "organization": "日本原子力研究開発機構",
-      "attack_type": "不正アクセス",
-      "leak_status": "確認・可能性あり",
-      "leak_count": null,
-      "leaked_data": [],
-      "incident_summary": "「原子力機構」の研究用原子炉サイトに不正アクセス、１７５人分の運転免許証など個人情報漏えい - Infoseek",
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9OY0YwVmxBWWtlNHZPUDJUbldqYmhZMnpRd1RSeXlEbDVEZUdBWkh0SnlNNng5b3pTT296TXNVbUdtVnlKaUJ1eEpVNUpsVTZxV2RjSmI0Wkx1ZXp5V2diQW9oR2RwRnpVeHM1OVdhVHJiQQ?oc=5",
-          "published_date": "2026-10-01",
-          "title": "「原子力機構」の研究用原子炉サイトに不正アクセス、１７５人分の運転免許証など個人情報漏えい - Infoseek",
-          "attack": true,
-          "organization": "日本原子力研究開発機構",
-          "attack_type": "不正アクセス",
-          "leak_status": "確認・可能性あり",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "「原子力機構」の研究用原子炉サイトに不正アクセス、１７５人分の運転免許証など個人情報漏えい - Infoseek"
-        }
-      ],
-      "source_count": 1,
-      "merged": false
     },
     {
       "source": "ScanNetSecurity",
@@ -5526,6 +5407,19 @@
       "source_records": [
         {
           "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE45VnNBSDlnWmc1SEJ1aEdNa3RGejZLQmZ3SHlORV9hT2NTcWo2S1R4S245ODBOMWd0cG41QWhDTWJ1cUhjeFVtUUl3cE43RVBTOWt5TA?oc=5",
+          "published_date": "2026-09-30",
+          "title": "郵便局アプリに不正アクセス 個人情報漏えいか - ASCII.jp",
+          "attack": true,
+          "organization": "日本郵便",
+          "attack_type": "不正アクセス",
+          "leak_status": "確認・可能性あり",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "郵便局アプリに不正アクセス 個人情報漏えいか - ASCII.jp"
+        },
+        {
+          "source": "Google News",
           "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9BZ2t1YXlpbXM5blIzZURycHBqRlBGNEZWOWk4VmhkMm1IY0MzbFJySGhOWEpiWUVQY1VlQzk5TXhSU09kdDQ1cHB4bmRDTTFvQ3FEOFo3cHFhazFJdlhycU9VcDUxM0g2czJTRzYwVFBGUDM2VGVWeEUwS3pybWc?oc=5",
           "published_date": "2026-09-30",
           "title": "郵便局アプリに不正アクセス、19人分の個人情報流出 送り状の受取人住所や追跡番号も - Yahoo!ニュース",
@@ -5541,40 +5435,7 @@
         }
       ],
       "source_count": 1,
-      "merged": false
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE45VnNBSDlnWmc1SEJ1aEdNa3RGejZLQmZ3SHlORV9hT2NTcWo2S1R4S245ODBOMWd0cG41QWhDTWJ1cUhjeFVtUUl3cE43RVBTOWt5TA?oc=5",
-      "published_date": "2026-09-30",
-      "title": "郵便局アプリに不正アクセス 個人情報漏えいか - ASCII.jp",
-      "attack": true,
-      "organization": "日本郵便",
-      "attack_type": "不正アクセス",
-      "leak_status": "確認・可能性あり",
-      "leak_count": null,
-      "leaked_data": [],
-      "incident_summary": "郵便局アプリに不正アクセス 個人情報漏えいか - ASCII.jp",
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE45VnNBSDlnWmc1SEJ1aEdNa3RGejZLQmZ3SHlORV9hT2NTcWo2S1R4S245ODBOMWd0cG41QWhDTWJ1cUhjeFVtUUl3cE43RVBTOWt5TA?oc=5",
-          "published_date": "2026-09-30",
-          "title": "郵便局アプリに不正アクセス 個人情報漏えいか - ASCII.jp",
-          "attack": true,
-          "organization": "日本郵便",
-          "attack_type": "不正アクセス",
-          "leak_status": "確認・可能性あり",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "郵便局アプリに不正アクセス 個人情報漏えいか - ASCII.jp"
-        }
-      ],
-      "source_count": 1,
-      "merged": false
+      "merged": true
     },
     {
       "source": "Google News",
@@ -6206,6 +6067,19 @@
       "source_records": [
         {
           "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5VVjI5aXhVTVR1MGVkWEFmZ0ZBUmtkT2h0Tm1YSmdyeHp6WDhoZzkybzlSUklIQ3RsQkFrOWxSUEZRdmtmYmt6NEJaMmZGbGZPaHk2WGUyRzhoR0k0Mmh5VFEyNGVORnlQaHBzYQ?oc=5",
+          "published_date": "2026-09-29",
+          "title": "セコマ57万件情報流出か アプリサーバーに不正アクセス - 日本経済新聞",
+          "attack": true,
+          "organization": "日本経済新聞",
+          "attack_type": "不正アクセス",
+          "leak_status": "確認・可能性あり",
+          "leak_count": "57万",
+          "leaked_data": [],
+          "incident_summary": "セコマ57万件情報流出か アプリサーバーに不正アクセス - 日本経済新聞"
+        },
+        {
+          "source": "Google News",
           "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9BU2lreXpEWmpfTWpSVmJncHp4Zy12bTBPQUMyTHZmRHZ4aDluaGdkYVhaZ2lBbnRfVDU1SnNiVEVQMk5xVTNqZjQzbzBMclNfSkg3YTJBX1ZRbjM4V290WWx1NnR6UHFyY2Iybg?oc=5",
           "published_date": "2026-09-29",
           "title": "東京メトロ、配信停止中のメアド5.9万件漏洩か 不正アクセスで - 日本経済新聞",
@@ -6219,7 +6093,7 @@
         }
       ],
       "source_count": 1,
-      "merged": false
+      "merged": true
     },
     {
       "source": "ScanNetSecurity",
@@ -6569,39 +6443,6 @@
           "leak_count": null,
           "leaked_data": [],
           "incident_summary": "タイムズカーだけではない！ ＡＩ主導の不正アクセス事件頻発の背景と最悪シナリオ - Infoseek"
-        }
-      ],
-      "source_count": 1,
-      "merged": false
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5VVjI5aXhVTVR1MGVkWEFmZ0ZBUmtkT2h0Tm1YSmdyeHp6WDhoZzkybzlSUklIQ3RsQkFrOWxSUEZRdmtmYmt6NEJaMmZGbGZPaHk2WGUyRzhoR0k0Mmh5VFEyNGVORnlQaHBzYQ?oc=5",
-      "published_date": "2026-09-29",
-      "title": "セコマ57万件情報流出か アプリサーバーに不正アクセス - 日本経済新聞",
-      "attack": true,
-      "organization": "日本経済新聞",
-      "attack_type": "不正アクセス",
-      "leak_status": "確認・可能性あり",
-      "leak_count": "57万",
-      "leaked_data": [],
-      "incident_summary": "セコマ57万件情報流出か アプリサーバーに不正アクセス - 日本経済新聞",
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5VVjI5aXhVTVR1MGVkWEFmZ0ZBUmtkT2h0Tm1YSmdyeHp6WDhoZzkybzlSUklIQ3RsQkFrOWxSUEZRdmtmYmt6NEJaMmZGbGZPaHk2WGUyRzhoR0k0Mmh5VFEyNGVORnlQaHBzYQ?oc=5",
-          "published_date": "2026-09-29",
-          "title": "セコマ57万件情報流出か アプリサーバーに不正アクセス - 日本経済新聞",
-          "attack": true,
-          "organization": "日本経済新聞",
-          "attack_type": "不正アクセス",
-          "leak_status": "確認・可能性あり",
-          "leak_count": "57万",
-          "leaked_data": [],
-          "incident_summary": "セコマ57万件情報流出か アプリサーバーに不正アクセス - 日本経済新聞"
         }
       ],
       "source_count": 1,
