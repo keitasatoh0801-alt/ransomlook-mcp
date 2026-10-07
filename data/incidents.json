@@ -1,6 +1,6 @@
 {
   "source": "Japanese cyber incident sources",
-  "retrieved_at": "2026-10-07T00:40:38.339605+00:00",
+  "retrieved_at": "2026-10-07T00:41:24.358149+00:00",
   "window_days": 30,
   "cutoff_date": "2026-09-07",
   "attack_only": true,
