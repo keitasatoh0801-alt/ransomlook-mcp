@@ -73,6 +73,16 @@ def clean(text): return re.sub(r"\s+"," ",text).strip()
 def is_attack(text):
     t=text.lower()
     if not any(k.lower() in t for k in ATTACK_TERMS): return False
+    # Strict attack-only gate: do not classify ordinary data-handling accidents,
+    # administrative mistakes, vulnerability advisories, or unrelated reporting as incidents.
+    non_attack=[
+        "メール誤送信","誤送信","紛失","配送過程で紛失","誤掲載","誤公開","マスキング",
+        "裏紙使用","不適切な取り扱い","広告明示なし投稿","不正競争防止法違反で逮捕",
+        "脆弱性公表","脆弱性情報","訓練","演習","市場","調査レポート","対策情報"
+    ]
+    if any(k in t for k in non_attack) and not any(
+        k in t for k in ["不正アクセス","ランサム","サイバー攻撃","マルウェア感染","フィッシング攻撃"]
+    ): return False
     if any(k.lower() in t for k in EXCLUDE_TERMS) and not any(
         k.lower() in t for k in ["不正アクセス","ランサム","サイバー攻撃","マルウェア","情報流出","情報漏えい","情報漏洩"]
     ): return False
@@ -219,6 +229,18 @@ def normalize_org(text):
 
 def extract_title_organization(text):
     t=clean(text)
+    # Known aliases are safer than regex fragments that can capture headline prose.
+    alias_patterns=[
+        (r"大和証券","大和証券"),(r"第一ライフ|第一生命","第一生命"),
+        (r"アバハウス","アバハウスインターナショナル"),(r"旭化成","旭化成"),
+        (r"日本原子力研究開発機構|原子力機構","日本原子力研究開発機構"),
+        (r"日本経済新聞社|日経新聞","日本経済新聞社"),(r"ヤマト運輸","ヤマト運輸"),
+        (r"佐川急便","佐川急便"),(r"日本郵便|郵便局アプリ","日本郵便"),
+        (r"セイコーマート","セイコーマート"),(r"シチズン時計","シチズン時計"),
+        (r"Helpfeel|Gyazo","Helpfeel"),(r"GSS","デジタル庁"),
+    ]
+    for pat,name in alias_patterns:
+        if re.search(pat,t,re.I): return name
     # Prefer an organization explicitly introduced as the subject of the title.
     pats=[
         r"((?:株式会社|有限会社|合同会社|国立研究開発法人|国立大学法人|学校法人|独立行政法人)[^、。\n]{1,80}?)(?=(?:は|が|に|の))",
@@ -494,6 +516,25 @@ def same_incident(a,b):
     # treat them as one incident.
     if aa and ab and aa==ab and abs((da-db).days)<=3 and bigram_overlap>=0.20:
         return True
+
+    # For cross-media reporting, short Japanese headlines can have very different
+    # wording. Same victim + nearby date + a shared incident keyword is a strong
+    # signal, but only when the attack family is compatible.
+    def incident_keywords(x):
+        s=incident_core_text(x)
+        return {k for k in [
+            "不正アクセス","サイバー攻撃","ランサムウェア","フィッシング","情報漏えい","情報漏洩",
+            "情報流出","委託先","従業員","顧客","会員","口座","個人情報","不審メール","返金案内"
+        ] if k in s}
+    ka=incident_keywords(a); kb=incident_keywords(b)
+    if abs((da-db).days)<=3 and org_a and org_a==org_b and ka&kb:
+        # Do not merge two separate incidents merely because both mention
+        # generic information leakage. Require either the same concrete leak
+        # count or at least two shared distinctive facts.
+        ca=a.get("leak_count"); cb=b.get("leak_count")
+        if ca and cb and ca==cb: return True
+        distinctive=(ka&kb)-{"不正アクセス","情報漏えい","情報漏洩","情報流出","個人情報"}
+        if len(distinctive)>=1 and (aa==ab or not aa or not ab): return True
 
     # Same organization + same attack type + distinctive incident facts.
     if aa and ab and aa==ab and overlap>=0.35:
