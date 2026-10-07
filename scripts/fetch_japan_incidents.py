@@ -122,8 +122,10 @@ def collect_scannet(cutoff):
             date = article_date_from_url(full, date)
             if date>=cutoff: page_old=False
             if date<cutoff or not is_attack(title): continue
-            title = re.sub(r"^インシデント・情報漏えい\s+ScanNetSecurity\s+20\d{2}\.\d{1,2}\.\d{1,2}.*?\s+\d{1,2}:\d{2}\s+", "", clean(title))
-            title = re.sub(r"^セキュリティホール・脆弱性\s+ScanNetSecurity\s+.*?\s+", "", title)
+            title = clean(title)
+            title = re.sub(r"^(?:インシデント・情報漏えい|セキュリティホール・脆弱性|業界動向|調査・ホワイトペーパー|セミナー・イベント|脅威動向|製品・サービス)\s+ScanNetSecurity\s+20\d{2}\.\d{1,2}\.\d{1,2}[^\d]{0,20}\d{1,2}:\d{2}\s+", "", title)
+            title = re.sub(r"^TheRegister\s+The Register誌特約記事\s+20\d{2}\.\d{1,2}\.\d{1,2}[^\d]{0,20}\d{1,2}:\d{2}\s+", "", title)
+            title = re.sub(r"^脅威動向\s+Okta, Inc\.\s+20\d{2}\.\d{1,2}\.\d{1,2}[^\d]{0,20}\d{1,2}:\d{2}\s+", "", title)
             out.append({"source":"ScanNetSecurity","source_url":full,"published_date":date,"title":title,"attack":True})
         if page_old: break
     return out
@@ -343,11 +345,11 @@ def enrich_incidents(items):
         title_text=clean(item.get("title",""))
         source_text=clean(" ".join([title_text,body]))
         item=dict(item)
-        org=extract_organization(title_text) or extract_organization(body[:5000]) or item.get("organization")
+        org=extract_organization(title_text) or extract_organization(body[:1500]) or item.get("organization")
         if org: item["organization"]=org
-        item["service"]=extract_service(title_text,org) or extract_service(body[:5000],org)
+        item["service"]=extract_service(title_text,org) or extract_service(body[:1500],org)
         title_fields=extract_incident_fields(title_text,org)
-        body_fields=extract_incident_fields(body[:5000],org) if body else {}
+        body_fields=extract_incident_fields(body[:1500],org) if body else {}
         item["attack_type"]=title_fields.get("attack_type") or body_fields.get("attack_type")
         item["leak_status"]=body_fields.get("leak_status") if body_fields.get("leak_status")!="不明" else title_fields.get("leak_status","不明")
         item["leak_count"]=body_fields.get("leak_count") or title_fields.get("leak_count")
@@ -425,6 +427,9 @@ def same_incident(a,b):
     title_b=_tokens(b.get("title",""))
     title_overlap=len(title_a&title_b)/max(1,min(len(title_a),len(title_b))) if title_a and title_b else 0
     if title_overlap>=0.35 and aa and ab and aa==ab:
+        return True
+
+    if title_overlap>=0.60:
         return True
 
     # Same organization + same attack type + distinctive incident facts.
