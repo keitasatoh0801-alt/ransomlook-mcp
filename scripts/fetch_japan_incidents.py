@@ -382,7 +382,11 @@ def incident_core_text(x):
     return clean(t)
 
 def same_incident(a,b):
-    if incident_org(a) != incident_org(b): return False
+    org_a=incident_org(a)
+    org_b=incident_org(b)
+    if org_a != org_b:
+        if not (org_a and org_b and (org_a in org_b or org_b in org_a)):
+            return False
     try:
         da=datetime.fromisoformat(a["published_date"]).date()
         db=datetime.fromisoformat(b["published_date"]).date()
@@ -398,6 +402,11 @@ def same_incident(a,b):
     sb=normalize_org(b.get("service") or "")
     aa=a.get("attack_type")
     ab=b.get("attack_type")
+
+    followup_a=bool(re.search(r"(第[0-9一二三四五六七八九十]+報|続報|最終報|調査結果|調査報告|復旧完了|再発防止策)",a.get("title","")))
+    followup_b=bool(re.search(r"(第[0-9一二三四五六七八九十]+報|続報|最終報|調査結果|調査報告|復旧完了|再発防止策)",b.get("title","")))
+    if (followup_a or followup_b) and overlap>=0.20:
+        return True
 
     # Follow-up reports from the same victim normally retain the same service/system.
     if sa and sb and (sa==sb or sa in sb or sb in sa):
