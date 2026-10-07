@@ -1,10 +1,21 @@
 {
   "source": "RansomLook",
   "api_endpoint": "https://www.ransomlook.io/api/recent",
-  "retrieved_at": "2026-10-07T06:35:04.445428+00:00",
+  "retrieved_at": "2026-10-07T12:37:45.858662+00:00",
   "days": 30,
   "count": 100,
   "posts": [
+    {
+      "post_title": "Chibitek",
+      "discovered": "2026-10-07 12:46:54.319199",
+      "description": "managed IT services (MSP) · USA",
+      "link": null,
+      "magnet": null,
+      "screen": null,
+      "private": false,
+      "misp_uuid": "473483f5-7f90-5c21-9d9a-0ae4cf0358d4",
+      "group_name": "n0n"
+    },
     {
       "post_title": "Merrill Iron & Steel",
       "discovered": "2026-10-07 07:47:51.667350",
@@ -1093,17 +1104,6 @@
       "private": false,
       "misp_uuid": "0aa40694-6095-5179-b019-587ff082219b",
       "group_name": "lockbit5"
-    },
-    {
-      "post_title": "Bold Spring Nursery",
-      "discovered": "2026-10-04 22:53:31.682064",
-      "description": "",
-      "link": "topic.php?id=YUvMpeKHY9x4M",
-      "magnet": null,
-      "screen": "screenshots/play/Bold Spring Nursery.png",
-      "private": false,
-      "misp_uuid": "90df4765-6519-5b60-8dfa-4e2982019df2",
-      "group_name": "play"
     }
   ]
 }

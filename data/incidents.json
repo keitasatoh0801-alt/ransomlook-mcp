@@ -1,6 +1,6 @@
 {
   "source": "Japanese cyber incident sources",
-  "retrieved_at": "2026-10-07T06:35:48.070234+00:00",
+  "retrieved_at": "2026-10-07T12:38:54.096875+00:00",
   "window_days": 30,
   "cutoff_date": "2026-09-07",
   "attack_only": true,
@@ -11,7 +11,7 @@
     "SmartScope",
     "Google News"
   ],
-  "count": 179,
+  "count": 194,
   "source_errors": {},
   "deduplication": {
     "same_source_exact": true,
@@ -20,6 +20,72 @@
     "source_records_retained": true
   },
   "incidents": [
+    {
+      "source": "Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1lcDFhQ192cjZ4c1BhcWhydlJrb0U4VURybHNFaU5lWmt4QzE1aXg0bkV3aF91aTMzbUFGZmxmbTI2elZOb2djNnVwbzlsVzRWeTh6aHI2aXNOVWlSa1BSNGgzRWN2Zm8?oc=5",
+      "published_date": "2026-10-07",
+      "title": "［緊急連載：サイバー危機］タイムズカー情報漏洩が一石 「企業の責任を問いにくい」日本 - 日経ビジネス電子版",
+      "attack": true,
+      "organization": "日経ビジネス電子版",
+      "attack_type": null,
+      "leak_status": "確認・可能性あり",
+      "leak_count": null,
+      "leaked_data": [],
+      "incident_summary": "［緊急連載：サイバー危機］タイムズカー情報漏洩が一石 「企業の責任を問いにくい」日本 - 日経ビジネス電子版",
+      "sources": [
+        "Google News"
+      ],
+      "source_records": [
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1lcDFhQ192cjZ4c1BhcWhydlJrb0U4VURybHNFaU5lWmt4QzE1aXg0bkV3aF91aTMzbUFGZmxmbTI2elZOb2djNnVwbzlsVzRWeTh6aHI2aXNOVWlSa1BSNGgzRWN2Zm8?oc=5",
+          "published_date": "2026-10-07",
+          "title": "［緊急連載：サイバー危機］タイムズカー情報漏洩が一石 「企業の責任を問いにくい」日本 - 日経ビジネス電子版",
+          "attack": true,
+          "organization": "日経ビジネス電子版",
+          "attack_type": null,
+          "leak_status": "確認・可能性あり",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "［緊急連載：サイバー危機］タイムズカー情報漏洩が一石 「企業の責任を問いにくい」日本 - 日経ビジネス電子版"
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
+      "source": "Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBhNzdUTkdLM3FaOU1reDlQOWl4QmhhYlNVTnY2c1pkeENBWGFvbklxaGlwQUZlUFFtQWNfcXVJMEFqZmFzdjJXT3VOMXRWQ2RfRm12aWF2Mkk4WHhuSUNBUXEwUlpZYTlpUlJxZ2hTSDFBcFNybGpvMFJXcVVMQQ?oc=5",
+      "published_date": "2026-10-07",
+      "title": "韓国の教会にＡＩ使ったサイバー攻撃か、数十万人の信徒情報流出の恐れ - Reuters",
+      "attack": true,
+      "organization": "Reuters",
+      "attack_type": null,
+      "leak_status": "可能性あり",
+      "leak_count": null,
+      "leaked_data": [],
+      "incident_summary": "韓国の教会にＡＩ使ったサイバー攻撃か、数十万人の信徒情報流出の恐れ - Reuters",
+      "sources": [
+        "Google News"
+      ],
+      "source_records": [
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBhNzdUTkdLM3FaOU1reDlQOWl4QmhhYlNVTnY2c1pkeENBWGFvbklxaGlwQUZlUFFtQWNfcXVJMEFqZmFzdjJXT3VOMXRWQ2RfRm12aWF2Mkk4WHhuSUNBUXEwUlpZYTlpUlJxZ2hTSDFBcFNybGpvMFJXcVVMQQ?oc=5",
+          "published_date": "2026-10-07",
+          "title": "韓国の教会にＡＩ使ったサイバー攻撃か、数十万人の信徒情報流出の恐れ - Reuters",
+          "attack": true,
+          "organization": "Reuters",
+          "attack_type": null,
+          "leak_status": "可能性あり",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "韓国の教会にＡＩ使ったサイバー攻撃か、数十万人の信徒情報流出の恐れ - Reuters"
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
     {
       "source": "ScanNetSecurity",
       "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/07/56403.html",
@@ -30,7 +96,7 @@
       "service": "ニッポンレンタカーアプリ",
       "attack_type": "不正アクセス",
       "leak_status": "可能性あり",
-      "leak_count": "7,716,811",
+      "leak_count": null,
       "leaked_data": [
         "氏名",
         "住所",
@@ -48,205 +114,21 @@
       "source_records": [
         {
           "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/05/56379.html",
-          "published_date": "2026-10-05",
-          "title": "ECサイト「ビールの縁側」に不正アクセス、9 名のカード情報が漏えいした可能性 原田産業株式会社は9月14日、8月18日に公表した同社が運営するECサイト「ビールの縁側」（ https://beer-engawa.jp/ ）への不正アクセスについて、続報を発表した。",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/28/56308.html",
+          "published_date": "2026-09-28",
+          "title": "ネット証券等の不正取引被害が拡大、金融庁が注意喚起 2026年8月は4社で25件の不正取引 金融庁は9月9日、インターネット取引サービスへの不正アクセス・不正取引による被害への注意喚起を発表した。",
           "attack": true,
           "organization": "ニッポンレンタカーサービス株式会社",
-          "service": "ビールの縁側",
-          "attack_type": "不正アクセス",
-          "leak_status": "可能性あり",
-          "leak_count": "9",
-          "leaked_data": [
-            "クレジットカード情報"
-          ],
-          "incident_summary": "原田産業株式会社は9月14日、8月18日に公表した同社が運営するECサイト「ビールの縁側」（ https://beer-engawa.jp/ ）への不正アクセスについて、続報を発表した。 同社では、同社運営の「ビールの縁側」に不正アクセスがあり、一部顧客の個人情報が漏えいした可能性が判明しており、外部専門機関の協力のもとで事実関係の確認と影響範囲の調査を進めていた。 実施調査によると、当該サイトで使用していたシステムの一部に存在した脆弱性が悪用された結果、管理者権限が不正に取得され、不正なプログラムが稼働していた可能性が判明している。 不正プログラムの稼働期間は2026年8月11日午後7時9分から8月14日午後4時57分で、クレジットカード情報を含む情報が漏えいした可能性のある顧客は9名。対象となる情報には、氏名、電話番号、メールアドレス、性別、生年月日、住所、クレジットカード情報（番号、名義人、有効期限、セキュリティコード）が含まれる。なお、決済を完了した顧客は4名、決済を完了せずに注文手続を終了した顧客は5名。 同社では対象となる9名に個別にメールで連絡を行っている。 同社では現在"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/05/56382.html",
-          "published_date": "2026-10-05",
-          "title": "LEAN BODY が利用する分析ツール「Metabase」の脆弱性を悪用した不正アクセス 株式会社LEAN BODYは9月15日、同社が利用する分析ツールへの不正アクセスについて発表した。",
-          "attack": true,
-          "organization": "ニッポンレンタカーサービス株式会社",
-          "service": "Metabase",
+          "service": "ニッポンレンタカーアプリ",
           "attack_type": "不正アクセス",
           "leak_status": "確認・可能性あり",
           "leak_count": null,
           "leaked_data": [
-            "氏名",
-            "メールアドレス",
-            "生年月日",
             "クレジットカード情報",
             "認証情報",
             "顧客情報"
           ],
-          "incident_summary": "株式会社LEAN BODYは9月15日、同社が利用する分析ツールへの不正アクセスについて発表した。 これは同社が社内のデータ分析に利用していたツール「Metabase」にセキュリティ上の脆弱性があり、第三者が同ツールに不正アクセスを行い、同社データベースから顧客情報を取得したというもの。 同社によると、8月11日に同社環境に最初の不正アクセスがあり、8月31日、9月7日に不正アクセス者によるデータベースからの顧客情報の情報取得が行われている。 同社では9月8日に、異常を検知し調査を開始したが、9月9日にデータベースから顧客情報が再度、取得されている。 同社では9月9日に、不正アクセスの経路を遮断し、当該ツールを修正版に更新している。 不正アクセス者による取得の対象となったアカウント件数は退会者を含めた約44万件で、その項目は下記の通り。 ・メールアドレス ・ニックネーム（ユーザー名）、性別、生年月日、都道府県 ・身長、体重、目標体重、活動量、運動の頻度や目的など、サービス内で入力した情報 ・登録日時や利用状況に関する記録 ・パスワード（暗号化された状態） ・契約・支払いに関する情報（決"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/05/56383.html",
-          "published_date": "2026-10-05",
-          "title": "あいの風とやま鉄道 観光列車の座席管理システムに不正アクセス あいの風とやま鉄道株式会社は9月15日、同社が運営する観光列車「一万三千尺物語」の座席管理システムへの不正アクセスについて発表した。",
-          "attack": true,
-          "organization": "ニッポンレンタカーサービス株式会社",
-          "service": "一万三千尺物語",
-          "attack_type": "不正アクセス",
-          "leak_status": "可能性あり",
-          "leak_count": null,
-          "leaked_data": [
-            "氏名",
-            "住所",
-            "電話番号",
-            "メールアドレス",
-            "クレジットカード情報",
-            "従業員情報"
-          ],
-          "incident_summary": "あいの風とやま鉄道株式会社は9月15日、同社が運営する観光列車「一万三千尺物語」の座席管理システムへの不正アクセスについて発表した。 これは9月8日朝に、同社社員が座席管理システムにアクセスしたところ、複数の予約がキャンセルされていた他、当該システムから正規の手順で行われていない予約を確認したため、全ての新規予約の受付を停止するとともに調査を行った結果、9月2日に最初の不正アクセスがあり、以降、9月8日までに複数回の不正アクセスを確認したというもの。 漏えいした可能性があるのは、これまでに観光列車「一万三千尺物語」に乗車した顧客または今後の乗車予約をしていた顧客 計1,409名の個人情報（氏名、住所、電話番号、メールアドレス）。 同社では対象の顧客に9月12日付で、文書「個人情報の漏えいのおそれがある事象に関するお詫びとお知らせ」を郵送している。 同社では、外部からの不正アクセスが判明したことから、その拡大を防ぐため、ネットによる新規予約の受付停止を継続している。 同社では今後、調査結果を踏まえてシステム全体のセキュリティ対策の強化などに努めるとのこと。 駅放送設備から意図しない音声が"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/05/56381.html",
-          "published_date": "2026-10-05",
-          "title": "東産業 公式サイトにwp2shell を悪用した不正アクセス 株式会社東産業は9月14日、同社公式サイトへの不正アクセスについて発表した。",
-          "attack": true,
-          "organization": "ニッポンレンタカーサービス株式会社",
-          "service": "公式サイトにwp2shell を悪用した不正アクセス 株式会社東産業は9月14日",
-          "attack_type": "不正アクセス",
-          "leak_status": "可能性あり",
-          "leak_count": null,
-          "leaked_data": [
-            "クレジットカード情報",
-            "顧客情報"
-          ],
-          "incident_summary": "株式会社東産業は9月14日、同社公式サイトへの不正アクセスについて発表した。 これは同社公式サイトに対し、WordPressの脆弱性を悪用した第三者からの不正アクセス確認したというもの。当該脆弱性（CVE-2026-60137、CVE-2026-63030：wp2shell）については、IPAから7月22日に注意喚起が公表されている。 同社ではすでに、当該サイト脆弱性への対策を実施済みで、不正アクセスの発生時期や影響範囲について、調査を行っている。 なお、不正アクセスの対象となる情報は、問い合わせフォームを通じて取得した顧客情報のみ。 同社では今後、情報セキュリティ対策および管理体制の強化に努めるとのこと。 「wp2shell」の攻撃検知速報を公表、修正版公開から9日間で累計1,950,165件を検知 2026.8.14 Fri 8:00 WordPress 6.9 以降で 2 件の脆弱性の組み合わせで遠隔コード実行の可能性 2026.7.24 Fri 8:00 WordPress の深刻度「緊急」脆弱性「wp2shell 」の概要と対応指針 ～ GMO Flatt Security "
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56392.html",
-          "published_date": "2026-10-06",
-          "title": "「PhotoGoods」に不正アクセス、カード情報が漏えいした可能性 大興印刷株式会社は9月16日、同社が運営するインターネットサービス「PhotoGoods（photo-goods.com）」への不正アクセスによる個人情報等漏えいの可能性について発表した。",
-          "attack": true,
-          "organization": "ニッポンレンタカーサービス株式会社",
-          "service": "PhotoGoods",
-          "attack_type": "不正アクセス",
-          "leak_status": "可能性あり",
-          "leak_count": null,
-          "leaked_data": [
-            "クレジットカード情報"
-          ],
-          "incident_summary": "大興印刷株式会社は9月16日、同社が運営するインターネットサービス「PhotoGoods（photo-goods.com）」への不正アクセスによる個人情報等漏えいの可能性について発表した。 これは9月11日に、「PhotoGoods」内に不審な外部プログラムが読み込まれているとの連絡があり、システム管理会社による調査を行った結果、決済画面等に入力されたクレジットカード情報などを不正に取得する機能を持つプログラムの設置を確認したというもの。あわせてシステム上の脆弱性およびファイルアップロード機能の悪用による第三者からの不正アクセスも確認している。 「PhotoGoods」を利用した顧客下記の情報が漏えいした可能性がある。なお、クレジットカード情報については、不正プログラムが稼働していた2026年8月6日から9月11日までの期間に、「PhotoGoods」の決済画面にカード情報を入力した顧客が対象となる。 ・クレジットカード情報（カード番号、有効期限、セキュリティコード） ・個人情報（氏名、住所、電話番号、メールアドレス） ・会員パスワードに関する情報（元のパスワードを直接読み取ることがで"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56394.html",
-          "published_date": "2026-10-06",
-          "title": "「ベネワン・プラットフォーム」のアンケート機能で他企業・団体の個人情報がダウンロード可能に、不具合を認知するも解消作業が適切に実施されず 株式会社ベネフィット・ワンは9月30日、同社が提供する福利厚生サービスの企業・団体の担当者向けの機能である「ベネワン・プラットフォーム」での個人情報漏えいについて発表した。",
-          "attack": true,
-          "organization": "ニッポンレンタカーサービス株式会社",
-          "service": "ベネワン・プラットフォーム",
-          "attack_type": "不正アクセス",
-          "leak_status": "確認・可能性あり",
-          "leak_count": null,
-          "leaked_data": [
-            "氏名",
-            "生年月日",
-            "クレジットカード情報"
-          ],
-          "incident_summary": "株式会社ベネフィット・ワンは9月30日、同社が提供する福利厚生サービスの企業・団体の担当者向けの機能である「ベネワン・プラットフォーム」での個人情報漏えいについて発表した。 これは「ベネワン・プラットフォーム」のアンケート機能にて、担当者がアンケート結果をダウンロードした際、本来アクセスできない他企業・団体の従業員の個人情報の一部が表示される状態となっていたというもの。同社サービスを利用している企業・団体の担当者1社1名から7月30日に連絡があり、発覚した。 対象となるのは2,322企業・団体の13,460名の個人情報（社員・職員番号、氏名、性別、生年月日、企業・団体名、所属/役職、入退社情報）.。 同社では当該データについて、利用企業・団体の担当者に連絡し、第三者への転送、複製その他の提供は行われておらず、同社への連絡後にデータを削除したことを確認している。 同社で調査した結果、2025年6月に行ったシステム改修により発生していた、アンケート結果ダウンロード機能におけるプログラムの条件設定不備が原因と確認している。また、2025年10月に行った社内調査で本不具合を認知していたものの、"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56393.html",
-          "published_date": "2026-10-06",
-          "title": "「信濃毎日新聞デジタル」に不正アクセス、一時的に一部の履歴データが消去 信濃毎日新聞株式会社は9月28日、「信濃毎日新聞デジタル」への不正アクセスについて発表した。",
-          "attack": true,
-          "organization": "ニッポンレンタカーサービス株式会社",
-          "service": "信濃毎日新聞デジタル",
-          "attack_type": "不正アクセス",
-          "leak_status": "可能性あり",
-          "leak_count": null,
-          "leaked_data": [
-            "クレジットカード情報",
-            "認証情報"
-          ],
-          "incident_summary": "信濃毎日新聞株式会社は9月28日、「信濃毎日新聞デジタル」への不正アクセスについて発表した。 これは9月7日に、「信濃毎日新聞デジタル」の信毎ポイント交換システムへの外部からの不正アクセスが判明したというもので、一時的に一部の履歴データが消去される事象が発生していた。 同社で調査した結果、現時点で個人情報の流出は確認されていないという。 同社では、該当システムに修正措置を講じ、データの復旧も完了している。また、顧客が保有しているポイント数への影響はない。 同社では今後、より一層の安全管理とセキュリティ強化に努めるとのこと。 日経アメリカ社で不正ログイン被害、取引先へのなりすましメール送信で発覚 2026.5.14 Thu 8:05 取材に関する情報漏えいは確認されず ～ 日本経済新聞社が利用する「Slack」に不正ログイン、社員や取引先など 1 万 7,368 人分の情報が流出した可能性 2025.11.7 Fri 8:05 個人情報ページの閲覧形跡なし「毎日新聞デジタル」へリスト型攻撃 2025.9.25 Thu 8:05 3 日間で約 2 万件の ID でログイン「毎日新聞デジタル"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56391.html",
-          "published_date": "2026-10-06",
-          "title": "ムラウチドットコムに不正アクセス、7,716,811件の個人情報が漏えい",
-          "attack": true,
-          "organization": "ニッポンレンタカーサービス株式会社",
-          "service": "さくらのレンタルサーバ",
-          "attack_type": "不正アクセス",
-          "leak_status": "確認・可能性あり",
-          "leak_count": "7,716,811",
-          "leaked_data": [
-            "氏名",
-            "住所",
-            "電話番号",
-            "メールアドレス",
-            "生年月日",
-            "クレジットカード情報",
-            "認証情報"
-          ],
-          "incident_summary": "株式会社ムラウチドットコムは9月15日、7月24日に公表した同社が運用する一部システムへの不正アクセスについて、第二報を発表した。 同社では7月15日未明に、社内システムで障害が発生し、翌7月16日の復旧作業中に第三者からの不正アクセスの痕跡を確認したため、システム保全として外部アクセスを遮断し、外部の情報セキュリティ専門会社によるフォレンジック調査を実施し、侵入経路や影響範囲の特定を進めていた。 調査結果によると、同社が管理するWebシステムの一部に存在していた脆弱性を悪用されたことを起点とした不正アクセスがあり、その後、複数のシステムへの不正アクセスが判明している。また、同社が保有する顧客の個人情報の一部が外部に持ち出されたことを確認している。 不正アクセスによる漏えいが確認されたのは7,716,811件の個人情報（氏名、住所、電話番号、メールアドレス、生年月日、性別）。 同社では9月15日から、対象となる顧客に個別に通知メールの送信を開始している。 同社では、システムへのアクセス権限および認証情報の管理方法の見直し、サーバ・ネットワークの監視および不正アクセスの検知体制の強化等に"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56391.html",
-          "published_date": "2026-10-06",
-          "title": "ムラウチドットコムに不正アクセス、7,716,811件の個人情報が漏えい 株式会社ムラウチドットコムは9月15日、7月24日に公表した同社が運用する一部システムへの不正アクセスについて、第二報を発表した。",
-          "attack": true,
-          "organization": "ニッポンレンタカーサービス株式会社",
-          "service": "システムへの不正アクセスについて",
-          "attack_type": "不正アクセス",
-          "leak_status": "確認・可能性あり",
-          "leak_count": "7,716,811",
-          "leaked_data": [
-            "氏名",
-            "住所",
-            "電話番号",
-            "メールアドレス",
-            "生年月日",
-            "クレジットカード情報",
-            "認証情報"
-          ],
-          "incident_summary": "株式会社ムラウチドットコムは9月15日、7月24日に公表した同社が運用する一部システムへの不正アクセスについて、第二報を発表した。 同社では7月15日未明に、社内システムで障害が発生し、翌7月16日の復旧作業中に第三者からの不正アクセスの痕跡を確認したため、システム保全として外部アクセスを遮断し、外部の情報セキュリティ専門会社によるフォレンジック調査を実施し、侵入経路や影響範囲の特定を進めていた。 調査結果によると、同社が管理するWebシステムの一部に存在していた脆弱性を悪用されたことを起点とした不正アクセスがあり、その後、複数のシステムへの不正アクセスが判明している。また、同社が保有する顧客の個人情報の一部が外部に持ち出されたことを確認している。 不正アクセスによる漏えいが確認されたのは7,716,811件の個人情報（氏名、住所、電話番号、メールアドレス、生年月日、性別）。 同社では9月15日から、対象となる顧客に個別に通知メールの送信を開始している。 同社では、システムへのアクセス権限および認証情報の管理方法の見直し、サーバ・ネットワークの監視および不正アクセスの検知体制の強化等に"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/07/56406.html",
-          "published_date": "2026-10-07",
-          "title": "KKR京都くに荘のメールサーバに不正アクセス",
-          "attack": true,
-          "organization": "ニッポンレンタカーサービス株式会社",
-          "service": "メールサーバに不正アクセス",
-          "attack_type": "不正アクセス",
-          "leak_status": "可能性あり",
-          "leak_count": null,
-          "leaked_data": [
-            "クレジットカード情報"
-          ],
-          "incident_summary": "国家公務員共済組合連合会は9月16日、KKR京都くに荘のメールサーバへの不正アクセスについて発表した。 同会では8月25日に、KKR京都くに荘のメールサーバへの不正アクセスに伴う個人情報漏えいの可能性について公表していたが、その後、メールシステム運用事業者及び外部専門事業者による詳細な調査を実施した結果、第三者からの当該メールアカウントのメールボックスへのアクセスやメールの閲覧を示す記録は確認されず、現時点で、顧客の個人情報が漏えいした事実は確認されなかったという。 同会では、メールシステムのセキュリティ対策の強化を図るとともに、顧客の個人情報の適切な管理に努め、再発防止に取り組むとのこと。 実行犯が示唆したダークウェブでの情報公開は確認されず ～ ワシントンホテルにランサムウェア攻撃 2026.9.25 Fri 8:05 ホテル白菊が利用する宿泊予約・販売管理システムに不正アクセス、フィッシングメール送信を確認 2026.9.16 Wed 8:05 Booking.com経由でホテルグランバッハ京都セレクトを予約した顧客にフィッシングサイト誘導メッセージ、注意を呼びかけ 2026.6"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/07/56406.html",
-          "published_date": "2026-10-07",
-          "title": "KKR京都くに荘のメールサーバに不正アクセス 国家公務員共済組合連合会は9月16日、KKR京都くに荘のメールサーバへの不正アクセスについて発表した。",
-          "attack": true,
-          "organization": "ニッポンレンタカーサービス株式会社",
-          "service": "メールサーバに不正アクセス 国家公務員共済組合連合会は9月16日",
-          "attack_type": "不正アクセス",
-          "leak_status": "可能性あり",
-          "leak_count": null,
-          "leaked_data": [
-            "クレジットカード情報"
-          ],
-          "incident_summary": "国家公務員共済組合連合会は9月16日、KKR京都くに荘のメールサーバへの不正アクセスについて発表した。 同会では8月25日に、KKR京都くに荘のメールサーバへの不正アクセスに伴う個人情報漏えいの可能性について公表していたが、その後、メールシステム運用事業者及び外部専門事業者による詳細な調査を実施した結果、第三者からの当該メールアカウントのメールボックスへのアクセスやメールの閲覧を示す記録は確認されず、現時点で、顧客の個人情報が漏えいした事実は確認されなかったという。 同会では、メールシステムのセキュリティ対策の強化を図るとともに、顧客の個人情報の適切な管理に努め、再発防止に取り組むとのこと。 実行犯が示唆したダークウェブでの情報公開は確認されず ～ ワシントンホテルにランサムウェア攻撃 2026.9.25 Fri 8:05 ホテル白菊が利用する宿泊予約・販売管理システムに不正アクセス、フィッシングメール送信を確認 2026.9.16 Wed 8:05 Booking.com経由でホテルグランバッハ京都セレクトを予約した顧客にフィッシングサイト誘導メッセージ、注意を呼びかけ 2026.6"
+          "incident_summary": "金融庁は9月9日、インターネット取引サービスへの不正アクセス・不正取引による被害への注意喚起を発表した。 同庁によると、実在する証券会社のウェブサイトを装った偽のウェブサイト（フィッシングサイト）等で窃取した顧客情報によるインターネット取引サービスでの不正アクセス・不正取引の被害について、2026年8月は不正取引が発生した証券会社数が4社、不正アクセス件数が39件、不正取引件数が25件発生している。 同庁では、被害に遭わないために、証券会社のインターネット取引サービスを利用しているすべてのユーザーに下記の点に注意するよう呼びかけている。 1.見覚えのある送信者からのメールやSMS等であっても、メッセージに掲載されたリンクを開かない。 2.利用する証券会社のウェブサイトへのアクセスは、事前に正しいウェブサイトのURLをブックマーク登録しておき、ブックマークからアクセスする。 3.インターネット取引サービスを利用する際は、各証券会社が提供しているセキュリティ強化機能（ログイン時・取引実行時・出金時の多要素認証や通知サービス）を有効にして、不審な取引に注意する。 4.パスワードの使いまわしを"
         },
         {
           "source": "ScanNetSecurity",
@@ -523,6 +405,72 @@
       "merged": true
     },
     {
+      "source": "Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9aeXhsYXVad2V5VXIxMXhpU2lIX0VyeGpRMld0ZU9FMzgyMFBLa0NVWnNCZmc3b3ZJNHV1ME5HWVhBNnpUU0l3Nk5GcEs2Z29Qa1RZeVJwNU5NNmd6TWRjRTdrUGVialM4ODk5VVl4bjlEUXBTNHpnSlVJbmhhS2M?oc=5",
+      "published_date": "2026-10-07",
+      "title": "日本を襲う同時多発サイバー攻撃、背景に国家ぐるみの「AIサイバー攻撃工場」稼働か（ビジネス＋IT） - Yahoo!ニュース",
+      "attack": true,
+      "organization": "Yahoo!ニュース",
+      "attack_type": null,
+      "leak_status": "不明",
+      "leak_count": null,
+      "leaked_data": [],
+      "incident_summary": "日本を襲う同時多発サイバー攻撃、背景に国家ぐるみの「AIサイバー攻撃工場」稼働か（ビジネス＋IT） - Yahoo!ニュース",
+      "sources": [
+        "Google News"
+      ],
+      "source_records": [
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9aeXhsYXVad2V5VXIxMXhpU2lIX0VyeGpRMld0ZU9FMzgyMFBLa0NVWnNCZmc3b3ZJNHV1ME5HWVhBNnpUU0l3Nk5GcEs2Z29Qa1RZeVJwNU5NNmd6TWRjRTdrUGVialM4ODk5VVl4bjlEUXBTNHpnSlVJbmhhS2M?oc=5",
+          "published_date": "2026-10-07",
+          "title": "日本を襲う同時多発サイバー攻撃、背景に国家ぐるみの「AIサイバー攻撃工場」稼働か（ビジネス＋IT） - Yahoo!ニュース",
+          "attack": true,
+          "organization": "Yahoo!ニュース",
+          "attack_type": null,
+          "leak_status": "不明",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "日本を襲う同時多発サイバー攻撃、背景に国家ぐるみの「AIサイバー攻撃工場」稼働か（ビジネス＋IT） - Yahoo!ニュース"
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
+      "source": "Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9RZ0IwM0ZPbENvbGhVU1FsbzdoNC1NZ3FpdHNBLVFJM1IyeUxUU1hzMWNUa1lGMnFOSVUxcHVENVlNNEVCUFZuOTVtekI3d3ZudHJB?oc=5",
+      "published_date": "2026-10-07",
+      "title": "日本を襲う同時多発サイバー攻撃、背景に国家ぐるみの「AIサイバー攻撃工場」稼働か - ビジネス+IT",
+      "attack": true,
+      "organization": "ビジネス+IT",
+      "attack_type": null,
+      "leak_status": "不明",
+      "leak_count": null,
+      "leaked_data": [],
+      "incident_summary": "日本を襲う同時多発サイバー攻撃、背景に国家ぐるみの「AIサイバー攻撃工場」稼働か - ビジネス+IT",
+      "sources": [
+        "Google News"
+      ],
+      "source_records": [
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9RZ0IwM0ZPbENvbGhVU1FsbzdoNC1NZ3FpdHNBLVFJM1IyeUxUU1hzMWNUa1lGMnFOSVUxcHVENVlNNEVCUFZuOTVtekI3d3ZudHJB?oc=5",
+          "published_date": "2026-10-07",
+          "title": "日本を襲う同時多発サイバー攻撃、背景に国家ぐるみの「AIサイバー攻撃工場」稼働か - ビジネス+IT",
+          "attack": true,
+          "organization": "ビジネス+IT",
+          "attack_type": null,
+          "leak_status": "不明",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "日本を襲う同時多発サイバー攻撃、背景に国家ぐるみの「AIサイバー攻撃工場」稼働か - ビジネス+IT"
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
       "source": "ScanNetSecurity",
       "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/07/56405.html",
       "published_date": "2026-10-07",
@@ -531,7 +479,7 @@
       "organization": "ニッポンレンタカーサービス株式会社",
       "service": "システム環境の復旧を完了 九州電子株式会社は9月15日",
       "attack_type": "ランサムウェア",
-      "leak_status": "可能性あり",
+      "leak_status": "確認されず",
       "leak_count": null,
       "leaked_data": [
         "クレジットカード情報",
@@ -551,7 +499,7 @@
           "organization": "ニッポンレンタカーサービス株式会社",
           "service": "システム環境の復旧を完了",
           "attack_type": "ランサムウェア",
-          "leak_status": "可能性あり",
+          "leak_status": "確認されず",
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
@@ -568,7 +516,7 @@
           "organization": "ニッポンレンタカーサービス株式会社",
           "service": "システム環境の復旧を完了 九州電子株式会社は9月15日",
           "attack_type": "ランサムウェア",
-          "leak_status": "可能性あり",
+          "leak_status": "確認されず",
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
@@ -582,32 +530,65 @@
     },
     {
       "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE44NDM2ZTRaUnNzakRrU0Q5UnZhbzdZSk8ybXptRndjZHRXVWR3UGtEN0dJR3l2LVZCRGVIUElUbjFwSDZDaFhHV0o2ZGh3TEVxR3JTVzBvb2tBazl3N3BlS0NOUjZNU2JUTTIwOUN0TnI1TURwLVZIMDd3cw?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE04VW8yWFBSdjdfM1RKX3R3c3RUMWpHZHNzS2lON1gwMU1qaWx4V2N0NHAySmNodEQzSUl1Ukhka1ZPZzhlYVZmUngwalJ3R3lGWG9CYnlyX3ZBYXFJRF9NRkttX2dtX290cDIxYVJJZGxmaVB1YVRxeEhfVXhhOHc?oc=5",
       "published_date": "2026-10-07",
-      "title": "タイムズカーなど情報漏えい事件頻発でテーマ再燃…「サイバー防衛」見直し買いで急伸した〈注目株〉の正体【10月6日の国内 - ニコニコニュース",
+      "title": "上場企業「個人情報漏えい」、過去最悪ペース ～ 100万件以上、2026年はすでに10件の異常事態 ～（東京商工リサーチ） - Yahoo!ニュース",
       "attack": true,
-      "organization": "ニコニコニュース",
+      "organization": "Yahoo!ニュース",
       "attack_type": null,
       "leak_status": "確認・可能性あり",
-      "leak_count": null,
+      "leak_count": "10",
       "leaked_data": [],
-      "incident_summary": "タイムズカーなど情報漏えい事件頻発でテーマ再燃…「サイバー防衛」見直し買いで急伸した〈注目株〉の正体【10月6日の国内 - ニコニコニュース",
+      "incident_summary": "上場企業「個人情報漏えい」、過去最悪ペース ～ 100万件以上、2026年はすでに10件の異常事態 ～（東京商工リサーチ） - Yahoo!ニュース",
       "sources": [
         "Google News"
       ],
       "source_records": [
         {
           "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE44NDM2ZTRaUnNzakRrU0Q5UnZhbzdZSk8ybXptRndjZHRXVWR3UGtEN0dJR3l2LVZCRGVIUElUbjFwSDZDaFhHV0o2ZGh3TEVxR3JTVzBvb2tBazl3N3BlS0NOUjZNU2JUTTIwOUN0TnI1TURwLVZIMDd3cw?oc=5",
+          "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE04VW8yWFBSdjdfM1RKX3R3c3RUMWpHZHNzS2lON1gwMU1qaWx4V2N0NHAySmNodEQzSUl1Ukhka1ZPZzhlYVZmUngwalJ3R3lGWG9CYnlyX3ZBYXFJRF9NRkttX2dtX290cDIxYVJJZGxmaVB1YVRxeEhfVXhhOHc?oc=5",
           "published_date": "2026-10-07",
-          "title": "タイムズカーなど情報漏えい事件頻発でテーマ再燃…「サイバー防衛」見直し買いで急伸した〈注目株〉の正体【10月6日の国内 - ニコニコニュース",
+          "title": "上場企業「個人情報漏えい」、過去最悪ペース ～ 100万件以上、2026年はすでに10件の異常事態 ～（東京商工リサーチ） - Yahoo!ニュース",
           "attack": true,
-          "organization": "ニコニコニュース",
+          "organization": "Yahoo!ニュース",
+          "attack_type": null,
+          "leak_status": "確認・可能性あり",
+          "leak_count": "10",
+          "leaked_data": [],
+          "incident_summary": "上場企業「個人情報漏えい」、過去最悪ペース ～ 100万件以上、2026年はすでに10件の異常事態 ～（東京商工リサーチ） - Yahoo!ニュース"
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
+      "source": "Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1tSDl1V3NWeHRzUUlhMzJoRHJpMGRwcE1LajZWSVhBR1BPejJZcVNHZENlanNRR0o3WXczUlpZVE9zWVBwR1BjR3dadzViblVpVkRpYzFlaERNMkxJ0gFiQVVfeXFMT04xb2lOQzNNRDZXVVdLSkFzbkFVZmNZUXFqYkw2VlpyYXI3aWFHVkdVT2JQYW45YkpOUzBQUkQ2MF83b0xxMVNHU2trRmVIdndGYVpFbUhseU9uZzRGWU5tcHc?oc=5",
+      "published_date": "2026-10-07",
+      "title": "タイムズカー660万件情報漏えい 鹿児島でも相談増、免許証再交付も「全世界で攻撃のレベル上がっている」 - Infoseek",
+      "attack": true,
+      "organization": "Infoseek",
+      "attack_type": null,
+      "leak_status": "確認・可能性あり",
+      "leak_count": null,
+      "leaked_data": [],
+      "incident_summary": "タイムズカー660万件情報漏えい 鹿児島でも相談増、免許証再交付も「全世界で攻撃のレベル上がっている」 - Infoseek",
+      "sources": [
+        "Google News"
+      ],
+      "source_records": [
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1tSDl1V3NWeHRzUUlhMzJoRHJpMGRwcE1LajZWSVhBR1BPejJZcVNHZENlanNRR0o3WXczUlpZVE9zWVBwR1BjR3dadzViblVpVkRpYzFlaERNMkxJ0gFiQVVfeXFMT04xb2lOQzNNRDZXVVdLSkFzbkFVZmNZUXFqYkw2VlpyYXI3aWFHVkdVT2JQYW45YkpOUzBQUkQ2MF83b0xxMVNHU2trRmVIdndGYVpFbUhseU9uZzRGWU5tcHc?oc=5",
+          "published_date": "2026-10-07",
+          "title": "タイムズカー660万件情報漏えい 鹿児島でも相談増、免許証再交付も「全世界で攻撃のレベル上がっている」 - Infoseek",
+          "attack": true,
+          "organization": "Infoseek",
           "attack_type": null,
           "leak_status": "確認・可能性あり",
           "leak_count": null,
           "leaked_data": [],
-          "incident_summary": "タイムズカーなど情報漏えい事件頻発でテーマ再燃…「サイバー防衛」見直し買いで急伸した〈注目株〉の正体【10月6日の国内 - ニコニコニュース"
+          "incident_summary": "タイムズカー660万件情報漏えい 鹿児島でも相談増、免許証再交付も「全世界で攻撃のレベル上がっている」 - Infoseek"
         }
       ],
       "source_count": 1,
@@ -641,39 +622,6 @@
           "leak_count": null,
           "leaked_data": [],
           "incident_summary": "オープンウェイトAIはサイバー攻撃をどこまで変えた？27社侵害と日本の漏えいを検証 - XenoSpectrum"
-        }
-      ],
-      "source_count": 1,
-      "merged": false
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1DRjl0QkFvX1dpb09xM2RiS2hqSnpXRTEwQnhrUWVvY1d5TzRCWW9WLWpxcG5oTHNVb2ZtbzhiVmNHNTRudEllS3FfZW9PX1JMNktUYWZBck1mODAzcU9lbGJIbWM?oc=5",
-      "published_date": "2026-10-07",
-      "title": "【タイムズカー個人情報漏えい問題】広島県で特例の免許再交付 悪用の恐れあり 顔写真と免許証番号を変更 【広島発】 - 千葉テレビ放送株式会社",
-      "attack": true,
-      "organization": "千葉テレビ放送株式会社",
-      "attack_type": null,
-      "leak_status": "可能性あり",
-      "leak_count": null,
-      "leaked_data": [],
-      "incident_summary": "【タイムズカー個人情報漏えい問題】広島県で特例の免許再交付 悪用の恐れあり 顔写真と免許証番号を変更 【広島発】 - 千葉テレビ放送株式会社",
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1DRjl0QkFvX1dpb09xM2RiS2hqSnpXRTEwQnhrUWVvY1d5TzRCWW9WLWpxcG5oTHNVb2ZtbzhiVmNHNTRudEllS3FfZW9PX1JMNktUYWZBck1mODAzcU9lbGJIbWM?oc=5",
-          "published_date": "2026-10-07",
-          "title": "【タイムズカー個人情報漏えい問題】広島県で特例の免許再交付 悪用の恐れあり 顔写真と免許証番号を変更 【広島発】 - 千葉テレビ放送株式会社",
-          "attack": true,
-          "organization": "千葉テレビ放送株式会社",
-          "attack_type": null,
-          "leak_status": "可能性あり",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "【タイムズカー個人情報漏えい問題】広島県で特例の免許再交付 悪用の恐れあり 顔写真と免許証番号を変更 【広島発】 - 千葉テレビ放送株式会社"
         }
       ],
       "source_count": 1,
@@ -715,6 +663,574 @@
             "認証情報"
           ],
           "incident_summary": "株式会社シンカは9月17日、8月28日に公表した同社運営のサービス紹介サイトへの不正アクセスについて、調査結果を発表した。 同社では8月24日に、「カイクラサービス紹介サイト」（ https://kaiwa.cloud/ ）で複数の不正プログラムの設置を検知し、社内調査による分析の結果、不正プログラムのうち1件は、当該サイトが設置されているサーバからの情報取得を技術的に可能にするものと判明したため、リスク拡大を回避し、調査を行うため、当該サイトおよび同一サーバで運用していた下記3サイトを含め、アクセスを一時停止するとともに、外部の専門機関に依頼し、ログ解析等を通じた精査を開始していた。 コーポレートサイト：https://www.thinca.co.jp カイクラサービス紹介サイト：https://kaiwa.cloud/ カイクラ.mag：https://kaiwa.cloud/media/ Car Connect：https://carconnect.jp/ 外部専門調査機関による調査の結果、検出された不正プログラムが実行され、サーバ内のデータを外部に送信した形跡は確認されなかった"
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
+      "source": "Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVDZqQTVTc2FUb3R2NGZKOUtrNXlXa2NRZ0F1Z2p3a2RyOHdaYVl3QWJBMXAtYkY1UU9TUlhCTGpKb1l6X1h6NlBMdU1hLXdGeFR6VTZsNVRRRVc3T21TLTVwLWM4VmVkXzVlMzZpR19BSVQzRkZhWi1zYkhvbll0OXdCRm1zWUVzRkhQbUowMG_SAZABQVVfeXFMTlQ2akE1U3NhVG90djRmSjlLazV5V2tjUWdBdWdqd2tkcjh3WmFZd0FiQTFwLWJGNVFPU1JYQkxqSm9Zel9YejZQTHVNYS13RnhUelU2bDVUUUVXN09tUy01cC1jOFZlZF81ZTM2aUdfQUlUM0ZGYVotc2JIb25ZdDl3QkZtc1lFc0ZIUG1KMDBv?oc=5",
+      "published_date": "2026-10-07",
+      "title": "「IDCFクラウド」東日本第1リージョンで不正アクセスによる障害発生 - ｄメニューニュース",
+      "attack": true,
+      "organization": "ｄメニューニュース",
+      "attack_type": "不正アクセス",
+      "leak_status": "不明",
+      "leak_count": null,
+      "leaked_data": [],
+      "incident_summary": "「IDCFクラウド」東日本第1リージョンで不正アクセスによる障害発生 - ｄメニューニュース",
+      "sources": [
+        "Google News"
+      ],
+      "source_records": [
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBIMUtwU3VfcjBtMm1JcGM3d05ocEVFSkVNWklLaHhmVlBaSTU3RnNjXzhLMnRJYkFTbnZqMkRnME5iS040ZzhFNkVVM29SQldLTUJFQ1pkcW1aLXN2dXhVMVBCeUtQMHJTaVd3dlRRVnBDa2F3OTNONdIBeEFVX3lxTFBIMUtwU3VfcjBtMm1JcGM3d05ocEVFSkVNWklLaHhmVlBaSTU3RnNjXzhLMnRJYkFTbnZqMkRnME5iS040ZzhFNkVVM29SQldLTUJFQ1pkcW1aLXN2dXhVMVBCeUtQMHJTaVd3dlRRVnBDa2F3OTNONQ?oc=5",
+          "published_date": "2026-10-07",
+          "title": "IDCFクラウドで障害、「東日本第1リージョン」への不正アクセス - ｄメニューニュース",
+          "attack": true,
+          "organization": "ｄメニューニュース",
+          "attack_type": "不正アクセス",
+          "leak_status": "不明",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "IDCFクラウドで障害、「東日本第1リージョン」への不正アクセス - ｄメニューニュース"
+        },
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVDZqQTVTc2FUb3R2NGZKOUtrNXlXa2NRZ0F1Z2p3a2RyOHdaYVl3QWJBMXAtYkY1UU9TUlhCTGpKb1l6X1h6NlBMdU1hLXdGeFR6VTZsNVRRRVc3T21TLTVwLWM4VmVkXzVlMzZpR19BSVQzRkZhWi1zYkhvbll0OXdCRm1zWUVzRkhQbUowMG_SAZABQVVfeXFMTlQ2akE1U3NhVG90djRmSjlLazV5V2tjUWdBdWdqd2tkcjh3WmFZd0FiQTFwLWJGNVFPU1JYQkxqSm9Zel9YejZQTHVNYS13RnhUelU2bDVUUUVXN09tUy01cC1jOFZlZF81ZTM2aUdfQUlUM0ZGYVotc2JIb25ZdDl3QkZtc1lFc0ZIUG1KMDBv?oc=5",
+          "published_date": "2026-10-07",
+          "title": "「IDCFクラウド」東日本第1リージョンで不正アクセスによる障害発生 - ｄメニューニュース",
+          "attack": true,
+          "organization": "ｄメニューニュース",
+          "attack_type": "不正アクセス",
+          "leak_status": "不明",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "「IDCFクラウド」東日本第1リージョンで不正アクセスによる障害発生 - ｄメニューニュース"
+        }
+      ],
+      "source_count": 1,
+      "merged": true
+    },
+    {
+      "source": "SmartScope",
+      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
+      "published_date": "2026-10-07",
+      "title": "TODA Corporation (payment-management systems for business partners)（ disclosure ） — Unauthorized access from outside to systems managing payments to business partners. Detected Oct 5, with evidence of leakage from Oct 1–5. Systems were isolated. The cause and full impact remain under investigation; entry route not stated.",
+      "organization": "TODA Corporation (payment-management systems for business partners)（ disclosure ）",
+      "affected_count": "Leakage confirmed: up to 7,200 business-contact email addresses, up to 6,000 transaction records, and names, addresses, phone numbers, emails and departments of 4,778 employees. These different categories are not added together. No public disclosure or misuse confirmed at the announcement.",
+      "attack_type": null,
+      "attack": true,
+      "leak_status": "不明",
+      "leak_count": null,
+      "leaked_data": [],
+      "incident_summary": "TODA Corporation (payment-management systems for business partners)（ disclosure ） — Unauthorized access from outside to systems managing payments to business partners. Detected Oct 5, with evidence of leakage from Oct 1–5. Systems were isolated. The cause and full impact remain under investigation; entry route not stated.",
+      "sources": [
+        "SmartScope"
+      ],
+      "source_records": [
+        {
+          "source": "SmartScope",
+          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
+          "published_date": "2026-10-07",
+          "title": "TODA Corporation (payment-management systems for business partners)（ disclosure ） — Unauthorized access from outside to systems managing payments to business partners. Detected Oct 5, with evidence of leakage from Oct 1–5. Systems were isolated. The cause and full impact remain under investigation; entry route not stated.",
+          "organization": "TODA Corporation (payment-management systems for business partners)（ disclosure ）",
+          "affected_count": "Leakage confirmed: up to 7,200 business-contact email addresses, up to 6,000 transaction records, and names, addresses, phone numbers, emails and departments of 4,778 employees. These different categories are not added together. No public disclosure or misuse confirmed at the announcement.",
+          "attack_type": null,
+          "attack": true,
+          "leak_status": "不明",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "TODA Corporation (payment-management systems for business partners)（ disclosure ） — Unauthorized access from outside to systems managing payments to business partners. Detected Oct 5, with evidence of leakage from Oct 1–5. Systems were isolated. The cause and full impact remain under investigation; entry route not stated."
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
+      "source": "SmartScope",
+      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
+      "published_date": "2026-10-07",
+      "title": "Sompo Japan Insurance (SMILING ROAD; contractor Scala Communications)（ disclosure ） — Unauthorized access to contractor Scala Communications servers between approximately 20:33 on Oct 2 and 08:01 on Oct 3. Sompo Japan systems were not confirmed accessed. Scala reports an unauthorized login to the i-ask administration site; how the credentials were obtained is not stated.",
+      "organization": "株式会社スカラコミュニケーションズ",
+      "affected_count": "About 60,000 inquiry records possibly leaked, counting repeated inquiries by the same customer. Items include names, contact information, employer details, driver IDs, driving alerts, device information, application numbers and inquiry contents. Bank-account, credit-card and My Number card information are excluded. No misuse or publication confirmed at disclosure.",
+      "attack_type": null,
+      "attack": true,
+      "leak_status": "不明",
+      "leak_count": null,
+      "leaked_data": [],
+      "incident_summary": "Sompo Japan Insurance (SMILING ROAD; contractor Scala Communications)（ disclosure ） — Unauthorized access to contractor Scala Communications servers between approximately 20:33 on Oct 2 and 08:01 on Oct 3. Sompo Japan systems were not confirmed accessed. Scala reports an unauthorized login to the i-ask administration site; how the credentials were obtained is not stated.",
+      "sources": [
+        "SmartScope"
+      ],
+      "source_records": [
+        {
+          "source": "SmartScope",
+          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
+          "published_date": "2026-10-05",
+          "title": "Daiwa Securities (contractor Scala Communications)（ disclosure ） — Unauthorized access to the server of inquiry-management service provider Scala Communications, from about 20:33 on Oct 2 to about 08:01 on Oct 3 according to Daiwa's notice. Scala's notice reports that a third party logged in without authorization to the i-ask admin site and installed a malicious program on its server. How the login credentials were obtained is not stated. No unauthorized access to Daiwa's systems confirmed.",
+          "organization": "株式会社スカラコミュニケーションズ",
+          "affected_count": "About 220,000 records, including inquiries without personally identifying information and names, email addresses, account numbers etc. relating to about 110,000 customers; possible leak. The same contractor, Scala Communications, reports in its own notice that its i-ask incident involves up to 5 companies and up to 713,126 inquiry records, including multiple inquiries by the same customer. The notices do not explicitly state whether Daiwa's figure is included in that total",
+          "attack_type": null,
+          "attack": true,
+          "leak_status": "不明",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "Daiwa Securities (contractor Scala Communications)（ disclosure ） — Unauthorized access to the server of inquiry-management service provider Scala Communications, from about 20:33 on Oct 2 to about 08:01 on Oct 3 according to Daiwa's notice. Scala's notice reports that a third party logged in without authorization to the i-ask admin site and installed a malicious program on its server. How the login credentials were obtained is not stated. No unauthorized access to Daiwa's systems confirmed."
+        },
+        {
+          "source": "SmartScope",
+          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
+          "published_date": "2026-10-06",
+          "title": "Citizen Watch (contractor Scala Communications)（ disclosure ） — Unauthorized access to the server of contractor Scala Communications, provider of the inquiry-form system, from about 20:33 on Oct 2 to about 08:01 on Oct 3. No unauthorized access to Citizen's own systems confirmed. Citizen's notice does not state the entry route (Scala says an unauthorized login to the i-ask admin site).",
+          "organization": "株式会社スカラコミュニケーションズ",
+          "affected_count": "About 100,000 people (names, addresses, phone numbers, email addresses etc. in inquiry data); possible leak. Bank-account or card information entered in the inquiry content may also have leaked. The same contractor, Scala Communications, reports in its own notice that its i-ask incident involves up to 5 companies and up to 713,126 inquiry records, including multiple inquiries by the same customer. The notices do not explicitly state whether Citizen's figure is included in that total",
+          "attack_type": null,
+          "attack": true,
+          "leak_status": "不明",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "Citizen Watch (contractor Scala Communications)（ disclosure ） — Unauthorized access to the server of contractor Scala Communications, provider of the inquiry-form system, from about 20:33 on Oct 2 to about 08:01 on Oct 3. No unauthorized access to Citizen's own systems confirmed. Citizen's notice does not state the entry route (Scala says an unauthorized login to the i-ask admin site)."
+        },
+        {
+          "source": "SmartScope",
+          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
+          "published_date": "2026-10-07",
+          "title": "Sompo Japan Insurance (SMILING ROAD; contractor Scala Communications)（ disclosure ） — Unauthorized access to contractor Scala Communications servers between approximately 20:33 on Oct 2 and 08:01 on Oct 3. Sompo Japan systems were not confirmed accessed. Scala reports an unauthorized login to the i-ask administration site; how the credentials were obtained is not stated.",
+          "organization": "株式会社スカラコミュニケーションズ",
+          "affected_count": "About 60,000 inquiry records possibly leaked, counting repeated inquiries by the same customer. Items include names, contact information, employer details, driver IDs, driving alerts, device information, application numbers and inquiry contents. Bank-account, credit-card and My Number card information are excluded. No misuse or publication confirmed at disclosure.",
+          "attack_type": null,
+          "attack": true,
+          "leak_status": "不明",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "Sompo Japan Insurance (SMILING ROAD; contractor Scala Communications)（ disclosure ） — Unauthorized access to contractor Scala Communications servers between approximately 20:33 on Oct 2 and 08:01 on Oct 3. Sompo Japan systems were not confirmed accessed. Scala reports an unauthorized login to the i-ask administration site; how the credentials were obtained is not stated."
+        }
+      ],
+      "source_count": 1,
+      "merged": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/07/56406.html",
+      "published_date": "2026-10-07",
+      "title": "KKR京都くに荘のメールサーバに不正アクセス 国家公務員共済組合連合会は9月16日、KKR京都くに荘のメールサーバへの不正アクセスについて発表した。",
+      "attack": true,
+      "organization": "ニッポンレンタカーサービス株式会社",
+      "service": "メールサーバに不正アクセス 国家公務員共済組合連合会は9月16日",
+      "attack_type": "不正アクセス",
+      "leak_status": "可能性あり",
+      "leak_count": "7,716,811",
+      "leaked_data": [
+        "クレジットカード情報"
+      ],
+      "incident_summary": "国家公務員共済組合連合会は9月16日、KKR京都くに荘のメールサーバへの不正アクセスについて発表した。 同会では8月25日に、KKR京都くに荘のメールサーバへの不正アクセスに伴う個人情報漏えいの可能性について公表していたが、その後、メールシステム運用事業者及び外部専門事業者による詳細な調査を実施した結果、第三者からの当該メールアカウントのメールボックスへのアクセスやメールの閲覧を示す記録は確認されず、現時点で、顧客の個人情報が漏えいした事実は確認されなかったという。 同会では、メールシステムのセキュリティ対策の強化を図るとともに、顧客の個人情報の適切な管理に努め、再発防止に取り組むとのこと。 実行犯が示唆したダークウェブでの情報公開は確認されず ～ ワシントンホテルにランサムウェア攻撃 2026.9.25 Fri 8:05 ホテル白菊が利用する宿泊予約・販売管理システムに不正アクセス、フィッシングメール送信を確認 2026.9.16 Wed 8:05 Booking.com経由でホテルグランバッハ京都セレクトを予約した顧客にフィッシングサイト誘導メッセージ、注意を呼びかけ 2026.6",
+      "sources": [
+        "ScanNetSecurity"
+      ],
+      "source_records": [
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/05/56379.html",
+          "published_date": "2026-10-05",
+          "title": "ECサイト「ビールの縁側」に不正アクセス、9 名のカード情報が漏えいした可能性 原田産業株式会社は9月14日、8月18日に公表した同社が運営するECサイト「ビールの縁側」（ https://beer-engawa.jp/ ）への不正アクセスについて、続報を発表した。",
+          "attack": true,
+          "organization": "ニッポンレンタカーサービス株式会社",
+          "service": "ビールの縁側",
+          "attack_type": "不正アクセス",
+          "leak_status": "可能性あり",
+          "leak_count": "9",
+          "leaked_data": [
+            "クレジットカード情報"
+          ],
+          "incident_summary": "原田産業株式会社は9月14日、8月18日に公表した同社が運営するECサイト「ビールの縁側」（ https://beer-engawa.jp/ ）への不正アクセスについて、続報を発表した。 同社では、同社運営の「ビールの縁側」に不正アクセスがあり、一部顧客の個人情報が漏えいした可能性が判明しており、外部専門機関の協力のもとで事実関係の確認と影響範囲の調査を進めていた。 実施調査によると、当該サイトで使用していたシステムの一部に存在した脆弱性が悪用された結果、管理者権限が不正に取得され、不正なプログラムが稼働していた可能性が判明している。 不正プログラムの稼働期間は2026年8月11日午後7時9分から8月14日午後4時57分で、クレジットカード情報を含む情報が漏えいした可能性のある顧客は9名。対象となる情報には、氏名、電話番号、メールアドレス、性別、生年月日、住所、クレジットカード情報（番号、名義人、有効期限、セキュリティコード）が含まれる。なお、決済を完了した顧客は4名、決済を完了せずに注文手続を終了した顧客は5名。 同社では対象となる9名に個別にメールで連絡を行っている。 同社では現在"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/05/56382.html",
+          "published_date": "2026-10-05",
+          "title": "LEAN BODY が利用する分析ツール「Metabase」の脆弱性を悪用した不正アクセス 株式会社LEAN BODYは9月15日、同社が利用する分析ツールへの不正アクセスについて発表した。",
+          "attack": true,
+          "organization": "ニッポンレンタカーサービス株式会社",
+          "service": "Metabase",
+          "attack_type": "不正アクセス",
+          "leak_status": "確認・可能性あり",
+          "leak_count": null,
+          "leaked_data": [
+            "氏名",
+            "メールアドレス",
+            "生年月日",
+            "クレジットカード情報",
+            "認証情報",
+            "顧客情報"
+          ],
+          "incident_summary": "株式会社LEAN BODYは9月15日、同社が利用する分析ツールへの不正アクセスについて発表した。 これは同社が社内のデータ分析に利用していたツール「Metabase」にセキュリティ上の脆弱性があり、第三者が同ツールに不正アクセスを行い、同社データベースから顧客情報を取得したというもの。 同社によると、8月11日に同社環境に最初の不正アクセスがあり、8月31日、9月7日に不正アクセス者によるデータベースからの顧客情報の情報取得が行われている。 同社では9月8日に、異常を検知し調査を開始したが、9月9日にデータベースから顧客情報が再度、取得されている。 同社では9月9日に、不正アクセスの経路を遮断し、当該ツールを修正版に更新している。 不正アクセス者による取得の対象となったアカウント件数は退会者を含めた約44万件で、その項目は下記の通り。 ・メールアドレス ・ニックネーム（ユーザー名）、性別、生年月日、都道府県 ・身長、体重、目標体重、活動量、運動の頻度や目的など、サービス内で入力した情報 ・登録日時や利用状況に関する記録 ・パスワード（暗号化された状態） ・契約・支払いに関する情報（決"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/05/56383.html",
+          "published_date": "2026-10-05",
+          "title": "あいの風とやま鉄道 観光列車の座席管理システムに不正アクセス あいの風とやま鉄道株式会社は9月15日、同社が運営する観光列車「一万三千尺物語」の座席管理システムへの不正アクセスについて発表した。",
+          "attack": true,
+          "organization": "ニッポンレンタカーサービス株式会社",
+          "service": "一万三千尺物語",
+          "attack_type": "不正アクセス",
+          "leak_status": "可能性あり",
+          "leak_count": null,
+          "leaked_data": [
+            "氏名",
+            "住所",
+            "電話番号",
+            "メールアドレス",
+            "クレジットカード情報",
+            "従業員情報"
+          ],
+          "incident_summary": "あいの風とやま鉄道株式会社は9月15日、同社が運営する観光列車「一万三千尺物語」の座席管理システムへの不正アクセスについて発表した。 これは9月8日朝に、同社社員が座席管理システムにアクセスしたところ、複数の予約がキャンセルされていた他、当該システムから正規の手順で行われていない予約を確認したため、全ての新規予約の受付を停止するとともに調査を行った結果、9月2日に最初の不正アクセスがあり、以降、9月8日までに複数回の不正アクセスを確認したというもの。 漏えいした可能性があるのは、これまでに観光列車「一万三千尺物語」に乗車した顧客または今後の乗車予約をしていた顧客 計1,409名の個人情報（氏名、住所、電話番号、メールアドレス）。 同社では対象の顧客に9月12日付で、文書「個人情報の漏えいのおそれがある事象に関するお詫びとお知らせ」を郵送している。 同社では、外部からの不正アクセスが判明したことから、その拡大を防ぐため、ネットによる新規予約の受付停止を継続している。 同社では今後、調査結果を踏まえてシステム全体のセキュリティ対策の強化などに努めるとのこと。 駅放送設備から意図しない音声が"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/05/56381.html",
+          "published_date": "2026-10-05",
+          "title": "東産業 公式サイトにwp2shell を悪用した不正アクセス 株式会社東産業は9月14日、同社公式サイトへの不正アクセスについて発表した。",
+          "attack": true,
+          "organization": "ニッポンレンタカーサービス株式会社",
+          "service": "公式サイトにwp2shell を悪用した不正アクセス 株式会社東産業は9月14日",
+          "attack_type": "不正アクセス",
+          "leak_status": "可能性あり",
+          "leak_count": null,
+          "leaked_data": [
+            "クレジットカード情報",
+            "顧客情報"
+          ],
+          "incident_summary": "株式会社東産業は9月14日、同社公式サイトへの不正アクセスについて発表した。 これは同社公式サイトに対し、WordPressの脆弱性を悪用した第三者からの不正アクセス確認したというもの。当該脆弱性（CVE-2026-60137、CVE-2026-63030：wp2shell）については、IPAから7月22日に注意喚起が公表されている。 同社ではすでに、当該サイト脆弱性への対策を実施済みで、不正アクセスの発生時期や影響範囲について、調査を行っている。 なお、不正アクセスの対象となる情報は、問い合わせフォームを通じて取得した顧客情報のみ。 同社では今後、情報セキュリティ対策および管理体制の強化に努めるとのこと。 「wp2shell」の攻撃検知速報を公表、修正版公開から9日間で累計1,950,165件を検知 2026.8.14 Fri 8:00 WordPress 6.9 以降で 2 件の脆弱性の組み合わせで遠隔コード実行の可能性 2026.7.24 Fri 8:00 WordPress の深刻度「緊急」脆弱性「wp2shell 」の概要と対応指針 ～ GMO Flatt Security "
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56392.html",
+          "published_date": "2026-10-06",
+          "title": "「PhotoGoods」に不正アクセス、カード情報が漏えいした可能性",
+          "attack": true,
+          "organization": "ニッポンレンタカーサービス株式会社",
+          "service": "PhotoGoods",
+          "attack_type": "不正アクセス",
+          "leak_status": "可能性あり",
+          "leak_count": null,
+          "leaked_data": [
+            "クレジットカード情報"
+          ],
+          "incident_summary": "大興印刷株式会社は9月16日、同社が運営するインターネットサービス「PhotoGoods（photo-goods.com）」への不正アクセスによる個人情報等漏えいの可能性について発表した。 これは9月11日に、「PhotoGoods」内に不審な外部プログラムが読み込まれているとの連絡があり、システム管理会社による調査を行った結果、決済画面等に入力されたクレジットカード情報などを不正に取得する機能を持つプログラムの設置を確認したというもの。あわせてシステム上の脆弱性およびファイルアップロード機能の悪用による第三者からの不正アクセスも確認している。 「PhotoGoods」を利用した顧客下記の情報が漏えいした可能性がある。なお、クレジットカード情報については、不正プログラムが稼働していた2026年8月6日から9月11日までの期間に、「PhotoGoods」の決済画面にカード情報を入力した顧客が対象となる。 ・クレジットカード情報（カード番号、有効期限、セキュリティコード） ・個人情報（氏名、住所、電話番号、メールアドレス） ・会員パスワードに関する情報（元のパスワードを直接読み取ることがで"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56392.html",
+          "published_date": "2026-10-06",
+          "title": "「PhotoGoods」に不正アクセス、カード情報が漏えいした可能性 大興印刷株式会社は9月16日、同社が運営するインターネットサービス「PhotoGoods（photo-goods.com）」への不正アクセスによる個人情報等漏えいの可能性について発表した。",
+          "attack": true,
+          "organization": "ニッポンレンタカーサービス株式会社",
+          "service": "PhotoGoods",
+          "attack_type": "不正アクセス",
+          "leak_status": "可能性あり",
+          "leak_count": null,
+          "leaked_data": [
+            "クレジットカード情報"
+          ],
+          "incident_summary": "大興印刷株式会社は9月16日、同社が運営するインターネットサービス「PhotoGoods（photo-goods.com）」への不正アクセスによる個人情報等漏えいの可能性について発表した。 これは9月11日に、「PhotoGoods」内に不審な外部プログラムが読み込まれているとの連絡があり、システム管理会社による調査を行った結果、決済画面等に入力されたクレジットカード情報などを不正に取得する機能を持つプログラムの設置を確認したというもの。あわせてシステム上の脆弱性およびファイルアップロード機能の悪用による第三者からの不正アクセスも確認している。 「PhotoGoods」を利用した顧客下記の情報が漏えいした可能性がある。なお、クレジットカード情報については、不正プログラムが稼働していた2026年8月6日から9月11日までの期間に、「PhotoGoods」の決済画面にカード情報を入力した顧客が対象となる。 ・クレジットカード情報（カード番号、有効期限、セキュリティコード） ・個人情報（氏名、住所、電話番号、メールアドレス） ・会員パスワードに関する情報（元のパスワードを直接読み取ることがで"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56393.html",
+          "published_date": "2026-10-06",
+          "title": "「信濃毎日新聞デジタル」に不正アクセス、一時的に一部の履歴データが消去 信濃毎日新聞株式会社は9月28日、「信濃毎日新聞デジタル」への不正アクセスについて発表した。",
+          "attack": true,
+          "organization": "ニッポンレンタカーサービス株式会社",
+          "service": "信濃毎日新聞デジタル",
+          "attack_type": "不正アクセス",
+          "leak_status": "可能性あり",
+          "leak_count": null,
+          "leaked_data": [
+            "クレジットカード情報",
+            "認証情報"
+          ],
+          "incident_summary": "信濃毎日新聞株式会社は9月28日、「信濃毎日新聞デジタル」への不正アクセスについて発表した。 これは9月7日に、「信濃毎日新聞デジタル」の信毎ポイント交換システムへの外部からの不正アクセスが判明したというもので、一時的に一部の履歴データが消去される事象が発生していた。 同社で調査した結果、現時点で個人情報の流出は確認されていないという。 同社では、該当システムに修正措置を講じ、データの復旧も完了している。また、顧客が保有しているポイント数への影響はない。 同社では今後、より一層の安全管理とセキュリティ強化に努めるとのこと。 日経アメリカ社で不正ログイン被害、取引先へのなりすましメール送信で発覚 2026.5.14 Thu 8:05 取材に関する情報漏えいは確認されず ～ 日本経済新聞社が利用する「Slack」に不正ログイン、社員や取引先など 1 万 7,368 人分の情報が流出した可能性 2025.11.7 Fri 8:05 個人情報ページの閲覧形跡なし「毎日新聞デジタル」へリスト型攻撃 2025.9.25 Thu 8:05 3 日間で約 2 万件の ID でログイン「毎日新聞デジタル"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56391.html",
+          "published_date": "2026-10-06",
+          "title": "ムラウチドットコムに不正アクセス、7,716,811件の個人情報が漏えい",
+          "attack": true,
+          "organization": "ニッポンレンタカーサービス株式会社",
+          "service": "さくらのレンタルサーバ",
+          "attack_type": "不正アクセス",
+          "leak_status": "確認・可能性あり",
+          "leak_count": "7,716,811",
+          "leaked_data": [
+            "氏名",
+            "住所",
+            "電話番号",
+            "メールアドレス",
+            "生年月日",
+            "クレジットカード情報",
+            "認証情報"
+          ],
+          "incident_summary": "株式会社ムラウチドットコムは9月15日、7月24日に公表した同社が運用する一部システムへの不正アクセスについて、第二報を発表した。 同社では7月15日未明に、社内システムで障害が発生し、翌7月16日の復旧作業中に第三者からの不正アクセスの痕跡を確認したため、システム保全として外部アクセスを遮断し、外部の情報セキュリティ専門会社によるフォレンジック調査を実施し、侵入経路や影響範囲の特定を進めていた。 調査結果によると、同社が管理するWebシステムの一部に存在していた脆弱性を悪用されたことを起点とした不正アクセスがあり、その後、複数のシステムへの不正アクセスが判明している。また、同社が保有する顧客の個人情報の一部が外部に持ち出されたことを確認している。 不正アクセスによる漏えいが確認されたのは7,716,811件の個人情報（氏名、住所、電話番号、メールアドレス、生年月日、性別）。 同社では9月15日から、対象となる顧客に個別に通知メールの送信を開始している。 同社では、システムへのアクセス権限および認証情報の管理方法の見直し、サーバ・ネットワークの監視および不正アクセスの検知体制の強化等に"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56391.html",
+          "published_date": "2026-10-06",
+          "title": "ムラウチドットコムに不正アクセス、7,716,811件の個人情報が漏えい 株式会社ムラウチドットコムは9月15日、7月24日に公表した同社が運用する一部システムへの不正アクセスについて、第二報を発表した。",
+          "attack": true,
+          "organization": "ニッポンレンタカーサービス株式会社",
+          "service": "システムへの不正アクセスについて",
+          "attack_type": "不正アクセス",
+          "leak_status": "確認・可能性あり",
+          "leak_count": "7,716,811",
+          "leaked_data": [
+            "氏名",
+            "住所",
+            "電話番号",
+            "メールアドレス",
+            "生年月日",
+            "クレジットカード情報",
+            "認証情報"
+          ],
+          "incident_summary": "株式会社ムラウチドットコムは9月15日、7月24日に公表した同社が運用する一部システムへの不正アクセスについて、第二報を発表した。 同社では7月15日未明に、社内システムで障害が発生し、翌7月16日の復旧作業中に第三者からの不正アクセスの痕跡を確認したため、システム保全として外部アクセスを遮断し、外部の情報セキュリティ専門会社によるフォレンジック調査を実施し、侵入経路や影響範囲の特定を進めていた。 調査結果によると、同社が管理するWebシステムの一部に存在していた脆弱性を悪用されたことを起点とした不正アクセスがあり、その後、複数のシステムへの不正アクセスが判明している。また、同社が保有する顧客の個人情報の一部が外部に持ち出されたことを確認している。 不正アクセスによる漏えいが確認されたのは7,716,811件の個人情報（氏名、住所、電話番号、メールアドレス、生年月日、性別）。 同社では9月15日から、対象となる顧客に個別に通知メールの送信を開始している。 同社では、システムへのアクセス権限および認証情報の管理方法の見直し、サーバ・ネットワークの監視および不正アクセスの検知体制の強化等に"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/07/56406.html",
+          "published_date": "2026-10-07",
+          "title": "KKR京都くに荘のメールサーバに不正アクセス",
+          "attack": true,
+          "organization": "ニッポンレンタカーサービス株式会社",
+          "service": "メールサーバに不正アクセス",
+          "attack_type": "不正アクセス",
+          "leak_status": "可能性あり",
+          "leak_count": null,
+          "leaked_data": [
+            "クレジットカード情報"
+          ],
+          "incident_summary": "国家公務員共済組合連合会は9月16日、KKR京都くに荘のメールサーバへの不正アクセスについて発表した。 同会では8月25日に、KKR京都くに荘のメールサーバへの不正アクセスに伴う個人情報漏えいの可能性について公表していたが、その後、メールシステム運用事業者及び外部専門事業者による詳細な調査を実施した結果、第三者からの当該メールアカウントのメールボックスへのアクセスやメールの閲覧を示す記録は確認されず、現時点で、顧客の個人情報が漏えいした事実は確認されなかったという。 同会では、メールシステムのセキュリティ対策の強化を図るとともに、顧客の個人情報の適切な管理に努め、再発防止に取り組むとのこと。 実行犯が示唆したダークウェブでの情報公開は確認されず ～ ワシントンホテルにランサムウェア攻撃 2026.9.25 Fri 8:05 ホテル白菊が利用する宿泊予約・販売管理システムに不正アクセス、フィッシングメール送信を確認 2026.9.16 Wed 8:05 Booking.com経由でホテルグランバッハ京都セレクトを予約した顧客にフィッシングサイト誘導メッセージ、注意を呼びかけ 2026.6"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/07/56406.html",
+          "published_date": "2026-10-07",
+          "title": "KKR京都くに荘のメールサーバに不正アクセス 国家公務員共済組合連合会は9月16日、KKR京都くに荘のメールサーバへの不正アクセスについて発表した。",
+          "attack": true,
+          "organization": "ニッポンレンタカーサービス株式会社",
+          "service": "メールサーバに不正アクセス 国家公務員共済組合連合会は9月16日",
+          "attack_type": "不正アクセス",
+          "leak_status": "可能性あり",
+          "leak_count": null,
+          "leaked_data": [
+            "クレジットカード情報"
+          ],
+          "incident_summary": "国家公務員共済組合連合会は9月16日、KKR京都くに荘のメールサーバへの不正アクセスについて発表した。 同会では8月25日に、KKR京都くに荘のメールサーバへの不正アクセスに伴う個人情報漏えいの可能性について公表していたが、その後、メールシステム運用事業者及び外部専門事業者による詳細な調査を実施した結果、第三者からの当該メールアカウントのメールボックスへのアクセスやメールの閲覧を示す記録は確認されず、現時点で、顧客の個人情報が漏えいした事実は確認されなかったという。 同会では、メールシステムのセキュリティ対策の強化を図るとともに、顧客の個人情報の適切な管理に努め、再発防止に取り組むとのこと。 実行犯が示唆したダークウェブでの情報公開は確認されず ～ ワシントンホテルにランサムウェア攻撃 2026.9.25 Fri 8:05 ホテル白菊が利用する宿泊予約・販売管理システムに不正アクセス、フィッシングメール送信を確認 2026.9.16 Wed 8:05 Booking.com経由でホテルグランバッハ京都セレクトを予約した顧客にフィッシングサイト誘導メッセージ、注意を呼びかけ 2026.6"
+        }
+      ],
+      "source_count": 1,
+      "merged": true
+    },
+    {
+      "source": "SmartScope",
+      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
+      "published_date": "2026-10-07",
+      "title": "IDC Frontier (IDCF Cloud)（ disclosure ） — Unauthorized access by a third party. Entry route and specific technique not stated.",
+      "organization": "IDC Frontier (IDCF Cloud)（ disclosure ）",
+      "affected_count": "A partial service outage in the East Japan Region 1 began around 03:40 on Oct 7. The notice does not state whether information leaked, a leak count, data fields or an affected-customer count. Recovery investigation and safety checks in other areas are ongoing.",
+      "attack_type": null,
+      "attack": true,
+      "leak_status": "不明",
+      "leak_count": null,
+      "leaked_data": [],
+      "incident_summary": "IDC Frontier (IDCF Cloud)（ disclosure ） — Unauthorized access by a third party. Entry route and specific technique not stated.",
+      "sources": [
+        "SmartScope"
+      ],
+      "source_records": [
+        {
+          "source": "SmartScope",
+          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
+          "published_date": "2026-10-07",
+          "title": "IDC Frontier (IDCF Cloud)（ disclosure ） — Unauthorized access by a third party. Entry route and specific technique not stated.",
+          "organization": "IDC Frontier (IDCF Cloud)（ disclosure ）",
+          "affected_count": "A partial service outage in the East Japan Region 1 began around 03:40 on Oct 7. The notice does not state whether information leaked, a leak count, data fields or an affected-customer count. Recovery investigation and safety checks in other areas are ongoing.",
+          "attack_type": null,
+          "attack": true,
+          "leak_status": "不明",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "IDC Frontier (IDCF Cloud)（ disclosure ） — Unauthorized access by a third party. Entry route and specific technique not stated."
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
+      "source": "Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5Vc0RqVDZQSXZTVUJBM1c2T0JnY3hadnA4OUFGcmJmTHUteVh0Y2U0U2x5ZmxtVDhaX1RLdjlSUExTTGdCMV9YWnF3clJJQnVUMExvVW16cElpM0Z6UmhSTER4NVM4cU1CcGJzTVRHdnBuUkFrRFc00gF8QVVfeXFMTzBUeno1cDZiNFJGRjNnWTczcTZTQ3NSX0lnZzVtWGJldkhjOG9tVzJqdlVyNG1neWVqQ0hIc280RHJmaGpWWEhCTTFRSE1MRlB5MDVjeDU2Q1I4TFdHNUhhck1HZmZJUG1BZVhONVVCWGNHdHhiTGdDRmdTRA?oc=5",
+      "published_date": "2026-10-07",
+      "title": "HIS子会社からパスポート情報流出か、最大627人分 昨年の不正アクセスを公表 - Infoseek",
+      "attack": true,
+      "organization": "Infoseek",
+      "attack_type": "不正アクセス",
+      "leak_status": "確認・可能性あり",
+      "leak_count": "627",
+      "leaked_data": [],
+      "incident_summary": "HIS子会社からパスポート情報流出か、最大627人分 昨年の不正アクセスを公表 - Infoseek",
+      "sources": [
+        "Google News"
+      ],
+      "source_records": [
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8wVHp6NXA2YjRSRkYzZ1k3M3E2U0NzUl9JZ2c1bVhiZXZIYzhvbVcyanZVcjRtZ3llakNISHNvNERyZmhqVlhIQk0xUUhNTEZQeTA1Y3g1NkNSOExXRzVIYXJNR2ZmSVBtQWVYTjVVQlhjR3R4YkxnQ0ZnU0TSAXxBVV95cUxPMFR6ejVwNmI0UkZGM2dZNzNxNlNDc1JfSWdnNW1YYmV2SGM4b21XMmp2VXI0bWd5ZWpDSEhzbzREcmZoalZYSEJNMVFITUxGUHkwNWN4NTZDUjhMV0c1SGFyTUdmZklQbUFlWE41VUJYY0d0eGJMZ0NGZ1NE?oc=5",
+          "published_date": "2026-10-07",
+          "title": "HIS子会社からパスポート情報流出か、最大627人分 昨年の不正アクセスを公表 - Infoseek",
+          "attack": true,
+          "organization": "Infoseek",
+          "attack_type": "不正アクセス",
+          "leak_status": "確認・可能性あり",
+          "leak_count": "627",
+          "leaked_data": [],
+          "incident_summary": "HIS子会社からパスポート情報流出か、最大627人分 昨年の不正アクセスを公表 - Infoseek"
+        },
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5Vc0RqVDZQSXZTVUJBM1c2T0JnY3hadnA4OUFGcmJmTHUteVh0Y2U0U2x5ZmxtVDhaX1RLdjlSUExTTGdCMV9YWnF3clJJQnVUMExvVW16cElpM0Z6UmhSTER4NVM4cU1CcGJzTVRHdnBuUkFrRFc00gF8QVVfeXFMTzBUeno1cDZiNFJGRjNnWTczcTZTQ3NSX0lnZzVtWGJldkhjOG9tVzJqdlVyNG1neWVqQ0hIc280RHJmaGpWWEhCTTFRSE1MRlB5MDVjeDU2Q1I4TFdHNUhhck1HZmZJUG1BZVhONVVCWGNHdHhiTGdDRmdTRA?oc=5",
+          "published_date": "2026-10-07",
+          "title": "HIS子会社からパスポート情報流出か、最大627人分 昨年の不正アクセスを公表 - Infoseek",
+          "attack": true,
+          "organization": "Infoseek",
+          "attack_type": "不正アクセス",
+          "leak_status": "確認・可能性あり",
+          "leak_count": "627",
+          "leaked_data": [],
+          "incident_summary": "HIS子会社からパスポート情報流出か、最大627人分 昨年の不正アクセスを公表 - Infoseek"
+        }
+      ],
+      "source_count": 1,
+      "merged": true
+    },
+    {
+      "source": "Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5lbGNjQng3ek53SGV5YWFRa2o2SEJBRHlMQUhQbDJoN0NSWlgtWExmNEpDajc0QndqdFBHeGVReG5oSnBzNlhfTGVPajBqU3p5STRzRzY0NUo3QVJraVhidk1lbzRrZC1WUU9uTQ?oc=5",
+      "published_date": "2026-10-07",
+      "title": "HIS子会社からパスポート情報流出か、最大627人 不正アクセス公表 - 日本経済新聞",
+      "attack": true,
+      "organization": "日本経済新聞",
+      "attack_type": "不正アクセス",
+      "leak_status": "確認・可能性あり",
+      "leak_count": "627",
+      "leaked_data": [
+        "顧客情報"
+      ],
+      "incident_summary": "HIS子会社からパスポート情報流出か、最大627人 不正アクセス公表 - 日本経済新聞",
+      "sources": [
+        "Google News"
+      ],
+      "source_records": [
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE45aEJtMHFJQWtRU1N6RTFXWGRNZjZrUERVOXA5NWwxVnprOWJoX09BVGZMR1hsbjMxNmNjbUNfckJsQTRZTHE1bWNlVnRyRjlpTW9CNjRNUnVpWkttYU55ZmpOblZGLVhJUlpocw?oc=5",
+          "published_date": "2026-10-06",
+          "title": "シチズン、顧客情報10万人漏洩か 業務委託先に不正アクセス - 日本経済新聞",
+          "attack": true,
+          "organization": "日本経済新聞",
+          "attack_type": "不正アクセス",
+          "leak_status": "確認・可能性あり",
+          "leak_count": null,
+          "leaked_data": [
+            "顧客情報"
+          ],
+          "incident_summary": "シチズン、顧客情報10万人漏洩か 業務委託先に不正アクセス - 日本経済新聞"
+        },
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5lbGNjQng3ek53SGV5YWFRa2o2SEJBRHlMQUhQbDJoN0NSWlgtWExmNEpDajc0QndqdFBHeGVReG5oSnBzNlhfTGVPajBqU3p5STRzRzY0NUo3QVJraVhidk1lbzRrZC1WUU9uTQ?oc=5",
+          "published_date": "2026-10-07",
+          "title": "HIS子会社からパスポート情報流出か、最大627人 不正アクセス公表 - 日本経済新聞",
+          "attack": true,
+          "organization": "日本経済新聞",
+          "attack_type": "不正アクセス",
+          "leak_status": "確認・可能性あり",
+          "leak_count": "627",
+          "leaked_data": [],
+          "incident_summary": "HIS子会社からパスポート情報流出か、最大627人 不正アクセス公表 - 日本経済新聞"
+        }
+      ],
+      "source_count": 1,
+      "merged": true
+    },
+    {
+      "source": "SmartScope",
+      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
+      "published_date": "2026-10-07",
+      "title": "H.I.S. (Thai subsidiary H.I.S. TOURS)（ disclosure ） — Third-party unauthorized access to the Thai subsidiary network. A file-server alert on Dec 11, 2025 led to isolation. Investigation found possible unauthorized extraction of some file-server data. Entry route not stated.",
+      "organization": "H.I.S. (Thai subsidiary H.I.S. TOURS)（ disclosure ）",
+      "affected_count": "Passport information and allergy information for up to 627 customers possibly leaked. Passport fields include Roman-alphabet names, signature names, sex, birth dates, passport numbers and expiry dates. Affected customers traveled to Thailand with H.I.S. in 2017, 2019–2020 or 2024–2025. Phone numbers, addresses, email addresses and credit-card information are excluded.",
+      "attack_type": null,
+      "attack": true,
+      "leak_status": "不明",
+      "leak_count": null,
+      "leaked_data": [],
+      "incident_summary": "H.I.S. (Thai subsidiary H.I.S. TOURS)（ disclosure ） — Third-party unauthorized access to the Thai subsidiary network. A file-server alert on Dec 11, 2025 led to isolation. Investigation found possible unauthorized extraction of some file-server data. Entry route not stated.",
+      "sources": [
+        "SmartScope"
+      ],
+      "source_records": [
+        {
+          "source": "SmartScope",
+          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
+          "published_date": "2026-10-07",
+          "title": "H.I.S. (Thai subsidiary H.I.S. TOURS)（ disclosure ） — Third-party unauthorized access to the Thai subsidiary network. A file-server alert on Dec 11, 2025 led to isolation. Investigation found possible unauthorized extraction of some file-server data. Entry route not stated.",
+          "organization": "H.I.S. (Thai subsidiary H.I.S. TOURS)（ disclosure ）",
+          "affected_count": "Passport information and allergy information for up to 627 customers possibly leaked. Passport fields include Roman-alphabet names, signature names, sex, birth dates, passport numbers and expiry dates. Affected customers traveled to Thailand with H.I.S. in 2017, 2019–2020 or 2024–2025. Phone numbers, addresses, email addresses and credit-card information are excluded.",
+          "attack_type": null,
+          "attack": true,
+          "leak_status": "不明",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "H.I.S. (Thai subsidiary H.I.S. TOURS)（ disclosure ） — Third-party unauthorized access to the Thai subsidiary network. A file-server alert on Dec 11, 2025 led to isolation. Investigation found possible unauthorized extraction of some file-server data. Entry route not stated."
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
+      "source": "Yagura",
+      "source_url": "https://incident.yagurasec.com/incidents/2026-10-07-his-thailand-subsidiary-file-server-breach/",
+      "published_date": "2026-10-07",
+      "title": "2026/10/07 旅行大手エイチ・アイ・エス、タイ現地法人のファイルサーバに不正アクセス — 最大627人分のパスポート情報が流出した可能性 続報を注視中 中程度 株式会社エイチ・アイ・エス（HIS、東京都港区／旅行業）は2026年10月7日、タイ現地法人H.I.S. TOURS CO., LTD.のファイルサーバが不正アクセスを受け、日本で取得した顧客最大627人分のパスポート情報などが流出した可能性があると公表しました。検知は2025年12月11日で、サーバ内に個人情報と無関係なデータが大量に混在していたため、対象者の特定に時間を要したと説明しています。",
+      "attack": true,
+      "organization": "2026/10/07 旅行大手エイチ・アイ・エス",
+      "service": "サーバに不正アクセス — 最大627人分のパスポート情報が流出した可能性 続報を注視中 中程度 株式会社エ",
+      "attack_type": "不正アクセス",
+      "leak_status": "可能性あり",
+      "leak_count": "627",
+      "leaked_data": [],
+      "incident_summary": "株式会社エイチ・アイ・エス（HIS、東京都港区／旅行業）は2026年10月7日、タイ現地法人H.I.S. TOURS CO., LTD.のファイルサーバが不正アクセスを受け、日本で取得した顧客最大627人分のパスポート情報などが流出した可能性があると公表しました。検知は2025年12月11日で、サーバ内に個人情報と無関係なデータが大量に混在していたため、対象者の特定に時間を要したと説明しています。",
+      "sources": [
+        "Yagura"
+      ],
+      "source_records": [
+        {
+          "source": "Yagura",
+          "source_url": "https://incident.yagurasec.com/incidents/2026-10-07-his-thailand-subsidiary-file-server-breach/",
+          "published_date": "2026-10-07",
+          "title": "2026/10/07 旅行大手エイチ・アイ・エス、タイ現地法人のファイルサーバに不正アクセス — 最大627人分のパスポート情報が流出した可能性 続報を注視中 中程度 株式会社エイチ・アイ・エス（HIS、東京都港区／旅行業）は2026年10月7日、タイ現地法人H.I.S. TOURS CO., LTD.のファイルサーバが不正アクセスを受け、日本で取得した顧客最大627人分のパスポート情報などが流出した可能性があると公表しました。検知は2025年12月11日で、サーバ内に個人情報と無関係なデータが大量に混在していたため、対象者の特定に時間を要したと説明しています。",
+          "attack": true,
+          "organization": "2026/10/07 旅行大手エイチ・アイ・エス",
+          "service": "サーバに不正アクセス — 最大627人分のパスポート情報が流出した可能性 続報を注視中 中程度 株式会社エ",
+          "attack_type": "不正アクセス",
+          "leak_status": "可能性あり",
+          "leak_count": "627",
+          "leaked_data": [],
+          "incident_summary": "株式会社エイチ・アイ・エス（HIS、東京都港区／旅行業）は2026年10月7日、タイ現地法人H.I.S. TOURS CO., LTD.のファイルサーバが不正アクセスを受け、日本で取得した顧客最大627人分のパスポート情報などが流出した可能性があると公表しました。検知は2025年12月11日で、サーバ内に個人情報と無関係なデータが大量に混在していたため、対象者の特定に時間を要したと説明しています。"
         }
       ],
       "source_count": 1,
@@ -890,65 +1406,6 @@
       "merged": false
     },
     {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPT2ZNdldPSUlMWWNiclFETGtGcEZwcXI5dXpXUlpoMXJmWHVvVTVVV1ZFMHB4UnFJVXdmeEhqSlljcUNONS10WXVybWF4aktEMThtYnZiUkdnMThUaU5EQmhGcDRjbnNOUG5YTzYxVlozektQbHJQdm5Ra2dTNlRQeGN6ckd5LUdvXzdHR0xBVmZtejZxWEpvT1h3?oc=5",
-      "published_date": "2026-10-06",
-      "title": "日本交通、電話配車と陣痛タクシーWeb登録を10月6日再開へ-不正アクセスから約3カ月 - 合同会社ロケットボーイズ",
-      "attack": true,
-      "organization": "日本交通",
-      "attack_type": "不正アクセス",
-      "leak_status": "不明",
-      "leak_count": null,
-      "leaked_data": [],
-      "incident_summary": "日本交通、電話配車と陣痛タクシーWeb登録を10月6日再開へ-不正アクセスから約3カ月 - 合同会社ロケットボーイズ",
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1PMWhRMUdibHJxUUg3MUE0MzQxell5RHZpV21lUjZieG1zZkNHX0t1c2xZdFhGNmFhT3NNMzZETUxxWG8xLVB6Y2ozRTB4SjAxT3dTMFdrMlp5NXlGZzVUTzltcUp2dGZ5WWRVdkd1SndQZw?oc=5",
-          "published_date": "2026-10-05",
-          "title": "日本交通、不正アクセスで停止していた「電話でタクシー配車」再開へ 約3カ月ぶり - ニコニコニュース",
-          "attack": true,
-          "organization": "日本交通",
-          "attack_type": "不正アクセス",
-          "leak_status": "不明",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "日本交通、不正アクセスで停止していた「電話でタクシー配車」再開へ 約3カ月ぶり - ニコニコニュース"
-        },
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTFBsakhRYWV2YUNEY0V2NTBHVGZjSUt5QS11LTZJano4bTZ3UHVfVmxEX19vWFkyd2NycklTbzBPSVZuZ1Z5VzR0VFR2OFhTMFBtVnB2MnpKdVZBY0l3Wm1kWXpLR3FpT0s3MVBpWmU1NTNpVk85V0ZTYmxKZDZDSE5GanlzWEpLS3hpMVlKaVl2UXdXYzIySEZUNNIBmwFBVV95cUxNTFBsakhRYWV2YUNEY0V2NTBHVGZjSUt5QS11LTZJano4bTZ3UHVfVmxEX19vWFkyd2NycklTbzBPSVZuZ1Z5VzR0VFR2OFhTMFBtVnB2MnpKdVZBY0l3Wm1kWXpLR3FpT0s3MVBpWmU1NTNpVk85V0ZTYmxKZDZDSE5GanlzWEpLS3hpMVlKaVl2UXdXYzIySEZUNA?oc=5",
-          "published_date": "2026-10-05",
-          "title": "日本交通、不正アクセスで停止していた「電話でタクシー配車」再開へ 約3カ月ぶり - ｄメニューニュース",
-          "attack": true,
-          "organization": "日本交通",
-          "attack_type": "不正アクセス",
-          "leak_status": "不明",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "日本交通、不正アクセスで停止していた「電話でタクシー配車」再開へ 約3カ月ぶり - ｄメニューニュース"
-        },
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPT2ZNdldPSUlMWWNiclFETGtGcEZwcXI5dXpXUlpoMXJmWHVvVTVVV1ZFMHB4UnFJVXdmeEhqSlljcUNONS10WXVybWF4aktEMThtYnZiUkdnMThUaU5EQmhGcDRjbnNOUG5YTzYxVlozektQbHJQdm5Ra2dTNlRQeGN6ckd5LUdvXzdHR0xBVmZtejZxWEpvT1h3?oc=5",
-          "published_date": "2026-10-06",
-          "title": "日本交通、電話配車と陣痛タクシーWeb登録を10月6日再開へ-不正アクセスから約3カ月 - 合同会社ロケットボーイズ",
-          "attack": true,
-          "organization": "日本交通",
-          "attack_type": "不正アクセス",
-          "leak_status": "不明",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "日本交通、電話配車と陣痛タクシーWeb登録を10月6日再開へ-不正アクセスから約3カ月 - 合同会社ロケットボーイズ"
-        }
-      ],
-      "source_count": 1,
-      "merged": true
-    },
-    {
       "source": "Security NEXT",
       "source_url": "https://www.security-next.com/191072",
       "published_date": "2026-10-06",
@@ -966,6 +1423,19 @@
         "Security NEXT"
       ],
       "source_records": [
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAxSEJkOG9yZmRIdTFJaW8zODI1NjJiSzNqUkVmMjZtZm9oYTI4WnF1ejE5ekItTEwwZGxtb1JIVDlXTFJ4a0I1c3pUWWNwUHZ0LTNaQ3ZBazBGSXdVMjVIc25scGVmN3J1UG9KcFJCTnRwdw?oc=5",
+          "published_date": "2026-10-04",
+          "title": "【速報】日経新聞にサイバー攻撃 取材先などに不審メール9000件 - テレ朝NEWS",
+          "attack": true,
+          "organization": "日本経済新聞社",
+          "attack_type": null,
+          "leak_status": "不明",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "【速報】日経新聞にサイバー攻撃 取材先などに不審メール9000件 - テレ朝NEWS"
+        },
         {
           "source": "Google News",
           "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9RTU8yQ2ZMMDNtX3NROE9KN19iSHJlSW9RMV9qLUpFenQ4TDNWZ3JSVlBZUjVhdHhWZzM2T256YjZFV1BoemlOUFc1a2pPcnBiR0h2d2ZnTjR3NzQ?oc=5",
@@ -991,19 +1461,6 @@
           "leak_count": "9000",
           "leaked_data": [],
           "incident_summary": "日経新聞にサイバー攻撃 社員になりすましたメール約9000件が送信される 個人情報の流出数など調査 - Yahoo!ニュース"
-        },
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB1SnV5ay1RdWRIRXlaRGhlYWtUZXdsZGFtYUJBRTNBa2ZVUWlFNS1TU043eEpzcHdOWkdacjhsNEdrVURGNjFLQWQtc1VqX256R1hGYU1TRVBBcWEwRXRj?oc=5",
-          "published_date": "2026-10-04",
-          "title": "日経新聞サイバー攻撃で情報漏えいか なりすましメールが送信 | NHKニュース | サイバー攻撃、IT・ネット、企業・経営 - NHKニュース",
-          "attack": true,
-          "organization": "日本経済新聞社",
-          "attack_type": null,
-          "leak_status": "確認・可能性あり",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "日経新聞サイバー攻撃で情報漏えいか なりすましメールが送信 | NHKニュース | サイバー攻撃、IT・ネット、企業・経営 - NHKニュース"
         },
         {
           "source": "Security NEXT",
@@ -1060,32 +1517,36 @@
     },
     {
       "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOOEhaMmt3NW1GYWhvSlpQUEF4R1c0aXg4cGJtZ0E4Y3dHMzF3T1J5NUkxYVkwbC1Cc0VtbGQwcGNTMUJEZ3I5eC11bzFZekEyNjlVUGJudmFMN3JncGFPellNV0tsb3NWS1BiNzVBSXdCajlSbDJiYUxhTnQ0cHdGNw?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZW54NTFFODNIeFBDZlFoVzl1aUZ0a25wUk1XWmt4cUZMTkFWalBubE1LRU9XTDl2eS12SEtGaDhJMWV3ZGJFWXBuUVY2UW5nZ0o0Q3ZGZGJzeEVuQTNMaGc5WWVpRmRYRXJvVTlzQ0JBSlh0MWdkbDlZb0ZwbGlSYVlVYmLSAYQBQVVfeXFMTWVueDUxRTgzSHhQQ2ZRaFc5dWlGdGtucFJNV1preHFGTE5BVmpQbmxNS0VPV0w5dnktdkhLRmg4STFld2RiRVlwblFWNlFuZ2dKNEN2RmRic3hFbkEzTGhnOVllaUZkWEVyb1U5c0NCQUpYdDFnZGw5WW9GcGxpUmFZVWJi?oc=5",
       "published_date": "2026-10-06",
-      "title": "ミスターマックスのアプリ MrMax アプリとオンラインストアへ不正アクセスによるサイバー攻撃-最大約173万件の個人情報漏洩 - 合同会社ロケットボーイズ",
+      "title": "ミスターマックス、不正アクセスで最大173万人超の会員情報流出の恐れ - ｄメニューニュース",
       "attack": true,
       "organization": "ミスターマックス",
       "attack_type": "不正アクセス",
-      "leak_status": "確認・可能性あり",
+      "leak_status": "可能性あり",
       "leak_count": null,
-      "leaked_data": [],
-      "incident_summary": "ミスターマックスのアプリ MrMax アプリとオンラインストアへ不正アクセスによるサイバー攻撃-最大約173万件の個人情報漏洩 - 合同会社ロケットボーイズ",
+      "leaked_data": [
+        "会員情報"
+      ],
+      "incident_summary": "ミスターマックス、不正アクセスで最大173万人超の会員情報流出の恐れ - ｄメニューニュース",
       "sources": [
         "Google News"
       ],
       "source_records": [
         {
           "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOOEhaMmt3NW1GYWhvSlpQUEF4R1c0aXg4cGJtZ0E4Y3dHMzF3T1J5NUkxYVkwbC1Cc0VtbGQwcGNTMUJEZ3I5eC11bzFZekEyNjlVUGJudmFMN3JncGFPellNV0tsb3NWS1BiNzVBSXdCajlSbDJiYUxhTnQ0cHdGNw?oc=5",
+          "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZW54NTFFODNIeFBDZlFoVzl1aUZ0a25wUk1XWmt4cUZMTkFWalBubE1LRU9XTDl2eS12SEtGaDhJMWV3ZGJFWXBuUVY2UW5nZ0o0Q3ZGZGJzeEVuQTNMaGc5WWVpRmRYRXJvVTlzQ0JBSlh0MWdkbDlZb0ZwbGlSYVlVYmLSAYQBQVVfeXFMTWVueDUxRTgzSHhQQ2ZRaFc5dWlGdGtucFJNV1preHFGTE5BVmpQbmxNS0VPV0w5dnktdkhLRmg4STFld2RiRVlwblFWNlFuZ2dKNEN2RmRic3hFbkEzTGhnOVllaUZkWEVyb1U5c0NCQUpYdDFnZGw5WW9GcGxpUmFZVWJi?oc=5",
           "published_date": "2026-10-06",
-          "title": "ミスターマックスのアプリ MrMax アプリとオンラインストアへ不正アクセスによるサイバー攻撃-最大約173万件の個人情報漏洩 - 合同会社ロケットボーイズ",
+          "title": "ミスターマックス、不正アクセスで最大173万人超の会員情報流出の恐れ - ｄメニューニュース",
           "attack": true,
           "organization": "ミスターマックス",
           "attack_type": "不正アクセス",
-          "leak_status": "確認・可能性あり",
+          "leak_status": "可能性あり",
           "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "ミスターマックスのアプリ MrMax アプリとオンラインストアへ不正アクセスによるサイバー攻撃-最大約173万件の個人情報漏洩 - 合同会社ロケットボーイズ"
+          "leaked_data": [
+            "会員情報"
+          ],
+          "incident_summary": "ミスターマックス、不正アクセスで最大173万人超の会員情報流出の恐れ - ｄメニューニュース"
         }
       ],
       "source_count": 1,
@@ -1093,32 +1554,32 @@
     },
     {
       "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9NTmI2bm5FYUR2ZUZzcUhlb3FkT1VRWmtBb01IbUhsbjk5dnUzOHFWOTZEUVRSUVpIcnFITnU5YVFxRE1zc2JaTWhVaC1kUTJIOEtv?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBqSjZaUkdrNWdFY0JmcmFmbkgyczNtNjhLUm9BWmUwSFpmeFNQc1RBNG5CMVkwVFQ4aHRMS2VtWmczMFlKMTFFOW9adzFqUmFHbUNyMHdSSWZXajlQYlE2VVZUTDFMUXVwckpDRldIONIBdEFVX3lxTFBWLWR2YmUxMXdaLWpOZThrXzNpNFR0OHE5Mk54TV85a2RnQUotVXNLNXFwck5nTnAxU0RPdXp1TzYtM0Q4YmJfUWxmQTNOZnE2MDAteG1BMndPMHdkS252dXBPWVRmMzB6NlNDQ3B1Y0tQQWZW?oc=5",
       "published_date": "2026-10-06",
-      "title": "シチズン時計、委託先システムへの不正アクセスにより約10万人の個人情報漏えいの可能性 - 東京報道新聞",
+      "title": "シチズン時計10万人分漏えいか 個人情報、委託業者不正アクセス - Infoseek",
       "attack": true,
       "organization": "シチズン時計株式会社",
       "attack_type": "不正アクセス",
-      "leak_status": "可能性あり",
+      "leak_status": "確認・可能性あり",
       "leak_count": null,
       "leaked_data": [],
-      "incident_summary": "シチズン時計、委託先システムへの不正アクセスにより約10万人の個人情報漏えいの可能性 - 東京報道新聞",
+      "incident_summary": "シチズン時計10万人分漏えいか 個人情報、委託業者不正アクセス - Infoseek",
       "sources": [
         "Google News"
       ],
       "source_records": [
         {
           "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9NTmI2bm5FYUR2ZUZzcUhlb3FkT1VRWmtBb01IbUhsbjk5dnUzOHFWOTZEUVRSUVpIcnFITnU5YVFxRE1zc2JaTWhVaC1kUTJIOEtv?oc=5",
+          "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBqSjZaUkdrNWdFY0JmcmFmbkgyczNtNjhLUm9BWmUwSFpmeFNQc1RBNG5CMVkwVFQ4aHRMS2VtWmczMFlKMTFFOW9adzFqUmFHbUNyMHdSSWZXajlQYlE2VVZUTDFMUXVwckpDRldIONIBdEFVX3lxTFBWLWR2YmUxMXdaLWpOZThrXzNpNFR0OHE5Mk54TV85a2RnQUotVXNLNXFwck5nTnAxU0RPdXp1TzYtM0Q4YmJfUWxmQTNOZnE2MDAteG1BMndPMHdkS252dXBPWVRmMzB6NlNDQ3B1Y0tQQWZW?oc=5",
           "published_date": "2026-10-06",
-          "title": "シチズン時計、委託先システムへの不正アクセスにより約10万人の個人情報漏えいの可能性 - 東京報道新聞",
+          "title": "シチズン時計10万人分漏えいか 個人情報、委託業者不正アクセス - Infoseek",
           "attack": true,
           "organization": "シチズン時計株式会社",
           "attack_type": "不正アクセス",
-          "leak_status": "可能性あり",
+          "leak_status": "確認・可能性あり",
           "leak_count": null,
           "leaked_data": [],
-          "incident_summary": "シチズン時計、委託先システムへの不正アクセスにより約10万人の個人情報漏えいの可能性 - 東京報道新聞"
+          "incident_summary": "シチズン時計10万人分漏えいか 個人情報、委託業者不正アクセス - Infoseek"
         }
       ],
       "source_count": 1,
@@ -1126,36 +1587,32 @@
     },
     {
       "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE45aEJtMHFJQWtRU1N6RTFXWGRNZjZrUERVOXA5NWwxVnprOWJoX09BVGZMR1hsbjMxNmNjbUNfckJsQTRZTHE1bWNlVnRyRjlpTW9CNjRNUnVpWkttYU55ZmpOblZGLVhJUlpocw?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE01aWl1Vk1fMzZMemhuNm9rSFhwOGo4NXo5UndwYjNFeGVxSmJnRWw5ckdaTDZlakx0cmJ0cllaQVRaamRBbmYwRmlyZHF1RFNNbDVMTlB2WkRIaHJrUXdoVzZOQ3RFZw?oc=5",
       "published_date": "2026-10-06",
-      "title": "シチズン、顧客情報10万人漏洩か 業務委託先に不正アクセス - 日本経済新聞",
+      "title": "サイバー攻撃で情報漏えい急増、ＡＩ悪用で「短時間・広範囲に」…会員ポイントが不正交換される「二次被害」も - 読売新聞",
       "attack": true,
-      "organization": "日本経済新聞",
-      "attack_type": "不正アクセス",
+      "organization": "読売新聞",
+      "attack_type": null,
       "leak_status": "確認・可能性あり",
       "leak_count": null,
-      "leaked_data": [
-        "顧客情報"
-      ],
-      "incident_summary": "シチズン、顧客情報10万人漏洩か 業務委託先に不正アクセス - 日本経済新聞",
+      "leaked_data": [],
+      "incident_summary": "サイバー攻撃で情報漏えい急増、ＡＩ悪用で「短時間・広範囲に」…会員ポイントが不正交換される「二次被害」も - 読売新聞",
       "sources": [
         "Google News"
       ],
       "source_records": [
         {
           "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE45aEJtMHFJQWtRU1N6RTFXWGRNZjZrUERVOXA5NWwxVnprOWJoX09BVGZMR1hsbjMxNmNjbUNfckJsQTRZTHE1bWNlVnRyRjlpTW9CNjRNUnVpWkttYU55ZmpOblZGLVhJUlpocw?oc=5",
+          "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE01aWl1Vk1fMzZMemhuNm9rSFhwOGo4NXo5UndwYjNFeGVxSmJnRWw5ckdaTDZlakx0cmJ0cllaQVRaamRBbmYwRmlyZHF1RFNNbDVMTlB2WkRIaHJrUXdoVzZOQ3RFZw?oc=5",
           "published_date": "2026-10-06",
-          "title": "シチズン、顧客情報10万人漏洩か 業務委託先に不正アクセス - 日本経済新聞",
+          "title": "サイバー攻撃で情報漏えい急増、ＡＩ悪用で「短時間・広範囲に」…会員ポイントが不正交換される「二次被害」も - 読売新聞",
           "attack": true,
-          "organization": "日本経済新聞",
-          "attack_type": "不正アクセス",
+          "organization": "読売新聞",
+          "attack_type": null,
           "leak_status": "確認・可能性あり",
           "leak_count": null,
-          "leaked_data": [
-            "顧客情報"
-          ],
-          "incident_summary": "シチズン、顧客情報10万人漏洩か 業務委託先に不正アクセス - 日本経済新聞"
+          "leaked_data": [],
+          "incident_summary": "サイバー攻撃で情報漏えい急増、ＡＩ悪用で「短時間・広範囲に」…会員ポイントが不正交換される「二次被害」も - 読売新聞"
         }
       ],
       "source_count": 1,
@@ -1195,6 +1652,49 @@
             "顧客情報"
           ],
           "incident_summary": "回転ずしチェーンなどを展開する大起水産は、「大起水産公式アプリ」が不正アクセスを受け、顧客の個人情報が流出した可能性があることを明らかにした。アプリは通常通り利用できる。 ：Security NEXT"
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56394.html",
+      "published_date": "2026-10-06",
+      "title": "「ベネワン・プラットフォーム」のアンケート機能で他企業・団体の個人情報がダウンロード可能に、不具合を認知するも解消作業が適切に実施されず 株式会社ベネフィット・ワンは9月30日、同社が提供する福利厚生サービスの企業・団体の担当者向けの機能である「ベネワン・プラットフォーム」での個人情報漏えいについて発表した。",
+      "attack": true,
+      "organization": "ニッポンレンタカーサービス株式会社",
+      "service": "ベネワン・プラットフォーム",
+      "attack_type": "ランサムウェア",
+      "leak_status": "確認・可能性あり",
+      "leak_count": null,
+      "leaked_data": [
+        "氏名",
+        "生年月日",
+        "クレジットカード情報"
+      ],
+      "incident_summary": "株式会社ベネフィット・ワンは9月30日、同社が提供する福利厚生サービスの企業・団体の担当者向けの機能である「ベネワン・プラットフォーム」での個人情報漏えいについて発表した。 これは「ベネワン・プラットフォーム」のアンケート機能にて、担当者がアンケート結果をダウンロードした際、本来アクセスできない他企業・団体の従業員の個人情報の一部が表示される状態となっていたというもの。同社サービスを利用している企業・団体の担当者1社1名から7月30日に連絡があり、発覚した。 対象となるのは2,322企業・団体の13,460名の個人情報（社員・職員番号、氏名、性別、生年月日、企業・団体名、所属/役職、入退社情報）.。 同社では当該データについて、利用企業・団体の担当者に連絡し、第三者への転送、複製その他の提供は行われておらず、同社への連絡後にデータを削除したことを確認している。 同社で調査した結果、2025年6月に行ったシステム改修により発生していた、アンケート結果ダウンロード機能におけるプログラムの条件設定不備が原因と確認している。また、2025年10月に行った社内調査で本不具合を認知していたものの、",
+      "sources": [
+        "ScanNetSecurity"
+      ],
+      "source_records": [
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56394.html",
+          "published_date": "2026-10-06",
+          "title": "「ベネワン・プラットフォーム」のアンケート機能で他企業・団体の個人情報がダウンロード可能に、不具合を認知するも解消作業が適切に実施されず 株式会社ベネフィット・ワンは9月30日、同社が提供する福利厚生サービスの企業・団体の担当者向けの機能である「ベネワン・プラットフォーム」での個人情報漏えいについて発表した。",
+          "attack": true,
+          "organization": "ニッポンレンタカーサービス株式会社",
+          "service": "ベネワン・プラットフォーム",
+          "attack_type": "ランサムウェア",
+          "leak_status": "確認・可能性あり",
+          "leak_count": null,
+          "leaked_data": [
+            "氏名",
+            "生年月日",
+            "クレジットカード情報"
+          ],
+          "incident_summary": "株式会社ベネフィット・ワンは9月30日、同社が提供する福利厚生サービスの企業・団体の担当者向けの機能である「ベネワン・プラットフォーム」での個人情報漏えいについて発表した。 これは「ベネワン・プラットフォーム」のアンケート機能にて、担当者がアンケート結果をダウンロードした際、本来アクセスできない他企業・団体の従業員の個人情報の一部が表示される状態となっていたというもの。同社サービスを利用している企業・団体の担当者1社1名から7月30日に連絡があり、発覚した。 対象となるのは2,322企業・団体の13,460名の個人情報（社員・職員番号、氏名、性別、生年月日、企業・団体名、所属/役職、入退社情報）.。 同社では当該データについて、利用企業・団体の担当者に連絡し、第三者への転送、複製その他の提供は行われておらず、同社への連絡後にデータを削除したことを確認している。 同社で調査した結果、2025年6月に行ったシステム改修により発生していた、アンケート結果ダウンロード機能におけるプログラムの条件設定不備が原因と確認している。また、2025年10月に行った社内調査で本不具合を認知していたものの、"
         }
       ],
       "source_count": 1,
@@ -1309,6 +1809,41 @@
       "source": "SmartScope",
       "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
       "published_date": "2026-10-06",
+      "title": "Weather Caster Network (website)（ disclosure ） — Third-party unauthorized access to the website, found to have started Sept 24. An abnormal file was reported Sept 27 and website tampering found Sept 29. The website was closed Sept 30. Entry route not stated.",
+      "organization": "Weather Caster Network (website)（ disclosure ）",
+      "affected_count": "Up to 15,959 records possibly leaked: membership registrations and changes, event applications and website inquiries collected since December 2018. All contain names and email addresses; some also contain addresses and phone numbers. Website tampering was also confirmed.",
+      "attack_type": null,
+      "attack": true,
+      "leak_status": "不明",
+      "leak_count": null,
+      "leaked_data": [],
+      "incident_summary": "Weather Caster Network (website)（ disclosure ） — Third-party unauthorized access to the website, found to have started Sept 24. An abnormal file was reported Sept 27 and website tampering found Sept 29. The website was closed Sept 30. Entry route not stated.",
+      "sources": [
+        "SmartScope"
+      ],
+      "source_records": [
+        {
+          "source": "SmartScope",
+          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
+          "published_date": "2026-10-06",
+          "title": "Weather Caster Network (website)（ disclosure ） — Third-party unauthorized access to the website, found to have started Sept 24. An abnormal file was reported Sept 27 and website tampering found Sept 29. The website was closed Sept 30. Entry route not stated.",
+          "organization": "Weather Caster Network (website)（ disclosure ）",
+          "affected_count": "Up to 15,959 records possibly leaked: membership registrations and changes, event applications and website inquiries collected since December 2018. All contain names and email addresses; some also contain addresses and phone numbers. Website tampering was also confirmed.",
+          "attack_type": null,
+          "attack": true,
+          "leak_status": "不明",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "Weather Caster Network (website)（ disclosure ） — Third-party unauthorized access to the website, found to have started Sept 24. An abnormal file was reported Sept 27 and website tampering found Sept 29. The website was closed Sept 30. Entry route not stated."
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
+      "source": "SmartScope",
+      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
+      "published_date": "2026-10-06",
       "title": "Saltydog (Google Ads MCC)（ disclosure ） — Unauthorized access to one Google account used for management work, identified from Google's history. The account had a complex password plus passkey and security-key two-step verification; the entry route and how authentication was bypassed are not identified.",
       "organization": "ソルティドッグ株式会社",
       "affected_count": "— (number of affected customers and amounts not disclosed). Fraudulent online-casino ads were created in customer ad accounts under the company's MCC. About half of the customers reached had the ads rejected in review; approximately the other half incurred fraudulent ad costs. No personal-data leak mentioned",
@@ -1372,55 +1907,6 @@
       ],
       "source_count": 1,
       "merged": false
-    },
-    {
-      "source": "SmartScope",
-      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-      "published_date": "2026-10-06",
-      "title": "Citizen Watch (contractor Scala Communications)（ disclosure ） — Unauthorized access to the server of contractor Scala Communications, provider of the inquiry-form system, from about 20:33 on Oct 2 to about 08:01 on Oct 3. No unauthorized access to Citizen's own systems confirmed. Citizen's notice does not state the entry route (Scala says an unauthorized login to the i-ask admin site).",
-      "organization": "株式会社スカラコミュニケーションズ",
-      "affected_count": "About 100,000 people (names, addresses, phone numbers, email addresses etc. in inquiry data); possible leak. Bank-account or card information entered in the inquiry content may also have leaked. The same contractor, Scala Communications, reports in its own notice that its i-ask incident involves up to 5 companies and up to 713,126 inquiry records, including multiple inquiries by the same customer. The notices do not explicitly state whether Citizen's figure is included in that total",
-      "attack_type": null,
-      "attack": true,
-      "leak_status": "不明",
-      "leak_count": null,
-      "leaked_data": [],
-      "incident_summary": "Citizen Watch (contractor Scala Communications)（ disclosure ） — Unauthorized access to the server of contractor Scala Communications, provider of the inquiry-form system, from about 20:33 on Oct 2 to about 08:01 on Oct 3. No unauthorized access to Citizen's own systems confirmed. Citizen's notice does not state the entry route (Scala says an unauthorized login to the i-ask admin site).",
-      "sources": [
-        "SmartScope"
-      ],
-      "source_records": [
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-10-05",
-          "title": "Daiwa Securities (contractor Scala Communications)（ disclosure ） — Unauthorized access to the server of inquiry-management service provider Scala Communications, from about 20:33 on Oct 2 to about 08:01 on Oct 3 according to Daiwa's notice. Scala's notice reports that a third party logged in without authorization to the i-ask admin site and installed a malicious program on its server. How the login credentials were obtained is not stated. No unauthorized access to Daiwa's systems confirmed.",
-          "organization": "株式会社スカラコミュニケーションズ",
-          "affected_count": "About 220,000 records, including inquiries without personally identifying information and names, email addresses, account numbers etc. relating to about 110,000 customers; possible leak. The same contractor, Scala Communications, reports in its own notice that its i-ask incident involves up to 5 companies and up to 713,126 inquiry records, including multiple inquiries by the same customer. The notices do not explicitly state whether Daiwa's figure is included in that total",
-          "attack_type": null,
-          "attack": true,
-          "leak_status": "不明",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "Daiwa Securities (contractor Scala Communications)（ disclosure ） — Unauthorized access to the server of inquiry-management service provider Scala Communications, from about 20:33 on Oct 2 to about 08:01 on Oct 3 according to Daiwa's notice. Scala's notice reports that a third party logged in without authorization to the i-ask admin site and installed a malicious program on its server. How the login credentials were obtained is not stated. No unauthorized access to Daiwa's systems confirmed."
-        },
-        {
-          "source": "SmartScope",
-          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
-          "published_date": "2026-10-06",
-          "title": "Citizen Watch (contractor Scala Communications)（ disclosure ） — Unauthorized access to the server of contractor Scala Communications, provider of the inquiry-form system, from about 20:33 on Oct 2 to about 08:01 on Oct 3. No unauthorized access to Citizen's own systems confirmed. Citizen's notice does not state the entry route (Scala says an unauthorized login to the i-ask admin site).",
-          "organization": "株式会社スカラコミュニケーションズ",
-          "affected_count": "About 100,000 people (names, addresses, phone numbers, email addresses etc. in inquiry data); possible leak. Bank-account or card information entered in the inquiry content may also have leaked. The same contractor, Scala Communications, reports in its own notice that its i-ask incident involves up to 5 companies and up to 713,126 inquiry records, including multiple inquiries by the same customer. The notices do not explicitly state whether Citizen's figure is included in that total",
-          "attack_type": null,
-          "attack": true,
-          "leak_status": "不明",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "Citizen Watch (contractor Scala Communications)（ disclosure ） — Unauthorized access to the server of contractor Scala Communications, provider of the inquiry-form system, from about 20:33 on Oct 2 to about 08:01 on Oct 3. No unauthorized access to Citizen's own systems confirmed. Citizen's notice does not state the entry route (Scala says an unauthorized login to the i-ask admin site)."
-        }
-      ],
-      "source_count": 1,
-      "merged": true
     },
     {
       "source": "SmartScope",
@@ -1493,10 +1979,45 @@
       "merged": false
     },
     {
+      "source": "SmartScope",
+      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
+      "published_date": "2026-10-06",
+      "title": "Active (online shop)（ disclosure ） — SQL injection against a specific online-shop web page on Oct 2. Unauthorized-access traces found during checks and log analysis on Oct 3. The affected page vulnerability was fixed; detailed external investigation is being arranged.",
+      "organization": "Active (online shop)（ disclosure ）",
+      "affected_count": "Up to 54,916 customer and order records possibly leaked: shop or trade names, addresses, phone numbers, emails, order amounts, product codes and delivery addresses. The shop holds neither credit-card nor bank-account information; login passwords are also excluded from the leakage scope.",
+      "attack_type": null,
+      "attack": true,
+      "leak_status": "不明",
+      "leak_count": null,
+      "leaked_data": [],
+      "incident_summary": "Active (online shop)（ disclosure ） — SQL injection against a specific online-shop web page on Oct 2. Unauthorized-access traces found during checks and log analysis on Oct 3. The affected page vulnerability was fixed; detailed external investigation is being arranged.",
+      "sources": [
+        "SmartScope"
+      ],
+      "source_records": [
+        {
+          "source": "SmartScope",
+          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
+          "published_date": "2026-10-06",
+          "title": "Active (online shop)（ disclosure ） — SQL injection against a specific online-shop web page on Oct 2. Unauthorized-access traces found during checks and log analysis on Oct 3. The affected page vulnerability was fixed; detailed external investigation is being arranged.",
+          "organization": "Active (online shop)（ disclosure ）",
+          "affected_count": "Up to 54,916 customer and order records possibly leaked: shop or trade names, addresses, phone numbers, emails, order amounts, product codes and delivery addresses. The shop holds neither credit-card nor bank-account information; login passwords are also excluded from the leakage scope.",
+          "attack_type": null,
+          "attack": true,
+          "leak_status": "不明",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "Active (online shop)（ disclosure ） — SQL injection against a specific online-shop web page on Oct 2. Unauthorized-access traces found during checks and log analysis on Oct 3. The affected page vulnerability was fixed; detailed external investigation is being arranged."
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
       "source": "Yagura",
       "source_url": "https://incident.yagurasec.com/incidents/2026-10-06-scala-communications-i-ask-breach/",
       "published_date": "2026-10-06",
-      "title": "2026/10/06 FAQ・問い合わせ管理システム「i-ask」を提供するスカラコミュニケーションズ（東京都渋谷区）、管理サイトへの不正ログインで最大5社・延べ71万3,126件の問い合わせ情報が漏えいのおそれ 情報収集中 重大 株式会社スカラ（東証）は2026年10月6日、連結子会社の株式会社スカラコミュニケーションズ（東京都渋谷区／FAQ・問い合わせ管理システム「i-ask」を提供）のサーバが不正アクセスを受け、同システムを導入していた最大5社・延べ最大713,126件の問い合わせ情報が漏えいした可能性があると公表した。第三者が2026年10月2日20時33分頃から10月3日8時1分頃にかけて「i-ask」の管理サイトへ不正にログインし、サーバに不正なプログラムを設置していた。スカラコミュニケーションズは10月3日朝にアクセスを遮断し、同日中に利用企業へ報告している。利用企業の一部は個別に対象件数を公表しているが、全5社の内訳は明らかにされていない。公表時点で二次被害は確認されていない。",
+      "title": "2026/10/06 FAQ・問い合わせ管理システム「i-ask」を提供するスカラコミュニケーションズ（東京都渋谷区）、管理サイトへの不正ログインで最大5社・延べ71万3,126件の問い合わせ情報が漏えいのおそれ 情報収集中 重大 株式会社スカラ（東証）は2026年10月6日、連結子会社の株式会社スカラコミュニケーションズ（東京都渋谷区／FAQ・問い合わせ管理システム「i-ask」を提供）のサーバが不正アクセスを受け、同システムを導入していた最大5社・延べ最大713,126件の問い合わせ情報が漏えいした可能性があると公表した。第三者が2026年10月2日20時33分頃から10月3日8時1分頃にかけて「i-ask」の管理サイトへ不正にログインし、サーバに不正なプログラムを設置していた。スカラコミュニケーションズは10月3日朝にアクセスを遮断し、同日中に利用企業へ報告している。利用企業の一部は個別に対象件数を公表しているが、全5社の内訳は明らかにされていない。公表時点で二次被害は確認されていない。 →",
       "attack": true,
       "organization": "株式会社スカラコミュニケーションズ",
       "service": "i-ask",
@@ -1513,7 +2034,7 @@
           "source": "Yagura",
           "source_url": "https://incident.yagurasec.com/incidents/2026-10-06-scala-communications-i-ask-breach/",
           "published_date": "2026-10-06",
-          "title": "2026/10/06 FAQ・問い合わせ管理システム「i-ask」を提供するスカラコミュニケーションズ（東京都渋谷区）、管理サイトへの不正ログインで最大5社・延べ71万3,126件の問い合わせ情報が漏えいのおそれ 情報収集中 重大 株式会社スカラ（東証）は2026年10月6日、連結子会社の株式会社スカラコミュニケーションズ（東京都渋谷区／FAQ・問い合わせ管理システム「i-ask」を提供）のサーバが不正アクセスを受け、同システムを導入していた最大5社・延べ最大713,126件の問い合わせ情報が漏えいした可能性があると公表した。第三者が2026年10月2日20時33分頃から10月3日8時1分頃にかけて「i-ask」の管理サイトへ不正にログインし、サーバに不正なプログラムを設置していた。スカラコミュニケーションズは10月3日朝にアクセスを遮断し、同日中に利用企業へ報告している。利用企業の一部は個別に対象件数を公表しているが、全5社の内訳は明らかにされていない。公表時点で二次被害は確認されていない。",
+          "title": "2026/10/06 FAQ・問い合わせ管理システム「i-ask」を提供するスカラコミュニケーションズ（東京都渋谷区）、管理サイトへの不正ログインで最大5社・延べ71万3,126件の問い合わせ情報が漏えいのおそれ 情報収集中 重大 株式会社スカラ（東証）は2026年10月6日、連結子会社の株式会社スカラコミュニケーションズ（東京都渋谷区／FAQ・問い合わせ管理システム「i-ask」を提供）のサーバが不正アクセスを受け、同システムを導入していた最大5社・延べ最大713,126件の問い合わせ情報が漏えいした可能性があると公表した。第三者が2026年10月2日20時33分頃から10月3日8時1分頃にかけて「i-ask」の管理サイトへ不正にログインし、サーバに不正なプログラムを設置していた。スカラコミュニケーションズは10月3日朝にアクセスを遮断し、同日中に利用企業へ報告している。利用企業の一部は個別に対象件数を公表しているが、全5社の内訳は明らかにされていない。公表時点で二次被害は確認されていない。 →",
           "attack": true,
           "organization": "株式会社スカラコミュニケーションズ",
           "service": "i-ask",
@@ -1770,6 +2291,52 @@
     },
     {
       "source": "Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTFBsakhRYWV2YUNEY0V2NTBHVGZjSUt5QS11LTZJano4bTZ3UHVfVmxEX19vWFkyd2NycklTbzBPSVZuZ1Z5VzR0VFR2OFhTMFBtVnB2MnpKdVZBY0l3Wm1kWXpLR3FpT0s3MVBpWmU1NTNpVk85V0ZTYmxKZDZDSE5GanlzWEpLS3hpMVlKaVl2UXdXYzIySEZUNNIBmwFBVV95cUxNTFBsakhRYWV2YUNEY0V2NTBHVGZjSUt5QS11LTZJano4bTZ3UHVfVmxEX19vWFkyd2NycklTbzBPSVZuZ1Z5VzR0VFR2OFhTMFBtVnB2MnpKdVZBY0l3Wm1kWXpLR3FpT0s3MVBpWmU1NTNpVk85V0ZTYmxKZDZDSE5GanlzWEpLS3hpMVlKaVl2UXdXYzIySEZUNA?oc=5",
+      "published_date": "2026-10-05",
+      "title": "日本交通、不正アクセスで停止していた「電話でタクシー配車」再開へ 約3カ月ぶり - ｄメニューニュース",
+      "attack": true,
+      "organization": "日本交通",
+      "attack_type": "不正アクセス",
+      "leak_status": "不明",
+      "leak_count": null,
+      "leaked_data": [],
+      "incident_summary": "日本交通、不正アクセスで停止していた「電話でタクシー配車」再開へ 約3カ月ぶり - ｄメニューニュース",
+      "sources": [
+        "Google News"
+      ],
+      "source_records": [
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1PMWhRMUdibHJxUUg3MUE0MzQxell5RHZpV21lUjZieG1zZkNHX0t1c2xZdFhGNmFhT3NNMzZETUxxWG8xLVB6Y2ozRTB4SjAxT3dTMFdrMlp5NXlGZzVUTzltcUp2dGZ5WWRVdkd1SndQZw?oc=5",
+          "published_date": "2026-10-05",
+          "title": "日本交通、不正アクセスで停止していた「電話でタクシー配車」再開へ 約3カ月ぶり - ニコニコニュース",
+          "attack": true,
+          "organization": "日本交通",
+          "attack_type": "不正アクセス",
+          "leak_status": "不明",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "日本交通、不正アクセスで停止していた「電話でタクシー配車」再開へ 約3カ月ぶり - ニコニコニュース"
+        },
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTFBsakhRYWV2YUNEY0V2NTBHVGZjSUt5QS11LTZJano4bTZ3UHVfVmxEX19vWFkyd2NycklTbzBPSVZuZ1Z5VzR0VFR2OFhTMFBtVnB2MnpKdVZBY0l3Wm1kWXpLR3FpT0s3MVBpWmU1NTNpVk85V0ZTYmxKZDZDSE5GanlzWEpLS3hpMVlKaVl2UXdXYzIySEZUNNIBmwFBVV95cUxNTFBsakhRYWV2YUNEY0V2NTBHVGZjSUt5QS11LTZJano4bTZ3UHVfVmxEX19vWFkyd2NycklTbzBPSVZuZ1Z5VzR0VFR2OFhTMFBtVnB2MnpKdVZBY0l3Wm1kWXpLR3FpT0s3MVBpWmU1NTNpVk85V0ZTYmxKZDZDSE5GanlzWEpLS3hpMVlKaVl2UXdXYzIySEZUNA?oc=5",
+          "published_date": "2026-10-05",
+          "title": "日本交通、不正アクセスで停止していた「電話でタクシー配車」再開へ 約3カ月ぶり - ｄメニューニュース",
+          "attack": true,
+          "organization": "日本交通",
+          "attack_type": "不正アクセス",
+          "leak_status": "不明",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "日本交通、不正アクセスで停止していた「電話でタクシー配車」再開へ 約3カ月ぶり - ｄメニューニュース"
+        }
+      ],
+      "source_count": 1,
+      "merged": true
+    },
+    {
+      "source": "Google News",
       "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSE85Vmc4eVp5N2JjaDRZZ0toVURTcUlyLXVxTEJzWno0c05TQ0NOZFFLZmlQamdOUVNuT2Rkajl0N3hRZU9IMFJXTXZKQW1mSGlFWHF4TFlsWGpTeE10R0dFYmxZeXhRSFVrVi1tWGVqS3hCTWNUTzZ1TzNGc3E4RURheDA2LUxNc2NaZVN2ZDg4RHPSAZMBQVVfeXFMT0hPOVZnOHlaeTdiY2g0WWdLaFVEU3FJci11cUxCc1p6NHNOU0NDTmRRS2ZpUGpnTlFTbk9kZGo5dDd4UWVPSDBSV012SkFtZkhpRVhxeExZbFhqU3hNdEdHRWJsWXl4UUhVa1YtbVhlakt4Qk1jVE82dU8zRnNxOEVEYXgwNi1MTXNjWmVTdmQ4OERz?oc=5",
       "published_date": "2026-10-05",
       "title": "大和証券に不正アクセス、22万件漏えいか - ｄメニューニュース",
@@ -1801,19 +2368,6 @@
         },
         {
           "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQ2VtSFNuVDUtTXE1bjhSS0ZYTUlVY0FoRGl2NjV4VkdicHhPSEFxamtQYlZMdnpadC1ZZnhYa3R0a3dDQk9aNWVIWUFUSXYzRW5BNERHTTRIbHlkTHdTUF94ZXV0NkZUNnoxNFQzSERYekZMX1pfaHNYS0N6YVU3cy1lNTlxQjQ3ZjhMajZkR0NDcUnSAZMBQVVfeXFMTkNlbUhTblQ1LU1xNW44UktGWE1JVWNBaERpdjY1eFZHYnB4T0hBcWprUGJWTHZ6WnQtWWZ4WGt0dGt3Q0JPWjVlSFlBVEl2M0VuQTRER000SGx5ZEx3U1BfeGV1dDZGVDZ6MTRUM0hEWHpGTF9aX2hzWEtDemFVN3MtZTU5cUI0N2Y4TGo2ZEdDQ3FJ?oc=5",
-          "published_date": "2026-10-05",
-          "title": "大和証、22万件漏えいか 不正アクセス、個人情報も - ｄメニューニュース",
-          "attack": true,
-          "organization": "大和証券株式会社",
-          "attack_type": "不正アクセス",
-          "leak_status": "確認・可能性あり",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "大和証、22万件漏えいか 不正アクセス、個人情報も - ｄメニューニュース"
-        },
-        {
-          "source": "Google News",
           "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5qLXVieEl0Yi1PclpmdmlmdmpJY1VrdkVGZEVkWlBEWC1tWlVGckZaX25oaUhkT3BsMmJjMWJ2TXhxYnBhNkY0X09hb3dSdE9Bb0QxYzRSNWppcFJSXzloa253UmZZVHhDelFxaQ?oc=5",
           "published_date": "2026-10-05",
           "title": "大和証券、口座番号など顧客情報22万件が漏洩か 委託先に不正アクセス - 日本経済新聞",
@@ -1841,6 +2395,19 @@
             "顧客情報"
           ],
           "incident_summary": "大和証券、委託先への不正アクセスで顧客情報漏洩の可能性 - 千葉テレビ放送株式会社"
+        },
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBrSzlmUndaWU1VTlM2cXB2LUhDZ2IyY1c4TDRkeFJ3R3MydExVc0QzT0lZYUFaU2dvTWNham9uZGc0al80c09icHVXaXpnc0ZCTTk1bXZNdk83clBvelVfZVdXeUtRMHc?oc=5",
+          "published_date": "2026-10-05",
+          "title": "大和証券、顧客11万人の口座番号など漏洩か 委託先に不正アクセス - 朝日新聞",
+          "attack": true,
+          "organization": "大和証券株式会社",
+          "attack_type": "不正アクセス",
+          "leak_status": "確認・可能性あり",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "大和証券、顧客11万人の口座番号など漏洩か 委託先に不正アクセス - 朝日新聞"
         },
         {
           "source": "Google News",
@@ -2036,32 +2603,32 @@
     },
     {
       "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZXhpTWN6dFYxcUE1RTFMaml4NjBOLWhCTEc2bF9QbHhRYlZERFpQNzJVb1Y3WEhQVXl3T1dLaGZ6RWFLMUhnLTRFc2dxYjlUZVFPOG16azlZLUFPZWdHUVM0MHNrRUZRbkZ4cFRWcjFpZ1NEU1ZWMjJJSXlGdF9LSGtSenVlUjQ?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5URlEyZldFYm9vV3ZVd2J1T2RCb21UczFaSHBJV1VCdHkwRG5SNjRqSlM2Z0lMenN5aFRERy1FTWZWd1UwZjlCWkY1ZVRDRjJCNUlFTU9FbzA0eXNh?oc=5",
       "published_date": "2026-10-05",
-      "title": "「タイムズカー」情報漏えい 大分県内にも不安広がる 専門家は特殊詐欺への注意呼びかけ - 日テレNEWS NNN",
+      "title": "「タイムズカー」情報漏えい 大分県内にも不安広がる 専門家は特殊詐欺への注意呼びかけ - TOSオンライン",
       "attack": true,
-      "organization": "日テレNEWS NNN",
+      "organization": "TOSオンライン",
       "attack_type": null,
       "leak_status": "確認・可能性あり",
       "leak_count": null,
       "leaked_data": [],
-      "incident_summary": "「タイムズカー」情報漏えい 大分県内にも不安広がる 専門家は特殊詐欺への注意呼びかけ - 日テレNEWS NNN",
+      "incident_summary": "「タイムズカー」情報漏えい 大分県内にも不安広がる 専門家は特殊詐欺への注意呼びかけ - TOSオンライン",
       "sources": [
         "Google News"
       ],
       "source_records": [
         {
           "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZXhpTWN6dFYxcUE1RTFMaml4NjBOLWhCTEc2bF9QbHhRYlZERFpQNzJVb1Y3WEhQVXl3T1dLaGZ6RWFLMUhnLTRFc2dxYjlUZVFPOG16azlZLUFPZWdHUVM0MHNrRUZRbkZ4cFRWcjFpZ1NEU1ZWMjJJSXlGdF9LSGtSenVlUjQ?oc=5",
+          "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5URlEyZldFYm9vV3ZVd2J1T2RCb21UczFaSHBJV1VCdHkwRG5SNjRqSlM2Z0lMenN5aFRERy1FTWZWd1UwZjlCWkY1ZVRDRjJCNUlFTU9FbzA0eXNh?oc=5",
           "published_date": "2026-10-05",
-          "title": "「タイムズカー」情報漏えい 大分県内にも不安広がる 専門家は特殊詐欺への注意呼びかけ - 日テレNEWS NNN",
+          "title": "「タイムズカー」情報漏えい 大分県内にも不安広がる 専門家は特殊詐欺への注意呼びかけ - TOSオンライン",
           "attack": true,
-          "organization": "日テレNEWS NNN",
+          "organization": "TOSオンライン",
           "attack_type": null,
           "leak_status": "確認・可能性あり",
           "leak_count": null,
           "leaked_data": [],
-          "incident_summary": "「タイムズカー」情報漏えい 大分県内にも不安広がる 専門家は特殊詐欺への注意呼びかけ - 日テレNEWS NNN"
+          "incident_summary": "「タイムズカー」情報漏えい 大分県内にも不安広がる 専門家は特殊詐欺への注意呼びかけ - TOSオンライン"
         }
       ],
       "source_count": 1,
@@ -2714,34 +3281,6 @@
       "source_records": [
         {
           "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5iNzhpU1RUak02VXFyZjZnRk1FWFBXbjl1RlpfSWdaTHI0Q1RJZFRVVy1WRS1rTXpGSm9PMURzRWlWb1l2dW5jVDFUeHF3d2pJV0dBRGljS2lpQlQ2cGxEM1BTWXAxS0ZNSFB5Qk94RQ?oc=5",
-          "published_date": "2026-10-02",
-          "title": "第一ライフ、従業員12万人分情報漏えいか - Infoseek",
-          "attack": true,
-          "organization": "第一生命",
-          "attack_type": null,
-          "leak_status": "確認・可能性あり",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "第一ライフ、従業員12万人分情報漏えいか - Infoseek"
-        },
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5hbjJmQnpsQ0R1bzBseUV6aExmdW9nWjUtV2ZNNV9BdDJWNnB0bEJNcExZWENlZXl1WTNJS1VOWUFFcEhYNFZwZTA2V29keVUwRHV0elVDckZCcWhTRk5r?oc=5",
-          "published_date": "2026-10-03",
-          "title": "第一ライフに不正アクセス 12万人分の従業員情報が流出か - NHKニュース",
-          "attack": true,
-          "organization": "第一生命",
-          "attack_type": "不正アクセス",
-          "leak_status": "確認・可能性あり",
-          "leak_count": null,
-          "leaked_data": [
-            "従業員情報"
-          ],
-          "incident_summary": "第一ライフに不正アクセス 12万人分の従業員情報が流出か - NHKニュース"
-        },
-        {
-          "source": "Google News",
           "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5hbjJmQnpsQ0R1bzBseUV6aExmdW9nWjUtV2ZNNV9BdDJWNnB0bEJNcExZWENlZXl1WTNJS1VOWUFFcEhYNFZwZTA2V29keVUwRHV0elVDckZCcWhTRk5r?oc=5",
           "published_date": "2026-10-03",
           "title": "第一ライフに不正アクセス 12万人分の従業員情報が流出か | NHKニュース | サイバー攻撃、IT・ネット - NHKニュース",
@@ -2757,7 +3296,7 @@
         }
       ],
       "source_count": 1,
-      "merged": true
+      "merged": false
     },
     {
       "source": "SmartScope",
@@ -2928,19 +3467,6 @@
             "住所"
           ],
           "incident_summary": "佐川急便、不正アクセスで個人情報流出か 住所や氏名など - 日本経済新聞"
-        },
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9CUGJlTU1CenlDNDU5Rk1hOXJvaXJNSk1DQk0tTEFSclZwbnNhZE9QRklkU28wWXdsek1XQ3YwU0x5NU5nS3EzdFR1dXRPbjd6clN5aldJQkR6NTM5eTZyc2h4cTJrT2lpbWttdGVxbEt5WlNMUjBqdlUtLV9zTGs?oc=5",
-          "published_date": "2026-10-02",
-          "title": "佐川急便、不正アクセスで個人情報流出の可能性 荷物追跡APIなど9サービス停止、集荷・配達は通常通り - Yahoo!ニュース",
-          "attack": true,
-          "organization": "佐川急便",
-          "attack_type": "不正アクセス",
-          "leak_status": "可能性あり",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "佐川急便、不正アクセスで個人情報流出の可能性 荷物追跡APIなど9サービス停止、集荷・配達は通常通り - Yahoo!ニュース"
         },
         {
           "source": "Security NEXT",
@@ -3153,7 +3679,7 @@
           "title": "クラウド環境の不正アクセス制限に脆弱性、入居申込者情報が流出した可能性 株式会社エリッツは8月20日、個人情報流出の可能性について発表した。",
           "attack": true,
           "organization": "ニッポンレンタカーサービス株式会社",
-          "service": "ドズル社ストア",
+          "service": "ニッポンレンタカーアプリ",
           "attack_type": "不正アクセス",
           "leak_status": "可能性あり",
           "leak_count": null,
@@ -3551,7 +4077,7 @@
           "title": "VIP・GOLDランク顧客の情報流出の可能性 ～ ファイブフォックスへのランサムウェア攻撃 株式会社ファイブフォックスは9月8日、7月14日に公表した同社でのランサムウェア感染の可能性について、第二報を発表した。",
           "attack": true,
           "organization": "ニッポンレンタカーサービス株式会社",
-          "service": "ドズル社ストア",
+          "service": "ニッポンレンタカーアプリ",
           "attack_type": "ランサムウェア",
           "leak_status": "可能性あり",
           "leak_count": null,
@@ -3762,6 +4288,24 @@
           "source": "ScanNetSecurity",
           "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/01/56358.html",
           "published_date": "2026-10-01",
+          "title": "「ニッポンレンタカーアプリ」への不正アクセス、運転免許証情報が閲覧されたおそれも",
+          "attack": true,
+          "organization": "ニッポンレンタカーサービス株式会社",
+          "service": "ニッポンレンタカーアプリ",
+          "attack_type": "不正アクセス",
+          "leak_status": "可能性あり",
+          "leak_count": null,
+          "leaked_data": [
+            "クレジットカード情報",
+            "顧客情報",
+            "会員情報"
+          ],
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56358;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); ニッポンレンタカーサービス株式会社は9月26日、同社が運営する「ニッポンレンタカーアプリ」への不正アクセスについて発表した。 これは「ニッポンレンタカーアプリ」のシステムに第三者から不正アクセスがあり、会員情報が不正に閲覧された可能性を確認したというもの。 カーシェアサービス「RIDENOW」に登録された運転免許証画像が漏えいした可能性 2024.3.25 Mon 8:05 名鉄協商にランサムウェア攻撃、カーシェア「カリテコ」の顧客情報が漏えいした可能性 2026.8.26 Wed 8:10 日本テレネットにランサムウェア型サイバー攻撃、大和リ"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/01/56358.html",
+          "published_date": "2026-10-01",
           "title": "「ニッポンレンタカーアプリ」への不正アクセス、運転免許証情報が閲覧されたおそれも ニッポンレンタカーサービス株式会社は9月26日、同社が運営する「ニッポンレンタカーアプリ」への不正アクセスについて発表した。",
           "attack": true,
           "organization": "ニッポンレンタカーサービス株式会社",
@@ -3792,23 +4336,6 @@
             "顧客情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56356;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社円谷プロダクションは9月11日、同社が運営する「ULTRA MART」チケット抽選システムへの不正アクセスについて発表した。 これは9月9日から9月10日の抽選枠で販売を実施した、「ULTRA MART」での「M78ウルトラマン ふわふわお座りぬいぐるみ」購入抽選システム（mogily）に対する第三者からの不正アクセスの影響で、一部の抽選結果データに不整合が発生し、「当選」した一部顧客が「落選」表示に変更されたというもの。 マネジメントサービスセンターのホームページに不正アクセス、管理者権限の取得や改ざんを確認 2026.9.18 Fr"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/02/56371.html",
-          "published_date": "2026-10-02",
-          "title": "「タイムズカー」への不正アクセス、約160万件の運転免許証画像等の本人確認書類が漏えい",
-          "attack": true,
-          "organization": "ニッポンレンタカーサービス株式会社",
-          "service": "タイムズカー",
-          "attack_type": "不正アクセス",
-          "leak_status": "確認・可能性あり",
-          "leak_count": null,
-          "leaked_data": [
-            "クレジットカード情報",
-            "顧客情報"
-          ],
-          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56371;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 東証プライム上場企業のパーク24株式会社は9月28日、連結子会社であるタイムズモビリティ株式会社への不正アクセスについて発表した。 これは9月25日午前9時7分に、タイムズモビリティが運営するカーシェアリングサービス「タイムズカー」のWebシステムで不正アクセスを検知したというもの 名鉄協商にランサムウェア攻撃、カーシェア「カリテコ」の顧客情報が漏えいした可能性 2026.8.26 Wed 8:10 「NISSAN e-シェアモビ」に不正ログインし車両利用、個人情報閲覧された可能性も 2024.9.10 Tue 8:05 カーシェアサービス「R"
         },
         {
           "source": "ScanNetSecurity",
@@ -3970,7 +4497,7 @@
       "title": "日本エネルギー経済研究所にフィッシング攻撃、所員6名のMicrosoft 365 アカウントに不正アクセス 一般財団法人日本エネルギー経済研究所は9月11日、不正アクセスによる情報漏えいについて発表した。",
       "attack": true,
       "organization": "ニッポンレンタカーサービス株式会社",
-      "service": "ドズル社ストア",
+      "service": "ニッポンレンタカーアプリ",
       "attack_type": "フィッシング",
       "leak_status": "確認・可能性あり",
       "leak_count": "6",
@@ -3984,97 +4511,12 @@
       "source_records": [
         {
           "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/08/56154.html",
-          "published_date": "2026-09-08",
-          "title": "パスキー設定を要請 ～ 浜銀TT証券でフィッシングによる不正アクセス・取引被害発生 浜銀TT証券株式会社は9月3日、同社のインターネット取引サービス「浜銀TT証券ダイレクト」での不正アクセス・不正取引の被害の発生について発表した。",
-          "attack": true,
-          "organization": "ニッポンレンタカーサービス株式会社",
-          "service": "浜銀TT証券ダイレクト",
-          "attack_type": "フィッシング",
-          "leak_status": "可能性あり",
-          "leak_count": null,
-          "leaked_data": [
-            "電話番号",
-            "メールアドレス",
-            "クレジットカード情報",
-            "認証情報"
-          ],
-          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56154;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 浜銀TT証券株式会社は9月3日、同社のインターネット取引サービス「浜銀TT証券ダイレクト」での不正アクセス・不正取引の被害の発生について発表した。 これは同社顧客が、フィッシング詐欺により口座番号やパスワード（パスキー登録情報）を窃取され、その後、当該顧客がオンラインサービス上で保有している投資信託の売買が実施される不正な取引を確認したというもの。 「パスキー」について記載 ～ 野村證券、証券取引約款等を一部改定 2025.11.18 Tue 8:00 三菱UFJモルガン・スタンレー証券、フィッシング詐欺防止に向けオンライントレードでのメールア"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/11/56206.html",
-          "published_date": "2026-09-11",
-          "title": "いまでやが管理する注文情報が外部流出した可能性、フィッシングサイト上でカード情報を入力する被害も 株式会社いまでやは8月21日、同社が管理する顧客の注文情報が外部流出した可能性について発表した。同社ウェブサイトを一時停止したため、PR TIMESで公表している。",
-          "attack": true,
-          "organization": "ニッポンレンタカーサービス株式会社",
-          "service": "サイト上でカード情報を入力する被害も 株式会社いまでやは8月21日",
-          "attack_type": "フィッシング",
-          "leak_status": "可能性あり",
-          "leak_count": null,
-          "leaked_data": [
-            "クレジットカード情報"
-          ],
-          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56206;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社いまでやは8月21日、同社が管理する顧客の注文情報が外部流出した可能性について発表した。同社ウェブサイトを一時停止したため、PR TIMESで公表している。 同社では8月20日夜に、同社を装った不審なメール（フィッシングメール）を受信したとの問い合わせが30件ほどあり、不審メールには受信した顧客本人の氏名、注文番号、注文金額が正確に記載されていたことから、無作為に送信されたものではなく、同社保有の注文情報が第三者に取得された可能性が高いと判断している。 連絡先情報が窃取されフィッシングメール大量送信 ～ 取引先を偽装したフィッシングメー"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/15/56234.html",
-          "published_date": "2026-09-15",
-          "title": "日本大学理工学部教職員のアカウントに対し巧妙に偽装されたフィッシングメール、多数の不審メールを送信 日本大学理工学部は9月8日、不正アクセスによる迷惑メール発信について発表した。",
-          "attack": true,
-          "organization": "ニッポンレンタカーサービス株式会社",
-          "service": "メールを送信 日本大学理工学部は9月8日",
-          "attack_type": "フィッシング",
-          "leak_status": "可能性あり",
-          "leak_count": null,
-          "leaked_data": [
-            "クレジットカード情報"
-          ],
-          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56234;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 日本大学理工学部は9月8日、不正アクセスによる迷惑メール発信について発表した。 これは8月7日午後11時40分頃に、同学部の教職員1名のメールアカウントが外部からのフィッシング攻撃で第三者に不正利用され、多数の不審メールが外部に送信されたというもの。当該教職員への巧妙に偽装されたフィッシングメールによる「アカウント乗っ取り」が原因という。 3,177件の不審メールを送信 ～ 日本大学法学部教職員への巧妙に偽装されたフィッシングメールによる「アカウント乗っ取り」 2026.8.28 Fri 8:05 日本大学の学生・卒業生 9 名のアカウントに不"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56273.html",
-          "published_date": "2026-09-18",
-          "title": "フィッシング詐欺等によるものとみられる不正アクセス・不正取引を確認 ～ 静銀ティーエム証券 静銀ティーエム証券株式会社は8月28日、同社の顧客の口座への不正アクセスについて発表した。",
-          "attack": true,
-          "organization": "ニッポンレンタカーサービス株式会社",
-          "service": "ドズル社ストア",
-          "attack_type": "フィッシング",
-          "leak_status": "可能性あり",
-          "leak_count": null,
-          "leaked_data": [
-            "クレジットカード情報"
-          ],
-          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56273;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 静銀ティーエム証券株式会社は8月28日、同社の顧客の口座への不正アクセスについて発表した。 証券会社では近年、フィッシング詐欺等によるものとみられる不正アクセス・不正取引が発生しているが、同社の顧客の口座でも不正アクセス・不正取引を確認したという。 証券会社を騙るフィッシングは大幅な減少 ～ TwoFive、2025年下半期フィッシングトレンド公開 2026.2.18 Wed 8:00 楽天証券、フィッシング詐欺等による不正アクセス被害の補償方針を発表 2025.7.31 Thu 8:00 SBI証券、フィッシング詐欺等による不正アクセス被害の"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/24/56285.html",
-          "published_date": "2026-09-24",
-          "title": "連結子会社であるカインドオルへのフィッシング、トレジャー・ファクトリーグループ全体で再発防止に取り組む 東証プライム上場企業の株式会社トレジャー・ファクトリーは8月28日、同社連結子会社である株式会社カインドオルへの不正アクセスについて発表した。",
-          "attack": true,
-          "organization": "ニッポンレンタカーサービス株式会社",
-          "service": "アカウント乗っ取り",
-          "attack_type": "フィッシング",
-          "leak_status": "可能性あり",
-          "leak_count": null,
-          "leaked_data": [
-            "メールアドレス",
-            "クレジットカード情報",
-            "顧客情報"
-          ],
-          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56285;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 東証プライム上場企業の株式会社トレジャー・ファクトリーは8月28日、同社連結子会社である株式会社カインドオルへの不正アクセスについて発表した。 これは8月22日に、カインドオルがECサイトで利用しているECプラットフォームのスタッフアカウントに第三者から不正アクセスがあり、8月23日に当該アカウントのメールアドレスが変更され、同日、顧客情報の一括エクスポートが2回実行されたことを確認したというもの。 メール訓練の文面が無神経と批判を浴びてＣＥＯが謝罪 ～ セキュリティ教育には分別と敬意を 2026.8.25 Tue 8:15 3,177件の不審"
-        },
-        {
-          "source": "ScanNetSecurity",
           "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/02/56376.html",
           "published_date": "2026-10-02",
           "title": "日本エネルギー経済研究所にフィッシング攻撃、所員6名のMicrosoft 365 アカウントに不正アクセス 一般財団法人日本エネルギー経済研究所は9月11日、不正アクセスによる情報漏えいについて発表した。",
           "attack": true,
           "organization": "ニッポンレンタカーサービス株式会社",
-          "service": "ドズル社ストア",
+          "service": "ニッポンレンタカーアプリ",
           "attack_type": "フィッシング",
           "leak_status": "確認・可能性あり",
           "leak_count": "6",
@@ -4085,7 +4527,7 @@
         }
       ],
       "source_count": 1,
-      "merged": true
+      "merged": false
     },
     {
       "source": "Google News",
@@ -4229,15 +4671,15 @@
       "source": "SmartScope",
       "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
       "published_date": "2026-10-02",
-      "title": "Three educational institutions（tracker headline） — Unauthorized access.",
-      "organization": "Three educational institutions（tracker headline）",
-      "affected_count": "—",
+      "title": "Three educational institutions（ disclosure ） — Unauthorized access. Kansai University of International Studies is investigating the cause and entry route. Networks including campus Wi-Fi are suspended; gradual resumption from mid-October is currently a target. Shudo Gakuen is investigating the cause, circumstances and scope of impact.",
+      "organization": "Three educational institutions（ disclosure ）",
+      "affected_count": "Counts not disclosed. Kansai University of International Studies confirms in its Oct 6 second report that multiple files were acquired externally, and judges that text about experiences and reflections of students enrolled up to March 2023 was leaked. Whether names or student IDs are included, links to identifiable information, effects on current students, scope and counts remain under investigation. Shudo Gakuen states in its Sept 30 notice that information containing personal data may have leaked: business-partner bank details and names, addresses, phone numbers and bank details of staff, some students and external lecturers etc. Counts are not disclosed. The breakdown of all three institutions has not been verified.",
       "attack_type": null,
       "attack": true,
       "leak_status": "不明",
       "leak_count": null,
       "leaked_data": [],
-      "incident_summary": "Three educational institutions（tracker headline） — Unauthorized access.",
+      "incident_summary": "Three educational institutions（ disclosure ） — Unauthorized access. Kansai University of International Studies is investigating the cause and entry route. Networks including campus Wi-Fi are suspended; gradual resumption from mid-October is currently a target. Shudo Gakuen is investigating the cause, circumstances and scope of impact.",
       "sources": [
         "SmartScope"
       ],
@@ -4246,15 +4688,15 @@
           "source": "SmartScope",
           "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
           "published_date": "2026-10-02",
-          "title": "Three educational institutions（tracker headline） — Unauthorized access.",
-          "organization": "Three educational institutions（tracker headline）",
-          "affected_count": "—",
+          "title": "Three educational institutions（ disclosure ） — Unauthorized access. Kansai University of International Studies is investigating the cause and entry route. Networks including campus Wi-Fi are suspended; gradual resumption from mid-October is currently a target. Shudo Gakuen is investigating the cause, circumstances and scope of impact.",
+          "organization": "Three educational institutions（ disclosure ）",
+          "affected_count": "Counts not disclosed. Kansai University of International Studies confirms in its Oct 6 second report that multiple files were acquired externally, and judges that text about experiences and reflections of students enrolled up to March 2023 was leaked. Whether names or student IDs are included, links to identifiable information, effects on current students, scope and counts remain under investigation. Shudo Gakuen states in its Sept 30 notice that information containing personal data may have leaked: business-partner bank details and names, addresses, phone numbers and bank details of staff, some students and external lecturers etc. Counts are not disclosed. The breakdown of all three institutions has not been verified.",
           "attack_type": null,
           "attack": true,
           "leak_status": "不明",
           "leak_count": null,
           "leaked_data": [],
-          "incident_summary": "Three educational institutions（tracker headline） — Unauthorized access."
+          "incident_summary": "Three educational institutions（ disclosure ） — Unauthorized access. Kansai University of International Studies is investigating the cause and entry route. Networks including campus Wi-Fi are suspended; gradual resumption from mid-October is currently a target. Shudo Gakuen is investigating the cause, circumstances and scope of impact."
         }
       ],
       "source_count": 1,
@@ -4680,19 +5122,6 @@
         },
         {
           "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1IX3QxSnhyQWc0dFhRaVNWRGpZOUVkaTNub0lHVHJKM0VaMVl6N1J6WXptM3ZwdmNvNzFYR3ZXeUJrNjhoV2ROSFFmVUFnQWpTMFlxVnVKV1FZRms0NEU3SW1n?oc=5",
-          "published_date": "2026-09-30",
-          "title": "郵便局アプリに不正アクセス 個人情報漏えいか - Infoseek",
-          "attack": true,
-          "organization": "日本郵便株式会社",
-          "attack_type": "不正アクセス",
-          "leak_status": "確認・可能性あり",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "郵便局アプリに不正アクセス 個人情報漏えいか - Infoseek"
-        },
-        {
-          "source": "Google News",
           "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9BZ2t1YXlpbXM5blIzZURycHBqRlBGNEZWOWk4VmhkMm1IY0MzbFJySGhOWEpiWUVQY1VlQzk5TXhSU09kdDQ1cHB4bmRDTTFvQ3FEOFo3cHFhazFJdlhycU9VcDUxM0g2czJTRzYwVFBGUDM2VGVWeEUwS3pybWc?oc=5",
           "published_date": "2026-09-30",
           "title": "郵便局アプリに不正アクセス、19人分の個人情報流出 送り状の受取人住所や追跡番号も - Yahoo!ニュース",
@@ -4770,7 +5199,7 @@
           "title": "名前の漢字が一文字異なる別人を同一人物と思い込む ～ 大阪府、個人情報が記載された書類を誤送付 大阪府は8月14日、大阪府こころの健康総合センターでの個人情報が記載された書類の誤送付について発表した。",
           "attack": true,
           "organization": "ニッポンレンタカーサービス株式会社",
-          "service": "ドズル社ストア",
+          "service": "ニッポンレンタカーアプリ",
           "attack_type": "ランサムウェア",
           "leak_status": "可能性あり",
           "leak_count": null,
@@ -4900,7 +5329,7 @@
           "title": "Weverseサービスにセキュリティ脆弱性、韓国インターネット振興院から連絡 WEVERSE JAPAN株式会社は9月6日、一部顧客の個人情報流出について発表した。",
           "attack": true,
           "organization": "ニッポンレンタカーサービス株式会社",
-          "service": "ドズル社ストア",
+          "service": "ニッポンレンタカーアプリ",
           "attack_type": "ランサムウェア",
           "leak_status": "確認・可能性あり",
           "leak_count": null,
@@ -4932,7 +5361,7 @@
           "title": "町職員（57歳・女性）が廃棄対象の公文書等を持ち帰り保管、裏面に大量の小説のコピー 静岡県長泉町は8月25日、8月20日付けで行った職員の懲戒処分について発表した。",
           "attack": true,
           "organization": "ニッポンレンタカーサービス株式会社",
-          "service": "ドズル社ストア",
+          "service": "ニッポンレンタカーアプリ",
           "attack_type": "ランサムウェア",
           "leak_status": "可能性あり",
           "leak_count": null,
@@ -5128,7 +5557,7 @@
           "title": "保育上の不適切な対応も確認 ～ 鎌倉市児童発達支援センターあおぞら園で個人情報を誤送付 神奈川県鎌倉市は9月10日、鎌倉市児童発達支援センターあおぞら園での個人情報の誤送付について発表した。あわせて保育上の不適切な対応も確認されている。",
           "attack": true,
           "organization": "ニッポンレンタカーサービス株式会社",
-          "service": "ドズル社ストア",
+          "service": "ニッポンレンタカーアプリ",
           "attack_type": "ランサムウェア",
           "leak_status": "可能性あり",
           "leak_count": null,
@@ -5883,6 +6312,19 @@
       "source_records": [
         {
           "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE83bkF1UGJ0VlF4cENva3k1alE5WVFNT0J2RlRKMFViOFlXbld1THlPZ0J4V21uYTRLaTZrSGNSVnhIQkptMnFWTGJROXpoUjVoc2RUQmoyTE5OQWxoUWc?oc=5",
+          "published_date": "2026-09-29",
+          "title": "「お前もか」セイコーマート、不正アクセスで情報漏洩を発表「日本企業どうしたの」「心配でなりません」 (2026年9月29日掲載) - ライブドアニュース",
+          "attack": true,
+          "organization": "セイコーマート",
+          "attack_type": "不正アクセス",
+          "leak_status": "確認・可能性あり",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "「お前もか」セイコーマート、不正アクセスで情報漏洩を発表「日本企業どうしたの」「心配でなりません」 (2026年9月29日掲載) - ライブドアニュース"
+        },
+        {
+          "source": "Google News",
           "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Qa2NUWlltV2V6YkdwM3hMR2RTRFhSZE8weEdKNHlSMVhqRlZtMkNHVTdIMG5qemRlSXpTWndtVUJFUUhmcEtYbVlrVllBa1VpMWdqLUlRRktXUQ?oc=5",
           "published_date": "2026-09-29",
           "title": "「お前もか」セイコーマート、不正アクセスで情報漏洩を発表「日本企業どうしたの」「心配でなりません」 - All About ニュース",
@@ -5909,19 +6351,6 @@
         },
         {
           "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1PTF9NN2o5VFpDQUhFallGaTBmU2lFaDFneWg2NXZtUG41dUIzNUQwYm1taTJiVEZqOVhzZlFOLWFJVDJXVC1SQ19EYjFqUTBuZmZHMEp4d04tYUtsOFJz?oc=5",
-          "published_date": "2026-09-29",
-          "title": "「お前もか」セイコーマート、不正アクセスで情報漏洩を発表「日本企業どうしたの」「心配でなりません」 - ライブドアニュース",
-          "attack": true,
-          "organization": "セイコーマート",
-          "attack_type": "不正アクセス",
-          "leak_status": "確認・可能性あり",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "「お前もか」セイコーマート、不正アクセスで情報漏洩を発表「日本企業どうしたの」「心配でなりません」 - ライブドアニュース"
-        },
-        {
-          "source": "Google News",
           "source_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1CRnZRTG52QlNESndNS25oUERHVHVYcFZ1RlpmZTRJVm5kakNXVnRWUzRuLVRFQmNDZTdGbHFhRktwVnE2RDRUYjBmNjZnSVlvV0hvaDNlTW96Q3BsMl9jSHlUdHlLRnVoZl9JTUgzTWlYYk1JdGJrR1B5TFU?oc=5",
           "published_date": "2026-09-29",
           "title": "【画像】「お前もか」セイコーマート、不正アクセスで情報漏洩を発表「日本企業どうしたの」「心配でなりません」 - ライブドアニュース",
@@ -5936,39 +6365,6 @@
       ],
       "source_count": 1,
       "merged": true
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE92eVZBNl9JYW84SjNCZDdmclBUMTRmWTZXbVpCVWZnWGJkaEd2Mm9tYmFoQXA4aWpqSWwwdTVjdjVUOUxLYWFhc3czbVp6b1RadFU3WU9sdWNrNzJRSWVkQTgxVDdPdWlxbWtGSno4OFg3UQ?oc=5",
-      "published_date": "2026-09-29",
-      "title": "「タイムズカー」最大660万件の個人情報流出 免許証画像含まれ悪用される恐れも - テレ朝NEWS",
-      "attack": true,
-      "organization": "テレ朝NEWS",
-      "attack_type": null,
-      "leak_status": "可能性あり",
-      "leak_count": null,
-      "leaked_data": [],
-      "incident_summary": "「タイムズカー」最大660万件の個人情報流出 免許証画像含まれ悪用される恐れも - テレ朝NEWS",
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE92eVZBNl9JYW84SjNCZDdmclBUMTRmWTZXbVpCVWZnWGJkaEd2Mm9tYmFoQXA4aWpqSWwwdTVjdjVUOUxLYWFhc3czbVp6b1RadFU3WU9sdWNrNzJRSWVkQTgxVDdPdWlxbWtGSno4OFg3UQ?oc=5",
-          "published_date": "2026-09-29",
-          "title": "「タイムズカー」最大660万件の個人情報流出 免許証画像含まれ悪用される恐れも - テレ朝NEWS",
-          "attack": true,
-          "organization": "テレ朝NEWS",
-          "attack_type": null,
-          "leak_status": "可能性あり",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "「タイムズカー」最大660万件の個人情報流出 免許証画像含まれ悪用される恐れも - テレ朝NEWS"
-        }
-      ],
-      "source_count": 1,
-      "merged": false
     },
     {
       "source": "SmartScope",
@@ -6312,49 +6708,6 @@
     },
     {
       "source": "ScanNetSecurity",
-      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/28/56308.html",
-      "published_date": "2026-09-28",
-      "title": "ネット証券等の不正取引被害が拡大、金融庁が注意喚起 2026年8月は4社で25件の不正取引 金融庁は9月9日、インターネット取引サービスへの不正アクセス・不正取引による被害への注意喚起を発表した。",
-      "attack": true,
-      "organization": "ニッポンレンタカーサービス株式会社",
-      "service": "ドズル社ストア",
-      "attack_type": "不正アクセス",
-      "leak_status": "可能性あり",
-      "leak_count": null,
-      "leaked_data": [
-        "クレジットカード情報",
-        "認証情報",
-        "顧客情報"
-      ],
-      "incident_summary": "金融庁は9月9日、インターネット取引サービスへの不正アクセス・不正取引による被害への注意喚起を発表した。 同庁によると、実在する証券会社のウェブサイトを装った偽のウェブサイト（フィッシングサイト）等で窃取した顧客情報によるインターネット取引サービスでの不正アクセス・不正取引の被害について、2026年8月は不正取引が発生した証券会社数が4社、不正アクセス件数が39件、不正取引件数が25件発生している。 同庁では、被害に遭わないために、証券会社のインターネット取引サービスを利用しているすべてのユーザーに下記の点に注意するよう呼びかけている。 1.見覚えのある送信者からのメールやSMS等であっても、メッセージに掲載されたリンクを開かない。 2.利用する証券会社のウェブサイトへのアクセスは、事前に正しいウェブサイトのURLをブックマーク登録しておき、ブックマークからアクセスする。 3.インターネット取引サービスを利用する際は、各証券会社が提供しているセキュリティ強化機能（ログイン時・取引実行時・出金時の多要素認証や通知サービス）を有効にして、不審な取引に注意する。 4.パスワードの使いまわしを",
-      "sources": [
-        "ScanNetSecurity"
-      ],
-      "source_records": [
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/28/56308.html",
-          "published_date": "2026-09-28",
-          "title": "ネット証券等の不正取引被害が拡大、金融庁が注意喚起 2026年8月は4社で25件の不正取引 金融庁は9月9日、インターネット取引サービスへの不正アクセス・不正取引による被害への注意喚起を発表した。",
-          "attack": true,
-          "organization": "ニッポンレンタカーサービス株式会社",
-          "service": "ドズル社ストア",
-          "attack_type": "不正アクセス",
-          "leak_status": "可能性あり",
-          "leak_count": null,
-          "leaked_data": [
-            "クレジットカード情報",
-            "認証情報",
-            "顧客情報"
-          ],
-          "incident_summary": "金融庁は9月9日、インターネット取引サービスへの不正アクセス・不正取引による被害への注意喚起を発表した。 同庁によると、実在する証券会社のウェブサイトを装った偽のウェブサイト（フィッシングサイト）等で窃取した顧客情報によるインターネット取引サービスでの不正アクセス・不正取引の被害について、2026年8月は不正取引が発生した証券会社数が4社、不正アクセス件数が39件、不正取引件数が25件発生している。 同庁では、被害に遭わないために、証券会社のインターネット取引サービスを利用しているすべてのユーザーに下記の点に注意するよう呼びかけている。 1.見覚えのある送信者からのメールやSMS等であっても、メッセージに掲載されたリンクを開かない。 2.利用する証券会社のウェブサイトへのアクセスは、事前に正しいウェブサイトのURLをブックマーク登録しておき、ブックマークからアクセスする。 3.インターネット取引サービスを利用する際は、各証券会社が提供しているセキュリティ強化機能（ログイン時・取引実行時・出金時の多要素認証や通知サービス）を有効にして、不審な取引に注意する。 4.パスワードの使いまわしを"
-        }
-      ],
-      "source_count": 1,
-      "merged": false
-    },
-    {
-      "source": "ScanNetSecurity",
       "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/28/56314.html",
       "published_date": "2026-09-28",
       "title": "「@cosme」に登録した個人情報が20分間閲覧可能に、社内でのファイル受け渡し時に外部ファイル転送サービスを利用 株式会社アイスタイルは9月16日、「@cosme」に登録された個人情報漏えいの可能性について発表した。",
@@ -6401,7 +6754,7 @@
       "title": "JA遠州夢咲ホームページに不正アクセス、一時閉鎖 遠州夢咲農業協同組合（JA遠州夢咲）は9月9日、不正アクセスによるホームページの一時閉鎖について発表した。",
       "attack": true,
       "organization": "遠州夢咲農業協同組合",
-      "service": "ドズル社ストア",
+      "service": "ニッポンレンタカーアプリ",
       "attack_type": "不正アクセス",
       "leak_status": "可能性あり",
       "leak_count": null,
@@ -6420,7 +6773,7 @@
           "title": "JA遠州夢咲ホームページに不正アクセス、一時閉鎖 遠州夢咲農業協同組合（JA遠州夢咲）は9月9日、不正アクセスによるホームページの一時閉鎖について発表した。",
           "attack": true,
           "organization": "遠州夢咲農業協同組合",
-          "service": "ドズル社ストア",
+          "service": "ニッポンレンタカーアプリ",
           "attack_type": "不正アクセス",
           "leak_status": "可能性あり",
           "leak_count": null,
@@ -6751,6 +7104,116 @@
       "merged": false
     },
     {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/24/56285.html",
+      "published_date": "2026-09-24",
+      "title": "連結子会社であるカインドオルへのフィッシング、トレジャー・ファクトリーグループ全体で再発防止に取り組む 東証プライム上場企業の株式会社トレジャー・ファクトリーは8月28日、同社連結子会社である株式会社カインドオルへの不正アクセスについて発表した。",
+      "attack": true,
+      "organization": "ニッポンレンタカーサービス株式会社",
+      "service": "アカウント乗っ取り",
+      "attack_type": "フィッシング",
+      "leak_status": "可能性あり",
+      "leak_count": null,
+      "leaked_data": [
+        "メールアドレス",
+        "クレジットカード情報",
+        "顧客情報"
+      ],
+      "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56285;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 東証プライム上場企業の株式会社トレジャー・ファクトリーは8月28日、同社連結子会社である株式会社カインドオルへの不正アクセスについて発表した。 これは8月22日に、カインドオルがECサイトで利用しているECプラットフォームのスタッフアカウントに第三者から不正アクセスがあり、8月23日に当該アカウントのメールアドレスが変更され、同日、顧客情報の一括エクスポートが2回実行されたことを確認したというもの。 メール訓練の文面が無神経と批判を浴びてＣＥＯが謝罪 ～ セキュリティ教育には分別と敬意を 2026.8.25 Tue 8:15 3,177件の不審",
+      "sources": [
+        "ScanNetSecurity"
+      ],
+      "source_records": [
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/08/56154.html",
+          "published_date": "2026-09-08",
+          "title": "パスキー設定を要請 ～ 浜銀TT証券でフィッシングによる不正アクセス・取引被害発生 浜銀TT証券株式会社は9月3日、同社のインターネット取引サービス「浜銀TT証券ダイレクト」での不正アクセス・不正取引の被害の発生について発表した。",
+          "attack": true,
+          "organization": "ニッポンレンタカーサービス株式会社",
+          "service": "浜銀TT証券ダイレクト",
+          "attack_type": "フィッシング",
+          "leak_status": "可能性あり",
+          "leak_count": null,
+          "leaked_data": [
+            "電話番号",
+            "メールアドレス",
+            "クレジットカード情報",
+            "認証情報"
+          ],
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56154;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 浜銀TT証券株式会社は9月3日、同社のインターネット取引サービス「浜銀TT証券ダイレクト」での不正アクセス・不正取引の被害の発生について発表した。 これは同社顧客が、フィッシング詐欺により口座番号やパスワード（パスキー登録情報）を窃取され、その後、当該顧客がオンラインサービス上で保有している投資信託の売買が実施される不正な取引を確認したというもの。 「パスキー」について記載 ～ 野村證券、証券取引約款等を一部改定 2025.11.18 Tue 8:00 三菱UFJモルガン・スタンレー証券、フィッシング詐欺防止に向けオンライントレードでのメールア"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/11/56206.html",
+          "published_date": "2026-09-11",
+          "title": "いまでやが管理する注文情報が外部流出した可能性、フィッシングサイト上でカード情報を入力する被害も 株式会社いまでやは8月21日、同社が管理する顧客の注文情報が外部流出した可能性について発表した。同社ウェブサイトを一時停止したため、PR TIMESで公表している。",
+          "attack": true,
+          "organization": "ニッポンレンタカーサービス株式会社",
+          "service": "サイト上でカード情報を入力する被害も 株式会社いまでやは8月21日",
+          "attack_type": "フィッシング",
+          "leak_status": "可能性あり",
+          "leak_count": null,
+          "leaked_data": [
+            "クレジットカード情報"
+          ],
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56206;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社いまでやは8月21日、同社が管理する顧客の注文情報が外部流出した可能性について発表した。同社ウェブサイトを一時停止したため、PR TIMESで公表している。 同社では8月20日夜に、同社を装った不審なメール（フィッシングメール）を受信したとの問い合わせが30件ほどあり、不審メールには受信した顧客本人の氏名、注文番号、注文金額が正確に記載されていたことから、無作為に送信されたものではなく、同社保有の注文情報が第三者に取得された可能性が高いと判断している。 連絡先情報が窃取されフィッシングメール大量送信 ～ 取引先を偽装したフィッシングメー"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/15/56234.html",
+          "published_date": "2026-09-15",
+          "title": "日本大学理工学部教職員のアカウントに対し巧妙に偽装されたフィッシングメール、多数の不審メールを送信 日本大学理工学部は9月8日、不正アクセスによる迷惑メール発信について発表した。",
+          "attack": true,
+          "organization": "ニッポンレンタカーサービス株式会社",
+          "service": "メールを送信 日本大学理工学部は9月8日",
+          "attack_type": "フィッシング",
+          "leak_status": "可能性あり",
+          "leak_count": null,
+          "leaked_data": [
+            "クレジットカード情報"
+          ],
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56234;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 日本大学理工学部は9月8日、不正アクセスによる迷惑メール発信について発表した。 これは8月7日午後11時40分頃に、同学部の教職員1名のメールアカウントが外部からのフィッシング攻撃で第三者に不正利用され、多数の不審メールが外部に送信されたというもの。当該教職員への巧妙に偽装されたフィッシングメールによる「アカウント乗っ取り」が原因という。 3,177件の不審メールを送信 ～ 日本大学法学部教職員への巧妙に偽装されたフィッシングメールによる「アカウント乗っ取り」 2026.8.28 Fri 8:05 日本大学の学生・卒業生 9 名のアカウントに不"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56273.html",
+          "published_date": "2026-09-18",
+          "title": "フィッシング詐欺等によるものとみられる不正アクセス・不正取引を確認 ～ 静銀ティーエム証券 静銀ティーエム証券株式会社は8月28日、同社の顧客の口座への不正アクセスについて発表した。",
+          "attack": true,
+          "organization": "ニッポンレンタカーサービス株式会社",
+          "service": "ニッポンレンタカーアプリ",
+          "attack_type": "フィッシング",
+          "leak_status": "可能性あり",
+          "leak_count": null,
+          "leaked_data": [
+            "クレジットカード情報"
+          ],
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56273;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 静銀ティーエム証券株式会社は8月28日、同社の顧客の口座への不正アクセスについて発表した。 証券会社では近年、フィッシング詐欺等によるものとみられる不正アクセス・不正取引が発生しているが、同社の顧客の口座でも不正アクセス・不正取引を確認したという。 証券会社を騙るフィッシングは大幅な減少 ～ TwoFive、2025年下半期フィッシングトレンド公開 2026.2.18 Wed 8:00 楽天証券、フィッシング詐欺等による不正アクセス被害の補償方針を発表 2025.7.31 Thu 8:00 SBI証券、フィッシング詐欺等による不正アクセス被害の"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/24/56285.html",
+          "published_date": "2026-09-24",
+          "title": "連結子会社であるカインドオルへのフィッシング、トレジャー・ファクトリーグループ全体で再発防止に取り組む 東証プライム上場企業の株式会社トレジャー・ファクトリーは8月28日、同社連結子会社である株式会社カインドオルへの不正アクセスについて発表した。",
+          "attack": true,
+          "organization": "ニッポンレンタカーサービス株式会社",
+          "service": "アカウント乗っ取り",
+          "attack_type": "フィッシング",
+          "leak_status": "可能性あり",
+          "leak_count": null,
+          "leaked_data": [
+            "メールアドレス",
+            "クレジットカード情報",
+            "顧客情報"
+          ],
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56285;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 東証プライム上場企業の株式会社トレジャー・ファクトリーは8月28日、同社連結子会社である株式会社カインドオルへの不正アクセスについて発表した。 これは8月22日に、カインドオルがECサイトで利用しているECプラットフォームのスタッフアカウントに第三者から不正アクセスがあり、8月23日に当該アカウントのメールアドレスが変更され、同日、顧客情報の一括エクスポートが2回実行されたことを確認したというもの。 メール訓練の文面が無神経と批判を浴びてＣＥＯが謝罪 ～ セキュリティ教育には分別と敬意を 2026.8.25 Tue 8:15 3,177件の不審"
+        }
+      ],
+      "source_count": 1,
+      "merged": true
+    },
+    {
       "source": "Google News",
       "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE11SWJBcFY3MHN1dnZSalhvT1NTY3Y3SUQ3cTRKUGxFeVBFQTd5NGxQYldjcTNEbklzV3ZHQjJnbzloMF9RWS1OZHJwMF84UjFDdTlHT0xfQlFfdw?oc=5",
       "published_date": "2026-09-24",
@@ -6896,15 +7359,15 @@
       "source": "SmartScope",
       "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
       "published_date": "2026-09-20",
-      "title": "Ryomo Systems（tracker headline） — Ransomware group SafePay published stolen data.",
+      "title": "Ryomo Systems（ disclosure ） — Ransomware group SafePay claims to publish stolen data. Nagano Toshi Gas reports external unauthorized access to a file server on the Ryomo Systems internal network; its notice does not identify this as ransomware.",
       "organization": "株式会社両毛システムズ",
-      "affected_count": "—",
+      "affected_count": "Overall count not disclosed. Affected client Nagano Toshi Gas states in its Oct 5 second report that about 3,600 safety-inspection result records from April 1 to May 16, 2026 may be affected: names, addresses, phone numbers and contract numbers, excluding bank-account numbers and credit-card data. The approximately 3,600 records concern Nagano Toshi Gas only, not the total impact at Ryomo Systems. Nagano Toshi Gas reports no confirmed secondary harm.",
       "attack_type": null,
       "attack": true,
       "leak_status": "不明",
       "leak_count": null,
       "leaked_data": [],
-      "incident_summary": "Ryomo Systems（tracker headline） — Ransomware group SafePay published stolen data.",
+      "incident_summary": "Ryomo Systems（ disclosure ） — Ransomware group SafePay claims to publish stolen data. Nagano Toshi Gas reports external unauthorized access to a file server on the Ryomo Systems internal network; its notice does not identify this as ransomware.",
       "sources": [
         "SmartScope"
       ],
@@ -6913,15 +7376,15 @@
           "source": "SmartScope",
           "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
           "published_date": "2026-09-20",
-          "title": "Ryomo Systems（tracker headline） — Ransomware group SafePay published stolen data.",
+          "title": "Ryomo Systems（ disclosure ） — Ransomware group SafePay claims to publish stolen data. Nagano Toshi Gas reports external unauthorized access to a file server on the Ryomo Systems internal network; its notice does not identify this as ransomware.",
           "organization": "株式会社両毛システムズ",
-          "affected_count": "—",
+          "affected_count": "Overall count not disclosed. Affected client Nagano Toshi Gas states in its Oct 5 second report that about 3,600 safety-inspection result records from April 1 to May 16, 2026 may be affected: names, addresses, phone numbers and contract numbers, excluding bank-account numbers and credit-card data. The approximately 3,600 records concern Nagano Toshi Gas only, not the total impact at Ryomo Systems. Nagano Toshi Gas reports no confirmed secondary harm.",
           "attack_type": null,
           "attack": true,
           "leak_status": "不明",
           "leak_count": null,
           "leaked_data": [],
-          "incident_summary": "Ryomo Systems（tracker headline） — Ransomware group SafePay published stolen data."
+          "incident_summary": "Ryomo Systems（ disclosure ） — Ransomware group SafePay claims to publish stolen data. Nagano Toshi Gas reports external unauthorized access to a file server on the Ryomo Systems internal network; its notice does not identify this as ransomware."
         }
       ],
       "source_count": 1,
@@ -7113,7 +7576,7 @@
       "title": "表示された連絡先に電話 指示に従いパソコン操作 ～ 大田区民プラザでサポート詐欺被害 東京都大田区は9月4日、同区の指定管理者である公益財団法人大田区文化振興協会が管理運営する大田区民プラザでの情報漏えいの可能性について発表した。",
       "attack": true,
       "organization": "エスケーアイマネージメント株式会社",
-      "service": "ドズル社ストア",
+      "service": "ニッポンレンタカーアプリ",
       "attack_type": "ランサムウェア",
       "leak_status": "可能性あり",
       "leak_count": null,
@@ -7132,7 +7595,7 @@
           "title": "表示された連絡先に電話 指示に従いパソコン操作 ～ 大田区民プラザでサポート詐欺被害 東京都大田区は9月4日、同区の指定管理者である公益財団法人大田区文化振興協会が管理運営する大田区民プラザでの情報漏えいの可能性について発表した。",
           "attack": true,
           "organization": "エスケーアイマネージメント株式会社",
-          "service": "ドズル社ストア",
+          "service": "ニッポンレンタカーアプリ",
           "attack_type": "ランサムウェア",
           "leak_status": "可能性あり",
           "leak_count": null,
@@ -7685,7 +8148,7 @@
       "title": "SCATが利用するクラウドが不正利用、警察に届け 発生した利用料金を巡り事業者と協議 SCAT株式会社は9月4日、同社利用の有償クラウドサービスの第三者による不正利用について発表した。",
       "attack": true,
       "organization": "三井不動産株式会社",
-      "service": "ドズル社ストア",
+      "service": "ニッポンレンタカーアプリ",
       "attack_type": "ランサムウェア",
       "leak_status": "可能性あり",
       "leak_count": null,
@@ -7736,7 +8199,7 @@
           "title": "SCATが利用するクラウドが不正利用、警察に届け 発生した利用料金を巡り事業者と協議 SCAT株式会社は9月4日、同社利用の有償クラウドサービスの第三者による不正利用について発表した。",
           "attack": true,
           "organization": "三井不動産株式会社",
-          "service": "ドズル社ストア",
+          "service": "ニッポンレンタカーアプリ",
           "attack_type": "ランサムウェア",
           "leak_status": "可能性あり",
           "leak_count": null,
@@ -8771,6 +9234,39 @@
           "leak_count": null,
           "leaked_data": [],
           "incident_summary": "マンションの賃貸管理や賃貸仲介を手がけるアンビションDXホールディングスは、ファイルサーバが第三者によって侵害され、一部情報が流出したことを明らかにした。 ：Security NEXT"
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
+      "source": "Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1uOFAyT0VlNVJGTGNISFRVbVhfb1FYckNYSFl4ckVBbEpqVERmZ1NTTVM1UEVsWXl1b292eGdWbVdwZzcyYlJtT1NfbkdtSmxOdTRmdlJxQ0hTZw?oc=5",
+      "published_date": "2026-09-07",
+      "title": "企業化するランサムウェア集団、防御側が取るべきリスク戦略とは - Forbes JAPAN",
+      "attack": true,
+      "organization": "Forbes JAPAN",
+      "attack_type": "ランサムウェア",
+      "leak_status": "不明",
+      "leak_count": null,
+      "leaked_data": [],
+      "incident_summary": "企業化するランサムウェア集団、防御側が取るべきリスク戦略とは - Forbes JAPAN",
+      "sources": [
+        "Google News"
+      ],
+      "source_records": [
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1uOFAyT0VlNVJGTGNISFRVbVhfb1FYckNYSFl4ckVBbEpqVERmZ1NTTVM1UEVsWXl1b292eGdWbVdwZzcyYlJtT1NfbkdtSmxOdTRmdlJxQ0hTZw?oc=5",
+          "published_date": "2026-09-07",
+          "title": "企業化するランサムウェア集団、防御側が取るべきリスク戦略とは - Forbes JAPAN",
+          "attack": true,
+          "organization": "Forbes JAPAN",
+          "attack_type": "ランサムウェア",
+          "leak_status": "不明",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "企業化するランサムウェア集団、防御側が取るべきリスク戦略とは - Forbes JAPAN"
         }
       ],
       "source_count": 1,
