@@ -1,6 +1,6 @@
 {
   "source": "Japanese cyber incident sources",
-  "retrieved_at": "2026-10-07T00:59:25.116666+00:00",
+  "retrieved_at": "2026-10-07T01:29:06.865421+00:00",
   "window_days": 30,
   "cutoff_date": "2026-09-07",
   "attack_only": true,
@@ -11,7 +11,7 @@
     "SmartScope",
     "Google News"
   ],
-  "count": 304,
+  "count": 309,
   "source_errors": {},
   "deduplication": {
     "same_source_exact": true,
@@ -546,51 +546,6 @@
             "顧客情報"
           ],
           "incident_summary": "西鉄系のニモカ、不正アクセスで約500件の顧客情報流出 - 日本経済新聞"
-        }
-      ],
-      "source_count": 1,
-      "merged": false
-    },
-    {
-      "source": "ScanNetSecurity",
-      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56396.html",
-      "published_date": "2026-10-06",
-      "title": "脅威動向 Okta, Inc. 2026.10.6 Tue 8:15 Okta Blog 第20回 AIアカウント乗っ取りと偽登録の仕組み ～ Oktaが明かすアンダーグラウンドAI経済 AI 需要の高まりは、AI アカウント乗っ取りや無料特典の悪用で得たアクセス権を転売する違法市場を生み出している",
-      "attack": true,
-      "organization": "ムラウチドットコム",
-      "service": "AI トークン乗っ取り",
-      "attack_type": "アカウント侵害",
-      "leak_status": "不明",
-      "leak_count": "900",
-      "leaked_data": [
-        "氏名",
-        "電話番号",
-        "メールアドレス",
-        "認証情報"
-      ],
-      "incident_summary": "4月、あるソフトウェアアーキテクトが AI プロバイダーからの請求書を開き、二度見しました。 彼が承認した覚えのない利用に対して、25,000 ドルが請求 されていたのです。別の組織の請求額は、 詐欺が発見され抑止されるまでに100万ドル近く に達しました。犯罪者が AI アカウントの制御を獲得し、盗んだアクセス権を転売して利益を得るために「AI トークン乗っ取り」のような新しい手口に転じる中、このような事例は増加傾向にあります。 AI への需要は急上昇しており、誰もが最も能力の高いフロンティアモデルへのアクセスを求めています。しかし、請求が届き、ユーザーが上昇するトークンコストに直面するにつれ、AI へのアクセス料を支払うのではなく盗むという動機が、 AI のコスト 上昇とまさに並行して高まっています。 この摩擦が、急成長する違法市場を生み出しました。脅威アクターが介入し、標準的なサブスクリプション価格から時には 70%～ 90% オフという大幅な割引で AI アクセスを提供しています。しかし、彼らは一体どのようにそれを行っているのでしょうか？ Okta 脅威インテリジェンスチームは",
-      "sources": [
-        "ScanNetSecurity"
-      ],
-      "source_records": [
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56396.html",
-          "published_date": "2026-10-06",
-          "title": "脅威動向 Okta, Inc. 2026.10.6 Tue 8:15 Okta Blog 第20回 AIアカウント乗っ取りと偽登録の仕組み ～ Oktaが明かすアンダーグラウンドAI経済 AI 需要の高まりは、AI アカウント乗っ取りや無料特典の悪用で得たアクセス権を転売する違法市場を生み出している",
-          "attack": true,
-          "organization": "ムラウチドットコム",
-          "service": "AI トークン乗っ取り",
-          "attack_type": "アカウント侵害",
-          "leak_status": "不明",
-          "leak_count": "900",
-          "leaked_data": [
-            "氏名",
-            "電話番号",
-            "メールアドレス",
-            "認証情報"
-          ],
-          "incident_summary": "4月、あるソフトウェアアーキテクトが AI プロバイダーからの請求書を開き、二度見しました。 彼が承認した覚えのない利用に対して、25,000 ドルが請求 されていたのです。別の組織の請求額は、 詐欺が発見され抑止されるまでに100万ドル近く に達しました。犯罪者が AI アカウントの制御を獲得し、盗んだアクセス権を転売して利益を得るために「AI トークン乗っ取り」のような新しい手口に転じる中、このような事例は増加傾向にあります。 AI への需要は急上昇しており、誰もが最も能力の高いフロンティアモデルへのアクセスを求めています。しかし、請求が届き、ユーザーが上昇するトークンコストに直面するにつれ、AI へのアクセス料を支払うのではなく盗むという動機が、 AI のコスト 上昇とまさに並行して高まっています。 この摩擦が、急成長する違法市場を生み出しました。脅威アクターが介入し、標準的なサブスクリプション価格から時には 70%～ 90% オフという大幅な割引で AI アクセスを提供しています。しかし、彼らは一体どのようにそれを行っているのでしょうか？ Okta 脅威インテリジェンスチームは"
         }
       ],
       "source_count": 1,
@@ -1230,306 +1185,113 @@
       "merged": false
     },
     {
-      "source": "ScanNetSecurity",
-      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56388.html",
+      "source": "SmartScope",
+      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
       "published_date": "2026-10-06",
-      "title": "Tue 8:00 Apache HTTP Server 2.4 に複数の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は10月2日、Apache HTTP Server 2.4における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+      "title": "Yamaguchi University (staff email account)（ disclosure ） — The staff member clicked a link in a phishing email and entered the account ID and password on a fake site, so the account was taken over (suspicious emails sent Aug 26, 14:32). No sign of malware infection on the device.",
+      "organization": "Yamaguchi University (staff email account)（ disclosure ）",
+      "affected_count": "The university states that 967 registered contacts in one staff member's account were acquired. The breakdown is 631 records with names and email addresses and 336 with email addresses only, described in the notice as records believed to have leaked. Suspicious emails were sent to 463 of the 967 contacts; this is not an additional leak count. No misuse or financial harm reported at disclosure",
+      "attack_type": null,
       "attack": true,
-      "organization": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）",
-      "service": "Japan Vulnerability Notes（JVN）",
-      "attack_type": "アカウント侵害",
-      "leak_status": "可能性あり",
-      "leak_count": "7,716,811",
-      "leaked_data": [
-        "クレジットカード情報"
+      "leak_status": "不明",
+      "leak_count": null,
+      "leaked_data": [],
+      "incident_summary": "Yamaguchi University (staff email account)（ disclosure ） — The staff member clicked a link in a phishing email and entered the account ID and password on a fake site, so the account was taken over (suspicious emails sent Aug 26, 14:32). No sign of malware infection on the device.",
+      "sources": [
+        "SmartScope"
       ],
-      "incident_summary": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は10月2日、Apache HTTP Server 2.4における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。 The Apache Software Foundationでは、Apache HTTP Server 2.4系における複数の脆弱性に対応したApache HTTP Server 2.4.69を現地時間10月1日に公開している。 JVNでは、影響を受けるシステム、想定される影響、対策方法についてはApache HTTP Serverのアドバイザリを参照するよう案内している。 Fixed in Apache HTTP Server 2.4.69 https://httpd.apache.org/security/vulnerabilities_24.html#2.4.69 Apache HTTP Server 2.4 に複数の脆弱性 2026.6.11 Thu 8:00 Apache HTTP Server 2",
+      "source_records": [
+        {
+          "source": "SmartScope",
+          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
+          "published_date": "2026-10-06",
+          "title": "Yamaguchi University (staff email account)（ disclosure ） — The staff member clicked a link in a phishing email and entered the account ID and password on a fake site, so the account was taken over (suspicious emails sent Aug 26, 14:32). No sign of malware infection on the device.",
+          "organization": "Yamaguchi University (staff email account)（ disclosure ）",
+          "affected_count": "The university states that 967 registered contacts in one staff member's account were acquired. The breakdown is 631 records with names and email addresses and 336 with email addresses only, described in the notice as records believed to have leaked. Suspicious emails were sent to 463 of the 967 contacts; this is not an additional leak count. No misuse or financial harm reported at disclosure",
+          "attack_type": null,
+          "attack": true,
+          "leak_status": "不明",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "Yamaguchi University (staff email account)（ disclosure ） — The staff member clicked a link in a phishing email and entered the account ID and password on a fake site, so the account was taken over (suspicious emails sent Aug 26, 14:32). No sign of malware infection on the device."
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
+      "source": "SmartScope",
+      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
+      "published_date": "2026-10-06",
+      "title": "Saltydog (Google Ads MCC)（ disclosure ） — Unauthorized access to one Google account used for management work, identified from Google's history. The account had a complex password plus passkey and security-key two-step verification; the entry route and how authentication was bypassed are not identified.",
+      "organization": "Saltydog (Google Ads MCC)（ disclosure ）",
+      "affected_count": "— (number of affected customers and amounts not disclosed). Fraudulent online-casino ads were created in customer ad accounts under the company's MCC. About half of the customers reached had the ads rejected in review; approximately the other half incurred fraudulent ad costs. No personal-data leak mentioned",
+      "attack_type": null,
+      "attack": true,
+      "leak_status": "不明",
+      "leak_count": null,
+      "leaked_data": [],
+      "incident_summary": "Saltydog (Google Ads MCC)（ disclosure ） — Unauthorized access to one Google account used for management work, identified from Google's history. The account had a complex password plus passkey and security-key two-step verification; the entry route and how authentication was bypassed are not identified.",
+      "sources": [
+        "SmartScope"
+      ],
+      "source_records": [
+        {
+          "source": "SmartScope",
+          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
+          "published_date": "2026-10-06",
+          "title": "Saltydog (Google Ads MCC)（ disclosure ） — Unauthorized access to one Google account used for management work, identified from Google's history. The account had a complex password plus passkey and security-key two-step verification; the entry route and how authentication was bypassed are not identified.",
+          "organization": "Saltydog (Google Ads MCC)（ disclosure ）",
+          "affected_count": "— (number of affected customers and amounts not disclosed). Fraudulent online-casino ads were created in customer ad accounts under the company's MCC. About half of the customers reached had the ads rejected in review; approximately the other half incurred fraudulent ad costs. No personal-data leak mentioned",
+          "attack_type": null,
+          "attack": true,
+          "leak_status": "不明",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "Saltydog (Google Ads MCC)（ disclosure ） — Unauthorized access to one Google account used for management work, identified from Google's history. The account had a complex password plus passkey and security-key two-step verification; the entry route and how authentication was bypassed are not identified."
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56396.html",
+      "published_date": "2026-10-06",
+      "title": "Okta Blog 第20回 AIアカウント乗っ取りと偽登録の仕組み ～ Oktaが明かすアンダーグラウンドAI経済 AI 需要の高まりは、AI アカウント乗っ取りや無料特典の悪用で得たアクセス権を転売する違法市場を生み出している",
+      "attack": true,
+      "service": "AI トークン乗っ取り",
+      "attack_type": "アカウント侵害",
+      "leak_status": "不明",
+      "leak_count": null,
+      "leaked_data": [
+        "認証情報"
+      ],
+      "incident_summary": "4月、あるソフトウェアアーキテクトが AI プロバイダーからの請求書を開き、二度見しました。 彼が承認した覚えのない利用に対して、25,000 ドルが請求 されていたのです。別の組織の請求額は、 詐欺が発見され抑止されるまでに100万ドル近く に達しました。犯罪者が AI アカウントの制御を獲得し、盗んだアクセス権を転売して利益を得るために「AI トークン乗っ取り」のような新しい手口に転じる中、このような事例は増加傾向にあります。 AI への需要は急上昇しており、誰もが最も能力の高いフロンティアモデルへのアクセスを求めています。しかし、請求が届き、ユーザーが上昇するトークンコストに直面するにつれ、AI へのアクセス料を支払うのではなく盗むという動機が、 AI のコスト 上昇とまさに並行して高まっています。 この摩擦が、急成長する違法市場を生み出しました。脅威アクターが介入し、標準的なサブスクリプション価格から時には 70%～ 90% オフという大幅な割引で AI アクセスを提供しています。しかし、彼らは一体どのようにそれを行っているのでしょうか？ Okta 脅威インテリジェンスチームは",
+      "organization": null,
       "sources": [
         "ScanNetSecurity"
       ],
       "source_records": [
         {
           "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/07/56134.html",
-          "published_date": "2026-09-07",
-          "title": "Mon 8:00 PALLET CONTROL 製品にアクセス制御不備の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月1日、PALLET CONTROL製品におけるアクセス制御不備の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
-          "attack": true,
-          "organization": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）",
-          "service": "Japan Vulnerability Notes（JVN）",
-          "attack_type": "アカウント侵害",
-          "leak_status": "可能性あり",
-          "leak_count": "7,716,811",
-          "leaked_data": [
-            "氏名",
-            "クレジットカード情報"
-          ],
-          "incident_summary": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月1日、PALLET CONTROL製品におけるアクセス制御不備の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。GMOサイバーセキュリティ byイエラエ株式会社の黒須宏道氏と上田将嗣氏が報告を行っている。影響を受けるシステムは以下の通り。 PALLET CONTROL Ver. 6.3 パッチ 5 およびそれ以前 PalletControl 10 Update 8 およびそれ以前 PalletControl クラウド（PalletControl 10 Update 8）およびそれ以前 JALデジタル株式会社が提供するPALLET CONTROL製品には、バックグラウンドで動作し一定の機能を提供するサービスプログラムが複数含まれているが、サービスプログラムとの通信に適切なアクセス権限が設定されておらず、管理者権限を持たない一般ユーザによりアクセスが可能となる脆弱性（CVE-2026-81302）が存在する。 想定される影響と"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/07/56135.html",
-          "published_date": "2026-09-07",
-          "title": "Mon 8:00 エクシングCPTrans-ME-X に複数の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月4日、エクシングCPTrans-ME-Xにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
-          "attack": true,
-          "organization": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）",
-          "service": "Japan Vulnerability Notes（JVN）",
-          "attack_type": "アカウント侵害",
-          "leak_status": "可能性あり",
-          "leak_count": "7,716,811",
-          "leaked_data": [
-            "クレジットカード情報",
-            "認証情報"
-          ],
-          "incident_summary": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月4日、エクシングCPTrans-ME-Xにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。株式会社ゼロゼロワンの佐藤勝彦（goroh_kun）氏が報告を行っている。影響を受けるシステムは以下の通り。 エクシング CPTrans-ME-X ファームウェア Ver 1.8.1.17より前のバージョン 株式会社エクシングが提供するCPTrans-ME-Xには、下記の影響を受ける可能性がある複数の脆弱性が存在する。 ・OSコマンドインジェクション（CVE-2026-62928） →認証なしにOSコマンドインジェクションが行われる ・認可されていない相手への機微なシステム情報の漏えい（CVE-2026-66840） →認証なしにシステムに関する情報が取得される ・デフォルトパスワードの使用（CVE-2026-69657） →当該認証情報を知っている第三者にログインされる ・ハードコードされたパスワードの使用（CVE-20"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/11/56202.html",
-          "published_date": "2026-09-11",
-          "title": "Fri 8:00 baserCMS用プラグイン「BurgerEditor」に複数の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月9日、baserCMS用プラグイン「BurgerEditor」における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
-          "attack": true,
-          "organization": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）",
-          "service": "BurgerEditor",
-          "attack_type": "アカウント侵害",
-          "leak_status": "可能性あり",
-          "leak_count": "7,716,811",
-          "leaked_data": [
-            "クレジットカード情報"
-          ],
-          "incident_summary": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月9日、baserCMS用プラグイン「BurgerEditor」における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。野口晋義氏が報告を行っている。影響を受けるシステムは以下の通り。 ・CVE-2026-84062 BurgerEditor 3.0.0から3.4.0 ・CVE-2026-84063 BurgerEditor 3.2.0から3.4.0 BurgerEditor 2.28.0から2.30.0 株式会社ディーゼロが提供するbaserCMS用プラグイン「BurgerEditor」には、下記の影響を受ける可能性がある複数の脆弱性が存在する。 ・ユーザ識別情報操作による権限チェック回避（CVE-2026-84062） →ページの内容を改ざんされる ・アップロードするファイルの検証が不十分（CVE-2026-84063） →任意のファイルをアップロードされ、任意のPHPコードを実行される JVNでは、開発者が提供す"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/14/56215.html",
-          "published_date": "2026-09-14",
-          "title": "Mon 8:00 SHIRASAGI に複数の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月10日、SHIRASAGIにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
-          "attack": true,
-          "organization": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）",
-          "service": "Japan Vulnerability Notes（JVN）",
-          "attack_type": "アカウント侵害",
-          "leak_status": "可能性あり",
-          "leak_count": "7,716,811",
-          "leaked_data": [
-            "クレジットカード情報"
-          ],
-          "incident_summary": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月10日、SHIRASAGIにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。東京電機大学理工学部遠隔制御研究室の外崎青波氏、野口晋義氏が報告を行っている。影響を受けるシステムは以下の通り。 ・CVE-2026-81635 SHIRASAGI v1.14.0からv1.20.2まで ・CVE-2026-82582 SHIRASAGI v1.20.2およびそれ以前 SHIRASAGI Projectが提供するSHIRASAGIには、下記の影響を受ける可能性がある複数の脆弱性が存在する。 ・クロスサイトスクリプティング（CVE-2026-81635） →当該製品を使用しているサイトにアクセスしたユーザのウェブブラウザ上で、任意のスクリプトが実行される ・認可処理の回避（CVE-2026-82582） →グループウェアの共有ファイルにおいて、本来アクセス権を持たないユーザによってファイルが取得される JVNでは、開発者が"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/16/56240.html",
-          "published_date": "2026-09-16",
-          "title": "Wed 8:00 a-blog cms にパストラバーサルの脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月11日、a-blog cmsにおけるパストラバーサルの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
-          "attack": true,
-          "organization": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）",
-          "service": "Japan Vulnerability Notes（JVN）",
-          "attack_type": "アカウント侵害",
-          "leak_status": "可能性あり",
-          "leak_count": "7,716,811",
-          "leaked_data": [
-            "クレジットカード情報"
-          ],
-          "incident_summary": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月11日、a-blog cmsにおけるパストラバーサルの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。株式会社STNetの森山響氏が報告を行っている。影響を受けるシステムは以下の通り。 a-blog cms Ver. 3.2.33およびそれ以前のバージョン 有限会社アップルップルが提供するa-blog cmsには、パストラバーサルの脆弱性（CVE-2026-87727）が存在し、未認証の第三者によってシステム上の任意のファイルを読み取られたり、削除されたりする可能性がある。 JVNでは、開発者が提供する情報をもとに最新版へアップデートするよう呼びかけている。なお、すでにサポートが終了しているVer. 2.11系以下に対しては、修正版の提供は予定されていない。 a-blog cms に複数の脆弱性 2025.5.16 Fri 8:00 a-blog cms に信頼できないデータのデシリアライゼーションの脆弱性 2025.3."
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56267.html",
-          "published_date": "2026-09-18",
-          "title": "Fri 8:00 Android アプリ「【保護者専用】まなびポケット」にアクセス制限不備の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月15日、Androidアプリ「【保護者専用】まなびポケット」におけるアクセス制限不備の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
-          "attack": true,
-          "organization": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）",
-          "service": "【保護者専用】まなびポケット",
-          "attack_type": "アカウント侵害",
-          "leak_status": "可能性あり",
-          "leak_count": "7,716,811",
-          "leaked_data": [
-            "クレジットカード情報",
-            "認証情報"
-          ],
-          "incident_summary": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月15日、Androidアプリ「【保護者専用】まなびポケット」におけるアクセス制限不備の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。株式会社Aiソリューションズの佐々木優太氏が報告を行っている。影響を受けるシステムは以下の通り。 Androidアプリ「【保護者専用】まなびポケット」バージョン1.2.3およびそれ以前 NTTドコモビジネス株式会社が提供するAndroidアプリ「【保護者専用】まなびポケット」には、Androidコンポーネントに対するアクセス制限不備の脆弱性（CVE-2026-86701）が存在し、ユーザのAndroid端末において、同端末にインストールされた悪意あるアプリからIntentを介して当該アプリ内の機微な情報が窃取される可能性がある。 JVNでは、開発者が提供する情報をもとに最新版へアップデートするよう呼びかけている。 Android アプリ「マイナポイント」にアクセス制限不備の脆弱性 2026."
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56268.html",
-          "published_date": "2026-09-18",
-          "title": "Fri 8:00 任意の OS コマンド実行の恐れ Lite-On 製 O-RU「FF-RFI079I4」「FF-RFI078I4」に脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月15日、Lite-On製O-RU「FF-RFI079I4」および「FF-RFI078I4」における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
-          "attack": true,
-          "organization": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）",
-          "service": "FF-RFI079I4",
-          "attack_type": "アカウント侵害",
-          "leak_status": "可能性あり",
-          "leak_count": "7,716,811",
-          "leaked_data": [
-            "クレジットカード情報"
-          ],
-          "incident_summary": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月15日、Lite-On製O-RU「FF-RFI079I4」および「FF-RFI078I4」における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。大阪大学の青野優智氏と大迫勇太郎氏と猿渡俊介氏が報告を行っている。影響を受けるシステムは以下の通り。 FF-RFI079I4 ファームウェア v02.01.15より前のバージョン FF-RFI078I4 ファームウェア v02.01.15より前のバージョン LITE-ON Technology Corporationが提供するO-RU「FF-RFI079I4」および「FF-RFI078I4」には、下記の影響を受ける可能性がある複数の脆弱性が存在する。 ・OSコマンドインジェクション（CVE-2026-77853） →当該製品のM-Plane（NETCONF）にログイン可能なユーザーによって、任意のOSコマンドを実行される ・非公開機能を悪用される問題（CVE-2026-80"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56265.html",
-          "published_date": "2026-09-18",
-          "title": "Fri 8:00 登山アプリ「YAMAP」Android 版にアクセス制限不備の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月14日、Androidアプリ「YAMAP / ヤマップ登山地図アプリ」におけるアクセス制限不備の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
-          "attack": true,
-          "organization": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）",
-          "service": "YAMAP",
-          "attack_type": "アカウント侵害",
-          "leak_status": "可能性あり",
-          "leak_count": "7,716,811",
-          "leaked_data": [
-            "クレジットカード情報",
-            "認証情報"
-          ],
-          "incident_summary": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月14日、Androidアプリ「YAMAP / ヤマップ登山地図アプリ」におけるアクセス制限不備の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。株式会社ブロードバンドセキュリティの佐藤光喜氏が報告を行っている。影響を受けるシステムは以下の通り。 Androidアプリ「YAMAP / ヤマップ登山地図アプリ」バージョン v17.1.0およびそれ以前 株式会社ヤマップが提供するAndroidアプリ「YAMAP / ヤマップ登山地図アプリ」には、通信チャネルの送信元の検証不備の脆弱性（CVE-2026-85125）が存在し、アプリ内ブラウザにより、アプリ内の情報が漏えいしたり、想定していないWebサイトへ遷移したりする可能性がある。 JVNでは、開発者が提供する情報をもとに最新版へアップデートするよう呼びかけている。 Android アプリ「マイナポイント」にアクセス制限不備の脆弱性 2026.8.28 Fri 8:00 And"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/24/56278.html",
-          "published_date": "2026-09-24",
-          "title": "Thu 8:00 ISC BIND に複数の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月18日、ISC BINDにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
-          "attack": true,
-          "organization": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）",
-          "service": "Japan Vulnerability Notes（JVN）",
-          "attack_type": "アカウント侵害",
-          "leak_status": "可能性あり",
-          "leak_count": "7,716,811",
-          "leaked_data": [
-            "クレジットカード情報"
-          ],
-          "incident_summary": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月18日、ISC BINDにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。ISC（Internet Systems Consortium）では、ISC BINDの複数の脆弱性を公開している。 JVNでは、影響を受けるシステム、想定される影響、対策方法についてはISCのアドバイザリを参照するよう案内している。 CVE-2026-19033: Unauthenticated IXFR deltas are applied to the live zone before TSIG verification https://kb.isc.org/docs/cve-2026-19033 CVE-2026-19662: qpcache NOQNAME proof use-after-free crashes recursive resolver https://kb.isc.org/docs/cve-2026-19662 "
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/24/56276.html",
-          "published_date": "2026-09-24",
-          "title": "Thu 8:00 QND に複数の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月16日、QNDにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
-          "attack": true,
-          "organization": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）",
-          "service": "Japan Vulnerability Notes（JVN）",
-          "attack_type": "アカウント侵害",
-          "leak_status": "可能性あり",
-          "leak_count": "7,716,811",
-          "leaked_data": [
-            "氏名",
-            "クレジットカード情報",
-            "認証情報"
-          ],
-          "incident_summary": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月16日、QNDにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。エムオーテックス株式会社の小椋大靖氏が報告を行っている。影響を受けるシステムは以下の通り。 QND Premium Ver.11.1iおよびそれ以前のバージョン QND Standard Ver.11.1iおよびそれ以前のバージョン QND Advance Ver.11.0.9iおよびそれ以前のバージョン クオリティソフト株式会社が提供するQNDには、下記の影響を受ける可能性がある複数の脆弱性が存在する。 ・ハードコードされた暗号鍵の使用（CVE-2026-81326） →当該製品の管理者IDおよびパスワードが窃取される ・名前付きパイプに対するアクセス制限不備（CVE-2026-84408） →SYSTEM権限で任意のコマンドが実行される JVNでは、開発者が提供する情報をもとにVer.11.0.9iまたはVer.11.1iにアップデートしたうえ"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/24/56277.html",
-          "published_date": "2026-09-24",
-          "title": "Thu 8:00 スマートフォンアプリ「東北電力 よりそうｅねっと」にハードコードされた暗号鍵使用の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月17日、スマートフォンアプリ「東北電力 よりそうｅねっと」におけるハードコードされた暗号鍵使用の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
-          "attack": true,
-          "organization": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）",
-          "service": "東北電力 よりそうｅねっと",
-          "attack_type": "アカウント侵害",
-          "leak_status": "可能性あり",
-          "leak_count": "7,716,811",
-          "leaked_data": [
-            "クレジットカード情報"
-          ],
-          "incident_summary": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月17日、スマートフォンアプリ「東北電力 よりそうｅねっと」におけるハードコードされた暗号鍵使用の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。株式会社Aiソリューションズの佐々木優太氏が報告を行っている。影響を受けるシステムは以下の通り。 Androidアプリ「東北電力 よりそうｅねっと」バージョン2.8.0より前 iOSアプリ「東北電力 よりそうｅねっと」バージョン2.8.0より前 東北電力株式会社が提供するスマートフォンアプリ「東北電力 よりそうｅねっと」には、ハードコードされた暗号鍵使用の脆弱性（CVE-2026-75553）が存在し、当該製品にハードコードされた暗号鍵を第三者に取得される可能性がある。 JVNでは、開発者が提供する情報をもとに最新版へアップデートするよう呼びかけている。なお、本脆弱性を修正した下記のバージョンがリリースされている。 Androidアプリ「東北電力 よりそうｅねっと」バージョン2.8"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/28/56309.html",
-          "published_date": "2026-09-28",
-          "title": "Mon 8:00 Apache Tomcat に複数の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月24日、Apache Tomcatにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
-          "attack": true,
-          "organization": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）",
-          "service": "Japan Vulnerability Notes（JVN）",
-          "attack_type": "アカウント侵害",
-          "leak_status": "可能性あり",
-          "leak_count": "15",
-          "leaked_data": [
-            "クレジットカード情報"
-          ],
-          "incident_summary": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月24日、Apache Tomcatにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。The Apache Software Foundationでは、Apache Tomcatの15件の脆弱性に対してアドバイザリを公開している。 JVNでは、影響を受けるシステム、想定される影響、対策方法についてはApache Tomcatのアドバイザリを参照するよう案内している。 [SECURITY] CVE-2026-73581 Apache Tomcat - OpenSSL and OpenSSL-FFM TLS implementations ignore CRLs when certificate uses a keystore https://lists.apache.org/thread/r0dj3h1pbn4wv96fhsfrnz3t6874t6do [SECURITY] CVE-2026-75973 Apach"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/28/56310.html",
-          "published_date": "2026-09-28",
-          "title": "Mon 8:00 baserCMS に複数の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月25日、baserCMSにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
-          "attack": true,
-          "organization": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）",
-          "service": "Japan Vulnerability Notes（JVN）",
-          "attack_type": "アカウント侵害",
-          "leak_status": "可能性あり",
-          "leak_count": "7,716,811",
-          "leaked_data": [
-            "クレジットカード情報"
-          ],
-          "incident_summary": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月25日、baserCMSにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。三井物産セキュアディレクション株式会社の加藤創氏と東内裕二氏と田中凱氏と野口晋義氏が報告を行っている。影響を受けるシステムは以下の通り。 ・CVE-2026-93460、CVE-2026-93462、CVE-2026-93463、CVE-2026-93464 baserCMS 5.4.1より前のバージョン（5.4系） baserCMS 5.3.1より前のバージョン（5.3系以前のすべてのバージョンを含む） ・CVE-2026-62956 baserCMS 5.2.10より前のバージョン（5.2系以前のすべてのバージョンを含む） baserCMSユーザー会が提供するbaserCMSには、下記の影響を受ける可能性がある複数の脆弱性が存在する。 ・クロスサイトスクリプティング（CVE-2026-93460、CVE-2026-93463、CVE-"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/29/56322.html",
-          "published_date": "2026-09-29",
-          "title": "Tue 8:00 baserCMS 用プラグイン「アドオンマイグレーター」 に信頼できない制御領域からの機能の組み込みに関する脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月25日、baserCMS用プラグイン「アドオンマイグレーター」 における信頼できない制御領域からの機能の組み込みに関する脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
-          "attack": true,
-          "organization": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）",
-          "service": "アドオンマイグレーター",
-          "attack_type": "アカウント侵害",
-          "leak_status": "可能性あり",
-          "leak_count": "7,716,811",
-          "leaked_data": [
-            "クレジットカード情報"
-          ],
-          "incident_summary": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月25日、baserCMS用プラグイン「アドオンマイグレーター」 における信頼できない制御領域からの機能の組み込みに関する脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。三井物産セキュアディレクション株式会社の野口晋義氏が報告を行っている。影響を受けるシステムは以下の通り。 BcAddonMigrator 5.2.0およびそれ以前のバージョン baserCMSユーザー会が提供するbaserCMS用プラグイン「アドオンマイグレーター」 には、信頼できない制御領域からの機能の組み込みに関する脆弱性（CVE-2026-97150）が存在し、当該製品に管理者権限でログイン可能な攻撃者によって、システム上の任意のファイルを読み取られたり、削除されたりする可能性がある。 JVNでは、開発者が提供する情報をもとにプラグインを最新版にアップデートするよう呼びかけている。なお、本脆弱性は「BcAddonMigrator 5.2.1」で修正され"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/02/56367.html",
-          "published_date": "2026-10-02",
-          "title": "Fri 8:00 PFU 製 Image Scanner Driver for Linux に複数の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月29日、PFU製Image Scanner Driver for Linuxにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
-          "attack": true,
-          "organization": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）",
-          "service": "Japan Vulnerability Notes（JVN）",
-          "attack_type": "アカウント侵害",
-          "leak_status": "可能性あり",
-          "leak_count": "7,716,811",
-          "leaked_data": [
-            "クレジットカード情報"
-          ],
-          "incident_summary": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月29日、PFU製Image Scanner Driver for Linuxにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。Cipher Security LabsのNir Yehoshua氏が報告を行っている。影響を受けるシステムは以下の通り。 Image Scanner Driver for Linux (fi Series) V2.0.0、V2.1.0、V2.1.1、V2.3.2、V2.5.0、V2.7.0、V2.7.1、V2.8.0、V2.8.1、V2.8.2 Image Scanner Driver for Linux (SP Series) V2.0.0、V2.1.0、V2.1.1、V2.1.1-4、V2.2.0、V2.2.1、V2.2.2、V2.3.0 株式会社PFUが提供するImage Scanner Driver for Linuxには、下記の影響を受ける可能性がある複数の脆弱性が存在する。"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/02/56366.html",
-          "published_date": "2026-10-02",
-          "title": "Fri 8:00 バッファロー製 Wi-Fi 製品に複数の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月28日、バッファロー製Wi-Fi製品における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
-          "attack": true,
-          "organization": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）",
-          "service": "Japan Vulnerability Notes（JVN）",
-          "attack_type": "アカウント侵害",
-          "leak_status": "可能性あり",
-          "leak_count": "7,716,811",
-          "leaked_data": [
-            "クレジットカード情報",
-            "認証情報"
-          ],
-          "incident_summary": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月28日、バッファロー製Wi-Fi製品における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。Veeti Punnonen氏が報告を行っている。影響を受けるシステムは以下の通り。 WSR-300HP ファームウェア Ver.2.55より前のバージョン WEX-G300 ファームウェア Ver.1.71より前のバージョン 株式会社バッファローが提供する複数のWi-Fi製品の設定画面には、下記の影響を受ける可能性がある複数の脆弱性が存在する。 ・OSコマンドインジェクション（CVE-2026-86530） →認証済みユーザーによる細工された入力を処理することによって任意のOSコマンドを実行される ・スタックベースのバッファオーバーフロー（CVE-2026-95104） →細工された入力を処理することによってサービス運用妨害（DoS）状態にされる JVNでは、開発者が提供する情報をもとに最新版にアップデートするよう呼びかけて"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56388.html",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56396.html",
           "published_date": "2026-10-06",
-          "title": "Tue 8:00 Apache HTTP Server 2.4 に複数の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は10月2日、Apache HTTP Server 2.4における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "title": "Okta Blog 第20回 AIアカウント乗っ取りと偽登録の仕組み ～ Oktaが明かすアンダーグラウンドAI経済 AI 需要の高まりは、AI アカウント乗っ取りや無料特典の悪用で得たアクセス権を転売する違法市場を生み出している",
           "attack": true,
-          "organization": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）",
-          "service": "Japan Vulnerability Notes（JVN）",
+          "service": "AI トークン乗っ取り",
           "attack_type": "アカウント侵害",
-          "leak_status": "可能性あり",
-          "leak_count": "7,716,811",
+          "leak_status": "不明",
+          "leak_count": null,
           "leaked_data": [
-            "クレジットカード情報"
+            "認証情報"
           ],
-          "incident_summary": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は10月2日、Apache HTTP Server 2.4における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。 The Apache Software Foundationでは、Apache HTTP Server 2.4系における複数の脆弱性に対応したApache HTTP Server 2.4.69を現地時間10月1日に公開している。 JVNでは、影響を受けるシステム、想定される影響、対策方法についてはApache HTTP Serverのアドバイザリを参照するよう案内している。 Fixed in Apache HTTP Server 2.4.69 https://httpd.apache.org/security/vulnerabilities_24.html#2.4.69 Apache HTTP Server 2.4 に複数の脆弱性 2026.6.11 Thu 8:00 Apache HTTP Server 2"
+          "incident_summary": "4月、あるソフトウェアアーキテクトが AI プロバイダーからの請求書を開き、二度見しました。 彼が承認した覚えのない利用に対して、25,000 ドルが請求 されていたのです。別の組織の請求額は、 詐欺が発見され抑止されるまでに100万ドル近く に達しました。犯罪者が AI アカウントの制御を獲得し、盗んだアクセス権を転売して利益を得るために「AI トークン乗っ取り」のような新しい手口に転じる中、このような事例は増加傾向にあります。 AI への需要は急上昇しており、誰もが最も能力の高いフロンティアモデルへのアクセスを求めています。しかし、請求が届き、ユーザーが上昇するトークンコストに直面するにつれ、AI へのアクセス料を支払うのではなく盗むという動機が、 AI のコスト 上昇とまさに並行して高まっています。 この摩擦が、急成長する違法市場を生み出しました。脅威アクターが介入し、標準的なサブスクリプション価格から時には 70%～ 90% オフという大幅な割引で AI アクセスを提供しています。しかし、彼らは一体どのようにそれを行っているのでしょうか？ Okta 脅威インテリジェンスチームは",
+          "organization": null
         }
       ],
       "source_count": 1,
-      "merged": true
+      "merged": false
     },
     {
       "source": "Google News",
@@ -1631,6 +1393,374 @@
       ],
       "source_count": 1,
       "merged": false
+    },
+    {
+      "source": "SmartScope",
+      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
+      "published_date": "2026-10-06",
+      "title": "CINRA JOB (CINRA)（ disclosure ） — A third party accessed the system using the company's own credentials that had been obtained by exploiting a program vulnerability. Found Aug 18 and the credentials were invalidated the same day. The Oct 6 final report states the cause described above; the first report was published on Aug 27. The location where the credentials were retrievable from outside has been fixed.",
+      "organization": "CINRA JOB (CINRA)（ disclosure ）",
+      "affected_count": "21,508 members in scope, including former members (names, birth dates, addresses, phone numbers, emails, education and work history, desired conditions, application history etc.). No confirmed viewing or acquisition of the member database or its backups, but a leak cannot be ruled out because there are no sufficient records to establish that no viewing or acquisition occurred. No payment data held",
+      "attack_type": null,
+      "attack": true,
+      "leak_status": "不明",
+      "leak_count": null,
+      "leaked_data": [],
+      "incident_summary": "CINRA JOB (CINRA)（ disclosure ） — A third party accessed the system using the company's own credentials that had been obtained by exploiting a program vulnerability. Found Aug 18 and the credentials were invalidated the same day. The Oct 6 final report states the cause described above; the first report was published on Aug 27. The location where the credentials were retrievable from outside has been fixed.",
+      "sources": [
+        "SmartScope"
+      ],
+      "source_records": [
+        {
+          "source": "SmartScope",
+          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
+          "published_date": "2026-10-06",
+          "title": "CINRA JOB (CINRA)（ disclosure ） — A third party accessed the system using the company's own credentials that had been obtained by exploiting a program vulnerability. Found Aug 18 and the credentials were invalidated the same day. The Oct 6 final report states the cause described above; the first report was published on Aug 27. The location where the credentials were retrievable from outside has been fixed.",
+          "organization": "CINRA JOB (CINRA)（ disclosure ）",
+          "affected_count": "21,508 members in scope, including former members (names, birth dates, addresses, phone numbers, emails, education and work history, desired conditions, application history etc.). No confirmed viewing or acquisition of the member database or its backups, but a leak cannot be ruled out because there are no sufficient records to establish that no viewing or acquisition occurred. No payment data held",
+          "attack_type": null,
+          "attack": true,
+          "leak_status": "不明",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "CINRA JOB (CINRA)（ disclosure ） — A third party accessed the system using the company's own credentials that had been obtained by exploiting a program vulnerability. Found Aug 18 and the credentials were invalidated the same day. The Oct 6 final report states the cause described above; the first report was published on Aug 27. The location where the credentials were retrievable from outside has been fixed."
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
+      "source": "SmartScope",
+      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
+      "published_date": "2026-10-06",
+      "title": "Asahi Kasei Therapeutics (Pharma DIGITAL)（ disclosure ） — Cyberattack and unauthorized access to the Pharma DIGITAL information site for healthcare professionals. The company was notified on Oct 2 by contractor Iyaku Joho Net, which operates the site and manages its data. Entry route not stated.",
+      "organization": "Asahi Kasei Therapeutics (Pharma DIGITAL)（ disclosure ）",
+      "affected_count": "Up to about 514,000 healthcare professionals (names, facility names and addresses, occupations, departments etc.) and a category of up to about 44,000 that also includes email addresses etc. (the notice does not say how the two overlap; do not add them). Separately up to about 700 employees (names, emails, photos). All are possible leaks. No credit-card data or special-care personal information held. No misuse confirmed at disclosure",
+      "attack_type": null,
+      "attack": true,
+      "leak_status": "不明",
+      "leak_count": null,
+      "leaked_data": [],
+      "incident_summary": "Asahi Kasei Therapeutics (Pharma DIGITAL)（ disclosure ） — Cyberattack and unauthorized access to the Pharma DIGITAL information site for healthcare professionals. The company was notified on Oct 2 by contractor Iyaku Joho Net, which operates the site and manages its data. Entry route not stated.",
+      "sources": [
+        "SmartScope"
+      ],
+      "source_records": [
+        {
+          "source": "SmartScope",
+          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
+          "published_date": "2026-10-06",
+          "title": "Asahi Kasei Therapeutics (Pharma DIGITAL)（ disclosure ） — Cyberattack and unauthorized access to the Pharma DIGITAL information site for healthcare professionals. The company was notified on Oct 2 by contractor Iyaku Joho Net, which operates the site and manages its data. Entry route not stated.",
+          "organization": "Asahi Kasei Therapeutics (Pharma DIGITAL)（ disclosure ）",
+          "affected_count": "Up to about 514,000 healthcare professionals (names, facility names and addresses, occupations, departments etc.) and a category of up to about 44,000 that also includes email addresses etc. (the notice does not say how the two overlap; do not add them). Separately up to about 700 employees (names, emails, photos). All are possible leaks. No credit-card data or special-care personal information held. No misuse confirmed at disclosure",
+          "attack_type": null,
+          "attack": true,
+          "leak_status": "不明",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "Asahi Kasei Therapeutics (Pharma DIGITAL)（ disclosure ） — Cyberattack and unauthorized access to the Pharma DIGITAL information site for healthcare professionals. The company was notified on Oct 2 by contractor Iyaku Joho Net, which operates the site and manages its data. Entry route not stated."
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56388.html",
+      "published_date": "2026-10-06",
+      "title": "Apache HTTP Server 2.4 に複数の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は10月2日、Apache HTTP Server 2.4における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+      "attack": true,
+      "organization": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）",
+      "service": "Japan Vulnerability Notes（JVN）",
+      "attack_type": "アカウント侵害",
+      "leak_status": "可能性あり",
+      "leak_count": "7,716,811",
+      "leaked_data": [
+        "クレジットカード情報"
+      ],
+      "incident_summary": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は10月2日、Apache HTTP Server 2.4における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。 The Apache Software Foundationでは、Apache HTTP Server 2.4系における複数の脆弱性に対応したApache HTTP Server 2.4.69を現地時間10月1日に公開している。 JVNでは、影響を受けるシステム、想定される影響、対策方法についてはApache HTTP Serverのアドバイザリを参照するよう案内している。 Fixed in Apache HTTP Server 2.4.69 https://httpd.apache.org/security/vulnerabilities_24.html#2.4.69 Apache HTTP Server 2.4 に複数の脆弱性 2026.6.11 Thu 8:00 Apache HTTP Server 2",
+      "sources": [
+        "ScanNetSecurity"
+      ],
+      "source_records": [
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/07/56134.html",
+          "published_date": "2026-09-07",
+          "title": "PALLET CONTROL 製品にアクセス制御不備の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月1日、PALLET CONTROL製品におけるアクセス制御不備の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "attack": true,
+          "organization": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）",
+          "service": "Japan Vulnerability Notes（JVN）",
+          "attack_type": "アカウント侵害",
+          "leak_status": "可能性あり",
+          "leak_count": "7,716,811",
+          "leaked_data": [
+            "氏名",
+            "クレジットカード情報"
+          ],
+          "incident_summary": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月1日、PALLET CONTROL製品におけるアクセス制御不備の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。GMOサイバーセキュリティ byイエラエ株式会社の黒須宏道氏と上田将嗣氏が報告を行っている。影響を受けるシステムは以下の通り。 PALLET CONTROL Ver. 6.3 パッチ 5 およびそれ以前 PalletControl 10 Update 8 およびそれ以前 PalletControl クラウド（PalletControl 10 Update 8）およびそれ以前 JALデジタル株式会社が提供するPALLET CONTROL製品には、バックグラウンドで動作し一定の機能を提供するサービスプログラムが複数含まれているが、サービスプログラムとの通信に適切なアクセス権限が設定されておらず、管理者権限を持たない一般ユーザによりアクセスが可能となる脆弱性（CVE-2026-81302）が存在する。 想定される影響と"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/07/56135.html",
+          "published_date": "2026-09-07",
+          "title": "エクシングCPTrans-ME-X に複数の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月4日、エクシングCPTrans-ME-Xにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "attack": true,
+          "organization": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）",
+          "service": "Japan Vulnerability Notes（JVN）",
+          "attack_type": "アカウント侵害",
+          "leak_status": "可能性あり",
+          "leak_count": "7,716,811",
+          "leaked_data": [
+            "クレジットカード情報",
+            "認証情報"
+          ],
+          "incident_summary": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月4日、エクシングCPTrans-ME-Xにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。株式会社ゼロゼロワンの佐藤勝彦（goroh_kun）氏が報告を行っている。影響を受けるシステムは以下の通り。 エクシング CPTrans-ME-X ファームウェア Ver 1.8.1.17より前のバージョン 株式会社エクシングが提供するCPTrans-ME-Xには、下記の影響を受ける可能性がある複数の脆弱性が存在する。 ・OSコマンドインジェクション（CVE-2026-62928） →認証なしにOSコマンドインジェクションが行われる ・認可されていない相手への機微なシステム情報の漏えい（CVE-2026-66840） →認証なしにシステムに関する情報が取得される ・デフォルトパスワードの使用（CVE-2026-69657） →当該認証情報を知っている第三者にログインされる ・ハードコードされたパスワードの使用（CVE-20"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/11/56202.html",
+          "published_date": "2026-09-11",
+          "title": "baserCMS用プラグイン「BurgerEditor」に複数の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月9日、baserCMS用プラグイン「BurgerEditor」における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "attack": true,
+          "organization": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）",
+          "service": "BurgerEditor",
+          "attack_type": "アカウント侵害",
+          "leak_status": "可能性あり",
+          "leak_count": "7,716,811",
+          "leaked_data": [
+            "クレジットカード情報"
+          ],
+          "incident_summary": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月9日、baserCMS用プラグイン「BurgerEditor」における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。野口晋義氏が報告を行っている。影響を受けるシステムは以下の通り。 ・CVE-2026-84062 BurgerEditor 3.0.0から3.4.0 ・CVE-2026-84063 BurgerEditor 3.2.0から3.4.0 BurgerEditor 2.28.0から2.30.0 株式会社ディーゼロが提供するbaserCMS用プラグイン「BurgerEditor」には、下記の影響を受ける可能性がある複数の脆弱性が存在する。 ・ユーザ識別情報操作による権限チェック回避（CVE-2026-84062） →ページの内容を改ざんされる ・アップロードするファイルの検証が不十分（CVE-2026-84063） →任意のファイルをアップロードされ、任意のPHPコードを実行される JVNでは、開発者が提供す"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/14/56215.html",
+          "published_date": "2026-09-14",
+          "title": "SHIRASAGI に複数の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月10日、SHIRASAGIにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "attack": true,
+          "organization": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）",
+          "service": "Japan Vulnerability Notes（JVN）",
+          "attack_type": "アカウント侵害",
+          "leak_status": "可能性あり",
+          "leak_count": "7,716,811",
+          "leaked_data": [
+            "クレジットカード情報"
+          ],
+          "incident_summary": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月10日、SHIRASAGIにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。東京電機大学理工学部遠隔制御研究室の外崎青波氏、野口晋義氏が報告を行っている。影響を受けるシステムは以下の通り。 ・CVE-2026-81635 SHIRASAGI v1.14.0からv1.20.2まで ・CVE-2026-82582 SHIRASAGI v1.20.2およびそれ以前 SHIRASAGI Projectが提供するSHIRASAGIには、下記の影響を受ける可能性がある複数の脆弱性が存在する。 ・クロスサイトスクリプティング（CVE-2026-81635） →当該製品を使用しているサイトにアクセスしたユーザのウェブブラウザ上で、任意のスクリプトが実行される ・認可処理の回避（CVE-2026-82582） →グループウェアの共有ファイルにおいて、本来アクセス権を持たないユーザによってファイルが取得される JVNでは、開発者が"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/16/56240.html",
+          "published_date": "2026-09-16",
+          "title": "a-blog cms にパストラバーサルの脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月11日、a-blog cmsにおけるパストラバーサルの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "attack": true,
+          "organization": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）",
+          "service": "Japan Vulnerability Notes（JVN）",
+          "attack_type": "アカウント侵害",
+          "leak_status": "可能性あり",
+          "leak_count": "7,716,811",
+          "leaked_data": [
+            "クレジットカード情報"
+          ],
+          "incident_summary": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月11日、a-blog cmsにおけるパストラバーサルの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。株式会社STNetの森山響氏が報告を行っている。影響を受けるシステムは以下の通り。 a-blog cms Ver. 3.2.33およびそれ以前のバージョン 有限会社アップルップルが提供するa-blog cmsには、パストラバーサルの脆弱性（CVE-2026-87727）が存在し、未認証の第三者によってシステム上の任意のファイルを読み取られたり、削除されたりする可能性がある。 JVNでは、開発者が提供する情報をもとに最新版へアップデートするよう呼びかけている。なお、すでにサポートが終了しているVer. 2.11系以下に対しては、修正版の提供は予定されていない。 a-blog cms に複数の脆弱性 2025.5.16 Fri 8:00 a-blog cms に信頼できないデータのデシリアライゼーションの脆弱性 2025.3."
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56267.html",
+          "published_date": "2026-09-18",
+          "title": "Android アプリ「【保護者専用】まなびポケット」にアクセス制限不備の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月15日、Androidアプリ「【保護者専用】まなびポケット」におけるアクセス制限不備の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "attack": true,
+          "organization": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）",
+          "service": "【保護者専用】まなびポケット",
+          "attack_type": "アカウント侵害",
+          "leak_status": "可能性あり",
+          "leak_count": "7,716,811",
+          "leaked_data": [
+            "クレジットカード情報",
+            "認証情報"
+          ],
+          "incident_summary": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月15日、Androidアプリ「【保護者専用】まなびポケット」におけるアクセス制限不備の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。株式会社Aiソリューションズの佐々木優太氏が報告を行っている。影響を受けるシステムは以下の通り。 Androidアプリ「【保護者専用】まなびポケット」バージョン1.2.3およびそれ以前 NTTドコモビジネス株式会社が提供するAndroidアプリ「【保護者専用】まなびポケット」には、Androidコンポーネントに対するアクセス制限不備の脆弱性（CVE-2026-86701）が存在し、ユーザのAndroid端末において、同端末にインストールされた悪意あるアプリからIntentを介して当該アプリ内の機微な情報が窃取される可能性がある。 JVNでは、開発者が提供する情報をもとに最新版へアップデートするよう呼びかけている。 Android アプリ「マイナポイント」にアクセス制限不備の脆弱性 2026."
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56268.html",
+          "published_date": "2026-09-18",
+          "title": "任意の OS コマンド実行の恐れ Lite-On 製 O-RU「FF-RFI079I4」「FF-RFI078I4」に脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月15日、Lite-On製O-RU「FF-RFI079I4」および「FF-RFI078I4」における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "attack": true,
+          "organization": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）",
+          "service": "FF-RFI079I4",
+          "attack_type": "アカウント侵害",
+          "leak_status": "可能性あり",
+          "leak_count": "7,716,811",
+          "leaked_data": [
+            "クレジットカード情報"
+          ],
+          "incident_summary": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月15日、Lite-On製O-RU「FF-RFI079I4」および「FF-RFI078I4」における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。大阪大学の青野優智氏と大迫勇太郎氏と猿渡俊介氏が報告を行っている。影響を受けるシステムは以下の通り。 FF-RFI079I4 ファームウェア v02.01.15より前のバージョン FF-RFI078I4 ファームウェア v02.01.15より前のバージョン LITE-ON Technology Corporationが提供するO-RU「FF-RFI079I4」および「FF-RFI078I4」には、下記の影響を受ける可能性がある複数の脆弱性が存在する。 ・OSコマンドインジェクション（CVE-2026-77853） →当該製品のM-Plane（NETCONF）にログイン可能なユーザーによって、任意のOSコマンドを実行される ・非公開機能を悪用される問題（CVE-2026-80"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56265.html",
+          "published_date": "2026-09-18",
+          "title": "登山アプリ「YAMAP」Android 版にアクセス制限不備の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月14日、Androidアプリ「YAMAP / ヤマップ登山地図アプリ」におけるアクセス制限不備の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "attack": true,
+          "organization": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）",
+          "service": "YAMAP",
+          "attack_type": "アカウント侵害",
+          "leak_status": "可能性あり",
+          "leak_count": "7,716,811",
+          "leaked_data": [
+            "クレジットカード情報",
+            "認証情報"
+          ],
+          "incident_summary": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月14日、Androidアプリ「YAMAP / ヤマップ登山地図アプリ」におけるアクセス制限不備の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。株式会社ブロードバンドセキュリティの佐藤光喜氏が報告を行っている。影響を受けるシステムは以下の通り。 Androidアプリ「YAMAP / ヤマップ登山地図アプリ」バージョン v17.1.0およびそれ以前 株式会社ヤマップが提供するAndroidアプリ「YAMAP / ヤマップ登山地図アプリ」には、通信チャネルの送信元の検証不備の脆弱性（CVE-2026-85125）が存在し、アプリ内ブラウザにより、アプリ内の情報が漏えいしたり、想定していないWebサイトへ遷移したりする可能性がある。 JVNでは、開発者が提供する情報をもとに最新版へアップデートするよう呼びかけている。 Android アプリ「マイナポイント」にアクセス制限不備の脆弱性 2026.8.28 Fri 8:00 And"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/24/56278.html",
+          "published_date": "2026-09-24",
+          "title": "ISC BIND に複数の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月18日、ISC BINDにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "attack": true,
+          "organization": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）",
+          "service": "Japan Vulnerability Notes（JVN）",
+          "attack_type": null,
+          "leak_status": "不明",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月18日、ISC BINDにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。ISC（Internet Systems Consortium）では、ISC BINDの複数の脆弱性を公開している。 JVNでは、影響を受けるシステム、想定される影響、対策方法についてはISCのアドバイザリを参照するよう案内している。 CVE-2026-19033: Unauthenticated IXFR deltas are applied to the live zone before TSIG verification https://kb.isc.org/docs/cve-2026-19033 CVE-2026-19662: qpcache NOQNAME proof use-after-free crashes recursive resolver https://kb.isc.org/docs/cve-2026-19662 "
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/24/56276.html",
+          "published_date": "2026-09-24",
+          "title": "QND に複数の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月16日、QNDにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "attack": true,
+          "organization": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）",
+          "service": "Japan Vulnerability Notes（JVN）",
+          "attack_type": "アカウント侵害",
+          "leak_status": "可能性あり",
+          "leak_count": "7,716,811",
+          "leaked_data": [
+            "氏名",
+            "クレジットカード情報",
+            "認証情報"
+          ],
+          "incident_summary": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月16日、QNDにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。エムオーテックス株式会社の小椋大靖氏が報告を行っている。影響を受けるシステムは以下の通り。 QND Premium Ver.11.1iおよびそれ以前のバージョン QND Standard Ver.11.1iおよびそれ以前のバージョン QND Advance Ver.11.0.9iおよびそれ以前のバージョン クオリティソフト株式会社が提供するQNDには、下記の影響を受ける可能性がある複数の脆弱性が存在する。 ・ハードコードされた暗号鍵の使用（CVE-2026-81326） →当該製品の管理者IDおよびパスワードが窃取される ・名前付きパイプに対するアクセス制限不備（CVE-2026-84408） →SYSTEM権限で任意のコマンドが実行される JVNでは、開発者が提供する情報をもとにVer.11.0.9iまたはVer.11.1iにアップデートしたうえ"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/24/56277.html",
+          "published_date": "2026-09-24",
+          "title": "スマートフォンアプリ「東北電力 よりそうｅねっと」にハードコードされた暗号鍵使用の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月17日、スマートフォンアプリ「東北電力 よりそうｅねっと」におけるハードコードされた暗号鍵使用の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "attack": true,
+          "organization": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）",
+          "service": "東北電力 よりそうｅねっと",
+          "attack_type": "アカウント侵害",
+          "leak_status": "可能性あり",
+          "leak_count": "7,716,811",
+          "leaked_data": [
+            "クレジットカード情報"
+          ],
+          "incident_summary": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月17日、スマートフォンアプリ「東北電力 よりそうｅねっと」におけるハードコードされた暗号鍵使用の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。株式会社Aiソリューションズの佐々木優太氏が報告を行っている。影響を受けるシステムは以下の通り。 Androidアプリ「東北電力 よりそうｅねっと」バージョン2.8.0より前 iOSアプリ「東北電力 よりそうｅねっと」バージョン2.8.0より前 東北電力株式会社が提供するスマートフォンアプリ「東北電力 よりそうｅねっと」には、ハードコードされた暗号鍵使用の脆弱性（CVE-2026-75553）が存在し、当該製品にハードコードされた暗号鍵を第三者に取得される可能性がある。 JVNでは、開発者が提供する情報をもとに最新版へアップデートするよう呼びかけている。なお、本脆弱性を修正した下記のバージョンがリリースされている。 Androidアプリ「東北電力 よりそうｅねっと」バージョン2.8"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/28/56309.html",
+          "published_date": "2026-09-28",
+          "title": "Apache Tomcat に複数の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月24日、Apache Tomcatにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "attack": true,
+          "organization": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）",
+          "service": "Japan Vulnerability Notes（JVN）",
+          "attack_type": null,
+          "leak_status": "不明",
+          "leak_count": "15",
+          "leaked_data": [],
+          "incident_summary": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月24日、Apache Tomcatにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。The Apache Software Foundationでは、Apache Tomcatの15件の脆弱性に対してアドバイザリを公開している。 JVNでは、影響を受けるシステム、想定される影響、対策方法についてはApache Tomcatのアドバイザリを参照するよう案内している。 [SECURITY] CVE-2026-73581 Apache Tomcat - OpenSSL and OpenSSL-FFM TLS implementations ignore CRLs when certificate uses a keystore https://lists.apache.org/thread/r0dj3h1pbn4wv96fhsfrnz3t6874t6do [SECURITY] CVE-2026-75973 Apach"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/28/56310.html",
+          "published_date": "2026-09-28",
+          "title": "baserCMS に複数の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月25日、baserCMSにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "attack": true,
+          "organization": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）",
+          "service": "Japan Vulnerability Notes（JVN）",
+          "attack_type": "アカウント侵害",
+          "leak_status": "可能性あり",
+          "leak_count": "7,716,811",
+          "leaked_data": [
+            "クレジットカード情報"
+          ],
+          "incident_summary": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月25日、baserCMSにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。三井物産セキュアディレクション株式会社の加藤創氏と東内裕二氏と田中凱氏と野口晋義氏が報告を行っている。影響を受けるシステムは以下の通り。 ・CVE-2026-93460、CVE-2026-93462、CVE-2026-93463、CVE-2026-93464 baserCMS 5.4.1より前のバージョン（5.4系） baserCMS 5.3.1より前のバージョン（5.3系以前のすべてのバージョンを含む） ・CVE-2026-62956 baserCMS 5.2.10より前のバージョン（5.2系以前のすべてのバージョンを含む） baserCMSユーザー会が提供するbaserCMSには、下記の影響を受ける可能性がある複数の脆弱性が存在する。 ・クロスサイトスクリプティング（CVE-2026-93460、CVE-2026-93463、CVE-"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/29/56322.html",
+          "published_date": "2026-09-29",
+          "title": "baserCMS 用プラグイン「アドオンマイグレーター」 に信頼できない制御領域からの機能の組み込みに関する脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月25日、baserCMS用プラグイン「アドオンマイグレーター」 における信頼できない制御領域からの機能の組み込みに関する脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "attack": true,
+          "organization": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）",
+          "service": "アドオンマイグレーター",
+          "attack_type": "アカウント侵害",
+          "leak_status": "可能性あり",
+          "leak_count": "7,716,811",
+          "leaked_data": [
+            "クレジットカード情報"
+          ],
+          "incident_summary": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月25日、baserCMS用プラグイン「アドオンマイグレーター」 における信頼できない制御領域からの機能の組み込みに関する脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。三井物産セキュアディレクション株式会社の野口晋義氏が報告を行っている。影響を受けるシステムは以下の通り。 BcAddonMigrator 5.2.0およびそれ以前のバージョン baserCMSユーザー会が提供するbaserCMS用プラグイン「アドオンマイグレーター」 には、信頼できない制御領域からの機能の組み込みに関する脆弱性（CVE-2026-97150）が存在し、当該製品に管理者権限でログイン可能な攻撃者によって、システム上の任意のファイルを読み取られたり、削除されたりする可能性がある。 JVNでは、開発者が提供する情報をもとにプラグインを最新版にアップデートするよう呼びかけている。なお、本脆弱性は「BcAddonMigrator 5.2.1」で修正され"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/02/56367.html",
+          "published_date": "2026-10-02",
+          "title": "PFU 製 Image Scanner Driver for Linux に複数の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月29日、PFU製Image Scanner Driver for Linuxにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "attack": true,
+          "organization": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）",
+          "service": "Japan Vulnerability Notes（JVN）",
+          "attack_type": "アカウント侵害",
+          "leak_status": "可能性あり",
+          "leak_count": "7,716,811",
+          "leaked_data": [
+            "クレジットカード情報"
+          ],
+          "incident_summary": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月29日、PFU製Image Scanner Driver for Linuxにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。Cipher Security LabsのNir Yehoshua氏が報告を行っている。影響を受けるシステムは以下の通り。 Image Scanner Driver for Linux (fi Series) V2.0.0、V2.1.0、V2.1.1、V2.3.2、V2.5.0、V2.7.0、V2.7.1、V2.8.0、V2.8.1、V2.8.2 Image Scanner Driver for Linux (SP Series) V2.0.0、V2.1.0、V2.1.1、V2.1.1-4、V2.2.0、V2.2.1、V2.2.2、V2.3.0 株式会社PFUが提供するImage Scanner Driver for Linuxには、下記の影響を受ける可能性がある複数の脆弱性が存在する。"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/02/56366.html",
+          "published_date": "2026-10-02",
+          "title": "バッファロー製 Wi-Fi 製品に複数の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月28日、バッファロー製Wi-Fi製品における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "attack": true,
+          "organization": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）",
+          "service": "Japan Vulnerability Notes（JVN）",
+          "attack_type": "アカウント侵害",
+          "leak_status": "可能性あり",
+          "leak_count": "7,716,811",
+          "leaked_data": [
+            "クレジットカード情報",
+            "認証情報"
+          ],
+          "incident_summary": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月28日、バッファロー製Wi-Fi製品における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。Veeti Punnonen氏が報告を行っている。影響を受けるシステムは以下の通り。 WSR-300HP ファームウェア Ver.2.55より前のバージョン WEX-G300 ファームウェア Ver.1.71より前のバージョン 株式会社バッファローが提供する複数のWi-Fi製品の設定画面には、下記の影響を受ける可能性がある複数の脆弱性が存在する。 ・OSコマンドインジェクション（CVE-2026-86530） →認証済みユーザーによる細工された入力を処理することによって任意のOSコマンドを実行される ・スタックベースのバッファオーバーフロー（CVE-2026-95104） →細工された入力を処理することによってサービス運用妨害（DoS）状態にされる JVNでは、開発者が提供する情報をもとに最新版にアップデートするよう呼びかけて"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/06/56388.html",
+          "published_date": "2026-10-06",
+          "title": "Apache HTTP Server 2.4 に複数の脆弱性 独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は10月2日、Apache HTTP Server 2.4における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "attack": true,
+          "organization": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）",
+          "service": "Japan Vulnerability Notes（JVN）",
+          "attack_type": "アカウント侵害",
+          "leak_status": "可能性あり",
+          "leak_count": "7,716,811",
+          "leaked_data": [
+            "クレジットカード情報"
+          ],
+          "incident_summary": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は10月2日、Apache HTTP Server 2.4における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。 The Apache Software Foundationでは、Apache HTTP Server 2.4系における複数の脆弱性に対応したApache HTTP Server 2.4.69を現地時間10月1日に公開している。 JVNでは、影響を受けるシステム、想定される影響、対策方法についてはApache HTTP Serverのアドバイザリを参照するよう案内している。 Fixed in Apache HTTP Server 2.4.69 https://httpd.apache.org/security/vulnerabilities_24.html#2.4.69 Apache HTTP Server 2.4 に複数の脆弱性 2026.6.11 Thu 8:00 Apache HTTP Server 2"
+        }
+      ],
+      "source_count": 1,
+      "merged": true
     },
     {
       "source": "Yagura",
@@ -2726,6 +2856,41 @@
             "顧客情報"
           ],
           "incident_summary": "株式会社LEAN BODYは9月15日、同社が利用する分析ツールへの不正アクセスについて発表した。 これは同社が社内のデータ分析に利用していたツール「Metabase」にセキュリティ上の脆弱性があり、第三者が同ツールに不正アクセスを行い、同社データベースから顧客情報を取得したというもの。 同社によると、8月11日に同社環境に最初の不正アクセスがあり、8月31日、9月7日に不正アクセス者によるデータベースからの顧客情報の情報取得が行われている。 同社では9月8日に、異常を検知し調査を開始したが、9月9日にデータベースから顧客情報が再度、取得されている。 同社では9月9日に、不正アクセスの経路を遮断し、当該ツールを修正版に更新している。 不正アクセス者による取得の対象となったアカウント件数は退会者を含めた約44万件で、その項目は下記の通り。 ・メールアドレス ・ニックネーム（ユーザー名）、性別、生年月日、都道府県 ・身長、体重、目標体重、活動量、運動の頻度や目的など、サービス内で入力した情報 ・登録日時や利用状況に関する記録 ・パスワード（暗号化された状態） ・契約・支払いに関する情報（決"
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
+      "source": "SmartScope",
+      "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
+      "published_date": "2026-10-05",
+      "title": "Kufu Company (Kufu Machitalk beta)（ disclosure ） — Unauthorized access by a third party; entry route not stated. Suspicious access found Oct 2 and investigation started; service stopped Oct 5.",
+      "organization": "Kufu Company (Kufu Machitalk beta)（ disclosure ）",
+      "affected_count": "Email address leak confirmed for at least 1 customer (birth date and gender possibly leaked). No total count or total number of affected people disclosed; whether other customers are affected and the scope remain under investigation",
+      "attack_type": null,
+      "attack": true,
+      "leak_status": "不明",
+      "leak_count": null,
+      "leaked_data": [],
+      "incident_summary": "Kufu Company (Kufu Machitalk beta)（ disclosure ） — Unauthorized access by a third party; entry route not stated. Suspicious access found Oct 2 and investigation started; service stopped Oct 5.",
+      "sources": [
+        "SmartScope"
+      ],
+      "source_records": [
+        {
+          "source": "SmartScope",
+          "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
+          "published_date": "2026-10-05",
+          "title": "Kufu Company (Kufu Machitalk beta)（ disclosure ） — Unauthorized access by a third party; entry route not stated. Suspicious access found Oct 2 and investigation started; service stopped Oct 5.",
+          "organization": "Kufu Company (Kufu Machitalk beta)（ disclosure ）",
+          "affected_count": "Email address leak confirmed for at least 1 customer (birth date and gender possibly leaked). No total count or total number of affected people disclosed; whether other customers are affected and the scope remain under investigation",
+          "attack_type": null,
+          "attack": true,
+          "leak_status": "不明",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "Kufu Company (Kufu Machitalk beta)（ disclosure ） — Unauthorized access by a third party; entry route not stated. Suspicious access found Oct 2 and investigation started; service stopped Oct 5."
         }
       ],
       "source_count": 1,
@@ -4821,6 +4986,41 @@
       "merged": true
     },
     {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/01/56363.html",
+      "published_date": "2026-10-01",
+      "title": "人材不足に打ち勝つセキュリティ運用とは ～ DNP との対談で明かされる効果、テクマトリックスが Palo Alto Networks の Cortex XSIAM で提案する次世代 SOC PR サイバー攻撃の高度化・巧妙化に伴い、SOCには膨大なアラートが押し寄せるようになった。複数のセキュリティ製品から上がる情報を人手で分析し、対応するには限界がある。そこで注目されているのが、AIと自動化によるセキュリティ運用だ。 では、AIと自動化を実際の現場に組み込むと、セキュリティ運用はどう変わるのか。約4万5,000台のデバイスを運用する大日本印刷（DNP）が直面した「8つの壁」と、その乗り越え方から、AI時代のSOC運用の可能性に迫る。",
+      "attack": true,
+      "organization": "株式会社 ネットワークセキュリティ事業部 第 2 営業部 ネットワークプロダクツ営業 2 課 主任",
+      "service": "8つの壁",
+      "attack_type": null,
+      "leak_status": "不明",
+      "leak_count": null,
+      "leaked_data": [],
+      "incident_summary": "EDR やファイアウォール、クラウドサービスなど、多様な領域から届くアラートを横断して相関分析しなければ、インシデントの全体像と因果関係は見えてこない。しかし、毎秒生まれる大量のログと、異常を知らせるアラートはときに SOC 担当者の手に余る。 10 月 21 日 (水) から開催される Security Days Fall 2026 で、10 月 23 日 (金) にテクマトリックス株式会社 ネットワークセキュリティ事業部 第 2 営業部 ネットワークプロダクツ営業 2 課 主任の鈴木 航平（すずき こうへい）氏（写真）が「AI時代のSOCはどう変わる？DNPが実践したセキュリティ運用改革」と題した講演を行う。 講演では、自動化を駆使して SOC オペレーターを強力に支援する Palo Alto Networks 社のセキュリティオペレーションプラットフォーム「Cortex XSIAM」が紹介される予定だ。鈴木氏に話を聞いた。 ● 6 年のネットワーク経験を経てセキュリティ最前線へ 鈴木氏は 2017 年にテクマトリックスに入社、約 9 年のキャリアを持ち、最初の 6 ～ 7 年間は",
+      "sources": [
+        "ScanNetSecurity"
+      ],
+      "source_records": [
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/01/56363.html",
+          "published_date": "2026-10-01",
+          "title": "人材不足に打ち勝つセキュリティ運用とは ～ DNP との対談で明かされる効果、テクマトリックスが Palo Alto Networks の Cortex XSIAM で提案する次世代 SOC PR サイバー攻撃の高度化・巧妙化に伴い、SOCには膨大なアラートが押し寄せるようになった。複数のセキュリティ製品から上がる情報を人手で分析し、対応するには限界がある。そこで注目されているのが、AIと自動化によるセキュリティ運用だ。 では、AIと自動化を実際の現場に組み込むと、セキュリティ運用はどう変わるのか。約4万5,000台のデバイスを運用する大日本印刷（DNP）が直面した「8つの壁」と、その乗り越え方から、AI時代のSOC運用の可能性に迫る。",
+          "attack": true,
+          "organization": "株式会社 ネットワークセキュリティ事業部 第 2 営業部 ネットワークプロダクツ営業 2 課 主任",
+          "service": "8つの壁",
+          "attack_type": null,
+          "leak_status": "不明",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "EDR やファイアウォール、クラウドサービスなど、多様な領域から届くアラートを横断して相関分析しなければ、インシデントの全体像と因果関係は見えてこない。しかし、毎秒生まれる大量のログと、異常を知らせるアラートはときに SOC 担当者の手に余る。 10 月 21 日 (水) から開催される Security Days Fall 2026 で、10 月 23 日 (金) にテクマトリックス株式会社 ネットワークセキュリティ事業部 第 2 営業部 ネットワークプロダクツ営業 2 課 主任の鈴木 航平（すずき こうへい）氏（写真）が「AI時代のSOCはどう変わる？DNPが実践したセキュリティ運用改革」と題した講演を行う。 講演では、自動化を駆使して SOC オペレーターを強力に支援する Palo Alto Networks 社のセキュリティオペレーションプラットフォーム「Cortex XSIAM」が紹介される予定だ。鈴木氏に話を聞いた。 ● 6 年のネットワーク経験を経てセキュリティ最前線へ 鈴木氏は 2017 年にテクマトリックスに入社、約 9 年のキャリアを持ち、最初の 6 ～ 7 年間は"
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
       "source": "Security NEXT",
       "source_url": "https://www.security-next.com/190842",
       "published_date": "2026-10-01",
@@ -4876,45 +5076,6 @@
     },
     {
       "source": "ScanNetSecurity",
-      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/01/56363.html",
-      "published_date": "2026-10-01",
-      "title": "セミナー・イベント ScanNetSecurity 2026.10.1 Thu 8:15 人材不足に打ち勝つセキュリティ運用とは ～ DNP との対談で明かされる効果、テクマトリックスが Palo Alto Networks の Cortex XSIAM で提案する次世代 SOC PR サイバー攻撃の高度化・巧妙化に伴い、SOCには膨大なアラートが押し寄せるようになった。複数のセキュリティ製品から上がる情報を人手で分析し、対応するには限界がある。そこで注目されているのが、AIと自動化によるセキュリティ運用だ。 では、AIと自動化を実際の現場に組み込むと、セキュリティ運用はどう変わるのか。約4万5,000台のデバイスを運用する大日本印刷（DNP）が直面した「8つの壁」と、その乗り越え方から、AI時代のSOC運用の可能性に迫る。",
-      "attack": true,
-      "organization": "株式会社 ネットワークセキュリティ事業部 第 2 営業部 ネットワークプロダクツ営業 2 課 主任",
-      "service": "8つの壁",
-      "attack_type": "ランサムウェア",
-      "leak_status": "可能性あり",
-      "leak_count": "7,716,811",
-      "leaked_data": [
-        "クレジットカード情報"
-      ],
-      "incident_summary": "EDR やファイアウォール、クラウドサービスなど、多様な領域から届くアラートを横断して相関分析しなければ、インシデントの全体像と因果関係は見えてこない。しかし、毎秒生まれる大量のログと、異常を知らせるアラートはときに SOC 担当者の手に余る。 10 月 21 日 (水) から開催される Security Days Fall 2026 で、10 月 23 日 (金) にテクマトリックス株式会社 ネットワークセキュリティ事業部 第 2 営業部 ネットワークプロダクツ営業 2 課 主任の鈴木 航平（すずき こうへい）氏（写真）が「AI時代のSOCはどう変わる？DNPが実践したセキュリティ運用改革」と題した講演を行う。 講演では、自動化を駆使して SOC オペレーターを強力に支援する Palo Alto Networks 社のセキュリティオペレーションプラットフォーム「Cortex XSIAM」が紹介される予定だ。鈴木氏に話を聞いた。 ● 6 年のネットワーク経験を経てセキュリティ最前線へ 鈴木氏は 2017 年にテクマトリックスに入社、約 9 年のキャリアを持ち、最初の 6 ～ 7 年間は",
-      "sources": [
-        "ScanNetSecurity"
-      ],
-      "source_records": [
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/01/56363.html",
-          "published_date": "2026-10-01",
-          "title": "セミナー・イベント ScanNetSecurity 2026.10.1 Thu 8:15 人材不足に打ち勝つセキュリティ運用とは ～ DNP との対談で明かされる効果、テクマトリックスが Palo Alto Networks の Cortex XSIAM で提案する次世代 SOC PR サイバー攻撃の高度化・巧妙化に伴い、SOCには膨大なアラートが押し寄せるようになった。複数のセキュリティ製品から上がる情報を人手で分析し、対応するには限界がある。そこで注目されているのが、AIと自動化によるセキュリティ運用だ。 では、AIと自動化を実際の現場に組み込むと、セキュリティ運用はどう変わるのか。約4万5,000台のデバイスを運用する大日本印刷（DNP）が直面した「8つの壁」と、その乗り越え方から、AI時代のSOC運用の可能性に迫る。",
-          "attack": true,
-          "organization": "株式会社 ネットワークセキュリティ事業部 第 2 営業部 ネットワークプロダクツ営業 2 課 主任",
-          "service": "8つの壁",
-          "attack_type": "ランサムウェア",
-          "leak_status": "可能性あり",
-          "leak_count": "7,716,811",
-          "leaked_data": [
-            "クレジットカード情報"
-          ],
-          "incident_summary": "EDR やファイアウォール、クラウドサービスなど、多様な領域から届くアラートを横断して相関分析しなければ、インシデントの全体像と因果関係は見えてこない。しかし、毎秒生まれる大量のログと、異常を知らせるアラートはときに SOC 担当者の手に余る。 10 月 21 日 (水) から開催される Security Days Fall 2026 で、10 月 23 日 (金) にテクマトリックス株式会社 ネットワークセキュリティ事業部 第 2 営業部 ネットワークプロダクツ営業 2 課 主任の鈴木 航平（すずき こうへい）氏（写真）が「AI時代のSOCはどう変わる？DNPが実践したセキュリティ運用改革」と題した講演を行う。 講演では、自動化を駆使して SOC オペレーターを強力に支援する Palo Alto Networks 社のセキュリティオペレーションプラットフォーム「Cortex XSIAM」が紹介される予定だ。鈴木氏に話を聞いた。 ● 6 年のネットワーク経験を経てセキュリティ最前線へ 鈴木氏は 2017 年にテクマトリックスに入社、約 9 年のキャリアを持ち、最初の 6 ～ 7 年間は"
-        }
-      ],
-      "source_count": 1,
-      "merged": false
-    },
-    {
-      "source": "ScanNetSecurity",
       "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/01/56359.html",
       "published_date": "2026-10-01",
       "title": "スターツ出版「オズモール」に不正アクセス、会員のメールアドレス 最大447,610名分が漏えいした可能性 スターツ出版株式会社は9月27日、同社運営のウェブサイト「オズモール」への不正アクセスについて発表した。",
@@ -4960,10 +5121,12 @@
       "attack": true,
       "organization": "株式会社ラック デジタルペンテスト部 2026.10.1 Thu 8:20 Microsoft Malware Protection Engine",
       "service": "ection Engine における任意の特権ファイルの書き込みが可能となるファイル操作での検証不備（S",
-      "attack_type": "アカウント侵害",
-      "leak_status": "可能性あり",
-      "leak_count": "7,716,811",
+      "attack_type": "不正アクセス",
+      "leak_status": "不明",
+      "leak_count": "13",
       "leaked_data": [
+        "氏名",
+        "住所",
         "クレジットカード情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56364;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); ◆概要 2026 年 5 月に修正された Microsoft Defender を構成するソフトウェアの脆弱性を悪用するエクスプロイトコードが公開されています。脆弱性が存在する Microsoft Defender を利用している Microsoft Windows OS への侵入に成功した攻撃者は、当該脆弱性を悪用して管理者権限の奪取が可能です。セキュリティ更新プログラムの適用により対策してください。 ◆分析者コメント 脆弱性は Microsoft Defender の構成要素に存在するため、セキュリティ対策製品として Microsoft D",
@@ -5013,12 +5176,10 @@
           "attack": true,
           "organization": "株式会社ラック デジタルペンテスト部 2026.10.1 Thu 8:20 Microsoft Malware Protection Engine",
           "service": "ection Engine における任意の特権ファイルの書き込みが可能となるファイル操作での検証不備（S",
-          "attack_type": "アカウント侵害",
-          "leak_status": "可能性あり",
-          "leak_count": "7,716,811",
-          "leaked_data": [
-            "クレジットカード情報"
-          ],
+          "attack_type": "不正アクセス",
+          "leak_status": "不明",
+          "leak_count": null,
+          "leaked_data": [],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56364;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); ◆概要 2026 年 5 月に修正された Microsoft Defender を構成するソフトウェアの脆弱性を悪用するエクスプロイトコードが公開されています。脆弱性が存在する Microsoft Defender を利用している Microsoft Windows OS への侵入に成功した攻撃者は、当該脆弱性を悪用して管理者権限の奪取が可能です。セキュリティ更新プログラムの適用により対策してください。 ◆分析者コメント 脆弱性は Microsoft Defender の構成要素に存在するため、セキュリティ対策製品として Microsoft D"
         }
       ],
@@ -5656,45 +5817,6 @@
       "merged": false
     },
     {
-      "source": "ScanNetSecurity",
-      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/30/56339.html",
-      "published_date": "2026-09-30",
-      "title": "脅威動向 ScanNetSecurity 2026.9.30 Wed 8:00 ランサムウェア被害件数が過去最多の123件に、警察庁が対策情報を紹介 警察庁は9月18日、サイバー警察局便りR8Vol.16「ランサムウェア被害拡大中」を公開した。",
-      "attack": true,
-      "organization": "警察庁が対策情報を紹介 警察庁",
-      "service": "ランサムウェア被害拡大中",
-      "attack_type": "ランサムウェア",
-      "leak_status": "可能性あり",
-      "leak_count": "123",
-      "leaked_data": [
-        "クレジットカード情報"
-      ],
-      "incident_summary": "警察庁は9月18日、サイバー警察局便りR8Vol.16「ランサムウェア被害拡大中」を公開した。 同便りでは、令和8（2026）年上半期における国内のランサムウェア被害報告件数が123件で、半期の件数としては過去最多となっていることを取り上げている。 同便りでは、各機関からランサムウェア対策情報が公開中であるとし、下記を紹介している。 政府広報オンライン動画「中小企業で被害多数 ランサムウェア」 https://www.gov-online.go.jp/useful/202506/video-298784.html 日本サイバー犯罪対策センター（JC3）「JC3ポッドキャスト ランサムウェア・ダイアログ」 https://www.jc3.or.jp/news/2025/20251209-662.html 情報処理推進機構（IPA）「ランサムウェア被害から学ぶ教訓集」～ 経営者のためのランサムウェア対策ハンドブック ～ https://www.ipa.go.jp/security/todokede/crack-virus/ransomware_lessons_learned.html 個人",
-      "sources": [
-        "ScanNetSecurity"
-      ],
-      "source_records": [
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/30/56339.html",
-          "published_date": "2026-09-30",
-          "title": "脅威動向 ScanNetSecurity 2026.9.30 Wed 8:00 ランサムウェア被害件数が過去最多の123件に、警察庁が対策情報を紹介 警察庁は9月18日、サイバー警察局便りR8Vol.16「ランサムウェア被害拡大中」を公開した。",
-          "attack": true,
-          "organization": "警察庁が対策情報を紹介 警察庁",
-          "service": "ランサムウェア被害拡大中",
-          "attack_type": "ランサムウェア",
-          "leak_status": "可能性あり",
-          "leak_count": "123",
-          "leaked_data": [
-            "クレジットカード情報"
-          ],
-          "incident_summary": "警察庁は9月18日、サイバー警察局便りR8Vol.16「ランサムウェア被害拡大中」を公開した。 同便りでは、令和8（2026）年上半期における国内のランサムウェア被害報告件数が123件で、半期の件数としては過去最多となっていることを取り上げている。 同便りでは、各機関からランサムウェア対策情報が公開中であるとし、下記を紹介している。 政府広報オンライン動画「中小企業で被害多数 ランサムウェア」 https://www.gov-online.go.jp/useful/202506/video-298784.html 日本サイバー犯罪対策センター（JC3）「JC3ポッドキャスト ランサムウェア・ダイアログ」 https://www.jc3.or.jp/news/2025/20251209-662.html 情報処理推進機構（IPA）「ランサムウェア被害から学ぶ教訓集」～ 経営者のためのランサムウェア対策ハンドブック ～ https://www.ipa.go.jp/security/todokede/crack-virus/ransomware_lessons_learned.html 個人"
-        }
-      ],
-      "source_count": 1,
-      "merged": false
-    },
-    {
       "source": "Google News",
       "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE93WlkzOEpUREtCN2VCNm5lWnYwamlTaGtNRl94TEVRT2w2d3JCSjBsS0JzR2Nvb3JuM0xLR0RMcDBZbE56OF9HZG1lNG5ORF96QXk0N2ZRcUhJVmIzZ3dxbGk1dnVCSGJESmRLNA?oc=5",
       "published_date": "2026-09-30",
@@ -5722,45 +5844,6 @@
           "leak_count": null,
           "leaked_data": [],
           "incident_summary": "生成AIのセキュリティー事故、企業の8割弱が経験 情報漏洩が最多 - 日本経済新聞"
-        }
-      ],
-      "source_count": 1,
-      "merged": false
-    },
-    {
-      "source": "ScanNetSecurity",
-      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/30/56340.html",
-      "published_date": "2026-09-30",
-      "title": "業界動向 ScanNetSecurity 2026.9.30 Wed 8:00 山口東京理科大チームが優勝 ～ 県警ら主催「サイバー攻撃共同対処訓練」で約 90 名が Micro Hardening 演習 山陽小野田市立山口東京理科大学は9月15日、山口県警察の協力のもと、山口大学工学部で「サイバー攻撃共同対処訓練」を9月4日に実施したと発表した。",
-      "attack": true,
-      "organization": "処訓練」で約 90 名が Micro Hardening 演習 山陽小野田市立山口東京理科大学",
-      "service": "サイバー攻撃共同対処訓練",
-      "attack_type": "ランサムウェア",
-      "leak_status": "可能性あり",
-      "leak_count": "90",
-      "leaked_data": [
-        "クレジットカード情報"
-      ],
-      "incident_summary": "山陽小野田市立山口東京理科大学は9月15日、山口県警察の協力のもと、山口大学工学部で「サイバー攻撃共同対処訓練」を9月4日に実施したと発表した。 同訓練は、増加するサイバー犯罪への対応力向上を目的として、県内の大学、企業や警察などから、オンライン参加を含め約90名20チームが参加しており、同学数理情報科学科から3チームの学生が参加している。 同訓練では、商品販売サイトがサイバー攻撃を受けた状況を想定し、実践的なサイバーセキュリティ演習「Micro Hardening」が行われ、参加者はチームごとに役割を分担し、Webサイトの改ざんやアクセス障害など、次々と発生するサイバー攻撃の原因を特定しながら、システムの復旧や再発防止に取り組んでいる。 また、同訓練では、サイバー攻撃への対処の速さやサービスの継続性などをポイント化して競うチーム対抗形式のコンテストが実施され、同学数理情報科学科2年生（長尾柚葉氏、清水海凜氏、奥田陸斗氏、松岡俊汰氏）のチームが優勝している。 メール訓練の文面が無神経と批判を浴びてＣＥＯが謝罪 ～ セキュリティ教育には分別と敬意を 2026.8.25 Tue 8:15 ",
-      "sources": [
-        "ScanNetSecurity"
-      ],
-      "source_records": [
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/30/56340.html",
-          "published_date": "2026-09-30",
-          "title": "業界動向 ScanNetSecurity 2026.9.30 Wed 8:00 山口東京理科大チームが優勝 ～ 県警ら主催「サイバー攻撃共同対処訓練」で約 90 名が Micro Hardening 演習 山陽小野田市立山口東京理科大学は9月15日、山口県警察の協力のもと、山口大学工学部で「サイバー攻撃共同対処訓練」を9月4日に実施したと発表した。",
-          "attack": true,
-          "organization": "処訓練」で約 90 名が Micro Hardening 演習 山陽小野田市立山口東京理科大学",
-          "service": "サイバー攻撃共同対処訓練",
-          "attack_type": "ランサムウェア",
-          "leak_status": "可能性あり",
-          "leak_count": "90",
-          "leaked_data": [
-            "クレジットカード情報"
-          ],
-          "incident_summary": "山陽小野田市立山口東京理科大学は9月15日、山口県警察の協力のもと、山口大学工学部で「サイバー攻撃共同対処訓練」を9月4日に実施したと発表した。 同訓練は、増加するサイバー犯罪への対応力向上を目的として、県内の大学、企業や警察などから、オンライン参加を含め約90名20チームが参加しており、同学数理情報科学科から3チームの学生が参加している。 同訓練では、商品販売サイトがサイバー攻撃を受けた状況を想定し、実践的なサイバーセキュリティ演習「Micro Hardening」が行われ、参加者はチームごとに役割を分担し、Webサイトの改ざんやアクセス障害など、次々と発生するサイバー攻撃の原因を特定しながら、システムの復旧や再発防止に取り組んでいる。 また、同訓練では、サイバー攻撃への対処の速さやサービスの継続性などをポイント化して競うチーム対抗形式のコンテストが実施され、同学数理情報科学科2年生（長尾柚葉氏、清水海凜氏、奥田陸斗氏、松岡俊汰氏）のチームが優勝している。 メール訓練の文面が無神経と批判を浴びてＣＥＯが謝罪 ～ セキュリティ教育には分別と敬意を 2026.8.25 Tue 8:15 "
         }
       ],
       "source_count": 1,
@@ -5800,6 +5883,45 @@
             "クレジットカード情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56344;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 日本郵便株式会社は9月25日、同社の国際郵便物の調査請求Web受付サービスへの不正アクセスについて発表した。 これは9月25日午後3時頃に、調査請求Web受付サービスで使用しているサーバに対し、外部から不正アクセスの可能性が発覚したというもの。 同社では現在、同サービスについて一時的に受付を停止している。 「誤った配達をしないように」 ～ 同姓の顧客居住地域の配達資料を撮影 2025.1.28 Tue 8:05 保有ドメインへ不正アクセス、迷惑メール送信の踏み台に（日本郵便） 2020.2.18 Tue 10:00 弓削郵便局で居住者情報を記載"
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/30/56340.html",
+      "published_date": "2026-09-30",
+      "title": "山口東京理科大チームが優勝 ～ 県警ら主催「サイバー攻撃共同対処訓練」で約 90 名が Micro Hardening 演習 山陽小野田市立山口東京理科大学は9月15日、山口県警察の協力のもと、山口大学工学部で「サイバー攻撃共同対処訓練」を9月4日に実施したと発表した。",
+      "attack": true,
+      "organization": "処訓練」で約 90 名が Micro Hardening 演習 山陽小野田市立山口東京理科大学",
+      "service": "サイバー攻撃共同対処訓練",
+      "attack_type": "ランサムウェア",
+      "leak_status": "可能性あり",
+      "leak_count": "90",
+      "leaked_data": [
+        "クレジットカード情報"
+      ],
+      "incident_summary": "山陽小野田市立山口東京理科大学は9月15日、山口県警察の協力のもと、山口大学工学部で「サイバー攻撃共同対処訓練」を9月4日に実施したと発表した。 同訓練は、増加するサイバー犯罪への対応力向上を目的として、県内の大学、企業や警察などから、オンライン参加を含め約90名20チームが参加しており、同学数理情報科学科から3チームの学生が参加している。 同訓練では、商品販売サイトがサイバー攻撃を受けた状況を想定し、実践的なサイバーセキュリティ演習「Micro Hardening」が行われ、参加者はチームごとに役割を分担し、Webサイトの改ざんやアクセス障害など、次々と発生するサイバー攻撃の原因を特定しながら、システムの復旧や再発防止に取り組んでいる。 また、同訓練では、サイバー攻撃への対処の速さやサービスの継続性などをポイント化して競うチーム対抗形式のコンテストが実施され、同学数理情報科学科2年生（長尾柚葉氏、清水海凜氏、奥田陸斗氏、松岡俊汰氏）のチームが優勝している。 メール訓練の文面が無神経と批判を浴びてＣＥＯが謝罪 ～ セキュリティ教育には分別と敬意を 2026.8.25 Tue 8:15 ",
+      "sources": [
+        "ScanNetSecurity"
+      ],
+      "source_records": [
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/30/56340.html",
+          "published_date": "2026-09-30",
+          "title": "山口東京理科大チームが優勝 ～ 県警ら主催「サイバー攻撃共同対処訓練」で約 90 名が Micro Hardening 演習 山陽小野田市立山口東京理科大学は9月15日、山口県警察の協力のもと、山口大学工学部で「サイバー攻撃共同対処訓練」を9月4日に実施したと発表した。",
+          "attack": true,
+          "organization": "処訓練」で約 90 名が Micro Hardening 演習 山陽小野田市立山口東京理科大学",
+          "service": "サイバー攻撃共同対処訓練",
+          "attack_type": "ランサムウェア",
+          "leak_status": "可能性あり",
+          "leak_count": "90",
+          "leaked_data": [
+            "クレジットカード情報"
+          ],
+          "incident_summary": "山陽小野田市立山口東京理科大学は9月15日、山口県警察の協力のもと、山口大学工学部で「サイバー攻撃共同対処訓練」を9月4日に実施したと発表した。 同訓練は、増加するサイバー犯罪への対応力向上を目的として、県内の大学、企業や警察などから、オンライン参加を含め約90名20チームが参加しており、同学数理情報科学科から3チームの学生が参加している。 同訓練では、商品販売サイトがサイバー攻撃を受けた状況を想定し、実践的なサイバーセキュリティ演習「Micro Hardening」が行われ、参加者はチームごとに役割を分担し、Webサイトの改ざんやアクセス障害など、次々と発生するサイバー攻撃の原因を特定しながら、システムの復旧や再発防止に取り組んでいる。 また、同訓練では、サイバー攻撃への対処の速さやサービスの継続性などをポイント化して競うチーム対抗形式のコンテストが実施され、同学数理情報科学科2年生（長尾柚葉氏、清水海凜氏、奥田陸斗氏、松岡俊汰氏）のチームが優勝している。 メール訓練の文面が無神経と批判を浴びてＣＥＯが謝罪 ～ セキュリティ教育には分別と敬意を 2026.8.25 Tue 8:15 "
         }
       ],
       "source_count": 1,
@@ -5878,6 +6000,45 @@
             "従業員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56345;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 京王電鉄株式会社は9月26日、ランサムウェア攻撃によるシステム障害について発表した。 これは9月26日未明に、同社グループのサーバへのランサムウェア攻撃を確認したというもので、一部グループ会社の営業システムに支障が生じている。また、「お問合せフォーム」に登録された内容が同社で確認できない状態となっている。 なお、現時点で鉄道の運行には支障はない。 「西武 旅するレストラン 『52 席の至福』」予約サイトで予約関連情報の一部が漏えい 2026.9.24 Thu 8:05 駅放送設備から意図しない音声が送出 ～ 西鉄福岡（天神）駅と薬院駅 2026"
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/30/56339.html",
+      "published_date": "2026-09-30",
+      "title": "ランサムウェア被害件数が過去最多の123件に、警察庁が対策情報を紹介 警察庁は9月18日、サイバー警察局便りR8Vol.16「ランサムウェア被害拡大中」を公開した。",
+      "attack": true,
+      "organization": "警察庁が対策情報を紹介 警察庁",
+      "service": "ランサムウェア被害拡大中",
+      "attack_type": "ランサムウェア",
+      "leak_status": "可能性あり",
+      "leak_count": "123",
+      "leaked_data": [
+        "クレジットカード情報"
+      ],
+      "incident_summary": "警察庁は9月18日、サイバー警察局便りR8Vol.16「ランサムウェア被害拡大中」を公開した。 同便りでは、令和8（2026）年上半期における国内のランサムウェア被害報告件数が123件で、半期の件数としては過去最多となっていることを取り上げている。 同便りでは、各機関からランサムウェア対策情報が公開中であるとし、下記を紹介している。 政府広報オンライン動画「中小企業で被害多数 ランサムウェア」 https://www.gov-online.go.jp/useful/202506/video-298784.html 日本サイバー犯罪対策センター（JC3）「JC3ポッドキャスト ランサムウェア・ダイアログ」 https://www.jc3.or.jp/news/2025/20251209-662.html 情報処理推進機構（IPA）「ランサムウェア被害から学ぶ教訓集」～ 経営者のためのランサムウェア対策ハンドブック ～ https://www.ipa.go.jp/security/todokede/crack-virus/ransomware_lessons_learned.html 個人",
+      "sources": [
+        "ScanNetSecurity"
+      ],
+      "source_records": [
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/30/56339.html",
+          "published_date": "2026-09-30",
+          "title": "ランサムウェア被害件数が過去最多の123件に、警察庁が対策情報を紹介 警察庁は9月18日、サイバー警察局便りR8Vol.16「ランサムウェア被害拡大中」を公開した。",
+          "attack": true,
+          "organization": "警察庁が対策情報を紹介 警察庁",
+          "service": "ランサムウェア被害拡大中",
+          "attack_type": "ランサムウェア",
+          "leak_status": "可能性あり",
+          "leak_count": "123",
+          "leaked_data": [
+            "クレジットカード情報"
+          ],
+          "incident_summary": "警察庁は9月18日、サイバー警察局便りR8Vol.16「ランサムウェア被害拡大中」を公開した。 同便りでは、令和8（2026）年上半期における国内のランサムウェア被害報告件数が123件で、半期の件数としては過去最多となっていることを取り上げている。 同便りでは、各機関からランサムウェア対策情報が公開中であるとし、下記を紹介している。 政府広報オンライン動画「中小企業で被害多数 ランサムウェア」 https://www.gov-online.go.jp/useful/202506/video-298784.html 日本サイバー犯罪対策センター（JC3）「JC3ポッドキャスト ランサムウェア・ダイアログ」 https://www.jc3.or.jp/news/2025/20251209-662.html 情報処理推進機構（IPA）「ランサムウェア被害から学ぶ教訓集」～ 経営者のためのランサムウェア対策ハンドブック ～ https://www.ipa.go.jp/security/todokede/crack-virus/ransomware_lessons_learned.html 個人"
         }
       ],
       "source_count": 1,
@@ -6148,9 +6309,9 @@
       "source": "ScanNetSecurity",
       "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/29/56320.html",
       "published_date": "2026-09-29",
-      "title": "調査・ホワイトペーパー ScanNetSecurity 2026.9.29 Tue 8:00 求職者やエンジニアを狙うヘッドハンティング型攻撃 ～ 警察庁が注意喚起する「WaterPlum」の手口 警察庁は9月18日、北朝鮮サイバー攻撃グループ「WaterPlum」及び北朝鮮IT労働者に関する日本、米国、豪州及びドイツによるパブリック・アトリビューションについて発表した。",
+      "title": "求職者やエンジニアを狙うヘッドハンティング型攻撃 ～ 警察庁が注意喚起する「WaterPlum」の手口 警察庁は9月18日、北朝鮮サイバー攻撃グループ「WaterPlum」及び北朝鮮IT労働者に関する日本、米国、豪州及びドイツによるパブリック・アトリビューションについて発表した。",
       "attack": true,
-      "organization": "6.9.29 Tue 8:00 求職者やエンジニアを狙うヘッドハンティング型攻撃 ～ 警察庁",
+      "organization": "求職者やエンジニアを狙うヘッドハンティング型攻撃 ～ 警察庁",
       "service": "WaterPlum",
       "attack_type": "マルウェア",
       "leak_status": "可能性あり",
@@ -6167,9 +6328,9 @@
           "source": "ScanNetSecurity",
           "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/29/56320.html",
           "published_date": "2026-09-29",
-          "title": "調査・ホワイトペーパー ScanNetSecurity 2026.9.29 Tue 8:00 求職者やエンジニアを狙うヘッドハンティング型攻撃 ～ 警察庁が注意喚起する「WaterPlum」の手口 警察庁は9月18日、北朝鮮サイバー攻撃グループ「WaterPlum」及び北朝鮮IT労働者に関する日本、米国、豪州及びドイツによるパブリック・アトリビューションについて発表した。",
+          "title": "求職者やエンジニアを狙うヘッドハンティング型攻撃 ～ 警察庁が注意喚起する「WaterPlum」の手口 警察庁は9月18日、北朝鮮サイバー攻撃グループ「WaterPlum」及び北朝鮮IT労働者に関する日本、米国、豪州及びドイツによるパブリック・アトリビューションについて発表した。",
           "attack": true,
-          "organization": "6.9.29 Tue 8:00 求職者やエンジニアを狙うヘッドハンティング型攻撃 ～ 警察庁",
+          "organization": "求職者やエンジニアを狙うヘッドハンティング型攻撃 ～ 警察庁",
           "service": "WaterPlum",
           "attack_type": "マルウェア",
           "leak_status": "可能性あり",
@@ -6948,49 +7109,6 @@
     },
     {
       "source": "ScanNetSecurity",
-      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/28/56308.html",
-      "published_date": "2026-09-28",
-      "title": "脅威動向 ScanNetSecurity 2026.9.28 Mon 8:00 ネット証券等の不正取引被害が拡大、金融庁が注意喚起 2026年8月は4社で25件の不正取引 金融庁は9月9日、インターネット取引サービスへの不正アクセス・不正取引による被害への注意喚起を発表した。",
-      "attack": true,
-      "organization": "金融庁が注意喚起 2026年8月は4社で25件の不正取引 金融庁",
-      "service": "ecurity 2026.9.28 Mon 8:00 ネット証券等の不正取引被害が拡大",
-      "attack_type": "不正アクセス",
-      "leak_status": "可能性あり",
-      "leak_count": "39",
-      "leaked_data": [
-        "クレジットカード情報",
-        "認証情報",
-        "顧客情報"
-      ],
-      "incident_summary": "金融庁は9月9日、インターネット取引サービスへの不正アクセス・不正取引による被害への注意喚起を発表した。 同庁によると、実在する証券会社のウェブサイトを装った偽のウェブサイト（フィッシングサイト）等で窃取した顧客情報によるインターネット取引サービスでの不正アクセス・不正取引の被害について、2026年8月は不正取引が発生した証券会社数が4社、不正アクセス件数が39件、不正取引件数が25件発生している。 同庁では、被害に遭わないために、証券会社のインターネット取引サービスを利用しているすべてのユーザーに下記の点に注意するよう呼びかけている。 1.見覚えのある送信者からのメールやSMS等であっても、メッセージに掲載されたリンクを開かない。 2.利用する証券会社のウェブサイトへのアクセスは、事前に正しいウェブサイトのURLをブックマーク登録しておき、ブックマークからアクセスする。 3.インターネット取引サービスを利用する際は、各証券会社が提供しているセキュリティ強化機能（ログイン時・取引実行時・出金時の多要素認証や通知サービス）を有効にして、不審な取引に注意する。 4.パスワードの使いまわしを",
-      "sources": [
-        "ScanNetSecurity"
-      ],
-      "source_records": [
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/28/56308.html",
-          "published_date": "2026-09-28",
-          "title": "脅威動向 ScanNetSecurity 2026.9.28 Mon 8:00 ネット証券等の不正取引被害が拡大、金融庁が注意喚起 2026年8月は4社で25件の不正取引 金融庁は9月9日、インターネット取引サービスへの不正アクセス・不正取引による被害への注意喚起を発表した。",
-          "attack": true,
-          "organization": "金融庁が注意喚起 2026年8月は4社で25件の不正取引 金融庁",
-          "service": "ecurity 2026.9.28 Mon 8:00 ネット証券等の不正取引被害が拡大",
-          "attack_type": "不正アクセス",
-          "leak_status": "可能性あり",
-          "leak_count": "39",
-          "leaked_data": [
-            "クレジットカード情報",
-            "認証情報",
-            "顧客情報"
-          ],
-          "incident_summary": "金融庁は9月9日、インターネット取引サービスへの不正アクセス・不正取引による被害への注意喚起を発表した。 同庁によると、実在する証券会社のウェブサイトを装った偽のウェブサイト（フィッシングサイト）等で窃取した顧客情報によるインターネット取引サービスでの不正アクセス・不正取引の被害について、2026年8月は不正取引が発生した証券会社数が4社、不正アクセス件数が39件、不正取引件数が25件発生している。 同庁では、被害に遭わないために、証券会社のインターネット取引サービスを利用しているすべてのユーザーに下記の点に注意するよう呼びかけている。 1.見覚えのある送信者からのメールやSMS等であっても、メッセージに掲載されたリンクを開かない。 2.利用する証券会社のウェブサイトへのアクセスは、事前に正しいウェブサイトのURLをブックマーク登録しておき、ブックマークからアクセスする。 3.インターネット取引サービスを利用する際は、各証券会社が提供しているセキュリティ強化機能（ログイン時・取引実行時・出金時の多要素認証や通知サービス）を有効にして、不審な取引に注意する。 4.パスワードの使いまわしを"
-        }
-      ],
-      "source_count": 1,
-      "merged": false
-    },
-    {
-      "source": "ScanNetSecurity",
       "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/28/56313.html",
       "published_date": "2026-09-28",
       "title": "画像共有サービス「Gyazo」に不正アクセス、約2,362万件のユーザーに関するデータが流出 株式会社Helpfeelは9月25日、9月16日に公表した同社提供の画像共有サービス「Gyazo」への不正アクセスについて、第二報を発表した。",
@@ -7187,6 +7305,49 @@
           "leak_count": null,
           "leaked_data": [],
           "incident_summary": "京王電鉄は、同社グループのサーバがランサムウェア攻撃を受け、一部でシステム障害が発生していることを明らかにした。鉄道運行への影響は否定している。 ：Security NEXT"
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/28/56308.html",
+      "published_date": "2026-09-28",
+      "title": "ネット証券等の不正取引被害が拡大、金融庁が注意喚起 2026年8月は4社で25件の不正取引 金融庁は9月9日、インターネット取引サービスへの不正アクセス・不正取引による被害への注意喚起を発表した。",
+      "attack": true,
+      "organization": "金融庁が注意喚起 2026年8月は4社で25件の不正取引 金融庁",
+      "service": "ドズル社ストア",
+      "attack_type": "不正アクセス",
+      "leak_status": "可能性あり",
+      "leak_count": "39",
+      "leaked_data": [
+        "クレジットカード情報",
+        "認証情報",
+        "顧客情報"
+      ],
+      "incident_summary": "金融庁は9月9日、インターネット取引サービスへの不正アクセス・不正取引による被害への注意喚起を発表した。 同庁によると、実在する証券会社のウェブサイトを装った偽のウェブサイト（フィッシングサイト）等で窃取した顧客情報によるインターネット取引サービスでの不正アクセス・不正取引の被害について、2026年8月は不正取引が発生した証券会社数が4社、不正アクセス件数が39件、不正取引件数が25件発生している。 同庁では、被害に遭わないために、証券会社のインターネット取引サービスを利用しているすべてのユーザーに下記の点に注意するよう呼びかけている。 1.見覚えのある送信者からのメールやSMS等であっても、メッセージに掲載されたリンクを開かない。 2.利用する証券会社のウェブサイトへのアクセスは、事前に正しいウェブサイトのURLをブックマーク登録しておき、ブックマークからアクセスする。 3.インターネット取引サービスを利用する際は、各証券会社が提供しているセキュリティ強化機能（ログイン時・取引実行時・出金時の多要素認証や通知サービス）を有効にして、不審な取引に注意する。 4.パスワードの使いまわしを",
+      "sources": [
+        "ScanNetSecurity"
+      ],
+      "source_records": [
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/28/56308.html",
+          "published_date": "2026-09-28",
+          "title": "ネット証券等の不正取引被害が拡大、金融庁が注意喚起 2026年8月は4社で25件の不正取引 金融庁は9月9日、インターネット取引サービスへの不正アクセス・不正取引による被害への注意喚起を発表した。",
+          "attack": true,
+          "organization": "金融庁が注意喚起 2026年8月は4社で25件の不正取引 金融庁",
+          "service": "ドズル社ストア",
+          "attack_type": "不正アクセス",
+          "leak_status": "可能性あり",
+          "leak_count": "39",
+          "leaked_data": [
+            "クレジットカード情報",
+            "認証情報",
+            "顧客情報"
+          ],
+          "incident_summary": "金融庁は9月9日、インターネット取引サービスへの不正アクセス・不正取引による被害への注意喚起を発表した。 同庁によると、実在する証券会社のウェブサイトを装った偽のウェブサイト（フィッシングサイト）等で窃取した顧客情報によるインターネット取引サービスでの不正アクセス・不正取引の被害について、2026年8月は不正取引が発生した証券会社数が4社、不正アクセス件数が39件、不正取引件数が25件発生している。 同庁では、被害に遭わないために、証券会社のインターネット取引サービスを利用しているすべてのユーザーに下記の点に注意するよう呼びかけている。 1.見覚えのある送信者からのメールやSMS等であっても、メッセージに掲載されたリンクを開かない。 2.利用する証券会社のウェブサイトへのアクセスは、事前に正しいウェブサイトのURLをブックマーク登録しておき、ブックマークからアクセスする。 3.インターネット取引サービスを利用する際は、各証券会社が提供しているセキュリティ強化機能（ログイン時・取引実行時・出金時の多要素認証や通知サービス）を有効にして、不審な取引に注意する。 4.パスワードの使いまわしを"
         }
       ],
       "source_count": 1,
@@ -7525,47 +7686,6 @@
     },
     {
       "source": "ScanNetSecurity",
-      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/25/56296.html",
-      "published_date": "2026-09-25",
-      "title": "調査・ホワイトペーパー ScanNetSecurity 2026.9.25 Fri 8:00 ランサムウェアの被害報告件数が過去最多に ～ 警察庁 サイバー警察局便り 警察庁は9月10日、サイバー警察局便りR8Vol.15「「サイバー空間の脅威情勢」が公表されました 」を公開した。",
-      "attack": true,
-      "organization": "8:00 ランサムウェアの被害報告件数が過去最多に ～ 警察庁 サイバー警察局便り 警察庁",
-      "service": "「サイバー空間の脅威情勢",
-      "attack_type": "ランサムウェア",
-      "leak_status": "可能性あり",
-      "leak_count": "123",
-      "leaked_data": [
-        "クレジットカード情報",
-        "認証情報"
-      ],
-      "incident_summary": "警察庁は9月10日、サイバー警察局便りR8Vol.15「「サイバー空間の脅威情勢」が公表されました 」を公開した。 同便りでは、同庁が9月10日に「令和8年上半期におけるサイバー空間をめぐる脅威の情勢等について」を公表したことを取り上げ、同資料によると令和8（2026）年上半期におけるランサムウェアの被害報告件数が123件で、半期の件数としては、統計を取り始めた令和2（2020）年下半期以降、最多となっていることを紹介している。 令和8年上半期におけるサイバー空間をめぐる脅威の情勢等について https://www.npa.go.jp/publications/statistics/cybersecurity/data/R8kami/R08_kami_cyber_jousei.pdf 同庁では、諸外国と連携して注意喚起するとともに、都道府県警察で体制強化を進めている。 警察庁が DMARC を郵便局に例えて紹介「Quarantine」「Reject」への移行促す 2026.9.8 Tue 8:00 警察庁「パスワードだけの認証はもう限界です」パスキー導入検討を呼びかけ 2026.9.7",
-      "sources": [
-        "ScanNetSecurity"
-      ],
-      "source_records": [
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/25/56296.html",
-          "published_date": "2026-09-25",
-          "title": "調査・ホワイトペーパー ScanNetSecurity 2026.9.25 Fri 8:00 ランサムウェアの被害報告件数が過去最多に ～ 警察庁 サイバー警察局便り 警察庁は9月10日、サイバー警察局便りR8Vol.15「「サイバー空間の脅威情勢」が公表されました 」を公開した。",
-          "attack": true,
-          "organization": "8:00 ランサムウェアの被害報告件数が過去最多に ～ 警察庁 サイバー警察局便り 警察庁",
-          "service": "「サイバー空間の脅威情勢",
-          "attack_type": "ランサムウェア",
-          "leak_status": "可能性あり",
-          "leak_count": "123",
-          "leaked_data": [
-            "クレジットカード情報",
-            "認証情報"
-          ],
-          "incident_summary": "警察庁は9月10日、サイバー警察局便りR8Vol.15「「サイバー空間の脅威情勢」が公表されました 」を公開した。 同便りでは、同庁が9月10日に「令和8年上半期におけるサイバー空間をめぐる脅威の情勢等について」を公表したことを取り上げ、同資料によると令和8（2026）年上半期におけるランサムウェアの被害報告件数が123件で、半期の件数としては、統計を取り始めた令和2（2020）年下半期以降、最多となっていることを紹介している。 令和8年上半期におけるサイバー空間をめぐる脅威の情勢等について https://www.npa.go.jp/publications/statistics/cybersecurity/data/R8kami/R08_kami_cyber_jousei.pdf 同庁では、諸外国と連携して注意喚起するとともに、都道府県警察で体制強化を進めている。 警察庁が DMARC を郵便局に例えて紹介「Quarantine」「Reject」への移行促す 2026.9.8 Tue 8:00 警察庁「パスワードだけの認証はもう限界です」パスキー導入検討を呼びかけ 2026.9.7"
-        }
-      ],
-      "source_count": 1,
-      "merged": false
-    },
-    {
-      "source": "ScanNetSecurity",
       "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/25/56302.html",
       "published_date": "2026-09-25",
       "title": "社内調査で発覚 ～ ライツフォル、外部 Q&A サイトにおける過去の「広告明示なし投稿」を公表 医療用ウィッグを取り扱う株式会社ライツフォルは9月8日、同社商品に関する外部Q&Aサイト上での投稿について発表した。",
@@ -7755,6 +7875,47 @@
     },
     {
       "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/25/56296.html",
+      "published_date": "2026-09-25",
+      "title": "ランサムウェアの被害報告件数が過去最多に ～ 警察庁 サイバー警察局便り 警察庁は9月10日、サイバー警察局便りR8Vol.15「「サイバー空間の脅威情勢」が公表されました 」を公開した。",
+      "attack": true,
+      "organization": "ランサムウェアの被害報告件数が過去最多に ～ 警察庁 サイバー警察局便り 警察庁",
+      "service": "「サイバー空間の脅威情勢",
+      "attack_type": "ランサムウェア",
+      "leak_status": "可能性あり",
+      "leak_count": "123",
+      "leaked_data": [
+        "クレジットカード情報",
+        "認証情報"
+      ],
+      "incident_summary": "警察庁は9月10日、サイバー警察局便りR8Vol.15「「サイバー空間の脅威情勢」が公表されました 」を公開した。 同便りでは、同庁が9月10日に「令和8年上半期におけるサイバー空間をめぐる脅威の情勢等について」を公表したことを取り上げ、同資料によると令和8（2026）年上半期におけるランサムウェアの被害報告件数が123件で、半期の件数としては、統計を取り始めた令和2（2020）年下半期以降、最多となっていることを紹介している。 令和8年上半期におけるサイバー空間をめぐる脅威の情勢等について https://www.npa.go.jp/publications/statistics/cybersecurity/data/R8kami/R08_kami_cyber_jousei.pdf 同庁では、諸外国と連携して注意喚起するとともに、都道府県警察で体制強化を進めている。 警察庁が DMARC を郵便局に例えて紹介「Quarantine」「Reject」への移行促す 2026.9.8 Tue 8:00 警察庁「パスワードだけの認証はもう限界です」パスキー導入検討を呼びかけ 2026.9.7",
+      "sources": [
+        "ScanNetSecurity"
+      ],
+      "source_records": [
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/25/56296.html",
+          "published_date": "2026-09-25",
+          "title": "ランサムウェアの被害報告件数が過去最多に ～ 警察庁 サイバー警察局便り 警察庁は9月10日、サイバー警察局便りR8Vol.15「「サイバー空間の脅威情勢」が公表されました 」を公開した。",
+          "attack": true,
+          "organization": "ランサムウェアの被害報告件数が過去最多に ～ 警察庁 サイバー警察局便り 警察庁",
+          "service": "「サイバー空間の脅威情勢",
+          "attack_type": "ランサムウェア",
+          "leak_status": "可能性あり",
+          "leak_count": "123",
+          "leaked_data": [
+            "クレジットカード情報",
+            "認証情報"
+          ],
+          "incident_summary": "警察庁は9月10日、サイバー警察局便りR8Vol.15「「サイバー空間の脅威情勢」が公表されました 」を公開した。 同便りでは、同庁が9月10日に「令和8年上半期におけるサイバー空間をめぐる脅威の情勢等について」を公表したことを取り上げ、同資料によると令和8（2026）年上半期におけるランサムウェアの被害報告件数が123件で、半期の件数としては、統計を取り始めた令和2（2020）年下半期以降、最多となっていることを紹介している。 令和8年上半期におけるサイバー空間をめぐる脅威の情勢等について https://www.npa.go.jp/publications/statistics/cybersecurity/data/R8kami/R08_kami_cyber_jousei.pdf 同庁では、諸外国と連携して注意喚起するとともに、都道府県警察で体制強化を進めている。 警察庁が DMARC を郵便局に例えて紹介「Quarantine」「Reject」への移行促す 2026.9.8 Tue 8:00 警察庁「パスワードだけの認証はもう限界です」パスキー導入検討を呼びかけ 2026.9.7"
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
+      "source": "ScanNetSecurity",
       "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/25/56306.html",
       "published_date": "2026-09-25",
       "title": "コラム リーク・東郷 2026.9.25 Fri 8:10 今日もどこかで情報漏えい 第52回「2026年8月の情報漏えい」約一割で逮捕・懲戒・行政指導 8 月に最も件数換算の被害規模が大きかったのは、株式会社Eストアーによる「「ショップサーブ」に不正アクセス、不正なプログラムを実行し購入者情報を外部に送信」の 8,853,839 件であった。",
@@ -7762,18 +7923,9 @@
       "organization": "株式会社Eストアー",
       "service": "2026年8月の情報漏えい",
       "attack_type": "不正アクセス",
-      "leak_status": "可能性あり",
+      "leak_status": "確認・可能性あり",
       "leak_count": "97",
-      "leaked_data": [
-        "氏名",
-        "住所",
-        "電話番号",
-        "メールアドレス",
-        "生年月日",
-        "クレジットカード情報",
-        "顧客情報",
-        "会員情報"
-      ],
+      "leaked_data": [],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56306;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 今日もどこかで情報漏えいは起きている。 大きいところでは誰もが社名を耳にしたことがある東証プライム上場企業や霞ヶ関の政府機関、小さなところでは従業員数名規模の企業や市町村役場に至るまで、毎日、あなたの知らないところで漏えい事件は起き続けている。 頼まれもしないのに月ごとの情報漏えいの動向を勝手にウォッチしている、虫の音ならぬ虫の息のような本連載、今月も一寸の虫のようにひっそりと掲載である。 ●インシデント原因内訳 さて、先月 2026 年 8 月に本誌が取り上げた事故・インシデント記事は 2026 年 7 月の 84 本から 42 本増となる全",
       "sources": [
         "ScanNetSecurity"
@@ -7788,18 +7940,9 @@
           "organization": "株式会社Eストアー",
           "service": "2026年8月の情報漏えい",
           "attack_type": "不正アクセス",
-          "leak_status": "可能性あり",
+          "leak_status": "確認・可能性あり",
           "leak_count": "97",
-          "leaked_data": [
-            "氏名",
-            "住所",
-            "電話番号",
-            "メールアドレス",
-            "生年月日",
-            "クレジットカード情報",
-            "顧客情報",
-            "会員情報"
-          ],
+          "leaked_data": [],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56306;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 今日もどこかで情報漏えいは起きている。 大きいところでは誰もが社名を耳にしたことがある東証プライム上場企業や霞ヶ関の政府機関、小さなところでは従業員数名規模の企業や市町村役場に至るまで、毎日、あなたの知らないところで漏えい事件は起き続けている。 頼まれもしないのに月ごとの情報漏えいの動向を勝手にウォッチしている、虫の音ならぬ虫の息のような本連載、今月も一寸の虫のようにひっそりと掲載である。 ●インシデント原因内訳 さて、先月 2026 年 8 月に本誌が取り上げた事故・インシデント記事は 2026 年 7 月の 84 本から 42 本増となる全"
         }
       ],
@@ -8116,62 +8259,6 @@
     },
     {
       "source": "ScanNetSecurity",
-      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/24/56283.html",
-      "published_date": "2026-09-24",
-      "title": "業界動向 ScanNetSecurity 2026.9.24 Thu 8:00 ガバメントソリューションサービス（GSS）への不正アクセス、政府が自民党に説明 自由民主党（自民党）は9月15日、ガバメントソリューションサービス（GSS）への不正アクセスによる個人情報漏えい事案について、政府から説明を受けたと発表した。",
-      "attack": true,
-      "organization": "デジタル庁",
-      "service": "ecurity 2026.9.24 Thu 8:00 ガバメントソリューションサービス（GSS）への不正",
-      "attack_type": "不正アクセス",
-      "leak_status": "可能性あり",
-      "leak_count": "7,716,811",
-      "leaked_data": [
-        "クレジットカード情報"
-      ],
-      "incident_summary": "自由民主党（自民党）は9月15日、ガバメントソリューションサービス（GSS）への不正アクセスによる個人情報漏えい事案について、政府から説明を受けたと発表した。 党国家サイバーセキュリティ戦略本部とデジタル社会推進本部は9月15日に合同会議を開き、ガバメントソリューションサービス（GSS）への不正アクセスによる個人情報漏えい事案について政府から説明を受け、原因究明や再発防止策について協議したという。 党国家サイバーセキュリティ戦略本部の平将明本部長（衆院議員）は「政府の信用を大きく傷つける深刻な問題」と指摘するとともに、システム面の問題にとどまらない影響にも懸念を示し「国民の情報がもれなくてよかったという話ではない」と強調した上で「本当のゼロトラスト（通信ごとに安全性を検証するセキュリティモデル）を」と求め、VPNで「ゼロトラスト」が働く境界の手前の領域も含めた防御の再構築を促している。 VPNの脆弱性を利用 ～ デジタル庁が運用するガバメントソリューションサービス（GSS）に不正アクセス、約24.6万件の個人情報が漏えいした可能性 2026.9.14 Mon 8:05 「ガバメントソリ",
-      "sources": [
-        "ScanNetSecurity"
-      ],
-      "source_records": [
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/14/56223.html",
-          "published_date": "2026-09-14",
-          "title": "VPNの脆弱性を利用 ～ デジタル庁が運用するガバメントソリューションサービス（GSS）に不正アクセス、約24.6万件の個人情報が漏えいした可能性 デジタル庁は9月11日、ガバメントソリューションサービスへの不正アクセスについて発表した。",
-          "attack": true,
-          "organization": "デジタル庁",
-          "service": "VPNを使用しない",
-          "attack_type": "不正アクセス",
-          "leak_status": "可能性あり",
-          "leak_count": "7,716,811",
-          "leaked_data": [
-            "クレジットカード情報",
-            "認証情報"
-          ],
-          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56223;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); デジタル庁は9月11日、ガバメントソリューションサービスへの不正アクセスについて発表した。 これはデジタル庁が運用するガバメントソリューションサービス（GSS）に外部から不正アクセスがあり、GSS上で取り扱っていた個人情報を含むファイルの一部が外部に漏えいした可能性が判明したというもの。 再発防止策「VPNを使用しない」株式会社イセトー 2024.10.15 Tue 8:05 侵入経路となった VPN は使用しない ～ オリエンタルダイヤモンドへのランサムウェア攻撃 2026.5.26 Tue 8:05 VPN 脆弱性の放置や安易なパスワードで"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/24/56283.html",
-          "published_date": "2026-09-24",
-          "title": "業界動向 ScanNetSecurity 2026.9.24 Thu 8:00 ガバメントソリューションサービス（GSS）への不正アクセス、政府が自民党に説明 自由民主党（自民党）は9月15日、ガバメントソリューションサービス（GSS）への不正アクセスによる個人情報漏えい事案について、政府から説明を受けたと発表した。",
-          "attack": true,
-          "organization": "デジタル庁",
-          "service": "ecurity 2026.9.24 Thu 8:00 ガバメントソリューションサービス（GSS）への不正",
-          "attack_type": "不正アクセス",
-          "leak_status": "可能性あり",
-          "leak_count": "7,716,811",
-          "leaked_data": [
-            "クレジットカード情報"
-          ],
-          "incident_summary": "自由民主党（自民党）は9月15日、ガバメントソリューションサービス（GSS）への不正アクセスによる個人情報漏えい事案について、政府から説明を受けたと発表した。 党国家サイバーセキュリティ戦略本部とデジタル社会推進本部は9月15日に合同会議を開き、ガバメントソリューションサービス（GSS）への不正アクセスによる個人情報漏えい事案について政府から説明を受け、原因究明や再発防止策について協議したという。 党国家サイバーセキュリティ戦略本部の平将明本部長（衆院議員）は「政府の信用を大きく傷つける深刻な問題」と指摘するとともに、システム面の問題にとどまらない影響にも懸念を示し「国民の情報がもれなくてよかったという話ではない」と強調した上で「本当のゼロトラスト（通信ごとに安全性を検証するセキュリティモデル）を」と求め、VPNで「ゼロトラスト」が働く境界の手前の領域も含めた防御の再構築を促している。 VPNの脆弱性を利用 ～ デジタル庁が運用するガバメントソリューションサービス（GSS）に不正アクセス、約24.6万件の個人情報が漏えいした可能性 2026.9.14 Mon 8:05 「ガバメントソリ"
-        }
-      ],
-      "source_count": 1,
-      "merged": true
-    },
-    {
-      "source": "ScanNetSecurity",
       "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/24/56293.html",
       "published_date": "2026-09-24",
       "title": "ロート製薬のシステムに不正アクセス ロート製薬株式会社は9月15日、9月11日に公表した同社システムへの不正アクセスについて、調査状況を発表した。",
@@ -8249,6 +8336,62 @@
       ],
       "source_count": 1,
       "merged": false
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/24/56283.html",
+      "published_date": "2026-09-24",
+      "title": "ガバメントソリューションサービス（GSS）への不正アクセス、政府が自民党に説明 自由民主党（自民党）は9月15日、ガバメントソリューションサービス（GSS）への不正アクセスによる個人情報漏えい事案について、政府から説明を受けたと発表した。",
+      "attack": true,
+      "organization": "デジタル庁",
+      "service": "政府の信用を大きく傷つける深刻な問題",
+      "attack_type": "不正アクセス",
+      "leak_status": "可能性あり",
+      "leak_count": "7,716,811",
+      "leaked_data": [
+        "クレジットカード情報"
+      ],
+      "incident_summary": "自由民主党（自民党）は9月15日、ガバメントソリューションサービス（GSS）への不正アクセスによる個人情報漏えい事案について、政府から説明を受けたと発表した。 党国家サイバーセキュリティ戦略本部とデジタル社会推進本部は9月15日に合同会議を開き、ガバメントソリューションサービス（GSS）への不正アクセスによる個人情報漏えい事案について政府から説明を受け、原因究明や再発防止策について協議したという。 党国家サイバーセキュリティ戦略本部の平将明本部長（衆院議員）は「政府の信用を大きく傷つける深刻な問題」と指摘するとともに、システム面の問題にとどまらない影響にも懸念を示し「国民の情報がもれなくてよかったという話ではない」と強調した上で「本当のゼロトラスト（通信ごとに安全性を検証するセキュリティモデル）を」と求め、VPNで「ゼロトラスト」が働く境界の手前の領域も含めた防御の再構築を促している。 VPNの脆弱性を利用 ～ デジタル庁が運用するガバメントソリューションサービス（GSS）に不正アクセス、約24.6万件の個人情報が漏えいした可能性 2026.9.14 Mon 8:05 「ガバメントソリ",
+      "sources": [
+        "ScanNetSecurity"
+      ],
+      "source_records": [
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/14/56223.html",
+          "published_date": "2026-09-14",
+          "title": "VPNの脆弱性を利用 ～ デジタル庁が運用するガバメントソリューションサービス（GSS）に不正アクセス、約24.6万件の個人情報が漏えいした可能性 デジタル庁は9月11日、ガバメントソリューションサービスへの不正アクセスについて発表した。",
+          "attack": true,
+          "organization": "デジタル庁",
+          "service": "VPNを使用しない",
+          "attack_type": "不正アクセス",
+          "leak_status": "可能性あり",
+          "leak_count": "7,716,811",
+          "leaked_data": [
+            "クレジットカード情報",
+            "認証情報"
+          ],
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56223;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); デジタル庁は9月11日、ガバメントソリューションサービスへの不正アクセスについて発表した。 これはデジタル庁が運用するガバメントソリューションサービス（GSS）に外部から不正アクセスがあり、GSS上で取り扱っていた個人情報を含むファイルの一部が外部に漏えいした可能性が判明したというもの。 再発防止策「VPNを使用しない」株式会社イセトー 2024.10.15 Tue 8:05 侵入経路となった VPN は使用しない ～ オリエンタルダイヤモンドへのランサムウェア攻撃 2026.5.26 Tue 8:05 VPN 脆弱性の放置や安易なパスワードで"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/24/56283.html",
+          "published_date": "2026-09-24",
+          "title": "ガバメントソリューションサービス（GSS）への不正アクセス、政府が自民党に説明 自由民主党（自民党）は9月15日、ガバメントソリューションサービス（GSS）への不正アクセスによる個人情報漏えい事案について、政府から説明を受けたと発表した。",
+          "attack": true,
+          "organization": "デジタル庁",
+          "service": "政府の信用を大きく傷つける深刻な問題",
+          "attack_type": "不正アクセス",
+          "leak_status": "可能性あり",
+          "leak_count": "7,716,811",
+          "leaked_data": [
+            "クレジットカード情報"
+          ],
+          "incident_summary": "自由民主党（自民党）は9月15日、ガバメントソリューションサービス（GSS）への不正アクセスによる個人情報漏えい事案について、政府から説明を受けたと発表した。 党国家サイバーセキュリティ戦略本部とデジタル社会推進本部は9月15日に合同会議を開き、ガバメントソリューションサービス（GSS）への不正アクセスによる個人情報漏えい事案について政府から説明を受け、原因究明や再発防止策について協議したという。 党国家サイバーセキュリティ戦略本部の平将明本部長（衆院議員）は「政府の信用を大きく傷つける深刻な問題」と指摘するとともに、システム面の問題にとどまらない影響にも懸念を示し「国民の情報がもれなくてよかったという話ではない」と強調した上で「本当のゼロトラスト（通信ごとに安全性を検証するセキュリティモデル）を」と求め、VPNで「ゼロトラスト」が働く境界の手前の領域も含めた防御の再構築を促している。 VPNの脆弱性を利用 ～ デジタル庁が運用するガバメントソリューションサービス（GSS）に不正アクセス、約24.6万件の個人情報が漏えいした可能性 2026.9.14 Mon 8:05 「ガバメントソリ"
+        }
+      ],
+      "source_count": 1,
+      "merged": true
     },
     {
       "source": "ScanNetSecurity",
@@ -8560,40 +8703,38 @@
     },
     {
       "source": "ScanNetSecurity",
-      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56262.html",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56264.html",
       "published_date": "2026-09-18",
-      "title": "業界動向 ScanNetSecurity 2026.9.18 Fri 8:00 xxx.soumu.go.jp などのサブドメインも拒否に ～ 総務省を装うフィッシングメール対策強化 総務省は9月11日、同省を装ったなりすましメールへの対策強化について発表した。",
+      "title": "任天堂、Nintendo Switch の脆弱性を公表 ～ QRコード読み取りで情報漏えいの恐れ 任天堂株式会社は9月10日、Nintendo Switch の近接リモート攻撃による本体情報漏えいの可能性について発表した。対象製品は下記の通り。",
       "attack": true,
-      "organization": "ムラウチドットコム",
-      "service": "ecurity 2026.9.18 Fri 8:00 xxx.soumu.go.jp などのサブドメイン",
-      "attack_type": "フィッシング",
+      "organization": "Nintendo Switch の脆弱性を公表 ～ QRコード読み取りで情報漏えいの恐れ 任天堂株式会社",
+      "service": "スマートフォンへ送る",
+      "attack_type": "アカウント侵害",
       "leak_status": "可能性あり",
       "leak_count": "7,716,811",
       "leaked_data": [
-        "メールアドレス",
         "クレジットカード情報"
       ],
-      "incident_summary": "総務省は9月11日、同省を装ったなりすましメールへの対策強化について発表した。 近年、行政機関を装ったなりすましメールによるフィッシング詐欺や不正サイトへの誘導などが発生しており、同省では今回の対策で、総務省を装うなりすましメールの抑止を図る。 同省では以前から、総務省ルートドメインになりすましたメールアドレス（@soumu.go.jp）からの不正なメールの受信を拒否する仕組みを導入していたが、9月1日からはサブドメインになりすましたメールアドレス（@xxx.soumu.go.jp）からのメールの受信を拒否する仕組みも導入し、対策を強化する。 同省によると、本対応で総務省から送信する正規のメールの受信方法に変更はないが、メール転送サービスや自動転送を利用している等、転送の仕組みによっては認証に失敗し、総務省からのメールが受信できなくなる可能性があるとのこと。 ダークネット観測パケット数が過去最高を更新、10年前から10倍に増大 ～ 総務省「令和8年版情報通信白書」 2026.9.8 Tue 8:00 KDDI の ISP 事業者向けメールシステムに不正アクセス、総務省が行政指導 202",
+      "incident_summary": "任天堂株式会社は9月10日、Nintendo Switch の近接リモート攻撃による本体情報漏えいの可能性について発表した。対象製品は下記の通り。 Nintendo Switch（システムバージョン 23.0.0未満） Nintendo Switchでは、下記の一部の場面で脆弱性（CVE-2026-82079）が確認されている。なお、本脆弱性が悪用されるには、対象となるNintendo Switchの画面に表示されるQRコードを悪意のある第三者が直接読み取れる状況である必要がある。 1.アルバム内で「スマートフォンへ送る」機能を使用するとき 2.『マリオカートライブホームサーキット』でカートを使用するとき 第三者がQRコードを直接読み取れる状況では、不正なコードの実行や、本体が保持する情報を取得される可能性がある。 同社では、最新のシステムアップデート（23.0.0）を実施するよう案内している。 任天堂、Wi-Fi USBコネクタとWi-Fiネットワークアダプタの使用中止を呼びかけ 2022.7.21 Thu 8:00 ニンテンドースイッチに不正なコードの実行を可能にする脆弱性、現在の",
       "sources": [
         "ScanNetSecurity"
       ],
       "source_records": [
         {
           "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56262.html",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56264.html",
           "published_date": "2026-09-18",
-          "title": "業界動向 ScanNetSecurity 2026.9.18 Fri 8:00 xxx.soumu.go.jp などのサブドメインも拒否に ～ 総務省を装うフィッシングメール対策強化 総務省は9月11日、同省を装ったなりすましメールへの対策強化について発表した。",
+          "title": "任天堂、Nintendo Switch の脆弱性を公表 ～ QRコード読み取りで情報漏えいの恐れ 任天堂株式会社は9月10日、Nintendo Switch の近接リモート攻撃による本体情報漏えいの可能性について発表した。対象製品は下記の通り。",
           "attack": true,
-          "organization": "ムラウチドットコム",
-          "service": "ecurity 2026.9.18 Fri 8:00 xxx.soumu.go.jp などのサブドメイン",
-          "attack_type": "フィッシング",
+          "organization": "Nintendo Switch の脆弱性を公表 ～ QRコード読み取りで情報漏えいの恐れ 任天堂株式会社",
+          "service": "スマートフォンへ送る",
+          "attack_type": "アカウント侵害",
           "leak_status": "可能性あり",
           "leak_count": "7,716,811",
           "leaked_data": [
-            "メールアドレス",
             "クレジットカード情報"
           ],
-          "incident_summary": "総務省は9月11日、同省を装ったなりすましメールへの対策強化について発表した。 近年、行政機関を装ったなりすましメールによるフィッシング詐欺や不正サイトへの誘導などが発生しており、同省では今回の対策で、総務省を装うなりすましメールの抑止を図る。 同省では以前から、総務省ルートドメインになりすましたメールアドレス（@soumu.go.jp）からの不正なメールの受信を拒否する仕組みを導入していたが、9月1日からはサブドメインになりすましたメールアドレス（@xxx.soumu.go.jp）からのメールの受信を拒否する仕組みも導入し、対策を強化する。 同省によると、本対応で総務省から送信する正規のメールの受信方法に変更はないが、メール転送サービスや自動転送を利用している等、転送の仕組みによっては認証に失敗し、総務省からのメールが受信できなくなる可能性があるとのこと。 ダークネット観測パケット数が過去最高を更新、10年前から10倍に増大 ～ 総務省「令和8年版情報通信白書」 2026.9.8 Tue 8:00 KDDI の ISP 事業者向けメールシステムに不正アクセス、総務省が行政指導 202"
+          "incident_summary": "任天堂株式会社は9月10日、Nintendo Switch の近接リモート攻撃による本体情報漏えいの可能性について発表した。対象製品は下記の通り。 Nintendo Switch（システムバージョン 23.0.0未満） Nintendo Switchでは、下記の一部の場面で脆弱性（CVE-2026-82079）が確認されている。なお、本脆弱性が悪用されるには、対象となるNintendo Switchの画面に表示されるQRコードを悪意のある第三者が直接読み取れる状況である必要がある。 1.アルバム内で「スマートフォンへ送る」機能を使用するとき 2.『マリオカートライブホームサーキット』でカートを使用するとき 第三者がQRコードを直接読み取れる状況では、不正なコードの実行や、本体が保持する情報を取得される可能性がある。 同社では、最新のシステムアップデート（23.0.0）を実施するよう案内している。 任天堂、Wi-Fi USBコネクタとWi-Fiネットワークアダプタの使用中止を呼びかけ 2022.7.21 Thu 8:00 ニンテンドースイッチに不正なコードの実行を可能にする脆弱性、現在の"
         }
       ],
       "source_count": 1,
@@ -8829,38 +8970,40 @@
     },
     {
       "source": "ScanNetSecurity",
-      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56264.html",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56262.html",
       "published_date": "2026-09-18",
-      "title": "Fri 8:00 任天堂、Nintendo Switch の脆弱性を公表 ～ QRコード読み取りで情報漏えいの恐れ 任天堂株式会社は9月10日、Nintendo Switch の近接リモート攻撃による本体情報漏えいの可能性について発表した。対象製品は下記の通り。",
+      "title": "xxx.soumu.go.jp などのサブドメインも拒否に ～ 総務省を装うフィッシングメール対策強化 総務省は9月11日、同省を装ったなりすましメールへの対策強化について発表した。",
       "attack": true,
-      "organization": "Nintendo Switch の脆弱性を公表 ～ QRコード読み取りで情報漏えいの恐れ 任天堂株式会社",
-      "service": "スマートフォンへ送る",
-      "attack_type": "アカウント侵害",
+      "organization": "ムラウチドットコム",
+      "service": "メール対策強化 総務省は9月11日",
+      "attack_type": "フィッシング",
       "leak_status": "可能性あり",
       "leak_count": "7,716,811",
       "leaked_data": [
+        "メールアドレス",
         "クレジットカード情報"
       ],
-      "incident_summary": "任天堂株式会社は9月10日、Nintendo Switch の近接リモート攻撃による本体情報漏えいの可能性について発表した。対象製品は下記の通り。 Nintendo Switch（システムバージョン 23.0.0未満） Nintendo Switchでは、下記の一部の場面で脆弱性（CVE-2026-82079）が確認されている。なお、本脆弱性が悪用されるには、対象となるNintendo Switchの画面に表示されるQRコードを悪意のある第三者が直接読み取れる状況である必要がある。 1.アルバム内で「スマートフォンへ送る」機能を使用するとき 2.『マリオカートライブホームサーキット』でカートを使用するとき 第三者がQRコードを直接読み取れる状況では、不正なコードの実行や、本体が保持する情報を取得される可能性がある。 同社では、最新のシステムアップデート（23.0.0）を実施するよう案内している。 任天堂、Wi-Fi USBコネクタとWi-Fiネットワークアダプタの使用中止を呼びかけ 2022.7.21 Thu 8:00 ニンテンドースイッチに不正なコードの実行を可能にする脆弱性、現在の",
+      "incident_summary": "総務省は9月11日、同省を装ったなりすましメールへの対策強化について発表した。 近年、行政機関を装ったなりすましメールによるフィッシング詐欺や不正サイトへの誘導などが発生しており、同省では今回の対策で、総務省を装うなりすましメールの抑止を図る。 同省では以前から、総務省ルートドメインになりすましたメールアドレス（@soumu.go.jp）からの不正なメールの受信を拒否する仕組みを導入していたが、9月1日からはサブドメインになりすましたメールアドレス（@xxx.soumu.go.jp）からのメールの受信を拒否する仕組みも導入し、対策を強化する。 同省によると、本対応で総務省から送信する正規のメールの受信方法に変更はないが、メール転送サービスや自動転送を利用している等、転送の仕組みによっては認証に失敗し、総務省からのメールが受信できなくなる可能性があるとのこと。 ダークネット観測パケット数が過去最高を更新、10年前から10倍に増大 ～ 総務省「令和8年版情報通信白書」 2026.9.8 Tue 8:00 KDDI の ISP 事業者向けメールシステムに不正アクセス、総務省が行政指導 202",
       "sources": [
         "ScanNetSecurity"
       ],
       "source_records": [
         {
           "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56264.html",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/18/56262.html",
           "published_date": "2026-09-18",
-          "title": "Fri 8:00 任天堂、Nintendo Switch の脆弱性を公表 ～ QRコード読み取りで情報漏えいの恐れ 任天堂株式会社は9月10日、Nintendo Switch の近接リモート攻撃による本体情報漏えいの可能性について発表した。対象製品は下記の通り。",
+          "title": "xxx.soumu.go.jp などのサブドメインも拒否に ～ 総務省を装うフィッシングメール対策強化 総務省は9月11日、同省を装ったなりすましメールへの対策強化について発表した。",
           "attack": true,
-          "organization": "Nintendo Switch の脆弱性を公表 ～ QRコード読み取りで情報漏えいの恐れ 任天堂株式会社",
-          "service": "スマートフォンへ送る",
-          "attack_type": "アカウント侵害",
+          "organization": "ムラウチドットコム",
+          "service": "メール対策強化 総務省は9月11日",
+          "attack_type": "フィッシング",
           "leak_status": "可能性あり",
           "leak_count": "7,716,811",
           "leaked_data": [
+            "メールアドレス",
             "クレジットカード情報"
           ],
-          "incident_summary": "任天堂株式会社は9月10日、Nintendo Switch の近接リモート攻撃による本体情報漏えいの可能性について発表した。対象製品は下記の通り。 Nintendo Switch（システムバージョン 23.0.0未満） Nintendo Switchでは、下記の一部の場面で脆弱性（CVE-2026-82079）が確認されている。なお、本脆弱性が悪用されるには、対象となるNintendo Switchの画面に表示されるQRコードを悪意のある第三者が直接読み取れる状況である必要がある。 1.アルバム内で「スマートフォンへ送る」機能を使用するとき 2.『マリオカートライブホームサーキット』でカートを使用するとき 第三者がQRコードを直接読み取れる状況では、不正なコードの実行や、本体が保持する情報を取得される可能性がある。 同社では、最新のシステムアップデート（23.0.0）を実施するよう案内している。 任天堂、Wi-Fi USBコネクタとWi-Fiネットワークアダプタの使用中止を呼びかけ 2022.7.21 Thu 8:00 ニンテンドースイッチに不正なコードの実行を可能にする脆弱性、現在の"
+          "incident_summary": "総務省は9月11日、同省を装ったなりすましメールへの対策強化について発表した。 近年、行政機関を装ったなりすましメールによるフィッシング詐欺や不正サイトへの誘導などが発生しており、同省では今回の対策で、総務省を装うなりすましメールの抑止を図る。 同省では以前から、総務省ルートドメインになりすましたメールアドレス（@soumu.go.jp）からの不正なメールの受信を拒否する仕組みを導入していたが、9月1日からはサブドメインになりすましたメールアドレス（@xxx.soumu.go.jp）からのメールの受信を拒否する仕組みも導入し、対策を強化する。 同省によると、本対応で総務省から送信する正規のメールの受信方法に変更はないが、メール転送サービスや自動転送を利用している等、転送の仕組みによっては認証に失敗し、総務省からのメールが受信できなくなる可能性があるとのこと。 ダークネット観測パケット数が過去最高を更新、10年前から10倍に増大 ～ 総務省「令和8年版情報通信白書」 2026.9.8 Tue 8:00 KDDI の ISP 事業者向けメールシステムに不正アクセス、総務省が行政指導 202"
         }
       ],
       "source_count": 1,
@@ -9748,45 +9891,6 @@
     },
     {
       "source": "ScanNetSecurity",
-      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/15/56229.html",
-      "published_date": "2026-09-15",
-      "title": "調査・ホワイトペーパー ScanNetSecurity 2026.9.15 Tue 8:00 IPA「経営者のためのランサムウェア対策ハンドブック」公開 ～ 脅威に立ち向かうには経営者の関与が不可欠 独立行政法人情報処理推進機構（IPA）は9月8日、「ランサムウェア被害から学ぶ教訓集～経営者のためのランサムウェア対策ハンドブック～」を公開した。",
-      "attack": true,
-      "organization": "独立行政法人情報処理推進機構（IPA）",
-      "service": "経営者のためのランサムウェア対策ハンドブック",
-      "attack_type": "ランサムウェア",
-      "leak_status": "可能性あり",
-      "leak_count": "7,716,811",
-      "leaked_data": [
-        "クレジットカード情報"
-      ],
-      "incident_summary": "独立行政法人情報処理推進機構（IPA）は9月8日、「ランサムウェア被害から学ぶ教訓集～経営者のためのランサムウェア対策ハンドブック～」を公開した。 同資料は、国内で発生したランサムウェア攻撃による被害にあった複数の組織を対象に、株式会社野村総合研究所の協力を得てヒアリング調査を実施し、被害組織の知見・経験をランサムウェア事案発生時における実践的な対処・対応に関する教訓として取りまとめたもの。作成に際しては、八雲法律事務所の山岡裕明弁護士が監修・加筆している。 ランサムウェア事案は他の事案に比べ、事案発覚時に経営者や現場に緊急性の高い判断・対処が求められることが多く、さらにどのような選択が正解だったのか事後的な検証が難しいケースも考えられるとし、国内の被害事例を分析して得られる教訓を、今後起こり得るランサムウェア事案への備えとして活用するとともに、インシデント対応計画や事業継続計画（ Business Continuity Plan：BCP）の更なる充実強化に役立てられるよう同資料を作成したという。IPAでは同資料作成の過程で、ランサムウェア脅威に立ち向かうには、経営者の明確な関与が不可",
-      "sources": [
-        "ScanNetSecurity"
-      ],
-      "source_records": [
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/15/56229.html",
-          "published_date": "2026-09-15",
-          "title": "調査・ホワイトペーパー ScanNetSecurity 2026.9.15 Tue 8:00 IPA「経営者のためのランサムウェア対策ハンドブック」公開 ～ 脅威に立ち向かうには経営者の関与が不可欠 独立行政法人情報処理推進機構（IPA）は9月8日、「ランサムウェア被害から学ぶ教訓集～経営者のためのランサムウェア対策ハンドブック～」を公開した。",
-          "attack": true,
-          "organization": "独立行政法人情報処理推進機構（IPA）",
-          "service": "経営者のためのランサムウェア対策ハンドブック",
-          "attack_type": "ランサムウェア",
-          "leak_status": "可能性あり",
-          "leak_count": "7,716,811",
-          "leaked_data": [
-            "クレジットカード情報"
-          ],
-          "incident_summary": "独立行政法人情報処理推進機構（IPA）は9月8日、「ランサムウェア被害から学ぶ教訓集～経営者のためのランサムウェア対策ハンドブック～」を公開した。 同資料は、国内で発生したランサムウェア攻撃による被害にあった複数の組織を対象に、株式会社野村総合研究所の協力を得てヒアリング調査を実施し、被害組織の知見・経験をランサムウェア事案発生時における実践的な対処・対応に関する教訓として取りまとめたもの。作成に際しては、八雲法律事務所の山岡裕明弁護士が監修・加筆している。 ランサムウェア事案は他の事案に比べ、事案発覚時に経営者や現場に緊急性の高い判断・対処が求められることが多く、さらにどのような選択が正解だったのか事後的な検証が難しいケースも考えられるとし、国内の被害事例を分析して得られる教訓を、今後起こり得るランサムウェア事案への備えとして活用するとともに、インシデント対応計画や事業継続計画（ Business Continuity Plan：BCP）の更なる充実強化に役立てられるよう同資料を作成したという。IPAでは同資料作成の過程で、ランサムウェア脅威に立ち向かうには、経営者の明確な関与が不可"
-        }
-      ],
-      "source_count": 1,
-      "merged": false
-    },
-    {
-      "source": "ScanNetSecurity",
       "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/15/56230.html",
       "published_date": "2026-09-15",
       "title": "町職員（57歳・女性）が廃棄対象の公文書等を持ち帰り保管、裏面に大量の小説のコピー 静岡県長泉町は8月25日、8月20日付けで行った職員の懲戒処分について発表した。",
@@ -10104,6 +10208,41 @@
       "merged": false
     },
     {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/15/56229.html",
+      "published_date": "2026-09-15",
+      "title": "IPA「経営者のためのランサムウェア対策ハンドブック」公開 ～ 脅威に立ち向かうには経営者の関与が不可欠 独立行政法人情報処理推進機構（IPA）は9月8日、「ランサムウェア被害から学ぶ教訓集～経営者のためのランサムウェア対策ハンドブック～」を公開した。",
+      "attack": true,
+      "organization": "独立行政法人情報処理推進機構（IPA）",
+      "service": "経営者のためのランサムウェア対策ハンドブック",
+      "attack_type": "ランサムウェア",
+      "leak_status": "確認・可能性あり",
+      "leak_count": null,
+      "leaked_data": [],
+      "incident_summary": "独立行政法人情報処理推進機構（IPA）は9月8日、「ランサムウェア被害から学ぶ教訓集～経営者のためのランサムウェア対策ハンドブック～」を公開した。 同資料は、国内で発生したランサムウェア攻撃による被害にあった複数の組織を対象に、株式会社野村総合研究所の協力を得てヒアリング調査を実施し、被害組織の知見・経験をランサムウェア事案発生時における実践的な対処・対応に関する教訓として取りまとめたもの。作成に際しては、八雲法律事務所の山岡裕明弁護士が監修・加筆している。 ランサムウェア事案は他の事案に比べ、事案発覚時に経営者や現場に緊急性の高い判断・対処が求められることが多く、さらにどのような選択が正解だったのか事後的な検証が難しいケースも考えられるとし、国内の被害事例を分析して得られる教訓を、今後起こり得るランサムウェア事案への備えとして活用するとともに、インシデント対応計画や事業継続計画（ Business Continuity Plan：BCP）の更なる充実強化に役立てられるよう同資料を作成したという。IPAでは同資料作成の過程で、ランサムウェア脅威に立ち向かうには、経営者の明確な関与が不可",
+      "sources": [
+        "ScanNetSecurity"
+      ],
+      "source_records": [
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/15/56229.html",
+          "published_date": "2026-09-15",
+          "title": "IPA「経営者のためのランサムウェア対策ハンドブック」公開 ～ 脅威に立ち向かうには経営者の関与が不可欠 独立行政法人情報処理推進機構（IPA）は9月8日、「ランサムウェア被害から学ぶ教訓集～経営者のためのランサムウェア対策ハンドブック～」を公開した。",
+          "attack": true,
+          "organization": "独立行政法人情報処理推進機構（IPA）",
+          "service": "経営者のためのランサムウェア対策ハンドブック",
+          "attack_type": "ランサムウェア",
+          "leak_status": "確認・可能性あり",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "独立行政法人情報処理推進機構（IPA）は9月8日、「ランサムウェア被害から学ぶ教訓集～経営者のためのランサムウェア対策ハンドブック～」を公開した。 同資料は、国内で発生したランサムウェア攻撃による被害にあった複数の組織を対象に、株式会社野村総合研究所の協力を得てヒアリング調査を実施し、被害組織の知見・経験をランサムウェア事案発生時における実践的な対処・対応に関する教訓として取りまとめたもの。作成に際しては、八雲法律事務所の山岡裕明弁護士が監修・加筆している。 ランサムウェア事案は他の事案に比べ、事案発覚時に経営者や現場に緊急性の高い判断・対処が求められることが多く、さらにどのような選択が正解だったのか事後的な検証が難しいケースも考えられるとし、国内の被害事例を分析して得られる教訓を、今後起こり得るランサムウェア事案への備えとして活用するとともに、インシデント対応計画や事業継続計画（ Business Continuity Plan：BCP）の更なる充実強化に役立てられるよう同資料を作成したという。IPAでは同資料作成の過程で、ランサムウェア脅威に立ち向かうには、経営者の明確な関与が不可"
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
       "source": "SmartScope",
       "source_url": "https://smartscope.blog/en/blog/japan-data-breach-list-tier-2026-09-10/",
       "published_date": "2026-09-15",
@@ -10215,45 +10354,6 @@
       "merged": false
     },
     {
-      "source": "ScanNetSecurity",
-      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/14/56211.html",
-      "published_date": "2026-09-14",
-      "title": "調査・ホワイトペーパー ScanNetSecurity 2026.9.14 Mon 8:00 不正アクセスや報告遅れを中心に民間 98 件へ指導 ～ 個人情報保護委員会が第367回会合を開催 個人情報保護委員会は9月2日、「第367回 個人情報保護委員会」を同日開催したと発表した。あわせて同会での資料も公開している。",
-      "attack": true,
-      "organization": "ムラウチドットコム",
-      "service": "第367回 個人情報保護委員会",
-      "attack_type": "不正アクセス",
-      "leak_status": "可能性あり",
-      "leak_count": "6,101",
-      "leaked_data": [
-        "クレジットカード情報"
-      ],
-      "incident_summary": "個人情報保護委員会は9月2日、「第367回 個人情報保護委員会」を同日開催したと発表した。あわせて同会での資料も公開している。 同会での議題は下記の通り。 1.独自利用事務の情報連携に係る届出について 2.監視・監督について 3.令和8年度第1四半期における監視・監督の状況について 4.令和8年度第1四半期における総合的な案内所（個人情報保護法相談ダイヤル）及びマイナンバー苦情あっせん相談窓口の受付状況について 同会によると、令和8年度第1四半期の漏えい等報告の処理件数は、個人情報6,101件、特定個人情報113件であった。 同会では令和8年度第1四半期に、個人情報保護法 第147条又は第157条に基づき指導・助言を計141件行っており、そのうち民間事業者が98件、行政機関等が43件であった。 民間事業者に対しては、不正アクセスを原因とする漏えい等事案を中心に、安全管理措置の不備等について指導を行っており、外部からの不正アクセス等の防止の不備（21件）、アクセス者の識別と認証の不備（14件）、委託先に対する監督の不備（12件）、情報システムの使用に伴う漏えい等の防止の不備（3件）の他、",
-      "sources": [
-        "ScanNetSecurity"
-      ],
-      "source_records": [
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/14/56211.html",
-          "published_date": "2026-09-14",
-          "title": "調査・ホワイトペーパー ScanNetSecurity 2026.9.14 Mon 8:00 不正アクセスや報告遅れを中心に民間 98 件へ指導 ～ 個人情報保護委員会が第367回会合を開催 個人情報保護委員会は9月2日、「第367回 個人情報保護委員会」を同日開催したと発表した。あわせて同会での資料も公開している。",
-          "attack": true,
-          "organization": "ムラウチドットコム",
-          "service": "第367回 個人情報保護委員会",
-          "attack_type": "不正アクセス",
-          "leak_status": "可能性あり",
-          "leak_count": "6,101",
-          "leaked_data": [
-            "クレジットカード情報"
-          ],
-          "incident_summary": "個人情報保護委員会は9月2日、「第367回 個人情報保護委員会」を同日開催したと発表した。あわせて同会での資料も公開している。 同会での議題は下記の通り。 1.独自利用事務の情報連携に係る届出について 2.監視・監督について 3.令和8年度第1四半期における監視・監督の状況について 4.令和8年度第1四半期における総合的な案内所（個人情報保護法相談ダイヤル）及びマイナンバー苦情あっせん相談窓口の受付状況について 同会によると、令和8年度第1四半期の漏えい等報告の処理件数は、個人情報6,101件、特定個人情報113件であった。 同会では令和8年度第1四半期に、個人情報保護法 第147条又は第157条に基づき指導・助言を計141件行っており、そのうち民間事業者が98件、行政機関等が43件であった。 民間事業者に対しては、不正アクセスを原因とする漏えい等事案を中心に、安全管理措置の不備等について指導を行っており、外部からの不正アクセス等の防止の不備（21件）、アクセス者の識別と認証の不備（14件）、委託先に対する監督の不備（12件）、情報システムの使用に伴う漏えい等の防止の不備（3件）の他、"
-        }
-      ],
-      "source_count": 1,
-      "merged": false
-    },
-    {
       "source": "Security NEXT",
       "source_url": "https://www.security-next.com/189985",
       "published_date": "2026-09-14",
@@ -10283,6 +10383,45 @@
           "leak_count": null,
           "leaked_data": [],
           "incident_summary": "宮崎県は、県立学校地区生徒寮の運営を委託している宮崎県奨学会がサポート詐欺に遭ったことを明らかにした。内部に個人情報が保存されたパソコンが遠隔操作されたという。 ：Security NEXT"
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/14/56211.html",
+      "published_date": "2026-09-14",
+      "title": "不正アクセスや報告遅れを中心に民間 98 件へ指導 ～ 個人情報保護委員会が第367回会合を開催 個人情報保護委員会は9月2日、「第367回 個人情報保護委員会」を同日開催したと発表した。あわせて同会での資料も公開している。",
+      "attack": true,
+      "organization": "ムラウチドットコム",
+      "service": "第367回 個人情報保護委員会",
+      "attack_type": "不正アクセス",
+      "leak_status": "可能性あり",
+      "leak_count": "6,101",
+      "leaked_data": [
+        "クレジットカード情報"
+      ],
+      "incident_summary": "個人情報保護委員会は9月2日、「第367回 個人情報保護委員会」を同日開催したと発表した。あわせて同会での資料も公開している。 同会での議題は下記の通り。 1.独自利用事務の情報連携に係る届出について 2.監視・監督について 3.令和8年度第1四半期における監視・監督の状況について 4.令和8年度第1四半期における総合的な案内所（個人情報保護法相談ダイヤル）及びマイナンバー苦情あっせん相談窓口の受付状況について 同会によると、令和8年度第1四半期の漏えい等報告の処理件数は、個人情報6,101件、特定個人情報113件であった。 同会では令和8年度第1四半期に、個人情報保護法 第147条又は第157条に基づき指導・助言を計141件行っており、そのうち民間事業者が98件、行政機関等が43件であった。 民間事業者に対しては、不正アクセスを原因とする漏えい等事案を中心に、安全管理措置の不備等について指導を行っており、外部からの不正アクセス等の防止の不備（21件）、アクセス者の識別と認証の不備（14件）、委託先に対する監督の不備（12件）、情報システムの使用に伴う漏えい等の防止の不備（3件）の他、",
+      "sources": [
+        "ScanNetSecurity"
+      ],
+      "source_records": [
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/14/56211.html",
+          "published_date": "2026-09-14",
+          "title": "不正アクセスや報告遅れを中心に民間 98 件へ指導 ～ 個人情報保護委員会が第367回会合を開催 個人情報保護委員会は9月2日、「第367回 個人情報保護委員会」を同日開催したと発表した。あわせて同会での資料も公開している。",
+          "attack": true,
+          "organization": "ムラウチドットコム",
+          "service": "第367回 個人情報保護委員会",
+          "attack_type": "不正アクセス",
+          "leak_status": "可能性あり",
+          "leak_count": "6,101",
+          "leaked_data": [
+            "クレジットカード情報"
+          ],
+          "incident_summary": "個人情報保護委員会は9月2日、「第367回 個人情報保護委員会」を同日開催したと発表した。あわせて同会での資料も公開している。 同会での議題は下記の通り。 1.独自利用事務の情報連携に係る届出について 2.監視・監督について 3.令和8年度第1四半期における監視・監督の状況について 4.令和8年度第1四半期における総合的な案内所（個人情報保護法相談ダイヤル）及びマイナンバー苦情あっせん相談窓口の受付状況について 同会によると、令和8年度第1四半期の漏えい等報告の処理件数は、個人情報6,101件、特定個人情報113件であった。 同会では令和8年度第1四半期に、個人情報保護法 第147条又は第157条に基づき指導・助言を計141件行っており、そのうち民間事業者が98件、行政機関等が43件であった。 民間事業者に対しては、不正アクセスを原因とする漏えい等事案を中心に、安全管理措置の不備等について指導を行っており、外部からの不正アクセス等の防止の不備（21件）、アクセス者の識別と認証の不備（14件）、委託先に対する監督の不備（12件）、情報システムの使用に伴う漏えい等の防止の不備（3件）の他、"
         }
       ],
       "source_count": 1,
@@ -11630,47 +11769,6 @@
     },
     {
       "source": "ScanNetSecurity",
-      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/09/56166.html",
-      "published_date": "2026-09-09",
-      "title": "セミナー・イベント ScanNetSecurity 2026.9.9 Wed 8:00 「フィッシング対策セミナー2026」11 / 19 開催 フィッシング対策協議会は9月1日、「フィッシング対策セミナー2026」を11月19日に開催すると発表した。",
-      "attack": true,
-      "organization": "ムラウチドットコム",
-      "service": "フィッシング対策セミナー2026",
-      "attack_type": "フィッシング",
-      "leak_status": "可能性あり",
-      "leak_count": "300",
-      "leaked_data": [
-        "クレジットカード情報",
-        "認証情報"
-      ],
-      "incident_summary": "フィッシング対策協議会は9月1日、「フィッシング対策セミナー2026」を11月19日に開催すると発表した。 同セミナーでは、最新のフィッシング詐欺の巧妙な手口や具体的な被害実態を詳しく解説するとともに、最前線で対応にあたる法執行機関、金融機関、サービス事業者の専門家が、それぞれの視点から実践的な防御策や最新の取り組みについて紹介する。 また、会場にはフィッシング対策サービスや各種ソリューションの展示ブースを設置し、来場者が最新の対策やサービスに触れられる機会を提供する。 ・概要 日程：11月19日 開催時間：13:00～18:00（終了予定） 受付開始：12:15～ 会場：大崎ブライトコアホール3階 オンライン：Webex ウェビナー 参加費：無料 申込：会場参加 https://area18.smp.ne.jp/area/card/6039/eCrv5d/M?S=nepdq0lcl0k オンライン参加（Webex） https://antiphishingjp.webex.com/weblink/register/r80bc37361931544860d6329aee56afaf 申",
-      "sources": [
-        "ScanNetSecurity"
-      ],
-      "source_records": [
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/09/56166.html",
-          "published_date": "2026-09-09",
-          "title": "セミナー・イベント ScanNetSecurity 2026.9.9 Wed 8:00 「フィッシング対策セミナー2026」11 / 19 開催 フィッシング対策協議会は9月1日、「フィッシング対策セミナー2026」を11月19日に開催すると発表した。",
-          "attack": true,
-          "organization": "ムラウチドットコム",
-          "service": "フィッシング対策セミナー2026",
-          "attack_type": "フィッシング",
-          "leak_status": "可能性あり",
-          "leak_count": "300",
-          "leaked_data": [
-            "クレジットカード情報",
-            "認証情報"
-          ],
-          "incident_summary": "フィッシング対策協議会は9月1日、「フィッシング対策セミナー2026」を11月19日に開催すると発表した。 同セミナーでは、最新のフィッシング詐欺の巧妙な手口や具体的な被害実態を詳しく解説するとともに、最前線で対応にあたる法執行機関、金融機関、サービス事業者の専門家が、それぞれの視点から実践的な防御策や最新の取り組みについて紹介する。 また、会場にはフィッシング対策サービスや各種ソリューションの展示ブースを設置し、来場者が最新の対策やサービスに触れられる機会を提供する。 ・概要 日程：11月19日 開催時間：13:00～18:00（終了予定） 受付開始：12:15～ 会場：大崎ブライトコアホール3階 オンライン：Webex ウェビナー 参加費：無料 申込：会場参加 https://area18.smp.ne.jp/area/card/6039/eCrv5d/M?S=nepdq0lcl0k オンライン参加（Webex） https://antiphishingjp.webex.com/weblink/register/r80bc37361931544860d6329aee56afaf 申"
-        }
-      ],
-      "source_count": 1,
-      "merged": false
-    },
-    {
-      "source": "ScanNetSecurity",
       "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/09/56171.html",
       "published_date": "2026-09-09",
       "title": "ジェックスにランサムウェア攻撃、個人情報が一時的に侵入者に閲覧可能な状態に ジェックス株式会社は8月19日、2月6日に公表した同社サーバでのランサムウェア被害について、調査結果と再発防止策を発表した。",
@@ -11744,6 +11842,47 @@
             "認証情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56172;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); エヌ・イー ケムキャット株式会社は8月20日、同社社内システムへの不正アクセスについて発表した。 これは5月28日に、同社の社内システムで不審な挙動を検知したため調査を行ったところ、第三者が同社従業員のアカウントを不正に利用し、同社の一部社内システムにアクセスしていたことが判明したというもの。 「従来の防御システムでは完全に防ぎきることが困難」ミレニアムプランが利用するレンタルサーバにマルウェア攻撃 2026.6.11 Thu 8:05 公益財団法人B&G財団にマルウェア攻撃、サーバでシステム障害が発生 2026.5.15 Fri 8:05 P"
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/09/56166.html",
+      "published_date": "2026-09-09",
+      "title": "「フィッシング対策セミナー2026」11 / 19 開催 フィッシング対策協議会は9月1日、「フィッシング対策セミナー2026」を11月19日に開催すると発表した。",
+      "attack": true,
+      "organization": "ムラウチドットコム",
+      "service": "フィッシング対策セミナー2026",
+      "attack_type": "フィッシング",
+      "leak_status": "可能性あり",
+      "leak_count": "300",
+      "leaked_data": [
+        "クレジットカード情報",
+        "認証情報"
+      ],
+      "incident_summary": "フィッシング対策協議会は9月1日、「フィッシング対策セミナー2026」を11月19日に開催すると発表した。 同セミナーでは、最新のフィッシング詐欺の巧妙な手口や具体的な被害実態を詳しく解説するとともに、最前線で対応にあたる法執行機関、金融機関、サービス事業者の専門家が、それぞれの視点から実践的な防御策や最新の取り組みについて紹介する。 また、会場にはフィッシング対策サービスや各種ソリューションの展示ブースを設置し、来場者が最新の対策やサービスに触れられる機会を提供する。 ・概要 日程：11月19日 開催時間：13:00～18:00（終了予定） 受付開始：12:15～ 会場：大崎ブライトコアホール3階 オンライン：Webex ウェビナー 参加費：無料 申込：会場参加 https://area18.smp.ne.jp/area/card/6039/eCrv5d/M?S=nepdq0lcl0k オンライン参加（Webex） https://antiphishingjp.webex.com/weblink/register/r80bc37361931544860d6329aee56afaf 申",
+      "sources": [
+        "ScanNetSecurity"
+      ],
+      "source_records": [
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/09/56166.html",
+          "published_date": "2026-09-09",
+          "title": "「フィッシング対策セミナー2026」11 / 19 開催 フィッシング対策協議会は9月1日、「フィッシング対策セミナー2026」を11月19日に開催すると発表した。",
+          "attack": true,
+          "organization": "ムラウチドットコム",
+          "service": "フィッシング対策セミナー2026",
+          "attack_type": "フィッシング",
+          "leak_status": "可能性あり",
+          "leak_count": "300",
+          "leaked_data": [
+            "クレジットカード情報",
+            "認証情報"
+          ],
+          "incident_summary": "フィッシング対策協議会は9月1日、「フィッシング対策セミナー2026」を11月19日に開催すると発表した。 同セミナーでは、最新のフィッシング詐欺の巧妙な手口や具体的な被害実態を詳しく解説するとともに、最前線で対応にあたる法執行機関、金融機関、サービス事業者の専門家が、それぞれの視点から実践的な防御策や最新の取り組みについて紹介する。 また、会場にはフィッシング対策サービスや各種ソリューションの展示ブースを設置し、来場者が最新の対策やサービスに触れられる機会を提供する。 ・概要 日程：11月19日 開催時間：13:00～18:00（終了予定） 受付開始：12:15～ 会場：大崎ブライトコアホール3階 オンライン：Webex ウェビナー 参加費：無料 申込：会場参加 https://area18.smp.ne.jp/area/card/6039/eCrv5d/M?S=nepdq0lcl0k オンライン参加（Webex） https://antiphishingjp.webex.com/weblink/register/r80bc37361931544860d6329aee56afaf 申"
         }
       ],
       "source_count": 1,
@@ -11862,84 +12001,6 @@
     },
     {
       "source": "ScanNetSecurity",
-      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/08/56152.html",
-      "published_date": "2026-09-08",
-      "title": "調査・ホワイトペーパー ScanNetSecurity 2026.9.8 Tue 8:00 従来のバックアップやBCPは意図的侵害を想定せず ～ NTTデータグループ、サイバーセキュリティ グローバル動向四半期レポート（2025年度第3四半期） 株式会社NTTデータグループは8月26日、サイバーセキュリティに関するグローバル動向四半期レポート（2025年度第3四半期）を公開した。",
-      "attack": true,
-      "organization": "株式会社NTTデータグループ",
-      "service": "ecurity 2026.9.8 Tue 8:00 従来のバックアップやBCPは意図的侵害を想定せず ～",
-      "attack_type": "不正アクセス",
-      "leak_status": "可能性あり",
-      "leak_count": "7,716,811",
-      "leaked_data": [
-        "クレジットカード情報"
-      ],
-      "incident_summary": "株式会社NTTデータグループは8月26日、サイバーセキュリティに関するグローバル動向四半期レポート（2025年度第3四半期）を公開した。 NTTデータグループでは、顧客やグループ内でのセキュリティ被害抑止を目的に、ニュースリリースやWebサイト、新聞、雑誌等の公開情報を収集し、セキュリティに関するグローバル動向を調査しており、サイバーセキュリティ動向の変化を捉えるために同レポートを作成している。 同レポートでは、同四半期におけるグローバル動向として、ランサムウェア対策としてのサイバーリカバリーの重要性、F5社ソースコード流出とNW機器探索活動から予測する攻撃リスクと対策、ブラウザ拡張機能の悪性化と組織統制上の課題、React2Shellに学ぶ依存関係の把握から始める脆弱性対応などを取り上げている。同レポートの目次は下記の通り。 1.エグゼグティブサマリー 2.注目トピック 3-4.脅威情報 5.脆弱性情報 6.予測 7.タイムライン 同レポートでは、復旧の長期化が事業に重大な影響を及ぼすランサムウェア攻撃について、従来のバックアップやBCPが攻撃者による意図的な侵害を想定していないこと",
-      "sources": [
-        "ScanNetSecurity"
-      ],
-      "source_records": [
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/08/56152.html",
-          "published_date": "2026-09-08",
-          "title": "調査・ホワイトペーパー ScanNetSecurity 2026.9.8 Tue 8:00 従来のバックアップやBCPは意図的侵害を想定せず ～ NTTデータグループ、サイバーセキュリティ グローバル動向四半期レポート（2025年度第3四半期） 株式会社NTTデータグループは8月26日、サイバーセキュリティに関するグローバル動向四半期レポート（2025年度第3四半期）を公開した。",
-          "attack": true,
-          "organization": "株式会社NTTデータグループ",
-          "service": "ecurity 2026.9.8 Tue 8:00 従来のバックアップやBCPは意図的侵害を想定せず ～",
-          "attack_type": "不正アクセス",
-          "leak_status": "可能性あり",
-          "leak_count": "7,716,811",
-          "leaked_data": [
-            "クレジットカード情報"
-          ],
-          "incident_summary": "株式会社NTTデータグループは8月26日、サイバーセキュリティに関するグローバル動向四半期レポート（2025年度第3四半期）を公開した。 NTTデータグループでは、顧客やグループ内でのセキュリティ被害抑止を目的に、ニュースリリースやWebサイト、新聞、雑誌等の公開情報を収集し、セキュリティに関するグローバル動向を調査しており、サイバーセキュリティ動向の変化を捉えるために同レポートを作成している。 同レポートでは、同四半期におけるグローバル動向として、ランサムウェア対策としてのサイバーリカバリーの重要性、F5社ソースコード流出とNW機器探索活動から予測する攻撃リスクと対策、ブラウザ拡張機能の悪性化と組織統制上の課題、React2Shellに学ぶ依存関係の把握から始める脆弱性対応などを取り上げている。同レポートの目次は下記の通り。 1.エグゼグティブサマリー 2.注目トピック 3-4.脅威情報 5.脆弱性情報 6.予測 7.タイムライン 同レポートでは、復旧の長期化が事業に重大な影響を及ぼすランサムウェア攻撃について、従来のバックアップやBCPが攻撃者による意図的な侵害を想定していないこと"
-        }
-      ],
-      "source_count": 1,
-      "merged": false
-    },
-    {
-      "source": "ScanNetSecurity",
-      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/08/56151.html",
-      "published_date": "2026-09-08",
-      "title": "調査・ホワイトペーパー ScanNetSecurity 2026.9.8 Tue 8:00 サイバー攻撃の「被害経験なし」企業は約 6 割へ減少 ～ 東商2026年アンケート調査 東京商工会議所は8月24日、「会員企業の災害・リスク対策に関するアンケート」2026年調査結果を発表した。",
-      "attack": true,
-      "organization": "ムラウチドットコム",
-      "service": "被害経験なし",
-      "attack_type": "ランサムウェア",
-      "leak_status": "可能性あり",
-      "leak_count": "13,156",
-      "leaked_data": [
-        "クレジットカード情報"
-      ],
-      "incident_summary": "東京商工会議所は8月24日、「会員企業の災害・リスク対策に関するアンケート」2026年調査結果を発表した。 同調査では4月20日から5月8日に、東商会員企業13,156件を対象にメール、郵送で調査票を送付し、得られた1,381件の回答結果をまとめたもの。 同調査で、サイバー攻撃の被害経験について尋ねたところ、「被害・影響を受けたことはない」と回答した企業は約6割となり、2024年調査の約7割より減少している。「取引先や委託先が被害を受け、自社業務に影響したことがある」企業は約2割となり、2024年調査より10ポイント超増加している。「自社がサイバー攻撃を受けたことがある」と回答したのは9.7％であった。 その他、企業の声として「サイバー攻撃によるリスクの増大に伴い、サプライチェーン全体への影響も想定されるため、一社単独ではなく、他企業・官民連携による対策が必要と感じる。」、「取引先がランサムウェア攻撃を受け、商品の出荷が停止となる影響が生じた。」などが寄せられている。 「富士山噴火による影響の懸念・事業継続への影響」について尋ねたところ、富士山噴火（広域降灰）による影響を懸念する企業が",
-      "sources": [
-        "ScanNetSecurity"
-      ],
-      "source_records": [
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/08/56151.html",
-          "published_date": "2026-09-08",
-          "title": "調査・ホワイトペーパー ScanNetSecurity 2026.9.8 Tue 8:00 サイバー攻撃の「被害経験なし」企業は約 6 割へ減少 ～ 東商2026年アンケート調査 東京商工会議所は8月24日、「会員企業の災害・リスク対策に関するアンケート」2026年調査結果を発表した。",
-          "attack": true,
-          "organization": "ムラウチドットコム",
-          "service": "被害経験なし",
-          "attack_type": "ランサムウェア",
-          "leak_status": "可能性あり",
-          "leak_count": "13,156",
-          "leaked_data": [
-            "クレジットカード情報"
-          ],
-          "incident_summary": "東京商工会議所は8月24日、「会員企業の災害・リスク対策に関するアンケート」2026年調査結果を発表した。 同調査では4月20日から5月8日に、東商会員企業13,156件を対象にメール、郵送で調査票を送付し、得られた1,381件の回答結果をまとめたもの。 同調査で、サイバー攻撃の被害経験について尋ねたところ、「被害・影響を受けたことはない」と回答した企業は約6割となり、2024年調査の約7割より減少している。「取引先や委託先が被害を受け、自社業務に影響したことがある」企業は約2割となり、2024年調査より10ポイント超増加している。「自社がサイバー攻撃を受けたことがある」と回答したのは9.7％であった。 その他、企業の声として「サイバー攻撃によるリスクの増大に伴い、サプライチェーン全体への影響も想定されるため、一社単独ではなく、他企業・官民連携による対策が必要と感じる。」、「取引先がランサムウェア攻撃を受け、商品の出荷が停止となる影響が生じた。」などが寄せられている。 「富士山噴火による影響の懸念・事業継続への影響」について尋ねたところ、富士山噴火（広域降灰）による影響を懸念する企業が"
-        }
-      ],
-      "source_count": 1,
-      "merged": false
-    },
-    {
-      "source": "ScanNetSecurity",
       "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/08/56158.html",
       "published_date": "2026-09-08",
       "title": "教育ソフトウェアの休眠中のレンタルサーバにランサムウェア攻撃、暗号化被害と不正アクセスの痕跡を確認 株式会社教育ソフトウェアは8月17日、長期間使用していないサーバへの不正アクセスについて発表した。",
@@ -11972,6 +12033,41 @@
             "クレジットカード情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56158;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社教育ソフトウェアは8月17日、長期間使用していないサーバへの不正アクセスについて発表した。 これは同社が過去に使用していた休眠中のレンタルサーバに対し、ランサムウェアによる暗号化被害と第三者からの不正アクセスの痕跡を確認したというもの。レンタルサーバを提供している契約会社からの情報提供で発覚した。 サイバー保険がランサムウェアを生み出したのか 2026.7.24 Fri 8:10 青山財産ネットワークスの日本資産総研へランサムウェア攻撃、1 ％未満のデータ量が外部に送信された可能性 2026.8.24 Mon 8:05 REXTにランサ"
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/08/56152.html",
+      "published_date": "2026-09-08",
+      "title": "従来のバックアップやBCPは意図的侵害を想定せず ～ NTTデータグループ、サイバーセキュリティ グローバル動向四半期レポート（2025年度第3四半期） 株式会社NTTデータグループは8月26日、サイバーセキュリティに関するグローバル動向四半期レポート（2025年度第3四半期）を公開した。",
+      "attack": true,
+      "organization": "株式会社NTTデータグループ",
+      "service": "サイバーセキュリティに関するグローバル動向四半期レポート（2025年2Q）",
+      "attack_type": "不正アクセス",
+      "leak_status": "確認・可能性あり",
+      "leak_count": null,
+      "leaked_data": [],
+      "incident_summary": "株式会社NTTデータグループは8月26日、サイバーセキュリティに関するグローバル動向四半期レポート（2025年度第3四半期）を公開した。 NTTデータグループでは、顧客やグループ内でのセキュリティ被害抑止を目的に、ニュースリリースやWebサイト、新聞、雑誌等の公開情報を収集し、セキュリティに関するグローバル動向を調査しており、サイバーセキュリティ動向の変化を捉えるために同レポートを作成している。 同レポートでは、同四半期におけるグローバル動向として、ランサムウェア対策としてのサイバーリカバリーの重要性、F5社ソースコード流出とNW機器探索活動から予測する攻撃リスクと対策、ブラウザ拡張機能の悪性化と組織統制上の課題、React2Shellに学ぶ依存関係の把握から始める脆弱性対応などを取り上げている。同レポートの目次は下記の通り。 1.エグゼグティブサマリー 2.注目トピック 3-4.脅威情報 5.脆弱性情報 6.予測 7.タイムライン 同レポートでは、復旧の長期化が事業に重大な影響を及ぼすランサムウェア攻撃について、従来のバックアップやBCPが攻撃者による意図的な侵害を想定していないこと",
+      "sources": [
+        "ScanNetSecurity"
+      ],
+      "source_records": [
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/08/56152.html",
+          "published_date": "2026-09-08",
+          "title": "従来のバックアップやBCPは意図的侵害を想定せず ～ NTTデータグループ、サイバーセキュリティ グローバル動向四半期レポート（2025年度第3四半期） 株式会社NTTデータグループは8月26日、サイバーセキュリティに関するグローバル動向四半期レポート（2025年度第3四半期）を公開した。",
+          "attack": true,
+          "organization": "株式会社NTTデータグループ",
+          "service": "サイバーセキュリティに関するグローバル動向四半期レポート（2025年2Q）",
+          "attack_type": "不正アクセス",
+          "leak_status": "確認・可能性あり",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "株式会社NTTデータグループは8月26日、サイバーセキュリティに関するグローバル動向四半期レポート（2025年度第3四半期）を公開した。 NTTデータグループでは、顧客やグループ内でのセキュリティ被害抑止を目的に、ニュースリリースやWebサイト、新聞、雑誌等の公開情報を収集し、セキュリティに関するグローバル動向を調査しており、サイバーセキュリティ動向の変化を捉えるために同レポートを作成している。 同レポートでは、同四半期におけるグローバル動向として、ランサムウェア対策としてのサイバーリカバリーの重要性、F5社ソースコード流出とNW機器探索活動から予測する攻撃リスクと対策、ブラウザ拡張機能の悪性化と組織統制上の課題、React2Shellに学ぶ依存関係の把握から始める脆弱性対応などを取り上げている。同レポートの目次は下記の通り。 1.エグゼグティブサマリー 2.注目トピック 3-4.脅威情報 5.脆弱性情報 6.予測 7.タイムライン 同レポートでは、復旧の長期化が事業に重大な影響を及ぼすランサムウェア攻撃について、従来のバックアップやBCPが攻撃者による意図的な侵害を想定していないこと"
         }
       ],
       "source_count": 1,
@@ -12103,6 +12199,45 @@
       "merged": false
     },
     {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/08/56151.html",
+      "published_date": "2026-09-08",
+      "title": "サイバー攻撃の「被害経験なし」企業は約 6 割へ減少 ～ 東商2026年アンケート調査 東京商工会議所は8月24日、「会員企業の災害・リスク対策に関するアンケート」2026年調査結果を発表した。",
+      "attack": true,
+      "organization": "ムラウチドットコム",
+      "service": "被害経験なし",
+      "attack_type": "ランサムウェア",
+      "leak_status": "可能性あり",
+      "leak_count": "13,156",
+      "leaked_data": [
+        "クレジットカード情報"
+      ],
+      "incident_summary": "東京商工会議所は8月24日、「会員企業の災害・リスク対策に関するアンケート」2026年調査結果を発表した。 同調査では4月20日から5月8日に、東商会員企業13,156件を対象にメール、郵送で調査票を送付し、得られた1,381件の回答結果をまとめたもの。 同調査で、サイバー攻撃の被害経験について尋ねたところ、「被害・影響を受けたことはない」と回答した企業は約6割となり、2024年調査の約7割より減少している。「取引先や委託先が被害を受け、自社業務に影響したことがある」企業は約2割となり、2024年調査より10ポイント超増加している。「自社がサイバー攻撃を受けたことがある」と回答したのは9.7％であった。 その他、企業の声として「サイバー攻撃によるリスクの増大に伴い、サプライチェーン全体への影響も想定されるため、一社単独ではなく、他企業・官民連携による対策が必要と感じる。」、「取引先がランサムウェア攻撃を受け、商品の出荷が停止となる影響が生じた。」などが寄せられている。 「富士山噴火による影響の懸念・事業継続への影響」について尋ねたところ、富士山噴火（広域降灰）による影響を懸念する企業が",
+      "sources": [
+        "ScanNetSecurity"
+      ],
+      "source_records": [
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/08/56151.html",
+          "published_date": "2026-09-08",
+          "title": "サイバー攻撃の「被害経験なし」企業は約 6 割へ減少 ～ 東商2026年アンケート調査 東京商工会議所は8月24日、「会員企業の災害・リスク対策に関するアンケート」2026年調査結果を発表した。",
+          "attack": true,
+          "organization": "ムラウチドットコム",
+          "service": "被害経験なし",
+          "attack_type": "ランサムウェア",
+          "leak_status": "可能性あり",
+          "leak_count": "13,156",
+          "leaked_data": [
+            "クレジットカード情報"
+          ],
+          "incident_summary": "東京商工会議所は8月24日、「会員企業の災害・リスク対策に関するアンケート」2026年調査結果を発表した。 同調査では4月20日から5月8日に、東商会員企業13,156件を対象にメール、郵送で調査票を送付し、得られた1,381件の回答結果をまとめたもの。 同調査で、サイバー攻撃の被害経験について尋ねたところ、「被害・影響を受けたことはない」と回答した企業は約6割となり、2024年調査の約7割より減少している。「取引先や委託先が被害を受け、自社業務に影響したことがある」企業は約2割となり、2024年調査より10ポイント超増加している。「自社がサイバー攻撃を受けたことがある」と回答したのは9.7％であった。 その他、企業の声として「サイバー攻撃によるリスクの増大に伴い、サプライチェーン全体への影響も想定されるため、一社単独ではなく、他企業・官民連携による対策が必要と感じる。」、「取引先がランサムウェア攻撃を受け、商品の出荷が停止となる影響が生じた。」などが寄せられている。 「富士山噴火による影響の懸念・事業継続への影響」について尋ねたところ、富士山噴火（広域降灰）による影響を懸念する企業が"
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
       "source": "Security NEXT",
       "source_url": "https://www.security-next.com/189789",
       "published_date": "2026-09-08",
@@ -12219,7 +12354,7 @@
       "source": "ScanNetSecurity",
       "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/08/56160.html",
       "published_date": "2026-09-08",
-      "title": "TheRegister The Register誌特約記事 2026.9.8 Tue 8:20 AI がランサムウェア攻撃全工程を実行、被害企業に 80 ページにわたる“セキュリティ監査報告書”まで提出 「攻撃者は戦術面での実行を AI エージェントに委ね、エージェントは監視・評価・行動・再計画のサイクルをリアルタイムで繰り返し、攻撃の各段階の\"継ぎ目\"で（人間による判断なら必ず発生する）遅れをなくすことで、侵入工程全体を一貫して高速化した」",
+      "title": "AI がランサムウェア攻撃全工程を実行、被害企業に 80 ページにわたる“セキュリティ監査報告書”まで提出 「攻撃者は戦術面での実行を AI エージェントに委ね、エージェントは監視・評価・行動・再計画のサイクルをリアルタイムで繰り返し、攻撃の各段階の\"継ぎ目\"で（人間による判断なら必ず発生する）遅れをなくすことで、侵入工程全体を一貫して高速化した」",
       "attack": true,
       "organization": "ムラウチドットコム",
       "service": "この攻撃を際立たせていたのは、目新しいゼロデイ脆弱性や卓越した高度な技術ではなく、AI による作戦遂行の効率性だった",
@@ -12238,7 +12373,7 @@
           "source": "ScanNetSecurity",
           "source_url": "https://scan.netsecurity.ne.jp/article/2026/09/08/56160.html",
           "published_date": "2026-09-08",
-          "title": "TheRegister The Register誌特約記事 2026.9.8 Tue 8:20 AI がランサムウェア攻撃全工程を実行、被害企業に 80 ページにわたる“セキュリティ監査報告書”まで提出 「攻撃者は戦術面での実行を AI エージェントに委ね、エージェントは監視・評価・行動・再計画のサイクルをリアルタイムで繰り返し、攻撃の各段階の\"継ぎ目\"で（人間による判断なら必ず発生する）遅れをなくすことで、侵入工程全体を一貫して高速化した」",
+          "title": "AI がランサムウェア攻撃全工程を実行、被害企業に 80 ページにわたる“セキュリティ監査報告書”まで提出 「攻撃者は戦術面での実行を AI エージェントに委ね、エージェントは監視・評価・行動・再計画のサイクルをリアルタイムで繰り返し、攻撃の各段階の\"継ぎ目\"で（人間による判断なら必ず発生する）遅れをなくすことで、侵入工程全体を一貫して高速化した」",
           "attack": true,
           "organization": "ムラウチドットコム",
           "service": "この攻撃を際立たせていたのは、目新しいゼロデイ脆弱性や卓越した高度な技術ではなく、AI による作戦遂行の効率性だった",
