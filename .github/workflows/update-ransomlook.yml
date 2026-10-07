@@ -57,6 +57,13 @@ jobs:
           wb.save("japan_cyber_incidents_1month.xlsx")
           PY
 
+      - name: Upload current Excel
+        uses: actions/upload-artifact@v4
+        with:
+          name: japan-cyber-incidents-excel
+          path: japan_cyber_incidents_1month.xlsx
+          retention-days: 7
+
       - name: Commit updated data and Excel
         run: |
           git config user.name "github-actions[bot]"
