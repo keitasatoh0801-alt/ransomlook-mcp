@@ -329,11 +329,11 @@ def enrich_incidents(items):
         title_text=clean(item.get("title",""))
         source_text=clean(" ".join([title_text,body]))
         item=dict(item)
-        org=extract_organization(source_text) or item.get("organization")
+        org=extract_organization(title_text) or extract_organization(body[:5000]) or item.get("organization")
         if org: item["organization"]=org
-        item["service"]=extract_service(source_text,org)
+        item["service"]=extract_service(title_text,org) or extract_service(body[:5000],org)
         title_fields=extract_incident_fields(title_text,org)
-        body_fields=extract_incident_fields(body,org) if body else {}
+        body_fields=extract_incident_fields(body[:5000],org) if body else {}
         item["attack_type"]=title_fields.get("attack_type") or body_fields.get("attack_type")
         item["leak_status"]=body_fields.get("leak_status") if body_fields.get("leak_status")!="不明" else title_fields.get("leak_status","不明")
         item["leak_count"]=body_fields.get("leak_count") or title_fields.get("leak_count")
