@@ -300,9 +300,6 @@ class ArticleTextParser(HTMLParser):
         if tag=="article": self.in_article+=1
         if tag=="meta" and attrs.get("name","").lower()=="description":
             self.meta_description=unescape(attrs.get("content",""))
-        cls=(attrs.get("class","")+" "+attrs.get("id","")).lower()
-        if any(k in cls for k in ["article-body","article_content","entry-content","post-content","article-text","articlebody"]):
-            self.in_article=max(self.in_article,1)
     def handle_endtag(self,tag):
         if tag=="article" and self.in_article>0: self.in_article-=1
     def handle_data(self,data):
