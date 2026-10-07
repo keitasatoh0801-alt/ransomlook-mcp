@@ -414,7 +414,11 @@ def enrich_incidents(items):
         body_fields=extract_incident_fields(body_core,org) if body_core else {}
         item["attack_type"]=title_fields.get("attack_type") or body_fields.get("attack_type")
         item["leak_status"]=title_fields.get("leak_status") if title_fields.get("leak_status")!="不明" else body_fields.get("leak_status","不明")
-        item["leak_count"]=title_fields.get("leak_count") or body_fields.get("leak_count")
+        # Never take leak counts from article body HTML. Some publishers embed
+        # related stories inside the article container, which can copy another
+        # incident's count into this record. Counts must be explicitly stated in
+        # the incident headline; otherwise leave them blank.
+        item["leak_count"]=title_fields.get("leak_count")
         item["leaked_data"]=title_fields.get("leaked_data") or body_fields.get("leaked_data",[])
         item["incident_summary"]=body_core[:500] if body_core else title_text
         return item
@@ -589,8 +593,13 @@ def main():
         except Exception as e: errors[name]=str(e)
     incidents=enrich_incidents(incidents)
     for item in incidents:
-        if not item.get("organization"):
-            item["organization"]=extract_organization(item.get("incident_summary","") or item.get("title",""))
+        # Re-canonicalize the victim from the headline after all enrichment.
+        # This prevents publisher names or prose fragments from becoming the org.
+        title_org=extract_title_organization(item.get("title",""))
+        if title_org:
+            item["organization"]=title_org
+        elif not item.get("organization"):
+            item["organization"]=extract_organization(item.get("title","") or item.get("incident_summary",""))
         if not item.get("incident_summary"):
             item.update(extract_incident_fields(item.get("title",""), item.get("organization")))
     unique={}
