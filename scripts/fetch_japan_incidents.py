@@ -103,6 +103,10 @@ def collect_yagura(cutoff):
         seen.add(key); out.append({"source":"Yagura","source_url":full,"published_date":date,"title":title,"attack":True})
     return out
 
+def article_date_from_url(url, fallback):
+    m = re.search(r"/(20\\d{2})/(\\d{2})/(\\d{2})/", url)
+    return f"{m.group(1)}-{m.group(2)}-{m.group(3)}" if m else fallback
+
 def collect_scannet(cutoff):
     out=[]
     for page in range(1,8):
@@ -111,9 +115,12 @@ def collect_scannet(cutoff):
         for href,title,date in p.links:
             full=urljoin(url,href)
             if "/article/" not in full or not date: continue
+            date = article_date_from_url(full, date)
             if date>=cutoff: page_old=False
             if date<cutoff or not is_attack(title): continue
-            out.append({"source":"ScanNetSecurity","source_url":full,"published_date":date,"title":clean(title),"attack":True})
+            title = re.sub(r"^インシデント・情報漏えい\\s+ScanNetSecurity\\s+20\\d{2}\\.\\d{1,2}\\.\\d{1,2}.*?\\s+\\d{1,2}:\\d{2}\\s+", "", clean(title))
+            title = re.sub(r"^セキュリティホール・脆弱性\\s+ScanNetSecurity\\s+.*?\\s+", "", title)
+            out.append({"source":"ScanNetSecurity","source_url":full,"published_date":date,"title":title,"attack":True})
         if page_old: break
     return out
 
@@ -128,6 +135,7 @@ def collect_smartscope(cutoff):
         month=9 if m.group(1)=="Sep" else 10
         date=f"2026-{month:02d}-{int(m.group(2)):02d}"
         if date<cutoff: continue
+        if not is_attack(f"{org} {entry}"): continue
         out.append({"source":"SmartScope","source_url":url,"published_date":date,
                     "title":f"{org} — {entry}","organization":org,
                     "affected_count":count,"attack_type":entry,"attack":True})
@@ -150,6 +158,9 @@ def collect_google_news(cutoff):
             link=item.findtext("link") or ""
             pub=item.findtext("pubDate") or ""
             if not title or not link or not is_attack(title): continue
+            bad = ["脆弱性","ゼロデイ","解説","ブリーフィング","相次ぐ","警鐘","逮捕","販売との投稿","事実は確認されず","対策","注意喚起","動向","予測"]
+            if any(x in title for x in bad): continue
+            if not re.search(r"(不正アクセス|サイバー攻撃|ランサムウェア|ランサムウエア|情報漏えい|情報漏洩|情報流出|乗っ取り|侵入)", title): continue
             try:
                 dt=datetime.strptime(pub,"%a, %d %b %Y %H:%M:%S %Z").date().isoformat()
             except Exception:
