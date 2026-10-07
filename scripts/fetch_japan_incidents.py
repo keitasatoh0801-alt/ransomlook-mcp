@@ -2,6 +2,7 @@
 import json
 import re
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from html.parser import HTMLParser
@@ -10,7 +11,8 @@ from urllib.parse import urljoin, quote
 
 DAYS = 30
 OUT = Path("data/incidents.json")
-UA = "ransomlook-mcp-japan-incident-collector/2.0"
+UA = "ransomlook-mcp-japan-incident-collector/3.0"
+MAX_ARTICLE_CHARS = 18000
 
 ATTACK_TERMS = [
     "不正アクセス","サイバー攻撃","ランサム","ランサムウェア","マルウェア",
@@ -202,34 +204,98 @@ def normalize_org(text):
 def extract_organization(text):
     t=clean(text)
     aliases=[
-        (r"シチズン時計|CITIZEN","シチズン時計"),
-        (r"GMOリサーチ|GMO Research|infoQ","GMOリサーチ＆AI"),
-        (r"ミスターマックス|MrMax","ミスターマックス"),
-        (r"旭化成","旭化成"),
-        (r"楽天ドライブ|Rakuten Drive","楽天モバイル（楽天ドライブ）"),
-        (r"焼肉きんぐ|Yakiniku King","物語コーポレーション"),
-        (r"PhotoGoods","大興印刷"),
-        (r"ビールの縁側","原田産業"),
-        (r"Gyazo","Helpfeel"),
-        (r"ULTRA MART|円谷プロ","円谷プロダクション"),
-        (r"スマチケ|e\+","イープラス"),
-        (r"GSS","デジタル庁"),
-        (r"佐賀大|佐賀大学","佐賀大学"),
-        (r"京王電鉄|京王ストア","京王電鉄"),
-        (r"信濃毎日新聞デジタル","信濃毎日新聞"),
-        (r"Times Car","パーク24"),
-        (r"Sakura Internet","さくらインターネット"),
+        (r"シチズン時計|CITIZEN","シチズン時計"),(r"GMOリサーチ|GMO Research|infoQ","GMOリサーチ＆AI"),
+        (r"ミスターマックス|MrMax","ミスターマックス"),(r"旭化成","旭化成"),
+        (r"楽天ドライブ|Rakuten Drive","楽天モバイル（楽天ドライブ）"),(r"焼肉きんぐ|Yakiniku King","物語コーポレーション"),
+        (r"PhotoGoods","大興印刷"),(r"ビールの縁側","原田産業"),(r"Gyazo","Helpfeel"),
+        (r"ULTRA MART|円谷プロ","円谷プロダクション"),(r"スマチケ|e\+","イープラス"),
+        (r"GSS","デジタル庁"),(r"佐賀大|佐賀大学","佐賀大学"),(r"京王電鉄|京王ストア","京王電鉄"),
+        (r"信濃毎日新聞デジタル","信濃毎日新聞"),(r"Times Car","パーク24"),(r"Sakura Internet","さくらインターネット"),
+        (r"KKR京都くに荘","国家公務員共済組合連合会"),(r"カイクラ","シンカ"),
+        (r"日本経済新聞社|日経新聞","日本経済新聞社"),(r"日経BP","日経BP"),
+        (r"ニッポンレンタカー","ニッポンレンタカーサービス"),(r"ベネワン・プラットフォーム|ベネフィット・ワン","ベネフィット・ワン"),
+        (r"ムラウチドットコム","ムラウチドットコム"),
     ]
     for pattern,name in aliases:
         if re.search(pattern,t,re.I): return name
-    m=re.search(r"(?:株式会社|有限会社|合同会社|国立大学法人|学校法人|独立行政法人)[^、。\n]{1,60}?(?=(?:は|が|に|の)\s)",t)
-    if m: return clean(m.group(0))
-    m=re.search(r"([^、。\n]{2,35}(?:大学|銀行|電鉄|鉄道|新聞|証券|病院|協同組合|ホールディングス|HD|県教育委員会|庁|市役所|区役所))(?:は|が|に|の)",t)
-    if m: return clean(m.group(1))
+    patterns=[
+        r"((?:株式会社|有限会社|合同会社|国立大学法人|学校法人|独立行政法人)[^、。\n]{1,80}?)(?=(?:は|が|に|の)\s)",
+        r"([^、。\n]{2,45}(?:大学|銀行|電鉄|鉄道|新聞|証券|病院|協同組合|連合会|機構|協会|ホールディングス|HD|県教育委員会|庁|市役所|区役所))(?:は|が|に|の)",
+    ]
+    for pat in patterns:
+        m=re.search(pat,t,re.I)
+        if m:
+            value=clean(m.group(1))
+            value=re.sub(r"^(?:インシデント・情報漏えい|ScanNetSecurity)\s+","",value)
+            if len(value)>=2: return value
     return None
 
+def extract_service(text, org=None):
+    t=clean(text)
+    quoted=re.findall(r"[「『]([^」』]{2,80})[」』]",t)
+    for x in quoted:
+        if not any(k in x for k in ["お知らせ","ご報告","第1報","第2報","最終報"]): return x
+    m=re.search(r"((?:Web|EC|公式|オンライン|会員|予約|メール|問い合わせ|問合せ|アプリ|サイト|サーバ|システム)[^、。\n]{1,50})",t,re.I)
+    return clean(m.group(1)) if m else None
+
+def extract_incident_fields(text, org=None):
+    t=clean(text); lower=t.lower()
+    if "ランサム" in t: attack_type="ランサムウェア"
+    elif "フィッシング" in t: attack_type="フィッシング"
+    elif "ddos" in lower: attack_type="DDoS"
+    elif "マルウェア" in t: attack_type="マルウェア"
+    elif ("乗っ取り" in t) or ("アカウント" in t and "不正アクセス" in t): attack_type="アカウント侵害"
+    elif "不正アクセス" in t or "侵入" in t or "侵害" in t: attack_type="不正アクセス"
+    else: attack_type=None
+    leak_status="不明"
+    if re.search(r"漏えい|漏洩|流出|外部に(転送|送信|流出)|窃取",t): leak_status="確認・可能性あり"
+    if re.search(r"(漏えい|漏洩|流出).{0,30}(確認されず|認められず|検出されず|なかった)",t): leak_status="確認されず"
+    if re.search(r"(漏えい|漏洩|流出).{0,20}(可能性|おそれ|恐れ)",t): leak_status="可能性あり"
+    count=None
+    for pat in [r"(?:約|最大約|最大|計)?([0-9]{1,3}(?:,[0-9]{3})+|[0-9]+)\s*(?:件|人|名|アカウント|件の個人情報|アカウント情報)",r"([0-9]+(?:\.[0-9]+)?万)\s*(?:件|人|名|アカウント)"]:
+        m=re.search(pat,t)
+        if m: count=m.group(1); break
+    data_types=[]
+    for label,terms in {
+        "氏名":["氏名","名前"],"住所":["住所"],"電話番号":["電話番号"],"メールアドレス":["メールアドレス"],
+        "生年月日":["生年月日"],"クレジットカード情報":["カード情報","クレジットカード"],"口座情報":["口座情報","銀行口座"],
+        "認証情報":["パスワード","認証情報"],"問い合わせ内容":["問い合わせ内容","問合せ内容"],
+        "顧客情報":["顧客情報"],"従業員情報":["従業員情報"],"会員情報":["会員情報"]}.items():
+        if any(x in t for x in terms): data_types.append(label)
+    return {"attack_type":attack_type,"leak_status":leak_status,"leak_count":count,"leaked_data":list(dict.fromkeys(data_types)),
+            "incident_summary":t[:500]+("…" if len(t)>500 else "")}
+
+def fetch_article_text(url):
+    try:
+        html=fetch(url)
+        html=re.sub(r"<(script|style|noscript|svg)[^>]*>.*?</\1>"," ",html,flags=re.I|re.S)
+        html=re.sub(r"<!--.*?-->"," ",html,flags=re.S)
+        return clean(re.sub(r"<[^>]+>"," ",html))[:MAX_ARTICLE_CHARS]
+    except Exception: return ""
+
+def enrich_incidents(items):
+    targets=[x for x in items if x.get("source")!="SmartScope" and x.get("source_url") and "news.google.com" not in x.get("source_url","")]
+    enriched={}
+    def one(item):
+        body=fetch_article_text(item["source_url"])
+        source_text=clean(" ".join([item.get("title",""),body]))
+        item=dict(item)
+        org=extract_organization(source_text) or item.get("organization")
+        if org: item["organization"]=org
+        item["service"]=extract_service(source_text,org)
+        item.update(extract_incident_fields(source_text,org))
+        return item
+    with ThreadPoolExecutor(max_workers=12) as ex:
+        futures={ex.submit(one,x):i for i,x in enumerate(targets)}
+        for f in as_completed(futures):
+            i=futures[f]
+            try: enriched[i]=f.result()
+            except Exception: enriched[i]=targets[i]
+    target_ids={id(x):i for i,x in enumerate(targets)}
+    return [enriched.get(target_ids[id(x)],x) if id(x) in target_ids else x for x in items]
+
 def incident_org(item):
-    return normalize_org(item.get("organization") or extract_organization(item.get("title","")) or item.get("title",""))
+    return normalize_org(item.get("organization") or extract_organization(item.get("incident_summary","") or item.get("title","")) or item.get("title",""))
 
 def merge_cross_source_incidents(items):
     groups=[]
@@ -272,8 +338,12 @@ def main():
     for name,fn in collectors:
         try: incidents.extend(fn(cutoff))
         except Exception as e: errors[name]=str(e)
+    incidents=enrich_incidents(incidents)
     for item in incidents:
-        if not item.get("organization"): item["organization"]=extract_organization(item.get("title",""))
+        if not item.get("organization"):
+            item["organization"]=extract_organization(item.get("incident_summary","") or item.get("title",""))
+        if not item.get("incident_summary"):
+            item.update(extract_incident_fields(item.get("title",""), item.get("organization")))
     unique={}
     for x in incidents: unique[(x["source"],x["source_url"],x["title"])]=x
     incidents=merge_cross_source_incidents(list(unique.values()))
@@ -285,7 +355,7 @@ def main():
         "sources":["Security NEXT","Yagura","ScanNetSecurity","SmartScope","Google News"],
         "count":len(incidents),"source_errors":errors,
         "deduplication":{"same_source_exact":True,"cross_source_merge":True,
-            "cross_source_rule":"same normalized organization and publication dates within 30 days",
+            "cross_source_rule":"same normalized organization plus incident fingerprint; date proximity is supporting evidence",
             "source_records_retained":True},
         "incidents":incidents
     }
