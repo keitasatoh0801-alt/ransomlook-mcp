@@ -297,30 +297,63 @@ def enrich_incidents(items):
 def incident_org(item):
     return normalize_org(item.get("organization") or extract_organization(item.get("incident_summary","") or item.get("title","")) or item.get("title",""))
 
+def _tokens(text):
+    return set(re.findall(r"[一-龥ぁ-んァ-ヶA-Za-z0-9]{2,}",clean(text).lower()))
+
+def same_incident(a,b):
+    if incident_org(a) != incident_org(b): return False
+    try:
+        da=datetime.fromisoformat(a["published_date"]).date()
+        db=datetime.fromisoformat(b["published_date"]).date()
+    except Exception:
+        return False
+    if abs((da-db).days)>30: return False
+
+    sa=normalize_org(a.get("service") or "")
+    sb=normalize_org(b.get("service") or "")
+    if sa and sb and (sa==sb or sa in sb or sb in sa): return True
+
+    aa=a.get("attack_type")
+    ab=b.get("attack_type")
+    ca=a.get("leak_count")
+    cb=b.get("leak_count")
+    if aa and ab and aa==ab and ca and cb and ca==cb: return True
+
+    ta=_tokens(a.get("title","")+" "+a.get("incident_summary",""))
+    tb=_tokens(b.get("title","")+" "+b.get("incident_summary",""))
+    if ta and tb:
+        overlap=len(ta&tb)/max(1,min(len(ta),len(tb)))
+        if overlap>=0.45: return True
+    return False
+
 def merge_cross_source_incidents(items):
     groups=[]
     for item in sorted(items,key=lambda x:(x["published_date"],x["source"],x["title"])):
-        org=incident_org(item)
-        try: dt=datetime.fromisoformat(item["published_date"]).date()
-        except ValueError:
-            groups.append({"items":[item],"org":org,"date":None}); continue
         best=None
         for group in groups:
-            if group["org"]==org and group["date"] is not None and abs((dt-group["date"]).days)<=30:
-                best=group; break
-        if best is None: groups.append({"items":[item],"org":org,"date":dt})
+            if same_incident(item,group["items"][0]):
+                best=group
+                break
+        if best is None:
+            groups.append({"items":[item]})
         else:
             best["items"].append(item)
-            best["date"]=max(datetime.fromisoformat(x["published_date"]).date() for x in best["items"])
+
     merged=[]
     for group in groups:
-        records=group["items"]
-        if len(records)==1:
-            item=dict(records[0]); item["sources"]=[item["source"]]; item["source_records"]=[dict(item)]; merged.append(item); continue
-        records=sorted(records,key=lambda x:(x["published_date"],x["source"]))
-        base=dict(records[0]); base["sources"]=list(dict.fromkeys(x["source"] for x in records))
-        base["source_records"]=[dict(x) for x in records]; base["source_count"]=len(base["sources"]); base["merged"]=True
-        if not base.get("organization"): base["organization"]=extract_organization(base.get("title",""))
+        records=sorted(group["items"],key=lambda x:(x["published_date"],x["source"]))
+        base=dict(records[-1])
+        base["sources"]=list(dict.fromkeys(x["source"] for x in records))
+        base["source_records"]=[dict(x) for x in records]
+        base["source_count"]=len(base["sources"])
+        base["merged"]=len(records)>1
+        # Prefer the richest fields across all source records.
+        for field in ["organization","service","attack_type","leak_status","leak_count","leaked_data","incident_summary"]:
+            if not base.get(field):
+                for x in reversed(records):
+                    if x.get(field):
+                        base[field]=x[field]
+                        break
         merged.append(base)
     return merged
 
