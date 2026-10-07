@@ -313,6 +313,145 @@ def extract_organization(text):
             return v
     return None
 
+CANONICAL_ORG_PATTERNS=[
+    (r"ニッポンレンタカー|Nippon Rent-A-Car","ニッポンレンタカーサービス株式会社"),
+    (r"日経BP|Nikkei BP","株式会社日経BP"),
+    (r"日本経済新聞社|日経新聞|日経に不正ログイン","日本経済新聞社"),
+    (r"国家公務員共済組合連合会|KKR京都くに荘","国家公務員共済組合連合会"),
+    (r"信濃毎日新聞","信濃毎日新聞株式会社"),
+    (r"大興印刷|PhotoGoods","大興印刷株式会社"),
+    (r"nimoca|Nimoca Co","株式会社ニモカ"),
+    (r"Yaomasa","八百正"),
+    (r"Yamaguchi University|山口大学","山口大学"),
+    (r"Saltydog|ソルティドッグ","ソルティドッグ株式会社"),
+    (r"シチズン時計|Citizen Watch","シチズン時計株式会社"),
+    (r"CINRA JOB|CINRA","株式会社cinra"),
+    (r"旭化成|Asahi Kasei","旭化成株式会社"),
+    (r"大和証券|Daiwa Securities|大和証","大和証券株式会社"),
+    (r"第一生命|Dai-ichi Life","第一生命保険株式会社"),
+    (r"アバハウス|Abahouse","株式会社アバハウスインターナショナル"),
+    (r"焼肉きんぐ|Monogatari Corporation","株式会社物語コーポレーション"),
+    (r"大起水産|Daiki Suisan","大起水産株式会社"),
+    (r"White Essence|ホワイトエッセンス","ホワイトエッセンス株式会社"),
+    (r"The Japan Times|ジャパンタイムズ","株式会社ジャパンタイムズ"),
+    (r"Safer Internet Association","一般社団法人セーファーインターネット協会"),
+    (r"Osaka Metropolitan University|大阪公立大学","大阪公立大学"),
+    (r"Kufu Company|くふう","株式会社くふうカンパニー"),
+    (r"JOGMEC","独立行政法人エネルギー・金属鉱物資源機構"),
+    (r"GMO Research & AI|GMOリサーチ","GMOリサーチ＆AI株式会社"),
+    (r"777CON-PASS","株式会社サミーネットワークス"),
+    (r"MoonStar|ムーンスター","株式会社ムーンスター"),
+    (r"Starts Publishing|スターツ出版","スターツ出版株式会社"),
+    (r"Shinano Mainichi Shimbun|信濃毎日新聞","信濃毎日新聞株式会社"),
+    (r"Lashinbang|らしんばん","株式会社らしんばん"),
+    (r"Japan Atomic Energy Agency|日本原子力研究開発機構|原子力機構","国立研究開発法人日本原子力研究開発機構"),
+    (r"ALSOK Joylife","ALSOKジョイライフ株式会社"),
+    (r"Toyobo MC|東洋紡エムシー","東洋紡エムシー株式会社"),
+    (r"Kodansha BECK","株式会社講談社"),
+    (r"Japan Cosmetic Industry Association","日本化粧品工業会"),
+    (r"Institute of Energy Economics, Japan|日本エネルギー経済研究所","一般財団法人日本エネルギー経済研究所"),
+    (r"Japan Post Holdings / Japan Post|郵便局アプリ","日本郵便株式会社"),
+    (r"G-Point|Gポイント","ジー・プラン株式会社"),
+    (r"東京メトロ|Tokyo Metro","東京地下鉄株式会社"),
+    (r"Nippon Trex|日本トレクス","日本トレクス株式会社"),
+    (r"Five Foxes|ファイブフォックス","株式会社ファイブフォックス"),
+    (r"Rikkyo University|立教大学","立教大学"),
+    (r"REVISIO","REVISIO株式会社"),
+    (r"Fuso Dentsu|扶桑電通","扶桑電通株式会社"),
+    (r"UP Inc\.|株式会社アップ","株式会社アップ"),
+    (r"Saga University|佐賀大学","国立大学法人佐賀大学"),
+    (r"Nihon University College of Science and Technology|日本大学理工学部","日本大学理工学部"),
+    (r"QUO Card|クオカード","株式会社クオカード"),
+    (r"International House of Japan","公益財団法人国際文化会館"),
+    (r"Aiphone \(Australian subsidiary\)","アイホン株式会社"),
+    (r"Taikisha \(Malaysian subsidiary\)","株式会社大気社"),
+    (r"Ryomo Systems|両毛システムズ","株式会社両毛システムズ"),
+    (r"Bellcadia|montbell global site|モンベル","株式会社モンベル"),
+    (r"EPARK Relax & Esthe|PeakManager","株式会社EPARKリラク＆エステ"),
+    (r"Harada Corporation|Beer no Engawa|ビールの縁側","原田産業株式会社"),
+    (r"Calbee|カルビー","カルビー株式会社"),
+    (r"Smaregi EC|スマレジ","株式会社スマレジ"),
+    (r"LEAN BODY","株式会社LEAN BODY"),
+    (r"Rohto Pharmaceutical|ロート製薬","ロート製薬株式会社"),
+    (r"Murauchi\.com|ムラウチドットコム","株式会社ムラウチドットコム"),
+    (r"VOISING","株式会社VOISING"),
+    (r"T&K TOKA","株式会社T&K TOKA"),
+    (r"01銀行","株式会社01銀行"),
+    (r"京王電鉄|Keio Plaza Hotel / Keio Group","京王電鉄株式会社"),
+    (r"Osaka City|大阪市","大阪市"),
+    (r"Minami Nihon Joho Shori Center","株式会社南日本情報処理センター"),
+    (r"DAIKO NEXT LINK","DAIKO NEXT LINK株式会社"),
+    (r"REXT Holdings|REXT株式会社","REXT株式会社"),
+    (r"TRUNK|ホテル運営会社","株式会社TRUNK"),
+    (r"マネジメントサービスセンター|Management Service Center","株式会社マネジメントサービスセンター"),
+    (r"Paperlogic|ペーパーロジック","ペーパーロジック株式会社"),
+    (r"カインドオル","株式会社カインドオル"),
+    (r"サンメッセ","サンメッセ株式会社"),
+    (r"アンビションDXホールディングス","株式会社アンビションDXホールディングス"),
+    (r"三井不動産","三井不動産株式会社"),
+    (r"長野県大町市","大町市"),
+    (r"ワンストップジョブサイトくまもと|熊本県","熊本県"),
+    (r"JA遠州夢咲|遠州夢咲農業協同組合","遠州夢咲農業協同組合"),
+    (r"コープやまぐちLINEミニアプリ|生活協同組合コープやまぐち","生活協同組合コープやまぐち"),
+    (r"鳥取県環境放射線モニタリングシステム|鳥取県","鳥取県"),
+    (r"日本ブラインドサッカー協会|JBFA","特定非営利活動法人日本ブラインドサッカー協会"),
+    (r"東日本高速道路|NEXCO東日本","東日本高速道路株式会社"),
+    (r"つるみ観光","つるみ観光株式会社"),
+    (r"東京科学大学","国立大学法人東京科学大学"),
+    (r"ジェックス株式会社|ジェックス","ジェックス株式会社"),
+    (r"エヌ・イー ケムキャット","エヌ・イー ケムキャット株式会社"),
+    (r"教育ソフトウェア","株式会社教育ソフトウェア"),
+    (r"東邦通信システムズ","株式会社東邦通信システムズ"),
+    (r"サカタ","株式会社サカタ"),
+    (r"いまでや","株式会社いまでや"),
+    (r"ファンくる","株式会社ファンくる"),
+    (r"WEVERSE JAPAN","WEVERSE JAPAN株式会社"),
+]
+
+def canonicalize_organization(current, context):
+    text=clean(" ".join([current or "",context or ""]))
+    for pat,name in CANONICAL_ORG_PATTERNS:
+        if re.search(pat,text,re.I):
+            return name
+    head=clean((context or "")[:4000])
+    patterns=[
+        r"((?:株式会社|有限会社|合同会社|国立大学法人|学校法人|独立行政法人|特定非営利活動法人|一般社団法人|公益財団法人)[^、。\n]{1,100}?)(?=(?:は|が|に|の))",
+        r"([^、。\n]{2,80}(?:株式会社|有限会社|合同会社|大学|銀行|電鉄|鉄道|新聞|証券|病院|機構|協会|ホールディングス|HD))(?=(?:は|が|に|の))",
+    ]
+    for pat in patterns:
+        m=re.search(pat,head)
+        if m:
+            v=clean(m.group(1))
+            if 2<=len(v)<=90:
+                return v
+    for pat in [r"^([^、。\n]{2,50})は(?:、|，)",r"^[^。\n]{0,30}?(?:ショップ|サービス|チェーン)「[^」]+」を[^。]{0,20}手がける([^、。\n]{2,50})は"]:
+        m=re.search(pat,head)
+        if m:
+            v=clean(m.group(1))
+            if 2<=len(v)<=50 and not any(x in v for x in ["これは","同社","同学","同組合","同会","同庁"]):
+                return v
+    return current
+
+NON_INCIDENT_PATTERNS=[
+    r"Japan Vulnerability Notes|JVN",r"脆弱性情報|脆弱性公表",
+    r"セキュリティ.*(市場|レポート|四半期|動向)",r"グローバル動向.*レポート",
+    r"ハンドブック",r"フィッシング対策セミナー",r"セミナー2026",
+    r"Security Days",r"対策情報を紹介",r"被害報告件数が過去最多",
+    r"パブリック・アトリビューション|アトリビューション",
+    r"AI.*ホワイトハッカー.*提供",r"重要課題に",r"市場、2035年",
+    r"暗号化前にバックアップ破壊.*調査",r"サイバーセキュリティに関する.*レポート",
+    r"攻撃共同対処訓練|Micro Hardening.*演習",
+    r"被害経験なし",r"いい歳したおっさん",
+    r"懲戒免職.*不正に還付金",r"事業者と協議.*利用料金",
+    r"メール対策強化.*総務省は",r"個人情報保護委員会.*第367回",
+    r"生成AIのセキュリティー事故",r"日本WAF市場",
+    r"この攻撃を際立たせていたのは",
+]
+
+def is_actual_incident(item):
+    text=clean(" ".join([item.get("title",""),item.get("service",""),item.get("incident_summary","")[:1800]]))
+    return not any(re.search(p,text,re.I) for p in NON_INCIDENT_PATTERNS)
+
 def extract_service(text, org=None):
     t=clean(text)
     quoted=re.findall(r"[「『]([^」』]{2,80})[」』]",t)
@@ -399,12 +538,13 @@ def enrich_incidents(items):
         source_text=clean(" ".join([title_text,body]))
         item=dict(item)
         title_org=extract_title_organization(title_text)
-        # For ScanNetSecurity, the article title is authoritative for the victim.
-        # Do not let related-article text in the HTML contaminate the organization.
+        # ScanNetSecurity link text can include the first article paragraph. Prefer
+        # the actual article body, where the victim is normally stated cleanly.
         if item.get("source")=="ScanNetSecurity":
-            org=title_org or extract_organization(title_text) or item.get("organization")
+            org=extract_organization(body[:4000]) or title_org or extract_organization(title_text) or item.get("organization")
         else:
-            org=title_org or extract_organization(title_text) or extract_organization(body[:1500]) or item.get("organization")
+            org=title_org or extract_organization(title_text) or extract_organization(body[:4000]) or item.get("organization")
+        org=canonicalize_organization(org, body[:4000] or title_text)
         if org: item["organization"]=org
         item["service"]=extract_service(title_text,org) or extract_service(body[:1500],org)
         title_fields=extract_incident_fields(title_text,org)
@@ -592,16 +732,17 @@ def main():
         try: incidents.extend(fn(cutoff))
         except Exception as e: errors[name]=str(e)
     incidents=enrich_incidents(incidents)
+    cleaned=[]
     for item in incidents:
-        # Re-canonicalize the victim from the headline after all enrichment.
-        # This prevents publisher names or prose fragments from becoming the org.
-        title_org=extract_title_organization(item.get("title",""))
-        if title_org:
-            item["organization"]=title_org
-        elif not item.get("organization"):
+        context=clean(" ".join([item.get("title",""),item.get("incident_summary",""),item.get("service","")]))
+        item["organization"]=canonicalize_organization(item.get("organization"),context)
+        if not item.get("organization"):
             item["organization"]=extract_organization(item.get("title","") or item.get("incident_summary",""))
         if not item.get("incident_summary"):
             item.update(extract_incident_fields(item.get("title",""), item.get("organization")))
+        if is_actual_incident(item):
+            cleaned.append(item)
+    incidents=cleaned
     unique={}
     for x in incidents: unique[(x["source"],x["source_url"],x["title"])]=x
     incidents=merge_cross_source_incidents(list(unique.values()))
