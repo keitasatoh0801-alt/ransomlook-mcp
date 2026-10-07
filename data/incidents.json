@@ -1,6 +1,6 @@
 {
   "source": "Japanese cyber incident sources",
-  "retrieved_at": "2026-10-07T00:19:08.064729+00:00",
+  "retrieved_at": "2026-10-07T00:20:27.134003+00:00",
   "window_days": 30,
   "cutoff_date": "2026-09-07",
   "attack_only": true,
@@ -11,7 +11,7 @@
     "SmartScope",
     "Google News"
   ],
-  "count": 238,
+  "count": 239,
   "source_errors": {},
   "deduplication": {
     "same_source_exact": true,
@@ -855,14 +855,6 @@
         },
         {
           "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOeVVZdnVRNWczYUhWQ0dXTVMzU2IyZFF1QzhJeDE2amJOdXJ0SVlQcEt5S0JiUzZUQmw1TE9TMXFDQXl5OFMxSnYtcjQ2RjR3bGtiTEdqZ1h6ektWbTJYNW13V0lGUHNLRG5Sby13MVh3LWhlUU5BdHdfaUk1TVRGY9IBgAFBVV95cUxOeVVZdnVRNWczYUhWQ0dXTVMzU2IyZFF1QzhJeDE2amJOdXJ0SVlQcEt5S0JiUzZUQmw1TE9TMXFDQXl5OFMxSnYtcjQ2RjR3bGtiTEdqZ1h6ektWbTJYNW13V0lGUHNLRG5Sby13MVh3LWhlUU5BdHdfaUk1TVRGYw?oc=5",
-          "published_date": "2026-10-05",
-          "title": "大和証券、委託先から情報漏えい - ｄメニューニュース",
-          "attack": true,
-          "organization": null
-        },
-        {
-          "source": "Google News",
           "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBjb1pfNE1BYjFCUWs3b283enV1ME1RYzRJLV9oVHI5RmdyQ2JtZkdGYlRRVHpJLW9LTExpUVdndFphVXhjMmZyeFZ5aEE3dFpRT2Nfd1hwNkUzUW5SV3M3NHl5LW8?oc=5",
           "published_date": "2026-10-05",
           "title": "大和証券、委託先への不正アクセスで顧客情報漏洩の可能性 - 千葉テレビ放送株式会社",
@@ -1534,30 +1526,6 @@
     },
     {
       "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zTGxURlBDZml5MDdMTTFLN0YwdEg0aGgweWFMVXJPbnNTbUxSTlY1cEFUeGhCQllqVEF6bDNmWWV6SU5vZzhUSG0zMzdpOGhVQzg3eGl2eUJ6Um8?oc=5",
-      "published_date": "2026-10-04",
-      "title": "身近に迫る不正アクセス：情報漏洩を前提とした自己防衛の必要性 - アゴラ 言論プラットフォーム",
-      "attack": true,
-      "organization": null,
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zTGxURlBDZml5MDdMTTFLN0YwdEg0aGgweWFMVXJPbnNTbUxSTlY1cEFUeGhCQllqVEF6bDNmWWV6SU5vZzhUSG0zMzdpOGhVQzg3eGl2eUJ6Um8?oc=5",
-          "published_date": "2026-10-04",
-          "title": "身近に迫る不正アクセス：情報漏洩を前提とした自己防衛の必要性 - アゴラ 言論プラットフォーム",
-          "attack": true,
-          "organization": null,
-          "sources": [
-            "Google News"
-          ]
-        }
-      ]
-    },
-    {
-      "source": "Google News",
       "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB1SnV5ay1RdWRIRXlaRGhlYWtUZXdsZGFtYUJBRTNBa2ZVUWlFNS1TU043eEpzcHdOWkdacjhsNEdrVURGNjFLQWQtc1VqX256R1hGYU1TRVBBcWEwRXRj?oc=5",
       "published_date": "2026-10-04",
       "title": "日経新聞サイバー攻撃で情報漏えいか なりすましメールが送信 | NHKニュース | サイバー攻撃、IT・ネット、企業・経営 - NHKニュース",
@@ -1668,6 +1636,30 @@
           "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9RTU8yQ2ZMMDNtX3NROE9KN19iSHJlSW9RMV9qLUpFenQ4TDNWZ3JSVlBZUjVhdHhWZzM2T256YjZFV1BoemlOUFc1a2pPcnBiR0h2d2ZnTjR3NzQ?oc=5",
           "published_date": "2026-10-04",
           "title": "日本経済新聞社へのサイバー攻撃と情報漏洩 - 村上知也",
+          "attack": true,
+          "organization": null,
+          "sources": [
+            "Google News"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zTGxURlBDZml5MDdMTTFLN0YwdEg0aGgweWFMVXJPbnNTbUxSTlY1cEFUeGhCQllqVEF6bDNmWWV6SU5vZzhUSG0zMzdpOGhVQzg3eGl2eUJ6Um8?oc=5",
+      "published_date": "2026-10-04",
+      "title": "【アゴラ】岡本 裕明：身近に迫る不正アクセス：情報漏洩を前提とした自己防衛の必要性 - アゴラ 言論プラットフォーム",
+      "attack": true,
+      "organization": null,
+      "sources": [
+        "Google News"
+      ],
+      "source_records": [
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zTGxURlBDZml5MDdMTTFLN0YwdEg0aGgweWFMVXJPbnNTbUxSTlY1cEFUeGhCQllqVEF6bDNmWWV6SU5vZzhUSG0zMzdpOGhVQzg3eGl2eUJ6Um8?oc=5",
+          "published_date": "2026-10-04",
+          "title": "【アゴラ】岡本 裕明：身近に迫る不正アクセス：情報漏洩を前提とした自己防衛の必要性 - アゴラ 言論プラットフォーム",
           "attack": true,
           "organization": null,
           "sources": [
@@ -7098,6 +7090,30 @@
           "organization": null,
           "sources": [
             "Security NEXT"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1uOFAyT0VlNVJGTGNISFRVbVhfb1FYckNYSFl4ckVBbEpqVERmZ1NTTVM1UEVsWXl1b292eGdWbVdwZzcyYlJtT1NfbkdtSmxOdTRmdlJxQ0hTZw?oc=5",
+      "published_date": "2026-09-07",
+      "title": "企業化するランサムウェア集団、防御側が取るべきリスク戦略とは - Forbes JAPAN",
+      "attack": true,
+      "organization": null,
+      "sources": [
+        "Google News"
+      ],
+      "source_records": [
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1uOFAyT0VlNVJGTGNISFRVbVhfb1FYckNYSFl4ckVBbEpqVERmZ1NTTVM1UEVsWXl1b292eGdWbVdwZzcyYlJtT1NfbkdtSmxOdTRmdlJxQ0hTZw?oc=5",
+          "published_date": "2026-09-07",
+          "title": "企業化するランサムウェア集団、防御側が取るべきリスク戦略とは - Forbes JAPAN",
+          "attack": true,
+          "organization": null,
+          "sources": [
+            "Google News"
           ]
         }
       ]
