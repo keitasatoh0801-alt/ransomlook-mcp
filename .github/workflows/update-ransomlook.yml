@@ -29,11 +29,46 @@ jobs:
       - name: Fetch Japanese cyber incidents
         run: python scripts/fetch_japan_incidents.py
 
-      - name: Commit updated data
+      - name: Build Excel
+        run: |
+          python -m pip install --disable-pip-version-check openpyxl
+          python - <<'PY'
+          import json, re
+          from openpyxl import Workbook
+          from openpyxl.utils import get_column_letter
+          with open("data/incidents.json", encoding="utf-8") as f:
+              data = json.load(f)
+          def org_name(x):
+              org=(x.get("organization") or "").strip()
+              title=x.get("title","")
+              text=org or title
+              m=re.search(r"(株式会社|有限会社|合同会社|学校法人|医療法人|社会福祉法人|一般社団法人|公益財団法人|独立行政法人|国立大学法人)([^、。\\s]{2,40})",text)
+              if m: return m.group(0)
+              m=re.search(r"[-－—]\\s*([^|｜]+)$",text)
+              if m and len(m.group(1).strip())<=40:
+                  v=m.group(1).strip()
+                  if not any(k in v for k in ["不正アクセス","ランサム","情報漏","脆弱性","攻撃"]): return v
+              known={"ニッポンレンタカー":"ニッポンレンタカーサービス","まんだらけ":"まんだらけ","日経":"日本経済新聞社","日経BP":"日経BP","三井不動産":"三井不動産","T&K TOKA":"T&K TOKA","VOISING":"VOISING","アンビションDX":"アンビションDX","カイクラ":"シンカ","九州電子":"九州電子","KKR京都くに荘":"国家公務員共済組合連合会"}
+              for k,v in known.items():
+                  if k in text: return v
+              return org or "企業・組織名要確認"
+          wb=Workbook(); ws=wb.active; ws.title="国内サイバーインシデント"
+          ws.append(["公表日","企業・組織名","インシデント概要","影響規模","攻撃種別","情報源","情報源数","統合済み","記事URL"])
+          for x in data["incidents"]:
+              records=x.get("source_records",[x]); urls=" / ".join(r.get("source_url","") for r in records if r.get("source_url")); sources=" / ".join(x.get("sources",[x.get("source","")]))
+              ws.append([x.get("published_date",""),org_name(x),x.get("title",""),x.get("affected_count",""),x.get("attack_type",""),sources,x.get("source_count",len(x.get("sources",[x.get("source","")]))),"Yes" if x.get("merged") else "No",urls])
+          ws.freeze_panes="A2"; ws.auto_filter.ref=ws.dimensions
+          for i,w in enumerate([12,30,70,24,28,32,10,10,90],1): ws.column_dimensions[get_column_letter(i)].width=w
+          s=wb.create_sheet("概要")
+          s.append(["項目","内容"]); s.append(["抽出期間",f'{data["cutoff_date"]} ～ {data["retrieved_at"][:10]}']); s.append(["統合後インシデント数",data["count"]]); s.append(["対象ソース"," / ".join(data["sources"])]); s.append(["統合ルール",data["deduplication"]["cross_source_rule"]]); s.append(["取得日時",data["retrieved_at"]])
+          wb.save("japan_cyber_incidents_1month.xlsx")
+          PY
+
+      - name: Commit updated data and Excel
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/recent_posts.json data/incidents.json
+          git add data/recent_posts.json data/incidents.json japan_cyber_incidents_1month.xlsx
           if git diff --cached --quiet; then
             echo "No intelligence changes."
             exit 0
