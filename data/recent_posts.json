@@ -1,10 +1,109 @@
 {
   "source": "RansomLook",
   "api_endpoint": "https://www.ransomlook.io/api/recent",
-  "retrieved_at": "2026-10-07T18:34:25.000379+00:00",
+  "retrieved_at": "2026-10-08T00:39:44.694327+00:00",
   "days": 30,
   "count": 100,
   "posts": [
+    {
+      "post_title": "The New Community School",
+      "discovered": "2026-10-08 00:48:19.184682",
+      "description": "",
+      "link": "/blog/disclosures/6ac64a809cd108bf26a28ae3",
+      "magnet": null,
+      "screen": "screenshots/inc ransom/The New Community School.png",
+      "private": false,
+      "misp_uuid": "ee702869-2041-5449-8b88-b8a844ce0e05",
+      "group_name": "inc ransom"
+    },
+    {
+      "post_title": "SweetRush",
+      "discovered": "2026-10-07 23:41:04.430617",
+      "description": "Dream for a moment that you have the expertise and tools to positively impact the lives of others. You can affect mindsets and behavior. You can help an organization grow, change, prosper, and thrive. The passionate pursuit of this expertise and the development of these tools have been at the heart of the success SweetRush has experienced collaborating with clients who share the same dream. SweetRush's focus on team culture and mastery of performance improvement is reflected in loyal clients, a near-zero turnover of teammates, an 18-year track record of success, and a remarkable portfolio. Our work with clients has earned us gold awards from our peers and high ranking on the top training industry lists. Every solution we deliver is infused with creativity. Instructional creativity allows us to discover effective and unique solutions to our clients' challenges. Artistic creativity spurs us to create visually exciting, engaging user experiences. Technical creativity allows us to embrace.",
+      "link": null,
+      "magnet": null,
+      "screen": null,
+      "private": false,
+      "misp_uuid": "703a2347-bf7e-541f-8fce-54978b06931a",
+      "group_name": "panzer"
+    },
+    {
+      "post_title": "University of Rostock",
+      "discovered": "2026-10-07 23:41:00.621268",
+      "description": "The University of Rostock, founded in 1419, is the oldest university in the Baltic Sea region, offering over 140 diverse study programs across various fields. It focuses on innovative research and interdisciplinary collaboration to address contemporary societal challenges. The university welcomes students and staff from around the world, promoting a family-friendly and inclusive environment. It also emphasizes democratic values and the importance of free academic exchange.",
+      "link": null,
+      "magnet": null,
+      "screen": null,
+      "private": false,
+      "misp_uuid": "8690c061-cef2-51a2-8ecc-7729e607ea19",
+      "group_name": "panzer"
+    },
+    {
+      "post_title": "EDFelectronics",
+      "discovered": "2026-10-07 23:40:59.662478",
+      "description": "EDFelectronics.com is a Polish engineering company that develops specialized electronics and plasma technology for industrial and research applications.",
+      "link": null,
+      "magnet": null,
+      "screen": null,
+      "private": false,
+      "misp_uuid": "94dcd67b-67f1-5bc0-a798-071d91522727",
+      "group_name": "panzer"
+    },
+    {
+      "post_title": "Sims Vibration Laboratory",
+      "discovered": "2026-10-07 22:48:58.971517",
+      "description": "https://www.simsvibrationlab.com | United States | Manufacturing | Employees: 10 | Revenue: 23700000",
+      "link": "/blog/posts/3",
+      "magnet": null,
+      "screen": null,
+      "private": false,
+      "misp_uuid": "00161d2f-5d5f-54e7-a467-454da543e57a",
+      "group_name": "vypr"
+    },
+    {
+      "post_title": "Gen3",
+      "discovered": "2026-10-07 22:48:58.062896",
+      "description": "https://www.gen3construction.com | United States | Construction | Employees: 110 | Revenue: 31400000",
+      "link": "/blog/posts/5",
+      "magnet": null,
+      "screen": null,
+      "private": false,
+      "misp_uuid": "ff420fa5-b1ee-5456-9acb-fbd279e4ae44",
+      "group_name": "vypr"
+    },
+    {
+      "post_title": "Champaign Unit 4 School District",
+      "discovered": "2026-10-07 22:48:57.114886",
+      "description": "https://www.champaignschools.org | United States | Education | Employees: 2376 | Revenue: 90200000",
+      "link": "/blog/posts/7",
+      "magnet": null,
+      "screen": null,
+      "private": false,
+      "misp_uuid": "96184f88-5c72-5258-8e7b-87df7ed85b5a",
+      "group_name": "vypr"
+    },
+    {
+      "post_title": "Qatar National Import & Export",
+      "discovered": "2026-10-07 21:37:08.440700",
+      "description": "Grocery Retail",
+      "link": "/site/blog?uuid=c2d1bd63-c776-4fe4-bf99-7626626f457e",
+      "magnet": null,
+      "screen": "screenshots/qilin/Qatar National Import & Export.png",
+      "private": false,
+      "misp_uuid": "c4aead14-5fd7-5f43-be0f-09b8bcf3afec",
+      "group_name": "qilin"
+    },
+    {
+      "post_title": "Matadero Frigorífico Avinyó",
+      "discovered": "2026-10-07 21:37:07.287644",
+      "description": "Food & Beverage",
+      "link": "/site/blog?uuid=d9ccbd6a-765e-4a6d-9076-5f62521f8b63",
+      "magnet": null,
+      "screen": "screenshots/qilin/Matadero Frigorífico Avinyó.png",
+      "private": false,
+      "misp_uuid": "83e499ff-ed7a-577f-acca-4fbc3dbbf949",
+      "group_name": "qilin"
+    },
     {
       "post_title": "Riviera Healthcare Center",
       "discovered": "2026-10-07 19:39:04.101337",
@@ -1005,105 +1104,6 @@
       "private": false,
       "misp_uuid": "08c3d068-922a-56b5-83d4-e8b101b705b2",
       "group_name": "leakeddata"
-    },
-    {
-      "post_title": "Saskatoon Tribal Council",
-      "discovered": "2026-10-05 21:24:39.714206",
-      "description": "sktc.sk.ca zoominfo.com/c/saskatoon-tribal-council-inc/215335121 Saskatoon Tribal Council (STC) is a non-profit tribal council founded in 1982 in Saskatoon, Saskatchewan (Treaty 6), uniting 7 First Nations with 14,000+ members. Led by Tribal Chief Mark Arcand (since 2017), STC employs 500–600+ people across 5 corporations (health, housing, urban services, investments, community development). Head-body revenue is $14–17M/year (federal ISC funding being the largest source), while the whole group is estimated at ~$45M. Its biggest asset is a stake in Dakota Dunes Casino & Resort ($70M facility, 620+ slots), with its development arm DDCDC generating a record $10.1M gaming revenue in 2023/24 (+33% YoY) and $75M reinvested into communities over 10 years (5,300+ projects). Key operations: 453+ housing units (1,068 waitlisted applications), an Emergency Wellness Centre (2,501 admissions), 17,460 health clients, and employment services placing 276 people in jobs. STC holds Accreditation Canada.",
-      "link": null,
-      "magnet": null,
-      "screen": null,
-      "private": false,
-      "misp_uuid": "cdd3a9e9-db3c-51e7-b319-144cae8cab14",
-      "group_name": "the gentlemen"
-    },
-    {
-      "post_title": "anwo.cl",
-      "discovered": "2026-10-05 20:32:17.982060",
-      "description": "The company was established in 1984 by Víctor Herrmann and has developed into one of the major HVAC distribution businesses …",
-      "link": "/blog/post/anwocl/",
-      "magnet": null,
-      "screen": "screenshots/safepay/anwocl.png",
-      "private": false,
-      "misp_uuid": "80d9ba17-3b2a-5299-9645-3c2531fec94f",
-      "group_name": "safepay"
-    },
-    {
-      "post_title": "duhaas.sk",
-      "discovered": "2026-10-05 20:32:17.034748",
-      "description": "The company was subsequently transformed into a limited liability company in 1992 and established as a joint-stock company in 1994. …",
-      "link": "/blog/post/duhaassk/",
-      "magnet": null,
-      "screen": "screenshots/safepay/duhaassk.png",
-      "private": false,
-      "misp_uuid": "0cf563d2-79c0-5cc3-b785-bd798dacfde7",
-      "group_name": "safepay"
-    },
-    {
-      "post_title": "Turn5",
-      "discovered": "2026-10-05 20:31:41.926750",
-      "description": "Country: Pennsylvania 19301, US |\nWebsite: turn5.com |\nRevenue: $84.4 Million |\nIndustry: Automotive Aftermarket, Auto Parts |\nEmployees: 300-500 |\nProperties: 328 GB (26,503 Files, 446 Folders)",
-      "link": "/project/N7GUrgxjMyT48E4c/",
-      "magnet": null,
-      "screen": "screenshots/global secret group/Turn5.png",
-      "private": false,
-      "misp_uuid": "1011a7da-f8b1-5fd9-8a06-81e6e2e5db5d",
-      "group_name": "global secret group"
-    },
-    {
-      "post_title": "WARNING",
-      "discovered": "2026-10-05 20:31:39.005224",
-      "description": "This is what happens when you ignore us or go ghost. Momentum Telecom is a prime example of negligence in action. They don't care about their 7.5 million customers whose PII has been exposed. They don't care about the 100,000+ people who lost internet service due to widespread outages we caused as a direct result of their poor security practices.\n                                The Eagle Mountain, Utah \"cyberattack\" and internet outage that made national news? That was us. That was a direct consequence of Momentum's failure to secure their systems. They ignored repeated warnings, they burned access repeatedly, and we kept gaining it back. We deleted modems, caused service disruptions, and left families, businesses, and students without internet for days. Read the coverage: ABC4 | Fox 13\n                                Momentum management repeatedly contacted us, then ghosted us every single time. They reached out to initiate negotiations, then disappeared. They agreed to terms, then stopped responding. This pattern continued over and over. They don't take this seriously. They don't care about their customers. Now their data is public and their customers are paying the price for their arrogance.\n                                Don't be like Momentum. Don't ignore us. Don't go ghost. When we reach out, we expect a response. When we say we have your data, we have your data. When we say we can cause damage, we can cause damage.\n                                Contact us. Negotiate. Resolve this before you become the next headline.",
-      "link": "",
-      "magnet": null,
-      "screen": null,
-      "private": false,
-      "misp_uuid": "8b5dcf30-f257-5582-8d5d-263aae5c46cc",
-      "group_name": "endzone"
-    },
-    {
-      "post_title": "H&L Manufacturing",
-      "discovered": "2026-10-05 18:34:18.453114",
-      "description": "https://hlmanufacturing.com/\n\t\t\t\t\t\t\t\t\tH&L Manufacturing is a contract manufacturer serving various industries, including automotive, consumer goods, and transportation. However, due to negligence, H&L filesnon-disclosure agreements, CAD models, material specifications, quotes, prototypes, 3D printing data, process specifications, quality control records, supplier and employee datawere compromised and are now publicly available. These files represent commercially valuable assets and confidential intellectual property. This leak, which the company is unwilling to address, allows competitors to copy its work, undercut tender prices, lure customers, provoke lawsuits and fines, and damage its reputation, draining the company's resources.",
-      "link": "http://bh6267t7rp77w3qsefcnt5j6tpowz7hccoij4pxhlvrtrwpgtdkwf7id.onion/index.php?p=",
-      "magnet": null,
-      "screen": "screenshots/interlock/H&L Manufacturing.png",
-      "private": false,
-      "misp_uuid": "ee0e8c52-7d67-5352-b4fd-4b6bdd30c65d",
-      "group_name": "interlock"
-    },
-    {
-      "post_title": "Asia Era One",
-      "discovered": "2026-10-05 16:33:08.020966",
-      "description": "Business Services",
-      "link": "/site/blog?uuid=2a1f6c2e-69de-466b-b3fc-ea85bd85932f",
-      "magnet": null,
-      "screen": "screenshots/qilin/Asia Era One.png",
-      "private": false,
-      "misp_uuid": "7b61d4c9-9280-5cf5-b61f-f53505bdf303",
-      "group_name": "qilin"
-    },
-    {
-      "post_title": "O2 Dental Group",
-      "discovered": "2026-10-05 16:32:39.942065",
-      "description": "http://www.o2smiles.com/\n\t\t\t\t\t\t\t\t\tO2 Dental Group of Wilmington makes your dental care easy by providing a variety of family dentistry services under one roof! As a dental provider, O2 Dental Group is subject to strict privacy protections, primarily the Health Insurance Portability and Accountability Act (HIPAA) in the United States, but they have not complied with security measures, resulting in compromised patient health records (PHI), billing and insurance documents, consent and authorization forms.",
-      "link": "http://qmy3wdlkwla6d5sr547mrm4hkt5dcvtu3dnospfybnl4e3vjnmk5ftqd.onion/index.php?p=",
-      "magnet": null,
-      "screen": "screenshots/interlock/O2 Dental Group.png",
-      "private": false,
-      "misp_uuid": "7ed857f6-a00b-5715-b0e7-3b9683540878",
-      "group_name": "interlock"
-    },
-    {
-      "post_title": "Franklin Empire",
-      "discovered": "2026-10-05 16:32:30.437901",
-      "description": "[PSA] You know we have over 700GB of Data, AWS Keys to your buckets, (which we dumped), Moonshot AI API keys, SMTP credentials, Packaging Slips, invoices, PDFs, Business Information, Customer PII, Inventory stash and SO much more. Your team knows how serious the breach is, hence why everything got rotated FAST, you also know how bad it can get if it gets posted in every corner of the dark web, Either reach out to us using the Contact methods listed on our site or face the consequences. Make the right decision, it's only you who can save yourselves. Anyways, you know where to find us (contact tab). We will take you down when communication has been established between our team and yours. | Updated on 2026-10-04 | SIZE: 700GB",
-      "link": null,
-      "magnet": null,
-      "screen": null,
-      "private": false,
-      "misp_uuid": "912ea0c1-1acf-520c-a7e7-7cf921052a86",
-      "group_name": "byod"
     }
   ]
 }
