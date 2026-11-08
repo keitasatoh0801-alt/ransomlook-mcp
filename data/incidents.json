@@ -1,6 +1,6 @@
 {
   "source": "Japanese cyber incident sources",
-  "retrieved_at": "2026-11-08T06:00:14.290581+00:00",
+  "retrieved_at": "2026-11-08T13:25:25.215794+00:00",
   "window_days": 30,
   "cutoff_date": "2026-10-09",
   "attack_only": true,
@@ -11,7 +11,7 @@
     "SmartScope",
     "Google News"
   ],
-  "count": 221,
+  "count": 222,
   "source_errors": {},
   "deduplication": {
     "same_source_exact": true,
@@ -87,6 +87,56 @@
     },
     {
       "source": "Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE91V3BPc2tqNlJNam9EVzZxLWMyMDZhbWxWeHVWNm51QjZJY21lU2VpUnBlY2JDeXZJWDNwMkNVYWhCVnBpNDVXdERvazE1S29aQ2FmYngyV243ZmJUWjVEazZ1dkpnN0tKaWtXdkFwaW1BbXdtWHgzN0RBVllDVEU?oc=5",
+      "published_date": "2026-11-07",
+      "title": "日本ネットワークセキュリティ協会に不正アクセス 最大1.5万件の個人情報漏えいの恐れ - Yahoo!ニュース",
+      "attack": true,
+      "organization": "日本ネットワークセキュリティ協会",
+      "attack_type": "不正アクセス",
+      "leak_status": "可能性あり",
+      "leak_count": "5,128",
+      "leaked_data": [
+        "認証情報"
+      ],
+      "incident_summary": "日本ネットワークセキュリティ協会に不正アクセス 最大1.5万件の個人情報漏えいの恐れ - Yahoo!ニュース",
+      "sources": [
+        "Google News"
+      ],
+      "source_records": [
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONk9nWjlLaklhSDJQTkQyMWFCbDJhcW0yeHV6ZUFLMlpJMjFma1RyQ2ZnenFfb3NsNHNhd1FXaTlWN0VXVFFiMWZ3YndJQXJIaG8yME1iTHVzeHJnN3IxdGVnR1M3clB4UlZVZ3JSZF92Wk9xcFQyZDBQUXF4MHdpNVhpY0VBRHNmc09FeHQyRG51Sy00bGxBWDc5TEZ4S0xPbklKR0JLYjYzdw?oc=5",
+          "published_date": "2026-11-06",
+          "title": "特定非営利活動法人日本ネットワークセキュリティ協会（JNSA）に不正アクセス、最大1万5,128件の個人情報漏えいの可能性 セキュリティ理解度チェックのID・ハッシュ化パスワードも対象 - 合同会社ロケットボーイズ",
+          "attack": true,
+          "organization": "特定非営利活動法人日本ネットワークセキュリティ協会（JNSA）",
+          "attack_type": "不正アクセス",
+          "leak_status": "可能性あり",
+          "leak_count": "5,128",
+          "leaked_data": [
+            "認証情報"
+          ],
+          "incident_summary": "特定非営利活動法人日本ネットワークセキュリティ協会（JNSA）に不正アクセス、最大1万5,128件の個人情報漏えいの可能性 セキュリティ理解度チェックのID・ハッシュ化パスワードも対象 - 合同会社ロケットボーイズ"
+        },
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE91V3BPc2tqNlJNam9EVzZxLWMyMDZhbWxWeHVWNm51QjZJY21lU2VpUnBlY2JDeXZJWDNwMkNVYWhCVnBpNDVXdERvazE1S29aQ2FmYngyV243ZmJUWjVEazZ1dkpnN0tKaWtXdkFwaW1BbXdtWHgzN0RBVllDVEU?oc=5",
+          "published_date": "2026-11-07",
+          "title": "日本ネットワークセキュリティ協会に不正アクセス 最大1.5万件の個人情報漏えいの恐れ - Yahoo!ニュース",
+          "attack": true,
+          "organization": "日本ネットワークセキュリティ協会",
+          "attack_type": "不正アクセス",
+          "leak_status": "可能性あり",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "日本ネットワークセキュリティ協会に不正アクセス 最大1.5万件の個人情報漏えいの恐れ - Yahoo!ニュース"
+        }
+      ],
+      "source_count": 1,
+      "merged": true
+    },
+    {
+      "source": "Google News",
       "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB2cHlEbV95NFRKc2ZKV1RGX1VleVJrTzV2V3dfMGdJZVNGSzFPX3lhWURTN25yNUF5VjB6V0d1RU1YRkl2Y3QySVlMM1ZfWEcxNzRVTjNGSmdwaWttNks1YzhBb0h4eEJiYjV5bmxVXzR2UQ?oc=5",
       "published_date": "2026-11-07",
       "title": "【更新中】宝くじサイト 勝手にパスワード変更される 年収や保証額も漏えい 三井住友G保証会社 「無印良品」で約109万件流出か アソビューでは約1582万件流出 ＜不正アクセス情報まとめ＞ - テレ朝NEWS",
@@ -124,43 +174,6 @@
     },
     {
       "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONk9nWjlLaklhSDJQTkQyMWFCbDJhcW0yeHV6ZUFLMlpJMjFma1RyQ2ZnenFfb3NsNHNhd1FXaTlWN0VXVFFiMWZ3YndJQXJIaG8yME1iTHVzeHJnN3IxdGVnR1M3clB4UlZVZ3JSZF92Wk9xcFQyZDBQUXF4MHdpNVhpY0VBRHNmc09FeHQyRG51Sy00bGxBWDc5TEZ4S0xPbklKR0JLYjYzdw?oc=5",
-      "published_date": "2026-11-06",
-      "title": "特定非営利活動法人日本ネットワークセキュリティ協会（JNSA）に不正アクセス、最大1万5,128件の個人情報漏えいの可能性 セキュリティ理解度チェックのID・ハッシュ化パスワードも対象 - 合同会社ロケットボーイズ",
-      "attack": true,
-      "organization": "特定非営利活動法人日本ネットワークセキュリティ協会（JNSA）",
-      "attack_type": "不正アクセス",
-      "leak_status": "可能性あり",
-      "leak_count": "5,128",
-      "leaked_data": [
-        "認証情報"
-      ],
-      "incident_summary": "特定非営利活動法人日本ネットワークセキュリティ協会（JNSA）に不正アクセス、最大1万5,128件の個人情報漏えいの可能性 セキュリティ理解度チェックのID・ハッシュ化パスワードも対象 - 合同会社ロケットボーイズ",
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONk9nWjlLaklhSDJQTkQyMWFCbDJhcW0yeHV6ZUFLMlpJMjFma1RyQ2ZnenFfb3NsNHNhd1FXaTlWN0VXVFFiMWZ3YndJQXJIaG8yME1iTHVzeHJnN3IxdGVnR1M3clB4UlZVZ3JSZF92Wk9xcFQyZDBQUXF4MHdpNVhpY0VBRHNmc09FeHQyRG51Sy00bGxBWDc5TEZ4S0xPbklKR0JLYjYzdw?oc=5",
-          "published_date": "2026-11-06",
-          "title": "特定非営利活動法人日本ネットワークセキュリティ協会（JNSA）に不正アクセス、最大1万5,128件の個人情報漏えいの可能性 セキュリティ理解度チェックのID・ハッシュ化パスワードも対象 - 合同会社ロケットボーイズ",
-          "attack": true,
-          "organization": "特定非営利活動法人日本ネットワークセキュリティ協会（JNSA）",
-          "attack_type": "不正アクセス",
-          "leak_status": "可能性あり",
-          "leak_count": "5,128",
-          "leaked_data": [
-            "認証情報"
-          ],
-          "incident_summary": "特定非営利活動法人日本ネットワークセキュリティ協会（JNSA）に不正アクセス、最大1万5,128件の個人情報漏えいの可能性 セキュリティ理解度チェックのID・ハッシュ化パスワードも対象 - 合同会社ロケットボーイズ"
-        }
-      ],
-      "source_count": 1,
-      "merged": false
-    },
-    {
-      "source": "Google News",
       "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBDeVhLOG12cmplUVNsMlY2X3RfLTVPSENQYWxBRzRrNzV5M0ZwWTFTeDJ1ZktrdktJVnhYZHFNdUtLeW5HcUthRGFpT0xOazlnZ005WUxRQTY5TmNfejdydXJlcWFIYTBWVW9WbA?oc=5",
       "published_date": "2026-11-06",
       "title": "沖縄銀行、カードローン客の個人情報漏洩か 委託企業に不正アクセス - 日本経済新聞",
@@ -168,7 +181,7 @@
       "organization": "日本経済新聞",
       "attack_type": "不正アクセス",
       "leak_status": "確認・可能性あり",
-      "leak_count": null,
+      "leak_count": "1520万",
       "leaked_data": [
         "顧客情報"
       ],
@@ -260,6 +273,21 @@
             "顧客情報"
           ],
           "incident_summary": "損保ジャパン、顧客情報6.5万件漏洩か 委託先に不正アクセス - 日本経済新聞"
+        },
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5OMjEycXhVNm1jc1ZOeHRsT3pqWXo1UmdmSS1sdV9qQk9ILXAzbTVSajNZMFNwRENhY3JqdDBQWkFxcktJZmhLLU1jNTBpRGFNdl90T3hGQUktcUF6c3Y3RkZGSF95SngtQUpPMQ?oc=5",
+          "published_date": "2026-11-06",
+          "title": "ビックカメラ、顧客情報流出は1520万件 アララ不正アクセス - 日本経済新聞",
+          "attack": true,
+          "organization": "日本経済新聞",
+          "attack_type": "不正アクセス",
+          "leak_status": "確認・可能性あり",
+          "leak_count": "1520万",
+          "leaked_data": [
+            "顧客情報"
+          ],
+          "incident_summary": "ビックカメラ、顧客情報流出は1520万件 アララ不正アクセス - 日本経済新聞"
         },
         {
           "source": "Google News",
@@ -461,40 +489,14 @@
       "organization": "株式会社徳間書店",
       "service": "GoodsPress Web",
       "attack_type": "不正アクセス",
-      "leak_status": "可能性あり",
+      "leak_status": "不明",
       "leak_count": null,
-      "leaked_data": [
-        "氏名",
-        "メールアドレス",
-        "クレジットカード情報",
-        "顧客情報",
-        "会員情報"
-      ],
-      "incident_summary": "株式会社徳間書店は10月26日、同社運営のニュースサイト「GoodsPress Web」のテスト環境への不正アクセスについて発表した。 これは「GoodsPress Web」のテスト環境への第三者からの不正アクセスを確認したというもので、保守・運用を委託している会社から10月22日に報告があり、調査した結果、第三者による管理者アカウントの不正作成と、ページの改ざんが判明している。 同社によると、テスト環境にアカウント登録している、記事執筆等で協力している個人事業者・取引先のユーザ情報（氏名、ニックネーム、メールアドレス）計103件が、不正アクセスにより閲覧された可能性がある。 同社では10月22日に、暫定対応として攻撃経路の遮断、不正アカウントの停止、改ざんされたページの非公開化を行い、同日午後7時50分にテスト環境のサーバを遮断している。 同社では今後、個人情報の適切な管理と情報セキュリティ対策の徹底に努めるとのこと。 松沢書店にランサムウェア攻撃、「楽譜ナビ」「注文くん」ほか各種サービスに影響 2026.5.27 Wed 8:05 紀伊國屋書店に不正アクセス、委託元の富士山マガジン",
+      "leaked_data": [],
+      "incident_summary": "徳間書店のニュースサイト「GoodsPress Web」のテスト環境に不正アクセス 株式会社徳間書店は10月26日、同社運営のニュースサイト「GoodsPress Web」のテスト環境への不正アクセスについて発表した。",
       "sources": [
         "ScanNetSecurity"
       ],
       "source_records": [
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/11/06/56686.html",
-          "published_date": "2026-11-06",
-          "title": "徳間書店のニュースサイト「GoodsPress Web」のテスト環境に不正アクセス",
-          "attack": true,
-          "organization": "株式会社徳間書店",
-          "service": "GoodsPress Web",
-          "attack_type": "不正アクセス",
-          "leak_status": "可能性あり",
-          "leak_count": null,
-          "leaked_data": [
-            "氏名",
-            "メールアドレス",
-            "クレジットカード情報",
-            "顧客情報",
-            "会員情報"
-          ],
-          "incident_summary": "株式会社徳間書店は10月26日、同社運営のニュースサイト「GoodsPress Web」のテスト環境への不正アクセスについて発表した。 これは「GoodsPress Web」のテスト環境への第三者からの不正アクセスを確認したというもので、保守・運用を委託している会社から10月22日に報告があり、調査した結果、第三者による管理者アカウントの不正作成と、ページの改ざんが判明している。 同社によると、テスト環境にアカウント登録している、記事執筆等で協力している個人事業者・取引先のユーザ情報（氏名、ニックネーム、メールアドレス）計103件が、不正アクセスにより閲覧された可能性がある。 同社では10月22日に、暫定対応として攻撃経路の遮断、不正アカウントの停止、改ざんされたページの非公開化を行い、同日午後7時50分にテスト環境のサーバを遮断している。 同社では今後、個人情報の適切な管理と情報セキュリティ対策の徹底に努めるとのこと。 松沢書店にランサムウェア攻撃、「楽譜ナビ」「注文くん」ほか各種サービスに影響 2026.5.27 Wed 8:05 紀伊國屋書店に不正アクセス、委託元の富士山マガジン"
-        },
         {
           "source": "ScanNetSecurity",
           "source_url": "https://scan.netsecurity.ne.jp/article/2026/11/06/56686.html",
@@ -504,20 +506,14 @@
           "organization": "株式会社徳間書店",
           "service": "GoodsPress Web",
           "attack_type": "不正アクセス",
-          "leak_status": "可能性あり",
+          "leak_status": "不明",
           "leak_count": null,
-          "leaked_data": [
-            "氏名",
-            "メールアドレス",
-            "クレジットカード情報",
-            "顧客情報",
-            "会員情報"
-          ],
-          "incident_summary": "株式会社徳間書店は10月26日、同社運営のニュースサイト「GoodsPress Web」のテスト環境への不正アクセスについて発表した。 これは「GoodsPress Web」のテスト環境への第三者からの不正アクセスを確認したというもので、保守・運用を委託している会社から10月22日に報告があり、調査した結果、第三者による管理者アカウントの不正作成と、ページの改ざんが判明している。 同社によると、テスト環境にアカウント登録している、記事執筆等で協力している個人事業者・取引先のユーザ情報（氏名、ニックネーム、メールアドレス）計103件が、不正アクセスにより閲覧された可能性がある。 同社では10月22日に、暫定対応として攻撃経路の遮断、不正アカウントの停止、改ざんされたページの非公開化を行い、同日午後7時50分にテスト環境のサーバを遮断している。 同社では今後、個人情報の適切な管理と情報セキュリティ対策の徹底に努めるとのこと。 松沢書店にランサムウェア攻撃、「楽譜ナビ」「注文くん」ほか各種サービスに影響 2026.5.27 Wed 8:05 紀伊國屋書店に不正アクセス、委託元の富士山マガジン"
+          "leaked_data": [],
+          "incident_summary": "徳間書店のニュースサイト「GoodsPress Web」のテスト環境に不正アクセス 株式会社徳間書店は10月26日、同社運営のニュースサイト「GoodsPress Web」のテスト環境への不正アクセスについて発表した。"
         }
       ],
       "source_count": 1,
-      "merged": true
+      "merged": false
     },
     {
       "source": "Google News",
@@ -568,7 +564,6 @@
         "メールアドレス",
         "クレジットカード情報",
         "認証情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56693;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社ベーシックは10月27日、同社が提供するマーケティングプラットフォーム「ferret One」への不正アクセスについて発表した。 これは「ferret One」の内部管理機能に不備があり、10月14日に第三者により不正にアカウントが作成されたというもの。同社では10月26日に当該アカウントを確認し、削除と不正アクセス経路の遮断、不備の修正を実施している。 同社によると、ferret Oneを導入している顧客のログイン用メールアドレスが閲覧または取得された可能性がある。なお、メールアドレス以外の登録情報（氏名等）は含まれない。 Gunos",
@@ -576,27 +571,6 @@
         "ScanNetSecurity"
       ],
       "source_records": [
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/11/06/56693.html",
-          "published_date": "2026-11-06",
-          "title": "マーケティングプラットフォーム「ferret One」への不正アクセス、内部管理機能に不備",
-          "attack": true,
-          "organization": "株式会社ベーシック",
-          "service": "ferret One",
-          "attack_type": "不正アクセス",
-          "leak_status": "可能性あり",
-          "leak_count": null,
-          "leaked_data": [
-            "氏名",
-            "メールアドレス",
-            "クレジットカード情報",
-            "認証情報",
-            "顧客情報",
-            "会員情報"
-          ],
-          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56693;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社ベーシックは10月27日、同社が提供するマーケティングプラットフォーム「ferret One」への不正アクセスについて発表した。 これは「ferret One」の内部管理機能に不備があり、10月14日に第三者により不正にアカウントが作成されたというもの。同社では10月26日に当該アカウントを確認し、削除と不正アクセス経路の遮断、不備の修正を実施している。 同社によると、ferret Oneを導入している顧客のログイン用メールアドレスが閲覧または取得された可能性がある。なお、メールアドレス以外の登録情報（氏名等）は含まれない。 Gunos"
-        },
         {
           "source": "ScanNetSecurity",
           "source_url": "https://scan.netsecurity.ne.jp/article/2026/11/06/56693.html",
@@ -613,14 +587,13 @@
             "メールアドレス",
             "クレジットカード情報",
             "認証情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56693;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社ベーシックは10月27日、同社が提供するマーケティングプラットフォーム「ferret One」への不正アクセスについて発表した。 これは「ferret One」の内部管理機能に不備があり、10月14日に第三者により不正にアカウントが作成されたというもの。同社では10月26日に当該アカウントを確認し、削除と不正アクセス経路の遮断、不備の修正を実施している。 同社によると、ferret Oneを導入している顧客のログイン用メールアドレスが閲覧または取得された可能性がある。なお、メールアドレス以外の登録情報（氏名等）は含まれない。 Gunos"
         }
       ],
       "source_count": 1,
-      "merged": true
+      "merged": false
     },
     {
       "source": "ScanNetSecurity",
@@ -989,7 +962,6 @@
       "leak_count": null,
       "leaked_data": [
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56691;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社MICINは10月27日、同社が提供するオンライン診療サービス「クロンオンライン診療」への不正ログインについて発表した。 これは10月23日に、「クロンオンライン診療」の一部の医療機関および患者のアカウントに対し、「リスト型攻撃」によるものとみられる第三者からの不正ログインを確認したというもの。 同社によると、現時点の調査では同社のサーバやデータベースへの侵入の形跡は確認されていない。 富士急ハイランド公式アプリ・会員サイト「CLUB フジQ」にリスト型攻撃、159名の会員情報が閲覧された可能性 2026.10.23 Fri 8:05 ",
@@ -1042,7 +1014,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56691;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社MICINは10月27日、同社が提供するオンライン診療サービス「クロンオンライン診療」への不正ログインについて発表した。 これは10月23日に、「クロンオンライン診療」の一部の医療機関および患者のアカウントに対し、「リスト型攻撃」によるものとみられる第三者からの不正ログインを確認したというもの。 同社によると、現時点の調査では同社のサーバやデータベースへの侵入の形跡は確認されていない。 富士急ハイランド公式アプリ・会員サイト「CLUB フジQ」にリスト型攻撃、159名の会員情報が閲覧された可能性 2026.10.23 Fri 8:05 "
@@ -1079,13 +1050,13 @@
           "attack": true,
           "organization": "株式会社良品計画",
           "service": "MUJIアプリ",
-          "attack_type": "ランサムウェア",
+          "attack_type": null,
           "leak_status": "可能性あり",
           "leak_count": null,
           "leaked_data": [
             "顧客情報"
           ],
-          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56662;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社良品計画は10月30日、無印良品の公式アプリ「MUJIアプリ」での顧客情報の流出について発表した。 これは「MUJIアプリ」にて、同社が保有する顧客情報の一部が外部流出した可能性を確認したというもの。同社では外部からの不正なアクセスを検知した後、該当箇所へのアクセスの遮断と修正の適用を行っている。 外部に流出した可能性があるのは退会した顧客の情報を含む最大 約2,726万件のメールアドレス、生年月日、性別。 良品計画サイトで不審な認証画面が表示される事象 2026.6.10 Wed 8:05 アスクルのランサムウェア感染、「無印良品ネッ"
+          "incident_summary": "「MUJIアプリ」で最大 約2,726万件の顧客情報が流出した可能性 株式会社良品計画は10月30日、無印良品の公式アプリ「MUJIアプリ」での顧客情報の流出について発表した。"
         },
         {
           "source": "ScanNetSecurity",
@@ -1147,22 +1118,6 @@
           "source": "ScanNetSecurity",
           "source_url": "https://scan.netsecurity.ne.jp/article/2026/11/06/56696.html",
           "published_date": "2026-11-06",
-          "title": "「@cosme」に不正アクセス、約300万人の会員情報が漏えい",
-          "attack": true,
-          "organization": "株式会社アイスタイル",
-          "service": "@cosme",
-          "attack_type": "不正アクセス",
-          "leak_status": "確認・可能性あり",
-          "leak_count": null,
-          "leaked_data": [
-            "会員情報"
-          ],
-          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56696;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社アイスタイルは11月2日、同社が運営する「@cosme」への不正アクセスについて発表した。 これは「@cosme」に第三者から不正アクセスがあり、@cosme共通IDに登録のあった顧客の会員情報の一部が外部に漏えいしたことを10月28日に確認したというもの。 漏えいしたのは、@cosme共通IDに登録のあった約300万人の会員情報の一部（ユーザーID、ニックネーム、名前（漢字・カナ）、郵便番号、住所、電話番号、メールアドレス、性別、生年月日、肌質、髪質）。 「@cosme」に登録した個人情報が20分間閲覧可能に、社内でのファイル受け渡し"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/11/06/56696.html",
-          "published_date": "2026-11-06",
           "title": "「@cosme」に不正アクセス、約300万人の会員情報が漏えい 株式会社アイスタイルは11月2日、同社が運営する「@cosme」への不正アクセスについて発表した。",
           "attack": true,
           "organization": "株式会社アイスタイル",
@@ -1177,7 +1132,7 @@
         }
       ],
       "source_count": 1,
-      "merged": true
+      "merged": false
     },
     {
       "source": "ScanNetSecurity",
@@ -1194,7 +1149,6 @@
         "氏名",
         "クレジットカード情報",
         "認証情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56690;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); スマートシェア株式会社は10月27日、同社が提供するSNSキャンペーンツール「OWNLY」への不正アクセスについて発表した。 これは「OWNLY」に第三者から不正アクセスがあり、OWNLYサーバ上に保存されてい同サービスを利用したキャンペーン参加者の情報の一部が、閲覧・ダウンロードされた形跡を確認したというもの。 同社によると、10月16日未明にOWNLYのファイルアップロード機能の不備を侵入経路とした不正アクセスを監視システムが検知したが、通知設定の不備で同社開発担当者による把握が検知から遅れたものの、同日中に侵入経路を遮断している。 Gun",
@@ -1217,7 +1171,6 @@
             "氏名",
             "クレジットカード情報",
             "認証情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56690;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); スマートシェア株式会社は10月27日、同社が提供するSNSキャンペーンツール「OWNLY」への不正アクセスについて発表した。 これは「OWNLY」に第三者から不正アクセスがあり、OWNLYサーバ上に保存されてい同サービスを利用したキャンペーン参加者の情報の一部が、閲覧・ダウンロードされた形跡を確認したというもの。 同社によると、10月16日未明にOWNLYのファイルアップロード機能の不備を侵入経路とした不正アクセスを監視システムが検知したが、通知設定の不備で同社開発担当者による把握が検知から遅れたものの、同日中に侵入経路を遮断している。 Gun"
@@ -1274,7 +1227,6 @@
         "氏名",
         "クレジットカード情報",
         "認証情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56689;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 独立行政法人日本貿易振興機構（JETRO）は10月27日、ビジネスマッチングサービスで利用しているシステム「e-Venue」への不正アクセスについて発表した。 これは9月24日、9月25日および10月14日に、「e-Venue」に不正アクセスがあり、最大133件の個人情報が漏えいした可能性が判明したというもの。なお、「e-Venue」は外部のシステム環境上を利用し、委託先会社が構築・運用・保守を行っていた。 JETROの調査によると、外部からの「e-Venue」への不正アクセスで、本来公開を想定していない情報が取得されたと考えられるという。 G",
@@ -1297,7 +1249,6 @@
             "氏名",
             "クレジットカード情報",
             "認証情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56689;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 独立行政法人日本貿易振興機構（JETRO）は10月27日、ビジネスマッチングサービスで利用しているシステム「e-Venue」への不正アクセスについて発表した。 これは9月24日、9月25日および10月14日に、「e-Venue」に不正アクセスがあり、最大133件の個人情報が漏えいした可能性が判明したというもの。なお、「e-Venue」は外部のシステム環境上を利用し、委託先会社が構築・運用・保守を行っていた。 JETROの調査によると、外部からの「e-Venue」への不正アクセスで、本来公開を想定していない情報が取得されたと考えられるという。 G"
@@ -1361,7 +1312,6 @@
         "電話番号",
         "メールアドレス",
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "東京都台東区は10月26日、台東区障害者支援アプリ「ささえ～る」運営委託事業者への不正アクセスについて発表した。 これは10月23日に、「ささえ～る」の運営委託事業者である株式会社ミラボから、不正に管理者アカウントが作成され、会員登録のあった情報が不正にダウンロードされた旨の報告があったというもの。 アカウント登録及び権限管理の仕組みに設計段階で想定していなかった不備があったことが原因で、不正アカウントが作成され、本来付与されるはずのない管理者権限を紐づけられた結果、不正にダウンロードされたという。 流出が確認された個人情報は下記の通り。なお、氏名、住所、電話番号は含まれていない。 ・メールアドレス：197件 ・障害児者との関係 ・障害のカテゴリー 同区では、不正に作成されたアカウントを無効化し、削除している。また、同様の方法で管理者アカウントが作成できないよう、システムを修正している。 同区では、新規会員登録を一時停止している。 同区ではアプリ利用者に対し、台東区やサービス運用会社を装って個人情報の入力等を求めるメールが送信される可能性があるとし、注意を呼びかけている。 新型コロナウ",
@@ -1386,7 +1336,6 @@
             "電話番号",
             "メールアドレス",
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "東京都台東区は10月26日、台東区障害者支援アプリ「ささえ～る」運営委託事業者への不正アクセスについて発表した。 これは10月23日に、「ささえ～る」の運営委託事業者である株式会社ミラボから、不正に管理者アカウントが作成され、会員登録のあった情報が不正にダウンロードされた旨の報告があったというもの。 アカウント登録及び権限管理の仕組みに設計段階で想定していなかった不備があったことが原因で、不正アカウントが作成され、本来付与されるはずのない管理者権限を紐づけられた結果、不正にダウンロードされたという。 流出が確認された個人情報は下記の通り。なお、氏名、住所、電話番号は含まれていない。 ・メールアドレス：197件 ・障害児者との関係 ・障害のカテゴリー 同区では、不正に作成されたアカウントを無効化し、削除している。また、同様の方法で管理者アカウントが作成できないよう、システムを修正している。 同区では、新規会員登録を一時停止している。 同区ではアプリ利用者に対し、台東区やサービス運用会社を装って個人情報の入力等を求めるメールが送信される可能性があるとし、注意を呼びかけている。 新型コロナウ",
@@ -1513,13 +1462,8 @@
       "attack_type": "不正アクセス",
       "leak_status": "確認・可能性あり",
       "leak_count": null,
-      "leaked_data": [
-        "氏名",
-        "クレジットカード情報",
-        "認証情報",
-        "会員情報"
-      ],
-      "incident_summary": "株式会社モスフードサービスは10月23日、同社がプリペイドカード「モスカード」のサーバ運用・保守業務を委託している株式会社バリューデザインへの不正アクセスについて発表した。 これは10月14日から10月18日にかけて、バリューデザインで「モスカード」の管理システムへの不審なアクセスや不正ログイン試行を検知したため、アクセス遮断等の緊急措置を実施し、事実関係と被害状況の調査を行ったところ、外部プログラムを用いた不正アクセスで一部のモスカード番号、PIN番号、残高情報の流出を確認したというもの。 流出を確認したのは、「モスカード」の発行総数 約380万件のうち113万3,070件（流通済みカード約57万件、未流通カード約56万件）のモスカード番号（16桁）、PIN番号（6桁）、残高情報。 同社では、流出したモスカード番号に紐づくPIN番号について、不正利用防止の観点から強制的に変更を行っている。 同社によると、「モスカード」の店頭・ネット注文・「お席で注文」での利用は問題ないが、Web上での残高照会、公式アプリへの新規登録、ネット注文での「モスカード」によるゲスト購入が出来ない場合は、問い",
+      "leaked_data": [],
+      "incident_summary": "バリューデザインへの不正アクセス、一部のモスカード番号等が流出 株式会社モスフードサービスは10月23日、同社がプリペイドカード「モスカード」のサーバ運用・保守業務を委託している株式会社バリューデザインへの不正アクセスについて発表した。",
       "sources": [
         "ScanNetSecurity"
       ],
@@ -1535,13 +1479,8 @@
           "attack_type": "不正アクセス",
           "leak_status": "確認・可能性あり",
           "leak_count": null,
-          "leaked_data": [
-            "氏名",
-            "クレジットカード情報",
-            "認証情報",
-            "会員情報"
-          ],
-          "incident_summary": "株式会社モスフードサービスは10月23日、同社がプリペイドカード「モスカード」のサーバ運用・保守業務を委託している株式会社バリューデザインへの不正アクセスについて発表した。 これは10月14日から10月18日にかけて、バリューデザインで「モスカード」の管理システムへの不審なアクセスや不正ログイン試行を検知したため、アクセス遮断等の緊急措置を実施し、事実関係と被害状況の調査を行ったところ、外部プログラムを用いた不正アクセスで一部のモスカード番号、PIN番号、残高情報の流出を確認したというもの。 流出を確認したのは、「モスカード」の発行総数 約380万件のうち113万3,070件（流通済みカード約57万件、未流通カード約56万件）のモスカード番号（16桁）、PIN番号（6桁）、残高情報。 同社では、流出したモスカード番号に紐づくPIN番号について、不正利用防止の観点から強制的に変更を行っている。 同社によると、「モスカード」の店頭・ネット注文・「お席で注文」での利用は問題ないが、Web上での残高照会、公式アプリへの新規登録、ネット注文での「モスカード」によるゲスト購入が出来ない場合は、問い"
+          "leaked_data": [],
+          "incident_summary": "バリューデザインへの不正アクセス、一部のモスカード番号等が流出 株式会社モスフードサービスは10月23日、同社がプリペイドカード「モスカード」のサーバ運用・保守業務を委託している株式会社バリューデザインへの不正アクセスについて発表した。"
         }
       ],
       "source_count": 1,
@@ -1563,7 +1502,6 @@
         "住所",
         "電話番号",
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "株式会社ドン・キホーテは10月28日、同社及び同社グループ会社が修理に関する業務を委託している株式会社コックスへの不正アクセスについて発表した。 これはコックスで運用・管理するサーバに外部からサイバー攻撃があり、同サーバ内がランサムウェアにより暗号化され、同社からの業務委託で受領した情報が暗号化したというもの。コックスで専門機関による調査を実施したところ、現時点で個人情報漏えいの事実は確認されていないが、その可能性が完全に否定できないという。 コックスでは9月15日に、サーバへのサイバー攻撃の可能性を検知し、委託先従業員がサーバを確認したところ、同サーバが暗号化されて閲覧不能な状態となっていることが判明したため、同サーバへの外部経路からの接続を遮断している。 コックスでは9月25日に、ドン・キホーテグループに報告を行っている。 漏えいした可能性があるのは、同社グループ店舗（株式会社ドン・キホーテ、株式会社長崎屋、株式会社橘百貨店、UDリテール株式会社）で2025年9月以降に時計の修理を依頼した顧客の氏名、住所（一部）、電話番号（一部）を含む個人情報。 コックスでは現在、情報の外部漏えい",
@@ -1587,7 +1525,6 @@
             "住所",
             "電話番号",
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "株式会社ドン・キホーテは10月28日、同社及び同社グループ会社が修理に関する業務を委託している株式会社コックスへの不正アクセスについて発表した。 これはコックスで運用・管理するサーバに外部からサイバー攻撃があり、同サーバ内がランサムウェアにより暗号化され、同社からの業務委託で受領した情報が暗号化したというもの。コックスで専門機関による調査を実施したところ、現時点で個人情報漏えいの事実は確認されていないが、その可能性が完全に否定できないという。 コックスでは9月15日に、サーバへのサイバー攻撃の可能性を検知し、委託先従業員がサーバを確認したところ、同サーバが暗号化されて閲覧不能な状態となっていることが判明したため、同サーバへの外部経路からの接続を遮断している。 コックスでは9月25日に、ドン・キホーテグループに報告を行っている。 漏えいした可能性があるのは、同社グループ店舗（株式会社ドン・キホーテ、株式会社長崎屋、株式会社橘百貨店、UDリテール株式会社）で2025年9月以降に時計の修理を依頼した顧客の氏名、住所（一部）、電話番号（一部）を含む個人情報。 コックスでは現在、情報の外部漏えい"
@@ -1615,7 +1552,6 @@
         "生年月日",
         "クレジットカード情報",
         "口座情報",
-        "顧客情報",
         "従業員情報",
         "会員情報"
       ],
@@ -1624,6 +1560,30 @@
         "ScanNetSecurity"
       ],
       "source_records": [
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/11/05/56675.html",
+          "published_date": "2026-11-05",
+          "title": "ドトールコーヒーのシステムに不正アクセス、従業員及び退職者 計951名の個人情報が漏えいした可能性",
+          "attack": true,
+          "organization": "株式会社ドトールコーヒー",
+          "service": "システムに不正アクセス",
+          "attack_type": "不正アクセス",
+          "leak_status": "可能性あり",
+          "leak_count": "951",
+          "leaked_data": [
+            "氏名",
+            "住所",
+            "電話番号",
+            "メールアドレス",
+            "生年月日",
+            "クレジットカード情報",
+            "口座情報",
+            "従業員情報",
+            "会員情報"
+          ],
+          "incident_summary": "株式会社ドトールコーヒーは10月26日、同社システムへの不正アクセスについて発表した。 これは同社のシステムに外部の第三者から不正アクセスがあり、同システムに保存されていた同社従業員と退職者の個人データが第三者に閲覧され、外部流出した可能性が判明したというもの。同社では10月20日に、同社システムへの不正アクセスを検知している。 漏えいした可能性があるのは、同社の下記4店舗に勤務していた従業員及び退職者 計951名の氏名、生年月日、住所、メールアドレス、電話番号、銀行口座番号を含む個人情報。 ・ドトールコーヒーショップ西武大泉学園駅店 ・ドトールコーヒーショップ国立大学通り店 ・ドトールコーヒーショップ東京駅八重洲中央口店 ・ドトールコーヒーショップ石神井公園駅前店 同社では、個人データが漏えいした可能性がある従業員に順次、連絡を行っている。 同社では本件の発覚後に、被害拡大防止措置を講じるとともに、事実関係の調査を進めているとのこと。 ドトールコーヒー公式 Twitter アカウントが乗っ取り被害、キャンペーン開催も見合わせ 2023.2.17 Fri 8:05 新たに約 40,70"
+        },
         {
           "source": "ScanNetSecurity",
           "source_url": "https://scan.netsecurity.ne.jp/article/2026/11/05/56675.html",
@@ -1643,7 +1603,6 @@
             "生年月日",
             "クレジットカード情報",
             "口座情報",
-            "顧客情報",
             "従業員情報",
             "会員情報"
           ],
@@ -1651,7 +1610,7 @@
         }
       ],
       "source_count": 1,
-      "merged": false
+      "merged": true
     },
     {
       "source": "ScanNetSecurity",
@@ -1705,16 +1664,10 @@
       "organization": "株式会社ソニックムーブ",
       "service": "COMSBI エンタープライズ基盤",
       "attack_type": "不正アクセス",
-      "leak_status": "可能性あり",
+      "leak_status": "不明",
       "leak_count": null,
-      "leaked_data": [
-        "氏名",
-        "メールアドレス",
-        "クレジットカード情報",
-        "認証情報",
-        "会員情報"
-      ],
-      "incident_summary": "株式会社ソニックムーブは10月26日、同社が法人顧客向けに提供しているLINE連携基盤「COMSBI エンタープライズ基盤」への不正アクセスについて発表した。 これは10月23日午前に、第三者が同サービスの管理システムに不正にログインしたというもので、同サービスを利用する一部顧客に関する情報、および顧客が保有する利用者の個人情報が外部に漏えい、またはその可能性があることを確認している。 同社によると、第三者が同サービスの管理画面の認証情報を不正に入手してログインし、管理画面の機能の不備を通じてサーバの認証情報を取得したことが原因という。 漏えい、またはその可能性があるのは、「COMSBI エンタープライズ基盤」を利用する一部顧客（法人）に関する、下記情報。 ・顧客の管理画面の利用者情報（氏名、メールアドレス、暗号化されたパスワード） ・顧客のLINE公式アカウントに関する設定情報 ・顧客が保有する利用者の情報（氏名、メールアドレス等） 同社では対象となる顧客に対し、顧客ごとの対象項目を個別に報告しており、利用者への案内は各顧客と連携のうえ進めている。 同社では下記の対応を行っている。 ",
+      "leaked_data": [],
+      "incident_summary": "LINE連携基盤「COMSBI エンタープライズ基盤」に不正アクセス 株式会社ソニックムーブは10月26日、同社が法人顧客向けに提供しているLINE連携基盤「COMSBI エンタープライズ基盤」への不正アクセスについて発表した。",
       "sources": [
         "ScanNetSecurity"
       ],
@@ -1728,16 +1681,10 @@
           "organization": "株式会社ソニックムーブ",
           "service": "COMSBI エンタープライズ基盤",
           "attack_type": "不正アクセス",
-          "leak_status": "可能性あり",
+          "leak_status": "不明",
           "leak_count": null,
-          "leaked_data": [
-            "氏名",
-            "メールアドレス",
-            "クレジットカード情報",
-            "認証情報",
-            "会員情報"
-          ],
-          "incident_summary": "株式会社ソニックムーブは10月26日、同社が法人顧客向けに提供しているLINE連携基盤「COMSBI エンタープライズ基盤」への不正アクセスについて発表した。 これは10月23日午前に、第三者が同サービスの管理システムに不正にログインしたというもので、同サービスを利用する一部顧客に関する情報、および顧客が保有する利用者の個人情報が外部に漏えい、またはその可能性があることを確認している。 同社によると、第三者が同サービスの管理画面の認証情報を不正に入手してログインし、管理画面の機能の不備を通じてサーバの認証情報を取得したことが原因という。 漏えい、またはその可能性があるのは、「COMSBI エンタープライズ基盤」を利用する一部顧客（法人）に関する、下記情報。 ・顧客の管理画面の利用者情報（氏名、メールアドレス、暗号化されたパスワード） ・顧客のLINE公式アカウントに関する設定情報 ・顧客が保有する利用者の情報（氏名、メールアドレス等） 同社では対象となる顧客に対し、顧客ごとの対象項目を個別に報告しており、利用者への案内は各顧客と連携のうえ進めている。 同社では下記の対応を行っている。 "
+          "leaked_data": [],
+          "incident_summary": "LINE連携基盤「COMSBI エンタープライズ基盤」に不正アクセス 株式会社ソニックムーブは10月26日、同社が法人顧客向けに提供しているLINE連携基盤「COMSBI エンタープライズ基盤」への不正アクセスについて発表した。"
         }
       ],
       "source_count": 1,
@@ -1905,7 +1852,6 @@
         "メールアドレス",
         "クレジットカード情報",
         "認証情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56657;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 東日本高速道路株式会社（NEXCO東日本）は10月23日、高速道路情報サイト「ドラとら」（ドライブトラフィック）への不正アクセスについて発表した。 これは「ドラとら」に第三者から不正アクセスがあり、一部顧客の登録情報が閲覧された可能性が判明したというもの。 閲覧された可能性があるのは、「ドラとら」に登録されている一部顧客のメールアドレス、パスワード、性別、都道府県及び生年。 NEXCO東日本の東京外環プロジェクトホームページで不正アクセス疑い 2026.9.10 Thu 8:05 NEXCO東日本「IRメールマガジン」BCC運用、誤送信で計38",
@@ -1928,7 +1874,6 @@
             "メールアドレス",
             "クレジットカード情報",
             "認証情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56657;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 東日本高速道路株式会社（NEXCO東日本）は10月23日、高速道路情報サイト「ドラとら」（ドライブトラフィック）への不正アクセスについて発表した。 これは「ドラとら」に第三者から不正アクセスがあり、一部顧客の登録情報が閲覧された可能性が判明したというもの。 閲覧された可能性があるのは、「ドラとら」に登録されている一部顧客のメールアドレス、パスワード、性別、都道府県及び生年。 NEXCO東日本の東京外環プロジェクトホームページで不正アクセス疑い 2026.9.10 Thu 8:05 NEXCO東日本「IRメールマガジン」BCC運用、誤送信で計38"
@@ -2020,14 +1965,10 @@
       "organization": "株式会社チャリ・ロト",
       "service": "チャリロト",
       "attack_type": "不正アクセス",
-      "leak_status": "可能性あり",
+      "leak_status": "不明",
       "leak_count": null,
-      "leaked_data": [
-        "クレジットカード情報",
-        "顧客情報",
-        "会員情報"
-      ],
-      "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56658;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社チャリ・ロトは10月24日、同社が運営する競輪・オートレースの投票サービス「チャリロト」への不正アクセスについて発表した。 これは10月21日午前9時30分頃から午後1時00分頃、「チャリロト」のシステムに対し、脆弱性を悪用した第三者からの不正アクセスがあり、顧客情報が外部に漏えいしたというもの。 同社では10月22日に、情報セキュリティの点検で不審なログを発見し、対応チームを立ち上げ調査を実施した結果、脆弱性を悪用した不正アクセスであることが判明したという。 競馬コミュニティサイト「ウマニティ」に不正アクセス、一時閉鎖しシステムを再構",
+      "leaked_data": [],
+      "incident_summary": "競輪・オートレース投票サービス「チャリロト」に不正アクセス、点検で不審なログを発見 株式会社チャリ・ロトは10月24日、同社が運営する競輪・オートレースの投票サービス「チャリロト」への不正アクセスについて発表した。",
       "sources": [
         "ScanNetSecurity"
       ],
@@ -2041,14 +1982,10 @@
           "organization": "株式会社チャリ・ロト",
           "service": "チャリロト",
           "attack_type": "不正アクセス",
-          "leak_status": "可能性あり",
+          "leak_status": "不明",
           "leak_count": null,
-          "leaked_data": [
-            "クレジットカード情報",
-            "顧客情報",
-            "会員情報"
-          ],
-          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56658;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社チャリ・ロトは10月24日、同社が運営する競輪・オートレースの投票サービス「チャリロト」への不正アクセスについて発表した。 これは10月21日午前9時30分頃から午後1時00分頃、「チャリロト」のシステムに対し、脆弱性を悪用した第三者からの不正アクセスがあり、顧客情報が外部に漏えいしたというもの。 同社では10月22日に、情報セキュリティの点検で不審なログを発見し、対応チームを立ち上げ調査を実施した結果、脆弱性を悪用した不正アクセスであることが判明したという。 競馬コミュニティサイト「ウマニティ」に不正アクセス、一時閉鎖しシステムを再構"
+          "leaked_data": [],
+          "incident_summary": "競輪・オートレース投票サービス「チャリロト」に不正アクセス、点検で不審なログを発見 株式会社チャリ・ロトは10月24日、同社が運営する競輪・オートレースの投票サービス「チャリロト」への不正アクセスについて発表した。"
         }
       ],
       "source_count": 1,
@@ -2086,7 +2023,6 @@
           "leak_count": "8,963",
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56563;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 東証プライム上場企業の株式会社物語コーポレーションは10月5日、同社が運営する「焼肉きんぐ」公式アプリ会員管理システムへの不正アクセスについて発表した。 これは10月2日に、「焼肉きんぐ」公式アプリの会員管理システムへの第三者からの不正アクセスを確認したというもので、不正アクセスの確認後に通信遮断と防御措置を実施したが、翌10月3日に会員情報の漏えいが判明している。 熟成焼肉いちばんの「ご来店予約システム」に不正アクセス攻撃 2024.8.14 Wed 8:05 焼肉きんぐなどを運営する物語コーポレーションで個人情報を誤削除、契約終了までに新規"
@@ -2123,7 +2059,6 @@
       "leak_count": null,
       "leaked_data": [
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56663;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 外務省は10月30日、同省が運用する、外部とのやり取りが可能なネットワークへの不正アクセスについて発表した。 これは7月27日に、外部とのやり取りが可能なネットワークへの不正アクセスを検知したというもので、同ネットワーク上で取り扱っていた個人情報を含むメール等の一部が漏えいした可能性が判明している。 なお、同省では機密性の高い情報のやり取りを外務省員間でのみ行う閉域ネットワークと、外部とのやり取りが可能なネットワークの2系統があり、閉域ネットワークは影響を受けていない。 富士通のプロジェクト情報共有ツールへの不正アクセス、外務省でも被害確認 2",
@@ -2144,7 +2079,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56663;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 外務省は10月30日、同省が運用する、外部とのやり取りが可能なネットワークへの不正アクセスについて発表した。 これは7月27日に、外部とのやり取りが可能なネットワークへの不正アクセスを検知したというもので、同ネットワーク上で取り扱っていた個人情報を含むメール等の一部が漏えいした可能性が判明している。 なお、同省では機密性の高い情報のやり取りを外務省員間でのみ行う閉域ネットワークと、外部とのやり取りが可能なネットワークの2系統があり、閉域ネットワークは影響を受けていない。 富士通のプロジェクト情報共有ツールへの不正アクセス、外務省でも被害確認 2",
@@ -2168,7 +2102,6 @@
       "leaked_data": [
         "メールアドレス",
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56654;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 東京都台東区は10月23日、同区のウェブサイト管理者である株式会社トラベルジップへの不正アクセスによる個人情報流出ついて発表した。 対象となるウェブサイトは、台東区観光情報サイト「TAITOおでかけナビ」と台東区大河ドラマ「べらぼう」活用推進協議会が運営する「蔦重ゆかりの地 台東区」公式サイト（2026年3月12日公開終了）。 現時点で流出が確認されている個人情報は下記の通り。 イエローハットWEB作業予約システムへの不正プログラムによる攻撃、最大180万1,499名の会員情報が漏えいした可能性 2026.9.2 Wed 8:05 扶桑電通が社",
@@ -2190,7 +2123,6 @@
           "leaked_data": [
             "メールアドレス",
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56506;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); ジー・プラン株式会社は9月30日、同社が提供する「Gポイント」システムへの不正アクセスについて発表した。 これは9月25日に、「Gポイント」のシステムで異常を検知したため調査した結果、外部からの不正アクセスが判明したというもの。 漏えいした可能性があるのは、最大約7万件の会員識別子。 「クロネコ代金後払いサービス」に不正アクセス 2026.10.1 Thu 8:05 「タイムズカー」に不正アクセス、運転免許証画像含む会員情報が第三者に取得されたことを確認 2026.10.1 Thu 8:05 スターツ出版「オズモール」に不正アクセス、会員のメー"
@@ -2225,7 +2157,6 @@
           "leaked_data": [
             "メールアドレス",
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56654;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 東京都台東区は10月23日、同区のウェブサイト管理者である株式会社トラベルジップへの不正アクセスによる個人情報流出ついて発表した。 対象となるウェブサイトは、台東区観光情報サイト「TAITOおでかけナビ」と台東区大河ドラマ「べらぼう」活用推進協議会が運営する「蔦重ゆかりの地 台東区」公式サイト（2026年3月12日公開終了）。 現時点で流出が確認されている個人情報は下記の通り。 イエローハットWEB作業予約システムへの不正プログラムによる攻撃、最大180万1,499名の会員情報が漏えいした可能性 2026.9.2 Wed 8:05 扶桑電通が社"
@@ -2304,7 +2235,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56432;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社くふうカンパニーは9月22日、同社が運営する家計簿アプリ「くふう Zaim」への不正アクセスについて発表した。 これは9月18日午後8時9分から9月19日午前1時42分にかけて、外部の第三者が「くふう Zaim」のシステムに対して不正なデータの書き込みを行ったことで、一部の顧客（14名）の下記の登録情報が、本来とは異なる内容に書き換えられたというもの。 東邦通信システムズが利用する外部ホスティングサーバに不正アクセス、一部メールアカウントで設定情報の書き換え 2026.9.9 Wed 8:05 ユニテックフーズに不正アクセス、サーバ上の"
@@ -2356,7 +2286,6 @@
           "leaked_data": [
             "クレジットカード情報",
             "認証情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56536;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社サミーネットワークスは10月2日、オンライン抽選サービス「777CON-PASS」への不正アクセスについて発表した。 これは9月25日に同サービスのユーザーデータに不正アクセスがあり、9月30日にはホールデータでも不審なアクセスの痕跡を確認したというもの。同社で週次のアクセス負荷監視で異常なアクセス増加を確認したことから調査を行ったところ、第三者がユーザー情報およびホール情報を取得するリクエストを不正に実行していたことが判明している。 ローソンのアカウントサービスに不正アクセス、215 万 5,345 件のローソン ID が漏えい 20"
@@ -2393,7 +2322,6 @@
             "メールアドレス",
             "生年月日",
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56609;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社ヤマダデンキは10月23日、外部からの不正アクセスに伴う一部サービスの停止について発表した。 これは同社が提供する「ヤマダビデオ」および「スマホゴールド会員」への各種手続き画面への外部からの不正アクセスを確認したため、10月22日午後4時13分頃から一時サービスを停止したというもの。 「お名前.com デスクトップクラウド」に不正アクセス、見舞金として一律 5,000円を支払い 2026.10.27 Tue 8:05 「タイムズカー」への不正アクセス、本人確認書類画像データが漏えいした顧客に 3,000円相当を見舞いとして支払い 202"
@@ -2471,7 +2399,6 @@
       "leaked_data": [
         "氏名",
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56653;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社グッドスマイルカンパニーは10月23日、同社の運営するECサイト「グッドスマイルカンパニー公式ショップ」への不正アクセスについて発表した。 これは10月19日午後3時過ぎころから10月22日午後10時頃にかけて、「グッドスマイルカンパニー公式ショップ」の管理情報に複数回の不正アクセスによる個人情報等の閲覧が同社システムログ解析の結果、判明したというもの。 同社では不正アクセス判明後に、同サイトを閉鎖し、原因確認作業を進めているが、現時点で脆弱性による不正アクセスが原因と認識している。 「お名前.com デスクトップクラウド」に不正アクセ",
@@ -2493,7 +2420,6 @@
           "leaked_data": [
             "氏名",
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56653;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社グッドスマイルカンパニーは10月23日、同社の運営するECサイト「グッドスマイルカンパニー公式ショップ」への不正アクセスについて発表した。 これは10月19日午後3時過ぎころから10月22日午後10時頃にかけて、「グッドスマイルカンパニー公式ショップ」の管理情報に複数回の不正アクセスによる個人情報等の閲覧が同社システムログ解析の結果、判明したというもの。 同社では不正アクセス判明後に、同サイトを閉鎖し、原因確認作業を進めているが、現時点で脆弱性による不正アクセスが原因と認識している。 「お名前.com デスクトップクラウド」に不正アクセ"
@@ -2511,15 +2437,10 @@
       "organization": "株式会社アイリスプラザ",
       "service": "アイリスプラザ",
       "attack_type": "不正アクセス",
-      "leak_status": "可能性あり",
+      "leak_status": "不明",
       "leak_count": null,
-      "leaked_data": [
-        "クレジットカード情報",
-        "認証情報",
-        "顧客情報",
-        "会員情報"
-      ],
-      "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56660;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社アイリスプラザは10月29日、同社が運営する公式通販サイト「アイリスプラザ」への不正アクセスについて発表した。 ユミルリンクのメール配信サービスの一部サーバシステムに不正アクセス、延べ5,162万8,280件の情報が流出 2026.11.2 Mon 8:05 AI を活用した総点検で発見 ～ デジタルアーツのクラウドサービス運用環境に不正アクセス 2026.11.2 Mon 8:05 WPプラグインの脆弱性悪用 ～ ティエスエスリンクのウェブサイトに不正アクセス、製品にはセキュリティ上の問題 確認されておらず 2026.11.2 Mon",
+      "leaked_data": [],
+      "incident_summary": "「アイリスプラザ」に不正アクセス、安全確保のため一時停止 株式会社アイリスプラザは10月29日、同社が運営する公式通販サイト「アイリスプラザ」への不正アクセスについて発表した。",
       "sources": [
         "ScanNetSecurity"
       ],
@@ -2533,15 +2454,10 @@
           "organization": "株式会社アイリスプラザ",
           "service": "アイリスプラザ",
           "attack_type": "不正アクセス",
-          "leak_status": "可能性あり",
+          "leak_status": "不明",
           "leak_count": null,
-          "leaked_data": [
-            "クレジットカード情報",
-            "認証情報",
-            "顧客情報",
-            "会員情報"
-          ],
-          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56660;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社アイリスプラザは10月29日、同社が運営する公式通販サイト「アイリスプラザ」への不正アクセスについて発表した。 ユミルリンクのメール配信サービスの一部サーバシステムに不正アクセス、延べ5,162万8,280件の情報が流出 2026.11.2 Mon 8:05 AI を活用した総点検で発見 ～ デジタルアーツのクラウドサービス運用環境に不正アクセス 2026.11.2 Mon 8:05 WPプラグインの脆弱性悪用 ～ ティエスエスリンクのウェブサイトに不正アクセス、製品にはセキュリティ上の問題 確認されておらず 2026.11.2 Mon"
+          "leaked_data": [],
+          "incident_summary": "「アイリスプラザ」に不正アクセス、安全確保のため一時停止 株式会社アイリスプラザは10月29日、同社が運営する公式通販サイト「アイリスプラザ」への不正アクセスについて発表した。"
         }
       ],
       "source_count": 1,
@@ -2595,7 +2511,6 @@
         "メールアドレス",
         "クレジットカード情報",
         "認証情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56659;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); ELESTYLE株式会社は10月29日、同社システムへの不正アクセスについて発表した。 これは10月25日午前9時半頃から午後4時頃まで、同社管理システムの一部機能におけるアクセス制御の不備を悪用した不正アクセスを確認したというもので、加盟店の登録情報の一部が外部に取得された可能性が判明している。 取得された可能性があるのは、加盟店の登録情報の一部（7,162件）のユーザー名とメールアドレス、システム内部識別子など。 ユミルリンクのメール配信サービスの一部サーバシステムに不正アクセス、延べ5,162万8,280件の情報が流出 2026.11.2",
@@ -2618,7 +2533,6 @@
             "メールアドレス",
             "クレジットカード情報",
             "認証情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56659;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); ELESTYLE株式会社は10月29日、同社システムへの不正アクセスについて発表した。 これは10月25日午前9時半頃から午後4時頃まで、同社管理システムの一部機能におけるアクセス制御の不備を悪用した不正アクセスを確認したというもので、加盟店の登録情報の一部が外部に取得された可能性が判明している。 取得された可能性があるのは、加盟店の登録情報の一部（7,162件）のユーザー名とメールアドレス、システム内部識別子など。 ユミルリンクのメール配信サービスの一部サーバシステムに不正アクセス、延べ5,162万8,280件の情報が流出 2026.11.2"
@@ -2677,7 +2591,6 @@
         "電話番号",
         "メールアドレス",
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56638;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社ジグザグは10月19日、同社が運営する越境ECサービス「WorldShopping」への不正アクセスについて発表した。 これは10月16日に、「WorldShopping」への外部からの不審なアクセスを検知し、調査した結果、10月15日から16日にかけて第三者から不正アクセスがあり、同社が保有する顧客の個人情報の漏えいが判明したというもの。 漏えいしたのは、海外（台湾、香港、米国、韓国、中国ほか）の顧客301名のメールアドレス、氏名、住所、電話番号、注文に関する情報を含む個人情報。なお、「WorldShopping BIZ」を導入してい",
@@ -2734,7 +2647,6 @@
             "生年月日",
             "クレジットカード情報",
             "認証情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56513;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社日本経済新聞社は10月16日、不正アクセスによる個人情報漏えいについて発表した。 これは10月7日未明から朝にかけて、同社がシステム開発に利用するクラウドサービスに不正アクセスがあり、クラウド上に保管していた個人情報が漏えいしたというもの。クラウドサービスにアクセスするための認証情報が何らかの手段で窃取されたことが原因という。 漏えいしたのは約183万件の個人情報で、氏名、メールアドレス、住所、電話番号、生年月日のいずれかが含まれる個人情報が約15万件で、このうちメールアドレスが含まれるものが約12万件であった。また、単体では個人を特定"
@@ -2752,7 +2664,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56530;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社日経ナショナル ジオグラフィックは10月17日、株式会社日本経済新聞社への不正アクセスに伴う同社サービス利用者情報について発表した。 日本経済新聞社では同社システムへの不正アクセスによる個人情報漏えいが10月16日に公表されているが、今回漏えいした個人情報の中には、日経ナショナル ジオグラフィックのサービスを利用している顧客の情報も一部含まれている可能性があるという。 日本経済新聞社社員の「マイクロソフト365」のアカウントにサイバー攻撃、悪性サイトに誘導するメールを送信 2026.10.7 Wed 8:05 日本経済新聞社がシステム開"
@@ -2786,7 +2697,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56537;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社ジャパンタイムズは10月2日、同社グループ会社への不正アクセスについて発表した。 これは同社グループ会社が管理するサーバの一部への不正アクセスを確認したというもの。 日本経済新聞社社員の「マイクロソフト365」のアカウントにサイバー攻撃、悪性サイトに誘導するメールを送信 2026.10.7 Wed 8:05 「信濃毎日新聞デジタル」に不正アクセス、一時的に一部の履歴データが消去 2026.10.6 Tue 8:05 日経アメリカ社で不正ログイン被害、取引先へのなりすましメール送信で発覚 2026.5.14 Thu 8:05 取材に関する"
@@ -2822,7 +2732,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56628;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社セカンドリテイリングは10月19日、10月17日に公表した同社の社内システムへの不正アクセスについて、調査結果を発表した。 同社では10月15日に、同社の社内システムへの第三者からの不正アクセスを確認しており、必要な対策を講じるとともに、二次被害を防ぐために10月17日午後9時から、セカンドストリートやゲオなどを含むアプリ、Webサービスを停止し、システムメンテナンスを実施していた。 同社では外部のセキュリティ専門機関と連携し、原因究明と影響範囲の調査を進めた結果、データベースサーバへの不審な外部接続や直接アクセスの形跡はなく、個人情報"
@@ -2840,7 +2749,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56642;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 新菱冷熱工業株式会社は10月21日、サイバー攻撃によるシステム障害の発生について発表した。 これは10月17日に、第三者からのサイバー攻撃でシステム障害が発生したというもの。システム障害に伴い、同社提供の一部サービスにも影響が発生している。 同社によると、現時点で個人情報や顧客データが外部流出した事実は確認されていないが、継続して調査を行っている。 自宅玄関にマトリョーシカ ～ ランサムウェア攻撃の 37 ％で関係者個人に心理的・身体的脅迫 [グローバル調査] 2026.10.20 Tue 8:15 NECがシステム開発・保守業務を委託している"
@@ -2862,7 +2770,6 @@
             "電話番号",
             "メールアドレス",
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56638;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社ジグザグは10月19日、同社が運営する越境ECサービス「WorldShopping」への不正アクセスについて発表した。 これは10月16日に、「WorldShopping」への外部からの不審なアクセスを検知し、調査した結果、10月15日から16日にかけて第三者から不正アクセスがあり、同社が保有する顧客の個人情報の漏えいが判明したというもの。 漏えいしたのは、海外（台湾、香港、米国、韓国、中国ほか）の顧客301名のメールアドレス、氏名、住所、電話番号、注文に関する情報を含む個人情報。なお、「WorldShopping BIZ」を導入してい"
@@ -2920,7 +2827,6 @@
       "leaked_data": [
         "メールアドレス",
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56639;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社アイドマ・ホールディングスは10月20日、在宅ワーク求人サイト「ママワークス」への不正アクセスについて発表した。 これは「ママワークス」の運営に用いられるシステムの設定に脆弱性があり、第三者から不正アクセスが行われ、会員の個人情報の一部が漏えいした可能性が判明したというもの。 同社では、「ママワークス」の会員名簿とされるデータがインターネット上にアップロードされている旨の報告が警察からあり、同データが実際の会員名簿の可能性があるか等、外部の専門調査会社に調査を依頼した結果、システム設定の脆弱性による不正アクセスが確認されたことから、同デ",
@@ -2942,7 +2848,6 @@
           "leaked_data": [
             "メールアドレス",
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56639;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社アイドマ・ホールディングスは10月20日、在宅ワーク求人サイト「ママワークス」への不正アクセスについて発表した。 これは「ママワークス」の運営に用いられるシステムの設定に脆弱性があり、第三者から不正アクセスが行われ、会員の個人情報の一部が漏えいした可能性が判明したというもの。 同社では、「ママワークス」の会員名簿とされるデータがインターネット上にアップロードされている旨の報告が警察からあり、同データが実際の会員名簿の可能性があるか等、外部の専門調査会社に調査を依頼した結果、システム設定の脆弱性による不正アクセスが確認されたことから、同デ"
@@ -3001,13 +2906,8 @@
       "attack_type": "不正アクセス",
       "leak_status": "確認・可能性あり",
       "leak_count": "8,280",
-      "leaked_data": [
-        "メールアドレス",
-        "クレジットカード情報",
-        "認証情報",
-        "会員情報"
-      ],
-      "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56645;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); ユミルリンク株式会社は10月27日、10月19日に公表した同社システムへの不正アクセスについて、第二報を発表した。 同社では10月16日未明に、同社担当者が一部システムへの不正アクセスを確認したため、当該システムのアクセス記録を確認したところ、プログラムの脆弱性により同社サポート・品質管理担当者のサービスへの認証情報を取得していること、不正プログラムを設置しデータベースからデータを出力していること、同社サポート・品質管理担当者の認証情報を用い、他のシステムへの認証を試みていることを確認しており、外部専門家の協力のもと詳細調査を進めていた。 同社",
+      "leaked_data": [],
+      "incident_summary": "ユミルリンクのメール配信サービスの一部サーバシステムに不正アクセス、延べ5,162万8,280件の情報が流出 ユミルリンク株式会社は10月27日、10月19日に公表した同社システムへの不正アクセスについて、第二報を発表した。",
       "sources": [
         "ScanNetSecurity"
       ],
@@ -3023,13 +2923,8 @@
           "attack_type": "不正アクセス",
           "leak_status": "確認・可能性あり",
           "leak_count": "8,280",
-          "leaked_data": [
-            "メールアドレス",
-            "クレジットカード情報",
-            "認証情報",
-            "会員情報"
-          ],
-          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56645;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); ユミルリンク株式会社は10月27日、10月19日に公表した同社システムへの不正アクセスについて、第二報を発表した。 同社では10月16日未明に、同社担当者が一部システムへの不正アクセスを確認したため、当該システムのアクセス記録を確認したところ、プログラムの脆弱性により同社サポート・品質管理担当者のサービスへの認証情報を取得していること、不正プログラムを設置しデータベースからデータを出力していること、同社サポート・品質管理担当者の認証情報を用い、他のシステムへの認証を試みていることを確認しており、外部専門家の協力のもと詳細調査を進めていた。 同社"
+          "leaked_data": [],
+          "incident_summary": "ユミルリンクのメール配信サービスの一部サーバシステムに不正アクセス、延べ5,162万8,280件の情報が流出 ユミルリンク株式会社は10月27日、10月19日に公表した同社システムへの不正アクセスについて、第二報を発表した。"
         }
       ],
       "source_count": 1,
@@ -3072,7 +2967,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56553;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社アバハウスインターナショナルは10月3日、同社の社内システムへの不正アクセスについて発表した。 これは9月27日深夜から28日にかけて、海外の第三者から不正アクセスがあったと推定されるもので、9月28日に複数の顧客から「ご注文情報と一致する不審な返金案内メールを受信した」との問い合わせがあり、社内で調査した結果、同社が保有する会員情報・受注情報の一部への不正アクセスの痕跡を確認している。 ConoHa WING byGMO に不正アクセス、不正プログラムを設置 2026.10.14 Wed 8:05 日本原子力研究開発機構が運用している"
@@ -3092,7 +2986,6 @@
             "氏名",
             "住所",
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56616;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社ネットプロテクションズは10月22日、同社が運営するBtoC通販向け決済「NP後払い」への不正アクセスについて発表した。 これは「NP後払い」サービスの請求書再発行システムに対し第三者から通常想定されない方法で機械的かつ連続的なリクエストが行われたことで、顧客の個人情報の一部へのアクセスが10月14日に判明したというもの。 アクセスが確認されたのは、 「NP後払い」を利用した一部の取引28,884件の個人情報（氏名、住所）。なお、法人利用の場合は、会社名、部署名も含まれる。 中古車情報サイト「カーセンサーnet」と中古車販売店向け業務支"
@@ -3110,7 +3003,6 @@
           "leak_count": "2",
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56641;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社Sallyは10月21日、不正アクセスによる問い合わせ情報漏えいの可能性について発表した。 これは同社が問い合わせ対応のために預かっている情報の一部が、2件の不正アクセスにより外部に漏えいした可能性が判明したというもの。 漏えいの可能性がある情報は下記の通り。 中古車情報サイト「カーセンサーnet」と中古車販売店向け業務支援サービス「C-MATCH」への不正アクセス、最大370万9,551件の個人情報が漏えいした可能性 2026.10.23 Fri 8:05 ふるさと納税ポータルサイト「ふるさとチョイス」に不正アクセス、泉大津市で寄附の"
@@ -3239,7 +3131,6 @@
       "leak_count": null,
       "leaked_data": [
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56646;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 楽天グループ株式会社は10月26日、海外ホテル予約サイトの一部ページと多言語予約サイトへの不正アクセスについて発表した。 これは同社が運営する旅行予約サービス「楽天トラベル」の海外ホテル予約サイトのうち、同社の子会社であるRakuten Travel Xchangeが管理・運営する一部のページと同社が管理・運営する多言語予約サイトに対し、社外の第三者からの不正アクセスを確認したというもの。 同社では9月10日に、同社の海外ホテル予約サイトのうちRakuten Travel Xchangeが管理・運営する一部のページで異常を検知している。同社では",
@@ -3260,7 +3151,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56646;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 楽天グループ株式会社は10月26日、海外ホテル予約サイトの一部ページと多言語予約サイトへの不正アクセスについて発表した。 これは同社が運営する旅行予約サービス「楽天トラベル」の海外ホテル予約サイトのうち、同社の子会社であるRakuten Travel Xchangeが管理・運営する一部のページと同社が管理・運営する多言語予約サイトに対し、社外の第三者からの不正アクセスを確認したというもの。 同社では9月10日に、同社の海外ホテル予約サイトのうちRakuten Travel Xchangeが管理・運営する一部のページで異常を検知している。同社では"
@@ -3327,7 +3217,6 @@
         "メールアドレス",
         "クレジットカード情報",
         "認証情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56640;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); PingCAP株式会社は10月、不正アクセスによる情報漏えいについて発表した。 これは米国時間9月9日から10月7日にかけて、第三者が不正取得したアカウントの認証情報を使用し、PingCAPの社内システムにアクセスし、データの複製を取得したというもの。日本国内で最大約5万件の個人情報漏えいが判明している。 PingCAPでは米国時間10月7日に本インシデントを認識し、同日中に影響を受けた認証情報の無効化を開始している。 「ふるさとチョイス」に不正アクセス、4,454,097件の会員情報が流出 2026.10.22 Thu 8:05 ユミルリンク",
@@ -3350,7 +3239,6 @@
             "メールアドレス",
             "クレジットカード情報",
             "認証情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56640;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); PingCAP株式会社は10月、不正アクセスによる情報漏えいについて発表した。 これは米国時間9月9日から10月7日にかけて、第三者が不正取得したアカウントの認証情報を使用し、PingCAPの社内システムにアクセスし、データの複製を取得したというもの。日本国内で最大約5万件の個人情報漏えいが判明している。 PingCAPでは米国時間10月7日に本インシデントを認識し、同日中に影響を受けた認証情報の無効化を開始している。 「ふるさとチョイス」に不正アクセス、4,454,097件の会員情報が流出 2026.10.22 Thu 8:05 ユミルリンク"
@@ -3798,7 +3686,6 @@
       "leak_count": null,
       "leaked_data": [
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56630;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 東証プライム上場企業の東邦ホールディングス株式会社は10月19日、同社の子会社でリモートディテーリング事業等を行うエンタッチ株式会社への不正アクセスについて発表した。 これはエンタッチが管理するデータベースに第三者から不正アクセスがあり、リモートディテーリング事業に関するデータが外部に漏えいしたというもので、10月13日午後4時頃に発覚した。ランサムウェア攻撃を行う第三者による不正アクセスが原因という。 エンタッチのリモートディテーリング事業は、東邦ホールディングスの医薬品卸売事業子会社である東邦薬品株式会社からの受託のもとで行っている場合と、",
@@ -3820,7 +3707,6 @@
           "leaked_data": [
             "クレジットカード情報",
             "認証情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56542;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 日本電気株式会社（NEC）は10月20日、NECがシステム開発および保守業務を委託している企業へのサイバー攻撃について発表した。 これは9月下旬に委託先にサイバー攻撃があり、窃取された正規アカウントの認証情報が悪用されたことで、NECの顧客への不正アクセスによる被害や個人情報を含む情報の漏えいを確認したというもの。 自宅玄関にマトリョーシカ ～ ランサムウェア攻撃の 37 ％で関係者個人に心理的・身体的脅迫 [グローバル調査] 2026.10.20 Tue 8:15 今後は侵入経路と考えられるリモートデスクトップ接続を遮断 ～ 八王子学園 ラン"
@@ -3838,7 +3724,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56605;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 北海道釧路市は10月15日、委託事業者への不正アクセスについて発表した。 これは8月29日に、同市の市立小中学校の学習用端末の管理運用業務を委託している株式会社ポータスの社内サーバにランサムウェア攻撃があったというもの。 ポータスでは当初、同市が利用するサーバに影響はないと報告していたが、その後の外部専門機関による調査で、同市の端末設定等に関する情報を保存していたサーバで不正アクセスの痕跡が確認され、同市に対し情報が外部に流出した可能性を否定できないとの報告を10月13日に行っている。 今後は侵入経路と考えられるリモートデスクトップ接続を遮断 "
@@ -3856,7 +3741,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56627;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); エンタッチ株式会社は10月19日、同社が管理するデータベースへの不正アクセスについて発表した。 これは10月9日に、ランサムウェア攻撃グループを名乗る第三者の不正アクセスで同社が保有するデータベース内の情報が流出したというもので、10月13日午後4時頃に発覚した。 現時点で判明している漏えいが確認された情報は下記の通り。なお、対象となる可能性のある件数・範囲については調査中となっている。 自宅玄関にマトリョーシカ ～ ランサムウェア攻撃の 37 ％で関係者個人に心理的・身体的脅迫 [グローバル調査] 2026.10.20 Tue 8:15 今後"
@@ -3874,7 +3758,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56630;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 東証プライム上場企業の東邦ホールディングス株式会社は10月19日、同社の子会社でリモートディテーリング事業等を行うエンタッチ株式会社への不正アクセスについて発表した。 これはエンタッチが管理するデータベースに第三者から不正アクセスがあり、リモートディテーリング事業に関するデータが外部に漏えいしたというもので、10月13日午後4時頃に発覚した。ランサムウェア攻撃を行う第三者による不正アクセスが原因という。 エンタッチのリモートディテーリング事業は、東邦ホールディングスの医薬品卸売事業子会社である東邦薬品株式会社からの受託のもとで行っている場合と、"
@@ -3896,7 +3779,6 @@
       "leak_count": null,
       "leaked_data": [
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56626;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社アルカディアは10月19日、10月13日に公表した同社が運営する「SpeeCAN RAIDEN」への不正アクセスについて、現時点で判明している事実、影響範囲、対応状況、今後の対応方針について発表した。 同社では10月11日に、「SpeeCAN RAIDEN」への不正アクセスが疑われる不審な挙動を確認しており、10月12日午前3時頃に侵入経路を塞ぐ応急措置を講じるとともに、影響範囲を特定するための調査を開始していた。 同社では、添付ファイルを公開しているメディアサーバに内部のURLにアクセスできるディレクトリパストラバーサルが存在しており",
@@ -3917,7 +3799,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56626;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社アルカディアは10月19日、10月13日に公表した同社が運営する「SpeeCAN RAIDEN」への不正アクセスについて、現時点で判明している事実、影響範囲、対応状況、今後の対応方針について発表した。 同社では10月11日に、「SpeeCAN RAIDEN」への不正アクセスが疑われる不審な挙動を確認しており、10月12日午前3時頃に侵入経路を塞ぐ応急措置を講じるとともに、影響範囲を特定するための調査を開始していた。 同社では、添付ファイルを公開しているメディアサーバに内部のURLにアクセスできるディレクトリパストラバーサルが存在しており"
@@ -4113,7 +3994,7 @@
       "leaked_data": [
         "会員情報"
       ],
-      "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56633;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); ソニーネットワークコミュニケーションズ株式会社は10月27日、同社が提供するインターネット接続サービス「So-net」の会員データベースへの不正アクセスについて発表した。 これは10月19日に、So-net会員データベースに外部から不正アクセスがあったというもので、同社では10月23日に不正アクセスを確認し、調査した結果、不正アクセスによる個人情報の漏えいが認められ、その項目・件数を把握している。 漏えいした情報は下記の通り。 メールアドレスが意図せず変更される事象確認 ～ So-net へのパスワードリスト型攻撃 2025.7.16 Wed ",
+      "incident_summary": "So-net 会員データベースに不正アクセス、会員情報214万1,986件が漏えい ソニーネットワークコミュニケーションズ株式会社は10月27日、同社が提供するインターネット接続サービス「So-net」の会員データベースへの不正アクセスについて発表した。",
       "sources": [
         "ScanNetSecurity"
       ],
@@ -4132,7 +4013,7 @@
           "leaked_data": [
             "会員情報"
           ],
-          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56633;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); ソニーネットワークコミュニケーションズ株式会社は10月27日、同社が提供するインターネット接続サービス「So-net」の会員データベースへの不正アクセスについて発表した。 これは10月19日に、So-net会員データベースに外部から不正アクセスがあったというもので、同社では10月23日に不正アクセスを確認し、調査した結果、不正アクセスによる個人情報の漏えいが認められ、その項目・件数を把握している。 漏えいした情報は下記の通り。 メールアドレスが意図せず変更される事象確認 ～ So-net へのパスワードリスト型攻撃 2025.7.16 Wed "
+          "incident_summary": "So-net 会員データベースに不正アクセス、会員情報214万1,986件が漏えい ソニーネットワークコミュニケーションズ株式会社は10月27日、同社が提供するインターネット接続サービス「So-net」の会員データベースへの不正アクセスについて発表した。"
         }
       ],
       "source_count": 1,
@@ -4191,7 +4072,6 @@
       "leaked_data": [
         "メールアドレス",
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56615;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 石油資源開発株式会社（JAPEX）は10月21日、同社が情報発信で利用している株式会社ラクスライトクラウドのサービスへの不正アクセスについて発表した。 これは同社が「JAPEX メールマガジン」および機関投資家、証券アナリストに向けたイベント案内の配信ツールとして利用するラクスライトクラウド提供のASPサービス「blastmail」に第三者から不正アクセスがあり、同社が管理する個人情報が漏えいした可能性が判明したというもの。 10月21日に、ラクスライトクラウドから報告があり、発覚した。 漏えいした可能性のある個人情報は下記の通り。 メール配信",
@@ -4213,7 +4093,6 @@
           "leaked_data": [
             "メールアドレス",
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56615;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 石油資源開発株式会社（JAPEX）は10月21日、同社が情報発信で利用している株式会社ラクスライトクラウドのサービスへの不正アクセスについて発表した。 これは同社が「JAPEX メールマガジン」および機関投資家、証券アナリストに向けたイベント案内の配信ツールとして利用するラクスライトクラウド提供のASPサービス「blastmail」に第三者から不正アクセスがあり、同社が管理する個人情報が漏えいした可能性が判明したというもの。 10月21日に、ラクスライトクラウドから報告があり、発覚した。 漏えいした可能性のある個人情報は下記の通り。 メール配信"
@@ -4235,7 +4114,6 @@
       "leak_count": null,
       "leaked_data": [
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56618;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社メドレーは10月20日、同社が提供する医療機関業務支援システム「@link（アットリンク）」への不正アクセスについて発表した。 これはアットリンクで第三者からの不正アクセスを確認したことを受け、原因および影響範囲の調査と被害の拡大防止のため、10月14日深夜から「@link」、患者向けの「アットリンクアプリ」および周辺サービスの提供を一時停止したというもの。 同社では、第三者からの不正アクセスの原因と影響範囲について、外部の専門機関と連携して個人情報への影響について調査を継続している。 社内調査で発覚 ～ ライツフォル、外部 Q&A サ",
@@ -4256,7 +4134,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56618;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社メドレーは10月20日、同社が提供する医療機関業務支援システム「@link（アットリンク）」への不正アクセスについて発表した。 これはアットリンクで第三者からの不正アクセスを確認したことを受け、原因および影響範囲の調査と被害の拡大防止のため、10月14日深夜から「@link」、患者向けの「アットリンクアプリ」および周辺サービスの提供を一時停止したというもの。 同社では、第三者からの不正アクセスの原因と影響範囲について、外部の専門機関と連携して個人情報への影響について調査を継続している。 社内調査で発覚 ～ ライツフォル、外部 Q&A サ"
@@ -4278,7 +4155,6 @@
       "leak_count": null,
       "leaked_data": [
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56614;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 丸木医科器械株式会社は10月15日、同社サーバへのサイバー攻撃について発表した。 これは10月15日午前10時頃から、同社サーバに不審なアクセス（サイバー攻撃）を受けた影響で、基幹システム（発注・仕入・入出庫管理）が全面的にダウンしたというもの。 同社では、発注・仕入・入出庫データへのアクセスおよび処理ができない状況で、一時的に商品の注文受付と商品の出荷業務を停止せざるを得ないという。 ミヤキのファイルサーバにランサムウェア攻撃、メールシステムが復旧未定で電話・FAXで対応 2024.9.25 Wed 8:05 東和エンジニアリングへのランサム",
@@ -4299,7 +4175,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56614;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 丸木医科器械株式会社は10月15日、同社サーバへのサイバー攻撃について発表した。 これは10月15日午前10時頃から、同社サーバに不審なアクセス（サイバー攻撃）を受けた影響で、基幹システム（発注・仕入・入出庫管理）が全面的にダウンしたというもの。 同社では、発注・仕入・入出庫データへのアクセスおよび処理ができない状況で、一時的に商品の注文受付と商品の出荷業務を停止せざるを得ないという。 ミヤキのファイルサーバにランサムウェア攻撃、メールシステムが復旧未定で電話・FAXで対応 2024.9.25 Wed 8:05 東和エンジニアリングへのランサム"
@@ -4357,7 +4232,6 @@
       "leaked_data": [
         "クレジットカード情報",
         "口座情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56621;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 三井住友DSアセットマネジメント株式会社は10月16日、三井住友DS投信直販ネットのマイページ一時利用停止について発表した。 これは同サービスの取引委託業者のシステムで第三者からの不正アクセスを検知し、一時的な予防的措置としてシステムを停止したため、10月15日午後7時50分頃から10月16日午前6時頃の間、マイページにログインできない状況が発生したというもの。 同社によると、現時点で顧客の口座情報や取引への影響は確認されていない。 佐川急便「お荷物問い合わせサービス」に不正アクセス 第4報 2026.10.19 Mon 8:05 バーガーキン",
@@ -4379,7 +4253,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56497;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); GMOリサーチ&AI株式会社は10月14日、10月5日に公表した同社が運営するアンケートサイト「infoQ」への不正アクセスについて、第2報を発表した。 同社では10月2日以降に、「infoQ」のサーバに第三者から不正アクセスがあり、会員の個人情報が外部に持ち出されたこと、一部会員のポイントが本人の意思によらずAmazonギフトコードに交換されたことを確認していた。10月3日午前に 会員からのお問い合わせを受けて調査した結果、不正アクセスが発覚した。 「ベネワン・プラットフォーム」のアンケート機能で他企業・団体の個人情報がダウンロード可能に、不"
@@ -4458,7 +4331,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56606;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); Studio株式会社は10月16日、同社が利用するクラウド環境への不正アクセスについて発表した。 これは2026年9月30日から10月1日の期間、第三者がStudioの一部機能の脆弱性を悪用して同社のクラウド環境に不正にアクセスし、環境内のデータを外部から取得できる状態にしていたというもの。 同社では10月13日に、社内調査で不正アクセスを確認し、同日から14日にかけて脆弱性を修正し、不正アクセスに利用された経路を塞ぐ対応を完了し、外部から取得できる状態を解消している。 佐川急便「お荷物問い合わせサービス」に不正アクセス 第4報 2026.10"
@@ -4494,7 +4366,6 @@
             "氏名",
             "メールアドレス",
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56604;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); エムスリー株式会社は10月15日、同社が運営する製薬企業向けサービス「MR君」のシステムへの不正アクセスについて発表した。 これは10月14日に、「MR君」のシステムに第三者からの不正アクセスを確認したというもので、調査の結果、一部の医師会員および製薬企業の担当者に関する情報の漏えいが判明している。 同社が現時点で不正アクセスを確認している情報には、一部の医師会員（医師会員全体の1割未満）、および製薬企業の担当者（数百名規模）の氏名、勤務先、一部のメールアドレス等が含まれている。 佐川急便「お荷物問い合わせサービス」に不正アクセス 第4報 20"
@@ -4513,7 +4384,6 @@
           "leaked_data": [
             "クレジットカード情報",
             "口座情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56621;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 三井住友DSアセットマネジメント株式会社は10月16日、三井住友DS投信直販ネットのマイページ一時利用停止について発表した。 これは同サービスの取引委託業者のシステムで第三者からの不正アクセスを検知し、一時的な予防的措置としてシステムを停止したため、10月15日午後7時50分頃から10月16日午前6時頃の間、マイページにログインできない状況が発生したというもの。 同社によると、現時点で顧客の口座情報や取引への影響は確認されていない。 佐川急便「お荷物問い合わせサービス」に不正アクセス 第4報 2026.10.19 Mon 8:05 バーガーキン"
@@ -4536,7 +4406,6 @@
       "leaked_data": [
         "メールアドレス",
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56617;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); パナソニック オペレーショナルエクセレンス株式会社は10月23日、外部生成AIサービスへの個人情報のアップロードについて発表した。 これはパナソニック オペレーショナルエクセレンスと子会社のパナソニック デジタル株式会社が進める人事情報システム導入プロジェクトにて、プロジェクトメンバーがパナソニックグループ従業員、元従業員および家族の個人情報を含むデータを外部の生成AIサービスにアップロードしたというもの。 パナソニック オペレーショナルエクセレンスでは、外部の生成AIサービスの利用を禁止していたが、プロジェクトメンバーがルールに違反し、データ",
@@ -4558,7 +4427,6 @@
           "leaked_data": [
             "メールアドレス",
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56617;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); パナソニック オペレーショナルエクセレンス株式会社は10月23日、外部生成AIサービスへの個人情報のアップロードについて発表した。 これはパナソニック オペレーショナルエクセレンスと子会社のパナソニック デジタル株式会社が進める人事情報システム導入プロジェクトにて、プロジェクトメンバーがパナソニックグループ従業員、元従業員および家族の個人情報を含むデータを外部の生成AIサービスにアップロードしたというもの。 パナソニック オペレーショナルエクセレンスでは、外部の生成AIサービスの利用を禁止していたが、プロジェクトメンバーがルールに違反し、データ"
@@ -4582,7 +4450,6 @@
         "氏名",
         "メールアドレス",
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56619;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社フジテレビジョンは10月20日、同社の番組宣伝システムへの不正アクセスについて発表した。 これは10月19日夜に、同社の番組宣伝システムへの第三者からの不正アクセスが発生したというもので、当該システムに登録されていたメディア関係者の個人情報が外部に漏えいした可能性がある。 漏えいした可能性があるのは、メディア関係者の氏名、会社名、メールアドレス等を含む最大 730件の個人情報。 懲戒解雇処分 フジテレビ元社員が取材情報や内部情報を競合他社に漏えい 2026.2.17 Tue 8:05 意図的に削除した電子データを復元してレビュー対象に ",
@@ -4605,7 +4472,6 @@
             "氏名",
             "メールアドレス",
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56619;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社フジテレビジョンは10月20日、同社の番組宣伝システムへの不正アクセスについて発表した。 これは10月19日夜に、同社の番組宣伝システムへの第三者からの不正アクセスが発生したというもので、当該システムに登録されていたメディア関係者の個人情報が外部に漏えいした可能性がある。 漏えいした可能性があるのは、メディア関係者の氏名、会社名、メールアドレス等を含む最大 730件の個人情報。 懲戒解雇処分 フジテレビ元社員が取材情報や内部情報を競合他社に漏えい 2026.2.17 Tue 8:05 意図的に削除した電子データを復元してレビュー対象に "
@@ -4627,7 +4493,6 @@
       "leak_count": "6,000",
       "leaked_data": [
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56620;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社Eストアーは10月16日、8月1日に公表した同社が運営するECサイト構築・運営支援サービス「ショップサーブ」への不正アクセスによる情報漏えいについて、最終報を発表した。 「ショップサーブ」では2026年5月21日から8月1日に、外部の第三者が同社サーバ上で不正なプログラムを実行し、購入者情報を外部へ送信したことで、購入者情報が漏えいしており、外部の専門機関によるフォレンジック調査も含め、必要な調査と確認を継続していた。 調査結果によると、2026年5月21日から8月1日までの期間に外部の第三者が、同社サーバ上で稼働するアプリケーションの",
@@ -4648,7 +4513,6 @@
           "leak_count": "6,000",
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56620;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社Eストアーは10月16日、8月1日に公表した同社が運営するECサイト構築・運営支援サービス「ショップサーブ」への不正アクセスによる情報漏えいについて、最終報を発表した。 「ショップサーブ」では2026年5月21日から8月1日に、外部の第三者が同社サーバ上で不正なプログラムを実行し、購入者情報を外部へ送信したことで、購入者情報が漏えいしており、外部の専門機関によるフォレンジック調査も含め、必要な調査と確認を継続していた。 調査結果によると、2026年5月21日から8月1日までの期間に外部の第三者が、同社サーバ上で稼働するアプリケーションの"
@@ -4716,7 +4580,6 @@
         "メールアドレス",
         "生年月日",
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56602;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社トイポは10月14日、同社が開発・運営する行動データプラットフォーム「トイポアプリ」への不正アクセスによる一部顧客の個人情報が外部に漏えいした可能性ついて発表した。 これは10月4日に、同社システムへの第三者からの不正アクセスを確認し、調査を行った結果、一部のシステムに本来アクセスする権限を有しない第三者が他のユーザー情報を取得できる脆弱性が判明したというもの。 不正アクセスの対象となったのは697,209名のユーザーの登録情報（電話番号、ユーザーID等の識別情報、氏名（登録している場合）、氏名カナ（登録している場合）、メールアドレス（",
@@ -4756,7 +4619,6 @@
           "leaked_data": [
             "メールアドレス",
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56577;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社ニモカは10月6日、nimoca利用履歴照会サービスへの不正アクセスについて発表した。 これは10月4日に、nimoca利用履歴照会サービスへの第三者からの不正アクセスによる一部顧客の個人情報漏えい判明したというもの。 同社では10月4日午前9時頃に、顧客からnimocaコールセンターに「身に覚えのないメールが届いた」との問い合わせがあり、調査した結果、同社が提供する利用履歴照会サービスへの第三者からの不正アクセスがあり、一部顧客に当該サービスに登録されたメールアドレス宛に登録情報の一部を含むメールが送信されたことが判明している。 シス"
@@ -4774,7 +4636,6 @@
           "leak_count": "5,154",
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56580;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社ミスターマックスは10月6日、同社への不正アクセスによる情報流出について発表した。 これは同社が運営する「MrMaxアプリ」およびオンラインストアのサーバに第三者から不正アクセスがあり、同社の保有する情報の一部が外部流出したことを確認したというもの。 同社では10月3日夕方に、同社サーバーへの不審なアクセスを確認し、「MrMaxアプリ」およびオンラインストアを一時停止し、外部からのアクセスを遮断する措置を講じるとともに、調査を行った結果、第三者が同社サービスを構成するソフトウェアの機能を不正に利用してサーバに侵入し、同社サービス会員の個"
@@ -4813,7 +4674,6 @@
             "メールアドレス",
             "生年月日",
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56602;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社トイポは10月14日、同社が開発・運営する行動データプラットフォーム「トイポアプリ」への不正アクセスによる一部顧客の個人情報が外部に漏えいした可能性ついて発表した。 これは10月4日に、同社システムへの第三者からの不正アクセスを確認し、調査を行った結果、一部のシステムに本来アクセスする権限を有しない第三者が他のユーザー情報を取得できる脆弱性が判明したというもの。 不正アクセスの対象となったのは697,209名のユーザーの登録情報（電話番号、ユーザーID等の識別情報、氏名（登録している場合）、氏名カナ（登録している場合）、メールアドレス（"
@@ -4879,7 +4739,6 @@
       "leaked_data": [
         "クレジットカード情報",
         "認証情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56600;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 札幌国際大学は10月14日、同学のメールアカウントへの不正アクセスについて発表した。 これは7月9日以降、同学の学生および教職員がフィッシングメールを受信し、本文のURLから偽装サイトにアクセスしたことでメールアカウントが第三者に不正利用されたというもの。 同学で調査した結果、複数のアカウントへの不正アクセスが確認されており、これらのアカウントを踏み台に、学内外の宛先に大量のフィッシングメールの送信が行われていた。 東洋紡せんいのメールアカウントに不正アクセス、約1,500件の不審メール送信 2026.10.15 Thu 8:05 教育産業のメ",
@@ -4901,7 +4760,6 @@
           "leaked_data": [
             "クレジットカード情報",
             "認証情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56600;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 札幌国際大学は10月14日、同学のメールアカウントへの不正アクセスについて発表した。 これは7月9日以降、同学の学生および教職員がフィッシングメールを受信し、本文のURLから偽装サイトにアクセスしたことでメールアカウントが第三者に不正利用されたというもの。 同学で調査した結果、複数のアカウントへの不正アクセスが確認されており、これらのアカウントを踏み台に、学内外の宛先に大量のフィッシングメールの送信が行われていた。 東洋紡せんいのメールアカウントに不正アクセス、約1,500件の不審メール送信 2026.10.15 Thu 8:05 教育産業のメ"
@@ -4994,7 +4852,6 @@
       "leak_count": null,
       "leaked_data": [
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "一般財団法人日本情報経済社会推進協会（JIPDEC）は10月19日、プライバシーマーク付与事業者の経営者向け啓発資料「不正アクセスに対する安全管理措置について」を公開した。 JIPDECでは昨年度、プライバシーマーク付与事業者のシステム管理者向けに、不正アクセス対策として基本的かつ効果が高いと思われる対策等をまとめた啓発資料「（付与事業者限定）不正アクセスに対する安全管理措置について」を公開したが、不正アクセス対策は経営者の積極的な関与も不可欠であるとし、経営者が果たすべき役割や実施事項をまとめた啓発資料を新たに公開する。 同資料は、本編の内容を簡潔にまとめた「概要編」（5ページ）と、Pマークポータルサイトでプライバシーマーク付与事業者のみ限定公開の「本編」（21ページ）がある。「本編」は、不正アクセス対策における経営者の役割や実施すべき事項について、昨年度公開したシステム管理者向けの啓発資料とあわせて実施すると効果が高い内容としてまとめている。 一般財団法人日本情報経済社会推進協会（JIPDEC）が不正アクセス対策として基本的かつ効果が高いと思われる対策を「限定公開」 2025.12",
@@ -5015,7 +4872,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "一般財団法人日本情報経済社会推進協会（JIPDEC）は10月19日、プライバシーマーク付与事業者の経営者向け啓発資料「不正アクセスに対する安全管理措置について」を公開した。 JIPDECでは昨年度、プライバシーマーク付与事業者のシステム管理者向けに、不正アクセス対策として基本的かつ効果が高いと思われる対策等をまとめた啓発資料「（付与事業者限定）不正アクセスに対する安全管理措置について」を公開したが、不正アクセス対策は経営者の積極的な関与も不可欠であるとし、経営者が果たすべき役割や実施事項をまとめた啓発資料を新たに公開する。 同資料は、本編の内容を簡潔にまとめた「概要編」（5ページ）と、Pマークポータルサイトでプライバシーマーク付与事業者のみ限定公開の「本編」（21ページ）がある。「本編」は、不正アクセス対策における経営者の役割や実施すべき事項について、昨年度公開したシステム管理者向けの啓発資料とあわせて実施すると効果が高い内容としてまとめている。 一般財団法人日本情報経済社会推進協会（JIPDEC）が不正アクセス対策として基本的かつ効果が高いと思われる対策を「限定公開」 2025.12",
@@ -5039,7 +4895,6 @@
       "leaked_data": [
         "クレジットカード情報",
         "口座情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56608;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); デジタル庁は10月22日、同庁がホームページ運営の一部にサービスを利用していたStudio株式会社への不正アクセスについて発表した。 これはStudioのクラウド環境に第三者から不正アクセスがあり、同環境内のデータを外部から取得できる状態にしていたとの報告が10月16日にあったというもの。 漏えいした可能性がある個人情報の範囲は現在精査中だが、現時点で対象となり得る個人情報は下記の通り。 VPNの脆弱性を利用 ～ デジタル庁が運用するガバメントソリューションサービス（GSS）に不正アクセス、約24.6万件の個人情報が漏えいした可能性 2026.",
@@ -5060,7 +4915,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56586;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 東証プライム上場企業のパーク24株式会社は10月23日、9月25日に公表した連結子会社であるタイムズモビリティ株式会社への不正アクセスについて、第5報を発表した。 タイムズモビリティでは9月25日午前9時7分に、タイムズモビリティ運営のカーシェアリングサービス「タイムズカー」のWebシステムで不正アクセスを検知したため、調査した結果、第三者がシステムに不正アクセスし、同社グループの保有する個人情報の一部を閲覧または不正に取得していたことが判明していた。 外部専門機関によるフォレンジック調査を進めた結果、本事案に関連してタイムズクラブWebシステ"
@@ -5079,7 +4933,6 @@
           "leaked_data": [
             "クレジットカード情報",
             "口座情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56608;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); デジタル庁は10月22日、同庁がホームページ運営の一部にサービスを利用していたStudio株式会社への不正アクセスについて発表した。 これはStudioのクラウド環境に第三者から不正アクセスがあり、同環境内のデータを外部から取得できる状態にしていたとの報告が10月16日にあったというもの。 漏えいした可能性がある個人情報の範囲は現在精査中だが、現時点で対象となり得る個人情報は下記の通り。 VPNの脆弱性を利用 ～ デジタル庁が運用するガバメントソリューションサービス（GSS）に不正アクセス、約24.6万件の個人情報が漏えいした可能性 2026."
@@ -5152,7 +5005,6 @@
       "leak_count": null,
       "leaked_data": [
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56607;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); JFEケミカル株式会社は10月21日、同社IT環境への不正アクセスについて発表した。 これは10月14日に同社にて不正アクセスの可能性を認識し調査した結果、同社IT環境に対する不正なアクセスが行われデータが不正に取得されたことが10月19日に判明したというもの。 同社では不正取得を認識後に、社内に緊急対策本部を設置し、外部のサイバーセキュリティ専門機関と連携し、影響範囲の調査と被害拡大防止のための対応を進めている。 JFEグループ会社のWebサイトに不正アクセス、不審メール送信の踏み台に 2022.6.9 Thu 8:05 VOISING が利",
@@ -5173,7 +5025,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56607;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); JFEケミカル株式会社は10月21日、同社IT環境への不正アクセスについて発表した。 これは10月14日に同社にて不正アクセスの可能性を認識し調査した結果、同社IT環境に対する不正なアクセスが行われデータが不正に取得されたことが10月19日に判明したというもの。 同社では不正取得を認識後に、社内に緊急対策本部を設置し、外部のサイバーセキュリティ専門機関と連携し、影響範囲の調査と被害拡大防止のための対応を進めている。 JFEグループ会社のWebサイトに不正アクセス、不審メール送信の踏み台に 2022.6.9 Thu 8:05 VOISING が利"
@@ -5241,7 +5092,6 @@
         "メールアドレス",
         "クレジットカード情報",
         "認証情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56574;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 静岡県焼津市は10月21日、株式会社トラストバンクが運営するふるさと納税ポータルサイト「ふるさとチョイス」への不正アクセスについて発表した。 これは「ふるさとチョイス」に不正アクセスがあり、会員登録をしている寄付者の個人情報が外部流出したというもの。 「ふるさとチョイス」では4,454,097件の会員情報（氏名、メールアドレス、住所、電話番号、ハッシュ化（暗号化）されたパスワード、寄付控除の試算額）の流出が確認されている。 ふるさと納税ポータルサイト「ふるさとチョイス」に不正アクセス、泉大津市で寄附の受付ができない状況に 2026.10.23 ",
@@ -5262,7 +5112,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56556;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 大阪府泉大津市は10月20日、ふるさと納税ポータルサイト「ふるさとチョイス」への不正アクセスによる個人情報流出について発表した。 株式会社トラストバンクが運営する「ふるさとチョイス」に対し第三者から不正アクセスがあり、会員情報の一部が外部流出したと発表があった。 「ふるさとチョイス」に不正アクセス、4,454,097件の会員情報が流出 2026.10.22 Thu 8:05 ふるさと納税申込者の個人情報が閲覧可能に ～ 島根県海士町 2025.8.5 Tue 8:05 SQLインジェクション攻撃 413,867人分の個人情報が漏えいしたと結論づ"
@@ -5285,7 +5134,6 @@
             "メールアドレス",
             "クレジットカード情報",
             "認証情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56574;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 静岡県焼津市は10月21日、株式会社トラストバンクが運営するふるさと納税ポータルサイト「ふるさとチョイス」への不正アクセスについて発表した。 これは「ふるさとチョイス」に不正アクセスがあり、会員登録をしている寄付者の個人情報が外部流出したというもの。 「ふるさとチョイス」では4,454,097件の会員情報（氏名、メールアドレス、住所、電話番号、ハッシュ化（暗号化）されたパスワード、寄付控除の試算額）の流出が確認されている。 ふるさと納税ポータルサイト「ふるさとチョイス」に不正アクセス、泉大津市で寄附の受付ができない状況に 2026.10.23 "
@@ -5307,7 +5155,6 @@
       "leak_count": null,
       "leaked_data": [
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56584;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 楽天モバイル株式会社は10月13日、支払い証明書の第三者閲覧の可能性について発表した。 これは同社が実施した脆弱性診断テストにて、第三者が特定のプログラム等を用いて通常のサービス利用では実施しない特殊な操作を意図的に行うことで、「my 楽天モバイル」からダウンロードできる支払い証明書が第三者に閲覧される可能性があったことが判明したというもの。 同社で確認できる範囲の記録を調査した結果、現時点で第三者による閲覧等は確認されていない。 楽天ドライブに不正アクセス、管理アカウント乗っ取りでデータ閲覧 2026.10.8 Thu 8:05 楽天ブックス",
@@ -5328,7 +5175,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56584;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 楽天モバイル株式会社は10月13日、支払い証明書の第三者閲覧の可能性について発表した。 これは同社が実施した脆弱性診断テストにて、第三者が特定のプログラム等を用いて通常のサービス利用では実施しない特殊な操作を意図的に行うことで、「my 楽天モバイル」からダウンロードできる支払い証明書が第三者に閲覧される可能性があったことが判明したというもの。 同社で確認できる範囲の記録を調査した結果、現時点で第三者による閲覧等は確認されていない。 楽天ドライブに不正アクセス、管理アカウント乗っ取りでデータ閲覧 2026.10.8 Thu 8:05 楽天ブックス"
@@ -5408,7 +5254,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56494;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); ホテルグランドヒル市ヶ谷は9月29日、同ホテルが導入しているサイトコントローラー「TEMAIRAZU」シリーズ（複数の宿泊予約サイトを一括管理するシステム）への不正アクセスについて発表した。 これは9月21日深夜に、同システムの提供元である手間いらず株式会社にて、一部の宿泊施設の予約者に不審なメッセージが届いているとの問い合わせがあり、調査した結果、過去に提供していたインストール型サービスを構成する機能の一部にセキュリティ上の問題があり、第三者から「TEMAIRAZU」シリーズへの不正アクセスが判明したというもの。 実行犯が示唆したダークウェブ"
@@ -5446,7 +5291,6 @@
       "leak_count": null,
       "leaked_data": [
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56575;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); ホワイトエッセンス株式会社は10月5日、8月12日に公表した同社システムへの不正アクセスについて、続報を発表した。画像ファイルで公開している。 同社では8月5日に、同社が運営する予約サイトおよび基幹システムで、第三者からの不正アクセスとセキュリティ上のリスクが判明しており、同社システムを一時停止するとともに、外部専門機関による詳細な調査を行っていた。 同社によると、同社が運営する予約サイトのプログラムに存在した脆弱性を悪用され、これを起点として同社の基幹システムに不正アクセスされたことが原因で、同社が預かっていた顧客の個人情報が外部に持ち出され",
@@ -5467,7 +5311,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56575;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); ホワイトエッセンス株式会社は10月5日、8月12日に公表した同社システムへの不正アクセスについて、続報を発表した。画像ファイルで公開している。 同社では8月5日に、同社が運営する予約サイトおよび基幹システムで、第三者からの不正アクセスとセキュリティ上のリスクが判明しており、同社システムを一時停止するとともに、外部専門機関による詳細な調査を行っていた。 同社によると、同社が運営する予約サイトのプログラムに存在した脆弱性を悪用され、これを起点として同社の基幹システムに不正アクセスされたことが原因で、同社が預かっていた顧客の個人情報が外部に持ち出され"
@@ -5644,7 +5487,6 @@
           "leaked_data": [
             "メールアドレス",
             "クレジットカード情報",
-            "顧客情報",
             "従業員情報",
             "会員情報"
           ],
@@ -5664,7 +5506,6 @@
           "leaked_data": [
             "メールアドレス",
             "クレジットカード情報",
-            "顧客情報",
             "従業員情報",
             "会員情報"
           ],
@@ -5684,7 +5525,6 @@
           "leaked_data": [
             "メールアドレス",
             "クレジットカード情報",
-            "顧客情報",
             "従業員情報",
             "会員情報"
           ],
@@ -5763,7 +5603,6 @@
       "leaked_data": [
         "クレジットカード情報",
         "認証情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56578;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); エバーグリーン・マーケティング株式会社は10月6日、7月31日に公表した同社メールアカウントの不正利用について、調査結果を発表した。 同社では6月26日に、同社従業員1名のメールアカウントに第三者から不正ログインが行われ、当該アカウントから社内外にフィッシングを目的とした不審なメールが送信されていた。 同社ではその後、フォレンジック調査および追加調査を行った結果、7月31日時点では把握できていなかった当該アカウント内の個人情報が含まれる情報について、第三者に閲覧された可能性が判明したという。 東洋紡せんいのメールアカウントに不正アクセス、約1,",
@@ -5786,7 +5625,6 @@
             "メールアドレス",
             "クレジットカード情報",
             "認証情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56462;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 東洋紡株式会社は9月25日、同社グループ会社である東洋紡せんい株式会社のメールアカウントへの不正アクセスについて発表した。 これは9月24日午前11時頃に、東洋紡せんいの従業員が利用するメールアカウントに第三者から不正アクセスがあり、当該メールアカウントから同社グループ内部および外部の関係者に約1,500件の不審メールが送信されたというもの。当該メールにはPDFファイルが添付されており、これを開くことで外部サイトに誘導され、メールアドレス、ID、パスワード等の認証情報の入力を求められる内容であった。 東洋紡の情報セキュリティ部門では9月24日午"
@@ -5805,7 +5643,6 @@
           "leaked_data": [
             "クレジットカード情報",
             "認証情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56578;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); エバーグリーン・マーケティング株式会社は10月6日、7月31日に公表した同社メールアカウントの不正利用について、調査結果を発表した。 同社では6月26日に、同社従業員1名のメールアカウントに第三者から不正ログインが行われ、当該アカウントから社内外にフィッシングを目的とした不審なメールが送信されていた。 同社ではその後、フォレンジック調査および追加調査を行った結果、7月31日時点では把握できていなかった当該アカウント内の個人情報が含まれる情報について、第三者に閲覧された可能性が判明したという。 東洋紡せんいのメールアカウントに不正アクセス、約1,"
@@ -5964,7 +5801,6 @@
       "leak_count": null,
       "leaked_data": [
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56565;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 厚生労働省は10月22日、同省の委託事業である「東電福島第一原発廃炉等作業における被ばく低減対策普及啓発事業」での個人情報漏えいについて発表した。 これは同事業を受託するテクノヒル株式会社から、同省との委託契約に基づき運営するウェブサイト「1FEdu」に第三者によるサイバー攻撃があり、個人情報の漏えい及び漏えいした可能性があると報告があったというもの。 運送業者が配送過程で紛失 ～ 厚労省の令和8年最低賃金に関する基礎調査 調査票 2026.9.17 Thu 8:05 以前に発送した宛名ラベルを誤って貼付 ～ 行政文書の開示に係る関係書類の誤送",
@@ -5985,7 +5821,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56565;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 厚生労働省は10月22日、同省の委託事業である「東電福島第一原発廃炉等作業における被ばく低減対策普及啓発事業」での個人情報漏えいについて発表した。 これは同事業を受託するテクノヒル株式会社から、同省との委託契約に基づき運営するウェブサイト「1FEdu」に第三者によるサイバー攻撃があり、個人情報の漏えい及び漏えいした可能性があると報告があったというもの。 運送業者が配送過程で紛失 ～ 厚労省の令和8年最低賃金に関する基礎調査 調査票 2026.9.17 Thu 8:05 以前に発送した宛名ラベルを誤って貼付 ～ 行政文書の開示に係る関係書類の誤送",
@@ -6008,7 +5843,6 @@
       "leak_count": null,
       "leaked_data": [
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56561;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); エスケーロジ株式会社は10月3日、9月24日に公表した同社サーバへの不正アクセスについて、第2報を発表した。画像ファイルで公開している。 同社では9月20日午前2時頃に、ランサムウェアによるサイバー攻撃でシステム障害が発生しており、対象システムのネットワーク遮断等の緊急対応を実施するとともに、専門会社と連携して原因および影響範囲の調査を進めていた。 「IDCFクラウド」にランサムウェア攻撃 2026.10.9 Fri 8:05 九州電子 台湾子会社にランサムウェア攻撃、事業運営に必要なシステム環境の復旧を完了 2026.10.7 Wed 8:0",
@@ -6029,7 +5863,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56426;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); ソフトバンクグループの株式会社IDCフロンティアは10月7日、同社クラウドサービス「IDCFクラウド」の一部システムへの不正アクセスについて発表した。 これは「IDCFクラウド」の一部システムに第三者から不正アクセスがあり、10月7日午前3時40分頃から東日本リージョン1で障害が発生したというもの。 九州電子 台湾子会社にランサムウェア攻撃、事業運営に必要なシステム環境の復旧を完了 2026.10.7 Wed 8:05 REXTにランサムウェア攻撃、流出した可能性のある情報の一部がインターネット上に掲載 2026.9.28 Mon 8:05 佐"
@@ -6047,7 +5880,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56461;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社両毛システムズは9月25日、8月15日に公表した同社社内システムへの不正アクセスについて、第3報を発表した。 同社では8月14日に、同社社内システムへの不正アクセスを確認しており、被害拡大を防止するためにネットワークの遮断等の対応を実施するとともに、外部専門家の協力のもとで原因および侵入経路の特定、被害範囲の調査を進めていた。 外部専門機関による調査の結果、本件がランサムウェアによる攻撃であることを確認しており、8月12日に外部の第三者がネットワーク接続機器（VPN）のアカウントを悪用し、社内ネットワークに侵入し、8月14日に社内死活監"
@@ -6065,7 +5897,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56561;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); エスケーロジ株式会社は10月3日、9月24日に公表した同社サーバへの不正アクセスについて、第2報を発表した。画像ファイルで公開している。 同社では9月20日午前2時頃に、ランサムウェアによるサイバー攻撃でシステム障害が発生しており、対象システムのネットワーク遮断等の緊急対応を実施するとともに、専門会社と連携して原因および影響範囲の調査を進めていた。 「IDCFクラウド」にランサムウェア攻撃 2026.10.9 Fri 8:05 九州電子 台湾子会社にランサムウェア攻撃、事業運営に必要なシステム環境の復旧を完了 2026.10.7 Wed 8:0"
@@ -6087,7 +5918,6 @@
       "leak_count": "4,933",
       "leaked_data": [
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56562;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 大起水産株式会社は10月5日、同社の「大起水産公式アプリ」への不正アクセスについて発表した。 これは「大起水産公式アプリ」のシステムに対し、第三者からの不正アクセスが9月15日に判明したというもの。 「IDCFクラウド」にランサムウェア攻撃 2026.10.9 Fri 8:05 戸田建設に不正アクセス、取引先に関する情報が漏えい 2026.10.9 Fri 8:05 大気社のマレーシアグループ会社従業員のメールアカウントに不正アクセス、不審メールの送信を確認 2026.10.9 Fri 8:05 ランドハウジングが登録する内見予約システムに不正",
@@ -6108,7 +5938,6 @@
           "leak_count": "4,933",
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56562;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 大起水産株式会社は10月5日、同社の「大起水産公式アプリ」への不正アクセスについて発表した。 これは「大起水産公式アプリ」のシステムに対し、第三者からの不正アクセスが9月15日に判明したというもの。 「IDCFクラウド」にランサムウェア攻撃 2026.10.9 Fri 8:05 戸田建設に不正アクセス、取引先に関する情報が漏えい 2026.10.9 Fri 8:05 大気社のマレーシアグループ会社従業員のメールアカウントに不正アクセス、不審メールの送信を確認 2026.10.9 Fri 8:05 ランドハウジングが登録する内見予約システムに不正"
@@ -6341,7 +6170,6 @@
       "leaked_data": [
         "クレジットカード情報",
         "認証情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56552;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社講談社BECKは10月2日、不正アクセスによる迷惑メール発信について発表した。 これは同社従業員1名のメールアカウントに第三者から不正アクセスがあり、9月14日午前10時47分頃に当該アカウントから外部に50件の不審なメールを送信したというもの。 連絡先情報が窃取されフィッシングメール大量送信 ～ 取引先を偽装したフィッシングメールのリンクを講談社社員がクリック 2026.8.17 Mon 8:05 作品プロモーションと誤解招く報告をお詫び ～「攻殻機動隊」公式 X アカウント乗っ取り被害 2024.2.9 Fri 8:05 教育産業の",
@@ -6363,7 +6191,6 @@
           "leaked_data": [
             "クレジットカード情報",
             "認証情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56552;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社講談社BECKは10月2日、不正アクセスによる迷惑メール発信について発表した。 これは同社従業員1名のメールアカウントに第三者から不正アクセスがあり、9月14日午前10時47分頃に当該アカウントから外部に50件の不審なメールを送信したというもの。 連絡先情報が窃取されフィッシングメール大量送信 ～ 取引先を偽装したフィッシングメールのリンクを講談社社員がクリック 2026.8.17 Mon 8:05 作品プロモーションと誤解招く報告をお詫び ～「攻殻機動隊」公式 X アカウント乗っ取り被害 2024.2.9 Fri 8:05 教育産業の"
@@ -6385,7 +6212,6 @@
       "leak_count": "9,551",
       "leaked_data": [
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56555;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社リクルートは10月21日、同社が運営する中古車情報サイト「カーセンサーnet」と中古車販売店向け業務支援サービス「C-MATCH」への不正アクセスについて発表した。 これは「カーセンサーnet」と「C-MATCH」に不正アクセスがあり、利用者や取引先の情報が外部に漏えいした可能性が判明したというもの。 「カーセンサーnet」への不審なアクセスを検知、全てのサービスを一時停止 2026.10.22 Thu 8:05 営業活動で使用されたと情報提供があり発覚 ～ リクルート元従業員 退職直前 社内資料持ち出し 2025.8.4 Mon 8:",
@@ -6406,7 +6232,6 @@
           "leak_count": "9,551",
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56555;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社リクルートは10月21日、同社が運営する中古車情報サイト「カーセンサーnet」と中古車販売店向け業務支援サービス「C-MATCH」への不正アクセスについて発表した。 これは「カーセンサーnet」と「C-MATCH」に不正アクセスがあり、利用者や取引先の情報が外部に漏えいした可能性が判明したというもの。 「カーセンサーnet」への不審なアクセスを検知、全てのサービスを一時停止 2026.10.22 Thu 8:05 営業活動で使用されたと情報提供があり発覚 ～ リクルート元従業員 退職直前 社内資料持ち出し 2025.8.4 Mon 8:"
@@ -6429,7 +6254,6 @@
       "leaked_data": [
         "メールアドレス",
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56554;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社ラクスは10月21日、同社子会社の株式会社ラクスライトクラウドが提供するメール配信システム「ブラストメール」への不正アクセスについて発表した。 これは「ブラストメール」にて、システムへの不審なアクセスを検知したため、10月21日午前0時30分より同サービスを緊急停止し調査した結果、外部の第三者がラクスライトクラウドのAPI用サーバ2台に侵入してコマンドを実行し、販売管理システムおよびサービスのデータベースに接続して、データを持ち出したことを確認したというもの。 ユミルリンクのメール配信サービスの一部サーバシステムに不正アクセス、メールア",
@@ -6451,7 +6275,6 @@
           "leaked_data": [
             "メールアドレス",
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56554;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社ラクスは10月21日、同社子会社の株式会社ラクスライトクラウドが提供するメール配信システム「ブラストメール」への不正アクセスについて発表した。 これは「ブラストメール」にて、システムへの不審なアクセスを検知したため、10月21日午前0時30分より同サービスを緊急停止し調査した結果、外部の第三者がラクスライトクラウドのAPI用サーバ2台に侵入してコマンドを実行し、販売管理システムおよびサービスのデータベースに接続して、データを持ち出したことを確認したというもの。 ユミルリンクのメール配信サービスの一部サーバシステムに不正アクセス、メールア"
@@ -6512,7 +6335,6 @@
       "leak_count": null,
       "leaked_data": [
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56550;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 一般社団法人セーファーインターネット協会は10月2日、同協会が利用するさくらインターネット株式会社の「さくらのレンタルサーバ」への不正アクセスについて発表した。 これは同協会が「さくらのレンタルサーバ」に不正アクセスがあり、同協会が同サービスに保存していた個人情報が、第三者に閲覧または取得された可能性が判明したというもの。 さくらインターネットが不正アクセス調査結果を発表「さくらのレンタルサーバ」全サーバ再構築など再発防止策を掲げる 2026.9.17 Thu 8:05 さくらインターネットへの不正アクセス、案内ページを公開 2026.9.8 ",
@@ -6533,7 +6355,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56550;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 一般社団法人セーファーインターネット協会は10月2日、同協会が利用するさくらインターネット株式会社の「さくらのレンタルサーバ」への不正アクセスについて発表した。 これは同協会が「さくらのレンタルサーバ」に不正アクセスがあり、同協会が同サービスに保存していた個人情報が、第三者に閲覧または取得された可能性が判明したというもの。 さくらインターネットが不正アクセス調査結果を発表「さくらのレンタルサーバ」全サーバ再構築など再発防止策を掲げる 2026.9.17 Thu 8:05 さくらインターネットへの不正アクセス、案内ページを公開 2026.9.8 "
@@ -6556,7 +6377,6 @@
       "leaked_data": [
         "クレジットカード情報",
         "認証情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56534;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); ZonExpert株式会社は10月1日、同社が委託元から付与を受けていたAmazonセラーセントラルユーザーアカウントへの不正アクセスについて発表した。 これは8月8日から8月18日の期間、同社が委託元から付与されていたAmazonセラーセントラルのユーザーアカウントが第三者に不正に変更され、委託元各社の管理画面上の購入者情報が閲覧され得る状態であったことが、8月18日に判明したというもの。Amazonで管理しているアクセス記録の確認ができていないため、個人情報が実際に閲覧・取得された事実は確認されていないが、個人情報が漏えいした可能性がある。",
@@ -6578,7 +6398,6 @@
           "leaked_data": [
             "クレジットカード情報",
             "認証情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56534;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); ZonExpert株式会社は10月1日、同社が委託元から付与を受けていたAmazonセラーセントラルユーザーアカウントへの不正アクセスについて発表した。 これは8月8日から8月18日の期間、同社が委託元から付与されていたAmazonセラーセントラルのユーザーアカウントが第三者に不正に変更され、委託元各社の管理画面上の購入者情報が閲覧され得る状態であったことが、8月18日に判明したというもの。Amazonで管理しているアクセス記録の確認ができていないため、個人情報が実際に閲覧・取得された事実は確認されていないが、個人情報が漏えいした可能性がある。"
@@ -6741,7 +6560,6 @@
       "leak_count": null,
       "leaked_data": [
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56535;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 独立行政法人エネルギー・金属鉱物資源機構（JOGMEC）は10月2日、不正アクセスによる個人情報の漏えいの可能性について発表した。 これは同機構の情報システムに外部から不正アクセスがあり、個人情報が外部に漏えいした可能性が9月9日に判明したというもの。外部機関から情報提供があり、外部専門事業者と連携して調査を行った結果、発覚した。 独立行政法人の元職員、在籍中に取得した個人情報を外部に持ち出し 2026.3.6 Fri 8:05 日本原子力研究開発機構が運用している研究支援サイトに不正アクセス、顔写真付公的身分証明証 200 件が漏えい 202",
@@ -6762,7 +6580,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56535;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 独立行政法人エネルギー・金属鉱物資源機構（JOGMEC）は10月2日、不正アクセスによる個人情報の漏えいの可能性について発表した。 これは同機構の情報システムに外部から不正アクセスがあり、個人情報が外部に漏えいした可能性が9月9日に判明したというもの。外部機関から情報提供があり、外部専門事業者と連携して調査を行った結果、発覚した。 独立行政法人の元職員、在籍中に取得した個人情報を外部に持ち出し 2026.3.6 Fri 8:05 日本原子力研究開発機構が運用している研究支援サイトに不正アクセス、顔写真付公的身分証明証 200 件が漏えい 202"
@@ -6784,7 +6601,6 @@
       "leak_count": "200",
       "leaked_data": [
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56539;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社リクルートは10月17日、同社が運営する「カーセンサーnet」に関連するサービスの一時停止について発表した。 これは10月17日に、「カーセンサーnet」関連システムへの外部からの不審なアクセスを検知したため、顧客および取引先の安全確保および影響の確認のため、同日午後5時頃から「カーセンサーnet」に関連する全てのサービス（「カーセンサーnet」、アプリ版「カーセンサー」、中古車販売店向け業務支援サービス「C-match」など）を一時停止したというもの。 異なる手法による別の不正アクセスが判明「ニッポンレンタカーアプリ」 2026.10",
@@ -6805,7 +6621,6 @@
           "leak_count": "200",
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56447;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 国立研究開発法人日本原子力研究開発機構は10月1日、同機構が契約するクラウド基盤上で運用している研究支援サイトへの不正アクセスについて発表した。 同機構では原子力科学研究所（茨城県東海村）に保有する研究用原子炉JRR-3にて、施設の外部利用者が施設利用時の手続を行うための研究支援サイトを運用しているが、当該サイトに登録されているファイルのうち、2,419件が外部から不正にダウンロードされていることが9月25日に判明したという。 同機構では9月25日に、研究支援サイトについて外部からのアクセスを停止している。 DAIKO XTECH への不正アク"
@@ -6823,7 +6638,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56539;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社リクルートは10月17日、同社が運営する「カーセンサーnet」に関連するサービスの一時停止について発表した。 これは10月17日に、「カーセンサーnet」関連システムへの外部からの不審なアクセスを検知したため、顧客および取引先の安全確保および影響の確認のため、同日午後5時頃から「カーセンサーnet」に関連する全てのサービス（「カーセンサーnet」、アプリ版「カーセンサー」、中古車販売店向け業務支援サービス「C-match」など）を一時停止したというもの。 異なる手法による別の不正アクセスが判明「ニッポンレンタカーアプリ」 2026.10"
@@ -6878,7 +6692,6 @@
       "leak_count": null,
       "leaked_data": [
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "独立行政法人情報処理推進機構（IPA）は10月16日、不正アクセス特別相談窓口の開設について発表した。 同窓口では、実際に被害を受けているまたはその可能性がある事象が発生している企業や組織を対象に、不正アクセスによる情報漏えいインシデント発生における初動対応支援を行う。 対象の企業や組織は、メールの他に電話でも窓口に問い合わせが可能で、不正アクセスによる情報漏えいインシデント発生における初動対応の支援を受けることができる。 ・「不正アクセス特別相談窓口」概要 開設日：2026年10月16日午後1時00分 対象：全国の企業・組織 相談方法：電話 <03-6759-5760>（平日9:30～17:30（12:00～13:00除く）） E-mail：incident-support＠ipa.go.jp ランサムウェアの種別特定やセカンドオピニオンも ～ セキュリティ企業も頼りにできる JPCERT/CC 2024.7.24 Wed 8:00 IPA が相談窓口にチャットボット導入、ただし選択肢を選ぶシナリオ型 2024.7.1 Mon 8:00 警察庁、サイバー事案通報の統一窓口を設置 20",
@@ -6899,7 +6712,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "独立行政法人情報処理推進機構（IPA）は10月16日、不正アクセス特別相談窓口の開設について発表した。 同窓口では、実際に被害を受けているまたはその可能性がある事象が発生している企業や組織を対象に、不正アクセスによる情報漏えいインシデント発生における初動対応支援を行う。 対象の企業や組織は、メールの他に電話でも窓口に問い合わせが可能で、不正アクセスによる情報漏えいインシデント発生における初動対応の支援を受けることができる。 ・「不正アクセス特別相談窓口」概要 開設日：2026年10月16日午後1時00分 対象：全国の企業・組織 相談方法：電話 <03-6759-5760>（平日9:30～17:30（12:00～13:00除く）） E-mail：incident-support＠ipa.go.jp ランサムウェアの種別特定やセカンドオピニオンも ～ セキュリティ企業も頼りにできる JPCERT/CC 2024.7.24 Wed 8:00 IPA が相談窓口にチャットボット導入、ただし選択肢を選ぶシナリオ型 2024.7.1 Mon 8:00 警察庁、サイバー事案通報の統一窓口を設置 20"
@@ -6922,7 +6734,6 @@
       "leaked_data": [
         "クレジットカード情報",
         "認証情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56528;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社パピレスは10月19日、同社が運営する電子書籍販売サイト「Renta！」のサービス一時停止について発表した。 これは10月18日に、「Renta！」のサーバーへの外部からの不正なアクセスの可能性を把握したため、同サービスを一時停止し、緊急メンテナンスを実施したというもの。 同社では現在、外部からの不正アクセスの詳細について調査中で、「Renta！」のサービス再開時期については未定となっている。また、同社の業績に与える影響についても精査中となっている。 NTTソルマーレの電子書籍ストア「コミックシーモア」に不正アクセス、会員情報が流出 2",
@@ -6944,7 +6755,6 @@
           "leaked_data": [
             "クレジットカード情報",
             "認証情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56528;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社パピレスは10月19日、同社が運営する電子書籍販売サイト「Renta！」のサービス一時停止について発表した。 これは10月18日に、「Renta！」のサーバーへの外部からの不正なアクセスの可能性を把握したため、同サービスを一時停止し、緊急メンテナンスを実施したというもの。 同社では現在、外部からの不正アクセスの詳細について調査中で、「Renta！」のサービス再開時期については未定となっている。また、同社の業績に与える影響についても精査中となっている。 NTTソルマーレの電子書籍ストア「コミックシーモア」に不正アクセス、会員情報が流出 2"
@@ -6966,7 +6776,8 @@
       "leak_count": null,
       "leaked_data": [
         "クレジットカード情報",
-        "認証情報"
+        "認証情報",
+        "会員情報"
       ],
       "incident_summary": "株式会社マクニカのセキュリティ研究センターは 10 月 7 日、国内法人が運営する Web システムからの情報漏えいが相次いでいる事案について、2026 年 10 月 6 日時点で判明している被害や攻撃手法をブログで公表した。同センター センター長補佐の瀬治山豊が、伊藤忠サイバー＆インテリジェンス株式会社と株式会社セキュアスカイ・テクノロジーから提供を受けた情報をもとに執筆した。 瀬治山の集計では、同様の特徴を持つ国内 Web 侵害の公表件数は、2024 年が 62 件、2025 年が 84 件、2026 年は 10 月 6 日時点で 119 件に達し、合計 265 件になった。2026 年分の約 68％にあたる 81 件は 7 月以降に公表されており、瀬治山は「これまでとは違う異常な事態」と受け止めている。EC サイトに偏っていた被害は、会員向けサービスや業務用システムなどへ分散し、図書館の蔵書検索や観光列車の座席予約にも及ぶ。特定企業ではなく、公開された Web システムを無差別に狙っている可能性が高いとみている。 7 月以降の 81 件について公表された原因を整理すると、製品や ",
       "sources": [
@@ -6986,7 +6797,8 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "認証情報"
+            "認証情報",
+            "会員情報"
           ],
           "incident_summary": "株式会社マクニカのセキュリティ研究センターは 10 月 7 日、国内法人が運営する Web システムからの情報漏えいが相次いでいる事案について、2026 年 10 月 6 日時点で判明している被害や攻撃手法をブログで公表した。同センター センター長補佐の瀬治山豊が、伊藤忠サイバー＆インテリジェンス株式会社と株式会社セキュアスカイ・テクノロジーから提供を受けた情報をもとに執筆した。 瀬治山の集計では、同様の特徴を持つ国内 Web 侵害の公表件数は、2024 年が 62 件、2025 年が 84 件、2026 年は 10 月 6 日時点で 119 件に達し、合計 265 件になった。2026 年分の約 68％にあたる 81 件は 7 月以降に公表されており、瀬治山は「これまでとは違う異常な事態」と受け止めている。EC サイトに偏っていた被害は、会員向けサービスや業務用システムなどへ分散し、図書館の蔵書検索や観光列車の座席予約にも及ぶ。特定企業ではなく、公開された Web システムを無差別に狙っている可能性が高いとみている。 7 月以降の 81 件について公表された原因を整理すると、製品や "
         }
@@ -7036,6 +6848,39 @@
       "merged": false
     },
     {
+      "source": "Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9LMDhvdVVrVFVEalJSbVFCMzdBSHRLaWlBLXQ3WllqdFRFQ0ZOenBDUU1NQWtEVXhMM2QxLXRzZktTeHhDMXJvZFFSTnpsMmtKMW9uUEhMWlc0MU1NdEs5YUFEZw?oc=5",
+      "published_date": "2026-10-21",
+      "title": "想定被害事例をＨＰで公開 サイバー攻撃で情報漏えい相次ぎ―警視庁 - 時事ドットコム",
+      "attack": true,
+      "organization": "時事ドットコム",
+      "attack_type": null,
+      "leak_status": "確認・可能性あり",
+      "leak_count": null,
+      "leaked_data": [],
+      "incident_summary": "想定被害事例をＨＰで公開 サイバー攻撃で情報漏えい相次ぎ―警視庁 - 時事ドットコム",
+      "sources": [
+        "Google News"
+      ],
+      "source_records": [
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9LMDhvdVVrVFVEalJSbVFCMzdBSHRLaWlBLXQ3WllqdFRFQ0ZOenBDUU1NQWtEVXhMM2QxLXRzZktTeHhDMXJvZFFSTnpsMmtKMW9uUEhMWlc0MU1NdEs5YUFEZw?oc=5",
+          "published_date": "2026-10-21",
+          "title": "想定被害事例をＨＰで公開 サイバー攻撃で情報漏えい相次ぎ―警視庁 - 時事ドットコム",
+          "attack": true,
+          "organization": "時事ドットコム",
+          "attack_type": null,
+          "leak_status": "確認・可能性あり",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "想定被害事例をＨＰで公開 サイバー攻撃で情報漏えい相次ぎ―警視庁 - 時事ドットコム"
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
       "source": "ScanNetSecurity",
       "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/21/56527.html",
       "published_date": "2026-10-21",
@@ -7052,7 +6897,6 @@
         "電話番号",
         "クレジットカード情報",
         "口座情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56527;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 学校法人修道学園は9月30日、同学園が管理するサーバへの不正アクセスについて発表した。 これは9月26日に、同学園が管理するサーバへの第三者からの不正アクセスを確認したというもので、個人情報を含む情報が外部に漏えいしたおそれがあるという。 漏えいのおそれがあるのは、広島修道大学並びに修道中学校・高等学校及び広島修道大学ひろしま協創中学校・高等学校と取引のある企業等の口座情報等のほか、同学園の教職員、外部講師等の氏名、住所、電話番号などの個人情報及び口座情報等。 「東海大学山中湖セミナーハウス」ウェブサイトに不正アクセス「宿泊予約に関する情報」が",
@@ -7077,7 +6921,6 @@
             "電話番号",
             "クレジットカード情報",
             "口座情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56527;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 学校法人修道学園は9月30日、同学園が管理するサーバへの不正アクセスについて発表した。 これは9月26日に、同学園が管理するサーバへの第三者からの不正アクセスを確認したというもので、個人情報を含む情報が外部に漏えいしたおそれがあるという。 漏えいのおそれがあるのは、広島修道大学並びに修道中学校・高等学校及び広島修道大学ひろしま協創中学校・高等学校と取引のある企業等の口座情報等のほか、同学園の教職員、外部講師等の氏名、住所、電話番号などの個人情報及び口座情報等。 「東海大学山中湖セミナーハウス」ウェブサイトに不正アクセス「宿泊予約に関する情報」が"
@@ -7098,7 +6941,6 @@
       "leak_count": null,
       "leaked_data": [
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56526;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 青森県三沢市は10月1日、三沢市教育委員会事務局職員の懲戒処分について発表した。 同市では、青森県内他自治体職員による不正閲覧の発生、及び全国の自治体における庁内グループウェアへの不正アクセス事案を受けて、同市のアクセス状況について、当該グループウェアの保持する内部ログ2ヶ月分を調査したところ、教育委員会事務局の職員（40代、男性）が複数の職員のアカウントに不正にアクセスし、スケジュールやウェブメール、回覧板（庁内限定メール）を不正に閲覧していたことが判明したという。また、その不正に閲覧する時間中、勤務を欠いていた。 同市では内部ログにて2ヶ月",
@@ -7119,7 +6961,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56526;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 青森県三沢市は10月1日、三沢市教育委員会事務局職員の懲戒処分について発表した。 同市では、青森県内他自治体職員による不正閲覧の発生、及び全国の自治体における庁内グループウェアへの不正アクセス事案を受けて、同市のアクセス状況について、当該グループウェアの保持する内部ログ2ヶ月分を調査したところ、教育委員会事務局の職員（40代、男性）が複数の職員のアカウントに不正にアクセスし、スケジュールやウェブメール、回覧板（庁内限定メール）を不正に閲覧していたことが判明したという。また、その不正に閲覧する時間中、勤務を欠いていた。 同市では内部ログにて2ヶ月",
@@ -7242,7 +7083,6 @@
       "leak_count": null,
       "leaked_data": [
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "GMOサイバーセキュリティ byイエラエは10月19日、日本企業を狙う攻撃元でAI侵入ツール「ARTEX」を確認したと公表しました。どんなツールで、韓国と日本で何が起きているのかを解説します。",
@@ -7264,7 +7104,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "GMO サイバーセキュリティ by イエラエ株式会社は 10 月 19 日、日本企業を狙った侵害事案の攻撃元インフラを調査した結果、AI による自律型ペネトレーションテストシステム「ARTEX」が使われていたことを確認したと、同社 GMO サイバー犯罪対策センターの福森大喜氏がブログで明らかにした。10 月 14 日の前回記事ではフォレンジックログから AI による攻撃の可能性が高いと推定しており、今回の調査がそれを裏付けた。 ARTEX は、2026 年 9 月下旬から発生した韓国の金融機関を標的とする攻撃キャンペーンでも使われていたと、 米 CrowdStrike が報告している 。同社は、同じ手口で日本企業も攻撃されているとみている。 外部機関と連携した調査では、同社が観測できる範囲に限ると、この攻撃元インフラはほぼ日本のみを標的としていた。標的は約 20 社で、うち 9 社は同業種のサイトだった。国と業種を絞った攻撃キャンペーンを、キャンペーンごとに別の攻撃用ホストで実行しているとみられる。 さらに調査を進め、日本企業ばかりを狙う AI を使った攻撃インフラを新たに 6 台発見"
@@ -7365,7 +7204,7 @@
     },
     {
       "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBvaXNwclROWmhBUlVqOUZGbXpCaFhxX0xqRllLYmdfVDZ4NHQxQW10YVZLY0xubmY5cGEtcmRDTzRCcW9fcTZHR1cydXVvUzkwZVhxa1hyV096dkg5elNraTdaMHdtTU1La1I2SGhqNWlyemUy?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9BNm5ubC1LSFZzaG9YQ3NQc0dnczBhVEF2aTVIa1B3OUJyMkNBdGZ2djVybVo5VkdCUFkxM1BBLVBxRy1UdTRENlZvcS1Jc3VzODMwNWVDdw?oc=5",
       "published_date": "2026-10-20",
       "title": "連日絶えないサイバー攻撃…警察でも情報流出か 日本企業の弱点をつく“中国系AI” 被害拡大要因に「意思決定の遅さ」 - TBS NEWS DIG",
       "attack": true,
@@ -7381,7 +7220,7 @@
       "source_records": [
         {
           "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBvaXNwclROWmhBUlVqOUZGbXpCaFhxX0xqRllLYmdfVDZ4NHQxQW10YVZLY0xubmY5cGEtcmRDTzRCcW9fcTZHR1cydXVvUzkwZVhxa1hyV096dkg5elNraTdaMHdtTU1La1I2SGhqNWlyemUy?oc=5",
+          "source_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9BNm5ubC1LSFZzaG9YQ3NQc0dnczBhVEF2aTVIa1B3OUJyMkNBdGZ2djVybVo5VkdCUFkxM1BBLVBxRy1UdTRENlZvcS1Jc3VzODMwNWVDdw?oc=5",
           "published_date": "2026-10-20",
           "title": "連日絶えないサイバー攻撃…警察でも情報流出か 日本企業の弱点をつく“中国系AI” 被害拡大要因に「意思決定の遅さ」 - TBS NEWS DIG",
           "attack": true,
@@ -7674,7 +7513,6 @@
       "leak_count": null,
       "leaked_data": [
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56507;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社吉野家ホールディングスは9月30日、株式会社吉野家と株式会社はなまるがアルバイト採用業務を一部委託していた株式会社ApplyNowの採用管理プラットフォームへの不正アクセスについて発表した。 吉野家とはなまるでは2022年4月11日から2024年6月30日まで、ApplyNowにアルバイト採用業務の一部を委託し、ApplyNow提供の採用管理プラットフォームで応募を受け付けていたが、同プラットフォームは2026年8月9日から9月7日までデータ分析ツールの脆弱性を悪用した第三者からの不正アクセスが発生し、9月7日には当該ツールのデータベー",
@@ -7695,7 +7533,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56507;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社吉野家ホールディングスは9月30日、株式会社吉野家と株式会社はなまるがアルバイト採用業務を一部委託していた株式会社ApplyNowの採用管理プラットフォームへの不正アクセスについて発表した。 吉野家とはなまるでは2022年4月11日から2024年6月30日まで、ApplyNowにアルバイト採用業務の一部を委託し、ApplyNow提供の採用管理プラットフォームで応募を受け付けていたが、同プラットフォームは2026年8月9日から9月7日までデータ分析ツールの脆弱性を悪用した第三者からの不正アクセスが発生し、9月7日には当該ツールのデータベー"
@@ -7805,7 +7642,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56465;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 八王子学園八王子中学校・高等学校は9月30日、7月13日に公表した同校を標的にしたサイバー攻撃について、第2報を発表した。 同校では一部のサーバに対し、第三者からの不正アクセスおよびランサムウェア被害があり、対策本部を設置の上で、八王子警察署、外部専門家、顧問弁護士の助言を受けながら、原因究明と被害状況の確認、情報流出の有無などの調査と復旧への対応を進めていた。 再発防止策「VPNを使用しない」株式会社イセトー 2024.10.15 Tue 8:05 八王子学園にランサムウェア攻撃 2026.7.29 Wed 8:05 「MUJIアプリ」への不"
@@ -7830,45 +7666,6 @@
       ],
       "source_count": 1,
       "merged": true
-    },
-    {
-      "source": "ScanNetSecurity",
-      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/20/56515.html",
-      "published_date": "2026-10-20",
-      "title": "ソースネクストに不正アクセス、2,251万9,960件の会員情報が流出した可能性",
-      "attack": true,
-      "organization": "d=56515;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); ソースネクスト株式会社",
-      "service": "会員情報が流出した可能性",
-      "attack_type": "不正アクセス",
-      "leak_status": "可能性あり",
-      "leak_count": "9,960",
-      "leaked_data": [
-        "会員情報"
-      ],
-      "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56515;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); ソースネクスト株式会社は10月15日、同社サイトへの不正アクセスによる顧客情報の流出について発表した。 これは10月9日午前10時頃から、同社の会員情報を管理するシステムに第三者から不正アクセスがあり、会員情報取得APIを不正に利用し、同社に登録のあった顧客の情報を取得したというもの。 同社では10月13日午前9時頃に不正アクセスを確認し、外部からの不正な通信を遮断するなどの緊急措置を講じ、10月13日午後1時36分までに不正アクセスの封じ込めを完了している。 ソースネクスト・サイトへ不正アクセス、112,132名のカード情報漏えい 2023.",
-      "sources": [
-        "ScanNetSecurity"
-      ],
-      "source_records": [
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/20/56515.html",
-          "published_date": "2026-10-20",
-          "title": "ソースネクストに不正アクセス、2,251万9,960件の会員情報が流出した可能性",
-          "attack": true,
-          "organization": "d=56515;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); ソースネクスト株式会社",
-          "service": "会員情報が流出した可能性",
-          "attack_type": "不正アクセス",
-          "leak_status": "可能性あり",
-          "leak_count": "9,960",
-          "leaked_data": [
-            "会員情報"
-          ],
-          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56515;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); ソースネクスト株式会社は10月15日、同社サイトへの不正アクセスによる顧客情報の流出について発表した。 これは10月9日午前10時頃から、同社の会員情報を管理するシステムに第三者から不正アクセスがあり、会員情報取得APIを不正に利用し、同社に登録のあった顧客の情報を取得したというもの。 同社では10月13日午前9時頃に不正アクセスを確認し、外部からの不正な通信を遮断するなどの緊急措置を講じ、10月13日午後1時36分までに不正アクセスの封じ込めを完了している。 ソースネクスト・サイトへ不正アクセス、112,132名のカード情報漏えい 2023."
-        }
-      ],
-      "source_count": 1,
-      "merged": false
     },
     {
       "source": "Google News",
@@ -7962,7 +7759,6 @@
       "leak_count": null,
       "leaked_data": [
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56514;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社ゴルフダイジェスト・オンラインは10月16日、同社システムへの不正アクセスについて発表した。 これは同社が管理するサーバに第三者から不正アクセスがあり、同社の従業員、退職者、委託先・パートナー企業の個人情報の外部流出を確認したというもの。あわせて、顧客の個人情報および識別子IDが外部から照会された可能性が判明している。 同社では10月13日午前7時9分頃に、セキュリティ監視ツールが外部からの不正アクセスの兆候を検知したため、同日午前7時41分頃に該当サーバの通信を遮断し、攻撃に使われた権限の停止などの封じ込めを進めるとともに、流出した可",
@@ -7983,7 +7779,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56514;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社ゴルフダイジェスト・オンラインは10月16日、同社システムへの不正アクセスについて発表した。 これは同社が管理するサーバに第三者から不正アクセスがあり、同社の従業員、退職者、委託先・パートナー企業の個人情報の外部流出を確認したというもの。あわせて、顧客の個人情報および識別子IDが外部から照会された可能性が判明している。 同社では10月13日午前7時9分頃に、セキュリティ監視ツールが外部からの不正アクセスの兆候を検知したため、同日午前7時41分頃に該当サーバの通信を遮断し、攻撃に使われた権限の停止などの封じ込めを進めるとともに、流出した可"
@@ -8005,7 +7800,6 @@
       "leak_count": null,
       "leaked_data": [
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56511;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); アフラック生命保険株式会社は10月1日、6月30日に公表した同社システムへの不正アクセスについて、FAQを更新した。 同社では、同社の契約者専用サイト「アフラック よりそうネット」などのシステムに第三者から不正アクセスがあり、顧客や代理店の個人情報を含む一部の情報が不正に閲覧され、漏えいしたことが6月25日に判明していた。 FAQによると、「アフラック よりそうネット」のシステムにて、今回の攻撃で使われたアクセスとデータ照会の手口に対する制御が不十分であったことが原因としており、当該システムでは、不正アクセスを検知・遮断する機能を備えていたが、",
@@ -8026,7 +7820,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56511;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); アフラック生命保険株式会社は10月1日、6月30日に公表した同社システムへの不正アクセスについて、FAQを更新した。 同社では、同社の契約者専用サイト「アフラック よりそうネット」などのシステムに第三者から不正アクセスがあり、顧客や代理店の個人情報を含む一部の情報が不正に閲覧され、漏えいしたことが6月25日に判明していた。 FAQによると、「アフラック よりそうネット」のシステムにて、今回の攻撃で使われたアクセスとデータ照会の手口に対する制御が不十分であったことが原因としており、当該システムでは、不正アクセスを検知・遮断する機能を備えていたが、"
@@ -8127,7 +7920,6 @@
       "leak_count": null,
       "leaked_data": [
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56505;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); アイドルサポート事業などを行う株式会社VOISINGは9月30日、8月18日に公表した同社が社内で利用しているデータ分析システムBIツール（ビジネスインテリジェンスツール）への不正アクセスについて、第四報を発表した。 同社では8月10日午前1時2分頃に、BIツールへの外部からの不正アクセスが開始され、8月16日午後6時47分から8時21分にかけ、同ツール内に保管されていたデータが不正に取得（ダウンロード）されたことを確認しており、外部のサイバーセキュリティ専門機関にデジタルフォレンジック調査を依頼していた。 調査結果によると、同社が利用するBI",
@@ -8148,7 +7940,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56505;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); アイドルサポート事業などを行う株式会社VOISINGは9月30日、8月18日に公表した同社が社内で利用しているデータ分析システムBIツール（ビジネスインテリジェンスツール）への不正アクセスについて、第四報を発表した。 同社では8月10日午前1時2分頃に、BIツールへの外部からの不正アクセスが開始され、8月16日午後6時47分から8時21分にかけ、同ツール内に保管されていたデータが不正に取得（ダウンロード）されたことを確認しており、外部のサイバーセキュリティ専門機関にデジタルフォレンジック調査を依頼していた。 調査結果によると、同社が利用するBI"
@@ -8207,7 +7998,6 @@
         "氏名",
         "生年月日",
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56509;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); ALSOKジョイライフ株式会社は10月1日、7月31日に公表した同社への外部からの不正アクセスについて、調査結果を発表した。 同社では7月4日に、同社端末に外部の第三者から不正アクセスがあり、不正な遠隔操作が行われたことが判明しており、調査の結果、同社が保有する個人情報の一部が閲覧された可能性を確認している。 閲覧された可能性があるのは、ベルパージュ奈良あやめ池に、過去・現在入居している顧客134件の在所状況、利用者コード、氏名、フリガナ、性別、生年月日、居室番号、受付サービスの内容（一般入居・体験入居）、入退去日、契約日・解約日。 クラウド環",
@@ -8230,7 +8020,6 @@
             "氏名",
             "生年月日",
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56509;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); ALSOKジョイライフ株式会社は10月1日、7月31日に公表した同社への外部からの不正アクセスについて、調査結果を発表した。 同社では7月4日に、同社端末に外部の第三者から不正アクセスがあり、不正な遠隔操作が行われたことが判明しており、調査の結果、同社が保有する個人情報の一部が閲覧された可能性を確認している。 閲覧された可能性があるのは、ベルパージュ奈良あやめ池に、過去・現在入居している顧客134件の在所状況、利用者コード、氏名、フリガナ、性別、生年月日、居室番号、受付サービスの内容（一般入居・体験入居）、入退去日、契約日・解約日。 クラウド環"
@@ -8252,7 +8041,6 @@
       "leak_count": null,
       "leaked_data": [
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "自由民主党（自民党）は10月14日、10月9日に党国家サイバーセキュリティ戦略本部で不正アクセスによる民間企業からの個人情報漏えい等の事案について、政府から説明を聴取したと発表した。 内閣官房国家サイバー統括室では、現時点で一連の事案の関連性やAIの悪用は明らかではないが、速やかに対応すべきポイントとして下記の3点を紹介している。 1点目：ウェブシステムの脆弱性に関するリスクを適切に判断し、アップデート等についての迅速な実施。 2点目：委託先企業等のセキュリティ対策状況を把握し、情報共有範囲の適正化を図る。 3点目：重要な情報資産の管理対象を明確化し、不審なアクセス等を監視・分析する。 また、個人情報保護委員会が行ってきた個人情報漏えい防止の取り組みや、経済産業省が推進している「サイバーセキュリティお助け隊サービス」についても説明を行っている。 党国家サイバーセキュリティ戦略本部 本部長の平将明衆院議員は「サイバーセキュリティは新しいフェーズに入り、現在は非常事態、有事という状況」と指摘した上で「政府だけではなく国民も意識を持ってこの有事に立ち向かうことが重要」と強調している。 10月",
@@ -8273,7 +8061,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "自由民主党（自民党）は10月14日、10月9日に党国家サイバーセキュリティ戦略本部で不正アクセスによる民間企業からの個人情報漏えい等の事案について、政府から説明を聴取したと発表した。 内閣官房国家サイバー統括室では、現時点で一連の事案の関連性やAIの悪用は明らかではないが、速やかに対応すべきポイントとして下記の3点を紹介している。 1点目：ウェブシステムの脆弱性に関するリスクを適切に判断し、アップデート等についての迅速な実施。 2点目：委託先企業等のセキュリティ対策状況を把握し、情報共有範囲の適正化を図る。 3点目：重要な情報資産の管理対象を明確化し、不審なアクセス等を監視・分析する。 また、個人情報保護委員会が行ってきた個人情報漏えい防止の取り組みや、経済産業省が推進している「サイバーセキュリティお助け隊サービス」についても説明を行っている。 党国家サイバーセキュリティ戦略本部 本部長の平将明衆院議員は「サイバーセキュリティは新しいフェーズに入り、現在は非常事態、有事という状況」と指摘した上で「政府だけではなく国民も意識を持ってこの有事に立ち向かうことが重要」と強調している。 10月"
@@ -8295,7 +8082,6 @@
       "leak_count": null,
       "leaked_data": [
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "総務省は10月9日、不正アクセスによる情報漏えい等の事案を踏まえた対応について、注意喚起を発表した。 大量の個人情報を取り扱う事業者等の情報システムが不正アクセスにより侵入され、個人情報を含むデータが窃取される事案が相次いで確認されているという。 同省では、所管事業者及び関係団体に対し、内閣官房国家サイバー統括室が行った下記URLと同内容の注意喚起を行ったとのこと。 不正アクセスによる漏えい等の事案を踏まえた対応について（国家サイバー統括室） https://www.cyber.go.jp/pdf/press/taiou.pdf ダークネット観測パケット数が過去最高を更新、10年前から10倍に増大 ～ 総務省「令和8年版情報通信白書」 2026.9.8 Tue 8:00 KDDI の ISP 事業者向けメールシステムに不正アクセス、総務省が行政指導 2026.8.10 Mon 8:05 LINE GAMEでユーザー内部識別子を外部の広告ツールに送信、総務省から行政指導 2026.8.7 Fri 8:05 総務大臣書簡を発出 ～ 全都道府県知事と市区町村長にサイバーセキュリティ確保要請 ",
@@ -8316,7 +8102,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "総務省は10月9日、不正アクセスによる情報漏えい等の事案を踏まえた対応について、注意喚起を発表した。 大量の個人情報を取り扱う事業者等の情報システムが不正アクセスにより侵入され、個人情報を含むデータが窃取される事案が相次いで確認されているという。 同省では、所管事業者及び関係団体に対し、内閣官房国家サイバー統括室が行った下記URLと同内容の注意喚起を行ったとのこと。 不正アクセスによる漏えい等の事案を踏まえた対応について（国家サイバー統括室） https://www.cyber.go.jp/pdf/press/taiou.pdf ダークネット観測パケット数が過去最高を更新、10年前から10倍に増大 ～ 総務省「令和8年版情報通信白書」 2026.9.8 Tue 8:00 KDDI の ISP 事業者向けメールシステムに不正アクセス、総務省が行政指導 2026.8.10 Mon 8:05 LINE GAMEでユーザー内部識別子を外部の広告ツールに送信、総務省から行政指導 2026.8.7 Fri 8:05 総務大臣書簡を発出 ～ 全都道府県知事と市区町村長にサイバーセキュリティ確保要請 "
@@ -8494,7 +8279,6 @@
       "leak_count": null,
       "leaked_data": [
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56493;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); アイホン株式会社は9月29日、同社豪州法人への不正アクセスについて発表した。 これは同社豪州の販売子会社であるAIPHONE PTY LTD（豪州）の社内ネットワークに対し、第三者からの不正アクセスが判明したというもの。 サンコーテクノのベトナム子会社にランサムウェア攻撃、サーバ及びパソコン内の各種ファイルの暗号化を確認 2026.9.1 Tue 8:05 ニデック 台湾子会社にランサムウェア攻撃、ダークウェブ上でフォルダ・ファイル名のリストの一部を公開 2026.8.27 Thu 8:05 住友重機械工業の海外グループ会社に不正アクセス 20",
@@ -8515,7 +8299,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56493;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); アイホン株式会社は9月29日、同社豪州法人への不正アクセスについて発表した。 これは同社豪州の販売子会社であるAIPHONE PTY LTD（豪州）の社内ネットワークに対し、第三者からの不正アクセスが判明したというもの。 サンコーテクノのベトナム子会社にランサムウェア攻撃、サーバ及びパソコン内の各種ファイルの暗号化を確認 2026.9.1 Tue 8:05 ニデック 台湾子会社にランサムウェア攻撃、ダークウェブ上でフォルダ・ファイル名のリストの一部を公開 2026.8.27 Thu 8:05 住友重機械工業の海外グループ会社に不正アクセス 20"
@@ -8538,7 +8321,6 @@
       "leaked_data": [
         "メールアドレス",
         "クレジットカード情報",
-        "顧客情報",
         "従業員情報",
         "会員情報"
       ],
@@ -8561,7 +8343,6 @@
           "leaked_data": [
             "メールアドレス",
             "クレジットカード情報",
-            "顧客情報",
             "従業員情報",
             "会員情報"
           ],
@@ -8755,7 +8536,6 @@
       "leaked_data": [
         "クレジットカード情報",
         "認証情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56478;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); フクビ化学工業株式会社は9月28日、同社が運営する英語版ウェブサイトへの不正アクセスについて発表した。 これは同社が運営する英語版ウェブサイトの一部サーバで、第三者からの不正アクセスと考えられるシステム障害が発生したというもの。 日本郵便 調査請求 Web受付サービスに不正アクセス、一時的に受付を停止 2026.9.30 Wed 8:05 ID・パスワードが窃取が原因 ～「HALMEK up」に不正アクセス 2026.9.30 Wed 8:05 長野県大町市デジタルアーカイブサイトに不正アクセス、オンラインカジノサイト誘導ページに改ざん 202",
@@ -8777,7 +8557,6 @@
           "leaked_data": [
             "クレジットカード情報",
             "認証情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56478;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); フクビ化学工業株式会社は9月28日、同社が運営する英語版ウェブサイトへの不正アクセスについて発表した。 これは同社が運営する英語版ウェブサイトの一部サーバで、第三者からの不正アクセスと考えられるシステム障害が発生したというもの。 日本郵便 調査請求 Web受付サービスに不正アクセス、一時的に受付を停止 2026.9.30 Wed 8:05 ID・パスワードが窃取が原因 ～「HALMEK up」に不正アクセス 2026.9.30 Wed 8:05 長野県大町市デジタルアーカイブサイトに不正アクセス、オンラインカジノサイト誘導ページに改ざん 202"
@@ -8800,7 +8579,6 @@
       "leaked_data": [
         "クレジットカード情報",
         "認証情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56477;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); サンポー食品株式会社は9月28日、同社ウェブサイトへの不正アクセスについて発表した。 これは8月25日に、同社ウェブサイトに対する第三者からの不正アクセスを確認したというもので、同社では当該サイトを停止し、ウェブサイト制作会社およびシステム会社と連携して調査を実施している。 ニチレイへの不正アクセスによるシステム障害、冷蔵倉庫の入出庫業務や冷凍食品出荷業務に影響 2026.7.16 Thu 8:00 国立医薬品食品衛生研究所の Web メールシステムからの迷惑メール送信、フィッシングメールを契機に認証情報が窃取された可能性 2026.3.2 M",
@@ -8822,7 +8600,6 @@
           "leaked_data": [
             "クレジットカード情報",
             "認証情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56477;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); サンポー食品株式会社は9月28日、同社ウェブサイトへの不正アクセスについて発表した。 これは8月25日に、同社ウェブサイトに対する第三者からの不正アクセスを確認したというもので、同社では当該サイトを停止し、ウェブサイト制作会社およびシステム会社と連携して調査を実施している。 ニチレイへの不正アクセスによるシステム障害、冷蔵倉庫の入出庫業務や冷凍食品出荷業務に影響 2026.7.16 Thu 8:00 国立医薬品食品衛生研究所の Web メールシステムからの迷惑メール送信、フィッシングメールを契機に認証情報が窃取された可能性 2026.3.2 M"
@@ -8879,7 +8656,6 @@
       "leak_count": null,
       "leaked_data": [
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56481;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社アルカディアは10月13日、同社が運営する「SpeeCAN RAIDEN」への不正アクセスについて発表した。 これは10月11日午後4時30分に、「SpeeCAN RAIDEN」にて不正アクセスが疑われる不審な挙動を確認したというもの。 ConoHa WING byGMO に不正アクセス、不正プログラムを設置 2026.10.14 Wed 8:05 日本原子力研究開発機構が運用している研究支援サイトに不正アクセス、顔写真付公的身分証明証 200 件が漏えい 2026.10.14 Wed 8:05 ブックオフグループホールディングス子会社",
@@ -8900,7 +8676,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56481;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社アルカディアは10月13日、同社が運営する「SpeeCAN RAIDEN」への不正アクセスについて発表した。 これは10月11日午後4時30分に、「SpeeCAN RAIDEN」にて不正アクセスが疑われる不審な挙動を確認したというもの。 ConoHa WING byGMO に不正アクセス、不正プログラムを設置 2026.10.14 Wed 8:05 日本原子力研究開発機構が運用している研究支援サイトに不正アクセス、顔写真付公的身分証明証 200 件が漏えい 2026.10.14 Wed 8:05 ブックオフグループホールディングス子会社"
@@ -8922,7 +8697,6 @@
       "leak_count": null,
       "leaked_data": [
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56476;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); コロンビア珈琲株式会社は9月28日、同社が運営する「極上珈琲 生豆本舗」での障害について発表した。 これは9月26日午後11時頃 から9月27日午後1時15分頃の期間、「極上珈琲 生豆本舗」が正常に表示されない障害が発生したというもの。 令和に SQLインジェクション、今後「総力を挙げて」再発防止 2025.7.28 Mon 8:05 SQLインジェクション 約 32 万件の個人情報流出の可能性 ～ 愛知全県模試 2025.7.10 Thu 8:05 くすりのしおりデータベースに SQLインジェクション攻撃、外部不正サイトを示すテキストを付記 ",
@@ -8943,7 +8717,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56476;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); コロンビア珈琲株式会社は9月28日、同社が運営する「極上珈琲 生豆本舗」での障害について発表した。 これは9月26日午後11時頃 から9月27日午後1時15分頃の期間、「極上珈琲 生豆本舗」が正常に表示されない障害が発生したというもの。 令和に SQLインジェクション、今後「総力を挙げて」再発防止 2025.7.28 Mon 8:05 SQLインジェクション 約 32 万件の個人情報流出の可能性 ～ 愛知全県模試 2025.7.10 Thu 8:05 くすりのしおりデータベースに SQLインジェクション攻撃、外部不正サイトを示すテキストを付記 "
@@ -8999,7 +8772,6 @@
       "leaked_data": [
         "クレジットカード情報",
         "口座情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56475;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 手間いらず株式会社は9月28日、同社サービス「TEMAIRAZU シリーズ」を利用する宿泊施設を予約した顧客への不審なメッセージの送信について発表した。 これは「TEMAIRAZU シリーズ」を利用する宿泊施設を予約した顧客に対し、予約に関する不審なメッセージが届いている事象を確認したため調査したところ、同社システムへの不正アクセスが判明したというもの。9月21日深夜頃より、複数の宿泊施設から、予約者に対しWhatsApp等のメッセージアプリ、メール、SMS等を通じて不審なメッセージが届いていると連絡があり、発覚した。 ホテル白菊が利用する宿泊",
@@ -9021,7 +8793,6 @@
           "leaked_data": [
             "クレジットカード情報",
             "口座情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56475;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 手間いらず株式会社は9月28日、同社サービス「TEMAIRAZU シリーズ」を利用する宿泊施設を予約した顧客への不審なメッセージの送信について発表した。 これは「TEMAIRAZU シリーズ」を利用する宿泊施設を予約した顧客に対し、予約に関する不審なメッセージが届いている事象を確認したため調査したところ、同社システムへの不正アクセスが判明したというもの。9月21日深夜頃より、複数の宿泊施設から、予約者に対しWhatsApp等のメッセージアプリ、メール、SMS等を通じて不審なメッセージが届いていると連絡があり、発覚した。 ホテル白菊が利用する宿泊"
@@ -9204,7 +8975,6 @@
         "電話番号",
         "メールアドレス",
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56460;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); LEGOLAND Japan合同会社は9月25日、レゴランド・ジャパン・ホテルの公式予約サイトで利用しているオンライン予約プラットフォームへの不正アクセスについて発表した。 これはレゴランド・ジャパン・ホテルの公式予約サイトで利用しているオンライン予約プラットフォームを運営するAmadeus IT Group, S.A.社から、顧客の予約情報に含まれる一部の連絡先情報（氏名、メールアドレス、電話番号）が不正アクセスされたと報告があったというもの。 同社で調査した結果、影響を受けた可能性のある予約は1,557件であることを確認している。 実行犯が",
@@ -9228,7 +8998,6 @@
             "電話番号",
             "メールアドレス",
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56460;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); LEGOLAND Japan合同会社は9月25日、レゴランド・ジャパン・ホテルの公式予約サイトで利用しているオンライン予約プラットフォームへの不正アクセスについて発表した。 これはレゴランド・ジャパン・ホテルの公式予約サイトで利用しているオンライン予約プラットフォームを運営するAmadeus IT Group, S.A.社から、顧客の予約情報に含まれる一部の連絡先情報（氏名、メールアドレス、電話番号）が不正アクセスされたと報告があったというもの。 同社で調査した結果、影響を受けた可能性のある予約は1,557件であることを確認している。 実行犯が"
@@ -9250,7 +9019,6 @@
       "leak_count": null,
       "leaked_data": [
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56459;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社ファインズは9月25日、同社が提供する予約システムへの不正アクセスについて発表した。 これは9月22日に、予約システムで異常を検知し調査したところ、第三者からの不正アクセスが判明したというもの。 同社ではアクセス遮断等の緊急措置を実施し、弁護士と連携のうえで詳細な調査を進めている。 「IDCFクラウド」にランサムウェア攻撃 2026.10.9 Fri 8:05 戸田建設に不正アクセス、取引先に関する情報が漏えい 2026.10.9 Fri 8:05 大気社のマレーシアグループ会社従業員のメールアカウントに不正アクセス、不審メールの送信を",
@@ -9271,7 +9039,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56459;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社ファインズは9月25日、同社が提供する予約システムへの不正アクセスについて発表した。 これは9月22日に、予約システムで異常を検知し調査したところ、第三者からの不正アクセスが判明したというもの。 同社ではアクセス遮断等の緊急措置を実施し、弁護士と連携のうえで詳細な調査を進めている。 「IDCFクラウド」にランサムウェア攻撃 2026.10.9 Fri 8:05 戸田建設に不正アクセス、取引先に関する情報が漏えい 2026.10.9 Fri 8:05 大気社のマレーシアグループ会社従業員のメールアカウントに不正アクセス、不審メールの送信を"
@@ -9442,7 +9209,6 @@
       "leaked_data": [
         "クレジットカード情報",
         "認証情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56449;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社第一興商は10月8日、同社が個人情報の取扱いを委託している日本コロムビアグループ株式会社（NCG社）でのマルウェア感染について発表した。 これは10月1日から10月2日にかけて、NCG社従業員の端末（PC1台）でのマルウェア感染が判明したというもの。 NCG社では10月2日に当該端末をネットワークから隔離し、影響範囲の調査を行った上で、第一興商に10月5日に報告を行っている。 REVISIO 役職員が使用する PC がマルウェア感染、ローカル環境に保存されていた個人情報が外部漏えいした可能性を否定できず 2026.9.10 Thu 8:",
@@ -9464,7 +9230,6 @@
           "leaked_data": [
             "クレジットカード情報",
             "認証情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56449;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社第一興商は10月8日、同社が個人情報の取扱いを委託している日本コロムビアグループ株式会社（NCG社）でのマルウェア感染について発表した。 これは10月1日から10月2日にかけて、NCG社従業員の端末（PC1台）でのマルウェア感染が判明したというもの。 NCG社では10月2日に当該端末をネットワークから隔離し、影響範囲の調査を行った上で、第一興商に10月5日に報告を行っている。 REVISIO 役職員が使用する PC がマルウェア感染、ローカル環境に保存されていた個人情報が外部漏えいした可能性を否定できず 2026.9.10 Thu 8:"
@@ -9487,7 +9252,6 @@
       "leaked_data": [
         "メールアドレス",
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56448;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社ローソンは10月1日、同社メールサーバからの不審メールの送信について発表した。 これは同社のメールサーバが第三者に不正利用され、9月25日午後3時頃から9月27日午後5時15分頃までの間に、外部に不審な英文メールが送信されたというもの。 送信件数は推計約70万件で、大半が海外のメールアドレスへの配信で、一部、国内への配信も確認している。現時点で確認できている不審メールは、件名が「Mutual Benefit」または「RE」で、英文で金銭の取得を示唆し、メールでの連絡や個人情報の提供などを求める内容となっている。 送金を求める英文メッセー",
@@ -9509,7 +9273,6 @@
           "leaked_data": [
             "クレジットカード情報",
             "認証情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56434;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社ローソンは10月8日、同社が運営するアカウントサービス「ローソンID」および「ローソンアプリ予約」への不正アクセスについて発表した。 これは10月7日に実施した調査の中で、9月12日から9月14日(月)の間に「ローソンID」、9月17日に「ローソンアプリ予約」への不正アクセスが判明したというもの。 対策実施し公式ホームページとアプリを再開（ローソン） 2019.9.27 Fri 8:05 公式ホームページとアプリ管理サーバへ不正アタック確認、25日現在で閲覧不能（ローソン） 2019.9.26 Thu 8:05 「おさいふPonta」サ"
@@ -9528,7 +9291,6 @@
           "leaked_data": [
             "メールアドレス",
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56448;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社ローソンは10月1日、同社メールサーバからの不審メールの送信について発表した。 これは同社のメールサーバが第三者に不正利用され、9月25日午後3時頃から9月27日午後5時15分頃までの間に、外部に不審な英文メールが送信されたというもの。 送信件数は推計約70万件で、大半が海外のメールアドレスへの配信で、一部、国内への配信も確認している。現時点で確認できている不審メールは、件名が「Mutual Benefit」または「RE」で、英文で金銭の取得を示唆し、メールでの連絡や個人情報の提供などを求める内容となっている。 送金を求める英文メッセー"
@@ -9622,7 +9384,6 @@
       "leak_count": null,
       "leaked_data": [
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56450;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); GMOインターネット株式会社は9月20日、同社が提供する「ConoHa WING byGMO」の一部顧客のWebサーバ領域への第三者からの不正アクセスについて発表した。 これは9月3日から、第三者による「ConoHa WING byGMO」の一部の顧客領域への不正アクセスが開始され、不正プログラムを設置されたというもの。 影響範囲は該当収容ホストの一部の顧客426件のWebサーバ領域に保存されたデータ。 さくらインターネットが不正アクセス調査結果を発表「さくらのレンタルサーバ」全サーバ再構築など再発防止策を掲げる 2026.9.17 Thu 8",
@@ -9643,7 +9404,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56450;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); GMOインターネット株式会社は9月20日、同社が提供する「ConoHa WING byGMO」の一部顧客のWebサーバ領域への第三者からの不正アクセスについて発表した。 これは9月3日から、第三者による「ConoHa WING byGMO」の一部の顧客領域への不正アクセスが開始され、不正プログラムを設置されたというもの。 影響範囲は該当収容ホストの一部の顧客426件のWebサーバ領域に保存されたデータ。 さくらインターネットが不正アクセス調査結果を発表「さくらのレンタルサーバ」全サーバ再構築など再発防止策を掲げる 2026.9.17 Thu 8"
@@ -9811,7 +9571,6 @@
       "leak_count": null,
       "leaked_data": [
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56435;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社穴吹ハウジングサービスは10月9日、同社が運営するオーナーズサイトの一時停止について発表した。 同社では2月に発生したランサムウェア被害以降、外部専門機関による診断や安全性の確認を継続して実施しており、オーナーズサイトについても外部専門機関による診断を実施した結果、直ちに情報漏えい等につながるものではないものの、より安全に利用するために追加の対策を講じることが望ましい事項が確認されたという。 穴吹ハウジングサービスへのランサムウェア攻撃、外部に漏えいした可能性のある個人情報は 207,773 件であることを最終確認 2026.6.3 W",
@@ -9832,7 +9591,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56435;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社穴吹ハウジングサービスは10月9日、同社が運営するオーナーズサイトの一時停止について発表した。 同社では2月に発生したランサムウェア被害以降、外部専門機関による診断や安全性の確認を継続して実施しており、オーナーズサイトについても外部専門機関による診断を実施した結果、直ちに情報漏えい等につながるものではないものの、より安全に利用するために追加の対策を講じることが望ましい事項が確認されたという。 穴吹ハウジングサービスへのランサムウェア攻撃、外部に漏えいした可能性のある個人情報は 207,773 件であることを最終確認 2026.6.3 W"
@@ -10098,6 +9856,43 @@
     },
     {
       "source": "Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE90c2NJT1cwc3Vic0NiWWNXVXAzVmlyVjB4em4zYmNreHJPcEdoRVFIX25ib1YxRFRDOWhRVWZraFBLU01nV285TEEtQ21mMmpDLUVTMDhzVVk2REtRZHpLRlYxVGZ3MnlqaTdvdFFGVW9UUQ?oc=5",
+      "published_date": "2026-10-12",
+      "title": "【独自】ダークウェブの実態「SALE」も 情報漏洩の次に何起こる？狙うカード情報 - テレ朝NEWS",
+      "attack": true,
+      "organization": "テレ朝NEWS",
+      "attack_type": null,
+      "leak_status": "確認・可能性あり",
+      "leak_count": null,
+      "leaked_data": [
+        "クレジットカード情報"
+      ],
+      "incident_summary": "【独自】ダークウェブの実態「SALE」も 情報漏洩の次に何起こる？狙うカード情報 - テレ朝NEWS",
+      "sources": [
+        "Google News"
+      ],
+      "source_records": [
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE90c2NJT1cwc3Vic0NiWWNXVXAzVmlyVjB4em4zYmNreHJPcEdoRVFIX25ib1YxRFRDOWhRVWZraFBLU01nV285TEEtQ21mMmpDLUVTMDhzVVk2REtRZHpLRlYxVGZ3MnlqaTdvdFFGVW9UUQ?oc=5",
+          "published_date": "2026-10-12",
+          "title": "【独自】ダークウェブの実態「SALE」も 情報漏洩の次に何起こる？狙うカード情報 - テレ朝NEWS",
+          "attack": true,
+          "organization": "テレ朝NEWS",
+          "attack_type": null,
+          "leak_status": "確認・可能性あり",
+          "leak_count": null,
+          "leaked_data": [
+            "クレジットカード情報"
+          ],
+          "incident_summary": "【独自】ダークウェブの実態「SALE」も 情報漏洩の次に何起こる？狙うカード情報 - テレ朝NEWS"
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
+      "source": "Google News",
       "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQTk1R201ejYtOFpQXzVOUzdSRlQ4ejExc0JjTUg0NllCekRDd2x4VWRKTEQ4T0xlZ3hoRFNUTTlxVUY4T0lwVks1MEw4akNWdWlqRHptdGhwc0JIb2hBZnY5bWRkQTdpOWlxRWRnLUFGMDc4cUZOaG9JVnhEQ1hpeFJQV3ZQVU1qNzZV?oc=5",
       "published_date": "2026-10-11",
       "title": "IDCFクラウドにランサムウェア攻撃、JR東日本など495の企業・自治体に影響 - Pasquale Pillitteri",
@@ -10224,7 +10019,6 @@
       "leak_count": null,
       "leaked_data": [
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56424;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社大気社は9月18日、同社のマレーシアグループ会社のTaikisha Engineering (M) Sdn. Bhd.への不正アクセスについて発表した。 これは9月17日に、Taikisha Engineering (M) Sdn. Bhd.の従業員1名が使用するメールアカウントへの不正アクセスを確認したというもの。9月17日に、当該アカウントから複数の宛先に不審なメールが送信された事象を確認している。 大気社の海外グループ会社へのランサムウェア攻撃、社外への情報流出は確認されず 2025.12.10 Wed 8:05 大気社の海外グル",
@@ -10245,7 +10039,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56424;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社大気社は9月18日、同社のマレーシアグループ会社のTaikisha Engineering (M) Sdn. Bhd.への不正アクセスについて発表した。 これは9月17日に、Taikisha Engineering (M) Sdn. Bhd.の従業員1名が使用するメールアカウントへの不正アクセスを確認したというもの。9月17日に、当該アカウントから複数の宛先に不審なメールが送信された事象を確認している。 大気社の海外グループ会社へのランサムウェア攻撃、社外への情報流出は確認されず 2025.12.10 Wed 8:05 大気社の海外グル"
@@ -10379,7 +10172,6 @@
       "leak_count": null,
       "leaked_data": [
         "クレジットカード情報",
-        "顧客情報",
         "会員情報"
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56423;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社ランドハウジングは9月18日、同社が登録している他社の内見予約システムへの不正アクセスについて発表した。 これは7月16日頃に、他社予約システムにて同社のアカウントから不正な内見予約が複数行われていることを関係会社からの連絡で認識したというもの。 REXTにランサムウェア攻撃、流出した可能性のある情報の一部がインターネット上に掲載 2026.9.28 Mon 8:05 画像共有サービス「Gyazo」に不正アクセス、約2,362万件のユーザーに関するデータが流出 2026.9.28 Mon 8:05 JA遠州夢咲ホームページに不正アクセス",
@@ -10400,7 +10192,6 @@
           "leak_count": null,
           "leaked_data": [
             "クレジットカード情報",
-            "顧客情報",
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56423;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社ランドハウジングは9月18日、同社が登録している他社の内見予約システムへの不正アクセスについて発表した。 これは7月16日頃に、他社予約システムにて同社のアカウントから不正な内見予約が複数行われていることを関係会社からの連絡で認識したというもの。 REXTにランサムウェア攻撃、流出した可能性のある情報の一部がインターネット上に掲載 2026.9.28 Mon 8:05 画像共有サービス「Gyazo」に不正アクセス、約2,362万件のユーザーに関するデータが流出 2026.9.28 Mon 8:05 JA遠州夢咲ホームページに不正アクセス"

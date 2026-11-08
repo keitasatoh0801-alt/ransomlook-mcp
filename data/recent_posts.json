@@ -1,10 +1,98 @@
 {
   "source": "RansomLook",
   "api_endpoint": "https://www.ransomlook.io/api/recent",
-  "retrieved_at": "2026-11-08T05:59:29.491301+00:00",
+  "retrieved_at": "2026-11-08T13:23:46.604652+00:00",
   "days": 30,
   "count": 100,
   "posts": [
+    {
+      "post_title": "starmark.co.th",
+      "discovered": "2026-11-08 13:25:27.685649",
+      "description": "STARMARK specializes in premium furniture manufacturing and imports, offering a wide range of produc...",
+      "link": "/post/2df7b34e1fab0bb3afe57adfea323a1b",
+      "magnet": null,
+      "screen": "screenshots/lockbit5/starmarkcoth.png",
+      "private": false,
+      "misp_uuid": "3e8eff89-663c-58a8-ae7a-e7d1c53caa59",
+      "group_name": "lockbit5"
+    },
+    {
+      "post_title": "grupotelles.com",
+      "discovered": "2026-11-08 13:25:26.814978",
+      "description": "Grupo Telles is a historic Brazilian company with 180 years of experience, operating across various...",
+      "link": "/post/d5d99dd1342b203060b9107144079d21",
+      "magnet": null,
+      "screen": "screenshots/lockbit5/grupotellescom.png",
+      "private": false,
+      "misp_uuid": "d8202025-7df5-5fd6-844d-ec792cce6306",
+      "group_name": "lockbit5"
+    },
+    {
+      "post_title": "yatra.com",
+      "discovered": "2026-11-08 13:25:25.975314",
+      "description": "Yatra is an online travel agent company in India. Based in Gurugram, India , Yatra is a one-stop-sho...",
+      "link": "/post/146b9c737c6f41cbb93c71c4adbb099c",
+      "magnet": null,
+      "screen": "screenshots/lockbit5/yatracom.png",
+      "private": false,
+      "misp_uuid": "90ab44b0-2281-5870-974e-0d0d7863810a",
+      "group_name": "lockbit5"
+    },
+    {
+      "post_title": "sunclinicallaboratories.com",
+      "discovered": "2026-11-08 13:25:25.093510",
+      "description": "Sun Clinical Laboratories is a Federal (Medicare) and State (Medi-Cal) certified full service lab th...",
+      "link": "/post/8b1891603fb63b48028794ddbfb5bbc9",
+      "magnet": null,
+      "screen": "screenshots/lockbit5/sunclinicallaboratoriescom.png",
+      "private": false,
+      "misp_uuid": "bf7951f0-0028-5f30-96a4-7484a5952e48",
+      "group_name": "lockbit5"
+    },
+    {
+      "post_title": "Our Twitter",
+      "discovered": "2026-11-08 12:26:41.730743",
+      "description": "[PSA] https://x.com/0x0444777 follow it up, will be more updates there than here, more of what we do behind the scenes, how we work etc. Thank you.",
+      "link": null,
+      "magnet": null,
+      "screen": null,
+      "private": false,
+      "misp_uuid": "3ff50a7f-829e-5c8f-933e-d1947d7a3ef2",
+      "group_name": "byod"
+    },
+    {
+      "post_title": "SIFLOOR",
+      "discovered": "2026-11-08 07:21:56.485719",
+      "description": "PENDING\nPublication scheduled: 2026-11-11T05:57:00Z\nAttachments: 1",
+      "link": "",
+      "magnet": null,
+      "screen": null,
+      "private": false,
+      "misp_uuid": "ec554755-e69a-57f0-865c-d8b91f1218c7",
+      "group_name": "majinahanashi"
+    },
+    {
+      "post_title": "Modehaus Schnitzler GmbH & Co. KG",
+      "discovered": "2026-11-08 07:21:55.666513",
+      "description": "PENDING\nPublication scheduled: 2026-11-11T05:57:00Z\nAttachments: 1",
+      "link": "",
+      "magnet": null,
+      "screen": null,
+      "private": false,
+      "misp_uuid": "39cc55ec-7132-5d96-9d3c-cd281ec95661",
+      "group_name": "majinahanashi"
+    },
+    {
+      "post_title": "SANTEX SAS",
+      "discovered": "2026-11-08 07:21:54.813115",
+      "description": "PENDING\nPublication scheduled: 2026-11-11T05:57:00Z",
+      "link": "",
+      "magnet": null,
+      "screen": null,
+      "private": false,
+      "misp_uuid": "fe1fb34e-ef1b-5815-8d3e-ff5b7a94f251",
+      "group_name": "majinahanashi"
+    },
     {
       "post_title": "Clínica La Sagrada Familia (Colombia)",
       "discovered": "2026-11-08 04:25:13.961646",
@@ -1016,94 +1104,6 @@
       "private": false,
       "misp_uuid": "3dd7e58a-3c61-529f-a85a-40be3d8e214a",
       "group_name": "ransomhouse"
-    },
-    {
-      "post_title": "K... R...",
-      "discovered": "2026-11-04 23:22:51.685179",
-      "description": "To be announced...",
-      "link": null,
-      "magnet": null,
-      "screen": null,
-      "private": false,
-      "misp_uuid": "b12d5bb9-e146-528e-90b2-dd633020f53c",
-      "group_name": "leakeddata"
-    },
-    {
-      "post_title": "Aripack",
-      "discovered": "2026-11-04 22:26:17.081500",
-      "description": "",
-      "link": "topic.php?id=e6Z2hYmCZ6UnEl",
-      "magnet": null,
-      "screen": null,
-      "private": false,
-      "misp_uuid": "7f1311c1-080a-55bc-a5a8-c1dc4aeaabec",
-      "group_name": "play"
-    },
-    {
-      "post_title": "StrucSure Home Warranty",
-      "discovered": "2026-11-04 22:26:16.236858",
-      "description": "",
-      "link": "topic.php?id=9DQxUu6f9HjEe2",
-      "magnet": null,
-      "screen": null,
-      "private": false,
-      "misp_uuid": "afb95650-82f1-5dfb-ad12-5fa45ebd9b73",
-      "group_name": "play"
-    },
-    {
-      "post_title": "Standard Sand & Silica",
-      "discovered": "2026-11-04 22:26:15.414061",
-      "description": "",
-      "link": "topic.php?id=cfqLpRcmr3oVuB",
-      "magnet": null,
-      "screen": null,
-      "private": false,
-      "misp_uuid": "0b77d72e-1c2d-5b2e-a9b0-b968b6da24ee",
-      "group_name": "play"
-    },
-    {
-      "post_title": "Misura",
-      "discovered": "2026-11-04 22:26:14.552996",
-      "description": "",
-      "link": "topic.php?id=8VcHhQHZNW4A8T",
-      "magnet": null,
-      "screen": null,
-      "private": false,
-      "misp_uuid": "733b5a98-54f9-55e2-94d2-ff4f55c97d9b",
-      "group_name": "play"
-    },
-    {
-      "post_title": "Noble Inc.",
-      "discovered": "2026-11-04 21:36:37.359814",
-      "description": "Organization listed by Soul Group at http://codice-ledger.io/\nThis records the site listing; compromise has not been independently verified.\n\nDescription: Noble Casing, Inc., founded in 2009, provides casing running and conductor drilling services in the Rocky Mountain region, emphasizing safety, training and equipment upkeep. Subsidiaries Noble Drilling and Noble Trucking support production and rig moves.\nCategory: Energy, Utilities & Waste\nLocation: Williston, North Dakota\nWebsite: https://www.nobleoilfieldservices.com\nEmployees (site claim): 201-500\nRevenue (site claim): $88 million",
-      "link": "http://codice-ledger.io/",
-      "magnet": null,
-      "screen": "screenshots/soul/Noble Inc.png",
-      "private": false,
-      "misp_uuid": "1640e999-638c-5bc6-a0ea-3ba13eea7f70",
-      "group_name": "soul"
-    },
-    {
-      "post_title": "United Medical Doctors",
-      "discovered": "2026-11-04 21:36:34.360371",
-      "description": "Organization listed by Soul Group at http://codice-ledger.io/\nThis records the site listing; compromise has not been independently verified.\n\nDescription: United Medical Doctors (UMD) is an independent multi‑specialty medical‑surgical group with 70+ Southern California locations and 40+ specialties. They focus on high‑quality, compassionate care, patient satisfaction, process improvement, outpatient surgery, clinical research.\nCategory: Hospitals & Physicians Clinics\nLocation: Murrieta, California\nWebsite: https://www.unitedmd.com\nEmployees (site claim): 201-500\nRevenue (site claim): $51.5 million",
-      "link": "http://codice-ledger.io/",
-      "magnet": null,
-      "screen": "screenshots/soul/United Medical Doctors.png",
-      "private": false,
-      "misp_uuid": "c9a1df73-a89a-55e4-9813-fca4b9ecf681",
-      "group_name": "soul"
-    },
-    {
-      "post_title": "METO Systems",
-      "discovered": "2026-11-04 21:36:31.348689",
-      "description": "Organization listed by Soul Group at http://codice-ledger.io/\nThis records the site listing; compromise has not been independently verified.\n\nDescription: METO Systems designs and manufactures stainless-steel industrial material‑handling equipment for regulated industries. Products include lifts, blenders, transporters, and docking systems, they offer installation, training, customization, and support.\nCategory: Industrial Machinery & Equipment\nLocation: Parsippany, New Jersey\nWebsite: https://www.metosystems.com\nEmployees (site claim): 11-50\nRevenue (site claim): $6 million",
-      "link": "http://codice-ledger.io/",
-      "magnet": null,
-      "screen": "screenshots/soul/METO Systems.png",
-      "private": false,
-      "misp_uuid": "97f9ebb0-0870-5191-9714-02bad67c84e4",
-      "group_name": "soul"
     }
   ]
 }
