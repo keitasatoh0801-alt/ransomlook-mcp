@@ -1,10 +1,87 @@
 {
   "source": "RansomLook",
   "api_endpoint": "https://www.ransomlook.io/api/recent",
-  "retrieved_at": "2026-11-08T13:23:46.604652+00:00",
+  "retrieved_at": "2026-11-08T22:03:52.021504+00:00",
   "days": 30,
   "count": 100,
   "posts": [
+    {
+      "post_title": "Fidex",
+      "discovered": "2026-11-08 20:25:42.529686",
+      "description": "Fidex Seguros y Fianzas is a prominent Mexican insurance broker and risk management advisory firm. Established in 2002, the company specializes in tailored corporate and personal insurance solutions, bond underwriting, and corporate employee benefits management.",
+      "link": "https://www.fidex.com.mx/",
+      "magnet": null,
+      "screen": "screenshots/deadlock/Fidex.png",
+      "private": false,
+      "misp_uuid": "ff99d891-acbb-5fdc-88ed-fe5729d9a746",
+      "group_name": "deadlock"
+    },
+    {
+      "post_title": "NoseTea",
+      "discovered": "2026-11-08 20:25:41.709062",
+      "description": "NOSE TEA (THAILAND) CO LTD. is a highly popular premium cheese tea brand from Thailand. Known locally as \"ชาจมูกเขียว\" (Green Nose Tea), the brand specializes in fruit infusions and milk teas paired with its signature rich, velvety cream cheese topping. Manufacturing and retailing of non-alcoholic beverages, tea, coffee, bakery, and ice cream",
+      "link": "https://home.nosetea.com/",
+      "magnet": null,
+      "screen": "screenshots/deadlock/NoseTea.png",
+      "private": false,
+      "misp_uuid": "0b433ab4-e30f-567b-b377-24955590c36e",
+      "group_name": "deadlock"
+    },
+    {
+      "post_title": "tekra.com.pl",
+      "discovered": "2026-11-08 20:25:16.501866",
+      "description": "Country: Poland | Size: 289GB | Public | Views: 26",
+      "link": null,
+      "magnet": null,
+      "screen": "screenshots/cloak/tekracompl.png",
+      "private": false,
+      "misp_uuid": "ff0f0a1f-4444-56ea-914c-2f0cf9fe741b",
+      "group_name": "cloak"
+    },
+    {
+      "post_title": "Coopebis",
+      "discovered": "2026-11-08 19:27:07.471588",
+      "description": "Coopebis is a Colombian savings and credit cooperative (Cooperativa de Ahorro y Crédito) providing financial services and social benefits to its members. The organization offers loans, savings accounts (including specialized plans for children), and various welfare benefits.",
+      "link": "https://coopebis.coop/",
+      "magnet": null,
+      "screen": "screenshots/deadlock/Coopebis.png",
+      "private": false,
+      "misp_uuid": "8ec4540f-53a8-5cce-b28c-c06b7ab9c023",
+      "group_name": "deadlock"
+    },
+    {
+      "post_title": "Calmont Wire & Cable",
+      "discovered": "2026-11-08 19:27:02.493924",
+      "description": "Calmont Wire & Cable is a leading custom wire and cable manufacturer known for its innovative solutions in medical, robotics, aerospace, military, and sensor applications. The company offersa wide range of products including completely custom cables, ultraflexible wires, and high-temperature cables, as well as services such as custom design, prototyping, and testing.We will upload 10gb of corporate data soon. Employee personal information (passport, DLs, SSNs), contracts, customer information, financial, NDAs and so on.",
+      "link": null,
+      "magnet": null,
+      "screen": null,
+      "private": false,
+      "misp_uuid": "4370725d-0b82-502e-833f-28dce02a4e08",
+      "group_name": "akira"
+    },
+    {
+      "post_title": "Trinity Custom Homes - USA",
+      "discovered": "2026-11-08 16:25:14.953995",
+      "description": "Trinity Custom Homes is a custom home builder that specializes in building 100% custom, solid wood homes directly on the customer’s land across several states in the Southeast, including Georgia, Alabama, North Carolina, South Carolina, and Tennessee.",
+      "link": "https://trinitycustom.com/",
+      "magnet": null,
+      "screen": "screenshots/deadlock/Trinity Custom Homes - USA.png",
+      "private": false,
+      "misp_uuid": "f0816a1f-d0c7-52a1-a6b9-37c67127c756",
+      "group_name": "deadlock"
+    },
+    {
+      "post_title": "IE & E Industries",
+      "discovered": "2026-11-08 15:25:34.827204",
+      "description": "At IE & E, we are committed to providing our customers with the best mechanical and electromechanical engineering services, advanced metrology services for all industries, and standard optical comparator charts and screens.",
+      "link": "http://maa2yprc5pldyr5hjn246hw7i66wdhglnostqgqkcbuh4vyyeos4xxyd.onion/uqmznxvtrpwejasklc",
+      "magnet": null,
+      "screen": "screenshots/orova/IE & E Industries.png",
+      "private": false,
+      "misp_uuid": "313d76e8-aa43-5fcc-93ee-719e6545f597",
+      "group_name": "orova"
+    },
     {
       "post_title": "starmark.co.th",
       "discovered": "2026-11-08 13:25:27.685649",
@@ -1027,83 +1104,6 @@
       "private": false,
       "misp_uuid": "01878b3f-84ea-574d-a32a-101d96dd8518",
       "group_name": "everstake"
-    },
-    {
-      "post_title": "First and Final Warning - IHG Hotels & Resorts (Estate)",
-      "discovered": "2026-11-05 10:17:17.372231",
-      "description": "Here are some sample files for you and the public to see. Let's actually resolve this situation before we have to escalate it in ways we don't want to have to do. Make the right choice, we're not going to warn you again. | ORIGINAL MESSAGE: Nice LDAP Binding Password being '123'. Rotating things won't really save you casue it's not hard to hop back on your network. Anyways, we now have; Customer Data, AWS Keys, Full Access to CyberArk, Complete Employee PII, Booking information included but not limited to, guest name, billing address, company, rate code, room charges, taxes, spend, property & stay dates. We also have the loyalty data store. Additionally we have reservation and payment ledgers for the folio reservation (guest name, address, phone, email, arrival and departure, rate, property) with Access to the AD + All Financial Records. This affects the big names such as Six Senses, Holiday Inn, Holiday Inn Express, Staybridge Suites, Garner, Candlewood, Crowne Plaza, Mayfair Hotel, etc etc you can pick up what we are putting down at this point. Anyways, you know where to find us (contact tab). We will take you down when communication has been established between our team and yours. | Updated on 2026-11-05",
-      "link": null,
-      "magnet": null,
-      "screen": null,
-      "private": false,
-      "misp_uuid": "a98ca4e9-7aab-5bf4-99aa-3a2dc57ea76e",
-      "group_name": "byod"
-    },
-    {
-      "post_title": "AUDIT ENTITY: kx***om",
-      "discovered": "2026-11-05 10:17:15.093264",
-      "description": "AUDIT ID: 21FE88BB955C2DE4 / DISCOVERY DATE: 2026-11-05",
-      "link": "/entity/3CD8464C4F83BABC",
-      "magnet": null,
-      "screen": "screenshots/audit team/AUDIT ENTITY: kx***om.png",
-      "private": false,
-      "misp_uuid": "2b498291-1f27-5f80-ae24-bc1dfcf4c3af",
-      "group_name": "audit team"
-    },
-    {
-      "post_title": "Delta Dental of Missouri",
-      "discovered": "2026-11-05 07:22:20.154704",
-      "description": "dental insurance · United States",
-      "link": null,
-      "magnet": null,
-      "screen": null,
-      "private": false,
-      "misp_uuid": "7aade138-776a-5713-96ad-91e7021ef031",
-      "group_name": "n0n"
-    },
-    {
-      "post_title": "The Container Store",
-      "discovered": "2026-11-05 07:22:19.318422",
-      "description": "storage and organization retail · United States",
-      "link": null,
-      "magnet": null,
-      "screen": null,
-      "private": false,
-      "misp_uuid": "3fe1ea00-c250-5539-919d-18cbd65b0d5e",
-      "group_name": "n0n"
-    },
-    {
-      "post_title": "Custom Bakehouse",
-      "discovered": "2026-11-05 07:21:48.443339",
-      "description": "Custom Bakehouse was the target of a cyberattack. As a result of the attack, more than 100 GB of documents were stolen. Including confidential information",
-      "link": "http://darkprn3d3udnhpuxknsrhft3376lrz5tenhgkrxge5hxqe46pkbrwid.onion/article?slug=custom-bakehouse",
-      "magnet": null,
-      "screen": "screenshots/dark project/Custom Bakehouse.png",
-      "private": false,
-      "misp_uuid": "e1fa0fcd-b7f2-5564-9e29-d47193c34d3a",
-      "group_name": "dark project"
-    },
-    {
-      "post_title": "Magasin du Nord (Magasin)",
-      "discovered": "2026-11-05 05:21:00.612506",
-      "description": "LEAK\n2026-11-05\nThe company was given every opportunity to settle: a working decryptor, verified test files, a confirmed archive of over 280,000 files (70 GB), a fixed price, and two deadline extensions. Both were...\nFiles: 280481 / 70.2 GB\nAttachments: 1",
-      "link": "",
-      "magnet": null,
-      "screen": null,
-      "private": false,
-      "misp_uuid": "ddd33bf1-bc43-55e2-b4f3-372d271e9ac4",
-      "group_name": "majinahanashi"
-    },
-    {
-      "post_title": "TFG London",
-      "discovered": "2026-11-04 23:23:21.195785",
-      "description": "",
-      "link": "/r/c49641cd660fad465281e26e0734481866f38458",
-      "magnet": null,
-      "screen": null,
-      "private": false,
-      "misp_uuid": "3dd7e58a-3c61-529f-a85a-40be3d8e214a",
-      "group_name": "ransomhouse"
     }
   ]
 }
