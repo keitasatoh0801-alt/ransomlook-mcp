@@ -1,10 +1,54 @@
 {
   "source": "RansomLook",
   "api_endpoint": "https://www.ransomlook.io/api/recent",
-  "retrieved_at": "2026-11-08T22:03:52.021504+00:00",
+  "retrieved_at": "2026-11-09T06:26:04.907456+00:00",
   "days": 30,
   "count": 100,
   "posts": [
+    {
+      "post_title": "Grupa ABS",
+      "discovered": "2026-11-09 03:21:15.273288",
+      "description": "Grupa ABS is a company that operates in the Environmental Services industry. It employs 6-10 people and has $1M-$5M of revenue. The company is headquartered in Czestochowa, Silesian Voivodeship, Poland.",
+      "link": null,
+      "magnet": null,
+      "screen": null,
+      "private": false,
+      "misp_uuid": "720d7dd9-a81c-5536-aff0-62b5858541d2",
+      "group_name": "panzer"
+    },
+    {
+      "post_title": "Expedia Group, Inc.",
+      "discovered": "2026-11-09 03:21:13.005692",
+      "description": "online travel and consumer loyalty · United States",
+      "link": null,
+      "magnet": null,
+      "screen": null,
+      "private": false,
+      "misp_uuid": "7f5ead1d-ed62-5384-a7d8-d27b1122e1dd",
+      "group_name": "n0n"
+    },
+    {
+      "post_title": "Court Square Group",
+      "discovered": "2026-11-09 02:24:51.983516",
+      "description": "<p>We hacked into Court Square Group internal network and stole 3T of customer data from the RegDocs365 and ARCC cloud network.<br>It includes sensitive info such as clinical trial data, research materials, and various reports belonging to Court Square Group customers.</p><p>&nbsp;</p><p>To demonstrate our credibility, we will provide a list of some of the data files currently in our possession within the next few days. You may then select files from this list, and we will send the ones you have chosen.</p>",
+      "link": "/target/6aeb703fa2e70ea847a11af2",
+      "magnet": null,
+      "screen": "screenshots/black x/Court Square Group.png",
+      "private": false,
+      "misp_uuid": "12698aaa-35e5-5903-ae56-d2e44113d1ae",
+      "group_name": "black x"
+    },
+    {
+      "post_title": "Cuomo LLC",
+      "discovered": "2026-11-09 00:22:58.615227",
+      "description": "Inside a law firm data breach.",
+      "link": "http://om6q4a6cyipxvt7ioudxt24cw4oqu4yodmqzl25mqd2hgllymrgu4aqd.onion/r/iism0ISbDuY+NRrj2BwizmSeGUmUKyLcsE0u2Mpcsjea6xZK9E3TEIU0Ipp5MhPXJ46BAxByTuHUcKlesDCZZjRhYjMzOXdp",
+      "magnet": null,
+      "screen": "screenshots/anubis/Cuomo LLC.png",
+      "private": false,
+      "misp_uuid": "5b7ad719-83e4-59c1-ba12-4ea58efb9bce",
+      "group_name": "anubis"
+    },
     {
       "post_title": "Fidex",
       "discovered": "2026-11-08 20:25:42.529686",
@@ -1060,50 +1104,6 @@
       "private": false,
       "misp_uuid": "1fdd0beb-15a0-5c43-9d19-23c5843ac846",
       "group_name": "akira"
-    },
-    {
-      "post_title": "SevenPlus",
-      "discovered": "2026-11-05 13:21:56.145409",
-      "description": "A Japanese IT company (SevenPlus) that specializes in software development, systems integration, infrastructure solutions, and projects based on generative AI",
-      "link": "/card/sevenplus",
-      "magnet": null,
-      "screen": "screenshots/beast/SevenPlus.png",
-      "private": false,
-      "misp_uuid": "c3c26e52-53e0-5923-9e1c-4589f7745662",
-      "group_name": "beast"
-    },
-    {
-      "post_title": "Bridgestone HosePower, LLC",
-      "discovered": "2026-11-05 12:18:41.024726",
-      "description": "A distributor for Flextral Hydraulic Hose and Industrial Hose Products",
-      "link": "Companies/hosepower",
-      "magnet": null,
-      "screen": "screenshots/pear/Bridgestone HosePower, LLC.png",
-      "private": false,
-      "misp_uuid": "b67ff4d2-84d2-5c6c-a009-e76419eff9b8",
-      "group_name": "pear"
-    },
-    {
-      "post_title": "Calvary Christian College",
-      "discovered": "2026-11-05 10:17:56.986797",
-      "description": "Education",
-      "link": "/site/blog?uuid=cf09ea88-2e5d-4c3e-a093-838d1e05f682",
-      "magnet": null,
-      "screen": null,
-      "private": false,
-      "misp_uuid": "36996f05-13e7-5345-bb62-c73fb35eb20c",
-      "group_name": "qilin"
-    },
-    {
-      "post_title": "ne***h.com",
-      "discovered": "2026-11-05 10:17:23.805047",
-      "description": "Category: Electronic, Manufacturing | Size: 2.57 Tb | Release: 2026-11-20T12:05:00+00:00 | Status: Scheduled",
-      "link": "/about/announcement/664c37c8-62f3-4901-8748-4aaf7def4e27/",
-      "magnet": null,
-      "screen": "screenshots/everstake/ne***hcom.png",
-      "private": false,
-      "misp_uuid": "01878b3f-84ea-574d-a32a-101d96dd8518",
-      "group_name": "everstake"
     }
   ]
 }
