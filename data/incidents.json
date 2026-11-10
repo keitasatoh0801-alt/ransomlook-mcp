@@ -1,6 +1,6 @@
 {
   "source": "Japanese cyber incident sources",
-  "retrieved_at": "2026-11-10T07:17:51.317896+00:00",
+  "retrieved_at": "2026-11-10T19:43:44.259346+00:00",
   "window_days": 30,
   "cutoff_date": "2026-10-11",
   "attack_only": true,
@@ -71,32 +71,32 @@
     },
     {
       "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1LSG9Vc19NTW9yamdZS0J1aVlOVGhyTVNjSm1fMkc0S0RrT296SDlGVHBPX05pSXBJazI1UFZJMUFsaWhPd2ItWUNKWlRpNms2YVVjRXVxLUpsWGNWQ2c?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1FNUc4bEpzT2VnY0I5YWRTamphNTl6X1RFeDVnc0wxTjRqbXpscVR6U1J6algwaVViSXV6SUkwc2JzWWllZGY3bURadFhTUWVHbDd5Q3lwZm1UQ3U5c2c?oc=5",
       "published_date": "2026-11-10",
-      "title": "被害者情報漏えい「遺憾」 総務相、１６年度以降百件超 - 沖縄タイムス社",
+      "title": "被害者情報漏えい「遺憾」と総務相 - 沖縄タイムス社",
       "attack": true,
       "organization": "沖縄タイムス社",
       "attack_type": null,
       "leak_status": "確認・可能性あり",
       "leak_count": null,
       "leaked_data": [],
-      "incident_summary": "被害者情報漏えい「遺憾」 総務相、１６年度以降百件超 - 沖縄タイムス社",
+      "incident_summary": "被害者情報漏えい「遺憾」と総務相 - 沖縄タイムス社",
       "sources": [
         "Google News"
       ],
       "source_records": [
         {
           "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1LSG9Vc19NTW9yamdZS0J1aVlOVGhyTVNjSm1fMkc0S0RrT296SDlGVHBPX05pSXBJazI1UFZJMUFsaWhPd2ItWUNKWlRpNms2YVVjRXVxLUpsWGNWQ2c?oc=5",
+          "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1FNUc4bEpzT2VnY0I5YWRTamphNTl6X1RFeDVnc0wxTjRqbXpscVR6U1J6algwaVViSXV6SUkwc2JzWWllZGY3bURadFhTUWVHbDd5Q3lwZm1UQ3U5c2c?oc=5",
           "published_date": "2026-11-10",
-          "title": "被害者情報漏えい「遺憾」 総務相、１６年度以降百件超 - 沖縄タイムス社",
+          "title": "被害者情報漏えい「遺憾」と総務相 - 沖縄タイムス社",
           "attack": true,
           "organization": "沖縄タイムス社",
           "attack_type": null,
           "leak_status": "確認・可能性あり",
           "leak_count": null,
           "leaked_data": [],
-          "incident_summary": "被害者情報漏えい「遺憾」 総務相、１６年度以降百件超 - 沖縄タイムス社"
+          "incident_summary": "被害者情報漏えい「遺憾」と総務相 - 沖縄タイムス社"
         }
       ],
       "source_count": 1,
@@ -285,6 +285,128 @@
       "merged": true
     },
     {
+      "source": "Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUE1rWmx6NXROVHVIeVVtX0wyMl9JTFFkdFljT0RFdF9jZVkzNndwamNMd2Q2UThQLVVBUjBTc01fdWlwOG92eHUwa3RlQ1lBYzIyTTgyY2NCR0swWE1QVFRtME15RTd6cVB3VlNxVnRRUVlPSlBlVEttSF9Za2VsTk9WblVVS1h4Mk5ZLUpjYmhQUTRBV3BNUWk4S2xqZw?oc=5",
+      "published_date": "2026-11-10",
+      "title": "日本商工会議所のネット試験管理システムへ不正アクセスによるサイバー攻撃、最大 98万人個人情報漏洩の恐れ - 合同会社ロケットボーイズ",
+      "attack": true,
+      "organization": "合同会社ロケットボーイズ",
+      "attack_type": "不正アクセス",
+      "leak_status": "可能性あり",
+      "leak_count": null,
+      "leaked_data": [],
+      "incident_summary": "日本商工会議所のネット試験管理システムへ不正アクセスによるサイバー攻撃、最大 98万人個人情報漏洩の恐れ - 合同会社ロケットボーイズ",
+      "sources": [
+        "Google News"
+      ],
+      "source_records": [
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOX3B3QkFhakNNR1BqZzNzX0NybE9vRjdNcklRNFlQdTNrQ1BKek1pXzNsSTZ3dm1Kb0w5cXJtWkxBMlZObEY2MzVuUHBFWjQ5TXptTEVPQm1CQXNLbk8zMjROeGJVVWwxRWRpT3d6U1J0ZmJsSVF1NDFJclBuajVFNVBoWVB4N2ttSW03akhQRy02ckU?oc=5",
+          "published_date": "2026-11-08",
+          "title": "AI侵入テストツール「ARTEX」の管理画面、世界1,465ホストで公開 日本でも51ホスト、Censysが攻撃基盤との同居を確認 - 合同会社ロケットボーイズ",
+          "attack": true,
+          "organization": "合同会社ロケットボーイズ",
+          "attack_type": "不正アクセス",
+          "leak_status": "不明",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "AI侵入テストツール「ARTEX」の管理画面、世界1,465ホストで公開 日本でも51ホスト、Censysが攻撃基盤との同居を確認 - 合同会社ロケットボーイズ"
+        },
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUE1rWmx6NXROVHVIeVVtX0wyMl9JTFFkdFljT0RFdF9jZVkzNndwamNMd2Q2UThQLVVBUjBTc01fdWlwOG92eHUwa3RlQ1lBYzIyTTgyY2NCR0swWE1QVFRtME15RTd6cVB3VlNxVnRRUVlPSlBlVEttSF9Za2VsTk9WblVVS1h4Mk5ZLUpjYmhQUTRBV3BNUWk4S2xqZw?oc=5",
+          "published_date": "2026-11-10",
+          "title": "日本商工会議所のネット試験管理システムへ不正アクセスによるサイバー攻撃、最大 98万人個人情報漏洩の恐れ - 合同会社ロケットボーイズ",
+          "attack": true,
+          "organization": "合同会社ロケットボーイズ",
+          "attack_type": "不正アクセス",
+          "leak_status": "可能性あり",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "日本商工会議所のネット試験管理システムへ不正アクセスによるサイバー攻撃、最大 98万人個人情報漏洩の恐れ - 合同会社ロケットボーイズ"
+        }
+      ],
+      "source_count": 1,
+      "merged": true
+    },
+    {
+      "source": "Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9wNC00Tzg1Ukh6WDc1WENYUURSX3dDYnBJR0ppUkM1VUVEekk4dHFCWU5CNzBYZjZNM19IWnlRTGZEUFZQTnJzdHNiSlJpN0ZoWVZqNGU3dHZPaVlNY0hnUTZJVWdfOTUzMkVwOQ?oc=5",
+      "published_date": "2026-11-10",
+      "title": "日商、簿記受検者など98万人情報漏洩の可能性 不正アクセスで - 日本経済新聞",
+      "attack": true,
+      "organization": "日本経済新聞",
+      "attack_type": "不正アクセス",
+      "leak_status": "可能性あり",
+      "leak_count": null,
+      "leaked_data": [
+        "顧客情報"
+      ],
+      "incident_summary": "日商、簿記受検者など98万人情報漏洩の可能性 不正アクセスで - 日本経済新聞",
+      "sources": [
+        "Google News"
+      ],
+      "source_records": [
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9wU3ZndkdyT1lTV2dldklNclNmdERzdkFDWlBUNFRwVXR2NmNHV0N4S2hQdEhkRWNtTzFkMzU1YW9na2VFVHFUOGFrZ3BBTnN1endtalR5NFhWczBzREM0Z0N6NlNBb0tKUkhJZg?oc=5",
+          "published_date": "2026-10-23",
+          "title": "アンドエスティHD、個人情報約250万件流出の恐れ 不正アクセスで - 日本経済新聞",
+          "attack": true,
+          "organization": "日本経済新聞",
+          "attack_type": "不正アクセス",
+          "leak_status": "可能性あり",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "アンドエスティHD、個人情報約250万件流出の恐れ 不正アクセスで - 日本経済新聞"
+        },
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9NOWxtNXNHTVBBZndVc3hCYzh0WDNiNHVNMkI3Y3hsZFp3QXFnR2l1NGRFSms1d2RRT3NQTGRFZFRFSldwVU1xQk1kbHhKX19CcDc0YjNydUVxTTU3NUgyNW5yaDRDcnNUZUJfWQ?oc=5",
+          "published_date": "2026-10-23",
+          "title": "野村証券、法人向けサービスで情報漏洩か 「委託先に不正アクセス」 - 日本経済新聞",
+          "attack": true,
+          "organization": "日本経済新聞",
+          "attack_type": "不正アクセス",
+          "leak_status": "確認・可能性あり",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "野村証券、法人向けサービスで情報漏洩か 「委託先に不正アクセス」 - 日本経済新聞"
+        },
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0wakNVaVlWQ003eWx6eS1aSTVPTHJpcjhOVnpjdkF6c0dpVC1pWkIyVW11cDFWSFVsSE1zLUZCNzBkYkRzZU5ReDFoWU1FVkN0RGY3NzhBYWlrREE0bUU5MHpfZEJLWTIyTkRjUw?oc=5",
+          "published_date": "2026-11-09",
+          "title": "ニトリHD、最大で顧客情報3762万件流出の可能性 不正アクセスで - 日本経済新聞",
+          "attack": true,
+          "organization": "日本経済新聞",
+          "attack_type": "不正アクセス",
+          "leak_status": "可能性あり",
+          "leak_count": null,
+          "leaked_data": [
+            "顧客情報"
+          ],
+          "incident_summary": "ニトリHD、最大で顧客情報3762万件流出の可能性 不正アクセスで - 日本経済新聞"
+        },
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9wNC00Tzg1Ukh6WDc1WENYUURSX3dDYnBJR0ppUkM1VUVEekk4dHFCWU5CNzBYZjZNM19IWnlRTGZEUFZQTnJzdHNiSlJpN0ZoWVZqNGU3dHZPaVlNY0hnUTZJVWdfOTUzMkVwOQ?oc=5",
+          "published_date": "2026-11-10",
+          "title": "日商、簿記受検者など98万人情報漏洩の可能性 不正アクセスで - 日本経済新聞",
+          "attack": true,
+          "organization": "日本経済新聞",
+          "attack_type": "不正アクセス",
+          "leak_status": "可能性あり",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "日商、簿記受検者など98万人情報漏洩の可能性 不正アクセスで - 日本経済新聞"
+        }
+      ],
+      "source_count": 1,
+      "merged": true
+    },
+    {
       "source": "ScanNetSecurity",
       "source_url": "https://scan.netsecurity.ne.jp/article/2026/11/10/56712.html",
       "published_date": "2026-11-10",
@@ -416,6 +538,45 @@
       ],
       "source_count": 1,
       "merged": true
+    },
+    {
+      "source": "Security NEXT",
+      "source_url": "https://www.security-next.com/192572",
+      "published_date": "2026-11-10",
+      "title": "システム侵害で顧客情報流出の可能性 - ニトリグループ",
+      "attack": true,
+      "organization": "システム侵害で顧客情報流出の可能性 - ニトリグループ ニトリホールディングス",
+      "service": "システム侵害で顧客情報流出の可能性 - ニトリグループ",
+      "attack_type": "不正アクセス",
+      "leak_status": "可能性あり",
+      "leak_count": null,
+      "leaked_data": [
+        "顧客情報"
+      ],
+      "incident_summary": "ニトリホールディングスは、第三者によってシステムが侵害され、顧客の個人情報が外部に流出した可能性があることを明らかにした。 ：Security NEXT",
+      "sources": [
+        "Security NEXT"
+      ],
+      "source_records": [
+        {
+          "source": "Security NEXT",
+          "source_url": "https://www.security-next.com/192572",
+          "published_date": "2026-11-10",
+          "title": "システム侵害で顧客情報流出の可能性 - ニトリグループ",
+          "attack": true,
+          "organization": "システム侵害で顧客情報流出の可能性 - ニトリグループ ニトリホールディングス",
+          "service": "システム侵害で顧客情報流出の可能性 - ニトリグループ",
+          "attack_type": "不正アクセス",
+          "leak_status": "可能性あり",
+          "leak_count": null,
+          "leaked_data": [
+            "顧客情報"
+          ],
+          "incident_summary": "ニトリホールディングスは、第三者によってシステムが侵害され、顧客の個人情報が外部に流出した可能性があることを明らかにした。 ：Security NEXT"
+        }
+      ],
+      "source_count": 1,
+      "merged": false
     },
     {
       "source": "ScanNetSecurity",
@@ -638,6 +799,22 @@
           "source": "ScanNetSecurity",
           "source_url": "https://scan.netsecurity.ne.jp/article/2026/11/10/56722.html",
           "published_date": "2026-11-10",
+          "title": "Vookにデータ分析ツールの脆弱性を悪用した不正アクセス、会員情報等が漏えいした可能性",
+          "attack": true,
+          "organization": "株式会社LEAN BODY",
+          "service": "会員情報等が漏えいした可能性",
+          "attack_type": "不正アクセス",
+          "leak_status": "可能性あり",
+          "leak_count": null,
+          "leaked_data": [
+            "会員情報"
+          ],
+          "incident_summary": "株式会社Vookは10月30日、同社への不正アクセスによる個人情報漏えいの可能性について発表した。 これは同社が社内業務で利用していたデータ分析ツールの脆弱性を悪用した同社データベースへの第三者からの不正アクセスで、Vook会員、同社に問い合わせした人等の個人情報の一部が漏えいした可能性が判明したというもの。 同社では10月14日に、社内の点検で同ツール内に同社が作成していない不審なアカウントがあることを確認し調査した結果、第三者が同ツールの脆弱性を悪用し、同ツールを経由して同社のデータベースに不正にアクセスした上で、情報を取得していた可能性があることを10月22日に確認している。 漏えいの可能性があるのは下記の通り。 1.対象者：Vook会員、同社主催イベントに申し込みした人、同社に問い合わせした人（会員登録していない人を含む）、同社サービスを利用する企業の担当者、同社の取引先の担当者 2.漏えいの可能性のある個人情報の項目：氏名、メールアドレス、電話番号、住所、生年月日、勤務先、職務経歴・学歴の一部、ログイン用の認証情報（2026年10月22日に無効化済み）、登録した作品の閲覧パス"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/11/10/56722.html",
+          "published_date": "2026-11-10",
           "title": "Vookにデータ分析ツールの脆弱性を悪用した不正アクセス、会員情報等が漏えいした可能性 株式会社Vookは10月30日、同社への不正アクセスによる個人情報漏えいの可能性について発表した。",
           "attack": true,
           "organization": "株式会社LEAN BODY",
@@ -652,7 +829,7 @@
         }
       ],
       "source_count": 1,
-      "merged": false
+      "merged": true
     },
     {
       "source": "ScanNetSecurity",
@@ -682,27 +859,6 @@
           "source": "ScanNetSecurity",
           "source_url": "https://scan.netsecurity.ne.jp/article/2026/11/10/56726.html",
           "published_date": "2026-11-10",
-          "title": "SMBCコンシューマーファイナンスの保証システムに不正アクセス、外部へのデータ送信を確認",
-          "attack": true,
-          "organization": "外部へのデータ送信を確認 SMBCコンシューマーファイナンス株式会社",
-          "service": "システムに不正アクセス",
-          "attack_type": "不正アクセス",
-          "leak_status": "確認・可能性あり",
-          "leak_count": null,
-          "leaked_data": [
-            "氏名",
-            "住所",
-            "電話番号",
-            "メールアドレス",
-            "生年月日",
-            "顧客情報"
-          ],
-          "incident_summary": "SMBCコンシューマーファイナンス株式会社は11月5日、同社保証システムへの不正アクセスについて発表した。 同社では地方銀行や信用金庫、インターネット銀行等の金融機関と提携し、カードローン等の保証業務を行っており、一部の保証提携先にはカードローンのWeb申込フォームを提供していたが、この保証業務で使用しているシステムに不正アクセスがあり、当該システムから外部にデータが送信されたという。 同社では11月2日に不正アクセスを検知し、被害拡大の防止を最優先に同日中に当該システムへのアクセスを遮断し、他に不正なアクセスがないか等、調査を行っていた過程で情報漏えいを確認するに至ったという。 対象となるのは最大320,118名の顧客の氏名、性別、生年月日、住所、自宅電話番号、携帯電話番号、メールアドレス、運転免許証番号、勤務先情報（電話番号、年収等）、契約情報（金融機関コード、顧客番号、保証額、保証開始日等）を含む個人情報。 同社では対象となる顧客に範囲の特定後、保証提携先と相談のうえでメールやSMS等で個別に案内を行う。 同社では引き続き、原因と影響範囲の特定に向けた調査を進めるとともに、再発防"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/11/10/56726.html",
-          "published_date": "2026-11-10",
           "title": "SMBCコンシューマーファイナンスの保証システムに不正アクセス、外部へのデータ送信を確認 SMBCコンシューマーファイナンス株式会社は11月5日、同社保証システムへの不正アクセスについて発表した。",
           "attack": true,
           "organization": "外部へのデータ送信を確認 SMBCコンシューマーファイナンス株式会社",
@@ -722,7 +878,7 @@
         }
       ],
       "source_count": 1,
-      "merged": true
+      "merged": false
     },
     {
       "source": "ScanNetSecurity",
@@ -765,7 +921,7 @@
       "published_date": "2026-11-09",
       "title": "電力・ガス取引監視等委員会ウェブサイトに不正アクセス 経済産業省は10月28日、電力・ガス取引監視等委員会ウェブサイトへの不正アクセスについて発表した。",
       "attack": true,
-      "organization": "せて大丈夫？ 上野宣が Exaforce を問い詰めた20の質問 PR 個人情報を預ける基準は知名度よりも「セキュリティ対策の信頼性」26.2ポイント差 ソニー銀行",
+      "organization": "影響範囲調査のためにサービスを停止消防庁",
       "service": "サイトに不正アクセス 経済産業省は10月28日",
       "attack_type": "不正アクセス",
       "leak_status": "確認・可能性あり",
@@ -782,45 +938,11 @@
       "source_records": [
         {
           "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/11/09/56708.html",
-          "published_date": "2026-11-09",
-          "title": "消防庁「安否情報システム」に不正アクセス、影響範囲調査のためにサービスを停止消防庁の「安否情報システム」に不正アクセス、影響範囲調査のためサービス停止",
-          "attack": true,
-          "organization": "せて大丈夫？ 上野宣が Exaforce を問い詰めた20の質問 PR 個人情報を預ける基準は知名度よりも「セキュリティ対策の信頼性」26.2ポイント差 ソニー銀行",
-          "service": "安否情報システム",
-          "attack_type": "不正アクセス",
-          "leak_status": "確認・可能性あり",
-          "leak_count": null,
-          "leaked_data": [
-            "クレジットカード情報",
-            "顧客情報"
-          ],
-          "incident_summary": "総務省消防庁は11月5日、武力攻撃事態等における安否情報収集・提供システムへの不正アクセスについて発表した。 これは消防庁が運用する「安否情報システム」の運用保守業務の委託事業者である富士ソフト株式会社から、同システムに第三者からの不正アクセスが確認されたと報告があったというもの。 なお現時点で、個人情報の漏えいは確認されていない。 富士ソフトでは、不正アクセスの詳細について調査を行っている。 「安否情報システム」は現在、影響範囲調査のためにサービスを停止し、外部からのアクセスを遮断している。 消防庁は富士ソフトに対し、原因を早急に調査するとともに再発防止に向けた対策を速やかに講じるよう指導したとのこと。 野方消防署職員を特殊詐欺関与の疑いで逮捕、家宅捜索で個人情報持ち出しが発覚 2022.12.12 Mon 8:05 富士ソフト不正アクセス最終報「攻撃手法詳細はセキュリティ団体等を通じ共有図る」 2023.11.2 Thu 8:05 AI を活用した総点検で発見 ～ デジタルアーツのクラウドサービス運用環境に不正アクセス 2026.11.2 Mon 8:05 「MUJIアプリ」への不"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/11/09/56708.html",
-          "published_date": "2026-11-09",
-          "title": "消防庁「安否情報システム」に不正アクセス、影響範囲調査のためにサービスを停止消防庁の「安否情報システム」に不正アクセス、影響範囲調査のためサービス停止 総務省消防庁は11月5日、武力攻撃事態等における安否情報収集・提供システムへの不正アクセスについて発表した。",
-          "attack": true,
-          "organization": "せて大丈夫？ 上野宣が Exaforce を問い詰めた20の質問 PR 個人情報を預ける基準は知名度よりも「セキュリティ対策の信頼性」26.2ポイント差 ソニー銀行",
-          "service": "安否情報システム",
-          "attack_type": "不正アクセス",
-          "leak_status": "確認・可能性あり",
-          "leak_count": null,
-          "leaked_data": [
-            "クレジットカード情報",
-            "顧客情報"
-          ],
-          "incident_summary": "総務省消防庁は11月5日、武力攻撃事態等における安否情報収集・提供システムへの不正アクセスについて発表した。 これは消防庁が運用する「安否情報システム」の運用保守業務の委託事業者である富士ソフト株式会社から、同システムに第三者からの不正アクセスが確認されたと報告があったというもの。 なお現時点で、個人情報の漏えいは確認されていない。 富士ソフトでは、不正アクセスの詳細について調査を行っている。 「安否情報システム」は現在、影響範囲調査のためにサービスを停止し、外部からのアクセスを遮断している。 消防庁は富士ソフトに対し、原因を早急に調査するとともに再発防止に向けた対策を速やかに講じるよう指導したとのこと。 野方消防署職員を特殊詐欺関与の疑いで逮捕、家宅捜索で個人情報持ち出しが発覚 2022.12.12 Mon 8:05 富士ソフト不正アクセス最終報「攻撃手法詳細はセキュリティ団体等を通じ共有図る」 2023.11.2 Thu 8:05 AI を活用した総点検で発見 ～ デジタルアーツのクラウドサービス運用環境に不正アクセス 2026.11.2 Mon 8:05 「MUJIアプリ」への不"
-        },
-        {
-          "source": "ScanNetSecurity",
           "source_url": "https://scan.netsecurity.ne.jp/article/2026/11/09/56702.html",
           "published_date": "2026-11-09",
           "title": "電力・ガス取引監視等委員会ウェブサイトに不正アクセス 経済産業省は10月28日、電力・ガス取引監視等委員会ウェブサイトへの不正アクセスについて発表した。",
           "attack": true,
-          "organization": "せて大丈夫？ 上野宣が Exaforce を問い詰めた20の質問 PR 個人情報を預ける基準は知名度よりも「セキュリティ対策の信頼性」26.2ポイント差 ソニー銀行",
+          "organization": "影響範囲調査のためにサービスを停止消防庁",
           "service": "サイトに不正アクセス 経済産業省は10月28日",
           "attack_type": "不正アクセス",
           "leak_status": "確認・可能性あり",
@@ -834,7 +956,7 @@
         }
       ],
       "source_count": 1,
-      "merged": true
+      "merged": false
     },
     {
       "source": "ScanNetSecurity",
@@ -842,7 +964,7 @@
       "published_date": "2026-11-09",
       "title": "英政府機関、2028年までに重要インフラへのランサムウェア攻撃で AI 搭載マルウェアが使われる可能性が「非常に高い」と警告 報告書はさらに別の脅威も検討している。人間の運用者の制御を離れて動く、自律型の攻撃者だ。英国家サイバーセキュリティセンターは、「そうした存在が自己複製し、明確な動機も歯止めもないまま、思いのままにサイバー攻撃を行うことは、現実的にあり得る」としている。こうした攻撃は、先に触れたとおり攻撃元の特定が難しいことから、地政学的な関係を複雑にする可能性が高い。攻撃を命じた国が、関与を否定しやすくなるためだ。",
       "attack": true,
-      "organization": "せて大丈夫？ 上野宣が Exaforce を問い詰めた20の質問 PR 個人情報を預ける基準は知名度よりも「セキュリティ対策の信頼性」26.2ポイント差 ソニー銀行",
+      "organization": "影響範囲調査のためにサービスを停止消防庁",
       "service": "非常に高い",
       "attack_type": "ランサムウェア",
       "leak_status": "確認・可能性あり",
@@ -861,7 +983,7 @@
           "published_date": "2026-11-09",
           "title": "英政府機関、2028年までに重要インフラへのランサムウェア攻撃で AI 搭載マルウェアが使われる可能性が「非常に高い」と警告 報告書はさらに別の脅威も検討している。人間の運用者の制御を離れて動く、自律型の攻撃者だ。英国家サイバーセキュリティセンターは、「そうした存在が自己複製し、明確な動機も歯止めもないまま、思いのままにサイバー攻撃を行うことは、現実的にあり得る」としている。こうした攻撃は、先に触れたとおり攻撃元の特定が難しいことから、地政学的な関係を複雑にする可能性が高い。攻撃を命じた国が、関与を否定しやすくなるためだ。",
           "attack": true,
-          "organization": "せて大丈夫？ 上野宣が Exaforce を問い詰めた20の質問 PR 個人情報を預ける基準は知名度よりも「セキュリティ対策の信頼性」26.2ポイント差 ソニー銀行",
+          "organization": "影響範囲調査のためにサービスを停止消防庁",
           "service": "非常に高い",
           "attack_type": "ランサムウェア",
           "leak_status": "確認・可能性あり",
@@ -909,6 +1031,80 @@
             "会員情報"
           ],
           "incident_summary": "花キューピット株式会社は10月28日、同社が運営する「インターネット花キューピット」・「ビジネス花キューピット」への不正アクセスについて発表した。 これは10月14日から10月15日に、同社管理システムに第三者から不正アクセスがあり、調査の過程で、不正アクセスによる会員情報の漏えいを10月19日に確認したというもの。 漏えいしたのは「インターネット花キューピット」「ビジネス花キューピット」の会員4,238,242件のユーザーID（ログインID）、パスワード（ハッシュ値のもの）、PC用メールアドレス、携帯用メールアドレスを含む情報。 同社では10月28日から、対象の顧客にメールにて順次連絡を行っているが、対象となる会員数が多数に及ぶため、連絡が完了するまでに一定時間を要する見込み。 同社では、不正アクセスに利用された攻撃経路をすべて遮断し、ネットワークのアクセス制御および監視体制の強化を実施している。 なお同社では、本件に伴う金銭的な補填や返金等は予定していない。 同社では外部の専門機関と連携し、詳細な原因究明を進めるとともに、継続的なセキュリティ対策と恒久的な再発防止策を講じるとのこと"
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/11/09/56708.html",
+      "published_date": "2026-11-09",
+      "title": "消防庁「安否情報システム」に不正アクセス、影響範囲調査のためにサービスを停止消防庁の「安否情報システム」に不正アクセス、影響範囲調査のためサービス停止 総務省消防庁は11月5日、武力攻撃事態等における安否情報収集・提供システムへの不正アクセスについて発表した。",
+      "attack": true,
+      "organization": "総務省消防庁",
+      "service": "安否情報システム",
+      "attack_type": "不正アクセス",
+      "leak_status": "確認・可能性あり",
+      "leak_count": null,
+      "leaked_data": [
+        "クレジットカード情報",
+        "顧客情報"
+      ],
+      "incident_summary": "総務省消防庁は11月5日、武力攻撃事態等における安否情報収集・提供システムへの不正アクセスについて発表した。 これは消防庁が運用する「安否情報システム」の運用保守業務の委託事業者である富士ソフト株式会社から、同システムに第三者からの不正アクセスが確認されたと報告があったというもの。 なお現時点で、個人情報の漏えいは確認されていない。 富士ソフトでは、不正アクセスの詳細について調査を行っている。 「安否情報システム」は現在、影響範囲調査のためにサービスを停止し、外部からのアクセスを遮断している。 消防庁は富士ソフトに対し、原因を早急に調査するとともに再発防止に向けた対策を速やかに講じるよう指導したとのこと。 野方消防署職員を特殊詐欺関与の疑いで逮捕、家宅捜索で個人情報持ち出しが発覚 2022.12.12 Mon 8:05 富士ソフト不正アクセス最終報「攻撃手法詳細はセキュリティ団体等を通じ共有図る」 2023.11.2 Thu 8:05 AI を活用した総点検で発見 ～ デジタルアーツのクラウドサービス運用環境に不正アクセス 2026.11.2 Mon 8:05 「MUJIアプリ」への不",
+      "sources": [
+        "ScanNetSecurity"
+      ],
+      "source_records": [
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/11/09/56708.html",
+          "published_date": "2026-11-09",
+          "title": "消防庁「安否情報システム」に不正アクセス、影響範囲調査のためにサービスを停止消防庁の「安否情報システム」に不正アクセス、影響範囲調査のためサービス停止 総務省消防庁は11月5日、武力攻撃事態等における安否情報収集・提供システムへの不正アクセスについて発表した。",
+          "attack": true,
+          "organization": "総務省消防庁",
+          "service": "安否情報システム",
+          "attack_type": "不正アクセス",
+          "leak_status": "確認・可能性あり",
+          "leak_count": null,
+          "leaked_data": [
+            "クレジットカード情報",
+            "顧客情報"
+          ],
+          "incident_summary": "総務省消防庁は11月5日、武力攻撃事態等における安否情報収集・提供システムへの不正アクセスについて発表した。 これは消防庁が運用する「安否情報システム」の運用保守業務の委託事業者である富士ソフト株式会社から、同システムに第三者からの不正アクセスが確認されたと報告があったというもの。 なお現時点で、個人情報の漏えいは確認されていない。 富士ソフトでは、不正アクセスの詳細について調査を行っている。 「安否情報システム」は現在、影響範囲調査のためにサービスを停止し、外部からのアクセスを遮断している。 消防庁は富士ソフトに対し、原因を早急に調査するとともに再発防止に向けた対策を速やかに講じるよう指導したとのこと。 野方消防署職員を特殊詐欺関与の疑いで逮捕、家宅捜索で個人情報持ち出しが発覚 2022.12.12 Mon 8:05 富士ソフト不正アクセス最終報「攻撃手法詳細はセキュリティ団体等を通じ共有図る」 2023.11.2 Thu 8:05 AI を活用した総点検で発見 ～ デジタルアーツのクラウドサービス運用環境に不正アクセス 2026.11.2 Mon 8:05 「MUJIアプリ」への不"
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
+      "source": "Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1NamJYMVV5c016YWNDUWNsT3FWd3V5ekZILVFTcFEyUzd3U0lPRE54dW1LOVpmN2tma2lEeTB3ZlI5SmNwSUFMNnp3ZnpKck02WVBQTVQ0NTRpMFJHSFVabTlaMXR2RHRGZUhfdkdGRlRLdlQt?oc=5",
+      "published_date": "2026-11-09",
+      "title": "上場企業の情報漏えい、10月だけで109件 年間最多を更新し累計3.5億件規模に - BigGo ファイナンス",
+      "attack": true,
+      "organization": "BigGo ファイナンス",
+      "attack_type": null,
+      "leak_status": "確認・可能性あり",
+      "leak_count": "109",
+      "leaked_data": [],
+      "incident_summary": "上場企業の情報漏えい、10月だけで109件 年間最多を更新し累計3.5億件規模に - BigGo ファイナンス",
+      "sources": [
+        "Google News"
+      ],
+      "source_records": [
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1NamJYMVV5c016YWNDUWNsT3FWd3V5ekZILVFTcFEyUzd3U0lPRE54dW1LOVpmN2tma2lEeTB3ZlI5SmNwSUFMNnp3ZnpKck02WVBQTVQ0NTRpMFJHSFVabTlaMXR2RHRGZUhfdkdGRlRLdlQt?oc=5",
+          "published_date": "2026-11-09",
+          "title": "上場企業の情報漏えい、10月だけで109件 年間最多を更新し累計3.5億件規模に - BigGo ファイナンス",
+          "attack": true,
+          "organization": "BigGo ファイナンス",
+          "attack_type": null,
+          "leak_status": "確認・可能性あり",
+          "leak_count": "109",
+          "leaked_data": [],
+          "incident_summary": "上場企業の情報漏えい、10月だけで109件 年間最多を更新し累計3.5億件規模に - BigGo ファイナンス"
         }
       ],
       "source_count": 1,
@@ -1040,69 +1236,6 @@
       "merged": false
     },
     {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0wakNVaVlWQ003eWx6eS1aSTVPTHJpcjhOVnpjdkF6c0dpVC1pWkIyVW11cDFWSFVsSE1zLUZCNzBkYkRzZU5ReDFoWU1FVkN0RGY3NzhBYWlrREE0bUU5MHpfZEJLWTIyTkRjUw?oc=5",
-      "published_date": "2026-11-09",
-      "title": "ニトリHD、最大で顧客情報3762万件流出の可能性 不正アクセスで - 日本経済新聞",
-      "attack": true,
-      "organization": "日本経済新聞",
-      "attack_type": "不正アクセス",
-      "leak_status": "可能性あり",
-      "leak_count": null,
-      "leaked_data": [
-        "顧客情報"
-      ],
-      "incident_summary": "ニトリHD、最大で顧客情報3762万件流出の可能性 不正アクセスで - 日本経済新聞",
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9wU3ZndkdyT1lTV2dldklNclNmdERzdkFDWlBUNFRwVXR2NmNHV0N4S2hQdEhkRWNtTzFkMzU1YW9na2VFVHFUOGFrZ3BBTnN1endtalR5NFhWczBzREM0Z0N6NlNBb0tKUkhJZg?oc=5",
-          "published_date": "2026-10-23",
-          "title": "アンドエスティHD、個人情報約250万件流出の恐れ 不正アクセスで - 日本経済新聞",
-          "attack": true,
-          "organization": "日本経済新聞",
-          "attack_type": "不正アクセス",
-          "leak_status": "可能性あり",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "アンドエスティHD、個人情報約250万件流出の恐れ 不正アクセスで - 日本経済新聞"
-        },
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9NOWxtNXNHTVBBZndVc3hCYzh0WDNiNHVNMkI3Y3hsZFp3QXFnR2l1NGRFSms1d2RRT3NQTGRFZFRFSldwVU1xQk1kbHhKX19CcDc0YjNydUVxTTU3NUgyNW5yaDRDcnNUZUJfWQ?oc=5",
-          "published_date": "2026-10-23",
-          "title": "野村証券、法人向けサービスで情報漏洩か 「委託先に不正アクセス」 - 日本経済新聞",
-          "attack": true,
-          "organization": "日本経済新聞",
-          "attack_type": "不正アクセス",
-          "leak_status": "確認・可能性あり",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "野村証券、法人向けサービスで情報漏洩か 「委託先に不正アクセス」 - 日本経済新聞"
-        },
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0wakNVaVlWQ003eWx6eS1aSTVPTHJpcjhOVnpjdkF6c0dpVC1pWkIyVW11cDFWSFVsSE1zLUZCNzBkYkRzZU5ReDFoWU1FVkN0RGY3NzhBYWlrREE0bUU5MHpfZEJLWTIyTkRjUw?oc=5",
-          "published_date": "2026-11-09",
-          "title": "ニトリHD、最大で顧客情報3762万件流出の可能性 不正アクセスで - 日本経済新聞",
-          "attack": true,
-          "organization": "日本経済新聞",
-          "attack_type": "不正アクセス",
-          "leak_status": "可能性あり",
-          "leak_count": null,
-          "leaked_data": [
-            "顧客情報"
-          ],
-          "incident_summary": "ニトリHD、最大で顧客情報3762万件流出の可能性 不正アクセスで - 日本経済新聞"
-        }
-      ],
-      "source_count": 1,
-      "merged": true
-    },
-    {
       "source": "ScanNetSecurity",
       "source_url": "https://scan.netsecurity.ne.jp/article/2026/11/09/56704.html",
       "published_date": "2026-11-09",
@@ -1182,28 +1315,6 @@
           "source": "ScanNetSecurity",
           "source_url": "https://scan.netsecurity.ne.jp/article/2026/11/09/56706.html",
           "published_date": "2026-11-09",
-          "title": "ソニー銀行のデジタル証券に関連する外部委託先Securitize Japanに不正アクセス",
-          "attack": true,
-          "organization": "株式会社へ",
-          "service": "ecuritize Japanに不正アクセス",
-          "attack_type": "不正アクセス",
-          "leak_status": "確認・可能性あり",
-          "leak_count": null,
-          "leaked_data": [
-            "氏名",
-            "住所",
-            "メールアドレス",
-            "生年月日",
-            "認証情報",
-            "顧客情報",
-            "会員情報"
-          ],
-          "incident_summary": "ソニー銀行株式会社は11月4日、デジタル証券に関連する外部委託先のSecuritize Japan株式会社への不正アクセスについて発表した。 これはSecuritize Japanのシステムに不正アクセスがあり、ソニー銀行の顧客情報が漏えいしたというもの。 Securitize Japanでは10月29日に、システムの異常を検知し調査を開始し、同日中に外部からの不正アクセスであることを特定し、ソニー銀行に第一報の報告を行っている。 Securitize Japanによるログ調査の結果、ソニー銀行の顧客情報（氏名、住所、生年月日、口座番号：4名、氏名：617名）が外部に漏えいしたことを確認している。 ソニー銀行では対象の顧客に個別に連絡し、本件について説明を行い、必要な対応を実施している。 ソニー銀行では現在、デジタル証券の取引を停止している。 ソニー銀行では今後、情報セキュリティ管理のさらなる強化に取り組むとのこと。 So-net 会員データベースに不正アクセス、会員情報214万1,986件が漏えい 2026.10.30 Fri 8:05 システム改修時の担当者間の作業範囲や役割分担の"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/11/09/56706.html",
-          "published_date": "2026-11-09",
           "title": "ソニー銀行のデジタル証券に関連する外部委託先Securitize Japanに不正アクセス ソニー銀行株式会社は11月4日、デジタル証券に関連する外部委託先のSecuritize Japan株式会社への不正アクセスについて発表した。",
           "attack": true,
           "organization": "株式会社へ",
@@ -1224,7 +1335,7 @@
         }
       ],
       "source_count": 1,
-      "merged": true
+      "merged": false
     },
     {
       "source": "Google News",
@@ -1254,109 +1365,6 @@
           "leak_count": null,
           "leaked_data": [],
           "incident_summary": "セキュリティ人材を買い叩く「日本の経営者の慢心」サイバー攻撃で明るみに - 現代ビジネス"
-        }
-      ],
-      "source_count": 1,
-      "merged": false
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1WNkozRlI2cXF4R3BLX3NlTkU2elloUWhJallEOThUY1FWclItQzlyUHdHaGFiVFIzZkZfejljaTFoWFFRbmxSOEJJZzYyNE5OQkE?oc=5",
-      "published_date": "2026-11-09",
-      "title": "セガ、メールアドレス約220万件が流出 配信委託先に不正アクセス - CNET Japan",
-      "attack": true,
-      "organization": "CNET Japan",
-      "attack_type": "不正アクセス",
-      "leak_status": "確認・可能性あり",
-      "leak_count": null,
-      "leaked_data": [
-        "メールアドレス"
-      ],
-      "incident_summary": "セガ、メールアドレス約220万件が流出 配信委託先に不正アクセス - CNET Japan",
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1WNkozRlI2cXF4R3BLX3NlTkU2elloUWhJallEOThUY1FWclItQzlyUHdHaGFiVFIzZkZfejljaTFoWFFRbmxSOEJJZzYyNE5OQkE?oc=5",
-          "published_date": "2026-11-09",
-          "title": "セガ、メールアドレス約220万件が流出 配信委託先に不正アクセス - CNET Japan",
-          "attack": true,
-          "organization": "CNET Japan",
-          "attack_type": "不正アクセス",
-          "leak_status": "確認・可能性あり",
-          "leak_count": null,
-          "leaked_data": [
-            "メールアドレス"
-          ],
-          "incident_summary": "セガ、メールアドレス約220万件が流出 配信委託先に不正アクセス - CNET Japan"
-        }
-      ],
-      "source_count": 1,
-      "merged": false
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9rajhYeXpPQklucWJfUTI1SlZhSkFTSTljRHIzYVl5dWw1dzR0OWNHN2tSdkZkT29lbHh1MV85YTRhN25CSjJVWFc5NzRWUG9ybmVnS1kxVXl2em0wTlpVSWt4d3JpUHM?oc=5",
-      "published_date": "2026-11-09",
-      "title": "スーパー冷蔵庫の温度操作、「イラン部隊のサイバー攻撃」 仏外務省 [情報漏洩・個人情報流出の最新ニュース] - 朝日新聞",
-      "attack": true,
-      "organization": "朝日新聞",
-      "attack_type": null,
-      "leak_status": "確認・可能性あり",
-      "leak_count": null,
-      "leaked_data": [],
-      "incident_summary": "スーパー冷蔵庫の温度操作、「イラン部隊のサイバー攻撃」 仏外務省 [情報漏洩・個人情報流出の最新ニュース] - 朝日新聞",
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9rajhYeXpPQklucWJfUTI1SlZhSkFTSTljRHIzYVl5dWw1dzR0OWNHN2tSdkZkT29lbHh1MV85YTRhN25CSjJVWFc5NzRWUG9ybmVnS1kxVXl2em0wTlpVSWt4d3JpUHM?oc=5",
-          "published_date": "2026-11-09",
-          "title": "スーパー冷蔵庫の温度操作、「イラン部隊のサイバー攻撃」 仏外務省 [情報漏洩・個人情報流出の最新ニュース] - 朝日新聞",
-          "attack": true,
-          "organization": "朝日新聞",
-          "attack_type": null,
-          "leak_status": "確認・可能性あり",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "スーパー冷蔵庫の温度操作、「イラン部隊のサイバー攻撃」 仏外務省 [情報漏洩・個人情報流出の最新ニュース] - 朝日新聞"
-        }
-      ],
-      "source_count": 1,
-      "merged": false
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5xUkItUEFOeDg2OWNKZTI1NTBMVlVPcmhsQTFvXzlBamFjQS1vUHlnUkJxMWZYc2xnc3JIWUdBSHRWdEI3N2RsQzRlUmdVaUFNei13S2E2bkVCUThNcDJDQXFMZ0dwekxkOEpPdWU5bTBlZw?oc=5",
-      "published_date": "2026-11-09",
-      "title": "【更新中】ニトリで最大3762万件の情報流出か 無印良品の通販サイトで“リスト型攻撃” 10月のサイバー攻撃は過去最多233件に上る【不正アクセス関連まとめ】 - テレ朝NEWS",
-      "attack": true,
-      "organization": "テレ朝NEWS",
-      "attack_type": "不正アクセス",
-      "leak_status": "確認・可能性あり",
-      "leak_count": "233",
-      "leaked_data": [],
-      "incident_summary": "【更新中】ニトリで最大3762万件の情報流出か 無印良品の通販サイトで“リスト型攻撃” 10月のサイバー攻撃は過去最多233件に上る【不正アクセス関連まとめ】 - テレ朝NEWS",
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5xUkItUEFOeDg2OWNKZTI1NTBMVlVPcmhsQTFvXzlBamFjQS1vUHlnUkJxMWZYc2xnc3JIWUdBSHRWdEI3N2RsQzRlUmdVaUFNei13S2E2bkVCUThNcDJDQXFMZ0dwekxkOEpPdWU5bTBlZw?oc=5",
-          "published_date": "2026-11-09",
-          "title": "【更新中】ニトリで最大3762万件の情報流出か 無印良品の通販サイトで“リスト型攻撃” 10月のサイバー攻撃は過去最多233件に上る【不正アクセス関連まとめ】 - テレ朝NEWS",
-          "attack": true,
-          "organization": "テレ朝NEWS",
-          "attack_type": "不正アクセス",
-          "leak_status": "確認・可能性あり",
-          "leak_count": "233",
-          "leaked_data": [],
-          "incident_summary": "【更新中】ニトリで最大3762万件の情報流出か 無印良品の通販サイトで“リスト型攻撃” 10月のサイバー攻撃は過去最多233件に上る【不正アクセス関連まとめ】 - テレ朝NEWS"
         }
       ],
       "source_count": 1,
@@ -1406,39 +1414,6 @@
             "会員情報"
           ],
           "incident_summary": "株式会社セレスは11月6日、同社運営のポイントサイト「ポイントインカム」と同社連結子会社の株式会社マーキュリーが運営する「CoinTrade」での個人情報流出について発表した。 「ポイントインカム」では10月29日に、セレスのシステム開発環境で外部からの不正アクセスを検知したため調査したところ、同環境内にテスト・検証用として一時的に保管していた過去時点の顧客情報および端末IDが、第三者に閲覧された可能性を確認している。 閲覧された情報は下記の通り。 1.会員情報（2025年11月15日時点のバックアップデータ）：約11,100名分 項目：ニックネーム、登録メールアドレス、当時のパスワード（※暗号化）、秘密の質問（※暗号化）、生年月日、当時の保有ポイント数 ※一部顧客については電話番号（16名）、口座名義（1名）も含まれる 2.端末識別情報：4件 項目：端末ID（スマートフォン端末等に割り振られている識別用の英数字） セレスでは会員情報を閲覧された顧客に、メールで個別に連絡を行っている。 セレスでは当該開発環境への外部アクセスの即時遮断と侵入経路の特定・遮断を行っている。 マーキュリーで"
-        }
-      ],
-      "source_count": 1,
-      "merged": false
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9DY19sb1lLc29KS2l5ZTlzVlZzUGpYWFZIemxpM0FxN0dzV1c3XzZiYXRoU3NHeldrQ1lJVnRadWg4TTBiMnRYNV85cDFXSFBxdkd1NEVSZWJ2NzZHVk9ZOW9ST190dw?oc=5",
-      "published_date": "2026-11-09",
-      "title": "「パッチは検証後に適用」は命取り 日本ハッカー協会が教える大情報漏えい時代の極意 - キーマンズネット",
-      "attack": true,
-      "organization": "「パッチは検証後に適用」は命取り 日本ハッカー協会",
-      "attack_type": null,
-      "leak_status": "確認・可能性あり",
-      "leak_count": null,
-      "leaked_data": [],
-      "incident_summary": "「パッチは検証後に適用」は命取り 日本ハッカー協会が教える大情報漏えい時代の極意 - キーマンズネット",
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9DY19sb1lLc29KS2l5ZTlzVlZzUGpYWFZIemxpM0FxN0dzV1c3XzZiYXRoU3NHeldrQ1lJVnRadWg4TTBiMnRYNV85cDFXSFBxdkd1NEVSZWJ2NzZHVk9ZOW9ST190dw?oc=5",
-          "published_date": "2026-11-09",
-          "title": "「パッチは検証後に適用」は命取り 日本ハッカー協会が教える大情報漏えい時代の極意 - キーマンズネット",
-          "attack": true,
-          "organization": "「パッチは検証後に適用」は命取り 日本ハッカー協会",
-          "attack_type": null,
-          "leak_status": "確認・可能性あり",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "「パッチは検証後に適用」は命取り 日本ハッカー協会が教える大情報漏えい時代の極意 - キーマンズネット"
         }
       ],
       "source_count": 1,
@@ -1730,39 +1705,6 @@
     },
     {
       "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB2QlVGWmh6Z0xfYUR5OVE0Q1BkRnY2dmZITW1RTkw4MGVTVWhzVWY4YTZsSFhFVDhoeThXRVZQcU15X2tMcHpTd3dkcklGYW94Y0xF?oc=5",
-      "published_date": "2026-11-09",
-      "title": "10月のサイバー攻撃が過去最多の233件を記録、個人情報流出は1億8500万件に急増 - ビジネス+IT",
-      "attack": true,
-      "organization": "ビジネス+IT",
-      "attack_type": null,
-      "leak_status": "確認・可能性あり",
-      "leak_count": "233",
-      "leaked_data": [],
-      "incident_summary": "10月のサイバー攻撃が過去最多の233件を記録、個人情報流出は1億8500万件に急増 - ビジネス+IT",
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB2QlVGWmh6Z0xfYUR5OVE0Q1BkRnY2dmZITW1RTkw4MGVTVWhzVWY4YTZsSFhFVDhoeThXRVZQcU15X2tMcHpTd3dkcklGYW94Y0xF?oc=5",
-          "published_date": "2026-11-09",
-          "title": "10月のサイバー攻撃が過去最多の233件を記録、個人情報流出は1億8500万件に急増 - ビジネス+IT",
-          "attack": true,
-          "organization": "ビジネス+IT",
-          "attack_type": null,
-          "leak_status": "確認・可能性あり",
-          "leak_count": "233",
-          "leaked_data": [],
-          "incident_summary": "10月のサイバー攻撃が過去最多の233件を記録、個人情報流出は1億8500万件に急増 - ビジネス+IT"
-        }
-      ],
-      "source_count": 1,
-      "merged": false
-    },
-    {
-      "source": "Google News",
       "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5WOEF2a1R1eTJHTFVRbF9RdGdqRDlnNEF5RzZtOHdISTZOOGt1ZnQ4bXdteWhhVkFJSzJsYlVXZkRTWUNteE5vTG0wYVpnRUV0Um5keTNGRmR3SU9YeGxlN004ZGpNbGlyNUR6MQ?oc=5",
       "published_date": "2026-11-08",
       "title": "小学館、199万件の個人情報漏洩か アララ不正アクセス - 日本経済新聞",
@@ -2002,40 +1944,6 @@
       "source_records": [
         {
           "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/21/56529.html",
-          "published_date": "2026-10-21",
-          "title": "日本郵政「ゆうゆうポイントサイト」を緊急サービス停止 日本郵政株式会社は10月16日、同社が運営する「ゆうゆうポイントサイト」の緊急サービス停止について発表した。",
-          "attack": true,
-          "organization": "日本郵便株式会社",
-          "service": "ゆうゆうポイントサイト",
-          "attack_type": "不正アクセス",
-          "leak_status": "確認・可能性あり",
-          "leak_count": null,
-          "leaked_data": [
-            "顧客情報"
-          ],
-          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56529;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 日本郵政株式会社は10月16日、同社が運営する「ゆうゆうポイントサイト」の緊急サービス停止について発表した。 これは10月16日午前10時20分頃から、「ゆうゆうポイントサイト」で緊急にサービスを停止したというもの。サービス停止により、下記の影響がある。 ・ゆうゆうポイントサイトを利用できない。 ・ポイント残高および履歴表示ができない。 ・郵便局のネットショップでポイントを利用できない。 ・かんぽアプリやアンケート回答によるポイント付与ができない。 ・QRポップ読み込みによる来局ポイント付与ができない。 「郵便局アプリ」に不正アクセス、顧客情報"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/11/05/56677.html",
-          "published_date": "2026-11-05",
-          "title": "日本郵政グループ労働組合に不正アクセス、4万件以上の組合員情報が漏えい 日本郵政グループ労働組合（JP労組）は10月26日、不正アクセスによる組合員情報の漏えいについて発表した。",
-          "attack": true,
-          "organization": "日本郵便株式会社",
-          "service": "ゆうゆうポイントサイト",
-          "attack_type": "不正アクセス",
-          "leak_status": "確認・可能性あり",
-          "leak_count": null,
-          "leaked_data": [
-            "氏名",
-            "メールアドレス",
-            "顧客情報"
-          ],
-          "incident_summary": "日本郵政グループ労働組合（JP労組）は10月26日、不正アクセスによる組合員情報の漏えいについて発表した。 これはJP労組が2019年頃まで運用していたメールマガジンのシステムに第三者から不正アクセスがあり、当時のメールマガジンを利用していた組合員の情報が漏えいしたというもの。ホームページの運営を委託している業者から報告があり、発覚した。 委託業者では現在、精査を行っているが、4万件以上のメールマガジン配信先のリストが漏えいした可能性があるという。なお、組合員情報のうち、メールマガジン登録者の地方本部名、組合員氏名、組合員番号、性別、メールアドレスが含まれる。 JP労組では、メールマガジンを配信できないように設定したうえで、組合員からのID申請時におけるメールマガジン配信有無の希望聴取を停止している。 また、JP労組のホームページ自体はPHPを利用していないが、外部サイトにリンクしている一部内容を順次、安全性が確認できるまでの間、公開停止するとのこと。 日本郵政「ゆうゆうポイントサイト」を緊急サービス停止 2026.10.21 Wed 8:05 「郵便局アプリ」に不正アクセス、顧客情報"
-        },
-        {
-          "source": "ScanNetSecurity",
           "source_url": "https://scan.netsecurity.ne.jp/article/2026/11/06/56694.html",
           "published_date": "2026-11-06",
           "title": "日本郵便がメールマガジンの配信業務を委託している事業者に不正アクセス 日本郵便株式会社は10月29日、同社がメールマガジンの配信業務を委託している事業者への不正アクセスについて発表した。",
@@ -2053,7 +1961,7 @@
         }
       ],
       "source_count": 1,
-      "merged": true
+      "merged": false
     },
     {
       "source": "ScanNetSecurity",
@@ -2067,11 +1975,9 @@
       "leak_status": "確認・可能性あり",
       "leak_count": null,
       "leaked_data": [
-        "氏名",
-        "メールアドレス",
         "顧客情報"
       ],
-      "incident_summary": "株式会社徳間書店は10月26日、同社運営のニュースサイト「GoodsPress Web」のテスト環境への不正アクセスについて発表した。 これは「GoodsPress Web」のテスト環境への第三者からの不正アクセスを確認したというもので、保守・運用を委託している会社から10月22日に報告があり、調査した結果、第三者による管理者アカウントの不正作成と、ページの改ざんが判明している。 同社によると、テスト環境にアカウント登録している、記事執筆等で協力している個人事業者・取引先のユーザ情報（氏名、ニックネーム、メールアドレス）計103件が、不正アクセスにより閲覧された可能性がある。 同社では10月22日に、暫定対応として攻撃経路の遮断、不正アカウントの停止、改ざんされたページの非公開化を行い、同日午後7時50分にテスト環境のサーバを遮断している。 同社では今後、個人情報の適切な管理と情報セキュリティ対策の徹底に努めるとのこと。 松沢書店にランサムウェア攻撃、「楽譜ナビ」「注文くん」ほか各種サービスに影響 2026.5.27 Wed 8:05 紀伊國屋書店に不正アクセス、委託元の富士山マガジン",
+      "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56686;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社徳間書店は10月26日、同社運営のニュースサイト「GoodsPress Web」のテスト環境への不正アクセスについて発表した。 これは「GoodsPress Web」のテスト環境への第三者からの不正アクセスを確認したというもので、保守・運用を委託している会社から10月22日に報告があり、調査した結果、第三者による管理者アカウントの不正作成と、ページの改ざんが判明している。 松沢書店にランサムウェア攻撃、「楽譜ナビ」「注文くん」ほか各種サービスに影響 2026.5.27 Wed 8:05 紀伊國屋書店に不正アクセス、委託元の富士山マガジン",
       "sources": [
         "ScanNetSecurity"
       ],
@@ -2088,11 +1994,9 @@
           "leak_status": "確認・可能性あり",
           "leak_count": null,
           "leaked_data": [
-            "氏名",
-            "メールアドレス",
             "顧客情報"
           ],
-          "incident_summary": "株式会社徳間書店は10月26日、同社運営のニュースサイト「GoodsPress Web」のテスト環境への不正アクセスについて発表した。 これは「GoodsPress Web」のテスト環境への第三者からの不正アクセスを確認したというもので、保守・運用を委託している会社から10月22日に報告があり、調査した結果、第三者による管理者アカウントの不正作成と、ページの改ざんが判明している。 同社によると、テスト環境にアカウント登録している、記事執筆等で協力している個人事業者・取引先のユーザ情報（氏名、ニックネーム、メールアドレス）計103件が、不正アクセスにより閲覧された可能性がある。 同社では10月22日に、暫定対応として攻撃経路の遮断、不正アカウントの停止、改ざんされたページの非公開化を行い、同日午後7時50分にテスト環境のサーバを遮断している。 同社では今後、個人情報の適切な管理と情報セキュリティ対策の徹底に努めるとのこと。 松沢書店にランサムウェア攻撃、「楽譜ナビ」「注文くん」ほか各種サービスに影響 2026.5.27 Wed 8:05 紀伊國屋書店に不正アクセス、委託元の富士山マガジン"
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56686;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社徳間書店は10月26日、同社運営のニュースサイト「GoodsPress Web」のテスト環境への不正アクセスについて発表した。 これは「GoodsPress Web」のテスト環境への第三者からの不正アクセスを確認したというもので、保守・運用を委託している会社から10月22日に報告があり、調査した結果、第三者による管理者アカウントの不正作成と、ページの改ざんが判明している。 松沢書店にランサムウェア攻撃、「楽譜ナビ」「注文くん」ほか各種サービスに影響 2026.5.27 Wed 8:05 紀伊國屋書店に不正アクセス、委託元の富士山マガジン"
         }
       ],
       "source_count": 1,
@@ -2202,13 +2106,10 @@
       "leak_status": "可能性あり",
       "leak_count": null,
       "leaked_data": [
-        "氏名",
-        "住所",
-        "電話番号",
         "顧客情報",
         "会員情報"
       ],
-      "incident_summary": "株式会社バンダイナムコホールディングスは10月26日、同社の物流子会社である株式会社バンダイロジパルへの不正アクセスについて発表した。 これは10月21日に、バンダイロジパルが管理する物流システム内サーバで不正アクセスの疑いのある痕跡を発見したため、当該サーバのシャットダウンおよび原因と影響範囲の調査に着手したところ、同日、バンダイロジパルのアカウントの不正利用による操作を確認したというもの。 バンダイロジパルでは10月22日に対策本部を設置し、物流システム全体の調査を実施した結果、株式会社BANDAI SPIRITSがバンダイロジパルに配送業務を委託する「一番くじONLINE」の配送情報が格納されるサーバで不正アクセスの疑いのある痕跡が確認されたことから、登録されている顧客情報の一部に漏えいの疑いが判明している。 漏えいの可能性があるのは、BANDAI SPIRITSがバンダイロジパルに商品配送業務を委託している「一番くじONLINE」の配送情報（氏名、住所、電話番号）で、件数など詳細については調査中となっている。 バンダイロジパルではシステム全体の点検と安全確認を行い、安全性が確認",
+      "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56685;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社バンダイナムコホールディングスは10月26日、同社の物流子会社である株式会社バンダイロジパルへの不正アクセスについて発表した。 これは10月21日に、バンダイロジパルが管理する物流システム内サーバで不正アクセスの疑いのある痕跡を発見したため、当該サーバのシャットダウンおよび原因と影響範囲の調査に着手したところ、同日、バンダイロジパルのアカウントの不正利用による操作を確認したというもの。 バンダイチャンネルへの不正アクセス、最大 136.6 万件の会員情報漏えいの可能性 2025.12.23 Tue 8:10 バンダイチャンネルで意図せず",
       "sources": [
         "ScanNetSecurity"
       ],
@@ -2225,13 +2126,10 @@
           "leak_status": "可能性あり",
           "leak_count": null,
           "leaked_data": [
-            "氏名",
-            "住所",
-            "電話番号",
             "顧客情報",
             "会員情報"
           ],
-          "incident_summary": "株式会社バンダイナムコホールディングスは10月26日、同社の物流子会社である株式会社バンダイロジパルへの不正アクセスについて発表した。 これは10月21日に、バンダイロジパルが管理する物流システム内サーバで不正アクセスの疑いのある痕跡を発見したため、当該サーバのシャットダウンおよび原因と影響範囲の調査に着手したところ、同日、バンダイロジパルのアカウントの不正利用による操作を確認したというもの。 バンダイロジパルでは10月22日に対策本部を設置し、物流システム全体の調査を実施した結果、株式会社BANDAI SPIRITSがバンダイロジパルに配送業務を委託する「一番くじONLINE」の配送情報が格納されるサーバで不正アクセスの疑いのある痕跡が確認されたことから、登録されている顧客情報の一部に漏えいの疑いが判明している。 漏えいの可能性があるのは、BANDAI SPIRITSがバンダイロジパルに商品配送業務を委託している「一番くじONLINE」の配送情報（氏名、住所、電話番号）で、件数など詳細については調査中となっている。 バンダイロジパルではシステム全体の点検と安全確認を行い、安全性が確認"
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56685;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社バンダイナムコホールディングスは10月26日、同社の物流子会社である株式会社バンダイロジパルへの不正アクセスについて発表した。 これは10月21日に、バンダイロジパルが管理する物流システム内サーバで不正アクセスの疑いのある痕跡を発見したため、当該サーバのシャットダウンおよび原因と影響範囲の調査に着手したところ、同日、バンダイロジパルのアカウントの不正利用による操作を確認したというもの。 バンダイチャンネルへの不正アクセス、最大 136.6 万件の会員情報漏えいの可能性 2025.12.23 Tue 8:10 バンダイチャンネルで意図せず"
         }
       ],
       "source_count": 1,
@@ -2244,19 +2142,15 @@
       "title": "サントリーグループが利用する外部クラウドサービスに不正アクセス、個人情報が含まれるファイルのダウンロードを確認 サントリーホールディングス株式会社は11月2日、サントリーグループが利用する外部クラウドサービスへの不正アクセスについて発表した。",
       "attack": true,
       "organization": "個人情報が含まれるファイルのダウンロードを確認 サントリーホールディングス株式会社",
-      "service": "マル・デ・シャイン",
+      "service": "＆Green",
       "attack_type": "不正アクセス",
       "leak_status": "確認・可能性あり",
       "leak_count": null,
       "leaked_data": [
-        "氏名",
-        "電話番号",
-        "メールアドレス",
         "顧客情報",
-        "従業員情報",
         "会員情報"
       ],
-      "incident_summary": "サントリーホールディングス株式会社は11月2日、サントリーグループが利用する外部クラウドサービスへの不正アクセスについて発表した。 これはサントリーグループが利用する外部クラウドサービスに第三者から不正アクセスがあり、調査の結果、第三者により個人情報が含まれるファイルがダウンロードされたというもの。 同社では10月28日に外部クラウドサービスで異常を検知したため不正アクセスを遮断し、調査の結果、漏えいしたファイル名を特定し、10月29日には漏えいしたファイルの一部に個人情報が含まれることを確認している。 同社で11月1日までに第三者への漏えいを確認した個人情報は下記の通り。 1.サントリーグループ従業員およびパートナー企業等の従業員情報：約90,000名 項目：氏名、メールアドレス 2.サントリー企業活動体験プログラム「マル・デ・シャイン」に2023年末時点で登録のあった顧客様情報：7,323名 項目：メールアドレス 3.サントリーホールディングス 2026年新卒採用 ビジネス部門オープン選考（早期および通常）への応募者情報：7,173名 項目：応募者マイページ登録情報等（氏名、メール",
+      "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56687;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); サントリーホールディングス株式会社は11月2日、サントリーグループが利用する外部クラウドサービスへの不正アクセスについて発表した。 これはサントリーグループが利用する外部クラウドサービスに第三者から不正アクセスがあり、調査の結果、第三者により個人情報が含まれるファイルがダウンロードされたというもの。 「＆Green」利用のメール配信システムでエラー、複数のメールが誤送信 2026.3.17 Tue 8:05 外務省のネットワークに不正アクセス、7月27日に検知 2026.11.4 Wed 8:05 松屋公式アプリに不正アクセス 会員情報等が漏え",
       "sources": [
         "ScanNetSecurity"
       ],
@@ -2268,19 +2162,15 @@
           "title": "サントリーグループが利用する外部クラウドサービスに不正アクセス、個人情報が含まれるファイルのダウンロードを確認 サントリーホールディングス株式会社は11月2日、サントリーグループが利用する外部クラウドサービスへの不正アクセスについて発表した。",
           "attack": true,
           "organization": "個人情報が含まれるファイルのダウンロードを確認 サントリーホールディングス株式会社",
-          "service": "マル・デ・シャイン",
+          "service": "＆Green",
           "attack_type": "不正アクセス",
           "leak_status": "確認・可能性あり",
           "leak_count": null,
           "leaked_data": [
-            "氏名",
-            "電話番号",
-            "メールアドレス",
             "顧客情報",
-            "従業員情報",
             "会員情報"
           ],
-          "incident_summary": "サントリーホールディングス株式会社は11月2日、サントリーグループが利用する外部クラウドサービスへの不正アクセスについて発表した。 これはサントリーグループが利用する外部クラウドサービスに第三者から不正アクセスがあり、調査の結果、第三者により個人情報が含まれるファイルがダウンロードされたというもの。 同社では10月28日に外部クラウドサービスで異常を検知したため不正アクセスを遮断し、調査の結果、漏えいしたファイル名を特定し、10月29日には漏えいしたファイルの一部に個人情報が含まれることを確認している。 同社で11月1日までに第三者への漏えいを確認した個人情報は下記の通り。 1.サントリーグループ従業員およびパートナー企業等の従業員情報：約90,000名 項目：氏名、メールアドレス 2.サントリー企業活動体験プログラム「マル・デ・シャイン」に2023年末時点で登録のあった顧客様情報：7,323名 項目：メールアドレス 3.サントリーホールディングス 2026年新卒採用 ビジネス部門オープン選考（早期および通常）への応募者情報：7,173名 項目：応募者マイページ登録情報等（氏名、メール"
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56687;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); サントリーホールディングス株式会社は11月2日、サントリーグループが利用する外部クラウドサービスへの不正アクセスについて発表した。 これはサントリーグループが利用する外部クラウドサービスに第三者から不正アクセスがあり、調査の結果、第三者により個人情報が含まれるファイルがダウンロードされたというもの。 「＆Green」利用のメール配信システムでエラー、複数のメールが誤送信 2026.3.17 Tue 8:05 外務省のネットワークに不正アクセス、7月27日に検知 2026.11.4 Wed 8:05 松屋公式アプリに不正アクセス 会員情報等が漏え"
         }
       ],
       "source_count": 1,
@@ -2333,7 +2223,7 @@
       "attack": true,
       "organization": "株式会社ファンくる",
       "service": "クロンオンライン診療",
-      "attack_type": "アカウント侵害",
+      "attack_type": "ランサムウェア",
       "leak_status": "確認・可能性あり",
       "leak_count": null,
       "leaked_data": [
@@ -2353,7 +2243,7 @@
           "attack": true,
           "organization": "株式会社ファンくる",
           "service": "Z-IDシステム",
-          "attack_type": "アカウント侵害",
+          "attack_type": "ランサムウェア",
           "leak_status": "確認・可能性あり",
           "leak_count": null,
           "leaked_data": [
@@ -2369,7 +2259,7 @@
           "attack": true,
           "organization": "株式会社ファンくる",
           "service": "CLUB フジQ",
-          "attack_type": "アカウント侵害",
+          "attack_type": "ランサムウェア",
           "leak_status": "確認・可能性あり",
           "leak_count": null,
           "leaked_data": [
@@ -2385,7 +2275,7 @@
           "attack": true,
           "organization": "株式会社ファンくる",
           "service": "クロンオンライン診療",
-          "attack_type": "アカウント侵害",
+          "attack_type": "ランサムウェア",
           "leak_status": "確認・可能性あり",
           "leak_count": null,
           "leaked_data": [
@@ -2540,39 +2430,6 @@
       "merged": false
     },
     {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE55RnNSVzFGUkx4TGxFbkFUd2RJOTg5T2tXRDBkdUVGV2ZNU3poT2xubzM5MFdYSUFsa3ZmWHEzeXVuVld4dUNiLXlHVXNXTWlhTEpIZHFacXVxVF9yUHplYTIxb21FSDlvUzFHTmlucGMwaDFCcE9yaktvMF9LQnc?oc=5",
-      "published_date": "2026-11-06",
-      "title": "NTTドコモで約30万回線の情報漏洩。My docomoなど停止で何が起きたのか。見舞金の支払いも検討 - Yahoo!ニュース",
-      "attack": true,
-      "organization": "Yahoo!ニュース",
-      "attack_type": null,
-      "leak_status": "確認・可能性あり",
-      "leak_count": null,
-      "leaked_data": [],
-      "incident_summary": "NTTドコモで約30万回線の情報漏洩。My docomoなど停止で何が起きたのか。見舞金の支払いも検討 - Yahoo!ニュース",
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE55RnNSVzFGUkx4TGxFbkFUd2RJOTg5T2tXRDBkdUVGV2ZNU3poT2xubzM5MFdYSUFsa3ZmWHEzeXVuVld4dUNiLXlHVXNXTWlhTEpIZHFacXVxVF9yUHplYTIxb21FSDlvUzFHTmlucGMwaDFCcE9yaktvMF9LQnc?oc=5",
-          "published_date": "2026-11-06",
-          "title": "NTTドコモで約30万回線の情報漏洩。My docomoなど停止で何が起きたのか。見舞金の支払いも検討 - Yahoo!ニュース",
-          "attack": true,
-          "organization": "Yahoo!ニュース",
-          "attack_type": null,
-          "leak_status": "確認・可能性あり",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "NTTドコモで約30万回線の情報漏洩。My docomoなど停止で何が起きたのか。見舞金の支払いも検討 - Yahoo!ニュース"
-        }
-      ],
-      "source_count": 1,
-      "merged": false
-    },
-    {
       "source": "ScanNetSecurity",
       "source_url": "https://scan.netsecurity.ne.jp/article/2026/11/06/56689.html",
       "published_date": "2026-11-06",
@@ -2715,46 +2572,109 @@
       "published_date": "2026-11-05",
       "title": "障害者支援アプリ運営委託事業者ミラボに不正アクセス、設計段階で想定していなかった不備 東京都台東区は10月26日、台東区障害者支援アプリ「ささえ～る」運営委託事業者への不正アクセスについて発表した。",
       "attack": true,
-      "organization": "せて大丈夫？ 上野宣が Exaforce を問い詰めた20の質問 PR 個人情報を預ける基準は知名度よりも「セキュリティ対策の信頼性」26.2ポイント差 ソニー銀行",
+      "organization": "影響範囲調査のためにサービスを停止消防庁",
       "service": "ささえ～る",
       "attack_type": "不正アクセス",
       "leak_status": "確認・可能性あり",
       "leak_count": null,
       "leaked_data": [
-        "氏名",
-        "住所",
-        "電話番号",
-        "メールアドレス",
         "顧客情報"
       ],
-      "incident_summary": "東京都台東区は10月26日、台東区障害者支援アプリ「ささえ～る」運営委託事業者への不正アクセスについて発表した。 これは10月23日に、「ささえ～る」の運営委託事業者である株式会社ミラボから、不正に管理者アカウントが作成され、会員登録のあった情報が不正にダウンロードされた旨の報告があったというもの。 アカウント登録及び権限管理の仕組みに設計段階で想定していなかった不備があったことが原因で、不正アカウントが作成され、本来付与されるはずのない管理者権限を紐づけられた結果、不正にダウンロードされたという。 流出が確認された個人情報は下記の通り。なお、氏名、住所、電話番号は含まれていない。 ・メールアドレス：197件 ・障害児者との関係 ・障害のカテゴリー 同区では、不正に作成されたアカウントを無効化し、削除している。また、同様の方法で管理者アカウントが作成できないよう、システムを修正している。 同区では、新規会員登録を一時停止している。 同区ではアプリ利用者に対し、台東区やサービス運用会社を装って個人情報の入力等を求めるメールが送信される可能性があるとし、注意を呼びかけている。 新型コロナウ",
+      "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56676;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 東京都台東区は10月26日、台東区障害者支援アプリ「ささえ～る」運営委託事業者への不正アクセスについて発表した。 これは10月23日に、「ささえ～る」の運営委託事業者である株式会社ミラボから、不正に管理者アカウントが作成され、会員登録のあった情報が不正にダウンロードされた旨の報告があったというもの。 新型コロナウイルスによるイベント中止を誤送信、送信中気づくも手遅れ（台東区） 2020.3.2 Mon 8:00 契約・法令違反の再委託、墨田区・台東区・さいたま市でも判明（システムズ・デザイン） 2019.1.7 Mon 8:15 三井住友DS投",
       "sources": [
         "ScanNetSecurity"
       ],
       "source_records": [
         {
           "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/11/04/56663.html",
+          "published_date": "2026-11-04",
+          "title": "外務省のネットワークに不正アクセス、7月27日に検知 外務省は10月30日、同省が運用する、外部とのやり取りが可能なネットワークへの不正アクセスについて発表した。",
+          "attack": true,
+          "organization": "影響範囲調査のためにサービスを停止消防庁",
+          "service": "お客さま WEB サービス",
+          "attack_type": "不正アクセス",
+          "leak_status": "可能性あり",
+          "leak_count": null,
+          "leaked_data": [
+            "顧客情報"
+          ],
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56663;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 外務省は10月30日、同省が運用する、外部とのやり取りが可能なネットワークへの不正アクセスについて発表した。 これは7月27日に、外部とのやり取りが可能なネットワークへの不正アクセスを検知したというもので、同ネットワーク上で取り扱っていた個人情報を含むメール等の一部が漏えいした可能性が判明している。 なお、同省では機密性の高い情報のやり取りを外務省員間でのみ行う閉域ネットワークと、外部とのやり取りが可能なネットワークの2系統があり、閉域ネットワークは影響を受けていない。 富士通のプロジェクト情報共有ツールへの不正アクセス、外務省でも被害確認 2"
+        },
+        {
+          "source": "ScanNetSecurity",
           "source_url": "https://scan.netsecurity.ne.jp/article/2026/11/05/56676.html",
           "published_date": "2026-11-05",
           "title": "障害者支援アプリ運営委託事業者ミラボに不正アクセス、設計段階で想定していなかった不備 東京都台東区は10月26日、台東区障害者支援アプリ「ささえ～る」運営委託事業者への不正アクセスについて発表した。",
           "attack": true,
-          "organization": "せて大丈夫？ 上野宣が Exaforce を問い詰めた20の質問 PR 個人情報を預ける基準は知名度よりも「セキュリティ対策の信頼性」26.2ポイント差 ソニー銀行",
+          "organization": "影響範囲調査のためにサービスを停止消防庁",
           "service": "ささえ～る",
           "attack_type": "不正アクセス",
           "leak_status": "確認・可能性あり",
           "leak_count": null,
           "leaked_data": [
-            "氏名",
-            "住所",
-            "電話番号",
-            "メールアドレス",
             "顧客情報"
           ],
-          "incident_summary": "東京都台東区は10月26日、台東区障害者支援アプリ「ささえ～る」運営委託事業者への不正アクセスについて発表した。 これは10月23日に、「ささえ～る」の運営委託事業者である株式会社ミラボから、不正に管理者アカウントが作成され、会員登録のあった情報が不正にダウンロードされた旨の報告があったというもの。 アカウント登録及び権限管理の仕組みに設計段階で想定していなかった不備があったことが原因で、不正アカウントが作成され、本来付与されるはずのない管理者権限を紐づけられた結果、不正にダウンロードされたという。 流出が確認された個人情報は下記の通り。なお、氏名、住所、電話番号は含まれていない。 ・メールアドレス：197件 ・障害児者との関係 ・障害のカテゴリー 同区では、不正に作成されたアカウントを無効化し、削除している。また、同様の方法で管理者アカウントが作成できないよう、システムを修正している。 同区では、新規会員登録を一時停止している。 同区ではアプリ利用者に対し、台東区やサービス運用会社を装って個人情報の入力等を求めるメールが送信される可能性があるとし、注意を呼びかけている。 新型コロナウ"
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56676;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 東京都台東区は10月26日、台東区障害者支援アプリ「ささえ～る」運営委託事業者への不正アクセスについて発表した。 これは10月23日に、「ささえ～る」の運営委託事業者である株式会社ミラボから、不正に管理者アカウントが作成され、会員登録のあった情報が不正にダウンロードされた旨の報告があったというもの。 新型コロナウイルスによるイベント中止を誤送信、送信中気づくも手遅れ（台東区） 2020.3.2 Mon 8:00 契約・法令違反の再委託、墨田区・台東区・さいたま市でも判明（システムズ・デザイン） 2019.1.7 Mon 8:15 三井住友DS投"
         }
       ],
       "source_count": 1,
-      "merged": false
+      "merged": true
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/11/05/56677.html",
+      "published_date": "2026-11-05",
+      "title": "日本郵政グループ労働組合に不正アクセス、4万件以上の組合員情報が漏えい 日本郵政グループ労働組合（JP労組）は10月26日、不正アクセスによる組合員情報の漏えいについて発表した。",
+      "attack": true,
+      "organization": "日本郵便株式会社",
+      "service": "ゆうゆうポイントサイト",
+      "attack_type": "不正アクセス",
+      "leak_status": "確認・可能性あり",
+      "leak_count": null,
+      "leaked_data": [
+        "顧客情報"
+      ],
+      "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56677;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 日本郵政グループ労働組合（JP労組）は10月26日、不正アクセスによる組合員情報の漏えいについて発表した。 これはJP労組が2019年頃まで運用していたメールマガジンのシステムに第三者から不正アクセスがあり、当時のメールマガジンを利用していた組合員の情報が漏えいしたというもの。ホームページの運営を委託している業者から報告があり、発覚した。 日本郵政「ゆうゆうポイントサイト」を緊急サービス停止 2026.10.21 Wed 8:05 「郵便局アプリ」に不正アクセス、顧客情報を不正に取得 2026.10.2 Fri 8:05 日本郵便 調査請求 W",
+      "sources": [
+        "ScanNetSecurity"
+      ],
+      "source_records": [
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/21/56529.html",
+          "published_date": "2026-10-21",
+          "title": "日本郵政「ゆうゆうポイントサイト」を緊急サービス停止 日本郵政株式会社は10月16日、同社が運営する「ゆうゆうポイントサイト」の緊急サービス停止について発表した。",
+          "attack": true,
+          "organization": "日本郵便株式会社",
+          "service": "ゆうゆうポイントサイト",
+          "attack_type": "ランサムウェア",
+          "leak_status": "確認・可能性あり",
+          "leak_count": null,
+          "leaked_data": [
+            "顧客情報"
+          ],
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56529;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 日本郵政株式会社は10月16日、同社が運営する「ゆうゆうポイントサイト」の緊急サービス停止について発表した。 これは10月16日午前10時20分頃から、「ゆうゆうポイントサイト」で緊急にサービスを停止したというもの。サービス停止により、下記の影響がある。 ・ゆうゆうポイントサイトを利用できない。 ・ポイント残高および履歴表示ができない。 ・郵便局のネットショップでポイントを利用できない。 ・かんぽアプリやアンケート回答によるポイント付与ができない。 ・QRポップ読み込みによる来局ポイント付与ができない。 「郵便局アプリ」に不正アクセス、顧客情報"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/11/05/56677.html",
+          "published_date": "2026-11-05",
+          "title": "日本郵政グループ労働組合に不正アクセス、4万件以上の組合員情報が漏えい 日本郵政グループ労働組合（JP労組）は10月26日、不正アクセスによる組合員情報の漏えいについて発表した。",
+          "attack": true,
+          "organization": "日本郵便株式会社",
+          "service": "ゆうゆうポイントサイト",
+          "attack_type": "不正アクセス",
+          "leak_status": "確認・可能性あり",
+          "leak_count": null,
+          "leaked_data": [
+            "顧客情報"
+          ],
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56677;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 日本郵政グループ労働組合（JP労組）は10月26日、不正アクセスによる組合員情報の漏えいについて発表した。 これはJP労組が2019年頃まで運用していたメールマガジンのシステムに第三者から不正アクセスがあり、当時のメールマガジンを利用していた組合員の情報が漏えいしたというもの。ホームページの運営を委託している業者から報告があり、発覚した。 日本郵政「ゆうゆうポイントサイト」を緊急サービス停止 2026.10.21 Wed 8:05 「郵便局アプリ」に不正アクセス、顧客情報を不正に取得 2026.10.2 Fri 8:05 日本郵便 調査請求 W"
+        }
+      ],
+      "source_count": 1,
+      "merged": true
     },
     {
       "source": "ScanNetSecurity",
@@ -2770,7 +2690,7 @@
       "leaked_data": [
         "顧客情報"
       ],
-      "incident_summary": "KDDI株式会社は10月30日、ライフネット生命保険株式会社の一部システムへの不正アクセスについて発表した。 これはライフネット生命のシステムのうち、KDDIと連携するシステム（LNシステム）に不正アクセスがあり、KDDIのシステム（Kシステム）が保有する顧客情報の一部が外部に漏えいした可能性を10月23日に確認したというもの。 ライフネット生命は10月23日に、LNシステムへの不正アクセスを検知し、同日中にKDDIに報告するとともに、被害拡大防止のため、同不正アクセスの被疑箇所を特定し、技術的な防御措置を実施している。 KDDIでは翌10月24日に、Kシステムに対するLNシステムからのアクセス経路を遮断している。 現時点までの調査結果によると、悪意を持った第三者がLNシステムの一部機能の脆弱性を通じて、Kシステムが保有する顧客情報の一部を取得した可能性が判明している。 漏えいした可能性がある顧客情報は下記の通り。 ・氏名、郵便番号、電話番号、メールアドレス、会員識別子：4,524件 ・氏名、郵便番号、電話番号、会員識別子：226件 ・氏名、郵便番号、メールアドレス、会員識別子：8,4",
+      "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56679;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); KDDI株式会社は10月30日、ライフネット生命保険株式会社の一部システムへの不正アクセスについて発表した。 これはライフネット生命のシステムのうち、KDDIと連携するシステム（LNシステム）に不正アクセスがあり、KDDIのシステム（Kシステム）が保有する顧客情報の一部が外部に漏えいした可能性を10月23日に確認したというもの。 KDDI の ISP 事業者向けメールシステムへの不正アクセス、レンタルサーバCPIへの影響が明らかに 2026.8.31 Mon 8:05 KDDI の ISP 事業者向けメールシステムに不正アクセス、個人情報保護委",
       "sources": [
         "ScanNetSecurity"
       ],
@@ -2789,7 +2709,7 @@
           "leaked_data": [
             "顧客情報"
           ],
-          "incident_summary": "KDDI株式会社は10月30日、ライフネット生命保険株式会社の一部システムへの不正アクセスについて発表した。 これはライフネット生命のシステムのうち、KDDIと連携するシステム（LNシステム）に不正アクセスがあり、KDDIのシステム（Kシステム）が保有する顧客情報の一部が外部に漏えいした可能性を10月23日に確認したというもの。 ライフネット生命は10月23日に、LNシステムへの不正アクセスを検知し、同日中にKDDIに報告するとともに、被害拡大防止のため、同不正アクセスの被疑箇所を特定し、技術的な防御措置を実施している。 KDDIでは翌10月24日に、Kシステムに対するLNシステムからのアクセス経路を遮断している。 現時点までの調査結果によると、悪意を持った第三者がLNシステムの一部機能の脆弱性を通じて、Kシステムが保有する顧客情報の一部を取得した可能性が判明している。 漏えいした可能性がある顧客情報は下記の通り。 ・氏名、郵便番号、電話番号、メールアドレス、会員識別子：4,524件 ・氏名、郵便番号、電話番号、会員識別子：226件 ・氏名、郵便番号、メールアドレス、会員識別子：8,4"
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56679;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); KDDI株式会社は10月30日、ライフネット生命保険株式会社の一部システムへの不正アクセスについて発表した。 これはライフネット生命のシステムのうち、KDDIと連携するシステム（LNシステム）に不正アクセスがあり、KDDIのシステム（Kシステム）が保有する顧客情報の一部が外部に漏えいした可能性を10月23日に確認したというもの。 KDDI の ISP 事業者向けメールシステムへの不正アクセス、レンタルサーバCPIへの影響が明らかに 2026.8.31 Mon 8:05 KDDI の ISP 事業者向けメールシステムに不正アクセス、個人情報保護委"
         }
       ],
       "source_count": 1,
@@ -2809,9 +2729,10 @@
       "leaked_data": [
         "氏名",
         "認証情報",
+        "顧客情報",
         "会員情報"
       ],
-      "incident_summary": "株式会社モスフードサービスは10月23日、同社がプリペイドカード「モスカード」のサーバ運用・保守業務を委託している株式会社バリューデザインへの不正アクセスについて発表した。 これは10月14日から10月18日にかけて、バリューデザインで「モスカード」の管理システムへの不審なアクセスや不正ログイン試行を検知したため、アクセス遮断等の緊急措置を実施し、事実関係と被害状況の調査を行ったところ、外部プログラムを用いた不正アクセスで一部のモスカード番号、PIN番号、残高情報の流出を確認したというもの。 流出を確認したのは、「モスカード」の発行総数 約380万件のうち113万3,070件（流通済みカード約57万件、未流通カード約56万件）のモスカード番号（16桁）、PIN番号（6桁）、残高情報。 同社では、流出したモスカード番号に紐づくPIN番号について、不正利用防止の観点から強制的に変更を行っている。 同社によると、「モスカード」の店頭・ネット注文・「お席で注文」での利用は問題ないが、Web上での残高照会、公式アプリへの新規登録、ネット注文での「モスカード」によるゲスト購入が出来ない場合は、問い",
+      "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56672;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社モスフードサービスは10月23日、同社がプリペイドカード「モスカード」のサーバ運用・保守業務を委託している株式会社バリューデザインへの不正アクセスについて発表した。 これは10月14日から10月18日にかけて、バリューデザインで「モスカード」の管理システムへの不審なアクセスや不正ログイン試行を検知したため、アクセス遮断等の緊急措置を実施し、事実関係と被害状況の調査を行ったところ、外部プログラムを用いた不正アクセスで一部のモスカード番号、PIN番号、残高情報の流出を確認したというもの。 Gunosy の社内業務用アカウントの認証情報を用い",
       "sources": [
         "ScanNetSecurity"
       ],
@@ -2830,9 +2751,10 @@
           "leaked_data": [
             "氏名",
             "認証情報",
+            "顧客情報",
             "会員情報"
           ],
-          "incident_summary": "株式会社モスフードサービスは10月23日、同社がプリペイドカード「モスカード」のサーバ運用・保守業務を委託している株式会社バリューデザインへの不正アクセスについて発表した。 これは10月14日から10月18日にかけて、バリューデザインで「モスカード」の管理システムへの不審なアクセスや不正ログイン試行を検知したため、アクセス遮断等の緊急措置を実施し、事実関係と被害状況の調査を行ったところ、外部プログラムを用いた不正アクセスで一部のモスカード番号、PIN番号、残高情報の流出を確認したというもの。 流出を確認したのは、「モスカード」の発行総数 約380万件のうち113万3,070件（流通済みカード約57万件、未流通カード約56万件）のモスカード番号（16桁）、PIN番号（6桁）、残高情報。 同社では、流出したモスカード番号に紐づくPIN番号について、不正利用防止の観点から強制的に変更を行っている。 同社によると、「モスカード」の店頭・ネット注文・「お席で注文」での利用は問題ないが、Web上での残高照会、公式アプリへの新規登録、ネット注文での「モスカード」によるゲスト購入が出来ない場合は、問い"
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56672;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社モスフードサービスは10月23日、同社がプリペイドカード「モスカード」のサーバ運用・保守業務を委託している株式会社バリューデザインへの不正アクセスについて発表した。 これは10月14日から10月18日にかけて、バリューデザインで「モスカード」の管理システムへの不審なアクセスや不正ログイン試行を検知したため、アクセス遮断等の緊急措置を実施し、事実関係と被害状況の調査を行ったところ、外部プログラムを用いた不正アクセスで一部のモスカード番号、PIN番号、残高情報の流出を確認したというもの。 Gunosy の社内業務用アカウントの認証情報を用い"
         }
       ],
       "source_count": 1,
@@ -2850,12 +2772,9 @@
       "leak_status": "可能性あり",
       "leak_count": null,
       "leaked_data": [
-        "氏名",
-        "住所",
-        "電話番号",
         "顧客情報"
       ],
-      "incident_summary": "株式会社ドン・キホーテは10月28日、同社及び同社グループ会社が修理に関する業務を委託している株式会社コックスへの不正アクセスについて発表した。 これはコックスで運用・管理するサーバに外部からサイバー攻撃があり、同サーバ内がランサムウェアにより暗号化され、同社からの業務委託で受領した情報が暗号化したというもの。コックスで専門機関による調査を実施したところ、現時点で個人情報漏えいの事実は確認されていないが、その可能性が完全に否定できないという。 コックスでは9月15日に、サーバへのサイバー攻撃の可能性を検知し、委託先従業員がサーバを確認したところ、同サーバが暗号化されて閲覧不能な状態となっていることが判明したため、同サーバへの外部経路からの接続を遮断している。 コックスでは9月25日に、ドン・キホーテグループに報告を行っている。 漏えいした可能性があるのは、同社グループ店舗（株式会社ドン・キホーテ、株式会社長崎屋、株式会社橘百貨店、UDリテール株式会社）で2025年9月以降に時計の修理を依頼した顧客の氏名、住所（一部）、電話番号（一部）を含む個人情報。 コックスでは現在、情報の外部漏えい",
+      "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56678;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社ドン・キホーテは10月28日、同社及び同社グループ会社が修理に関する業務を委託している株式会社コックスへの不正アクセスについて発表した。 これはコックスで運用・管理するサーバに外部からサイバー攻撃があり、同サーバ内がランサムウェアにより暗号化され、同社からの業務委託で受領した情報が暗号化したというもの。コックスで専門機関による調査を実施したところ、現時点で個人情報漏えいの事実は確認されていないが、その可能性が完全に否定できないという。 自宅玄関にマトリョーシカ ～ ランサムウェア攻撃の 37 ％で関係者個人に心理的・身体的脅迫 [グロー",
       "sources": [
         "ScanNetSecurity"
       ],
@@ -2872,12 +2791,9 @@
           "leak_status": "可能性あり",
           "leak_count": null,
           "leaked_data": [
-            "氏名",
-            "住所",
-            "電話番号",
             "顧客情報"
           ],
-          "incident_summary": "株式会社ドン・キホーテは10月28日、同社及び同社グループ会社が修理に関する業務を委託している株式会社コックスへの不正アクセスについて発表した。 これはコックスで運用・管理するサーバに外部からサイバー攻撃があり、同サーバ内がランサムウェアにより暗号化され、同社からの業務委託で受領した情報が暗号化したというもの。コックスで専門機関による調査を実施したところ、現時点で個人情報漏えいの事実は確認されていないが、その可能性が完全に否定できないという。 コックスでは9月15日に、サーバへのサイバー攻撃の可能性を検知し、委託先従業員がサーバを確認したところ、同サーバが暗号化されて閲覧不能な状態となっていることが判明したため、同サーバへの外部経路からの接続を遮断している。 コックスでは9月25日に、ドン・キホーテグループに報告を行っている。 漏えいした可能性があるのは、同社グループ店舗（株式会社ドン・キホーテ、株式会社長崎屋、株式会社橘百貨店、UDリテール株式会社）で2025年9月以降に時計の修理を依頼した顧客の氏名、住所（一部）、電話番号（一部）を含む個人情報。 コックスでは現在、情報の外部漏えい"
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56678;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社ドン・キホーテは10月28日、同社及び同社グループ会社が修理に関する業務を委託している株式会社コックスへの不正アクセスについて発表した。 これはコックスで運用・管理するサーバに外部からサイバー攻撃があり、同サーバ内がランサムウェアにより暗号化され、同社からの業務委託で受領した情報が暗号化したというもの。コックスで専門機関による調査を実施したところ、現時点で個人情報漏えいの事実は確認されていないが、その可能性が完全に否定できないという。 自宅玄関にマトリョーシカ ～ ランサムウェア攻撃の 37 ％で関係者個人に心理的・身体的脅迫 [グロー"
         }
       ],
       "source_count": 1,
@@ -2895,16 +2811,10 @@
       "leak_status": "可能性あり",
       "leak_count": "951",
       "leaked_data": [
-        "氏名",
-        "住所",
-        "電話番号",
-        "メールアドレス",
-        "生年月日",
-        "口座情報",
         "顧客情報",
         "従業員情報"
       ],
-      "incident_summary": "株式会社ドトールコーヒーは10月26日、同社システムへの不正アクセスについて発表した。 これは同社のシステムに外部の第三者から不正アクセスがあり、同システムに保存されていた同社従業員と退職者の個人データが第三者に閲覧され、外部流出した可能性が判明したというもの。同社では10月20日に、同社システムへの不正アクセスを検知している。 漏えいした可能性があるのは、同社の下記4店舗に勤務していた従業員及び退職者 計951名の氏名、生年月日、住所、メールアドレス、電話番号、銀行口座番号を含む個人情報。 ・ドトールコーヒーショップ西武大泉学園駅店 ・ドトールコーヒーショップ国立大学通り店 ・ドトールコーヒーショップ東京駅八重洲中央口店 ・ドトールコーヒーショップ石神井公園駅前店 同社では、個人データが漏えいした可能性がある従業員に順次、連絡を行っている。 同社では本件の発覚後に、被害拡大防止措置を講じるとともに、事実関係の調査を進めているとのこと。 ドトールコーヒー公式 Twitter アカウントが乗っ取り被害、キャンペーン開催も見合わせ 2023.2.17 Fri 8:05 新たに約 40,70",
+      "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56675;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社ドトールコーヒーは10月26日、同社システムへの不正アクセスについて発表した。 これは同社のシステムに外部の第三者から不正アクセスがあり、同システムに保存されていた同社従業員と退職者の個人データが第三者に閲覧され、外部流出した可能性が判明したというもの。同社では10月20日に、同社システムへの不正アクセスを検知している。 ドトールコーヒー公式 Twitter アカウントが乗っ取り被害、キャンペーン開催も見合わせ 2023.2.17 Fri 8:05 新たに約 40,700 名分の従業員 ID 漏えいが判明 ～ スターバックスが利用するB",
       "sources": [
         "ScanNetSecurity"
       ],
@@ -2921,16 +2831,10 @@
           "leak_status": "可能性あり",
           "leak_count": "951",
           "leaked_data": [
-            "氏名",
-            "住所",
-            "電話番号",
-            "メールアドレス",
-            "生年月日",
-            "口座情報",
             "顧客情報",
             "従業員情報"
           ],
-          "incident_summary": "株式会社ドトールコーヒーは10月26日、同社システムへの不正アクセスについて発表した。 これは同社のシステムに外部の第三者から不正アクセスがあり、同システムに保存されていた同社従業員と退職者の個人データが第三者に閲覧され、外部流出した可能性が判明したというもの。同社では10月20日に、同社システムへの不正アクセスを検知している。 漏えいした可能性があるのは、同社の下記4店舗に勤務していた従業員及び退職者 計951名の氏名、生年月日、住所、メールアドレス、電話番号、銀行口座番号を含む個人情報。 ・ドトールコーヒーショップ西武大泉学園駅店 ・ドトールコーヒーショップ国立大学通り店 ・ドトールコーヒーショップ東京駅八重洲中央口店 ・ドトールコーヒーショップ石神井公園駅前店 同社では、個人データが漏えいした可能性がある従業員に順次、連絡を行っている。 同社では本件の発覚後に、被害拡大防止措置を講じるとともに、事実関係の調査を進めているとのこと。 ドトールコーヒー公式 Twitter アカウントが乗っ取り被害、キャンペーン開催も見合わせ 2023.2.17 Fri 8:05 新たに約 40,70"
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56675;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社ドトールコーヒーは10月26日、同社システムへの不正アクセスについて発表した。 これは同社のシステムに外部の第三者から不正アクセスがあり、同システムに保存されていた同社従業員と退職者の個人データが第三者に閲覧され、外部流出した可能性が判明したというもの。同社では10月20日に、同社システムへの不正アクセスを検知している。 ドトールコーヒー公式 Twitter アカウントが乗っ取り被害、キャンペーン開催も見合わせ 2023.2.17 Fri 8:05 新たに約 40,700 名分の従業員 ID 漏えいが判明 ～ スターバックスが利用するB"
         }
       ],
       "source_count": 1,
@@ -2951,7 +2855,7 @@
         "口座情報",
         "顧客情報"
       ],
-      "incident_summary": "ギフティグループ株式会社は10月26日、同社連結子会社の株式会社ギフティへの不正アクセスについて発表した。 これは10月25日に、ギフティが運用するシステムの一部の脆弱性を悪用した第三者からの不正アクセスが発生し、当該システムを経由してeギフトが不正に発行されたというもの。 同社によると、本件は第三者がギフティが運用する当該システムを介してeギフトを新たに不正発行したもので、ギフティのサービスを利用する顧客が保有するeギフト等が不正に使用されたものではなく、本件による顧客の保有資産の減少・毀損は確認されていない。不正発行に起因する金銭的な損失は同社グループに発生するとのこと。 なお、本件による個人情報の漏えいは確認されていない。 ギフティでは本件発覚後に、不正アクセスの原因となった脆弱性を特定し、10月25日に当該システムを停止し、当該経路を通じた不正発行を遮断している。当該システムについては、今後も利用を再開しない方針という。 本件への対応に伴い、一部のeギフト交換サービスに一時的な利用上の支障が生じていたが、現在は順次解消している。 同社によると、本件に起因する損失は現時点で約5.",
+      "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56674;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); ギフティグループ株式会社は10月26日、同社連結子会社の株式会社ギフティへの不正アクセスについて発表した。 これは10月25日に、ギフティが運用するシステムの一部の脆弱性を悪用した第三者からの不正アクセスが発生し、当該システムを経由してeギフトが不正に発行されたというもの。 不正アクセス関連損失として 1 億 8,100 万円を「その他の費用」に計上 2026.9.2 Wed 8:05 はてな資金流出、11 億 7,900 万円を特別損失として計上 2026.6.25 Thu 8:00 Booking.comへの不正アクセス、売上金受領口座情報",
       "sources": [
         "ScanNetSecurity"
       ],
@@ -2971,7 +2875,7 @@
             "口座情報",
             "顧客情報"
           ],
-          "incident_summary": "ギフティグループ株式会社は10月26日、同社連結子会社の株式会社ギフティへの不正アクセスについて発表した。 これは10月25日に、ギフティが運用するシステムの一部の脆弱性を悪用した第三者からの不正アクセスが発生し、当該システムを経由してeギフトが不正に発行されたというもの。 同社によると、本件は第三者がギフティが運用する当該システムを介してeギフトを新たに不正発行したもので、ギフティのサービスを利用する顧客が保有するeギフト等が不正に使用されたものではなく、本件による顧客の保有資産の減少・毀損は確認されていない。不正発行に起因する金銭的な損失は同社グループに発生するとのこと。 なお、本件による個人情報の漏えいは確認されていない。 ギフティでは本件発覚後に、不正アクセスの原因となった脆弱性を特定し、10月25日に当該システムを停止し、当該経路を通じた不正発行を遮断している。当該システムについては、今後も利用を再開しない方針という。 本件への対応に伴い、一部のeギフト交換サービスに一時的な利用上の支障が生じていたが、現在は順次解消している。 同社によると、本件に起因する損失は現時点で約5."
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56674;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); ギフティグループ株式会社は10月26日、同社連結子会社の株式会社ギフティへの不正アクセスについて発表した。 これは10月25日に、ギフティが運用するシステムの一部の脆弱性を悪用した第三者からの不正アクセスが発生し、当該システムを経由してeギフトが不正に発行されたというもの。 不正アクセス関連損失として 1 億 8,100 万円を「その他の費用」に計上 2026.9.2 Wed 8:05 はてな資金流出、11 億 7,900 万円を特別損失として計上 2026.6.25 Thu 8:00 Booking.comへの不正アクセス、売上金受領口座情報"
         }
       ],
       "source_count": 1,
@@ -2989,12 +2893,9 @@
       "leak_status": "可能性あり",
       "leak_count": null,
       "leaked_data": [
-        "氏名",
-        "メールアドレス",
-        "認証情報",
         "顧客情報"
       ],
-      "incident_summary": "株式会社ソニックムーブは10月26日、同社が法人顧客向けに提供しているLINE連携基盤「COMSBI エンタープライズ基盤」への不正アクセスについて発表した。 これは10月23日午前に、第三者が同サービスの管理システムに不正にログインしたというもので、同サービスを利用する一部顧客に関する情報、および顧客が保有する利用者の個人情報が外部に漏えい、またはその可能性があることを確認している。 同社によると、第三者が同サービスの管理画面の認証情報を不正に入手してログインし、管理画面の機能の不備を通じてサーバの認証情報を取得したことが原因という。 漏えい、またはその可能性があるのは、「COMSBI エンタープライズ基盤」を利用する一部顧客（法人）に関する、下記情報。 ・顧客の管理画面の利用者情報（氏名、メールアドレス、暗号化されたパスワード） ・顧客のLINE公式アカウントに関する設定情報 ・顧客が保有する利用者の情報（氏名、メールアドレス等） 同社では対象となる顧客に対し、顧客ごとの対象項目を個別に報告しており、利用者への案内は各顧客と連携のうえ進めている。 同社では下記の対応を行っている。 ",
+      "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56673;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社ソニックムーブは10月26日、同社が法人顧客向けに提供しているLINE連携基盤「COMSBI エンタープライズ基盤」への不正アクセスについて発表した。 これは10月23日午前に、第三者が同サービスの管理システムに不正にログインしたというもので、同サービスを利用する一部顧客に関する情報、および顧客が保有する利用者の個人情報が外部に漏えい、またはその可能性があることを確認している。 三井住友DS投信直販ネットのマイページにログインできない状況に、取引委託業者のシステムで不正アクセスを検知 2026.10.29 Thu 8:05 「ショップサ",
       "sources": [
         "ScanNetSecurity"
       ],
@@ -3011,12 +2912,9 @@
           "leak_status": "可能性あり",
           "leak_count": null,
           "leaked_data": [
-            "氏名",
-            "メールアドレス",
-            "認証情報",
             "顧客情報"
           ],
-          "incident_summary": "株式会社ソニックムーブは10月26日、同社が法人顧客向けに提供しているLINE連携基盤「COMSBI エンタープライズ基盤」への不正アクセスについて発表した。 これは10月23日午前に、第三者が同サービスの管理システムに不正にログインしたというもので、同サービスを利用する一部顧客に関する情報、および顧客が保有する利用者の個人情報が外部に漏えい、またはその可能性があることを確認している。 同社によると、第三者が同サービスの管理画面の認証情報を不正に入手してログインし、管理画面の機能の不備を通じてサーバの認証情報を取得したことが原因という。 漏えい、またはその可能性があるのは、「COMSBI エンタープライズ基盤」を利用する一部顧客（法人）に関する、下記情報。 ・顧客の管理画面の利用者情報（氏名、メールアドレス、暗号化されたパスワード） ・顧客のLINE公式アカウントに関する設定情報 ・顧客が保有する利用者の情報（氏名、メールアドレス等） 同社では対象となる顧客に対し、顧客ごとの対象項目を個別に報告しており、利用者への案内は各顧客と連携のうえ進めている。 同社では下記の対応を行っている。 "
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56673;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社ソニックムーブは10月26日、同社が法人顧客向けに提供しているLINE連携基盤「COMSBI エンタープライズ基盤」への不正アクセスについて発表した。 これは10月23日午前に、第三者が同サービスの管理システムに不正にログインしたというもので、同サービスを利用する一部顧客に関する情報、および顧客が保有する利用者の個人情報が外部に漏えい、またはその可能性があることを確認している。 三井住友DS投信直販ネットのマイページにログインできない状況に、取引委託業者のシステムで不正アクセスを検知 2026.10.29 Thu 8:05 「ショップサ"
         }
       ],
       "source_count": 1,
@@ -3030,13 +2928,13 @@
       "attack": true,
       "organization": "株式会社に提供しているイシュイングサポートサービス個別機能で不正なユーザー",
       "service": "お名前.com デスクトップクラウド",
-      "attack_type": "不正アクセス",
+      "attack_type": "ランサムウェア",
       "leak_status": "可能性あり",
       "leak_count": null,
       "leaked_data": [
         "顧客情報"
       ],
-      "incident_summary": "GMOペイメントゲートウェイ株式会社は11月2日、顧客情報の一部が窃取された可能性について発表した。 これは10月30日に、同社がライフカード株式会社に提供しているイシュイングサポートサービス個別機能で不正なユーザーによる行為が発生し、顧客情報の一部が窃取された可能性が判明したというもの。 現時点で漏えいが判明しているのは合計69件の顧客情報で、その内容は下記の通り。 ・氏名、メールアドレス、電話番号、住所の一部：63件 ・Vプリカ番号、Vプリカ専用セキュリティコード、有効期限、氏名：3件 ・Vプリカ番号の一部：3件 ライフカードでは、対象となる顧客に個別に案内を行う。 GMOペイメントゲートウェイでは現在、対象となるサービスの一部を停止し、必要な対策と安全性の確認を進めており、サービス再開に向けて対応を進めている。 なお、本件はライフカード向けに提供している個別機能で発生したもので、当該機能は他の顧客向けのイシュイングサポートサービスとは異なるシステム基盤で運用しており、他の顧客への影響はないとのこと。 「お名前.com デスクトップクラウド」に不正アクセス、取引口座のログイン情報等",
+      "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56680;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); GMOペイメントゲートウェイ株式会社は11月2日、顧客情報の一部が窃取された可能性について発表した。 これは10月30日に、同社がライフカード株式会社に提供しているイシュイングサポートサービス個別機能で不正なユーザーによる行為が発生し、顧客情報の一部が窃取された可能性が判明したというもの。 「お名前.com デスクトップクラウド」に不正アクセス、取引口座のログイン情報等が取得され不正利用された可能性 2026.10.26 Mon 8:05 「お名前.com デスクトップクラウド」に不正アクセス、情報が公開された顧客に上限300万円の特別見舞金 ",
       "sources": [
         "ScanNetSecurity"
       ],
@@ -3049,13 +2947,13 @@
           "attack": true,
           "organization": "株式会社に提供しているイシュイングサポートサービス個別機能で不正なユーザー",
           "service": "お名前.com デスクトップクラウド",
-          "attack_type": "不正アクセス",
+          "attack_type": "ランサムウェア",
           "leak_status": "可能性あり",
           "leak_count": null,
           "leaked_data": [
             "顧客情報"
           ],
-          "incident_summary": "GMOペイメントゲートウェイ株式会社は11月2日、顧客情報の一部が窃取された可能性について発表した。 これは10月30日に、同社がライフカード株式会社に提供しているイシュイングサポートサービス個別機能で不正なユーザーによる行為が発生し、顧客情報の一部が窃取された可能性が判明したというもの。 現時点で漏えいが判明しているのは合計69件の顧客情報で、その内容は下記の通り。 ・氏名、メールアドレス、電話番号、住所の一部：63件 ・Vプリカ番号、Vプリカ専用セキュリティコード、有効期限、氏名：3件 ・Vプリカ番号の一部：3件 ライフカードでは、対象となる顧客に個別に案内を行う。 GMOペイメントゲートウェイでは現在、対象となるサービスの一部を停止し、必要な対策と安全性の確認を進めており、サービス再開に向けて対応を進めている。 なお、本件はライフカード向けに提供している個別機能で発生したもので、当該機能は他の顧客向けのイシュイングサポートサービスとは異なるシステム基盤で運用しており、他の顧客への影響はないとのこと。 「お名前.com デスクトップクラウド」に不正アクセス、取引口座のログイン情報等"
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56680;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); GMOペイメントゲートウェイ株式会社は11月2日、顧客情報の一部が窃取された可能性について発表した。 これは10月30日に、同社がライフカード株式会社に提供しているイシュイングサポートサービス個別機能で不正なユーザーによる行為が発生し、顧客情報の一部が窃取された可能性が判明したというもの。 「お名前.com デスクトップクラウド」に不正アクセス、取引口座のログイン情報等が取得され不正利用された可能性 2026.10.26 Mon 8:05 「お名前.com デスクトップクラウド」に不正アクセス、情報が公開された顧客に上限300万円の特別見舞金 "
         }
       ],
       "source_count": 1,
@@ -3330,61 +3228,6 @@
     },
     {
       "source": "ScanNetSecurity",
-      "source_url": "https://scan.netsecurity.ne.jp/article/2026/11/04/56663.html",
-      "published_date": "2026-11-04",
-      "title": "外務省のネットワークに不正アクセス、7月27日に検知 外務省は10月30日、同省が運用する、外部とのやり取りが可能なネットワークへの不正アクセスについて発表した。",
-      "attack": true,
-      "organization": "せて大丈夫？ 上野宣が Exaforce を問い詰めた20の質問 PR 個人情報を預ける基準は知名度よりも「セキュリティ対策の信頼性」26.2ポイント差 ソニー銀行",
-      "service": "お客さま WEB サービス",
-      "attack_type": "不正アクセス",
-      "leak_status": "可能性あり",
-      "leak_count": null,
-      "leaked_data": [
-        "顧客情報"
-      ],
-      "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56663;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 外務省は10月30日、同省が運用する、外部とのやり取りが可能なネットワークへの不正アクセスについて発表した。 これは7月27日に、外部とのやり取りが可能なネットワークへの不正アクセスを検知したというもので、同ネットワーク上で取り扱っていた個人情報を含むメール等の一部が漏えいした可能性が判明している。 なお、同省では機密性の高い情報のやり取りを外務省員間でのみ行う閉域ネットワークと、外部とのやり取りが可能なネットワークの2系統があり、閉域ネットワークは影響を受けていない。 富士通のプロジェクト情報共有ツールへの不正アクセス、外務省でも被害確認 2",
-      "sources": [
-        "ScanNetSecurity"
-      ],
-      "source_records": [
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/26/56565.html",
-          "published_date": "2026-10-26",
-          "title": "厚生労働省 委託事業の「東電福島第一原発廃炉等作業における被ばく低減対策普及啓発事業」で個人情報が漏えい 厚生労働省は10月22日、同省の委託事業である「東電福島第一原発廃炉等作業における被ばく低減対策普及啓発事業」での個人情報漏えいについて発表した。",
-          "attack": true,
-          "organization": "せて大丈夫？ 上野宣が Exaforce を問い詰めた20の質問 PR 個人情報を預ける基準は知名度よりも「セキュリティ対策の信頼性」26.2ポイント差 ソニー銀行",
-          "service": "東電福島第一原発廃炉等作業における被ばく低減対策普及啓発事業",
-          "attack_type": "不正アクセス",
-          "leak_status": "確認・可能性あり",
-          "leak_count": null,
-          "leaked_data": [
-            "顧客情報"
-          ],
-          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56565;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 厚生労働省は10月22日、同省の委託事業である「東電福島第一原発廃炉等作業における被ばく低減対策普及啓発事業」での個人情報漏えいについて発表した。 これは同事業を受託するテクノヒル株式会社から、同省との委託契約に基づき運営するウェブサイト「1FEdu」に第三者によるサイバー攻撃があり、個人情報の漏えい及び漏えいした可能性があると報告があったというもの。 運送業者が配送過程で紛失 ～ 厚労省の令和8年最低賃金に関する基礎調査 調査票 2026.9.17 Thu 8:05 以前に発送した宛名ラベルを誤って貼付 ～ 行政文書の開示に係る関係書類の誤送"
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/11/04/56663.html",
-          "published_date": "2026-11-04",
-          "title": "外務省のネットワークに不正アクセス、7月27日に検知 外務省は10月30日、同省が運用する、外部とのやり取りが可能なネットワークへの不正アクセスについて発表した。",
-          "attack": true,
-          "organization": "せて大丈夫？ 上野宣が Exaforce を問い詰めた20の質問 PR 個人情報を預ける基準は知名度よりも「セキュリティ対策の信頼性」26.2ポイント差 ソニー銀行",
-          "service": "お客さま WEB サービス",
-          "attack_type": "不正アクセス",
-          "leak_status": "可能性あり",
-          "leak_count": null,
-          "leaked_data": [
-            "顧客情報"
-          ],
-          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56663;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 外務省は10月30日、同省が運用する、外部とのやり取りが可能なネットワークへの不正アクセスについて発表した。 これは7月27日に、外部とのやり取りが可能なネットワークへの不正アクセスを検知したというもので、同ネットワーク上で取り扱っていた個人情報を含むメール等の一部が漏えいした可能性が判明している。 なお、同省では機密性の高い情報のやり取りを外務省員間でのみ行う閉域ネットワークと、外部とのやり取りが可能なネットワークの2系統があり、閉域ネットワークは影響を受けていない。 富士通のプロジェクト情報共有ツールへの不正アクセス、外務省でも被害確認 2"
-        }
-      ],
-      "source_count": 1,
-      "merged": true
-    },
-    {
-      "source": "ScanNetSecurity",
       "source_url": "https://scan.netsecurity.ne.jp/article/2026/11/04/56654.html",
       "published_date": "2026-11-04",
       "title": "台東区のウェブサイト管理者トラベルジップに不正アクセス 東京都台東区は10月23日、同区のウェブサイト管理者である株式会社トラベルジップへの不正アクセスによる個人情報流出ついて発表した。",
@@ -3455,52 +3298,6 @@
             "会員情報"
           ],
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56654;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 東京都台東区は10月23日、同区のウェブサイト管理者である株式会社トラベルジップへの不正アクセスによる個人情報流出ついて発表した。 対象となるウェブサイトは、台東区観光情報サイト「TAITOおでかけナビ」と台東区大河ドラマ「べらぼう」活用推進協議会が運営する「蔦重ゆかりの地 台東区」公式サイト（2026年3月12日公開終了）。 現時点で流出が確認されている個人情報は下記の通り。 イエローハットWEB作業予約システムへの不正プログラムによる攻撃、最大180万1,499名の会員情報が漏えいした可能性 2026.9.2 Wed 8:05 扶桑電通が社"
-        }
-      ],
-      "source_count": 1,
-      "merged": true
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBkQTA2dzluWHBFRWIwazVJU1RrUnJTN0ZvNy16YUFKZXdzSi1QOWpJcXN1dEVCdVlJX1hxZEs2SVRhSXVnZm9XZG5lMUhoaWpDc0VyX2NrSmtBNG1N?oc=5",
-      "published_date": "2026-11-04",
-      "title": "ランサムウェアで事業停止の危機も。企業を守る「サイバーレジリエンス」の新常識に迫る - ZDNET Japan",
-      "attack": true,
-      "organization": "ZDNET Japan",
-      "attack_type": "ランサムウェア",
-      "leak_status": "不明",
-      "leak_count": null,
-      "leaked_data": [],
-      "incident_summary": "ランサムウェアで事業停止の危機も。企業を守る「サイバーレジリエンス」の新常識に迫る - ZDNET Japan",
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBLZHo5c0F4U0RaSzNOSnE3ME5RV3JFTlRtQXpjelltTWMxVDRtSXNyR2o4eVhkblJ5V0xISTZVTGM1NG53cTZqTWI5TU5fQm5VTmdr?oc=5",
-          "published_date": "2026-10-14",
-          "title": "ガートナー、多発する日本企業の不正アクセス事案で緊急提言 - ZDNET Japan",
-          "attack": true,
-          "organization": "ZDNET Japan",
-          "attack_type": "不正アクセス",
-          "leak_status": "不明",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "ガートナー、多発する日本企業の不正アクセス事案で緊急提言 - ZDNET Japan"
-        },
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBkQTA2dzluWHBFRWIwazVJU1RrUnJTN0ZvNy16YUFKZXdzSi1QOWpJcXN1dEVCdVlJX1hxZEs2SVRhSXVnZm9XZG5lMUhoaWpDc0VyX2NrSmtBNG1N?oc=5",
-          "published_date": "2026-11-04",
-          "title": "ランサムウェアで事業停止の危機も。企業を守る「サイバーレジリエンス」の新常識に迫る - ZDNET Japan",
-          "attack": true,
-          "organization": "ZDNET Japan",
-          "attack_type": "ランサムウェア",
-          "leak_status": "不明",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "ランサムウェアで事業停止の危機も。企業を守る「サイバーレジリエンス」の新常識に迫る - ZDNET Japan"
         }
       ],
       "source_count": 1,
@@ -4093,7 +3890,7 @@
       "published_date": "2026-11-02",
       "title": "他の職員のIDとパスワードを使用し複数回にわたり庁内共有フォルダに不正アクセス、上司の印影の偽造も 宮城県山元町は10月20日、同町職員の懲戒処分について発表した。",
       "attack": true,
-      "organization": "せて大丈夫？ 上野宣が Exaforce を問い詰めた20の質問 PR 個人情報を預ける基準は知名度よりも「セキュリティ対策の信頼性」26.2ポイント差 ソニー銀行",
+      "organization": "影響範囲調査のためにサービスを停止消防庁",
       "service": "2026年8月の情報漏えい",
       "attack_type": "不正アクセス",
       "leak_status": "確認・可能性あり",
@@ -4112,7 +3909,7 @@
           "published_date": "2026-10-21",
           "title": "停職3月の懲戒処分 ～ 市職員が複数のアカウントに約2年間不正アクセス 青森県三沢市は10月1日、三沢市教育委員会事務局職員の懲戒処分について発表した。",
           "attack": true,
-          "organization": "せて大丈夫？ 上野宣が Exaforce を問い詰めた20の質問 PR 個人情報を預ける基準は知名度よりも「セキュリティ対策の信頼性」26.2ポイント差 ソニー銀行",
+          "organization": "影響範囲調査のためにサービスを停止消防庁",
           "service": "2026年8月の情報漏えい",
           "attack_type": "アカウント侵害",
           "leak_status": "確認・可能性あり",
@@ -4128,7 +3925,7 @@
           "published_date": "2026-11-02",
           "title": "他の職員のIDとパスワードを使用し複数回にわたり庁内共有フォルダに不正アクセス、上司の印影の偽造も 宮城県山元町は10月20日、同町職員の懲戒処分について発表した。",
           "attack": true,
-          "organization": "せて大丈夫？ 上野宣が Exaforce を問い詰めた20の質問 PR 個人情報を預ける基準は知名度よりも「セキュリティ対策の信頼性」26.2ポイント差 ソニー銀行",
+          "organization": "影響範囲調査のためにサービスを停止消防庁",
           "service": "2026年8月の情報漏えい",
           "attack_type": "不正アクセス",
           "leak_status": "確認・可能性あり",
@@ -4602,39 +4399,6 @@
           "leak_count": "6000万",
           "leaked_data": [],
           "incident_summary": "情報漏えい、総人口の2倍の2億6000万人分―26年度 : 10月に入って不正アクセス急増 - Nippon.com"
-        }
-      ],
-      "source_count": 1,
-      "merged": false
-    },
-    {
-      "source": "Google News",
-      "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBqQ0l2WWxtSWNsM1Fjc1drQ0Q3djdCS24zR054eGR1U0xjMWJuNmRPVjJOUXFRbEdTdVl4RzZTRmtoX01WbnVJNy02YXVfaXVCQUhqWHpfY1U4dGs1U2tDUFc5cktMaGxsY2N3RERuZ0Z1Zw?oc=5",
-      "published_date": "2026-10-31",
-      "title": "止まらぬ個人情報漏洩… 日本交通やANAでも - テレ朝NEWS",
-      "attack": true,
-      "organization": "日本交通",
-      "attack_type": null,
-      "leak_status": "確認・可能性あり",
-      "leak_count": null,
-      "leaked_data": [],
-      "incident_summary": "止まらぬ個人情報漏洩… 日本交通やANAでも - テレ朝NEWS",
-      "sources": [
-        "Google News"
-      ],
-      "source_records": [
-        {
-          "source": "Google News",
-          "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBqQ0l2WWxtSWNsM1Fjc1drQ0Q3djdCS24zR054eGR1U0xjMWJuNmRPVjJOUXFRbEdTdVl4RzZTRmtoX01WbnVJNy02YXVfaXVCQUhqWHpfY1U4dGs1U2tDUFc5cktMaGxsY2N3RERuZ0Z1Zw?oc=5",
-          "published_date": "2026-10-31",
-          "title": "止まらぬ個人情報漏洩… 日本交通やANAでも - テレ朝NEWS",
-          "attack": true,
-          "organization": "日本交通",
-          "attack_type": null,
-          "leak_status": "確認・可能性あり",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "止まらぬ個人情報漏洩… 日本交通やANAでも - テレ朝NEWS"
         }
       ],
       "source_count": 1,
@@ -5615,7 +5379,7 @@
       "published_date": "2026-10-28",
       "title": "警察庁・マイクロソフト・JC3 で連携、フィッシングに関する犯罪インフラをテイクダウン 警察庁は10月15日、マイクロソフト・一般財団法人日本サイバー犯罪対策センター（JC3）と連携した犯罪インフラのテイクダウンについて発表した。",
       "attack": true,
-      "organization": "せて大丈夫？ 上野宣が Exaforce を問い詰めた20の質問 PR 個人情報を預ける基準は知名度よりも「セキュリティ対策の信頼性」26.2ポイント差 ソニー銀行",
+      "organization": "警察庁",
       "service": "YAMStore",
       "attack_type": "フィッシング",
       "leak_status": "確認・可能性あり",
@@ -5634,7 +5398,7 @@
           "published_date": "2026-10-28",
           "title": "警察庁・マイクロソフト・JC3 で連携、フィッシングに関する犯罪インフラをテイクダウン 警察庁は10月15日、マイクロソフト・一般財団法人日本サイバー犯罪対策センター（JC3）と連携した犯罪インフラのテイクダウンについて発表した。",
           "attack": true,
-          "organization": "せて大丈夫？ 上野宣が Exaforce を問い詰めた20の質問 PR 個人情報を預ける基準は知名度よりも「セキュリティ対策の信頼性」26.2ポイント差 ソニー銀行",
+          "organization": "警察庁",
           "service": "YAMStore",
           "attack_type": "フィッシング",
           "leak_status": "確認・可能性あり",
@@ -5885,7 +5649,7 @@
       "attack": true,
       "organization": "特定非営利活動法人に関する個人情報",
       "service": "RESPECTion!シンポジウム",
-      "attack_type": "不正アクセス",
+      "attack_type": "ランサムウェア",
       "leak_status": "確認・可能性あり",
       "leak_count": null,
       "leaked_data": [
@@ -5904,7 +5668,7 @@
           "attack": true,
           "organization": "特定非営利活動法人に関する個人情報",
           "service": "RESPECTion!シンポジウム",
-          "attack_type": "不正アクセス",
+          "attack_type": "ランサムウェア",
           "leak_status": "確認・可能性あり",
           "leak_count": null,
           "leaked_data": [
@@ -5922,7 +5686,7 @@
       "published_date": "2026-10-28",
       "title": "プライバシーマーク付与事業者の経営者向け啓発資料「不正アクセスに対する安全管理措置について」を公開 一般財団法人日本情報経済社会推進協会（JIPDEC）は10月19日、プライバシーマーク付与事業者の経営者向け啓発資料「不正アクセスに対する安全管理措置について」を公開した。",
       "attack": true,
-      "organization": "せて大丈夫？ 上野宣が Exaforce を問い詰めた20の質問 PR 個人情報を預ける基準は知名度よりも「セキュリティ対策の信頼性」26.2ポイント差 ソニー銀行",
+      "organization": "影響範囲調査のためにサービスを停止消防庁",
       "service": "不正アクセスに対する安全管理措置について",
       "attack_type": "不正アクセス",
       "leak_status": "確認・可能性あり",
@@ -5941,7 +5705,7 @@
           "published_date": "2026-10-28",
           "title": "プライバシーマーク付与事業者の経営者向け啓発資料「不正アクセスに対する安全管理措置について」を公開 一般財団法人日本情報経済社会推進協会（JIPDEC）は10月19日、プライバシーマーク付与事業者の経営者向け啓発資料「不正アクセスに対する安全管理措置について」を公開した。",
           "attack": true,
-          "organization": "せて大丈夫？ 上野宣が Exaforce を問い詰めた20の質問 PR 個人情報を預ける基準は知名度よりも「セキュリティ対策の信頼性」26.2ポイント差 ソニー銀行",
+          "organization": "影響範囲調査のためにサービスを停止消防庁",
           "service": "不正アクセスに対する安全管理措置について",
           "attack_type": "不正アクセス",
           "leak_status": "確認・可能性あり",
@@ -6277,7 +6041,7 @@
       "attack": true,
       "organization": "脆弱性診断テストで判明 楽天モバイル株式会社",
       "service": "my 楽天モバイル",
-      "attack_type": "フィッシング",
+      "attack_type": "ランサムウェア",
       "leak_status": "確認・可能性あり",
       "leak_count": null,
       "leaked_data": [
@@ -6296,7 +6060,7 @@
           "attack": true,
           "organization": "脆弱性診断テストで判明 楽天モバイル株式会社",
           "service": "my 楽天モバイル",
-          "attack_type": "フィッシング",
+          "attack_type": "ランサムウェア",
           "leak_status": "確認・可能性あり",
           "leak_count": null,
           "leaked_data": [
@@ -6903,6 +6667,59 @@
     },
     {
       "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/26/56565.html",
+      "published_date": "2026-10-26",
+      "title": "厚生労働省 委託事業の「東電福島第一原発廃炉等作業における被ばく低減対策普及啓発事業」で個人情報が漏えい 厚生労働省は10月22日、同省の委託事業である「東電福島第一原発廃炉等作業における被ばく低減対策普及啓発事業」での個人情報漏えいについて発表した。",
+      "attack": true,
+      "organization": "影響範囲調査のためにサービスを停止消防庁",
+      "service": "東電福島第一原発廃炉等作業における被ばく低減対策普及啓発事業",
+      "attack_type": "ランサムウェア",
+      "leak_status": "確認・可能性あり",
+      "leak_count": null,
+      "leaked_data": [
+        "顧客情報"
+      ],
+      "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56565;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 厚生労働省は10月22日、同省の委託事業である「東電福島第一原発廃炉等作業における被ばく低減対策普及啓発事業」での個人情報漏えいについて発表した。 これは同事業を受託するテクノヒル株式会社から、同省との委託契約に基づき運営するウェブサイト「1FEdu」に第三者によるサイバー攻撃があり、個人情報の漏えい及び漏えいした可能性があると報告があったというもの。 運送業者が配送過程で紛失 ～ 厚労省の令和8年最低賃金に関する基礎調査 調査票 2026.9.17 Thu 8:05 以前に発送した宛名ラベルを誤って貼付 ～ 行政文書の開示に係る関係書類の誤送",
+      "sources": [
+        "ScanNetSecurity"
+      ],
+      "source_records": [
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/20/56517.html",
+          "published_date": "2026-10-20",
+          "title": "自宅玄関にマトリョーシカ ～ ランサムウェア攻撃の 37 ％で関係者個人に心理的・身体的脅迫 [グローバル調査] 米セキュリティ企業 Semperis のコンサルタント、ティム・ビーズリー氏は、ロシアの Midnight Blizzard が関与するサイバー攻撃を調査していた最中に、自宅の玄関先に、マトリョーシカなどロシアの土産物が入った荷物が届いたという。差出人はメモを残していなかったが、同氏はクレムリンの対外情報庁（ SVR ）との関連が指摘されている Midnight Blizzard から届いた荷物だと理解した。",
+          "attack": true,
+          "organization": "影響範囲調査のためにサービスを停止消防庁",
+          "service": "ロシアのちょっとした土産物だった。『我々はお前の居場所を知っている",
+          "attack_type": "ランサムウェア",
+          "leak_status": "不明",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56517;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); アイデンティティ保護を手がける米セキュリティ企業 Semperis のシニア・インシデント・レスポンス・コンサルタント、ティム・ビーズリー（ Tim Beasley ）氏は、ロシアの Midnight Blizzard が関与するサイバー攻撃を調査していた最中に、自宅の玄関先に、マトリョーシカなどロシアの土産物が入った荷物が届いたという。 当時、ビーズリー氏は Microsoft の検知・対応チーム（ DART：Detection and Response Team ）で主任調査官を務めていた。差出人はメモを残していなかったが、同氏はクレムリン"
+        },
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/26/56565.html",
+          "published_date": "2026-10-26",
+          "title": "厚生労働省 委託事業の「東電福島第一原発廃炉等作業における被ばく低減対策普及啓発事業」で個人情報が漏えい 厚生労働省は10月22日、同省の委託事業である「東電福島第一原発廃炉等作業における被ばく低減対策普及啓発事業」での個人情報漏えいについて発表した。",
+          "attack": true,
+          "organization": "影響範囲調査のためにサービスを停止消防庁",
+          "service": "東電福島第一原発廃炉等作業における被ばく低減対策普及啓発事業",
+          "attack_type": "ランサムウェア",
+          "leak_status": "確認・可能性あり",
+          "leak_count": null,
+          "leaked_data": [
+            "顧客情報"
+          ],
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56565;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 厚生労働省は10月22日、同省の委託事業である「東電福島第一原発廃炉等作業における被ばく低減対策普及啓発事業」での個人情報漏えいについて発表した。 これは同事業を受託するテクノヒル株式会社から、同省との委託契約に基づき運営するウェブサイト「1FEdu」に第三者によるサイバー攻撃があり、個人情報の漏えい及び漏えいした可能性があると報告があったというもの。 運送業者が配送過程で紛失 ～ 厚労省の令和8年最低賃金に関する基礎調査 調査票 2026.9.17 Thu 8:05 以前に発送した宛名ラベルを誤って貼付 ～ 行政文書の開示に係る関係書類の誤送"
+        }
+      ],
+      "source_count": 1,
+      "merged": true
+    },
+    {
+      "source": "ScanNetSecurity",
       "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/26/56561.html",
       "published_date": "2026-10-26",
       "title": "エスケーロジにランサムウェア攻撃、一部の社内情報の漏えいを確認 エスケーロジ株式会社は10月3日、9月24日に公表した同社サーバへの不正アクセスについて、第2報を発表した。画像ファイルで公開している。",
@@ -7289,9 +7106,23 @@
       ],
       "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56554;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社ラクスは10月21日、同社子会社の株式会社ラクスライトクラウドが提供するメール配信システム「ブラストメール」への不正アクセスについて発表した。 これは「ブラストメール」にて、システムへの不審なアクセスを検知したため、10月21日午前0時30分より同サービスを緊急停止し調査した結果、外部の第三者がラクスライトクラウドのAPI用サーバ2台に侵入してコマンドを実行し、販売管理システムおよびサービスのデータベースに接続して、データを持ち出したことを確認したというもの。 ユミルリンクのメール配信サービスの一部サーバシステムに不正アクセス、メールア",
       "sources": [
+        "Google News",
         "ScanNetSecurity"
       ],
       "source_records": [
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE15Y055cXBxbTV1elNNYk1ObUtTU2JmXzZTODg0UDhoXzZfS3Blempvb2cySmRBZndDcEo5SWRiMHpjdlBSQWwwMmk5cGdvbE52T0xQc0xPQ0U?oc=5",
+          "published_date": "2026-10-21",
+          "title": "【第2報】当社子会社が提供する「ブラストメール」における不正アクセスによる情報漏えいおよびサービス停止について - 株式会社ラクス",
+          "attack": true,
+          "organization": "株式会社ラクス",
+          "attack_type": "不正アクセス",
+          "leak_status": "確認・可能性あり",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "【第2報】当社子会社が提供する「ブラストメール」における不正アクセスによる情報漏えいおよびサービス停止について - 株式会社ラクス"
+        },
         {
           "source": "ScanNetSecurity",
           "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/23/56554.html",
@@ -7310,8 +7141,8 @@
           "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56554;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社ラクスは10月21日、同社子会社の株式会社ラクスライトクラウドが提供するメール配信システム「ブラストメール」への不正アクセスについて発表した。 これは「ブラストメール」にて、システムへの不審なアクセスを検知したため、10月21日午前0時30分より同サービスを緊急停止し調査した結果、外部の第三者がラクスライトクラウドのAPI用サーバ2台に侵入してコマンドを実行し、販売管理システムおよびサービスのデータベースに接続して、データを持ち出したことを確認したというもの。 ユミルリンクのメール配信サービスの一部サーバシステムに不正アクセス、メールア"
         }
       ],
-      "source_count": 1,
-      "merged": false
+      "source_count": 2,
+      "merged": true
     },
     {
       "source": "ScanNetSecurity",
@@ -7703,9 +7534,9 @@
       "attack": true,
       "organization": "ニッポンレンタカーサービス株式会社",
       "service": "カーセンサーnet",
-      "attack_type": "不正アクセス",
+      "attack_type": "ランサムウェア",
       "leak_status": "確認・可能性あり",
-      "leak_count": "200",
+      "leak_count": null,
       "leaked_data": [
         "顧客情報",
         "会員情報"
@@ -7717,30 +7548,13 @@
       "source_records": [
         {
           "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/14/56447.html",
-          "published_date": "2026-10-14",
-          "title": "日本原子力研究開発機構が運用している研究支援サイトに不正アクセス、顔写真付公的身分証明証 200 件が漏えい 国立研究開発法人日本原子力研究開発機構は10月1日、同機構が契約するクラウド基盤上で運用している研究支援サイトへの不正アクセスについて発表した。",
-          "attack": true,
-          "organization": "ニッポンレンタカーサービス株式会社",
-          "service": "サイトに不正アクセス",
-          "attack_type": "不正アクセス",
-          "leak_status": "確認・可能性あり",
-          "leak_count": "200",
-          "leaked_data": [
-            "顧客情報",
-            "会員情報"
-          ],
-          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56447;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 国立研究開発法人日本原子力研究開発機構は10月1日、同機構が契約するクラウド基盤上で運用している研究支援サイトへの不正アクセスについて発表した。 同機構では原子力科学研究所（茨城県東海村）に保有する研究用原子炉JRR-3にて、施設の外部利用者が施設利用時の手続を行うための研究支援サイトを運用しているが、当該サイトに登録されているファイルのうち、2,419件が外部から不正にダウンロードされていることが9月25日に判明したという。 同機構では9月25日に、研究支援サイトについて外部からのアクセスを停止している。 DAIKO XTECH への不正アク"
-        },
-        {
-          "source": "ScanNetSecurity",
           "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/22/56539.html",
           "published_date": "2026-10-22",
           "title": "「カーセンサーnet」への不審なアクセスを検知、全てのサービスを一時停止 株式会社リクルートは10月17日、同社が運営する「カーセンサーnet」に関連するサービスの一時停止について発表した。",
           "attack": true,
           "organization": "ニッポンレンタカーサービス株式会社",
           "service": "カーセンサーnet",
-          "attack_type": "不正アクセス",
+          "attack_type": "ランサムウェア",
           "leak_status": "確認・可能性あり",
           "leak_count": null,
           "leaked_data": [
@@ -7751,7 +7565,7 @@
         }
       ],
       "source_count": 1,
-      "merged": true
+      "merged": false
     },
     {
       "source": "Google News",
@@ -8305,46 +8119,11 @@
     },
     {
       "source": "ScanNetSecurity",
-      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/20/56517.html",
-      "published_date": "2026-10-20",
-      "title": "自宅玄関にマトリョーシカ ～ ランサムウェア攻撃の 37 ％で関係者個人に心理的・身体的脅迫 [グローバル調査] 米セキュリティ企業 Semperis のコンサルタント、ティム・ビーズリー氏は、ロシアの Midnight Blizzard が関与するサイバー攻撃を調査していた最中に、自宅の玄関先に、マトリョーシカなどロシアの土産物が入った荷物が届いたという。差出人はメモを残していなかったが、同氏はクレムリンの対外情報庁（ SVR ）との関連が指摘されている Midnight Blizzard から届いた荷物だと理解した。",
-      "attack": true,
-      "organization": "せて大丈夫？ 上野宣が Exaforce を問い詰めた20の質問 PR 個人情報を預ける基準は知名度よりも「セキュリティ対策の信頼性」26.2ポイント差 ソニー銀行",
-      "service": "ロシアのちょっとした土産物だった。『我々はお前の居場所を知っている",
-      "attack_type": "ランサムウェア",
-      "leak_status": "不明",
-      "leak_count": null,
-      "leaked_data": [],
-      "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56517;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); アイデンティティ保護を手がける米セキュリティ企業 Semperis のシニア・インシデント・レスポンス・コンサルタント、ティム・ビーズリー（ Tim Beasley ）氏は、ロシアの Midnight Blizzard が関与するサイバー攻撃を調査していた最中に、自宅の玄関先に、マトリョーシカなどロシアの土産物が入った荷物が届いたという。 当時、ビーズリー氏は Microsoft の検知・対応チーム（ DART：Detection and Response Team ）で主任調査官を務めていた。差出人はメモを残していなかったが、同氏はクレムリン",
-      "sources": [
-        "ScanNetSecurity"
-      ],
-      "source_records": [
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/20/56517.html",
-          "published_date": "2026-10-20",
-          "title": "自宅玄関にマトリョーシカ ～ ランサムウェア攻撃の 37 ％で関係者個人に心理的・身体的脅迫 [グローバル調査] 米セキュリティ企業 Semperis のコンサルタント、ティム・ビーズリー氏は、ロシアの Midnight Blizzard が関与するサイバー攻撃を調査していた最中に、自宅の玄関先に、マトリョーシカなどロシアの土産物が入った荷物が届いたという。差出人はメモを残していなかったが、同氏はクレムリンの対外情報庁（ SVR ）との関連が指摘されている Midnight Blizzard から届いた荷物だと理解した。",
-          "attack": true,
-          "organization": "せて大丈夫？ 上野宣が Exaforce を問い詰めた20の質問 PR 個人情報を預ける基準は知名度よりも「セキュリティ対策の信頼性」26.2ポイント差 ソニー銀行",
-          "service": "ロシアのちょっとした土産物だった。『我々はお前の居場所を知っている",
-          "attack_type": "ランサムウェア",
-          "leak_status": "不明",
-          "leak_count": null,
-          "leaked_data": [],
-          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56517;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); アイデンティティ保護を手がける米セキュリティ企業 Semperis のシニア・インシデント・レスポンス・コンサルタント、ティム・ビーズリー（ Tim Beasley ）氏は、ロシアの Midnight Blizzard が関与するサイバー攻撃を調査していた最中に、自宅の玄関先に、マトリョーシカなどロシアの土産物が入った荷物が届いたという。 当時、ビーズリー氏は Microsoft の検知・対応チーム（ DART：Detection and Response Team ）で主任調査官を務めていた。差出人はメモを残していなかったが、同氏はクレムリン"
-        }
-      ],
-      "source_count": 1,
-      "merged": false
-    },
-    {
-      "source": "ScanNetSecurity",
       "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/20/56516.html",
       "published_date": "2026-10-20",
       "title": "脅威動向 Eric Doerr（Tenable 最高製品責任者） 2026.10.20 Tue 8:10 Tenable Blog 第4回 Claude Mythos 5 が Tenable One に導入 Tenable は、Anthropic 社の Claude Mythos 5 を当社のエンタープライズ向けセキュリティ製品群に組み込みます。Tenable One サイバーエクスポージャー管理プラットフォームに最先端の敵対的推論機能を追加することで、お客様は攻撃者がどのように自社の環境に侵入してくるかをより的確に予測し、AI によるリスクに先手を打つことができるようになります。 最初のイノベーションである Tenable One Adversary View は、今後数週間以内に公開される予定です。",
       "attack": true,
-      "organization": "せて大丈夫？ 上野宣が Exaforce を問い詰めた20の質問 PR 個人情報を預ける基準は知名度よりも「セキュリティ対策の信頼性」26.2ポイント差 ソニー銀行",
+      "organization": "セキュリティチーム",
       "service": "ect Glasswing を通じて Anthropic とともに進めてきた取り組みをさらに発展させたも",
       "attack_type": "不正アクセス",
       "leak_status": "不明",
@@ -8361,7 +8140,7 @@
           "published_date": "2026-10-20",
           "title": "脅威動向 Eric Doerr（Tenable 最高製品責任者） 2026.10.20 Tue 8:10 Tenable Blog 第4回 Claude Mythos 5 が Tenable One に導入 Tenable は、Anthropic 社の Claude Mythos 5 を当社のエンタープライズ向けセキュリティ製品群に組み込みます。Tenable One サイバーエクスポージャー管理プラットフォームに最先端の敵対的推論機能を追加することで、お客様は攻撃者がどのように自社の環境に侵入してくるかをより的確に予測し、AI によるリスクに先手を打つことができるようになります。 最初のイノベーションである Tenable One Adversary View は、今後数週間以内に公開される予定です。",
           "attack": true,
-          "organization": "せて大丈夫？ 上野宣が Exaforce を問い詰めた20の質問 PR 個人情報を預ける基準は知名度よりも「セキュリティ対策の信頼性」26.2ポイント差 ソニー銀行",
+          "organization": "セキュリティチーム",
           "service": "ect Glasswing を通じて Anthropic とともに進めてきた取り組みをさらに発展させたも",
           "attack_type": "不正アクセス",
           "leak_status": "不明",
@@ -8966,7 +8745,7 @@
       "published_date": "2026-10-19",
       "title": "自民党国家サイバーセキュリティ戦略本部 本部長の平将明衆院議員「政府だけではなく国民も意識を持ってこの有事に立ち向かうことが重要」 自由民主党（自民党）は10月14日、10月9日に党国家サイバーセキュリティ戦略本部で不正アクセスによる民間企業からの個人情報漏えい等の事案について、政府から説明を聴取したと発表した。",
       "attack": true,
-      "organization": "せて大丈夫？ 上野宣が Exaforce を問い詰めた20の質問 PR 個人情報を預ける基準は知名度よりも「セキュリティ対策の信頼性」26.2ポイント差 ソニー銀行",
+      "organization": "デジタル庁",
       "service": "政府だけではなく国民も意識を持ってこの有事に立ち向かうことが重要",
       "attack_type": "不正アクセス",
       "leak_status": "確認・可能性あり",
@@ -8981,11 +8760,50 @@
       "source_records": [
         {
           "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/19/56486.html",
+          "published_date": "2026-10-19",
+          "title": "自民党国家サイバーセキュリティ戦略本部 本部長の平将明衆院議員「政府だけではなく国民も意識を持ってこの有事に立ち向かうことが重要」 自由民主党（自民党）は10月14日、10月9日に党国家サイバーセキュリティ戦略本部で不正アクセスによる民間企業からの個人情報漏えい等の事案について、政府から説明を聴取したと発表した。",
+          "attack": true,
+          "organization": "デジタル庁",
+          "service": "政府だけではなく国民も意識を持ってこの有事に立ち向かうことが重要",
+          "attack_type": "不正アクセス",
+          "leak_status": "確認・可能性あり",
+          "leak_count": null,
+          "leaked_data": [
+            "顧客情報"
+          ],
+          "incident_summary": "自由民主党（自民党）は10月14日、10月9日に党国家サイバーセキュリティ戦略本部で不正アクセスによる民間企業からの個人情報漏えい等の事案について、政府から説明を聴取したと発表した。 内閣官房国家サイバー統括室では、現時点で一連の事案の関連性やAIの悪用は明らかではないが、速やかに対応すべきポイントとして下記の3点を紹介している。 1点目：ウェブシステムの脆弱性に関するリスクを適切に判断し、アップデート等についての迅速な実施。 2点目：委託先企業等のセキュリティ対策状況を把握し、情報共有範囲の適正化を図る。 3点目：重要な情報資産の管理対象を明確化し、不審なアクセス等を監視・分析する。 また、個人情報保護委員会が行ってきた個人情報漏えい防止の取り組みや、経済産業省が推進している「サイバーセキュリティお助け隊サービス」についても説明を行っている。 党国家サイバーセキュリティ戦略本部 本部長の平将明衆院議員は「サイバーセキュリティは新しいフェーズに入り、現在は非常事態、有事という状況」と指摘した上で「政府だけではなく国民も意識を持ってこの有事に立ち向かうことが重要」と強調している。 10月"
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/19/56484.html",
+      "published_date": "2026-10-19",
+      "title": "総務省が所管事業者及び関係団体に注意喚起、不正アクセスによる個人情報を含むデータが窃取される事案を踏まえ 総務省は10月9日、不正アクセスによる情報漏えい等の事案を踏まえた対応について、注意喚起を発表した。",
+      "attack": true,
+      "organization": "影響範囲調査のためにサービスを停止消防庁",
+      "service": "令和8年版情報通信白書",
+      "attack_type": "不正アクセス",
+      "leak_status": "確認・可能性あり",
+      "leak_count": null,
+      "leaked_data": [
+        "顧客情報"
+      ],
+      "incident_summary": "総務省は10月9日、不正アクセスによる情報漏えい等の事案を踏まえた対応について、注意喚起を発表した。 大量の個人情報を取り扱う事業者等の情報システムが不正アクセスにより侵入され、個人情報を含むデータが窃取される事案が相次いで確認されているという。 同省では、所管事業者及び関係団体に対し、内閣官房国家サイバー統括室が行った下記URLと同内容の注意喚起を行ったとのこと。 不正アクセスによる漏えい等の事案を踏まえた対応について（国家サイバー統括室） https://www.cyber.go.jp/pdf/press/taiou.pdf ダークネット観測パケット数が過去最高を更新、10年前から10倍に増大 ～ 総務省「令和8年版情報通信白書」 2026.9.8 Tue 8:00 KDDI の ISP 事業者向けメールシステムに不正アクセス、総務省が行政指導 2026.8.10 Mon 8:05 LINE GAMEでユーザー内部識別子を外部の広告ツールに送信、総務省から行政指導 2026.8.7 Fri 8:05 総務大臣書簡を発出 ～ 全都道府県知事と市区町村長にサイバーセキュリティ確保要請 ",
+      "sources": [
+        "ScanNetSecurity"
+      ],
+      "source_records": [
+        {
+          "source": "ScanNetSecurity",
           "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/19/56485.html",
           "published_date": "2026-10-19",
           "title": "内閣官房国家サイバー統括室、不正アクセスによる漏えい等の事案を踏まえた対応について発表 内閣官房国家サイバー統括室は10月9日、不正アクセスによる漏えい等の事案を踏まえた対応について発表した。",
           "attack": true,
-          "organization": "せて大丈夫？ 上野宣が Exaforce を問い詰めた20の質問 PR 個人情報を預ける基準は知名度よりも「セキュリティ対策の信頼性」26.2ポイント差 ソニー銀行",
+          "organization": "影響範囲調査のためにサービスを停止消防庁",
           "service": "システムに係る脆弱性の悪用",
           "attack_type": "不正アクセス",
           "leak_status": "確認・可能性あり",
@@ -9001,7 +8819,7 @@
           "published_date": "2026-10-19",
           "title": "総務省が所管事業者及び関係団体に注意喚起、不正アクセスによる個人情報を含むデータが窃取される事案を踏まえ 総務省は10月9日、不正アクセスによる情報漏えい等の事案を踏まえた対応について、注意喚起を発表した。",
           "attack": true,
-          "organization": "せて大丈夫？ 上野宣が Exaforce を問い詰めた20の質問 PR 個人情報を預ける基準は知名度よりも「セキュリティ対策の信頼性」26.2ポイント差 ソニー銀行",
+          "organization": "影響範囲調査のためにサービスを停止消防庁",
           "service": "令和8年版情報通信白書",
           "attack_type": "不正アクセス",
           "leak_status": "確認・可能性あり",
@@ -9010,22 +8828,6 @@
             "顧客情報"
           ],
           "incident_summary": "総務省は10月9日、不正アクセスによる情報漏えい等の事案を踏まえた対応について、注意喚起を発表した。 大量の個人情報を取り扱う事業者等の情報システムが不正アクセスにより侵入され、個人情報を含むデータが窃取される事案が相次いで確認されているという。 同省では、所管事業者及び関係団体に対し、内閣官房国家サイバー統括室が行った下記URLと同内容の注意喚起を行ったとのこと。 不正アクセスによる漏えい等の事案を踏まえた対応について（国家サイバー統括室） https://www.cyber.go.jp/pdf/press/taiou.pdf ダークネット観測パケット数が過去最高を更新、10年前から10倍に増大 ～ 総務省「令和8年版情報通信白書」 2026.9.8 Tue 8:00 KDDI の ISP 事業者向けメールシステムに不正アクセス、総務省が行政指導 2026.8.10 Mon 8:05 LINE GAMEでユーザー内部識別子を外部の広告ツールに送信、総務省から行政指導 2026.8.7 Fri 8:05 総務大臣書簡を発出 ～ 全都道府県知事と市区町村長にサイバーセキュリティ確保要請 "
-        },
-        {
-          "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/19/56486.html",
-          "published_date": "2026-10-19",
-          "title": "自民党国家サイバーセキュリティ戦略本部 本部長の平将明衆院議員「政府だけではなく国民も意識を持ってこの有事に立ち向かうことが重要」 自由民主党（自民党）は10月14日、10月9日に党国家サイバーセキュリティ戦略本部で不正アクセスによる民間企業からの個人情報漏えい等の事案について、政府から説明を聴取したと発表した。",
-          "attack": true,
-          "organization": "せて大丈夫？ 上野宣が Exaforce を問い詰めた20の質問 PR 個人情報を預ける基準は知名度よりも「セキュリティ対策の信頼性」26.2ポイント差 ソニー銀行",
-          "service": "政府だけではなく国民も意識を持ってこの有事に立ち向かうことが重要",
-          "attack_type": "不正アクセス",
-          "leak_status": "確認・可能性あり",
-          "leak_count": null,
-          "leaked_data": [
-            "顧客情報"
-          ],
-          "incident_summary": "自由民主党（自民党）は10月14日、10月9日に党国家サイバーセキュリティ戦略本部で不正アクセスによる民間企業からの個人情報漏えい等の事案について、政府から説明を聴取したと発表した。 内閣官房国家サイバー統括室では、現時点で一連の事案の関連性やAIの悪用は明らかではないが、速やかに対応すべきポイントとして下記の3点を紹介している。 1点目：ウェブシステムの脆弱性に関するリスクを適切に判断し、アップデート等についての迅速な実施。 2点目：委託先企業等のセキュリティ対策状況を把握し、情報共有範囲の適正化を図る。 3点目：重要な情報資産の管理対象を明確化し、不審なアクセス等を監視・分析する。 また、個人情報保護委員会が行ってきた個人情報漏えい防止の取り組みや、経済産業省が推進している「サイバーセキュリティお助け隊サービス」についても説明を行っている。 党国家サイバーセキュリティ戦略本部 本部長の平将明衆院議員は「サイバーセキュリティは新しいフェーズに入り、現在は非常事態、有事という状況」と指摘した上で「政府だけではなく国民も意識を持ってこの有事に立ち向かうことが重要」と強調している。 10月"
         }
       ],
       "source_count": 1,
@@ -9471,6 +9273,19 @@
         },
         {
           "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9MNlpreU1WM3Vvd2xBandaX1E1bk90X1ZUQVJIeEJYOGd5VVliQmdSYlpBcFNETldUNTZfSGlYVzNSamlfVE5xSGNBQUx3b0g2WnJFLUtQc092QWdYVzhjd0V2VFZfWVVkVENmQQ?oc=5",
+          "published_date": "2026-10-15",
+          "title": "メドレーの医療システムに不正アクセス 最大787機関で情報漏洩か - 日本経済新聞",
+          "attack": true,
+          "organization": "日本経済新聞",
+          "attack_type": "不正アクセス",
+          "leak_status": "確認・可能性あり",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "メドレーの医療システムに不正アクセス 最大787機関で情報漏洩か - 日本経済新聞"
+        },
+        {
+          "source": "Google News",
           "source_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE40TmE2eHJqSF80T3RuUGQ3bUk4S1dadE8xa0l3LXBaaWUyZVBMREU0UmtxUnhwWUt0dHZyU0FkV1RVM3pXaWpJUTdObUc3QWJwREZlWDRzRExHMDhzVWxreHRPckRrTU9DVnVtbw?oc=5",
           "published_date": "2026-10-16",
           "title": "ソースネクスト、顧客情報2252万件流出か 不正アクセス受け - 日本経済新聞",
@@ -9680,7 +9495,7 @@
       "attack": true,
       "organization": "サイトが正常に表示されない障害が発生 コロンビア珈琲株式会社",
       "service": "極上珈琲 生豆本舗",
-      "attack_type": "不正アクセス",
+      "attack_type": "ランサムウェア",
       "leak_status": "可能性あり",
       "leak_count": null,
       "leaked_data": [
@@ -9699,7 +9514,7 @@
           "attack": true,
           "organization": "サイトが正常に表示されない障害が発生 コロンビア珈琲株式会社",
           "service": "極上珈琲 生豆本舗",
-          "attack_type": "不正アクセス",
+          "attack_type": "ランサムウェア",
           "leak_status": "可能性あり",
           "leak_count": null,
           "leaked_data": [
@@ -10214,15 +10029,56 @@
     },
     {
       "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/14/56447.html",
+      "published_date": "2026-10-14",
+      "title": "日本原子力研究開発機構が運用している研究支援サイトに不正アクセス、顔写真付公的身分証明証 200 件が漏えい 国立研究開発法人日本原子力研究開発機構は10月1日、同機構が契約するクラウド基盤上で運用している研究支援サイトへの不正アクセスについて発表した。",
+      "attack": true,
+      "organization": "ニッポンレンタカーサービス株式会社",
+      "service": "サイトに不正アクセス",
+      "attack_type": "不正アクセス",
+      "leak_status": "確認・可能性あり",
+      "leak_count": "200",
+      "leaked_data": [
+        "顧客情報",
+        "会員情報"
+      ],
+      "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56447;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 国立研究開発法人日本原子力研究開発機構は10月1日、同機構が契約するクラウド基盤上で運用している研究支援サイトへの不正アクセスについて発表した。 同機構では原子力科学研究所（茨城県東海村）に保有する研究用原子炉JRR-3にて、施設の外部利用者が施設利用時の手続を行うための研究支援サイトを運用しているが、当該サイトに登録されているファイルのうち、2,419件が外部から不正にダウンロードされていることが9月25日に判明したという。 同機構では9月25日に、研究支援サイトについて外部からのアクセスを停止している。 DAIKO XTECH への不正アク",
+      "sources": [
+        "ScanNetSecurity"
+      ],
+      "source_records": [
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/14/56447.html",
+          "published_date": "2026-10-14",
+          "title": "日本原子力研究開発機構が運用している研究支援サイトに不正アクセス、顔写真付公的身分証明証 200 件が漏えい 国立研究開発法人日本原子力研究開発機構は10月1日、同機構が契約するクラウド基盤上で運用している研究支援サイトへの不正アクセスについて発表した。",
+          "attack": true,
+          "organization": "ニッポンレンタカーサービス株式会社",
+          "service": "サイトに不正アクセス",
+          "attack_type": "不正アクセス",
+          "leak_status": "確認・可能性あり",
+          "leak_count": "200",
+          "leaked_data": [
+            "顧客情報",
+            "会員情報"
+          ],
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56447;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 国立研究開発法人日本原子力研究開発機構は10月1日、同機構が契約するクラウド基盤上で運用している研究支援サイトへの不正アクセスについて発表した。 同機構では原子力科学研究所（茨城県東海村）に保有する研究用原子炉JRR-3にて、施設の外部利用者が施設利用時の手続を行うための研究支援サイトを運用しているが、当該サイトに登録されているファイルのうち、2,419件が外部から不正にダウンロードされていることが9月25日に判明したという。 同機構では9月25日に、研究支援サイトについて外部からのアクセスを停止している。 DAIKO XTECH への不正アク"
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
+      "source": "ScanNetSecurity",
       "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/14/56448.html",
       "published_date": "2026-10-14",
       "title": "ローソンのメールサーバから不審な英文メール送信 株式会社ローソンは10月1日、同社メールサーバからの不審メールの送信について発表した。",
       "attack": true,
       "organization": "株式会社ローソン",
       "service": "メールサーバから不審な英文メール送信 株式会社ローソンは10月1日",
-      "attack_type": "アカウント侵害",
+      "attack_type": "ランサムウェア",
       "leak_status": "確認・可能性あり",
-      "leak_count": "5,345",
+      "leak_count": null,
       "leaked_data": [
         "メールアドレス",
         "顧客情報"
@@ -10234,30 +10090,13 @@
       "source_records": [
         {
           "source": "ScanNetSecurity",
-          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/13/56434.html",
-          "published_date": "2026-10-13",
-          "title": "ローソンのアカウントサービスに不正アクセス、215 万 5,345 件のローソン ID が漏えい 株式会社ローソンは10月8日、同社が運営するアカウントサービス「ローソンID」および「ローソンアプリ予約」への不正アクセスについて発表した。",
-          "attack": true,
-          "organization": "株式会社ローソン",
-          "service": "ローソンID",
-          "attack_type": "アカウント侵害",
-          "leak_status": "確認・可能性あり",
-          "leak_count": "5,345",
-          "leaked_data": [
-            "認証情報",
-            "顧客情報"
-          ],
-          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56434;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社ローソンは10月8日、同社が運営するアカウントサービス「ローソンID」および「ローソンアプリ予約」への不正アクセスについて発表した。 これは10月7日に実施した調査の中で、9月12日から9月14日(月)の間に「ローソンID」、9月17日に「ローソンアプリ予約」への不正アクセスが判明したというもの。 対策実施し公式ホームページとアプリを再開（ローソン） 2019.9.27 Fri 8:05 公式ホームページとアプリ管理サーバへ不正アタック確認、25日現在で閲覧不能（ローソン） 2019.9.26 Thu 8:05 「おさいふPonta」サ"
-        },
-        {
-          "source": "ScanNetSecurity",
           "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/14/56448.html",
           "published_date": "2026-10-14",
           "title": "ローソンのメールサーバから不審な英文メール送信 株式会社ローソンは10月1日、同社メールサーバからの不審メールの送信について発表した。",
           "attack": true,
           "organization": "株式会社ローソン",
           "service": "メールサーバから不審な英文メール送信 株式会社ローソンは10月1日",
-          "attack_type": "アカウント侵害",
+          "attack_type": "ランサムウェア",
           "leak_status": "確認・可能性あり",
           "leak_count": null,
           "leaked_data": [
@@ -10268,7 +10107,7 @@
         }
       ],
       "source_count": 1,
-      "merged": true
+      "merged": false
     },
     {
       "source": "ScanNetSecurity",
@@ -10337,6 +10176,39 @@
           "leak_count": null,
           "leaked_data": [],
           "incident_summary": "サイバー攻撃による情報漏えい、2026年は4年前の約1.9倍に - 株式会社ＭＭ総研"
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
+      "source": "Google News",
+      "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBLZHo5c0F4U0RaSzNOSnE3ME5RV3JFTlRtQXpjelltTWMxVDRtSXNyR2o4eVhkblJ5V0xISTZVTGM1NG53cTZqTWI5TU5fQm5VTmdr?oc=5",
+      "published_date": "2026-10-14",
+      "title": "ガートナー、多発する日本企業の不正アクセス事案で緊急提言 - ZDNET Japan",
+      "attack": true,
+      "organization": "ZDNET Japan",
+      "attack_type": "不正アクセス",
+      "leak_status": "不明",
+      "leak_count": null,
+      "leaked_data": [],
+      "incident_summary": "ガートナー、多発する日本企業の不正アクセス事案で緊急提言 - ZDNET Japan",
+      "sources": [
+        "Google News"
+      ],
+      "source_records": [
+        {
+          "source": "Google News",
+          "source_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBLZHo5c0F4U0RaSzNOSnE3ME5RV3JFTlRtQXpjelltTWMxVDRtSXNyR2o4eVhkblJ5V0xISTZVTGM1NG53cTZqTWI5TU5fQm5VTmdr?oc=5",
+          "published_date": "2026-10-14",
+          "title": "ガートナー、多発する日本企業の不正アクセス事案で緊急提言 - ZDNET Japan",
+          "attack": true,
+          "organization": "ZDNET Japan",
+          "attack_type": "不正アクセス",
+          "leak_status": "不明",
+          "leak_count": null,
+          "leaked_data": [],
+          "incident_summary": "ガートナー、多発する日本企業の不正アクセス事案で緊急提言 - ZDNET Japan"
         }
       ],
       "source_count": 1,
@@ -10518,6 +10390,47 @@
           "leak_count": null,
           "leaked_data": [],
           "incident_summary": "日本企業へのサイバー攻撃の経済損失：被害企業の売上高減少額は1,542億円、GDP損失額は557億円と試算 - Yahoo!ニュース"
+        }
+      ],
+      "source_count": 1,
+      "merged": false
+    },
+    {
+      "source": "ScanNetSecurity",
+      "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/13/56434.html",
+      "published_date": "2026-10-13",
+      "title": "ローソンのアカウントサービスに不正アクセス、215 万 5,345 件のローソン ID が漏えい 株式会社ローソンは10月8日、同社が運営するアカウントサービス「ローソンID」および「ローソンアプリ予約」への不正アクセスについて発表した。",
+      "attack": true,
+      "organization": "株式会社ローソン",
+      "service": "ローソンID",
+      "attack_type": "アカウント侵害",
+      "leak_status": "確認・可能性あり",
+      "leak_count": "5,345",
+      "leaked_data": [
+        "認証情報",
+        "顧客情報"
+      ],
+      "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56434;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社ローソンは10月8日、同社が運営するアカウントサービス「ローソンID」および「ローソンアプリ予約」への不正アクセスについて発表した。 これは10月7日に実施した調査の中で、9月12日から9月14日(月)の間に「ローソンID」、9月17日に「ローソンアプリ予約」への不正アクセスが判明したというもの。 対策実施し公式ホームページとアプリを再開（ローソン） 2019.9.27 Fri 8:05 公式ホームページとアプリ管理サーバへ不正アタック確認、25日現在で閲覧不能（ローソン） 2019.9.26 Thu 8:05 「おさいふPonta」サ",
+      "sources": [
+        "ScanNetSecurity"
+      ],
+      "source_records": [
+        {
+          "source": "ScanNetSecurity",
+          "source_url": "https://scan.netsecurity.ne.jp/article/2026/10/13/56434.html",
+          "published_date": "2026-10-13",
+          "title": "ローソンのアカウントサービスに不正アクセス、215 万 5,345 件のローソン ID が漏えい 株式会社ローソンは10月8日、同社が運営するアカウントサービス「ローソンID」および「ローソンアプリ予約」への不正アクセスについて発表した。",
+          "attack": true,
+          "organization": "株式会社ローソン",
+          "service": "ローソンID",
+          "attack_type": "アカウント侵害",
+          "leak_status": "確認・可能性あり",
+          "leak_count": "5,345",
+          "leaked_data": [
+            "認証情報",
+            "顧客情報"
+          ],
+          "incident_summary": "var expireDate_mms_content_id = new Date(); expireDate_mms_content_id.setDate(expireDate_mms_content_id.getDate() + 1); document.cookie = \"mms-content-id=56434;path=/;\" + \"expires=\" + expireDate_mms_content_id.toUTCString(); 株式会社ローソンは10月8日、同社が運営するアカウントサービス「ローソンID」および「ローソンアプリ予約」への不正アクセスについて発表した。 これは10月7日に実施した調査の中で、9月12日から9月14日(月)の間に「ローソンID」、9月17日に「ローソンアプリ予約」への不正アクセスが判明したというもの。 対策実施し公式ホームページとアプリを再開（ローソン） 2019.9.27 Fri 8:05 公式ホームページとアプリ管理サーバへ不正アタック確認、25日現在で閲覧不能（ローソン） 2019.9.26 Thu 8:05 「おさいふPonta」サ"
         }
       ],
       "source_count": 1,
